@@ -29,13 +29,17 @@ class Game {
     }
 
     handleInput(e) {
-        // Example: Move the first shape to the right when the right arrow key is pressed
-        if (e.key === 'ArrowRight') {
-            this.shapes[0].x += 10;
-        } else if (e.key === 'ArrowDown') {
-            this.shapes[0].y += 10;
+        if (this.shapes.length === 1) return;
+
+        const player = this.shapes[0];
+        switch (e.key) {
+            case 'ArrowRight': player.x += 10; break;
+            case 'ArrowDown': player.y += 10; break;
+            default: return;
         }
-        // ... You can add more controls here.
+        e.preventDefault();
+        player.x = Math.max(0, Math.min(player.x, this.canvas.width - player.width));
+        player.y = Math.max(0, Math.min(player.y, this.canvas.height - player.height));
     }
 
     checkCollision(obj1, obj2) {
@@ -47,28 +51,21 @@ class Game {
     }
 
     update() {
+        // Iterate backwards so removing one collectible does not skip another.
+        for (let i = this.shapes.length - 1; i >= 1; i--) {
+            if (this.checkCollision(this.shapes[0], this.shapes[i])) {
+                this.score++;
+                this.shapes.splice(i, 1);
+            }
+        }
         this.redraw();
 
-        // Example collision check between the first and second shapes
-        if (this.checkCollision(this.shapes[0], this.shapes[1])) {
-            console.log('Collision detected between shape 1 and 2!');
-
-            // Increase the score
-            this.score++;
-
-            // Remove the second shape from the array
-            this.shapes.splice(1, 1);
+        // Stop scheduling frames once both collectibles have been eaten.
+        if (this.shapes.length > 1) {
+            requestAnimationFrame(() => this.update());
         }
-
-        // Use requestAnimationFrame for smooth animations
-        requestAnimationFrame(() => this.update());
     }
 }
 
 // Initialize the game
 document.myGame = new Game();
-
-
-
-// log the score once every second
-setInterval(() => console.log(document.myGame.score), 1000);
