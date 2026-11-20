@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#004c54">
+    <meta name="description" content="Light up the Eagles fan scoreboard. Every seven clicks unlocks a touchdown pass.">
+    <title>Eagles Click Counter · Zack's Website</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <script src="scripts/theme.js"></script>
+    <script defer src="scripts/arcade.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts/counter.js"></script>
+    <script type="module" src="scripts/leaderboard.js"></script>
+</head>
+<body class="counter-page">
+    <div class="eagles-backdrop" aria-hidden="true">
+        <div class="player-photo photo-smith"></div>
+        <div class="player-photo photo-hurts"></div>
+        <div class="player-photo photo-barkley"></div>
+        <div class="green-overlay"></div>
+        <div class="field-lines"></div>
+        <span class="backdrop-word">PHILADELPHIA</span>
+    </div>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="wordmark" href="index.html" aria-label="Zack's Website home"><span class="brand-icon" aria-hidden="true">Z</span> ZACK<span class="brand-light"> / PHILLY</span></a>
+            <div class="header-actions">
+                <nav aria-label="Main navigation"><a href="index.html" >Home</a><a href="counter.html" aria-current="page">Scoreboard</a><a href="games.html">Games</a></nav>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Dark mode</button>
+            </div>
+        </header>
+        <main id="main-content" tabindex="-1" class="counter-layout">
+            <section class="counter-story" aria-labelledby="counter-title">
+                <p class="eyebrow"><span class="tiny-line"></span> Philadelphia Eagles · Fan zone</p>
+                <h1 id="counter-title">FLY.<br>EAGLES.<br><span>FLY.</span></h1>
+                <p class="story-description">For the city. For the team.<br>Keep the energy going, one click at a time.</p>
+                <div class="fan-stamp"><span aria-hidden="true">PHI</span><p>MIDNIGHT GREEN.<br><strong>EVERY DAY.</strong></p></div>
+            </section>
+            <section class="counter-panel" aria-labelledby="panel-title">
+                <div class="panel-top"><span class="panel-icon" aria-hidden="true">+</span><p id="panel-title">EAGLES SCOREBOARD</p><span class="panel-tag">PHI</span></div>
+                <div class="scoreboard stadium-scoreboard">
+                    <div class="scoreboard-header"><span>LINCOLN FINANCIAL FIELD</span><span>FAN SCORE</span></div>
+                    <div class="team-scores">
+                        <div class="home-score"><p class="team-name">PHILADELPHIA</p><p class="counter-label" id="click-label">TOTAL CLICKS</p><p class="counter-value" aria-live="polite" aria-atomic="true" aria-labelledby="click-label"><span id="click-count">0</span></p></div>
+                        <div class="away-score"><p class="team-name">VISITORS</p><p class="counter-label">SCORE</p><p class="visitor-value">0</p></div>
+                    </div>
+                    <div class="drive-progress" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                    <div class="scoreboard-rule"><span>TOUCHDOWNS <b id="touchdown-count">0</b></span><span id="next-touchdown">7 CLICKS TO TD</span></div>
+                </div>
+                <div class="touchdown-stage" id="touchdown-stage" aria-hidden="true">
+                    <div class="mini-endzone">EAGLES</div>
+                    <div class="animation-yardline"></div>
+                    <svg class="throw-quarterback" viewBox="0 0 80 110" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M28 70L23 103M48 70L59 103" stroke="#edf5f3" stroke-width="12" stroke-linecap="round"/>
+                        <path d="M20 35L11 59M54 35L65 45" stroke="#004c54" stroke-width="13" stroke-linecap="round"/>
+                        <path class="throwing-arm" d="M54 35L67 20L61 10" fill="none" stroke="#c68b62" stroke-width="9" stroke-linecap="round"/>
+                        <path d="M22 29H52L57 73H19Z" fill="#00646b" stroke="#e4eeec" stroke-width="2"/>
+                        <text x="38" y="60" fill="white" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="25">1</text>
+                        <circle cx="38" cy="17" r="14" fill="#004c54" stroke="#dce8e5" stroke-width="2"/>
+                        <path d="M38 14L27 17L35 19L30 23L43 18Z" fill="white"/>
+                        <path d="M46 19H57V28H45" fill="none" stroke="#b9c8ca" stroke-width="3"/>
+                    </svg>
+                    <svg class="touchdown-receiver" viewBox="0 0 80 110" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M29 70L18 102M48 70L61 99" stroke="#edf5f3" stroke-width="12" stroke-linecap="round"/>
+                        <path d="M24 37L12 21L16 5M52 37L66 21L62 5" fill="none" stroke="#c68b62" stroke-width="9" stroke-linecap="round"/>
+                        <path d="M24 30H53L58 75H20Z" fill="#00646b" stroke="#e4eeec" stroke-width="2"/>
+                        <text x="39" y="61" fill="white" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="25">6</text>
+                        <circle cx="39" cy="18" r="14" fill="#004c54" stroke="#dce8e5" stroke-width="2"/>
+                        <path d="M29 16H18V27H30" fill="none" stroke="#b9c8ca" stroke-width="3"/>
+                    </svg>
+                    <svg class="touchdown-ball" viewBox="0 0 40 25" xmlns="http://www.w3.org/2000/svg"><ellipse cx="20" cy="12" rx="18" ry="10" fill="#a8582e" stroke="#f0d1aa" stroke-width="2"/><path d="M10 12H30M15 8V16M20 8V16M25 8V16" stroke="white" stroke-width="2"/></svg>
+                    <span class="touchdown-banner">TOUCHDOWN!</span>
+                    <span class="play-caption">HURTS TO SMITH · FLY EAGLES FLY</span>
+                </div>
+                <p class="touchdown-status" id="touchdown-status" role="status">Every 7 clicks unlocks a touchdown pass.</p>
+                <div class="counter-controls">
+                    <button class="button increment-button" id="increment" type="button">GO BIRDS <span aria-hidden="true">+</span></button>
+                    <p class="save-status" id="save-status" role="status">Saved on this browser. Come back anytime.</p>
+                </div>
+                <p class="counter-note">Your total stays on this device and browser unless you clear site data.</p>
+            </section>
+        </main>
+        <section class="leaderboard-section" aria-labelledby="leaderboard-title">
+            <div class="leaderboard-heading"><div><p class="eyebrow">The Philly faithful</p><h2 id="leaderboard-title">The click leaders.</h2></div><p>Top 25 fans. One city. Every click counts.</p></div>
+            <div class="leaderboard-grid">
+                <div class="leaderboard-table-panel">
+                    <table class="leaderboard-table">
+                        <caption class="visually-hidden">Top visitors ranked by total clicks. Equal totals share a rank.</caption>
+                        <thead><tr><th scope="col">Rank</th><th scope="col">Fan</th><th scope="col">Clicks</th></tr></thead>
+                        <tbody id="leaderboard-rows"></tbody>
+                    </table>
+                    <p class="leaderboard-empty" id="leaderboard-empty">Connecting to the shared leaderboard…</p>
+                    <p class="leaderboard-status" id="leaderboard-status" role="status">Your local clicks are safe while the board loads.</p>
+                    <button class="leaderboard-retry" id="leaderboard-retry" type="button" hidden>Try connecting again</button>
+                </div>
+                <div class="leaderboard-entry">
+                    <p class="eyebrow">Rep your score</p><h3>Put your name on the board.</h3>
+                    <p>Choose a nickname to share your accumulated clicks with other visitors.</p>
+                    <form id="leaderboard-form">
+                        <label for="fan-name">Public nickname</label>
+                        <input id="fan-name" name="nickname" type="text" minlength="2" maxlength="20" pattern="[A-Za-z0-9][A-Za-z0-9 _\-]{0,18}[A-Za-z0-9]" autocomplete="nickname" placeholder="e.g. PhillyFan26" required aria-describedby="nickname-hint">
+                        <p id="nickname-hint">2–20 letters, numbers, spaces, underscores, or hyphens. Start and end with a letter or number. Your nickname and total will be public.</p>
+                        <button class="button increment-button" id="leaderboard-submit" type="submit">Join the leaderboard</button>
+                    </form>
+                    <p class="leaderboard-status" id="leaderboard-sync" role="status">No email or password needed. Joining is optional.</p>
+                    <button class="leaderboard-retry" id="leaderboard-save" type="button" hidden>Sync score now</button>
+                    <p class="leaderboard-identity-note">Scores sync while this page is open; use Sync score now before leaving. One entry per browser profile. Keep using this browser to build your score; clearing site data or switching devices creates a new identity.</p>
+                </div>
+            </div>
+        </section>
+        <div class="roster-strip" aria-label="Featured players"><span><b>06</b> DeVonta Smith</span><span><b>01</b> Jalen Hurts</span><span><b>26</b> Saquon Barkley</span><p>ONE CITY. ONE TEAM.</p></div>
+        <footer class="site-footer"><p>ZACK / PHILLY <span class="footer-divider">·</span> An unofficial fan project.</p><a href="https://www.philadelphiaeagles.com/photos/commanders-vs-eagles-gameday-photo-gallery-september-13-2026-nfl-week-1" target="_blank" rel="noopener noreferrer">Player photography: Philadelphia Eagles</a></footer>
+    </div>
+</body>
+</html>

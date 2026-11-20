@@ -2,70 +2,232 @@ class Game {
     constructor() {
         this.canvas = document.getElementById('gameCanvas');
         this.ctx = this.canvas.getContext('2d');
+        this.scoreDisplay = document.getElementById('game-score');
+        this.statusDisplay = document.getElementById('game-status');
+        this.reset();
+
+        document.addEventListener('keydown', (event) => {
+            if (event.target.closest('button, a, input, textarea, select')) return;
+            this.handleInput(event);
+        });
+        document.getElementById('restart-game').addEventListener('click', () => this.reset());
+        document.querySelectorAll('[data-direction]').forEach((button) => {
+            button.addEventListener('pointerdown', (event) => {
+                if (event.button !== 0) return;
+                event.preventDefault();
+                this.stopMoving();
+                button.setPointerCapture(event.pointerId);
+                this.move(button.dataset.direction);
+                this.movementTimer = window.setInterval(() => this.move(button.dataset.direction), 100);
+            });
+            for (const eventName of ['pointerup', 'pointercancel', 'lostpointercapture']) {
+                button.addEventListener(eventName, () => this.stopMoving());
+            }
+            button.addEventListener('click', (event) => {
+                // Keyboard and assistive clicks have no pointerdown event.
+                if (event.detail === 0) this.move(button.dataset.direction);
+            });
+        });
+        window.addEventListener('blur', () => this.stopMoving());
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) this.stopMoving();
+        });
+        new MutationObserver(() => this.redraw()).observe(document.documentElement, {
+            attributes: true,
+            attributeFilter: ['data-theme']
+        });
+    }
+
+    reset() {
+        this.stopMoving();
+        this.recordedWin = false;
         this.score = 0;
-
-        // Define the shapes (example rectangles here)
         this.shapes = [
-            { x: 50, y: 50, width: 50, height: 50, name: 'Main' },
-            { x: 150, y: 150, width: 50, height: 50, name: 'collectable' },
-            { x: 250, y: 250, width: 50, height: 50, name: 'collectable' }
+            { x: 270, y: 660, width: 50, height: 50, name: 'Main' },
+            { x: 130, y: 220, width: 50, height: 50, name: 'collectable' },
+            { x: 420, y: 440, width: 50, height: 50, name: 'collectable' }
         ];
-
-        // Start game loop
         this.update();
+    }
 
-        // Handle keyboard input
-        document.addEventListener('keydown', (e) => this.handleInput(e));
+    stopMoving() {
+        window.clearInterval(this.movementTimer);
     }
 
     redraw() {
-        // Clear the canvas
-        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        const ctx = this.ctx;
+        const styles = getComputedStyle(document.documentElement);
+        ctx.fillStyle = styles.getPropertyValue('--field').trim();
+        ctx.fillRect(0, 0, 600, 800);
+        ctx.fillStyle = styles.getPropertyValue('--field-stripe').trim();
+        for (let y = 80; y < 720; y += 128) ctx.fillRect(0, y, 600, 64);
 
-        // Draw each shape
+        ctx.fillStyle = '#00383f';
+        ctx.fillRect(0, 0, 600, 80);
+        ctx.fillRect(0, 720, 600, 80);
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillStyle = '#eef5f4';
+        ctx.font = 'italic 700 32px Arial';
+        ctx.fillText('PHILADELPHIA', 300, 42);
+        ctx.fillText('GO BIRDS', 300, 760);
+
+        ctx.strokeStyle = '#d8eeee80';
+        ctx.lineWidth = 2;
+        for (let y = 80; y <= 720; y += 64) {
+            ctx.beginPath();
+            ctx.moveTo(24, y);
+            ctx.lineTo(576, y);
+            ctx.stroke();
+            if (y > 80 && y < 720) {
+                ctx.fillStyle = '#e2f0ecb0';
+                ctx.font = '700 24px Arial';
+                const yard = Math.min((y - 80) / 64, (720 - y) / 64) * 10;
+                ctx.fillText(yard.toString(), 65, y - 18);
+                ctx.fillText(yard.toString(), 535, y - 18);
+            }
+        }
+        for (let y = 96; y < 720; y += 16) {
+            for (const x of [225, 375]) {
+                ctx.fillStyle = '#d8eeee85';
+                ctx.fillRect(x, y, 10, 2);
+            }
+        }
+        ctx.strokeStyle = '#f1f6f4';
+        ctx.lineWidth = 3;
+        ctx.strokeRect(12, 10, 576, 780);
+
         for (const shape of this.shapes) {
-            this.ctx.fillRect(shape.x, shape.y, shape.width, shape.height);
+            if (shape.name === 'Main') this.drawJersey(shape);
+            else this.drawFootball(shape);
+        }
+        if (this.shapes.length === 1) {
+            ctx.fillStyle = '#002b35e8';
+            ctx.fillRect(60, 300, 480, 180);
+            ctx.fillStyle = '#ffffff';
+            ctx.font = 'italic 800 46px Arial';
+            ctx.fillText('FLY EAGLES FLY!', 300, 365);
+            ctx.font = '20px Arial';
+            ctx.fillText('All footballs collected. Go Birds.', 300, 420);
         }
     }
 
-    handleInput(e) {
-        if (this.shapes.length === 1) return;
+    drawJersey(shape) {
+        const ctx = this.ctx;
+        ctx.save();
+        ctx.translate(shape.x, shape.y);
+        ctx.shadowColor = '#001c2c80';
+        ctx.shadowBlur = 10;
+        ctx.shadowOffsetY = 4;
+        ctx.fillStyle = '#004c54';
+        ctx.strokeStyle = '#edf4f3';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(12, 2);
+        ctx.lineTo(2, 10);
+        ctx.lineTo(0, 23);
+        ctx.lineTo(10, 25);
+        ctx.lineTo(10, 48);
+        ctx.lineTo(40, 48);
+        ctx.lineTo(40, 25);
+        ctx.lineTo(50, 23);
+        ctx.lineTo(48, 10);
+        ctx.lineTo(38, 2);
+        ctx.lineTo(31, 7);
+        ctx.lineTo(19, 7);
+        ctx.closePath();
+        ctx.fill();
+        ctx.stroke();
+        ctx.shadowBlur = 0;
+        ctx.shadowOffsetY = 0;
+        ctx.fillStyle = '#ffffff';
+        ctx.font = '800 26px Arial';
+        ctx.fillText('1', 25, 29);
+        ctx.restore();
+    }
 
+    drawFootball(shape) {
+        const ctx = this.ctx;
+        ctx.save();
+        ctx.translate(shape.x + 25, shape.y + 25);
+        ctx.rotate(-Math.PI / 4);
+        ctx.shadowColor = '#001b2b80';
+        ctx.shadowBlur = 10;
+        ctx.shadowOffsetY = 4;
+        ctx.fillStyle = '#a8582e';
+        ctx.strokeStyle = '#f4dfbb';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.ellipse(0, 0, 24, 15, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.stroke();
+        ctx.shadowBlur = 0;
+        ctx.shadowOffsetY = 0;
+        ctx.strokeStyle = '#fff8e8';
+        ctx.beginPath();
+        ctx.moveTo(-12, 0);
+        ctx.lineTo(12, 0);
+        for (let x = -8; x <= 8; x += 8) {
+            ctx.moveTo(x, -5);
+            ctx.lineTo(x, 5);
+        }
+        ctx.stroke();
+        ctx.restore();
+    }
+
+    handleInput(event) {
+        const keys = { w: 'ArrowUp', a: 'ArrowLeft', s: 'ArrowDown', d: 'ArrowRight' };
+        const direction = keys[event.key.toLowerCase()] || event.key;
+        if (!['ArrowUp', 'ArrowLeft', 'ArrowDown', 'ArrowRight'].includes(direction)) return;
+        event.preventDefault();
+        this.move(direction);
+    }
+
+    move(direction) {
+        if (this.shapes.length === 1) return;
         const player = this.shapes[0];
-        switch (e.key) {
-            case 'ArrowRight': player.x += 10; break;
-            case 'ArrowDown': player.y += 10; break;
+        switch (direction) {
+            case 'ArrowUp': player.y -= 20; break;
+            case 'ArrowLeft': player.x -= 20; break;
+            case 'ArrowDown': player.y += 20; break;
+            case 'ArrowRight': player.x += 20; break;
             default: return;
         }
-        e.preventDefault();
         player.x = Math.max(0, Math.min(player.x, this.canvas.width - player.width));
         player.y = Math.max(0, Math.min(player.y, this.canvas.height - player.height));
+        this.update();
     }
 
-    checkCollision(obj1, obj2) {
-        // Check if the two objects are colliding
-        return obj1.x < obj2.x + obj2.width &&
-               obj1.x + obj1.width > obj2.x &&
-               obj1.y < obj2.y + obj2.height &&
-               obj1.y + obj1.height > obj2.y;
+    checkCollision(first, second) {
+        return first.x < second.x + second.width &&
+            first.x + first.width > second.x &&
+            first.y < second.y + second.height &&
+            first.y + first.height > second.y;
     }
 
     update() {
-        // Iterate backwards so removing one collectible does not skip another.
         for (let i = this.shapes.length - 1; i >= 1; i--) {
             if (this.checkCollision(this.shapes[0], this.shapes[i])) {
                 this.score++;
                 this.shapes.splice(i, 1);
             }
         }
-        this.redraw();
-
-        // Stop scheduling frames once both collectibles have been eaten.
-        if (this.shapes.length > 1) {
-            requestAnimationFrame(() => this.update());
+        this.scoreDisplay.textContent = this.score.toString();
+        this.statusDisplay.textContent = this.score === 2 ? 'All footballs collected. Fly Eagles Fly!' :
+            this.score === 1 ? 'One down. One football to go!' : 'Take the field. Two footballs to go.';
+        if (this.score === 2 && !this.recordedWin) {
+            this.recordedWin = true;
+            try {
+                const stored = Number(localStorage.getItem('fieldRunWins'));
+                const wins = Number.isSafeInteger(stored) && stored >= 0 ? stored : 0;
+                localStorage.setItem('fieldRunWins', Math.min(wins + 1, Number.MAX_SAFE_INTEGER).toString());
+            } catch {
+                // Winning still works if browser storage is unavailable.
+            }
+            document.dispatchEvent(new Event('arcade:progress'));
         }
+        this.redraw();
     }
 }
 
-// Initialize the game
 document.myGame = new Game();

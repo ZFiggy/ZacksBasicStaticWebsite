@@ -1,0 +1,29 @@
+Player photographs: Philadelphia Eagles, official game photo gallery.
+Source: https://www.philadelphiaeagles.com/photos/commanders-vs-eagles-gameday-photo-gallery-september-13-2026-nfl-week-1
+Jalen Hurts: https://static.clubs.nfl.com/image/upload/eagles/gpzseykskalvrku57j67.png
+DeVonta Smith: https://static.clubs.nfl.com/image/upload/eagles/akekmli7cvqmxzug2cdt.png
+Saquon Barkley: https://static.clubs.nfl.com/image/upload/eagles/jszkanl5536qol5sgoif.png
+Images remain the property of their respective owners. This site is an unofficial personal fan project.
+
+Where’s Jalen? photographic composites:
+Backgrounds: Philadelphia Eagles, Photos: Best fan photos of 2025.
+Original gallery: https://www.philadelphiaeagles.com/photos/photos-thank-you-eagles-fans
+Level 1 original: https://static.clubs.nfl.com/image/upload/eagles/efjqgeesnn7lgjavpzhx.jpg
+Level 2 original: https://static.clubs.nfl.com/image/upload/eagles/vpv2dhwncfw8xec8higt.jpg
+Level 3 and 5 original: https://static.clubs.nfl.com/image/upload/eagles/mju3pnevvbmdyhesy6ft.jpg
+Level 4 original: https://static.clubs.nfl.com/image/upload/eagles/h5hbo6dm7v4ha9oyzuqy.jpg
+AI-edited with the built-in image_gen tool to include Jalen Hurts. These are fictional game composites, not records of actual appearances.
+Barkley Bird sprite: AI-generated stylized character using the Saquon Barkley game photograph above as an identity/uniform reference.
+Prompts and final asset paths: generated-assets.json.
+
+Hard photo set (current game, v2 image filenames / saved progress version 3):
+search-level-1-v2.jpg background: https://static.clubs.nfl.com/image/upload/eagles/allme45bmebd8tjctz3e.jpg
+search-level-2-v2.jpg background: https://static.clubs.nfl.com/image/upload/eagles/jfh1jpylnmdw7hkjdy3v.jpg
+search-level-3-v2.jpg background: https://static.clubs.nfl.com/image/upload/eagles/vzbgvfoc3r0xqb9wopvj.jpg
+search-level-4-v2.jpg background: https://static.clubs.nfl.com/image/upload/eagles/rzdut17ipdpx1kezx8si.jpg
+search-level-5-v2.jpg background: https://static.clubs.nfl.com/image/upload/eagles/utke3znklco6da4czpxi.jpg
+All crowd backgrounds are from https://www.philadelphiaeagles.com/photos/photos-thank-you-eagles-fans
+Calm arrivals identity reference: https://www.philadelphiaeagles.com/photos/photos-eagles-arrive-for-training-camp
+Studio face reference: https://www.philadelphiaeagles.com/team/players-roster/jalen-hurts/
+Calm winter portrait reference: https://www.philadelphiaeagles.com/photos/rooted-in-strength-2026-eagles-photoshoot
+These are AI-edited game scenes, not records of real appearances. Exact prompts, refinement prompts, and saved filenames: search-hard-prompts.json.

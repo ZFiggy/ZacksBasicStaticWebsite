@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#004c54">
+    <meta name="description" content="Where’s Jalen?: a Philadelphia Eagles fan minigame.">
+    <title>Where’s Jalen? · Zack's Website</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <script src="scripts/theme.js"></script>
+    <script defer src="scripts/arcade.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts/jalen.js"></script>
+</head>
+<body class="game-page" >
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="wordmark" href="index.html" aria-label="Zack's Website home"><span class="brand-icon" aria-hidden="true">Z</span> ZACK<span class="brand-light"> / PHILLY</span></a>
+            <div class="header-actions">
+                <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="counter.html">Scoreboard</a><a href="games.html" aria-current="location">Games</a></nav>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Dark mode</button>
+            </div>
+        </header>
+        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html">Field Run</a><a href="kick.html">Field Goals</a><a href="jalen.html" aria-current="page">Where’s Jalen?</a><a href="barkley.html">Barkley Bird</a></div>
+        <main id="main-content" tabindex="-1" class="search-game">
+            <div class="search-heading"><div><p class="eyebrow">Five harder photos. No easy giveaways.</p><h1>WHERE’S <span>JALEN?</span></h1><p>Find Jalen farther back in five real crowd photos. Natural expressions, changing outfits, and foreground cover make him harder to spot.</p></div><div class="jalen-reference"><img src="assets/jalen-reference.jpg" alt="Reference portrait of Jalen Hurts with a relaxed smile"><span>LOOK FOR HIS FACE · OUTFITS CHANGE</span></div></div>
+            <ol class="photo-progress" id="photo-progress" aria-label="Photo progress"></ol>
+            <div class="search-toolbar"><div><strong id="search-level">Photo 1 / 5</strong><span id="search-scene"></span></div><div class="search-actions"><label for="search-zoom">Zoom</label><select id="search-zoom"><option value="1">1×</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="3">3×</option></select><button class="leaderboard-retry" id="search-hint" type="button">Clothing clue</button><button class="leaderboard-retry" id="search-reset" type="button">New game</button></div></div>
+            <p class="game-status" id="search-status" role="status">Find Jalen farther back in the crowd.</p>
+            <p class="photo-disclosure">Real Eagles fan photography · AI-edited to include Jalen for this game. <a href="https://www.philadelphiaeagles.com/photos/photos-thank-you-eagles-fans" target="_blank" rel="noopener noreferrer">Original photo gallery</a></p><button class="leaderboard-retry" id="search-retry" type="button" hidden>Retry photo</button>
+            <div class="search-viewport" id="search-viewport"><canvas id="searchCanvas" width="1100" height="720" tabindex="0" aria-label="Edited Eagles crowd photo. Find Jalen Hurts." aria-describedby="search-help search-status">A canvas-enabled browser is needed to play.</canvas></div>
+            <div class="search-bottom"><p id="search-help">Tap or click Jalen. Zoom and scroll to inspect the photo. Keyboard: arrows move the crosshair; Shift makes fine adjustments; Enter checks your choice.</p><button class="button game-restart" id="search-next" type="button" disabled>Next level</button></div>
+        </main>
+        <footer class="site-footer"><p>ZACK / PHILLY <span class="footer-divider">·</span> An unofficial fan project.</p><a href="counter.html">Visit the Eagles scoreboard</a></footer>
+    </div>
+</body>
+</html>

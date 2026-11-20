@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#004c54">
+    <meta name="description" content="Barkley Bird: a Philadelphia Eagles fan minigame.">
+    <title>Barkley Bird · Zack's Website</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <script src="scripts/theme.js"></script>
+    <script defer src="scripts/arcade.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts/barkley.js"></script>
+    <script type="module" src="scripts/leaderboard.js"></script>
+</head>
+<body class="game-page bird-page" data-leaderboard="barkley">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="wordmark" href="index.html" aria-label="Zack's Website home"><span class="brand-icon" aria-hidden="true">Z</span> ZACK<span class="brand-light"> / PHILLY</span></a>
+            <div class="header-actions">
+                <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="counter.html">Scoreboard</a><a href="games.html" aria-current="location">Games</a></nav>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Dark mode</button>
+            </div>
+        </header>
+        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html">Field Run</a><a href="kick.html">Field Goals</a><a href="jalen.html">Where’s Jalen?</a><a href="barkley.html" aria-current="page">Barkley Bird</a></div>
+        <main id="main-content" tabindex="-1" class="game-layout">
+            <section class="game-story" aria-labelledby="bird-title">
+                <div class="game-intro"><p class="eyebrow">Number 26. Cleared for takeoff.</p><h1 id="bird-title">BARKLEY<br><span>BIRD.</span></h1><p>Midnight-green wings. Stadium lights. Send Saquon through the gaps and put your name among the Philly faithful.</p></div>
+                <div class="game-dashboard"><div class="game-score"><span>GAPS CLEARED</span><strong id="bird-score">0</strong></div><p class="personal-best">PERSONAL BEST <strong id="bird-best">0</strong></p><p class="game-status" id="bird-status" role="status">Tap Flap or press Space to take off.</p><button class="button game-restart" id="bird-reset" type="button">New flight <span aria-hidden="true">↻</span></button></div>
+                <div class="game-instructions" id="bird-help"><h2>The flight plan</h2><p>Tap the field, use Flap, or press Space / Up on the field, Flap button, or page background. Stay between the obstacles and off the turf. Each gap is one point.</p><p>Speed increases and gaps narrow as you score. Use Pause or press P while the field is focused to take a break. Switching tabs also pauses your flight.</p></div>
+            </section>
+            <section class="field-panel bird-panel" aria-label="Barkley Bird game"><div class="field-heading"><span>PHI · SAQUON #26</span><span>STADIUM FLIGHT</span></div><canvas id="birdCanvas" width="480" height="680" tabindex="0" aria-label="Barkley Bird flying game" aria-describedby="bird-help bird-status">Use a canvas-enabled browser to play.</canvas><div class="bird-controls"><button class="button increment-button" id="bird-flap" type="button">Flap / Start</button><button class="bird-pause" id="bird-pause" type="button" disabled>Pause</button></div><button class="expand-game" data-expand-game type="button" hidden>Expand game</button>
+            </section>
+        </main>
+        <section class="leaderboard-section" aria-labelledby="leaderboard-title">
+            <div class="leaderboard-heading"><div><p class="eyebrow">The Philly faithful</p><h2 id="leaderboard-title">Barkley Bird leaders.</h2></div><p>Top 25 flights. Rep your high score.</p></div>
+            <div class="leaderboard-grid">
+                <div class="leaderboard-table-panel">
+                    <table class="leaderboard-table">
+                        <caption class="visually-hidden">Top visitors ranked by best flight score. Equal totals share a rank.</caption>
+                        <thead><tr><th scope="col">Rank</th><th scope="col">Fan</th><th scope="col">Points</th></tr></thead>
+                        <tbody id="leaderboard-rows"></tbody>
+                    </table>
+                    <p class="leaderboard-empty" id="leaderboard-empty">Connecting to the shared leaderboard…</p>
+                    <p class="leaderboard-status" id="leaderboard-status" role="status">Your personal best is safe while the board loads.</p>
+                    <button class="leaderboard-retry" id="leaderboard-retry" type="button" hidden>Try connecting again</button>
+                </div>
+                <div class="leaderboard-entry">
+                    <p class="eyebrow">Rep your score</p><h3>Put your name on the board.</h3>
+                    <p>Choose a nickname to share your best score with other visitors.</p>
+                    <form id="leaderboard-form">
+                        <label for="fan-name">Public nickname</label>
+                        <input id="fan-name" name="nickname" type="text" minlength="2" maxlength="20" pattern="[A-Za-z0-9][A-Za-z0-9 _\-]{0,18}[A-Za-z0-9]" autocomplete="nickname" placeholder="e.g. PhillyFan26" required aria-describedby="nickname-hint">
+                        <p id="nickname-hint">2–20 letters, numbers, spaces, underscores, or hyphens. Start and end with a letter or number. Your nickname and total will be public.</p>
+                        <button class="button increment-button" id="leaderboard-submit" type="submit">Join the leaderboard</button>
+                    </form>
+                    <p class="leaderboard-status" id="leaderboard-sync" role="status">No email or password needed. Joining is optional.</p>
+                    <button class="leaderboard-retry" id="leaderboard-save" type="button" hidden>Sync score now</button>
+                    <p class="leaderboard-identity-note">Scores sync while this page is open; use Sync score now before leaving. One entry per browser profile. Keep using this browser to build your score; clearing site data or switching devices creates a new identity.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer"><p>ZACK / PHILLY <span class="footer-divider">·</span> An unofficial fan project.</p><a href="counter.html">Visit the Eagles scoreboard</a></footer>
+    </div>
+</body>
+</html>

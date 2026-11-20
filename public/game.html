@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canvas Game</title>
+    <meta name="theme-color" content="#004c54">
+    <meta name="description" content="Take the field in midnight green. Collect footballs in Eagles Field Run.">
+    <title>Eagles Field Run · Zack's Website</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <script src="scripts/theme.js"></script>
+    <script defer src="scripts/arcade.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts/game.js"></script>
 </head>
-<body>
-    <canvas id="gameCanvas" width="600" height="800"></canvas>
-    <script src="scripts/game.js"></script>
+<body class="game-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="wordmark" href="index.html" aria-label="Zack's Website home"><span class="brand-icon" aria-hidden="true">Z</span> ZACK<span class="brand-light"> / PHILLY</span></a>
+            <div class="header-actions">
+                <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="counter.html">Scoreboard</a><a href="games.html" aria-current="location">Games</a></nav>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Dark mode</button>
+            </div>
+        </header>
+        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html" aria-current="page">Field Run</a><a href="kick.html">Field Goals</a><a href="jalen.html">Where’s Jalen?</a><a href="barkley.html">Barkley Bird</a></div>
+        <main id="main-content" tabindex="-1" class="game-layout">
+            <section class="game-story" aria-labelledby="game-title">
+                <div class="game-intro">
+                    <p class="eyebrow">Philadelphia Eagles · Playground</p>
+                    <h1 id="game-title">OWN THE<br><span>FIELD.</span></h1>
+                    <p>Suit up in midnight green. Collect every football and bring it home for Philly.</p>
+                </div>
+                <div class="game-dashboard">
+                    <div class="game-score"><span>FOOTBALLS COLLECTED</span><strong><span id="game-score">0</span> / 2</strong></div>
+                    <p class="game-status" id="game-status" role="status">Take the field. Two footballs to go.</p>
+                    <button class="button game-restart" id="restart-game" type="button">Start again <span aria-hidden="true">↻</span></button>
+                </div>
+                <div class="game-instructions" id="game-instructions">
+                    <h2>The playbook</h2>
+                    <p>Use the arrow keys or W, A, S, D to move. On a phone, hold the buttons below the field to keep moving.</p>
+                    <p>Move your jersey over both footballs to win.</p>
+                </div>
+            </section>
+            <section class="field-panel" aria-label="Eagles Field Run game">
+                <div class="field-heading"><span>PHILADELPHIA</span><span>FIELD RUN</span></div>
+                <canvas id="gameCanvas" width="600" height="800" tabindex="0" aria-label="Football field. Move the number 1 Eagles jersey to collect two footballs." aria-describedby="game-instructions game-status">Use a browser that supports canvas to play Eagles Field Run.</canvas>
+                <div class="touch-controls" role="group" aria-label="Movement controls">
+                    <button type="button" data-direction="ArrowUp" aria-label="Move up">↑</button>
+                    <button type="button" data-direction="ArrowLeft" aria-label="Move left">←</button>
+                    <button type="button" data-direction="ArrowDown" aria-label="Move down">↓</button>
+                    <button type="button" data-direction="ArrowRight" aria-label="Move right">→</button>
+                </div>
+            <button class="expand-game" data-expand-game type="button" hidden>Expand game</button>
+            </section>
+        </main>
+        <footer class="site-footer"><p>ZACK / PHILLY <span class="footer-divider">·</span> An unofficial fan project.</p><a href="counter.html">Visit the Eagles scoreboard</a></footer>
+    </div>
 </body>
 </html>

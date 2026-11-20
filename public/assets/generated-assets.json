@@ -1,0 +1,42 @@
+{
+    "mode": "Built-in image_gen",
+    "jalenScenes": [
+        {
+            "n": 1,
+            "photo": 1,
+            "brief": "Level 1, easy: Replace ONLY the standing young man SECOND FROM THE LEFT in the group, whose original green jersey has a number 1, with a photorealistic Jalen Hurts from the reference. Same standing pose, physical human scale, feet on asphalt, white headband, midnight green Eagles number 1 jersey, white pants. Preserve every other person and the entire real parking-lot background. His face and shoulders should occupy the same location as that existing man, roughly x=28%, y=32% of the frame. Seamless skin lighting, cast shadows, no outline or pasted rectangle."
+        },
+        {
+            "n": 2,
+            "photo": 3,
+            "brief": "Level 2, medium: Seamlessly add exactly one small Jalen Hurts from the reference among the SECOND row of fans, behind the front-row child holding a football and near the man in the green number 55 jersey. Place his head centered approximately x=57%, y=40% of the frame. Make his visible head and upper torso about 10% of image height overall, his face approximately 3% of image height, at the same perspective scale as adjacent second-row people. He has his distinct face, white headband, dark green number 1 jersey. Natural partial occlusion by front-row people. Keep all existing people, screen, advertising and photograph framing unchanged."
+        },
+        {
+            "n": 3,
+            "photo": 4,
+            "brief": "Level 3, harder: Blend one photorealistic Jalen Hurts from the reference naturally into the crowd, second row on the LEFT half. His white headband and face should be near x=28%, y=25% of the image, and his green number 1 upper torso should be partly occluded by the front-row crowd. Match neighboring face sizes, but keep him relatively small, about 8% of frame height including visible shoulders. Preserve crowd photography and every foreground sign and fan. No change to composition or cropping. Exactly one Jalen, no highlight."
+        },
+        {
+            "n": 4,
+            "photo": 2,
+            "brief": "Level 4, difficult: Seamlessly insert one small Jalen Hurts into the LOWER LEFT portion of the stadium fan photo, in the middle-distance crowd near x=24%, y=69% of image. His face with WHITE HEADBAND and midnight-green number 1 upper jersey must be recognizable upon zoom, but not dominate; visible head and torso together about 7% of image height. Match the bright backlit sunlight and actual perspective; naturally hide lower torso behind nearer fans. Leave the prominent foreground man and woman, stadium and all existing details unchanged. Exactly one Jalen."
+        },
+        {
+            "n": 5,
+            "photo": 4,
+            "brief": "Level 5, expert: Seamlessly insert exactly one VERY SMALL but recognizable Jalen Hurts into the TOP RIGHT half of this densely packed fan photo, approximate face center x=72%, y=9%. White headband, real recognizable face from reference, midnight-green jersey number 1. His entire visible head and upper chest should be about 5.5% of frame height, behind the nearer fans. It should take close inspection to spot him but the face and white headband must be there. Match scene lighting and sharpness. Preserve the entire photograph's layout and all foreground people and signs unchanged. No other copies of him, no hints, no cartoon elements."
+        }
+    ],
+    "commonPrompt": "Composite the real crowd photograph with the Jalen Hurts identity reference; preserve the photograph, match lighting and perspective, exactly one Jalen, no hints or UI.",
+    "barkleySprite": "Use case: stylized-concept. Asset type: a single final transparent PNG player sprite for Barkley Bird, a polished Philadelphia Eagles arcade game. Use the reference to identify Saquon Barkley, Eagles #26 ONLY. Create ONE charming premium 2.5D sports-game character: compact heroic Saquon Barkley, wearing a midnight green Eagles helmet with silver wing motifs, recognizable strong face visible through the face mask, green number 26 jersey, white pants, holding a football tightly in one arm. Mid-flight airborne running pose facing RIGHT, two small graceful silver/white eagle wings extending from his shoulders. Cohesive rich teal, silver and warm brown palette, subtle dimensional shading, crisp edges, clean silhouette easily readable at 64px tall. Single character centered with modest transparent padding. Entire body, helmet and wings visible. Genuinely TRANSPARENT background, no stage, no words other than jersey 26, no border, no photo circle, no UI. Keep the character compact and nearly square, not an elongated wing span.",
+    "sourceGallery": "https://www.philadelphiaeagles.com/photos/photos-thank-you-eagles-fans",
+    "referencePlayerGallery": "https://www.philadelphiaeagles.com/photos/commanders-vs-eagles-gameday-photo-gallery-september-13-2026-nfl-week-1",
+    "savedFiles": [
+        "public/assets/search-level-1.jpg",
+        "public/assets/search-level-2.jpg",
+        "public/assets/search-level-3.jpg",
+        "public/assets/search-level-4.jpg",
+        "public/assets/search-level-5.jpg",
+        "public/assets/barkley-flight.png"
+    ]
+}

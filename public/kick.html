@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#004c54">
+    <meta name="description" content="Split the uprights in a five-kick Philadelphia football challenge.">
+    <title>Field Goal Challenge · Zack's Website</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <script src="scripts/theme.js"></script>
+    <script defer src="scripts/arcade.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts/kick.js"></script>
+</head>
+<body class="game-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="wordmark" href="index.html" aria-label="Zack's Website home"><span class="brand-icon" aria-hidden="true">Z</span> ZACK<span class="brand-light"> / PHILLY</span></a>
+            <div class="header-actions">
+                <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="counter.html">Scoreboard</a><a href="games.html" aria-current="location">Games</a></nav>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Dark mode</button>
+            </div>
+        </header>
+        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html">Field Run</a><a href="kick.html" aria-current="page">Field Goals</a><a href="jalen.html">Where’s Jalen?</a><a href="barkley.html">Barkley Bird</a></div>
+        <main id="main-content" tabindex="-1" class="game-layout">
+            <section class="game-story" aria-labelledby="kick-title">
+                <div class="game-intro">
+                    <p class="eyebrow">Philadelphia Eagles · Minigame</p>
+                    <h1 id="kick-title">SPLIT THE<br><span>UPRIGHTS.</span></h1>
+                    <p>Five kicks. Crosswinds. Tiny windows. Time the moving marker to put points on the board for Philly.</p>
+                </div>
+                <div class="game-dashboard">
+                    <div class="game-score"><span>POINTS</span><strong id="kick-score">0</strong></div>
+                    <p class="personal-best">PERSONAL BEST <strong><span id="kick-best">0</span> / 15</strong></p>
+                    <p class="game-status" id="kick-status" role="status">Press Start to line up your first kick.</p>
+                    <button class="button game-restart" id="restart-kicks" type="button">New round <span aria-hidden="true">↻</span></button>
+                </div>
+                <div class="game-instructions" id="kick-instructions"><h2>The playbook</h2><p>Start the meter, then press Kick when the marker is inside the green zone. Each field goal scores 3 points. The target is narrower, the meter accelerates each kick, and crosswinds shift the green zone. Aim into the wind.</p><p>Use the button or press Space while the field is focused. Five attempts per round.</p></div>
+            </section>
+            <section class="field-panel kick-panel" aria-label="Field Goal Challenge">
+                <div class="field-heading"><span>PHILADELPHIA</span><span id="kick-attempt">KICK 1 / 5</span></div>
+                <canvas id="kickCanvas" width="600" height="650" tabindex="0" aria-label="Field goal kicking game" aria-describedby="kick-instructions kick-status">Use a browser with canvas support to play.</canvas>
+                <div class="kick-meter" aria-hidden="true"><span class="kick-zone" id="kick-zone"></span><span class="kick-marker" id="kick-marker"></span></div>
+                <p class="wind-readout" id="kick-wind"></p>
+                <p class="meter-caption">STOP THE MARKER IN THE GREEN ZONE</p>
+                <button class="button increment-button" id="kick-button" type="button">Start meter</button>
+            <button class="expand-game" data-expand-game type="button" hidden>Expand game</button>
+            </section>
+        </main>
+        <footer class="site-footer"><p>ZACK / PHILLY <span class="footer-divider">·</span> An unofficial fan project.</p><a href="game.html">Play Eagles Field Run</a></footer>
+    </div>
+</body>
+</html>

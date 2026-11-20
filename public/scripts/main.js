@@ -1,30 +1,18 @@
 class Main {
     constructor() {
         this.pageViewsKey = 'pageViewsCount';
-        this.initializeCounter();
-        this.displayCount();
-    }
-
-    initializeCounter() {
-        const storedCount = localStorage.getItem(this.pageViewsKey);
-        const count = Number(storedCount);
-        if (!Number.isSafeInteger(count) || count < 0 || count >= Number.MAX_SAFE_INTEGER) {
-            localStorage.setItem(this.pageViewsKey, '0');
+        let count = 0;
+        try {
+            const stored = Number(localStorage.getItem(this.pageViewsKey));
+            if (Number.isSafeInteger(stored) && stored >= 0) count = stored;
+            count = Math.min(count + 1, Number.MAX_SAFE_INTEGER);
+            localStorage.setItem(this.pageViewsKey, count.toString());
+        } catch {
+            count = Math.max(count, 1);
+            document.getElementById('count').title = 'Browser storage is unavailable; visits cannot be saved.';
         }
-    }
-
-    incrementCount() {
-        let currentCount = Number(localStorage.getItem(this.pageViewsKey));
-        currentCount++;
-        localStorage.setItem(this.pageViewsKey, currentCount.toString());
-    }
-
-    displayCount() {
-        this.incrementCount();
-        // Update count in div id count
-        document.getElementById('count').textContent = localStorage.getItem(this.pageViewsKey);
+        document.getElementById('count').textContent = count.toLocaleString();
     }
 }
 
-// Note that we construct the class here, but we don't need to assign it to a variable.
 document.mainClass = new Main();

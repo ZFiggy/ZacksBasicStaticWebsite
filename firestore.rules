@@ -1,0 +1,48 @@
+rules_version = '2';
+service cloud.firestore {
+    match /databases/{database}/documents {
+        match /barkleyLeaders/{userId} {
+            function ownsEntry() {
+                return request.auth != null && request.auth.uid == userId;
+            }
+            function validEntry() {
+                let entry = request.resource.data;
+                return entry.keys().hasAll(['nickname', 'score', 'updatedAt'])
+                    && entry.keys().hasOnly(['nickname', 'score', 'updatedAt'])
+                    && entry.nickname is string
+                    && entry.nickname.matches('^[A-Za-z0-9][A-Za-z0-9 _-]{0,18}[A-Za-z0-9]$')
+                    && entry.score is int && entry.score >= 0 && entry.score <= 1000000
+                    && entry.updatedAt == request.time;
+            }
+            allow list: if request.query.limit != null && request.query.limit <= 25;
+            allow get: if ownsEntry();
+            allow create: if ownsEntry() && validEntry();
+            allow update: if ownsEntry() && validEntry()
+                && request.resource.data.score >= resource.data.score;
+            allow delete: if false;
+        }
+        match /clickLeaders/{userId} {
+            function ownsEntry() {
+                return request.auth != null && request.auth.uid == userId;
+            }
+            function validEntry() {
+                let entry = request.resource.data;
+                return entry.keys().hasAll(['nickname', 'clicks', 'updatedAt'])
+                    && entry.keys().hasOnly(['nickname', 'clicks', 'updatedAt'])
+                    && entry.nickname is string
+                    && entry.nickname.matches('^[A-Za-z0-9][A-Za-z0-9 _-]{0,18}[A-Za-z0-9]$')
+                    && entry.clicks is int
+                    && entry.clicks >= 0
+                    && entry.clicks <= 9007199254740991
+                    && entry.updatedAt == request.time;
+            }
+            // Leaderboard entries are intentionally public; reads are bounded.
+            allow list: if request.query.limit != null && request.query.limit <= 25;
+            allow get: if ownsEntry();
+            allow create: if ownsEntry() && validEntry();
+            allow update: if ownsEntry() && validEntry()
+                && request.resource.data.clicks >= resource.data.clicks;
+            allow delete: if false;
+        }
+    }
+}
