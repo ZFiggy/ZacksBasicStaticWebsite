@@ -147,32 +147,7 @@ class Game {
     }
 
     drawFootball(shape) {
-        const ctx = this.ctx;
-        ctx.save();
-        ctx.translate(shape.x + 25, shape.y + 25);
-        ctx.rotate(-Math.PI / 4);
-        ctx.shadowColor = '#001b2b80';
-        ctx.shadowBlur = 10;
-        ctx.shadowOffsetY = 4;
-        ctx.fillStyle = '#a8582e';
-        ctx.strokeStyle = '#f4dfbb';
-        ctx.lineWidth = 2;
-        ctx.beginPath();
-        ctx.ellipse(0, 0, 24, 15, 0, 0, Math.PI * 2);
-        ctx.fill();
-        ctx.stroke();
-        ctx.shadowBlur = 0;
-        ctx.shadowOffsetY = 0;
-        ctx.strokeStyle = '#fff8e8';
-        ctx.beginPath();
-        ctx.moveTo(-12, 0);
-        ctx.lineTo(12, 0);
-        for (let x = -8; x <= 8; x += 8) {
-            ctx.moveTo(x, -5);
-            ctx.lineTo(x, 5);
-        }
-        ctx.stroke();
-        ctx.restore();
+        footballArt.draw(this.ctx, shape.x + 25, shape.y + 25, 52, -Math.PI / 4);
     }
 
     handleInput(event) {

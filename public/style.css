@@ -1494,11 +1494,13 @@ h3 {
 }
 .preview-ball {
     position: absolute;
-    left: calc(50% - 10px);
-    top: 174px;
-    color: #f5c8a0;
-    font-size: 2rem;
-    transform: rotate(-20deg);
+    left: calc(50% - 20px);
+    top: 183px;
+    width: 40px;
+    height: 26px;
+    background: url('assets/football.svg') center / contain no-repeat;
+    filter: drop-shadow(0 3px 2px #00263070);
+    transform: rotate(-30deg);
 }
 .project-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1631,26 +1633,6 @@ h3 {
     padding: 5px 10px;
     bottom: 16px;
     left: 16px;
-}
-.preview-ball {
-    width: 35px;
-    height: 21px;
-    border: 2px solid #e8d7bd;
-    background: #aa6038;
-    border-radius: 50%;
-    left: calc(50% - 17px);
-    top: 183px;
-    transform: rotate(-30deg);
-}
-.preview-ball::after {
-    content: '';
-    position: absolute;
-    left: 7px;
-    right: 7px;
-    top: 5px;
-    height: 8px;
-    border-top: 2px solid white;
-    background: repeating-linear-gradient(90deg, transparent 0, transparent 3px, white 3px, white 5px);
 }
 .drive-progress {
     display: grid;
@@ -2921,22 +2903,13 @@ h3 {
 }
 .library-football {
     position: absolute;
-    left: calc(50% - 14px);
+    left: calc(50% - 20px);
     top: 232px;
-    width: 28px;
-    height: 17px;
-    border: 2px solid #e5d6b5;
-    border-radius: 50%;
-    background: #a25c35;
+    width: 40px;
+    height: 26px;
+    background: url('assets/football.svg') center / contain no-repeat;
+    filter: drop-shadow(0 3px 2px #00263070);
     transform: rotate(-30deg);
-}
-.library-football::after {
-    content: '';
-    position: absolute;
-    left: 5px;
-    right: 5px;
-    top: 5px;
-    border-top: 2px solid white;
 }
 .library-field-art img {
     object-position: center;

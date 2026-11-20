@@ -179,21 +179,8 @@ class FieldGoalGame {
         const progress = this.shotProgress;
         const ballX = 300 + ((this.targetX ?? 300) - 300) * progress;
         const ballY = 570 - 365 * progress - 135 * Math.sin(Math.PI * progress);
-        ctx.save();
-        ctx.translate(ballX, ballY);
-        ctx.rotate(-0.6 + progress * 5);
-        ctx.fillStyle = '#ab6339';
-        ctx.strokeStyle = '#f4dbb5';
-        ctx.lineWidth = 2;
         const size = 1 - progress * 0.5;
-        ctx.scale(size, size);
-        ctx.beginPath(); ctx.ellipse(0, 0, 26, 16, 0, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
-        ctx.strokeStyle = '#fff9eb';
-        ctx.beginPath();
-        ctx.moveTo(-14, 0); ctx.lineTo(14, 0);
-        for (let x = -8; x <= 8; x += 8) { ctx.moveTo(x, -5); ctx.lineTo(x, 5); }
-        ctx.stroke();
-        ctx.restore();
+        footballArt.draw(ctx, ballX, ballY, 56 * size, -0.6 + progress * 5);
         if (this.lastResult !== null && this.state !== 'flight') {
             ctx.fillStyle = '#002e36e8';
             ctx.fillRect(90, 30, 420, 65);
