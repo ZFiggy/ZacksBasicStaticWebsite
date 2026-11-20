@@ -151,6 +151,7 @@ class Game {
     }
 
     handleInput(event) {
+        if (event.ctrlKey || event.metaKey || event.altKey) return;
         const keys = { w: 'ArrowUp', a: 'ArrowLeft', s: 'ArrowDown', d: 'ArrowRight' };
         const direction = keys[event.key.toLowerCase()] || event.key;
         if (!['ArrowUp', 'ArrowLeft', 'ArrowDown', 'ArrowRight'].includes(direction)) return;

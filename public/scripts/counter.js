@@ -36,7 +36,8 @@ function displayCount() {
     countDisplay.style.setProperty('--count-length', countDisplay.textContent.length);
     incrementButton.disabled = clickCount >= Number.MAX_SAFE_INTEGER;
     document.getElementById('touchdown-count').textContent = Math.floor(clickCount / 7).toLocaleString();
-    document.getElementById('next-touchdown').textContent = `${7 - clickCount % 7} CLICKS TO TD`;
+    const remaining = 7 - clickCount % 7;
+    document.getElementById('next-touchdown').textContent = `${remaining} ${remaining === 1 ? 'CLICK' : 'CLICKS'} TO TD`;
     document.querySelectorAll('.drive-progress i').forEach((segment, index) => {
         segment.classList.toggle('is-filled', index < clickCount % 7);
     });

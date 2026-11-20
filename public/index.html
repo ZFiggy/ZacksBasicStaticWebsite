@@ -14,6 +14,7 @@
 </head>
 <body class="home-page">
     <a class="skip-link" href="#main-content">Skip to content</a>
+    <noscript><p class="script-notice">Turn on JavaScript to play the games, save scores, and view your fan locker. You can still explore the <a href="games.html">game lineup</a>.</p></noscript>
     <div class="site-shell">
         <header class="site-header">
             <a class="wordmark" href="index.html" aria-label="Zack's Website home"><span class="brand-icon" aria-hidden="true">Z</span> ZACK<span class="brand-light"> / PHILLY</span></a>
@@ -57,13 +58,14 @@
             <section class="fan-locker" id="fan-locker" aria-labelledby="locker-greeting">
                 <div class="locker-heading"><div><p class="eyebrow">Your fan locker</p><h2 id="locker-greeting">Your corner of the stadium.</h2></div><a class="button game-restart" id="continue-game" href="barkley.html" hidden>Continue playing</a></div>
                 <p class="locker-note">Your scores and badges stay on this browser. Pick up where you left off.</p>
-                <div class="locker-stats"><a href="counter.html"><span>Total clicks</span><strong id="locker-clicks">0</strong><small>Light up the scoreboard</small></a><a href="barkley.html"><span>Barkley Bird best</span><strong id="locker-bird">0</strong><small>Gaps cleared in one flight</small></a><a href="kick.html"><span>Field goal best</span><strong id="locker-kicks">0 / 15</strong><small>Points in one round</small></a><a href="jalen.html"><span>Jalen photos cleared</span><strong id="locker-photos">0 / 5</strong><small>Five photos. One quarterback.</small></a></div>
+                <div class="locker-stats"><a href="counter.html"><span>Total clicks</span><strong id="locker-clicks">0</strong><small>Light up the scoreboard</small></a><a href="game.html"><span>Fields cleared</span><strong id="locker-fields">0</strong><small>Every football brought home</small></a><a href="barkley.html"><span>Barkley Bird best</span><strong id="locker-bird">0</strong><small>Gaps cleared in one flight</small></a><a href="kick.html"><span>Field goal best</span><strong id="locker-kicks">0 / 15</strong><small>Points in one round</small></a><a href="jalen.html"><span>Jalen photos cleared</span><strong id="locker-photos">0 / 5</strong><small>Five photos. One quarterback.</small></a></div>
+                <div class="locker-challenge" id="locker-challenge" hidden><div><p class="eyebrow">Your next play</p><h3 id="challenge-title"></h3><p id="challenge-detail"></p></div><a class="button" id="challenge-link" href="games.html">Chase this badge <span aria-hidden="true">→</span></a></div>
                 <div class="badge-heading"><h3>Earn your midnight green.</h3><p id="badge-count">0 / 5 earned</p></div>
                 <ul class="fan-badges" id="fan-badges" aria-label="Your arcade badges"></ul>
             </section>
             <section class="about-strip" id="section3"><span class="about-mark" aria-hidden="true">Z.</span><div><p class="eyebrow">Behind the screen</p><h2>Built by Zack. Always in progress.</h2><p>Learning, experimenting, and making this little corner of the web my own.</p></div></section>
         </main>
-        <footer class="site-footer" id="counter"><p>ZACK / PHILLY <span class="footer-divider">·</span> A personal project.</p><p>Your visits <span id="count">0</span></p></footer>
+        <footer class="site-footer" id="counter"><p>ZACK / PHILLY <span class="footer-divider">·</span> An unofficial fan arcade.</p><p>Your visits <span id="count">0</span></p></footer>
         <div class="photo-credit"><a href="https://www.philadelphiaeagles.com/photos/commanders-vs-eagles-gameday-photo-gallery-september-13-2026-nfl-week-1" target="_blank" rel="noopener noreferrer">Player photography: Philadelphia Eagles</a></div>
     </div>
 </body>

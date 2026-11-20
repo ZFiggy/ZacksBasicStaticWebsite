@@ -127,3 +127,9 @@ Barkley Bird now handles Space/Up on `keydown` from the canvas, Flap button, or 
 The current Jalen round uses `search-level-1-v2.jpg` through `search-level-5-v2.jpg`, with calm/smiling real reference photographs, natural-size figures deeper in the crowd, different clothing, and matching focus/occlusion. Hint one gives only clothing information; hint two optionally outlines an area. The face reference is `jalen-reference.jpg`. The revised target rectangles were checked against the final images. The old headband clue no longer applies.
 
 Saved progress is version 3 because all five photo locations changed. Older version-2 rounds restart at the first new photo; previous earned records and badges are retained. New version-3 progress still resumes normally. Current generated assets, exact built-in image_gen prompts, and refinements are recorded in `public/assets/search-hard-prompts.json`; original photo credits are in `credits.txt`.
+
+## Locker goals and layout cleanup
+
+The homepage locker includes Field Run clears alongside the other saved records. **Your next play** links to the unfinished badge with the highest proportion of progress; ties follow the badge order. Earning all five switches the panel to an arcade link. These suggestions use existing local records and add no new storage keys.
+
+The scoreboard plus is drawn in CSS to stay centered regardless of font metrics. The touchdown countdown uses singular wording for one click remaining. Continue links reset when the saved last game disappears and accept only known game filenames. Field Run preserves Ctrl/Cmd/Alt keyboard shortcuts. All pages include a JavaScript-disabled notice, and phone layouts give the fifth locker record and fifth badge a full row.

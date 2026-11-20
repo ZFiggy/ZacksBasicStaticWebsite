@@ -39,6 +39,18 @@ a:focus-visible, button:focus-visible {
     margin: auto;
     padding: 0 64px;
 }
+.script-notice {
+    position: relative;
+    padding: 16px 24px;
+    margin: 0;
+    background: #f4e3ac;
+    color: #122c30;
+    text-align: center;
+}
+.script-notice a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -581,14 +593,27 @@ h3 {
     letter-spacing: 0.08em;
 }
 .panel-icon {
-    display: grid;
-    place-items: center;
+    position: relative;
+    flex: 0 0 27px;
     background: var(--green);
     color: white;
     width: 27px;
     height: 27px;
     border-radius: 50%;
-    font-size: 1.25rem;
+}
+.panel-icon::before, .panel-icon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 1px;
+    transform: translate(-50%, -50%);
+}
+.panel-icon::after {
+    transform: translate(-50%, -50%) rotate(90deg);
 }
 .panel-tag {
     margin-left: auto;
@@ -1520,6 +1545,10 @@ h3 {
     .kick-preview {
         height: 230px;
     }
+    .preview-ball {
+        top: 155px;
+        left: calc(70% - 20px);
+    }
     .touchdown-stage {
         margin: 16px 20px 0;
     }
@@ -2293,7 +2322,7 @@ h3 {
 }
 .locker-stats {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     border: 1px solid #72959770;
     border-radius: 10px;
     overflow: hidden;
@@ -2307,6 +2336,34 @@ h3 {
 }
 .locker-stats a:last-child {
     border: 0;
+}
+.locker-challenge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 24px;
+    margin-top: 20px;
+    border: 1px solid #72959770;
+    border-radius: 10px;
+    background: var(--green);
+    color: #f1f7f4;
+}
+.locker-challenge .eyebrow {
+    color: #b7d8d1;
+    margin-bottom: 8px;
+}
+.locker-challenge h3 {
+    margin-bottom: 8px;
+}
+.locker-challenge p:last-child {
+    margin: 0;
+    font-size: 0.875rem;
+}
+.locker-challenge .button {
+    min-height: 44px;
+    font-size: 0.875rem;
 }
 .locker-stats a:hover {
     background: #d3e9e34d;
@@ -2565,11 +2622,17 @@ h3 {
         padding: 20px 16px;
         border-bottom: 1px solid #72959750;
     }
-    .locker-stats a:nth-child(2) {
+    .locker-stats a:nth-child(even) {
         border-right: 0;
     }
-    .locker-stats a:nth-child(3) {
-        border-bottom: 0;
+    .locker-stats a:last-child {
+        grid-column: 1 / -1;
+    }
+    .locker-challenge {
+        padding: 20px;
+    }
+    .locker-challenge .button {
+        width: 100%;
     }
     .locker-stats span {
         font-size: 0.75rem;
@@ -2580,6 +2643,16 @@ h3 {
     }
     .fan-badge {
         padding: 18px 14px;
+    }
+    .fan-badge:last-child {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: 48px minmax(0, 1fr);
+        align-items: center;
+        gap: 18px;
+    }
+    .fan-badge:last-child .badge-mark {
+        margin-bottom: 0;
     }
     .bird-pause {
         padding: 10px 14px;

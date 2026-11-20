@@ -7,14 +7,14 @@ class FanArcade {
             'barkley.html': 'Barkley Bird'
         };
         this.badges = [
-            { id: 'touchdown', title: 'On the board', detail: 'Score your first seven-click touchdown.', key: 'clickCount', goal: 7, mark: 'TD' },
-            { id: 'field', title: 'Clean sweep', detail: 'Collect both footballs in Field Run.', key: 'fieldRunWins', goal: 1, mark: 'PHI' },
-            { id: 'kicker', title: 'Split the uprights', detail: 'Make three field goals in one round.', key: 'fieldGoalBest', goal: 9, mark: '3×' },
-            { id: 'jalen', title: 'Eagle eye', detail: 'Find Jalen in all five photos.', key: 'jalenCleared', goal: 5, mark: '01' },
-            { id: 'barkley', title: 'Cleared for takeoff', detail: 'Clear five gaps in Barkley Bird.', key: 'barkleyBest', goal: 5, mark: '26' }
+            { id: 'touchdown', title: 'On the board', detail: 'Score your first seven-click touchdown.', key: 'clickCount', goal: 7, mark: 'TD', href: 'counter.html' },
+            { id: 'field', title: 'Clean sweep', detail: 'Collect both footballs in Field Run.', key: 'fieldRunWins', goal: 1, mark: 'PHI', href: 'game.html' },
+            { id: 'kicker', title: 'Split the uprights', detail: 'Make three field goals in one round.', key: 'fieldGoalBest', goal: 9, mark: '3×', href: 'kick.html' },
+            { id: 'jalen', title: 'Eagle eye', detail: 'Find Jalen in all five photos.', key: 'jalenCleared', goal: 5, mark: '01', href: 'jalen.html' },
+            { id: 'barkley', title: 'Cleared for takeoff', detail: 'Clear five gaps in Barkley Bird.', key: 'barkleyBest', goal: 5, mark: '26', href: 'barkley.html' }
         ];
         this.page = location.pathname.split('/').pop();
-        if (this.games[this.page]) this.write('arcadeLastGame', this.page);
+        if (Object.hasOwn(this.games, this.page)) this.write('arcadeLastGame', this.page);
         this.earned = new Set(this.badges.filter(badge => this.number(badge.key) >= badge.goal).map(badge => badge.id));
         this.render();
         document.addEventListener('arcade:progress', () => this.update());
@@ -43,6 +43,7 @@ class FanArcade {
         document.getElementById('locker-greeting').textContent = nickname ? `Your locker, ${nickname}.` : 'Your corner of the stadium.';
         const values = {
             'locker-clicks': this.number('clickCount').toLocaleString(),
+            'locker-fields': this.number('fieldRunWins').toLocaleString(),
             'locker-bird': this.number('barkleyBest').toLocaleString(),
             'locker-kicks': `${Math.min(15, this.number('fieldGoalBest'))} / 15`,
             'locker-photos': `${Math.min(5, this.number('jalenCleared'))} / 5`
@@ -50,11 +51,14 @@ class FanArcade {
         for (const [id, value] of Object.entries(values)) document.getElementById(id).textContent = value;
         const recent = this.read('arcadeLastGame');
         const continueLink = document.getElementById('continue-game');
-        continueLink.hidden = !this.games[recent];
-        if (this.games[recent]) {
+        const hasRecentGame = Object.hasOwn(this.games, recent);
+        continueLink.hidden = !hasRecentGame;
+        const heroLink = document.getElementById('hero-continue');
+        heroLink.href = 'games.html';
+        heroLink.textContent = 'Explore the games';
+        if (hasRecentGame) {
             continueLink.href = recent;
             continueLink.textContent = `Continue ${this.games[recent]}`;
-            const heroLink = document.getElementById('hero-continue');
             heroLink.href = recent;
             heroLink.textContent = `Continue ${this.games[recent]}`;
         }
@@ -77,6 +81,15 @@ class FanArcade {
             copy.append(title, detail, status); card.append(mark, copy); grid.append(card);
         }
         document.getElementById('badge-count').textContent = `${unlocked} / 5 earned`;
+        // Suggest the closest unfinished badge; ties follow the playbook order.
+        const next = this.badges.filter(badge => this.number(badge.key) < badge.goal)
+            .sort((first, second) => this.number(second.key) / second.goal - this.number(first.key) / first.goal)[0];
+        document.getElementById('challenge-title').textContent = next ? next.title : 'The whole playbook. All five badges.';
+        document.getElementById('challenge-detail').textContent = next ? `${next.detail} Progress: ${this.number(next.key)} / ${next.goal}.` : 'You earned every badge. Take the field and chase a new personal best.';
+        const challengeLink = document.getElementById('challenge-link');
+        challengeLink.href = next ? next.href : 'games.html';
+        challengeLink.firstChild.textContent = next ? 'Chase this badge ' : 'Back to the arcade ';
+        document.getElementById('locker-challenge').hidden = false;
     }
 
     update() {
