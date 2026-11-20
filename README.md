@@ -10,6 +10,21 @@ python3 -m http.server 8000 --directory public
 
 Open `http://localhost:8000/`. Counter totals and appearance preferences use browser storage. No build or package installation is required.
 
+## Prevent accidental credential commits
+
+Install Gitleaks and enable this repository's Git hooks once per clone:
+
+```sh
+brew install gitleaks
+git config --local core.hooksPath .githooks
+```
+
+The pre-commit hook scans staged changes; the pre-push hook scans the complete history of each outgoing ref, including credentials added and later deleted. Both block if the scanner is missing or finds a possible secret, and redact detected values in output. Hooks can be bypassed and scanners can miss secrets, so they are safeguards rather than a guarantee. Also enable GitHub repository **Settings → Code security → Push protection** where available; local hooks do not protect browser edits or other clones.
+
+The current Firebase browser key in `public/scripts/firebase-config.js` is intentionally public. `.gitleaks.toml` permits only that exact value in that file and in the scanner configuration itself. A different key still requires review. Keep its Google Cloud API restrictions and deployed Firebase Security Rules in place.
+
+Private API keys, tokens, passwords, and service account files must stay out of Git and out of `public/`. `.gitignore` excludes common local credential filenames, but cannot protect already tracked files or secrets pasted into source code. A secret embedded in browser JavaScript remains public even if it comes from an environment variable. If a real secret leaks, revoke or rotate it at its provider; deleting the file is insufficient.
+
 ## Shared click leaderboard
 
 The scoreboard page contains a top-25 leaderboard and an optional public nickname form. Firebase Anonymous Authentication identifies each browser profile; Firestore stores one entry per authenticated browser. Nicknames are not unique usernames. Clearing site data or using a different device can create another identity. Historical visitors cannot be reconstructed from browser-local totals; a visitor's existing total is imported when they join.

@@ -64,6 +64,18 @@ node_modules/
 
 # dotenv environment variables file
 .env
+.env.*
+!.env.example
+!.env.sample
+
+# Private credentials belong outside public/ and must never be deployed.
+*service-account*.json
+*serviceAccount*.json
+firebase-adminsdk*.json
+*.pem
+*.key
+*.p12
+*.pfx
 
 # dataconnect generated files
 .dataconnect

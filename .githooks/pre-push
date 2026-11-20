@@ -1,0 +1,16 @@
+#!/bin/sh
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+if ! command -v gitleaks >/dev/null 2>&1; then
+    echo 'Push blocked: install the secret scanner with brew install gitleaks.' >&2
+    exit 1
+fi
+# Scan each outgoing ref's complete history, including secrets later deleted.
+# Scanning full history also covers new branches and tags without a remote base.
+while read -r local_ref local_sha remote_ref remote_sha; do
+    case "$local_sha" in
+        *[!0]*) ;;
+        *) continue ;;
+    esac
+    gitleaks git --log-opts="$local_sha" --redact --no-banner --ignore-gitleaks-allow --config .gitleaks.toml .
+done

@@ -1,0 +1,11 @@
+title = "Website credential protection"
+
+[extend]
+useDefault = true
+
+# Public Firebase browser configuration only; never exempt an entire source file.
+[[allowlists]]
+description = "Reviewed public Firebase browser key"
+condition = "AND"
+paths = ['''^(public/scripts/firebase-config\.js|\.gitleaks\.toml)$''']
+regexes = ['''^AIzaSyC0H6cxE3uBq7mr9NYWjaqynpLk5VM0q3o$''']
