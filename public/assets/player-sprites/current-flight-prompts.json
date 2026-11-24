@@ -1,0 +1,84 @@
+{
+    "tool": "Built-in Imagegen",
+    "promptSet": [
+        {
+            "file": "assets/player-sprites/current-flight-0.png",
+            "teams": [
+                "cowboys",
+                "giants",
+                "commanders",
+                "bears"
+            ],
+            "prompt": "Use case: stylized-concept. Production transparent PNG sprite atlas for a Flappy Bird football arcade. Make a square EXACT 2 column x 2 row grid of FOUR full-body flying athlete characters. Each character fully contained in its own equal cell, with generous transparent padding. No grids, no labels, no background, genuine transparent alpha outside bodies. Premium dimensional sports-cartoon caricature matching the attached Saquon style: expressive face visible inside team helmet, full jersey, pants, cleats, football tucked in arm, two silver-white feather wings, body in airborne running action facing RIGHT. Each athlete has different face, physique and pose. Only lettering is jersey number. Top left: CeeDee Lamb Dallas Cowboys #88, royal blue and silver uniform, lean Black receiver with dark locs, high stepping airborne stride. Top right: Cam Skattebo New York Giants #44, royal blue white red uniform, stocky muscular white running back with short brown hair and dark eye black, determined power charge. Bottom left: Terry McLaurin Washington Commanders #17, burgundy gold uniform, lean Black receiver with short hair, long graceful flying catch pose carrying football. Bottom right: DJ Moore Chicago Bears #2, navy orange uniform, muscular Black receiver with trimmed beard, dynamic sideways juke. All helmets, wings, hands, footballs and cleats entirely visible within cells. No repeated faces, no headshot circles, no cropped limbs."
+        },
+        {
+            "file": "assets/player-sprites/current-flight-1.png",
+            "teams": [
+                "lions",
+                "packers",
+                "vikings",
+                "falcons"
+            ],
+            "prompt": "Use case: stylized-concept. Asset type: transparent PNG production sprite atlas for a football Flappy Bird arcade. Create ONE square image, EXACT 2 columns x 2 rows, four equal square cells. Each cell contains ONE full-body flying football athlete character with silver-white feathered wings, football tucked in one arm, full team uniform and helmet, expressive recognizable athlete face visible behind facemask. Premium richly shaded dimensional sports-cartoon caricature in same visual family as Saquon Barkley wings. All characters face generally RIGHT. ENTIRE character including wings, helmet, football, hands and both cleats must fit INSIDE the CENTER 72% of each cell, with 14% clear transparent padding ON ALL FOUR SIDES OF EACH CELL. Do not enlarge characters to fill their cell, do not crop anything, absolutely no cross-cell overlap. Genuine transparent alpha outside characters, no backgrounds, no floor, no circles, no captions, no labels, no gridlines. Different face, physique and pose for each athlete. Only text is the correct jersey number. TOP LEFT: Jahmyr Gibbs, Detroit Lions jersey #26, Honolulu blue and silver uniform; compact Black running back, dark locs; high knee airborne sprint with football left. TOP RIGHT: Josh Jacobs, Green Bay Packers jersey #8, dark green and gold uniform; powerfully built Black running back, short dark hair; low power charge with football right. BOTTOM LEFT: Justin Jefferson, Minnesota Vikings jersey #18, bright purple and gold uniform; tall lean Black receiver, dark braided hair; graceful banking flight, wings swept up. BOTTOM RIGHT: Bijan Robinson, Atlanta Falcons jersey #7, red, black and white uniform; strong Black running back, short curly dark hair; joyful hurdling flight with football hugged to chest.  Preserve proper team uniform colors and natural human skin tones. These are playful full-body flying athletes, not portrait stickers."
+        },
+        {
+            "file": "assets/player-sprites/current-flight-2.png",
+            "teams": [
+                "panthers",
+                "saints",
+                "buccaneers",
+                "cardinals"
+            ],
+            "prompt": "Use case: stylized-concept. Asset type: transparent PNG production sprite atlas for a football Flappy Bird arcade. Create ONE square image, EXACT 2 columns x 2 rows, four equal square cells. Each cell contains ONE full-body flying football athlete character with silver-white feathered wings, football tucked in one arm, full team uniform and helmet, expressive recognizable athlete face visible behind facemask. Premium richly shaded dimensional sports-cartoon caricature in same visual family as Saquon Barkley wings. All characters face generally RIGHT. ENTIRE character including wings, helmet, football, hands and both cleats must fit INSIDE the CENTER 72% of each cell, with 14% clear transparent padding ON ALL FOUR SIDES OF EACH CELL. Do not enlarge characters to fill their cell, do not crop anything, absolutely no cross-cell overlap. Genuine transparent alpha outside characters, no backgrounds, no floor, no circles, no captions, no labels, no gridlines. Different face, physique and pose for each athlete. Only text is the correct jersey number. TOP LEFT: Christian McCaffrey, Carolina Panthers jersey #22, bright Carolina blue, black and silver uniform; muscular white runner with short blond hair; high knee airborne sprint with football left. TOP RIGHT: Alvin Kamara, New Orleans Saints jersey #41, black and metallic gold uniform; compact Black running back, dark locs and nose jewelry; low power charge with football right. BOTTOM LEFT: Mike Evans, Tampa Bay Buccaneers jersey #13, red and pewter uniform; very tall brown-skinned receiver, short black hair and beard; graceful banking flight, wings swept up. BOTTOM RIGHT: Larry Fitzgerald, Arizona Cardinals jersey #11, cardinal red and white uniform; tall lean Black receiver with long dark locs; joyful hurdling flight with football hugged to chest.  Preserve proper team uniform colors and natural human skin tones. These are playful full-body flying athletes, not portrait stickers."
+        },
+        {
+            "file": "assets/player-sprites/current-flight-3.png",
+            "teams": [
+                "rams",
+                "49ers",
+                "seahawks",
+                "bills"
+            ],
+            "prompt": "Use case: stylized-concept. Asset type: transparent PNG production sprite atlas for a football Flappy Bird arcade. Create ONE square image, EXACT 2 columns x 2 rows, four equal square cells. Each cell contains ONE full-body flying football athlete character with silver-white feathered wings, football tucked in one arm, full team uniform and helmet, expressive recognizable athlete face visible behind facemask. Premium richly shaded dimensional sports-cartoon caricature in same visual family as Saquon Barkley wings. All characters face generally RIGHT. ENTIRE character including wings, helmet, football, hands and both cleats must fit INSIDE the CENTER 72% of each cell, with 14% clear transparent padding ON ALL FOUR SIDES OF EACH CELL. Do not enlarge characters to fill their cell, do not crop anything, absolutely no cross-cell overlap. Genuine transparent alpha outside characters, no backgrounds, no floor, no circles, no captions, no labels, no gridlines. Different face, physique and pose for each athlete. Only text is the correct jersey number. TOP LEFT: Puka Nacua, Los Angeles Rams jersey #17, royal blue and bright yellow uniform; broad Polynesian receiver, long dark flowing hair; high knee airborne sprint with football left. TOP RIGHT: Christian McCaffrey, San Francisco 49ers jersey #23, scarlet and gold uniform; muscular white running back, short blond hair; low power charge with football right. BOTTOM LEFT: Jaxon Smith-Njigba, Seattle Seahawks jersey #11, navy and neon green uniform; athletic brown-skinned receiver, short dark curly hair; graceful banking flight, wings swept up. BOTTOM RIGHT: James Cook, Buffalo Bills jersey #4, royal blue, white and red uniform; slender fast Black running back, dark locs; joyful hurdling flight with football hugged to chest.  Preserve proper team uniform colors and natural human skin tones. These are playful full-body flying athletes, not portrait stickers."
+        },
+        {
+            "file": "assets/player-sprites/current-flight-4.png",
+            "teams": [
+                "dolphins",
+                "patriots",
+                "jets",
+                "ravens"
+            ],
+            "prompt": "Use case: stylized-concept. Asset type: transparent PNG production sprite atlas for a football Flappy Bird arcade. Create ONE square image, EXACT 2 columns x 2 rows, four equal square cells. Each cell contains ONE full-body flying football athlete character with silver-white feathered wings, football tucked in one arm, full team uniform and helmet, expressive recognizable athlete face visible behind facemask. Premium richly shaded dimensional sports-cartoon caricature in same visual family as Saquon Barkley wings. All characters face generally RIGHT. ENTIRE character including wings, helmet, football, hands and both cleats must fit INSIDE the CENTER 72% of each cell, with 14% clear transparent padding ON ALL FOUR SIDES OF EACH CELL. Do not enlarge characters to fill their cell, do not crop anything, absolutely no cross-cell overlap. Genuine transparent alpha outside characters, no backgrounds, no floor, no circles, no captions, no labels, no gridlines. Different face, physique and pose for each athlete. Only text is the correct jersey number. TOP LEFT: Tyreek Hill, Miami Dolphins jersey #10, aqua and orange uniform; short muscular Black receiver with short dark hair; high knee airborne sprint with football left. TOP RIGHT: Rob Gronkowski, New England Patriots jersey #87, navy, silver and red uniform; huge tall white tight end, short brown hair, broad grin; low power charge with football right. BOTTOM LEFT: Breece Hall, New York Jets jersey #20, emerald green and white uniform; athletic Black runner, short dark hair; graceful banking flight, wings swept up. BOTTOM RIGHT: Derrick Henry, Baltimore Ravens jersey #22, purple, black and gold uniform; extremely tall muscular Black running back, long dark braided ponytail; joyful hurdling flight with football hugged to chest.  Preserve proper team uniform colors and natural human skin tones. These are playful full-body flying athletes, not portrait stickers."
+        },
+        {
+            "file": "assets/player-sprites/current-flight-5.png",
+            "teams": [
+                "bengals",
+                "browns",
+                "steelers",
+                "texans"
+            ],
+            "prompt": "Use case: stylized-concept. Asset type: transparent PNG production sprite atlas for a football Flappy Bird arcade. Create ONE square image, EXACT 2 columns x 2 rows, four equal square cells. Each cell contains ONE full-body flying football athlete character with silver-white feathered wings, football tucked in one arm, full team uniform and helmet, expressive recognizable athlete face visible behind facemask. Premium richly shaded dimensional sports-cartoon caricature in same visual family as Saquon Barkley wings. All characters face generally RIGHT. ENTIRE character including wings, helmet, football, hands and both cleats must fit INSIDE the CENTER 72% of each cell, with 14% clear transparent padding ON ALL FOUR SIDES OF EACH CELL. Do not enlarge characters to fill their cell, do not crop anything, absolutely no cross-cell overlap. Genuine transparent alpha outside characters, no backgrounds, no floor, no circles, no captions, no labels, no gridlines. Different face, physique and pose for each athlete. Only text is the correct jersey number. TOP LEFT: Ja’Marr Chase, Cincinnati Bengals jersey #1, orange and black tiger stripes uniform; lean muscular Black receiver, short dark locs; high knee airborne sprint with football left. TOP RIGHT: Nick Chubb, Cleveland Browns jersey #24, brown, orange and white uniform; very muscular Black running back, broad thighs, short hair; low power charge with football right. BOTTOM LEFT: T.J. Watt, Pittsburgh Steelers jersey #90, black and yellow uniform; tall muscular white defender, short brown hair; graceful banking flight, wings swept up. BOTTOM RIGHT: Nico Collins, Houston Texans jersey #12, navy and red uniform; tall lean Black receiver, dark locs; joyful hurdling flight with football hugged to chest.  Preserve proper team uniform colors and natural human skin tones. These are playful full-body flying athletes, not portrait stickers."
+        },
+        {
+            "file": "assets/player-sprites/current-flight-6.png",
+            "teams": [
+                "colts",
+                "jaguars",
+                "titans",
+                "broncos"
+            ],
+            "prompt": "Use case: stylized-concept. Asset type: transparent PNG production sprite atlas for a football Flappy Bird arcade. Create ONE square image, EXACT 2 columns x 2 rows, four equal square cells. Each cell contains ONE full-body flying football athlete character with silver-white feathered wings, football tucked in one arm, full team uniform and helmet, expressive recognizable athlete face visible behind facemask. Premium richly shaded dimensional sports-cartoon caricature in same visual family as Saquon Barkley wings. All characters face generally RIGHT. ENTIRE character including wings, helmet, football, hands and both cleats must fit INSIDE the CENTER 72% of each cell, with 14% clear transparent padding ON ALL FOUR SIDES OF EACH CELL. Do not enlarge characters to fill their cell, do not crop anything, absolutely no cross-cell overlap. Genuine transparent alpha outside characters, no backgrounds, no floor, no circles, no captions, no labels, no gridlines. Different face, physique and pose for each athlete. Only text is the correct jersey number. TOP LEFT: Jonathan Taylor, Indianapolis Colts jersey #28, royal blue and white uniform; muscular Black running back, short dark hair; high knee airborne sprint with football left. TOP RIGHT: Travis Etienne Jr., Jacksonville Jaguars jersey #1, teal, black and gold uniform; compact muscular Black running back, dark locs; low power charge with football right. BOTTOM LEFT: Derrick Henry, Tennessee Titans jersey #22, navy and light blue uniform; extremely tall muscular Black running back, long dark braided ponytail; graceful banking flight, wings swept up. BOTTOM RIGHT: Courtland Sutton, Denver Broncos jersey #14, orange and navy uniform; tall athletic Black receiver, short black hair; joyful hurdling flight with football hugged to chest.  Preserve proper team uniform colors and natural human skin tones. These are playful full-body flying athletes, not portrait stickers."
+        },
+        {
+            "file": "assets/player-sprites/current-flight-7.png",
+            "teams": [
+                "chiefs",
+                "raiders",
+                "chargers"
+            ],
+            "prompt": "Use case: stylized-concept. Asset type: transparent PNG production sprite atlas for a football Flappy Bird arcade. Create ONE square image, EXACT 2 columns x 2 rows, four equal square cells. Each cell contains ONE full-body flying football athlete character with silver-white feathered wings, football tucked in one arm, full team uniform and helmet, expressive recognizable athlete face visible behind facemask. Premium richly shaded dimensional sports-cartoon caricature in same visual family as Saquon Barkley wings. All characters face generally RIGHT. ENTIRE character including wings, helmet, football, hands and both cleats must fit INSIDE the CENTER 72% of each cell, with 14% clear transparent padding ON ALL FOUR SIDES OF EACH CELL. Do not enlarge characters to fill their cell, do not crop anything, absolutely no cross-cell overlap. Genuine transparent alpha outside characters, no backgrounds, no floor, no circles, no captions, no labels, no gridlines. Different face, physique and pose for each athlete. Only text is the correct jersey number. TOP LEFT: Travis Kelce, Kansas City Chiefs jersey #87, red and white uniform; tall muscular white tight end, short brown hair and beard; high knee airborne sprint with football left. TOP RIGHT: Ashton Jeanty, Las Vegas Raiders jersey #2, black and silver uniform; compact muscular Black runner, dark locs; low power charge with football right. BOTTOM LEFT: Ladd McConkey, Los Angeles Chargers jersey #15, powder blue and yellow uniform; lean white receiver, short sandy brown hair; graceful banking flight, wings swept up. BOTTOM RIGHT cell completely empty and transparent. Preserve proper team uniform colors and natural human skin tones. These are playful full-body flying athletes, not portrait stickers."
+        }
+    ]
+}

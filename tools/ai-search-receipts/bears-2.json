@@ -1,0 +1,109 @@
+{
+    "team": "bears",
+    "level": 1,
+    "sourceIndex": 7004,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/bears-7004.jpg",
+    "sourcePage": "https://www.chicagobears.com/photos/pnc-chicago-bears-5k-photos",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/bears/i6ix30sukmnx3benkmjx.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/bears.png",
+    "player": "Caleb Williams",
+    "face": [
+        1013.72,
+        424.58,
+        31.45,
+        44.34
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real bears crowd photograph to edit. Image 2 is Caleb Williams's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Caleb Williams, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual bears fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/bears-ai-v2-2.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/bears-ai-v2-2.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.7853221547432493,
+                0.5829062345304094,
+                0.037008263437371625,
+                0.08344567974872974
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.7853221547432493,
+        0.5829062345304094,
+        0.037008263437371625,
+        0.08344567974872974
+    ],
+    "history": [
+        {
+            "team": "bears",
+            "level": 1,
+            "sourceIndex": 7004,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/bears-7004.jpg",
+            "sourcePage": "https://www.chicagobears.com/photos/pnc-chicago-bears-5k-photos",
+            "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/bears/i6ix30sukmnx3benkmjx.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/bears.png",
+            "player": "Caleb Williams",
+            "face": [
+                1013.72,
+                424.58,
+                31.45,
+                44.34
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real bears crowd photograph to edit. Image 2 is Caleb Williams's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Caleb Williams, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual bears fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-6009ae5b-b247-42b5-9b89-0a50f75cf65f.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/bears-ai-v1-2.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.7853221547432493,
+                        0.5829062345304094,
+                        0.037008263437371625,
+                        0.08344567974872974
+                    ],
+                    "similarity": 0.7499806008418091,
+                    "distance": 0.0071359666480626215
+                },
+                {
+                    "target": [
+                        0.7510297510612525,
+                        0.5886817647344121,
+                        0.013879106147437521,
+                        0.033685599072706685
+                    ],
+                    "similarity": 0.16451496776062413,
+                    "distance": 0.0482862254298893
+                },
+                {
+                    "target": [
+                        0.8469345934995623,
+                        0.6388424134533159,
+                        0.021977291084362624,
+                        0.05162358704586209
+                    ],
+                    "similarity": 0.14017905963919475,
+                    "distance": 0.07069287842062645
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.7853221547432493,
+                0.5829062345304094,
+                0.037008263437371625,
+                0.08344567974872974
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "bears-2",
+    "focusCorrection": {
+        "sigmaPixels": 0.35,
+        "maskFeatherPixels": 8.044116140747096,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

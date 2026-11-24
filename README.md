@@ -1,135 +1,155 @@
-# Zack's Eagles fan arcade
+# Sunday Arcade
 
-Buildless HTML, CSS, and JavaScript served from `public/`. The site includes a local click counter with touchdown replays, Field Run, a harder Field Goal Challenge with crosswinds, Where’s Jalen?, Barkley Bird, saved appearance preferences, and a Firebase-backed visitor leaderboard.
+A buildless, unofficial NFL fan arcade: 32 teams, ten game types, team selection, local records, and optional shared fan/team leaderboards. Deployable files live in `public/`; the optional Firebase aggregation backend lives in `functions/`.
 
-## Local preview
+## Quick start
 
 ```sh
 python3 -m http.server 8000 --directory public
 ```
 
-Open `http://localhost:8000/`. Counter totals and appearance preferences use browser storage. No build or package installation is required.
+Open `http://localhost:8000/choose.html`. Direct links retain team selection, for example `index.html?team=cowboys` or `playbook.html?team=bears&game=pocket`. No frontend build or dependency installation is required.
 
-## Prevent accidental credential commits
+## Current behavior and preferences
 
-Install Gitleaks and enable this repository's Git hooks once per clone:
+Local refresh checkpoint: **November 22, 2026**. The character/crowd refresh was checked locally across all 32 teams and 160 search rounds, including desktop/mobile layouts. This does not establish what is currently deployed.
+
+- Front photos use equal landscape frames, clean source selections, and credits outside the home hero image. Bears and Broncos selections were replaced to avoid visible source marks.
+- Non-Eagles search follows one named player in five real team crowd photographs. The current revision uses AI edits to integrate the player naturally into the selected real crowd photographs, following the original Eagles look. All 31 non-Eagles teams use five visually reviewed AI-integrated edits each (155 rounds). The original Eagles Jalen scenes are preserved. Every replacement player joined the featured team in 2015 or later. These are fictional appearances, disclosed beside each photo with crowd and portrait source links. Face references, clues, up to 6× zoom, keyboard controls, saving, and replay remain available.
+- Preserve the original Eagles Jalen search and Flappy Bird gameplay/art unless requested otherwise. Eagles search still uses `search-level-1-v2.jpg` through `search-level-5-v2.jpg`; its target rectangles live in `jalen.js`. Eagles flight still uses `barkley-flight.png`.
+- The other eight game types use illustrated runner, quarterback, kicker, and defender roles, team settings, and gameplay variants. Shared engines remain, but team identity should extend beyond names and color swaps.
+- Light/dark themes, touch/keyboard controls, reduced-motion support, local records, badges, and team switching are supported. The scoreboard's `.team-leaderboard-link` panel has its own dark-theme styling in `teams.css`.
+
+## Source map
+
+Paths below are relative to `public/` unless prefixed with `tools/`, `tests/`, or `functions/`.
+
+| Area | Files |
+| --- | --- |
+| Team chooser | `choose.html`, `scripts/choose.js` |
+| Home / game lobby | `index.html`, `scripts/home.js`, `games.html`, `scripts/games.js` |
+| Team identities / storage / scoring | `scripts/teams-data.js`, `scripts/teams.js` |
+| Shared shell and appearance | `scripts/team-ui.js`, `scripts/theme.js`, `style.css`, `teams.css` |
+| Game viewport sizing and instructions | `game-screen.css`, `scripts/game-screen.js` |
+| Names, cards, photo credits, image drawing | `scripts/game-personality.js` |
+| Team gameplay rules | `scripts/team-rules.js` |
+| Four character roles and illustrated settings | `scripts/character-art.js`; canvas scenery: `scripts/team-art.js` |
+| Field run / flight / field goals | `game.html` + `scripts/game.js`; `barkley.html` + `scripts/barkley.js`; `kick.html` + `scripts/kick.js` |
+| Crowd search | `jalen.html`, `scripts/jalen.js`, `scripts/photo-scenes.js` |
+| Six playbook games | `playbook.html`, `scripts/playbook.js`, `scripts/playbook-data.js` |
+| Records, badges, continue links | `scripts/arcade.js` |
+| Click scoreboard / visit counter | `counter.html`, `scripts/counter.js`, `scripts/main.js` |
+| Fan/team rankings and opt-in publishing | `leaders.html`, `scripts/league-board.js`, `scripts/league-sync.js` |
+| Backend validation and totals | `firestore.rules`, `firestore.indexes.json`, `functions/index.js`, `functions/aggregate.js` |
+
+Initialization order matters: team core → generated data → game-personality → rules → character art where used → page UI/engine → game-screen layout. Check the affected HTML before moving scripts.
+
+## Artwork and data precedence
+
+Read small source manifests or query specific entries instead of dumping the large generated `personality-data.js` and `photo-scenes.js` files.
+
+| Active input | Purpose |
+| --- | --- |
+| `assets/team-photos/clean-selection.json` | Clean team-picker/home photos; general photo provenance remains in `assets/team-photos/sources.json` |
+| `assets/photo-search/consistent-crowd-scenes.json` | 31 teams × five crowd photo edits: one player identity, references, sources, full-head target rectangles; repaired sets use progress version 11 |
+| `assets/photo-search/rounds/` | Active non-Eagles crowd photo edits |
+| `assets/photo-search/real-sources/`, `real-players/` | Original crowd photos and photographic portrait/cutout inputs for reproducing the active composites |
+| `assets/photo-search/real-player-sources.json` | Portrait attribution and checked team playing seasons for all 31 replacement players |
+| `tools/real-search-placements.json`, `prepare-real-search.py` | Original selected photos, placement guides, source URLs, and legacy compositing helper; `render` refuses to overwrite accepted AI edits |
+| `assets/characters/cast-0.png` … `cast-7.png` | Eight 4×4 atlases, four teams per sheet; columns: runner, quarterback, kicker, defender |
+| `assets/characters/manifest.json` | 128 role mappings and character labels; runtime consumers also encode atlas ordering |
+| `tools/character-art-prompts.json` | Built-in image-generation prompts, including the transparency correction |
+| `assets/player-sprites/current-flight.json` | Current non-Eagles flight sprite selections |
+| `assets/game-covers/<team>.png` | Illustrated settings used behind characters; Eagles sheet is 4×2, others 5×2 |
+| `assets/game-covers/personality-sources.json` | Player identity/number/era input for generated browser data |
+| `assets/credits.txt` | Existing photography and generated-art credits |
+
+`node tools/build-game-art.mjs` validates inputs and rewrites `scripts/personality-data.js`, `scripts/photo-scenes.js`, and public artwork manifests. Its photo merge applies `consistent-crowd-scenes.json` **last**, overriding the older rotating-target and unrelated-scene datasets. It uses `clean-selection.json` for selection and hero photos. Update these inputs when making lasting changes.
+
+For search-only changes, `node tools/build-game-art.mjs --search-only` validates the 31 player records and 155 rounds, then rewrites only `photo-scenes.js`. The selected original photos and players stay fixed. Built-in image_gen edits integrate the player’s head, neck, clothing, pose, lighting, and foreground occlusion. `tools/ai-search-receipts/` records each executed prompt and generated output; `tools/ai-search-pending.json` is empty after completion, with status recorded in `tools/ai-search-status.json`. `tools/ai-search-review.json` records visually selected full-head targets. `tools/adopt-ai-search.py` activates only teams with all five reviewed rounds. `tools/ai-search-edits.json` consolidates the generation receipts.
+
+The subsequent naturalness review inspected all 155 replacements against the original photographs and flagged 87 for refinement. Thirty received new built-in image_gen edits for body connection, candid pose, head scale, caps, shade or foreground occlusion; 57 received only user-authorized local blur filters. Eight of the new AI repairs also received a small local blur adjustment. Filters preserve the existing AI integration and target rectangle; they never paste, move or resize a face. All 87 refinements were visually reviewed before activation as `*-ai-v2-*.jpg`; the other 68 rounds retain their accepted v1 images. Full-head targets were checked against each new AI output. The original Eagles photos and reference remain unchanged.
+
+`tools/ai-search-naturalness-audit.json` records findings and resolutions; `tools/ai-search-repairs/` retains executed AI prompts, raw output paths, filter settings and reviewed targets. `tools/prepare-search-repairs.py` packages edits and makes contextual review boards. `tools/match-search-focus.py` applies the explicitly authorized blur adjustments; `--ai SIGMA KEY` starts from the new AI repair rather than its older v1 image. Filter-only settings are in `tools/ai-search-focus-settings.json`. Review every staged result before using the `accept` command, then activate and rebuild search metadata. Do not rerun the legacy compositor over these edits.
+
+With `tools/real-search-requirements.txt` installed in a Python virtual environment, `python tools/prepare-real-search.py verify` checks original source hashes, portrait inputs, image integrity and size, bounded targets, reviewed AI output hashes, and localized insertions in the remaining legacy composites. `tools/review-ai-search.py TEAM` prepares candidate target review sheets using OpenCV YuNet and SFace models; these are proposals that require visual review. The old `render` command cannot recreate AI edits and refuses to overwrite them.
+
+Known limitation: the builder's `assets/game-covers/manifest.json` still lists legacy cover selections. Runtime character-based cards are chosen by `scripts/game-personality.js`; that function is authoritative for the visible cards. The builder does not regenerate the character PNGs or their role manifest. Do not run regeneration just to inspect the site.
+
+Older generated scenes, rotating-object photo-hunt manifests, SVG previews, mascot sheets, and sprite revisions remain archived on disk. They are not necessarily active. `scripts/team-search.js` is not loaded by the current search page; the old documented `photos=0` alternate is not wired up. Avoid reviving these accidentally.
+
+Eagles progress uses `jalenProgress` version 3. Non-Eagles progress uses `photoSearchProgress` with the active manifest's version (currently 8). Both contribute to the team-scoped `jalenCleared` completion record. Scene/target changes should bump the relevant version while preserving best records unless a reset is requested.
+
+## Records and scoring
+
+Records use `nfl:<teamId>:<key>`; switching teams preserves each club's progress. Original unscoped Eagles records migrate once without deleting them. Blocked storage falls back to an in-memory session. Internal links retain team IDs; return paths are restricted to local pages.
+
+Each game contributes `min(100, floor(rawRecord * 100 / target))` arcade points, for a maximum of 1,000. Fan clicks are ranked separately. Targets and record keys are defined in `scripts/teams.js`:
+
+| Game ID | Engine / full-point target |
+| --- | --- |
+| `game` | Field run: 5 clears |
+| `bird` | Flight: 20 gaps |
+| `search` | Consistent-person crowd search: 5 scenes |
+| `kick` | Field goals: 15 points |
+| `pocket` | Passing: 10 completions |
+| `shove` | Goal-line push: 5 touchdowns |
+| `recall` | Route memory: 8 rounds |
+| `punt` | Punting: 500 points |
+| `blitz` | Turn-based escape: 3 fields |
+| `signal` | Cipher: 1 call cracked |
+
+Rules vary by team: return carries, ordered pickups, patrols or slippery turf; gust/approach variants; pump fakes, deep reads or called receivers; power/moving snap windows; reverse/mirror/rotation/pair audibles; punt surface/air effects; blitz keys/transformed fields; and distinct/repeating/six-choice ciphers. Treat `team-rules.js` plus the engine as authoritative, rather than assuming every team shares identical rules.
+
+## Verification
+
+For documentation-only edits, check the changed text, links, and `git diff --check`; game tests are unnecessary. For code changes, syntax-check the affected files with `node --check` and verify actual browser behavior.
+
+Browser scripts require a static server on **8000**, dedicated Chrome with DevTools on **9224**, and Node with native `WebSocket`. They do not start those services. Start Chrome in a separate terminal from the static server, then run tests in another terminal:
 
 ```sh
-brew install gitleaks
-git config --local core.hooksPath .githooks
+'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --remote-debugging-port=9224 --user-data-dir=/private/tmp/sunday-arcade-qa about:blank
 ```
 
-The pre-commit hook scans staged changes; the pre-push hook scans the complete history of each outgoing ref, including credentials added and later deleted. Both block if the scanner is missing or finds a possible secret, and redact detected values in output. Hooks can be bypassed and scanners can miss secrets, so they are safeguards rather than a guarantee. Also enable GitHub repository **Settings → Code security → Push protection** where available; local hooks do not protect browser edits or other clones.
+```sh
+node tests/team-identity-browser.mjs
+node tests/photographic-search-browser.mjs
+```
 
-The current Firebase browser key in `public/scripts/firebase-config.js` is intentionally public. `.gitleaks.toml` permits only that exact value in that file and in the scanner configuration itself. A different key still requires review. Keep its Google Cloud API restrictions and deployed Firebase Security Rules in place.
+The current regression checks all homes, 160 search rounds, consistent identities, character loading, team mechanics, solvable blitz fields, cipher feedback, photo sizing, responsive layouts, and dark mode. `--search-only` checks homes/search. Older `personality-browser.mjs`, `game-screen-browser.mjs`, `visual-regressions-browser.mjs`, and `nfl-browser.mjs` may contain assertions about superseded artwork/modes; inspect those assertions before interpreting failures.
 
-Private API keys, tokens, passwords, and service account files must stay out of Git and out of `public/`. `.gitignore` excludes common local credential filenames, but cannot protect already tracked files or secrets pasted into source code. A secret embedded in browser JavaScript remains public even if it comes from an environment variable. If a real secret leaks, revoke or rotate it at its provider; deleting the file is insufficient.
+Visually review new photo targets against the final pictures: tests clicking metadata coordinates cannot establish that the right face is there or that the hunt is hard. Check new character sheets for real alpha transparency, correct role cells, readable size, and label overlap. Last local character validation found transparent corners and substantial empty alpha in all eight sheets.
 
-## Shared click leaderboard
+## Shared leaderboard backend
 
-The scoreboard page contains a top-25 leaderboard and an optional public nickname form. Firebase Anonymous Authentication identifies each browser profile; Firestore stores one entry per authenticated browser. Nicknames are not unique usernames. Clearing site data or using a different device can create another identity. Historical visitors cannot be reconstructed from browser-local totals; a visitor's existing total is imported when they join.
+Publishing is opt-in with a nickname and Firebase anonymous identity. A visitor can own one record per team; local games remain usable when shared services are unavailable. Browser-originated scores make this a casual leaderboard, not a cheat-proof competition.
 
-The existing Firebase project's public web configuration is in `public/scripts/firebase-config.js`. `leaderboardEnabled` is intentionally `false` until the backend is activated. The page clearly shows this state and continues counting locally.
+- `leagueFans/{uid}_{teamId}`: owner-published team/game records and normalized totals.
+- `teamStandings/{teamId}`: server-maintained aggregate across all published fans.
+- `leagueContributions/{uid}_{teamId}`: private aggregation ledger preventing duplicate contributions.
+- Existing `clickLeaders` and `barkleyLeaders` data/rules remain intact.
 
-To activate, after approval for the production changes:
+`functions/aggregate.js` applies transactional deltas from current fan state and the ledger; duplicate/out-of-order events must not double count. Rules validate ownership, fixed keys, bounded integers, monotonic records, normalization, timestamps, and bounded reads. Clients cannot write team totals.
 
-1. In Firebase project `zacksbasicstaticwebsite`, create a default Cloud Firestore database in production mode and select its location. This project's Firestore API was disabled when inspected.
-2. Enable **Authentication → Sign-in method → Anonymous**. Do not enable automatic anonymous-account cleanup if returning visitors should keep their identity indefinitely.
-3. Deploy the provided Firestore rules and index configuration:
+Only the backend has npm dependencies; it declares Node 22. Install dependencies, start emulators in one terminal, and run tests in another:
 
-   ```sh
-   firebase deploy --only firestore:rules,firestore:indexes --project zacksbasicstaticwebsite
-   ```
-
-4. Set `leaderboardEnabled = true` in `public/scripts/firebase-config.js`.
-5. Deploy the website with explicit authorization:
-
-   ```sh
-   firebase deploy --only hosting --project zacksbasicstaticwebsite
-   ```
-
-The board subscribes to the top 25 scores. Joined visitors' clicks sync at most once every five seconds while clicking, or immediately with **Sync score now**. Database transactions preserve the higher existing score. A returning identity restores a higher shared total without replaying old touchdown animations. Local counting continues if the shared service is unavailable. Unsent local clicks are retried on reconnection or the next visit.
-
-Rules allow each authenticated identity to create/update only its own entry, enforce names and safe nonnegative integer totals, prevent lowering a published total, and limit public queries to 25 entries. The app uses text nodes for names. These rules protect entry ownership, but the counts originate in the browser: this is a casual fan leaderboard, not a cheat-proof competition. Strong anti-cheat enforcement would require server-side click accounting. Users can also create multiple browser identities.
-
-## Leaderboard development and rules checks
-
-Use Firebase CLI and Java 21 or newer. The demo project prevents emulator tests from reaching production.
+```sh
+npm ci --prefix functions --ignore-scripts
+```
 
 ```sh
 firebase emulators:start --only auth,firestore --project demo-eagles-leaderboard
 ```
 
-In another terminal:
-
 ```sh
+node tests/league-rules.mjs
 node tests/leaderboard-rules.mjs
 ```
 
-Open `http://localhost:8000/counter.html?emulator=1` to connect to the local Auth emulator at port 9099 and Firestore emulator at port 8080. Emulator mode is accepted only on `localhost` and `127.0.0.1`, and uses project `demo-eagles-leaderboard`. Use two separate browser profiles to test rankings, tied scores, returning identities, and updates. Emulator test entries are not real visitors and never appear in production.
+Rules tests use Auth **9099** / Firestore **8080**. Keep the automatic Functions trigger stopped for `league-rules.mjs`, which drives aggregation directly. `tests/league-browser.mjs` instead requires Auth, Firestore, **and Functions** and uses the fixed demo project's fixtures. Use `leaders.html?team=eagles&emulator=1`; never point fixture-clearing tests at production. A stopped emulator causes connection-refused errors, not evidence of a gameplay regression.
 
-## Checks
+Deployment of hosting, rules, indexes, functions, or billing changes is a separate, explicitly authorized action. Check `firebase.json` and `.firebaserc` before deploying; do not assume local changes are live.
 
-```sh
-node --check public/scripts/main.js
-node --check public/scripts/theme.js
-node --check public/scripts/counter.js
-node --check public/scripts/leaderboard.js
-node --check public/scripts/game.js
-node --check public/scripts/kick.js
-node --check public/scripts/games.js
-```
+## Credential safeguards
 
-Verify all pages in light/dark mode at phone and desktop widths. Check local counter persistence, every seventh-click touchdown, both games, field boundaries and collectibles, and leaderboard errors with the network disconnected. Player photo credits are in `public/assets/credits.txt` and linked on the site.
-
-## New arcade games
-
-- `jalen.html`: Where’s Jalen? has five edited real crowd photos, with smaller, more naturally blended appearances. Outfits and expressions vary; use his face and optional clothing clues. Scenes are fixed so hit areas match the final photographs. Use mouse/touch, 1–3× zoom/pan, or a keyboard crosshair and Enter.
-- `barkley.html`: Barkley Bird uses Saquon’s photo and jersey number 26. Tap, click Flap, or use Space/Up while the canvas is focused. Gravity, obstacle and ground collisions, increasing speed, shrinking gaps, pause-on-hidden, restart, and a saved `barkleyBest` are included.
-- Field goals now start with a 16% aiming window and faster meter; the window shrinks to 6.8% by the last kick. Crosswinds shift the aim point each attempt. The displayed green zone already accounts for wind.
-
-### Barkley Bird global leaderboard
-
-The game uses the same optional nickname and anonymous-browser identity as the click leaderboard, but stores a separate best score in `barkleyLeaders/{uid}`. It shares `leaderboardEnabled` and the production activation requirements above. Scores never decrease; each browser can edit only its own entry. The included emulator rules tests also cover this collection. Scores are client-reported and intended for a casual fan game.
-
-For local multiplayer leaderboard testing, visit `http://localhost:8000/barkley.html?emulator=1` in separate browser profiles while the Auth and Firestore emulators run. No production database is used. Existing click totals and Field Run are preserved.
-
-## Photo search and nickname entry update
-
-Where’s Jalen? now uses five AI-edited real Eagles crowd photographs in `public/assets/search-level-1-v2.jpg` through `search-level-5-v2.jpg`. Each scene has a manually checked normalized target rectangle, photo loading/retry handling, 1–3× zoom, quadrant hints, and a keyboard crosshair (arrows, Shift for fine movement, Enter to guess). The game discloses the edits and links to the original fan gallery. The earlier vector crowd drawing is no longer used. These photo scenes are fixed so hit areas match the edited people; replay does not randomly relocate Jalen.
-
-Barkley Bird now uses `public/assets/barkley-flight.png`, a transparent winged #26 character, with layered stadium scenery, broadcast scoring, dimensional obstacles, and updated page/card styling. Generated asset prompts and sources are saved in `public/assets/generated-assets.json` and `credits.txt`.
-
-Leaderboard nickname inputs are always editable, even if Firebase setup or loading fails. A valid nickname saves as `fanNickname` locally and is reused on both leaderboard pages. With shared storage disabled, the submit button explicitly says **Save nickname on this browser**, and the response makes clear that the score has not been published. When Firebase is active, the same form joins the real shared board. No fake global entries are created.
-
-## Fan locker and arcade polish
-
-The homepage now has a **fan locker** showing the saved nickname, local click total, Barkley Bird best, field-goal best, and Jalen photos cleared. A validated last-game link appears both in the hero and locker. The main Games navigation opens the standalone `games.html` arcade lobby. It has its own featured game panel, four game cards, category filters, saved records, and a validated shortcut back to the last game played. All game pages link back to this lobby.
-
-Five badges reflect actual saved milestones: seven clicks, a Field Run win, nine field-goal points, all five Jalen photos, and five Barkley Bird gaps. Field Run records each win once, even if the finished scene redraws. Existing records count toward badges. Notifications only appear for milestones reached during play; the homepage also shows progress toward locked badges. Records remain browser-local.
-
-Where’s Jalen? now stores the current photo, found state, and wrong guesses in `jalenProgress` (version 3). Returning to a finished photo keeps the Next button usable; replay starts a new search while retaining the highest photo completion in `jalenCleared`. Invalid saved data falls back to the first photo. The progress strip shows the current search's five steps.
-
-Barkley Bird has a Pause/Resume button and a P-key shortcut while the canvas is focused. Resume preserves velocity; choosing Flap while paused resumes with a flap. Switching tabs still pauses automatically. Field Run, Field Goals and Barkley Bird have **Expand game** controls when the native Fullscreen API is available. The expanded field includes its controls and an exit button; keyboard focus moves into the canvas.
-
-`public/scripts/arcade.js` handles the locker, badges, continue links, and expanded views. Include it in syntax checks:
-
-```sh
-node --check public/scripts/arcade.js
-```
-
-Verified in Chrome: badge milestones; one-count-per-win; locker values and nickname; saved photo progress, completed-photo reload and replay; pause/resume/P; native fullscreen; all six pages in light/dark at widths 1440, 1024, 768, 390 and 320; malformed stored data and blocked browser storage. Production Firebase activation and deployment remain separate steps.
-
-## Immediate flap input and harder photo round
-
-Barkley Bird now handles Space/Up on `keydown` from the canvas, Flap button, or page background. It prevents the native delayed Space-on-button click on key release and ignores auto-repeat, other controls, nickname fields, and browser shortcut modifiers. A flap sets velocity to -360 px/s, applies an immediate 2 px lift, and redraws immediately; gravity is 1100 px/s² for a crisper response with similar jump height. Pause and pointer input are preserved.
-
-The current Jalen round uses `search-level-1-v2.jpg` through `search-level-5-v2.jpg`, with calm/smiling real reference photographs, natural-size figures deeper in the crowd, different clothing, and matching focus/occlusion. Hint one gives only clothing information; hint two optionally outlines an area. The face reference is `jalen-reference.jpg`. The revised target rectangles were checked against the final images. The old headband clue no longer applies.
-
-Saved progress is version 3 because all five photo locations changed. Older version-2 rounds restart at the first new photo; previous earned records and badges are retained. New version-3 progress still resumes normally. Current generated assets, exact built-in image_gen prompts, and refinements are recorded in `public/assets/search-hard-prompts.json`; original photo credits are in `credits.txt`.
-
-## Locker goals and layout cleanup
-
-The homepage locker includes Field Run clears alongside the other saved records. **Your next play** links to the unfinished badge with the highest proportion of progress; ties follow the badge order. Earning all five switches the panel to an arcade link. These suggestions use existing local records and add no new storage keys.
-
-The scoreboard plus is drawn in CSS to stay centered regardless of font metrics. The touchdown countdown uses singular wording for one click remaining. Continue links reset when the saved last game disappears and accept only known game filenames. Field Run preserves Ctrl/Cmd/Alt keyboard shortcuts. All pages include a JavaScript-disabled notice, and phone layouts give the fifth locker record and fifth badge a full row.
+Follow `AGENTS.md`: agents must not read or load real `.env` / `.env.*` credential files, including root `.env.local`. Keep them outside `public/`, ignored, and owner-only (`0600`). Sanitized example/sample files are the exception. No credentials belong in tracked files or browser assets. The existing restricted Firebase browser key is intentionally public; this exception does not extend to other keys. Keep `.githooks` enabled and do not broaden secret-scanner exceptions.

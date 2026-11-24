@@ -1,0 +1,60 @@
+{
+    "team": "cowboys",
+    "level": 1,
+    "sourceIndex": 10,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/cowboys-10.jpg",
+    "sourcePage": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/vx8jly27elv2pd2tvzhp.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/cowboys.png",
+    "player": "Dak Prescott",
+    "face": [
+        1119.79,
+        122.76,
+        39.18,
+        47.39
+    ],
+    "prompt": "Use case: compositing. Image 1 is the real cowboys crowd photograph to EDIT; image 2 is Dak Prescott's identity portrait; image 3 is ONLY the Where's Jalen natural-integration and search-difficulty reference. Preserve image 1's exact wide framing, setting, existing crowd, signage, colors and photo composition. Replace ONLY the one adult spectator whose face is centered near 89% across and 20% down with Dak Prescott naturally present as an ordinary spectator. AI-edit that person's visible head, connected neck, shoulders, upper body, skin and clothing as needed for a coherent lifelike person, retaining an appropriate casual cowboys fan outfit and the original spectator's natural pose. Match the surrounding fans' anatomy, head size, perspective, gaze, expression, exposure, shadow, color temperature, focus and photographic grain. Preserve foreground occlusion by people, hands, mesh or rails. The player should blend in like Jalen in image 3, identifiable by careful face comparison without standing out as a pasted studio portrait. Head no larger than the original fan's head or neighboring heads. Keep the rest of the photo unchanged. Exactly ONE Dak Prescott; no floating heads, stickers, giant faces, duplicate target, halos, target markers, arrows, new captions, studio lighting or newly imagined replacement crowd. Return just one edited landscape image 1, not a collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-3aa22598-522d-4031-a75c-b5266cf9b188.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/cowboys-ai-v1-2.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.7702957841425991,
+                0.1403129265488271,
+                0.05150433152486272,
+                0.11101927316404175
+            ],
+            "similarity": 0.5110821865309845,
+            "distance": 0.09416233315877223
+        },
+        {
+            "target": [
+                0.8086693630492288,
+                0.21031663268329487,
+                0.04057722885642895,
+                0.08692859807759362
+            ],
+            "similarity": 0.1375755919580115,
+            "distance": 0.08125871359981696
+        },
+        {
+            "target": [
+                0.6741590863095517,
+                0.14288811273199845,
+                0.04130146300393421,
+                0.09807093556451744
+            ],
+            "similarity": 0.2289508449684945,
+            "distance": 0.19549385721359147
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.7702957841425991,
+        0.1403129265488271,
+        0.05150433152486272,
+        0.11101927316404175
+    ]
+}

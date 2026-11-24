@@ -1,0 +1,51 @@
+{
+    "lions": [
+        "A dark Lions cap and a blue zip-up jacket.",
+        "No hat, curly hair, and a blue number 9 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat, curly hair, and a blue Lions sweatshirt.",
+        "A blue Lions cap and dark hoodie."
+    ],
+    "cardinals": [
+        "A dark Cardinals cap and a red-and-black zip-up jacket.",
+        "No hat and a red number 13 jersey.",
+        "A black knit cap and gray zip-up hoodie.",
+        "No hat and a plain red Cardinals sweatshirt.",
+        "A red Cardinals cap and black hoodie."
+    ],
+    "commanders": [
+        "A burgundy W cap and burgundy jacket over a white collar.",
+        "No hat, curly brown hair, and a burgundy number 7 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat and a burgundy Commanders sweatshirt.",
+        "A burgundy W cap and dark hoodie."
+    ],
+    "bears": [
+        "A navy C cap and navy jacket with orange lining.",
+        "No hat and a navy number 9 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat and a navy C sweatshirt.",
+        "A navy C cap and dark hoodie."
+    ],
+    "saints": [
+        "A black Saints cap and dark jacket with tan trim.",
+        "No hat and a black number 9 jersey.",
+        "A black Saints knit cap and gray hoodie.",
+        "No hat and a black Saints sweatshirt.",
+        "A black-and-gold Saints cap and black hoodie."
+    ],
+    "seahawks": [
+        "A dark Seahawks cap and navy zip-up jacket.",
+        "No hat, a receding hairline, and a navy number 8 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat, a receding hairline, and a navy Seahawks sweatshirt.",
+        "A navy Seahawks cap and dark hoodie."
+    ],
+    "buccaneers": [
+        "A dark Buccaneers cap, gray beard, and red zip-up jacket.",
+        "No hat, a gray beard, and a red number 17 jersey.",
+        "A black knit cap, gray beard, and gray hoodie.",
+        "No hat and a red Buccaneers sweatshirt.",
+        "A dark Buccaneers cap, gray beard, and black hoodie."
+    ]
+}

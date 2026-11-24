@@ -1,0 +1,947 @@
+{
+    "status": "complete",
+    "reviewedPhotos": 155,
+    "criteria": [
+        "Connected head, neck and body with plausible occlusion",
+        "Candid gaze and pose consistent with source scene",
+        "Head/body scale and optical focus matching original spectators"
+    ],
+    "teams": {
+        "cowboys": {
+            "4": "Face is crisper than the rear-row spectators; chain-link fence should continue across the player at the same depth.",
+            "5": "Head appears detached behind foreground men; restore believable neck/shoulder connection and match the crowd gaze instead of looking upward."
+        },
+        "giants": {
+            "2": "Studio-sharp head against strongly defocused neighbors; oversized shoulders and direct camera smile stand out.",
+            "3": "Player head and neck much sharper than adjacent faces; match the original spectator pose and background blur.",
+            "4": "Player face sharper than the rest of this distant row; match the original upward cheering pose and focus.",
+            "5": "Player face substantially sharper than nearby crowd and feels pasted over blurred body."
+        },
+        "commanders": {
+            "1": "Head sharper and larger than the original distant spectator; match shaded background focus and spectator gaze.",
+            "2": "Face turns toward viewer while nearby crowd watches foreground player; match original clapping pose and gaze away from camera.",
+            "3": "Crisp face against soft surrounding spectators; match background focus and candid crowd expression."
+        },
+        "bears": {
+            "1": "Face and hoodie too crisp behind the mascot; match original fan depth of field and look toward the action rather than camera.",
+            "2": "Head is posed upright over a running body; restore natural running head tilt/gaze and matching sun/focus.",
+            "3": "Rigid front-facing portrait on moving runner; match original runner head angle, cap and motion.",
+            "4": "Face enlarged and too crisp in a small seated row; match original head scale, neighboring focus and spectator gaze.",
+            "5": "Sole neutral direct-to-camera face in cheering group; integrate a candid cheering expression and local warm/blue light."
+        },
+        "lions": {
+            "1": "Head is far sharper than original background fan and adjacent faces; match strong local defocus.",
+            "2": "Direct camera-facing portrait gaze differs from cheering spectators watching the field; match their attention and posture.",
+            "3": "Inserted head and upper body sharply defined where original spectator and nearby row are defocused.",
+            "5": "Head and blue shirt too crisp for original back-row focus; match adjacent background spectators."
+        },
+        "falcons": {
+            "2": "Head much sharper than the nearby faces at the same depth.",
+            "3": "Face is conspicuously bright/clear in a deep shaded row; match local shade, cap occlusion and focus.",
+            "4": "Head oversized and sharp against defocused rear crowd; restore original scale and blur.",
+            "5": "Head faces opposite the original spectator and crowd; match natural viewing direction and local focus."
+        },
+        "panthers": {
+            "2": "Head enlarged and sharply outlined compared with the original mid-row fan; match original scale and background focus.",
+            "3": "Inserted head and upper body enlarged relative to the original spectator and adjacent heads.",
+            "4": "Face much crisper than surrounding seated spectators; match local focus.",
+            "5": "Sharp face turns toward viewer instead of following original spectator gaze; match neighboring focus and viewing direction."
+        },
+        "vikings": {
+            "1": "Inserted face sharply defined and bright in shaded, defocused crowd.",
+            "3": "Large crisp smiling head on soft crowd body; restore original head scale and focus.",
+            "4": "Head/neck connection and gaze conflict with body and nearby spectators watching the foreground person; match original pose.",
+            "5": "Sharp static head stands out in motion-blurred cheering group; match motion softness."
+        },
+        "buccaneers": {
+            "2": "Neutral direct studio portrait among animated crowd, sharp and differently lit; match candid cheering, local focus and sunlight.",
+            "3": "Player enlarged and sharper than original distant spectator; restore original body/head scale and defocus.",
+            "5": "Oversized sharp head/shoulders compared with the original small spectator; match original scale and focus."
+        },
+        "rams": {
+            "2": "Face too crisp in soft background row and directly posed at the viewer; match original head angle and local defocus.",
+            "3": "Small isolated head appears pasted between foreground people; restore plausible hidden body/neck and original strong background blur.",
+            "5": "Inserted head larger and sharper than original rear-row fan; match original scale and optical softness."
+        },
+        "jets": {
+            "2": "Face sharper than surrounding background people and turns away from original spectator gaze.",
+            "3": "Face looks like a posed portrait in a candid crowd; match original cheering expression, head angle and surrounding focus.",
+            "4": "Head very sharp against strongly defocused original row.",
+            "5": "Isolated sharp head against very blurred body/crowd; restore original scale, connected shoulders, and strong defocus."
+        },
+        "steelers": {},
+        "colts": {
+            "1": "Crisp enlarged head amid defocused back-row people; match original small head and optical blur.",
+            "3": "Head is enlarged above the original partly occluded spectator; match original head size, upward gaze, and local focus.",
+            "5": "Head enlarged above nearby people with overly crisp detail; restore original scale and shoulder/neck placement."
+        },
+        "texans": {
+            "2": "Head enlarged and sharper than original middle-row fan; retain original raised-arm body and match neighboring face scale/focus.",
+            "3": "Inserted head larger and crisper than original spectator; restore candid cheering pose and local focus.",
+            "5": "Inserted head larger and crisper than original distant fan behind foreground spectators; match original scale and blur."
+        },
+        "titans": {
+            "1": "Large detached-looking head above occluded torso; restore original scale and plausible neck/shoulder placement.",
+            "2": "Neutral studio expression and camera gaze stand out amid animated spectators; match original head angle and cheering body.",
+            "3": "Head/shoulders enlarged into a front-facing portrait; restore original spectator scale, pose and focus.",
+            "4": "Head turns toward camera while original spectator and crowd watch the action; match original torso/head angle and scale.",
+            "5": "Crisp front-facing portrait expression; match original hooded spectator scale, candid gaze and local focus."
+        },
+        "broncos": {
+            "2": "Head enlarged and more saturated/crisp than original shaded spectator; restore original scale and local sunlight/focus.",
+            "3": "Isolated sharply defined head appears detached in heavily defocused crowd; restore original head size, shoulders and strong blur.",
+            "4": "Head enlarged and sharply posed toward camera; match original fan head size and candid viewing angle.",
+            "5": "Head enlarged and body appears in front of railings that should occlude it; restore original spectator scale and rail occlusion."
+        },
+        "raiders": {
+            "2": "Head lifted toward camera instead of original downward viewing angle; enlarged studio-like face stands out.",
+            "3": "Neutral face stares at camera instead of following original cameraman gaze toward foreground player; restore coherent neck/head angle.",
+            "4": "Head looks directly at viewer while original fan and nearby crowd look toward action; match natural body/gaze.",
+            "5": "Player enlarged and shifted forward from original rear-row fan; restore original scale, body depth and pose."
+        },
+        "patriots": {
+            "2": "Face markedly sharper than adjacent poncho-wearing fans; match original background defocus.",
+            "3": "Face much sharper than original hooded spectator and nearby row; match local rain/focus.",
+            "4": "Sharp camera-facing head above partly hidden body; match original spectator angle, shoulder connection and focus."
+        },
+        "chargers": {},
+        "cardinals": {
+            "1": "Head/face enlarged and far sharper than original spectator and neighboring row.",
+            "2": "Crisp camera-facing portrait smile instead of original spectator gaze toward field; match local soft focus and pose.",
+            "3": "Sharp enlarged face inside strongly defocused background; match original size and optical blur.",
+            "4": "Enlarged crisp head amid smaller soft neighboring faces; restore original scale and focus.",
+            "5": "Head/body enlarged with portrait smile facing viewer; match original candid cheering pose, gaze and head scale."
+        },
+        "chiefs": {
+            "1": "Inserted head is enlarged and more forward/posed than original mid-row spectator; match original head scale, sunglasses/occlusion and viewing angle.",
+            "5": "Crisp enlarged head above obscured body in a dim crowd; match original scale and shaded local focus."
+        },
+        "seahawks": {
+            "3": "Inserted face is sharper than original mid-background spectator and similarly distant fans; match local defocus.",
+            "4": "Crisp enlarged head in soft rear row; restore original spectator scale and optical focus."
+        },
+        "packers": {
+            "2": "Face sharply defined where original spectator and adjacent crowd are substantially defocused.",
+            "4": "Head enlarged with frontal portrait smile instead of original partly hidden cheering fan; restore scale, pose and local focus."
+        },
+        "49ers": {},
+        "dolphins": {},
+        "bills": {},
+        "bengals": {
+            "1": "Face still substantially crisper than original background hooded fan and others behind foreground group; match optical defocus.",
+            "2": "Face still too detailed relative to original capped spectator and nearby faces; match optical softness and original pose.",
+            "5": "Crisp neutral portrait above obscured body in strongly soft distant row; match candid gaze, scale and original blur."
+        },
+        "saints": {
+            "2": "Head tilted up/away from the player while original spectator and nearby people look down toward the interaction; match natural head/neck angle.",
+            "4": "Face and head are much sharper/larger than original spectator in defocused crowd; restore original scale and focus."
+        },
+        "jaguars": {
+            "3": "Studio-like direct camera gaze instead of original spectator angle toward action; match candid body/head pose and local focus.",
+            "4": "Enlarged crisp head with posed expression above occluded body; restore original spectator scale and focus.",
+            "5": "Large sharply defined portrait-like head appears isolated in distant crowd; restore original head scale, body connection, action gaze and strong local defocus."
+        },
+        "ravens": {
+            "1": "Inserted head enlarged and sharper than original heavily defocused background fan; match original scale and blur.",
+            "2": "Crisp enlarged face in a soft rear row; restore original scale, gaze and local focus.",
+            "4": "Head enlarged and brought forward relative to original distant spectator; restore original depth, scale and strong defocus.",
+            "5": "Enlarged crisp face posed at viewer while original spectator watches action; restore original scale and candid head direction."
+        },
+        "browns": {
+            "4": "Head enlarged relative to original seated spectator and nearby people, creating an oversized head/neck; restore original body scale.",
+            "5": "Crisp smiling face stares toward viewer while original press-row spectator watches the foreground event; match natural gaze and local focus."
+        }
+    },
+    "repairs": [
+        {
+            "team": "cowboys",
+            "round": 4,
+            "issue": "Face is crisper than the rear-row spectators; chain-link fence should continue across the player at the same depth.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared at equal scale with original and previous edit. Connected pose and foreground occlusions restored; full-head target adjusted to actual final image.",
+            "receipt": "tools/ai-search-repairs/cowboys-4.json"
+        },
+        {
+            "team": "cowboys",
+            "round": 5,
+            "issue": "Head appears detached behind foreground men; restore believable neck/shoulder connection and match the crowd gaze instead of looking upward.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Inspected original, previous insertion and full repaired scene at equal magnification. Natural head/body connection, original candid attention and foreground occlusion retained. Full visible head/cap bounds reviewed on final 1672 by 941 image.",
+            "receipt": "tools/ai-search-repairs/cowboys-5.json"
+        },
+        {
+            "team": "giants",
+            "round": 2,
+            "issue": "Studio-sharp head against strongly defocused neighbors; oversized shoulders and direct camera smile stand out.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/giants-2.json"
+        },
+        {
+            "team": "giants",
+            "round": 3,
+            "issue": "Player head and neck much sharper than adjacent faces; match the original spectator pose and background blur.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/giants-3.json"
+        },
+        {
+            "team": "giants",
+            "round": 4,
+            "issue": "Player face sharper than the rest of this distant row; match the original upward cheering pose and focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/giants-4.json"
+        },
+        {
+            "team": "giants",
+            "round": 5,
+            "issue": "Player face substantially sharper than nearby crowd and feels pasted over blurred body.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/giants-5.json"
+        },
+        {
+            "team": "commanders",
+            "round": 1,
+            "issue": "Head sharper and larger than the original distant spectator; match shaded background focus and spectator gaze.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/commanders-1.json"
+        },
+        {
+            "team": "commanders",
+            "round": 2,
+            "issue": "Face turns toward viewer while nearby crowd watches foreground player; match original clapping pose and gaze away from camera.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared final, previous insertion and original at equal magnification. Restored original cap/occlusion where present; candid attention, expression, shade and connected body reviewed. Target includes visible full head and cap, checked on final native image.",
+            "receipt": "tools/ai-search-repairs/commanders-2.json"
+        },
+        {
+            "team": "commanders",
+            "round": 3,
+            "issue": "Crisp face against soft surrounding spectators; match background focus and candid crowd expression.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/commanders-3.json"
+        },
+        {
+            "team": "bears",
+            "round": 1,
+            "issue": "Face and hoodie too crisp behind the mascot; match original fan depth of field and look toward the action rather than camera.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/bears-1.json"
+        },
+        {
+            "team": "bears",
+            "round": 2,
+            "issue": "Head is posed upright over a running body; restore natural running head tilt/gaze and matching sun/focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/bears-2.json"
+        },
+        {
+            "team": "bears",
+            "round": 3,
+            "issue": "Rigid front-facing portrait on moving runner; match original runner head angle, cap and motion.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared final, previous insertion and original at equal magnification. Restored original cap/occlusion where present; candid attention, expression, shade and connected body reviewed. Target includes visible full head and cap, checked on final native image.",
+            "receipt": "tools/ai-search-repairs/bears-3.json"
+        },
+        {
+            "team": "bears",
+            "round": 4,
+            "issue": "Face enlarged and too crisp in a small seated row; match original head scale, neighboring focus and spectator gaze.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/bears-4.json"
+        },
+        {
+            "team": "bears",
+            "round": 5,
+            "issue": "Sole neutral direct-to-camera face in cheering group; integrate a candid cheering expression and local warm/blue light.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared final, previous insertion and original at equal magnification. Restored original cap/occlusion where present; candid attention, expression, shade and connected body reviewed. Target includes visible full head and cap, checked on final native image.",
+            "receipt": "tools/ai-search-repairs/bears-5.json"
+        },
+        {
+            "team": "lions",
+            "round": 1,
+            "issue": "Head is far sharper than original background fan and adjacent faces; match strong local defocus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/lions-1.json"
+        },
+        {
+            "team": "lions",
+            "round": 2,
+            "issue": "Direct camera-facing portrait gaze differs from cheering spectators watching the field; match their attention and posture.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared final, previous insertion and original at equal magnification. Restored original cap/occlusion where present; candid attention, expression, shade and connected body reviewed. Target includes visible full head and cap, checked on final native image.",
+            "receipt": "tools/ai-search-repairs/lions-2.json"
+        },
+        {
+            "team": "lions",
+            "round": 3,
+            "issue": "Inserted head and upper body sharply defined where original spectator and nearby row are defocused.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/lions-3.json"
+        },
+        {
+            "team": "lions",
+            "round": 5,
+            "issue": "Head and blue shirt too crisp for original back-row focus; match adjacent background spectators.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/lions-5.json"
+        },
+        {
+            "team": "falcons",
+            "round": 2,
+            "issue": "Head much sharper than the nearby faces at the same depth.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/falcons-2.json"
+        },
+        {
+            "team": "falcons",
+            "round": 3,
+            "issue": "Face is conspicuously bright/clear in a deep shaded row; match local shade, cap occlusion and focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared final, previous insertion and original at equal magnification. Restored original cap/occlusion where present; candid attention, expression, shade and connected body reviewed. Target includes visible full head and cap, checked on final native image.",
+            "receipt": "tools/ai-search-repairs/falcons-3.json"
+        },
+        {
+            "team": "falcons",
+            "round": 4,
+            "issue": "Head oversized and sharp against defocused rear crowd; restore original scale and blur.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/falcons-4.json"
+        },
+        {
+            "team": "falcons",
+            "round": 5,
+            "issue": "Head faces opposite the original spectator and crowd; match natural viewing direction and local focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Original attention direction, partly hidden body and casual clothing restored; compared equal-scale contextual crops against original. Full visible head/cap target reviewed at native resolution.",
+            "receipt": "tools/ai-search-repairs/falcons-5.json"
+        },
+        {
+            "team": "panthers",
+            "round": 2,
+            "issue": "Head enlarged and sharply outlined compared with the original mid-row fan; match original scale and background focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/panthers-2.json"
+        },
+        {
+            "team": "panthers",
+            "round": 3,
+            "issue": "Inserted head and upper body enlarged relative to the original spectator and adjacent heads.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/panthers-3.json"
+        },
+        {
+            "team": "panthers",
+            "round": 4,
+            "issue": "Face much crisper than surrounding seated spectators; match local focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/panthers-4.json"
+        },
+        {
+            "team": "panthers",
+            "round": 5,
+            "issue": "Sharp face turns toward viewer instead of following original spectator gaze; match neighboring focus and viewing direction.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/panthers-5.json"
+        },
+        {
+            "team": "vikings",
+            "round": 1,
+            "issue": "Inserted face sharply defined and bright in shaded, defocused crowd.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/vikings-1.json"
+        },
+        {
+            "team": "vikings",
+            "round": 3,
+            "issue": "Large crisp smiling head on soft crowd body; restore original head scale and focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/vikings-3.json"
+        },
+        {
+            "team": "vikings",
+            "round": 4,
+            "issue": "Head/neck connection and gaze conflict with body and nearby spectators watching the foreground person; match original pose.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Inspected original, previous insertion and full repaired scene at equal magnification. Natural head/body connection, original candid attention and foreground occlusion retained. Full visible head/cap bounds reviewed on final 1672 by 941 image.",
+            "receipt": "tools/ai-search-repairs/vikings-4.json"
+        },
+        {
+            "team": "vikings",
+            "round": 5,
+            "issue": "Sharp static head stands out in motion-blurred cheering group; match motion softness.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/vikings-5.json"
+        },
+        {
+            "team": "buccaneers",
+            "round": 2,
+            "issue": "Neutral direct studio portrait among animated crowd, sharp and differently lit; match candid cheering, local focus and sunlight.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Original attention direction, partly hidden body and casual clothing restored; compared equal-scale contextual crops against original. Full visible head/cap target reviewed at native resolution.",
+            "receipt": "tools/ai-search-repairs/buccaneers-2.json"
+        },
+        {
+            "team": "buccaneers",
+            "round": 3,
+            "issue": "Player enlarged and sharper than original distant spectator; restore original body/head scale and defocus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Original attention direction, partly hidden body and casual clothing restored; compared equal-scale contextual crops against original. Full visible head/cap target reviewed at native resolution.",
+            "receipt": "tools/ai-search-repairs/buccaneers-3.json"
+        },
+        {
+            "team": "buccaneers",
+            "round": 5,
+            "issue": "Oversized sharp head/shoulders compared with the original small spectator; match original scale and focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/buccaneers-5.json"
+        },
+        {
+            "team": "rams",
+            "round": 2,
+            "issue": "Face too crisp in soft background row and directly posed at the viewer; match original head angle and local defocus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/rams-2.json"
+        },
+        {
+            "team": "rams",
+            "round": 3,
+            "issue": "Small isolated head appears pasted between foreground people; restore plausible hidden body/neck and original strong background blur.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared at equal scale with original and previous edit. Connected pose and foreground occlusions restored; full-head target adjusted to actual final image.",
+            "receipt": "tools/ai-search-repairs/rams-3.json"
+        },
+        {
+            "team": "rams",
+            "round": 5,
+            "issue": "Inserted head larger and sharper than original rear-row fan; match original scale and optical softness.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/rams-5.json"
+        },
+        {
+            "team": "jets",
+            "round": 2,
+            "issue": "Face sharper than surrounding background people and turns away from original spectator gaze.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/jets-2.json"
+        },
+        {
+            "team": "jets",
+            "round": 3,
+            "issue": "Face looks like a posed portrait in a candid crowd; match original cheering expression, head angle and surrounding focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/jets-3.json"
+        },
+        {
+            "team": "jets",
+            "round": 4,
+            "issue": "Head very sharp against strongly defocused original row.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/jets-4.json"
+        },
+        {
+            "team": "jets",
+            "round": 5,
+            "issue": "Isolated sharp head against very blurred body/crowd; restore original scale, connected shoulders, and strong defocus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Inspected original, previous insertion and full repaired scene at equal magnification. Natural head/body connection, original candid attention and foreground occlusion retained. Full visible head/cap bounds reviewed on final 1672 by 941 image.",
+            "receipt": "tools/ai-search-repairs/jets-5.json"
+        },
+        {
+            "team": "colts",
+            "round": 1,
+            "issue": "Crisp enlarged head amid defocused back-row people; match original small head and optical blur.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/colts-1.json"
+        },
+        {
+            "team": "colts",
+            "round": 3,
+            "issue": "Head is enlarged above the original partly occluded spectator; match original head size, upward gaze, and local focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/colts-3.json"
+        },
+        {
+            "team": "colts",
+            "round": 5,
+            "issue": "Head enlarged above nearby people with overly crisp detail; restore original scale and shoulder/neck placement.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/colts-5.json"
+        },
+        {
+            "team": "texans",
+            "round": 2,
+            "issue": "Head enlarged and sharper than original middle-row fan; retain original raised-arm body and match neighboring face scale/focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/texans-2.json"
+        },
+        {
+            "team": "texans",
+            "round": 3,
+            "issue": "Inserted head larger and crisper than original spectator; restore candid cheering pose and local focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/texans-3.json"
+        },
+        {
+            "team": "texans",
+            "round": 5,
+            "issue": "Inserted head larger and crisper than original distant fan behind foreground spectators; match original scale and blur.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/texans-5.json"
+        },
+        {
+            "team": "titans",
+            "round": 1,
+            "issue": "Large detached-looking head above occluded torso; restore original scale and plausible neck/shoulder placement.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared at equal scale with original and previous edit. Connected pose and foreground occlusions restored; full-head target adjusted to actual final image.",
+            "receipt": "tools/ai-search-repairs/titans-1.json"
+        },
+        {
+            "team": "titans",
+            "round": 2,
+            "issue": "Neutral studio expression and camera gaze stand out amid animated spectators; match original head angle and cheering body.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Original attention direction, partly hidden body and casual clothing restored; compared equal-scale contextual crops against original. Full visible head/cap target reviewed at native resolution.",
+            "receipt": "tools/ai-search-repairs/titans-2.json"
+        },
+        {
+            "team": "titans",
+            "round": 3,
+            "issue": "Head/shoulders enlarged into a front-facing portrait; restore original spectator scale, pose and focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Original attention direction, partly hidden body and casual clothing restored; compared equal-scale contextual crops against original. Full visible head/cap target reviewed at native resolution.",
+            "receipt": "tools/ai-search-repairs/titans-3.json"
+        },
+        {
+            "team": "titans",
+            "round": 4,
+            "issue": "Head turns toward camera while original spectator and crowd watch the action; match original torso/head angle and scale.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared original, former integration and final repaired photo at equal scale. Rail occlusion restored in Denver; original caps/hood and body depth retained elsewhere. Natural profile or downward attention and connected neck/shoulders inspected. Target includes visible head/hair/cap.",
+            "receipt": "tools/ai-search-repairs/titans-4.json"
+        },
+        {
+            "team": "titans",
+            "round": 5,
+            "issue": "Crisp front-facing portrait expression; match original hooded spectator scale, candid gaze and local focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared original, former integration and final repaired photo at equal scale. Rail occlusion restored in Denver; original caps/hood and body depth retained elsewhere. Natural profile or downward attention and connected neck/shoulders inspected. Target includes visible head/hair/cap.",
+            "receipt": "tools/ai-search-repairs/titans-5.json"
+        },
+        {
+            "team": "broncos",
+            "round": 2,
+            "issue": "Head enlarged and more saturated/crisp than original shaded spectator; restore original scale and local sunlight/focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/broncos-2.json"
+        },
+        {
+            "team": "broncos",
+            "round": 3,
+            "issue": "Isolated sharply defined head appears detached in heavily defocused crowd; restore original head size, shoulders and strong blur.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared at equal scale with original and previous edit. Connected pose and foreground occlusions restored; full-head target adjusted to actual final image.",
+            "receipt": "tools/ai-search-repairs/broncos-3.json"
+        },
+        {
+            "team": "broncos",
+            "round": 4,
+            "issue": "Head enlarged and sharply posed toward camera; match original fan head size and candid viewing angle.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/broncos-4.json"
+        },
+        {
+            "team": "broncos",
+            "round": 5,
+            "issue": "Head enlarged and body appears in front of railings that should occlude it; restore original spectator scale and rail occlusion.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared original, former integration and final repaired photo at equal scale. Rail occlusion restored in Denver; original caps/hood and body depth retained elsewhere. Natural profile or downward attention and connected neck/shoulders inspected. Target includes visible head/hair/cap.",
+            "receipt": "tools/ai-search-repairs/broncos-5.json"
+        },
+        {
+            "team": "raiders",
+            "round": 2,
+            "issue": "Head lifted toward camera instead of original downward viewing angle; enlarged studio-like face stands out.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared original, former integration and final repaired photo at equal scale. Rail occlusion restored in Denver; original caps/hood and body depth retained elsewhere. Natural profile or downward attention and connected neck/shoulders inspected. Target includes visible head/hair/cap.",
+            "receipt": "tools/ai-search-repairs/raiders-2.json"
+        },
+        {
+            "team": "raiders",
+            "round": 3,
+            "issue": "Neutral face stares at camera instead of following original cameraman gaze toward foreground player; restore coherent neck/head angle.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Inspected original, previous insertion and full repaired scene at equal magnification. Natural head/body connection, original candid attention and foreground occlusion retained. Full visible head/cap bounds reviewed on final 1672 by 941 image.",
+            "receipt": "tools/ai-search-repairs/raiders-3.json"
+        },
+        {
+            "team": "raiders",
+            "round": 4,
+            "issue": "Head looks directly at viewer while original fan and nearby crowd look toward action; match natural body/gaze.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/raiders-4.json"
+        },
+        {
+            "team": "raiders",
+            "round": 5,
+            "issue": "Player enlarged and shifted forward from original rear-row fan; restore original scale, body depth and pose.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Compared original, former integration and final repaired photo at equal scale. Rail occlusion restored in Denver; original caps/hood and body depth retained elsewhere. Natural profile or downward attention and connected neck/shoulders inspected. Target includes visible head/hair/cap.",
+            "receipt": "tools/ai-search-repairs/raiders-5.json"
+        },
+        {
+            "team": "patriots",
+            "round": 2,
+            "issue": "Face markedly sharper than adjacent poncho-wearing fans; match original background defocus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/patriots-2.json"
+        },
+        {
+            "team": "patriots",
+            "round": 3,
+            "issue": "Face much sharper than original hooded spectator and nearby row; match local rain/focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/patriots-3.json"
+        },
+        {
+            "team": "patriots",
+            "round": 4,
+            "issue": "Sharp camera-facing head above partly hidden body; match original spectator angle, shoulder connection and focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Inspected original, previous insertion and full repaired scene at equal magnification. Natural head/body connection, original candid attention and foreground occlusion retained. Full visible head/cap bounds reviewed on final 1672 by 941 image.",
+            "receipt": "tools/ai-search-repairs/patriots-4.json"
+        },
+        {
+            "team": "cardinals",
+            "round": 1,
+            "issue": "Head/face enlarged and far sharper than original spectator and neighboring row.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/cardinals-1.json"
+        },
+        {
+            "team": "cardinals",
+            "round": 2,
+            "issue": "Crisp camera-facing portrait smile instead of original spectator gaze toward field; match local soft focus and pose.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/cardinals-2.json"
+        },
+        {
+            "team": "cardinals",
+            "round": 3,
+            "issue": "Sharp enlarged face inside strongly defocused background; match original size and optical blur.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/cardinals-3.json"
+        },
+        {
+            "team": "cardinals",
+            "round": 4,
+            "issue": "Enlarged crisp head amid smaller soft neighboring faces; restore original scale and focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/cardinals-4.json"
+        },
+        {
+            "team": "cardinals",
+            "round": 5,
+            "issue": "Head/body enlarged with portrait smile facing viewer; match original candid cheering pose, gaze and head scale.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/cardinals-5.json"
+        },
+        {
+            "team": "chiefs",
+            "round": 1,
+            "issue": "Inserted head is enlarged and more forward/posed than original mid-row spectator; match original head scale, sunglasses/occlusion and viewing angle.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/chiefs-1.json"
+        },
+        {
+            "team": "chiefs",
+            "round": 5,
+            "issue": "Crisp enlarged head above obscured body in a dim crowd; match original scale and shaded local focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/chiefs-5.json"
+        },
+        {
+            "team": "seahawks",
+            "round": 3,
+            "issue": "Inserted face is sharper than original mid-background spectator and similarly distant fans; match local defocus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/seahawks-3.json"
+        },
+        {
+            "team": "seahawks",
+            "round": 4,
+            "issue": "Crisp enlarged head in soft rear row; restore original spectator scale and optical focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/seahawks-4.json"
+        },
+        {
+            "team": "packers",
+            "round": 2,
+            "issue": "Face sharply defined where original spectator and adjacent crowd are substantially defocused.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/packers-2.json"
+        },
+        {
+            "team": "packers",
+            "round": 4,
+            "issue": "Head enlarged with frontal portrait smile instead of original partly hidden cheering fan; restore scale, pose and local focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/packers-4.json"
+        },
+        {
+            "team": "bengals",
+            "round": 1,
+            "issue": "Face still substantially crisper than original background hooded fan and others behind foreground group; match optical defocus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/bengals-1.json"
+        },
+        {
+            "team": "bengals",
+            "round": 2,
+            "issue": "Face still too detailed relative to original capped spectator and nearby faces; match optical softness and original pose.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/bengals-2.json"
+        },
+        {
+            "team": "bengals",
+            "round": 5,
+            "issue": "Crisp neutral portrait above obscured body in strongly soft distant row; match candid gaze, scale and original blur.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Inspected full scene and equal-scale contextual comparisons. Original body scale, head angle, original caps and foreground people retained; target blends with local crowd attention and focus. Full visible hair/cap/head bounds checked on final native image.",
+            "receipt": "tools/ai-search-repairs/bengals-5.json"
+        },
+        {
+            "team": "saints",
+            "round": 2,
+            "issue": "Head tilted up/away from the player while original spectator and nearby people look down toward the interaction; match natural head/neck angle.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Inspected full scene and equal-scale contextual comparisons. Original body scale, head angle, original caps and foreground people retained; target blends with local crowd attention and focus. Full visible hair/cap/head bounds checked on final native image.",
+            "receipt": "tools/ai-search-repairs/saints-2.json"
+        },
+        {
+            "team": "saints",
+            "round": 4,
+            "issue": "Face and head are much sharper/larger than original spectator in defocused crowd; restore original scale and focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/saints-4.json"
+        },
+        {
+            "team": "jaguars",
+            "round": 3,
+            "issue": "Studio-like direct camera gaze instead of original spectator angle toward action; match candid body/head pose and local focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Inspected full scene and equal-scale contextual comparisons. Original body scale, head angle, original caps and foreground people retained; target blends with local crowd attention and focus. Full visible hair/cap/head bounds checked on final native image.",
+            "receipt": "tools/ai-search-repairs/jaguars-3.json"
+        },
+        {
+            "team": "jaguars",
+            "round": 4,
+            "issue": "Enlarged crisp head with posed expression above occluded body; restore original spectator scale and focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/jaguars-4.json"
+        },
+        {
+            "team": "jaguars",
+            "round": 5,
+            "issue": "Large sharply defined portrait-like head appears isolated in distant crowd; restore original head scale, body connection, action gaze and strong local defocus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Inspected full scene and equal-scale contextual comparisons. Original body scale, head angle, original caps and foreground people retained; target blends with local crowd attention and focus. Full visible hair/cap/head bounds checked on final native image.",
+            "receipt": "tools/ai-search-repairs/jaguars-5.json"
+        },
+        {
+            "team": "ravens",
+            "round": 1,
+            "issue": "Inserted head enlarged and sharper than original heavily defocused background fan; match original scale and blur.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/ravens-1.json"
+        },
+        {
+            "team": "ravens",
+            "round": 2,
+            "issue": "Crisp enlarged face in a soft rear row; restore original scale, gaze and local focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/ravens-2.json"
+        },
+        {
+            "team": "ravens",
+            "round": 4,
+            "issue": "Head enlarged and brought forward relative to original distant spectator; restore original depth, scale and strong defocus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/ravens-4.json"
+        },
+        {
+            "team": "ravens",
+            "round": 5,
+            "issue": "Enlarged crisp face posed at viewer while original spectator watches action; restore original scale and candid head direction.",
+            "status": "accepted-after-visual-review",
+            "resolution": "User-authorized focus-only filter; existing AI person and full-head target preserved",
+            "reviewNotes": "Reviewed equal-scale original and edited context. Focus adjusted to neighboring spectators; existing body and pose judged plausible.",
+            "receipt": "tools/ai-search-repairs/ravens-5.json"
+        },
+        {
+            "team": "browns",
+            "round": 4,
+            "issue": "Head enlarged relative to original seated spectator and nearby people, creating an oversized head/neck; restore original body scale.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Inspected full scene and equal-scale contextual comparisons. Original body scale, head angle, original caps and foreground people retained; target blends with local crowd attention and focus. Full visible hair/cap/head bounds checked on final native image.",
+            "receipt": "tools/ai-search-repairs/browns-4.json"
+        },
+        {
+            "team": "browns",
+            "round": 5,
+            "issue": "Crisp smiling face stares toward viewer while original press-row spectator watches the foreground event; match natural gaze and local focus.",
+            "status": "accepted-after-visual-review",
+            "resolution": "New built-in image_gen integration with reviewed full-head target",
+            "reviewNotes": "Inspected full scene and equal-scale contextual comparisons. Original body scale, head angle, original caps and foreground people retained; target blends with local crowd attention and focus. Full visible hair/cap/head bounds checked on final native image.",
+            "receipt": "tools/ai-search-repairs/browns-5.json"
+        }
+    ],
+    "filterAuthorization": "User explicitly approved precise Python blur filters; AI remains required for body/pose repairs.",
+    "completedRepairs": 87,
+    "pendingRepairs": 0,
+    "aiRepairs": 30,
+    "focusOnlyRepairs": 57,
+    "aiRepairsWithFocusAdjustment": 8,
+    "initialFindingsNote": "Findings are initial review flags. Equal-scale contextual review determines the final correction; focus-only fixes leave head scale, body and pose unchanged after these were judged plausible. No hit boxes were reduced to increase difficulty."
+}

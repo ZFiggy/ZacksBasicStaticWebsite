@@ -1,0 +1,60 @@
+{
+    "team": "rams",
+    "level": 3,
+    "sourceIndex": 6321,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/rams-6321.jpg",
+    "sourcePage": "https://www.therams.com/photos/repping-rams-new-rivalries-gear-waving-playoff-flags-best-of-fans-during-2025-season",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/ssu9mfypmq0skx1jgtyh.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/rams.png",
+    "player": "Puka Nacua",
+    "face": [
+        383.58,
+        320.8,
+        29.82,
+        34.01
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real rams crowd photograph to edit. Image 2 is Puka Nacua's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Puka Nacua, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual rams fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-e592c7c8-02f3-42ed-b70c-899108216445.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/rams-ai-v1-4.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.293295173439683,
+                0.42483579795748216,
+                0.039826167485360345,
+                0.09251557288337081
+            ],
+            "similarity": 0.8117059404662541,
+            "distance": 0.005554755364147868
+        },
+        {
+            "target": [
+                0.2115421781129244,
+                0.3832620317700312,
+                0.01953850385675021,
+                0.04257783433709466
+            ],
+            "similarity": 0.13735081937920768,
+            "distance": 0.10992479884091451
+        },
+        {
+            "target": [
+                0.3558237546368649,
+                0.4042544623363791,
+                0.023662551282125254,
+                0.05246360122080691
+            ],
+            "similarity": 0.07888155993350665,
+            "distance": 0.0672967014798775
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.293295173439683,
+        0.42483579795748216,
+        0.039826167485360345,
+        0.09251557288337081
+    ]
+}

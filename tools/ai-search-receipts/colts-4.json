@@ -1,0 +1,61 @@
+{
+    "team": "colts",
+    "level": 3,
+    "sourceIndex": 531,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/colts-531.jpg",
+    "sourcePage": "https://www.colts.com/photos/best-of-2025-fans",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/colts/swpywio46rgnyv4byklm.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/colts.png",
+    "player": "Jonathan Taylor",
+    "face": [
+        519.56,
+        394.4,
+        30.82,
+        39.23
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real colts crowd photograph to edit. Image 2 is Jonathan Taylor's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Jonathan Taylor, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual colts fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-5c43dcf1-59f4-4889-9668-07d575e935ef.png",
+    "status": "generated",
+    "guideVersion": 2,
+    "src": "assets/photo-search/rounds/colts-ai-v1-4.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.40045128550826076,
+                0.5155131191046914,
+                0.03850222642341873,
+                0.10017332914151755
+            ],
+            "similarity": 0.6728061999806414,
+            "distance": 0.0061019041340026345
+        },
+        {
+            "target": [
+                0.3771126355851096,
+                0.4387029268789747,
+                0.03229225765575062,
+                0.07188161268244386
+            ],
+            "similarity": 0.10345185582264094,
+            "distance": 0.10087716188264842
+        },
+        {
+            "target": [
+                0.492261444507033,
+                0.5411117059138072,
+                0.030178810512049965,
+                0.06535827766442785
+            ],
+            "similarity": 0.0889620558000388,
+            "distance": 0.0894123678635998
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.40045128550826076,
+        0.5155131191046914,
+        0.03850222642341873,
+        0.10017332914151755
+    ]
+}

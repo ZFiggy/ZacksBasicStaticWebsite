@@ -1,9 +1,10 @@
 // Firebase web configuration is public. Access is controlled by firestore.rules.
 export const firebaseConfig = {
-    apiKey: 'AIzaSyC0H6cxE3uBq7mr9NYWjaqynpLk5VM0q3o',
+    apiKey: import.meta.env?.VITE_FIREBASE_API_KEY || globalThis.SUNDAY_FIREBASE_CONFIG?.apiKey || '',
     authDomain: 'zacksbasicstaticwebsite.firebaseapp.com',
     projectId: 'zacksbasicstaticwebsite'
 };
 
 // Turn on after Firestore, anonymous sign-in, and the rules are deployed.
-export const leaderboardEnabled = true;
+// Plain static previews do not load private environment files or inject Vite variables.
+export const leaderboardEnabled = Boolean(firebaseConfig.apiKey);

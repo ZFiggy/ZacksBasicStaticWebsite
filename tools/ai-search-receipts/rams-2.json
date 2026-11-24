@@ -1,0 +1,109 @@
+{
+    "team": "rams",
+    "level": 1,
+    "sourceIndex": 6208,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/rams-6208.jpg",
+    "sourcePage": "https://www.therams.com/photos/repping-rams-new-rivalries-gear-waving-playoff-flags-best-of-fans-during-2025-season",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/ji3whzf34oyq6snjhy7i.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/rams.png",
+    "player": "Puka Nacua",
+    "face": [
+        274.45,
+        62.89,
+        38.85,
+        44.8
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real rams crowd photograph to edit. Image 2 is Puka Nacua's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Puka Nacua, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual rams fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/rams-ai-v2-2.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/rams-ai-v2-2.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.19969050348090212,
+                0.04861561676901028,
+                0.05093675001956631,
+                0.11698949248327078
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.19969050348090212,
+        0.04861561676901028,
+        0.05093675001956631,
+        0.11698949248327078
+    ],
+    "history": [
+        {
+            "team": "rams",
+            "level": 1,
+            "sourceIndex": 6208,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/rams-6208.jpg",
+            "sourcePage": "https://www.therams.com/photos/repping-rams-new-rivalries-gear-waving-playoff-flags-best-of-fans-during-2025-season",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/ji3whzf34oyq6snjhy7i.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/rams.png",
+            "player": "Puka Nacua",
+            "face": [
+                274.45,
+                62.89,
+                38.85,
+                44.8
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real rams crowd photograph to edit. Image 2 is Puka Nacua's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Puka Nacua, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual rams fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-5f4396d3-f404-4d34-8cc4-52b00c7d47da.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/rams-ai-v1-2.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.19969050348090212,
+                        0.04861561676901028,
+                        0.05093675001956631,
+                        0.11698949248327078
+                    ],
+                    "similarity": 0.7843776318804885,
+                    "distance": 0.008428472068779207
+                },
+                {
+                    "target": [
+                        0.2683374156221819,
+                        0.0516583465997775,
+                        0.04244445864663742,
+                        0.09481866656150371
+                    ],
+                    "similarity": 0.09890526512026554,
+                    "distance": 0.06206863897712772
+                },
+                {
+                    "target": [
+                        0.20117322333121415,
+                        0.15990682717464175,
+                        0.06068977109553139,
+                        0.1506728298985869
+                    ],
+                    "similarity": 0.11091985781717995,
+                    "distance": 0.12218131128082584
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.19969050348090212,
+                0.04861561676901028,
+                0.05093675001956631,
+                0.11698949248327078
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "rams-2",
+    "focusCorrection": {
+        "sigmaPixels": 0.95,
+        "maskFeatherPixels": 11.071611984252932,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

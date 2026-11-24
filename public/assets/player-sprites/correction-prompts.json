@@ -1,0 +1,20 @@
+[
+    {
+        "file": "assets/player-sprites/flight-v3-3.png",
+        "basedOn": "assets/player-sprites/flight-v2-3.png",
+        "prompt": "Use case: precise-object-edit. Asset type: production transparent game sprite atlas. Edit this sprite atlas only to correct the layout: keep the four exact players, faces, jersey numbers, distinctive poses, colors, and wings. Reframe and scale each complete character smaller into the CENTRAL70% of its OWN square quadrant in an exact2×2 grid on a SQUARE canvas. Top-left Marshall Faulk28, top-right Jerry Rice80, bottom-left Marshawn Lynch24, bottom-right Thurman Thomas34. Every helmet, wing and foot must be fully visible with at least12% transparent margin inside each quadrant. No athlete may cross the center row or center column. Preserve the player art, only resize/reposition to avoid clipping. GENUINE transparent alpha background; no gradient or visible background.",
+        "generator": "Built-in image_gen edit"
+    },
+    {
+        "file": "assets/player-sprites/flight-v3-5.png",
+        "basedOn": "assets/player-sprites/flight-v2-5.png",
+        "prompt": "Use case: precise-object-edit. Asset type: production transparent game sprite atlas. Make ONE precise historical correction to this transparent football sprite atlas: TOP-RIGHT JimBrown number32 must wear the Cleveland Browns ORANGE helmet with a single thin WHITE center stripe, not the current white helmet. Preserve his face, old-fashioned face mask, body, pose, wings and number. Keep the other three players exactly as they are (top-left CoreyDillon28, bottom-left FrancoHarris32, bottom-right ArianFoster23). Keep exact2×2 layout and genuine transparent alpha. No other changes.",
+        "generator": "Built-in image_gen edit"
+    },
+    {
+        "file": "assets/player-sprites/flight-v3-7.png",
+        "basedOn": "assets/player-sprites/flight-v2-7.png",
+        "prompt": "Use case: precise-object-edit. Asset type: production transparent game sprite atlas. Remove ALL colored and black gradient backgrounds from this image, producing GENUINE fully transparent alpha everywhere outside the three player silhouettes. Preserve the exact three player faces, jerseys, wings and distinctive poses. Reframe onto a SQUARE canvas in exact2×2 equal quadrants: top-left PriestHolmes31, top-right MarcusAllen32, bottom-left LaDainianTomlinson21, bottom-right completely empty transparent. Scale each player smaller so the ENTIRE helmet, football, wings and feet fit within the central75% of its own square cell, with generous transparent margins. No cut-off football or wing, no overlap across quadrants. No background glow, no gradient, no backdrop, no floor, no border, no text.",
+        "generator": "Built-in image_gen edit"
+    }
+]

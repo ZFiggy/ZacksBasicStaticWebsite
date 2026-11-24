@@ -1,0 +1,106 @@
+{
+    "team": "broncos",
+    "level": 4,
+    "sourceIndex": 543,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/broncos-543.jpg",
+    "sourcePage": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/broncos/uh6vducsyvegrhdcuc8c.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/broncos.png",
+    "player": "Bo Nix",
+    "face": [
+        479.5,
+        200.69,
+        17.75,
+        20.07
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Bo Nix's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Bo Nix naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Head enlarged and body appears in front of railings that should occlude it; restore original spectator scale and rail occlusion.\nThe original spectator's head fits inside original-image pixel bounds [477, 196, 499, 224], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-eb5b74cd-5fe6-4763-a382-e92e3af3b428.png",
+    "status": "generated",
+    "guideVersion": 2,
+    "src": "assets/photo-search/rounds/broncos-ai-v2-5.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.3684210526315789,
+                0.2635494155154091,
+                0.022129186602870814,
+                0.05419766206163656
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.3684210526315789,
+        0.2635494155154091,
+        0.022129186602870814,
+        0.05419766206163656
+    ],
+    "history": [
+        {
+            "team": "broncos",
+            "level": 4,
+            "sourceIndex": 543,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/broncos-543.jpg",
+            "sourcePage": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/broncos/uh6vducsyvegrhdcuc8c.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/broncos.png",
+            "player": "Bo Nix",
+            "face": [
+                479.5,
+                200.69,
+                17.75,
+                20.07
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real broncos crowd photograph to edit. Image 2 is Bo Nix's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Bo Nix, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual broncos fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-8ad3088e-704f-473b-9cfe-6ce5bb83ba7b.png",
+            "status": "generated",
+            "guideVersion": 2,
+            "src": "assets/photo-search/rounds/broncos-ai-v1-5.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.36054150786696443,
+                        0.2588692927588565,
+                        0.02897038090171993,
+                        0.06623506292653261
+                    ],
+                    "similarity": 0.7026037040313895,
+                    "distance": 0.00672906251485384
+                },
+                {
+                    "target": [
+                        0.534569139891264,
+                        0.3937048303966948,
+                        0.013842382659182008,
+                        0.03138763030454531
+                    ],
+                    "similarity": 0.24479271995392082,
+                    "distance": 0.1986726909230801
+                },
+                {
+                    "target": [
+                        0.2727760405745803,
+                        0.22261464405769243,
+                        0.014122419129148021,
+                        0.0327347523347731
+                    ],
+                    "similarity": 0.17207006866010488,
+                    "distance": 0.11446687259745074
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.36054150786696443,
+                0.2588692927588565,
+                0.02897038090171993,
+                0.06623506292653261
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "broncos-5"
+}

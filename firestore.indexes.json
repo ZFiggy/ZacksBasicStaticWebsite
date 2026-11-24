@@ -1,4 +1,173 @@
 {
-    "indexes": [],
+    "indexes": [
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "points",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "clicks",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "records.game",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "records.bird",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "records.search",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "records.kick",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "records.pocket",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "records.shove",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "records.recall",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "records.punt",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "records.blitz",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "leagueFans",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "teamId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "records.signal",
+                    "order": "DESCENDING"
+                }
+            ]
+        }
+    ],
     "fieldOverrides": []
 }

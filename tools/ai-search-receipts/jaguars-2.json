@@ -1,0 +1,68 @@
+{
+    "team": "jaguars",
+    "level": 1,
+    "sourceIndex": 5248,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/jaguars-5248.jpg",
+    "sourcePage": "https://www.jaguars.com/photos/k000588-jaguars-best-of-2025-duuuval-fan-moments",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jaguars/hd7mnm3jpoumey54k4ho.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/jaguars.png",
+    "player": "Trevor Lawrence",
+    "face": [
+        802.08,
+        239.63,
+        43.52,
+        51.13
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real jaguars crowd photograph to edit. Image 2 is Trevor Lawrence's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Trevor Lawrence, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual jaguars fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+    "guideVersion": 2,
+    "guideBounds": [
+        797,
+        228,
+        851,
+        297
+    ],
+    "styleReference": "public/assets/search-level-5-v2.jpg",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-978c10bc-9ec5-400d-a907-90d309a15dff.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/jaguars-ai-v1-2.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.6201517554105183,
+                0.3142546370989711,
+                0.0416120534650448,
+                0.102939577335759
+            ],
+            "similarity": 0.6290627271807807,
+            "distance": 0.002875515094756491
+        },
+        {
+            "target": [
+                0.7785323699239338,
+                0.38402993468751817,
+                0.03130229794807995,
+                0.07741767891408532
+            ],
+            "similarity": 0.26386314837509417,
+            "distance": 0.16105006264260574
+        },
+        {
+            "target": [
+                0.29351288873042786,
+                0.3839049628133095,
+                0.050332518399617346,
+                0.12546819348391006
+            ],
+            "similarity": 0.2998677768196103,
+            "distance": 0.33532759057410366
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.6201517554105183,
+        0.3142546370989711,
+        0.0416120534650448,
+        0.102939577335759
+    ]
+}

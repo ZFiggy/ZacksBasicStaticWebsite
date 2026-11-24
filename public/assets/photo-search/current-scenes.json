@@ -1,0 +1,2363 @@
+{
+    "cowboys": {
+        "src": "assets/photo-search/current-cowboys.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Dak Prescott",
+        "number": 4,
+        "era": "Dallas · 2016–2026",
+        "sourcePage": "https://www.dallascowboys.com/team/players-roster/dak-prescott/",
+        "credit": "AI-created fictional crowded scenes; player identity based on public appearances",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Look for Dak Prescott in a plain navy blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.291,
+                    0.417,
+                    0.072,
+                    0.16
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Look for Dak Prescott in a plain navy blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.628,
+                    0.387,
+                    0.076,
+                    0.174
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Look for Dak Prescott in a plain navy blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.41,
+                    0.5,
+                    0.087,
+                    0.202
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Dak Prescott in a plain navy blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.802,
+                    0.309,
+                    0.057,
+                    0.144
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Dak Prescott in a plain navy blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.574,
+                    0.348,
+                    0.061,
+                    0.163
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "giants": {
+        "src": "assets/photo-search/current-giants.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Jameis Winston",
+        "number": 19,
+        "era": "New York · 2025–2026",
+        "sourcePage": "https://www.giants.com/team/players-roster/jameis-winston/",
+        "credit": "AI-created fictional crowded scenes; player identity based on public appearances",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Look for Jameis Winston in a plain royal blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.228,
+                    0.326,
+                    0.082,
+                    0.215
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Look for Jameis Winston in a plain royal blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.659,
+                    0.301,
+                    0.068,
+                    0.18
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Look for Jameis Winston in a plain royal blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.435,
+                    0.561,
+                    0.062,
+                    0.152
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Jameis Winston in a plain royal blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.811,
+                    0.246,
+                    0.054,
+                    0.174
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Jameis Winston in a plain royal blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.566,
+                    0.293,
+                    0.062,
+                    0.169
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "commanders": {
+        "src": "assets/photo-search/current-commanders.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Jayden Daniels",
+        "number": 5,
+        "era": "Washington · 2024–2026",
+        "sourcePage": "https://www.commanders.com/team/players-roster/jayden-daniels/",
+        "credit": "AI-created fictional crowded scenes; player identity based on public appearances",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Look for Jayden Daniels in a plain burgundy hoodie, with no hat or glasses.",
+                "target": [
+                    0.283,
+                    0.262,
+                    0.077,
+                    0.235
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Look for Jayden Daniels in a plain burgundy hoodie, with no hat or glasses.",
+                "target": [
+                    0.685,
+                    0.268,
+                    0.076,
+                    0.193
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Look for Jayden Daniels in a plain burgundy hoodie, with no hat or glasses.",
+                "target": [
+                    0.42,
+                    0.431,
+                    0.072,
+                    0.185
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Jayden Daniels in a plain burgundy hoodie, with no hat or glasses.",
+                "target": [
+                    0.807,
+                    0.254,
+                    0.055,
+                    0.166
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Jayden Daniels in a plain burgundy hoodie, with no hat or glasses.",
+                "target": [
+                    0.529,
+                    0.334,
+                    0.061,
+                    0.169
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "bears": {
+        "src": "assets/photo-search/current-bears.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Caleb Williams",
+        "number": 18,
+        "era": "Chicago · 2024–2026",
+        "sourcePage": "https://www.chicagobears.com/team/players-roster/caleb-williams/",
+        "credit": "AI-created fictional crowded scenes; player identity based on public appearances",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Look for Caleb Williams in a plain navy and orange hoodie, with no hat or glasses.",
+                "target": [
+                    0.294,
+                    0.307,
+                    0.064,
+                    0.146
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Look for Caleb Williams in a plain navy and orange hoodie, with no hat or glasses.",
+                "target": [
+                    0.645,
+                    0.315,
+                    0.064,
+                    0.168
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Look for Caleb Williams in a plain navy and orange hoodie, with no hat or glasses.",
+                "target": [
+                    0.504,
+                    0.506,
+                    0.057,
+                    0.149
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Caleb Williams in a plain navy and orange hoodie, with no hat or glasses.",
+                "target": [
+                    0.782,
+                    0.279,
+                    0.051,
+                    0.155
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Caleb Williams in a plain navy and orange hoodie, with no hat or glasses.",
+                "target": [
+                    0.561,
+                    0.343,
+                    0.057,
+                    0.157
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "lions": {
+        "src": "assets/photo-search/current-lions.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Jared Goff",
+        "number": 16,
+        "era": "Detroit · 2021–2026",
+        "sourcePage": "https://www.detroitlions.com/team/players-roster/jared-goff/",
+        "credit": "AI-created fictional crowded scenes; player identity based on public appearances",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Look for Jared Goff in a plain Honolulu blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.299,
+                    0.408,
+                    0.064,
+                    0.138
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Look for Jared Goff in a plain Honolulu blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.701,
+                    0.397,
+                    0.068,
+                    0.144
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Look for Jared Goff in a plain Honolulu blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.416,
+                    0.555,
+                    0.063,
+                    0.129
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Jared Goff in a plain Honolulu blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.791,
+                    0.343,
+                    0.063,
+                    0.12
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Jared Goff in a plain Honolulu blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.556,
+                    0.357,
+                    0.056,
+                    0.122
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "packers": {
+        "src": "assets/photo-search/current-packers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Jordan Love",
+        "number": 10,
+        "era": "Green Bay · 2020–2026",
+        "sourcePage": "https://www.packers.com/team/players-roster/jordan-love/",
+        "credit": "AI-created fictional crowded scenes; player identity based on public appearances",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Look for Jordan Love in a plain dark green and gold hoodie, with no hat or glasses.",
+                "target": [
+                    0.269,
+                    0.329,
+                    0.05,
+                    0.138
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Look for Jordan Love in a plain dark green and gold hoodie, with no hat or glasses.",
+                "target": [
+                    0.678,
+                    0.331,
+                    0.048,
+                    0.146
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Look for Jordan Love in a plain dark green and gold hoodie, with no hat or glasses.",
+                "target": [
+                    0.464,
+                    0.5,
+                    0.047,
+                    0.16
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Jordan Love in a plain dark green and gold hoodie, with no hat or glasses.",
+                "target": [
+                    0.771,
+                    0.307,
+                    0.046,
+                    0.135
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Jordan Love in a plain dark green and gold hoodie, with no hat or glasses.",
+                "target": [
+                    0.55,
+                    0.381,
+                    0.048,
+                    0.133
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "vikings": {
+        "src": "assets/photo-search/current-vikings.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Kirk Cousins",
+        "number": 8,
+        "era": "Minnesota · 2018–2023",
+        "sourcePage": "https://www.vikings.com/team/players-roster/kirk-cousins/",
+        "credit": "AI-created fictional crowded scenes; player identity based on public appearances",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Look for Kirk Cousins in a plain purple hoodie, with no hat or glasses.",
+                "target": [
+                    0.25,
+                    0.348,
+                    0.091,
+                    0.176
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Look for Kirk Cousins in a plain purple hoodie, with no hat or glasses.",
+                "target": [
+                    0.667,
+                    0.35,
+                    0.091,
+                    0.194
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Look for Kirk Cousins in a plain purple hoodie, with no hat or glasses.",
+                "target": [
+                    0.365,
+                    0.497,
+                    0.096,
+                    0.165
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Kirk Cousins in a plain purple hoodie, with no hat or glasses.",
+                "target": [
+                    0.817,
+                    0.424,
+                    0.078,
+                    0.144
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Kirk Cousins in a plain purple hoodie, with no hat or glasses.",
+                "target": [
+                    0.574,
+                    0.415,
+                    0.08,
+                    0.156
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "falcons": {
+        "src": "assets/photo-search/current-falcons.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Matt Ryan",
+        "number": 2,
+        "era": "Atlanta · 2016–2021",
+        "sourcePage": "https://www.atlantafalcons.com/team/players-roster/matt-ryan/",
+        "credit": "AI-created fictional crowded scenes; player identity based on public appearances",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Look for Matt Ryan in a plain red and black hoodie, with no hat or glasses.",
+                "target": [
+                    0.228,
+                    0.287,
+                    0.07,
+                    0.193
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Look for Matt Ryan in a plain red and black hoodie, with no hat or glasses.",
+                "target": [
+                    0.678,
+                    0.29,
+                    0.065,
+                    0.199
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Look for Matt Ryan in a plain red and black hoodie, with no hat or glasses.",
+                "target": [
+                    0.441,
+                    0.506,
+                    0.059,
+                    0.188
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Matt Ryan in a plain red and black hoodie, with no hat or glasses.",
+                "target": [
+                    0.856,
+                    0.246,
+                    0.048,
+                    0.185
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Matt Ryan in a plain red and black hoodie, with no hat or glasses.",
+                "target": [
+                    0.544,
+                    0.331,
+                    0.061,
+                    0.185
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "panthers": {
+        "src": "assets/photo-search/current-panthers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Cam Newton",
+        "number": 1,
+        "era": "Carolina · 2016–2019, 2021",
+        "sourcePage": "https://www.panthers.com/team/players-roster/cam-newton/",
+        "credit": "AI-created fictional crowded scenes; player identity based on public appearances",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Look for Cam Newton in a plain bright Carolina blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.331,
+                    0.309,
+                    0.068,
+                    0.193
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Look for Cam Newton in a plain bright Carolina blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.7,
+                    0.309,
+                    0.068,
+                    0.168
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Look for Cam Newton in a plain bright Carolina blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.449,
+                    0.45,
+                    0.066,
+                    0.188
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Cam Newton in a plain bright Carolina blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.786,
+                    0.26,
+                    0.068,
+                    0.182
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Cam Newton in a plain bright Carolina blue hoodie, with no hat or glasses.",
+                "target": [
+                    0.592,
+                    0.238,
+                    0.072,
+                    0.188
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "saints": {
+        "src": "assets/photo-search/current-saints.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Drew Brees",
+        "number": 9,
+        "era": "New Orleans · 2016–2020",
+        "sourcePage": "https://www.neworleanssaints.com/team/players-roster/drew-brees/",
+        "credit": "AI-created fictional crowded scenes; player identity based on public appearances",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Look for Drew Brees in a plain black and gold hoodie, with no hat or glasses.",
+                "target": [
+                    0.245,
+                    0.359,
+                    0.096,
+                    0.176
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Look for Drew Brees in a plain black and gold hoodie, with no hat or glasses.",
+                "target": [
+                    0.661,
+                    0.368,
+                    0.081,
+                    0.167
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Look for Drew Brees in a plain black and gold hoodie, with no hat or glasses.",
+                "target": [
+                    0.386,
+                    0.53,
+                    0.093,
+                    0.172
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Drew Brees in a plain black and gold hoodie, with no hat or glasses.",
+                "target": [
+                    0.782,
+                    0.305,
+                    0.074,
+                    0.138
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Drew Brees in a plain black and gold hoodie, with no hat or glasses.",
+                "target": [
+                    0.502,
+                    0.402,
+                    0.078,
+                    0.167
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "cardinals": {
+        "src": "assets/photo-search/current-cardinals.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Larry Fitzgerald",
+        "number": 11,
+        "era": "Arizona Cardinals · 2016–2020",
+        "sourcePage": "https://www.nfl.com/sitemap/html/rosters/2020/arizona-cardinals",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Compare Larry Fitzgerald’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.3125,
+                    0.26,
+                    0.085,
+                    0.2
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Compare Larry Fitzgerald’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.7085,
+                    0.25,
+                    0.085,
+                    0.2
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Compare Larry Fitzgerald’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.4375,
+                    0.47,
+                    0.085,
+                    0.2
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Compare Larry Fitzgerald’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.7875,
+                    0.25,
+                    0.085,
+                    0.2
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Compare Larry Fitzgerald’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.5775,
+                    0.3,
+                    0.085,
+                    0.2
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "buccaneers": {
+        "src": "assets/photo-search/current-buccaneers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Baker Mayfield",
+        "number": 6,
+        "era": "Tampa Bay Buccaneers · 2023–2025",
+        "sourcePage": "https://www.buccaneers.com/team/players-roster/baker-mayfield/",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Compare Baker Mayfield’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.27,
+                    0.35,
+                    0.08,
+                    0.16
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Compare Baker Mayfield’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.66,
+                    0.41,
+                    0.08,
+                    0.16
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Compare Baker Mayfield’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.41,
+                    0.56,
+                    0.08,
+                    0.16
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Compare Baker Mayfield’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.79,
+                    0.39,
+                    0.08,
+                    0.16
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Compare Baker Mayfield’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.6,
+                    0.39,
+                    0.08,
+                    0.16
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "rams": {
+        "src": "assets/photo-search/current-rams.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Cooper Kupp",
+        "number": 10,
+        "era": "Los Angeles Rams · 2017–2024",
+        "sourcePage": "https://www.nfl.com/sitemap/html/rosters/2024/los-angeles-rams",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Compare Cooper Kupp’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.245,
+                    0.38,
+                    0.09,
+                    0.18
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Compare Cooper Kupp’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.645,
+                    0.45,
+                    0.09,
+                    0.18
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Compare Cooper Kupp’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.44,
+                    0.56,
+                    0.09,
+                    0.18
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Compare Cooper Kupp’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.765,
+                    0.34,
+                    0.09,
+                    0.18
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Compare Cooper Kupp’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.565,
+                    0.37,
+                    0.09,
+                    0.18
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "49ers": {
+        "src": "assets/photo-search/current-49ers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Brock Purdy",
+        "number": 13,
+        "era": "San Francisco 49ers · 2022–2025",
+        "sourcePage": "https://www.49ers.com/team/players-roster/brock-purdy/",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Compare Brock Purdy’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.315,
+                    0.32,
+                    0.08,
+                    0.2
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Compare Brock Purdy’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.68,
+                    0.27,
+                    0.08,
+                    0.2
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Compare Brock Purdy’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.44,
+                    0.48,
+                    0.08,
+                    0.2
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Compare Brock Purdy’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.81,
+                    0.3,
+                    0.08,
+                    0.2
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Compare Brock Purdy’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.58,
+                    0.32,
+                    0.08,
+                    0.2
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "seahawks": {
+        "src": "assets/photo-search/current-seahawks.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Russell Wilson",
+        "number": 3,
+        "era": "Seattle Seahawks · 2016–2021",
+        "sourcePage": "https://www.nfl.com/sitemap/html/rosters/2021/seattle-seahawks",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "Look for Russell Wilson’s face and navy jacket with lime shoulders.",
+                "target": [
+                    0.38,
+                    0.3,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station concourse",
+                "clue": "Look for Russell Wilson’s face and navy jacket with lime shoulders.",
+                "target": [
+                    0.66,
+                    0.34,
+                    0.14,
+                    0.2
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Tailgate gathering",
+                "clue": "Look for Russell Wilson’s face and navy jacket with lime shoulders.",
+                "target": [
+                    0.43,
+                    0.43,
+                    0.14,
+                    0.22
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Russell Wilson’s face and navy jacket with lime shoulders.",
+                "target": [
+                    0.77,
+                    0.35,
+                    0.13,
+                    0.22
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Russell Wilson’s face and navy jacket with lime shoulders.",
+                "target": [
+                    0.49,
+                    0.36,
+                    0.14,
+                    0.22
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "bills": {
+        "src": "assets/photo-search/current-bills.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Josh Allen",
+        "number": 17,
+        "era": "Buffalo Bills · 2018–present",
+        "sourcePage": "https://www.buffalobills.com/team/players-roster/josh-allen/",
+        "credit": "AI-created fictional crowd scenes",
+        "version": 5,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "Look for the blue jacket near the produce stalls.",
+                "target": [
+                    0.313,
+                    0.311,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station rush",
+                "clue": "A gray coat in the station crowd.",
+                "target": [
+                    0.508,
+                    0.257,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Game-day tailgate",
+                "clue": "A red hoodie among the tailgate tents.",
+                "target": [
+                    0.425,
+                    0.333,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street festival",
+                "clue": "A navy shirt in the festival crowd.",
+                "target": [
+                    0.6,
+                    0.34,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Holiday fair",
+                "clue": "A blue winter hat beneath the lights.",
+                "target": [
+                    0.2,
+                    0.305,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            }
+        ],
+        "authentic": false
+    },
+    "dolphins": {
+        "src": "assets/photo-search/current-dolphins.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Tua Tagovailoa",
+        "number": 1,
+        "era": "Miami Dolphins · 2020–2025",
+        "sourcePage": "https://www.nfl.com/players/tua-tagovailoa/stats/career",
+        "credit": "AI-created fictional crowd scenes",
+        "version": 5,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "An aqua jacket by the market stalls.",
+                "target": [
+                    0.28,
+                    0.305,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station rush",
+                "clue": "A gray coat among the station travelers.",
+                "target": [
+                    0.57,
+                    0.285,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Game-day tailgate",
+                "clue": "An aqua hoodie beside the tailgate tents.",
+                "target": [
+                    0.41,
+                    0.375,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street festival",
+                "clue": "A dark shirt in the festival crowd.",
+                "target": [
+                    0.61,
+                    0.365,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Holiday fair",
+                "clue": "An aqua-and-orange knit hat.",
+                "target": [
+                    0.25,
+                    0.315,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            }
+        ],
+        "authentic": false
+    },
+    "ravens": {
+        "src": "assets/photo-search/current-ravens.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Lamar Jackson",
+        "number": 8,
+        "era": "Baltimore Ravens · 2018–2025",
+        "sourcePage": "https://www.baltimoreravens.com/team/players-roster/lamar-jackson/",
+        "credit": "AI-created fictional crowd scenes",
+        "version": 5,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "A purple jacket near the produce stalls.",
+                "target": [
+                    0.25,
+                    0.335,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station rush",
+                "clue": "A gray coat beneath the station roof.",
+                "target": [
+                    0.57,
+                    0.255,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Game-day tailgate",
+                "clue": "A purple hoodie beside the coolers.",
+                "target": [
+                    0.51,
+                    0.355,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street festival",
+                "clue": "A dark shirt behind the foreground spectators.",
+                "target": [
+                    0.59,
+                    0.335,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Holiday fair",
+                "clue": "A purple knit hat among the holiday shoppers.",
+                "target": [
+                    0.25,
+                    0.325,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            }
+        ],
+        "authentic": false
+    },
+    "patriots": {
+        "src": "assets/photo-search/current-patriots.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Drake Maye",
+        "number": 10,
+        "era": "New England Patriots · 2024–2025",
+        "sourcePage": "https://www.patriots.com/team/players-roster/drake-maye/",
+        "credit": "AI-created fictional crowd scenes",
+        "version": 5,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "A navy-and-red jacket beside the flower stalls.",
+                "target": [
+                    0.26,
+                    0.295,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station rush",
+                "clue": "A gray coat and backpack in the station.",
+                "target": [
+                    0.64,
+                    0.285,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Game-day tailgate",
+                "clue": "A navy-and-red hoodie by the tailgate.",
+                "target": [
+                    0.5,
+                    0.355,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street festival",
+                "clue": "A dark shirt beneath the festival bunting.",
+                "target": [
+                    0.71,
+                    0.305,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Holiday fair",
+                "clue": "A navy-and-red knit hat among the shoppers.",
+                "target": [
+                    0.27,
+                    0.345,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            }
+        ],
+        "authentic": false
+    },
+    "jets": {
+        "src": "assets/photo-search/current-jets.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Garrett Wilson",
+        "number": 5,
+        "era": "New York Jets · 2022–2025",
+        "sourcePage": "https://www.newyorkjets.com/team/players-roster/garrett-wilson/",
+        "credit": "AI-created fictional crowd scenes",
+        "version": 5,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "A green jacket among the market shoppers.",
+                "target": [
+                    0.31,
+                    0.295,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station rush",
+                "clue": "A gray coat under the station clock.",
+                "target": [
+                    0.65,
+                    0.265,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Game-day tailgate",
+                "clue": "A green hoodie among the tailgaters.",
+                "target": [
+                    0.47,
+                    0.365,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street festival",
+                "clue": "A black shirt and silver necklace in the festival crowd.",
+                "target": [
+                    0.63,
+                    0.365,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Holiday fair",
+                "clue": "A green knit hat and green coat.",
+                "target": [
+                    0.26,
+                    0.345,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            }
+        ],
+        "authentic": false
+    },
+    "bengals": {
+        "src": "assets/photo-search/current-bengals.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Joe Burrow",
+        "number": 9,
+        "era": "Cincinnati Bengals · 2020–2025",
+        "sourcePage": "https://www.bengals.com/team/players-roster/joe-burrow/",
+        "credit": "AI-created fictional crowd scenes",
+        "version": 5,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "An orange-and-black jacket near the flower stalls.",
+                "target": [
+                    0.28,
+                    0.295,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station rush",
+                "clue": "A gray coat in the station crowd.",
+                "target": [
+                    0.58,
+                    0.275,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Game-day tailgate",
+                "clue": "An orange hood among the tailgaters.",
+                "target": [
+                    0.46,
+                    0.325,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street festival",
+                "clue": "A black shirt among the festivalgoers.",
+                "target": [
+                    0.63,
+                    0.375,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Holiday fair",
+                "clue": "An orange-and-black knit hat under the holiday lights.",
+                "target": [
+                    0.25,
+                    0.365,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            }
+        ],
+        "authentic": false
+    },
+    "browns": {
+        "src": "assets/photo-search/current-browns.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Myles Garrett",
+        "number": 95,
+        "era": "Cleveland Browns · 2017–2025",
+        "sourcePage": "https://www.clevelandbrowns.com/team/players-roster/myles-garrett/",
+        "credit": "AI-created fictional crowd scenes",
+        "version": 5,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "A brown-and-orange jacket by the produce stalls.",
+                "target": [
+                    0.28,
+                    0.315,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station rush",
+                "clue": "A gray coat in the station crowd.",
+                "target": [
+                    0.63,
+                    0.225,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Game-day tailgate",
+                "clue": "A brown hoodie with orange drawstrings.",
+                "target": [
+                    0.47,
+                    0.335,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street festival",
+                "clue": "A black shirt and gold chain among the festivalgoers.",
+                "target": [
+                    0.61,
+                    0.305,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Holiday fair",
+                "clue": "A brown-and-orange knit hat under the holiday lights.",
+                "target": [
+                    0.31,
+                    0.295,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            }
+        ],
+        "authentic": false
+    },
+    "steelers": {
+        "src": "assets/photo-search/current-steelers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "T.J. Watt",
+        "number": 90,
+        "era": "Pittsburgh Steelers · 2017–2025",
+        "sourcePage": "https://www.steelers.com/team/players-roster/t-j-watt/",
+        "credit": "AI-created fictional crowd scenes",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "A gold-and-black jacket beside the flower stalls.",
+                "target": [
+                    0.33,
+                    0.285,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station rush",
+                "clue": "A gray coat and backpack among the travelers.",
+                "target": [
+                    0.61,
+                    0.235,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Game-day tailgate",
+                "clue": "A black hoodie with gold lining.",
+                "target": [
+                    0.44,
+                    0.345,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street festival",
+                "clue": "A dark shirt among the festivalgoers.",
+                "target": [
+                    0.58,
+                    0.355,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Holiday fair",
+                "clue": "A black-and-gold knit hat beside the holiday stalls.",
+                "target": [
+                    0.31,
+                    0.305,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "jaguars": {
+        "src": "assets/photo-search/current-jaguars.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Trevor Lawrence",
+        "number": 16,
+        "era": "Jacksonville Jaguars · 2021–2025",
+        "sourcePage": "https://www.jaguars.com/team/players-roster/trevor-lawrence/",
+        "credit": "AI-created fictional crowd scenes",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "Long blond hair and a teal jacket by the stalls.",
+                "target": [
+                    0.32,
+                    0.265,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station rush",
+                "clue": "A gray coat beside the train.",
+                "target": [
+                    0.595,
+                    0.235,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Game-day tailgate",
+                "clue": "A teal hoodie among the tailgaters.",
+                "target": [
+                    0.435,
+                    0.325,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street festival",
+                "clue": "Long blond hair over a dark shirt.",
+                "target": [
+                    0.65,
+                    0.275,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Holiday fair",
+                "clue": "A teal knit hat beneath the holiday lights.",
+                "target": [
+                    0.28,
+                    0.265,
+                    0.14,
+                    0.21
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "chiefs": {
+        "src": "assets/photo-search/current-chiefs.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Patrick Mahomes",
+        "number": 15,
+        "era": "Kansas City Chiefs · 2017–2025",
+        "sourcePage": "https://www.chiefs.com/team/players-roster/patrick-mahomes/",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Tailgate gathering",
+                "clue": "Compare Patrick Mahomes’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.205,
+                    0.38,
+                    0.19,
+                    0.16
+                ],
+                "kind": "generated",
+                "region": [
+                    0,
+                    0,
+                    0.3095429029671211,
+                    0.5114988104678826
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Covered market",
+                "clue": "Compare Patrick Mahomes’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.595,
+                    0.38,
+                    0.19,
+                    0.16
+                ],
+                "kind": "generated",
+                "region": [
+                    0.3095429029671211,
+                    0,
+                    0.33440256615878106,
+                    0.5114988104678826
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Station concourse",
+                "clue": "Compare Patrick Mahomes’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.495,
+                    0.44,
+                    0.19,
+                    0.16
+                ],
+                "kind": "generated",
+                "region": [
+                    0.6439454691259021,
+                    0,
+                    0.35605453087409783,
+                    0.5114988104678826
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Compare Patrick Mahomes’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.645,
+                    0.36,
+                    0.19,
+                    0.16
+                ],
+                "kind": "generated",
+                "region": [
+                    0,
+                    0.5114988104678826,
+                    0.3095429029671211,
+                    0.48850118953211735
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Compare Patrick Mahomes’s face with the reference. Look behind the foreground crowd.",
+                "target": [
+                    0.335,
+                    0.35,
+                    0.19,
+                    0.16
+                ],
+                "kind": "generated",
+                "region": [
+                    0.3095429029671211,
+                    0.5114988104678826,
+                    0.33440256615878106,
+                    0.48850118953211735
+                ]
+            }
+        ],
+        "referenceRegion": [
+            0.6439454691259021,
+            0.5114988104678826,
+            0.35605453087409783,
+            0.48850118953211735
+        ]
+    },
+    "texans": {
+        "src": "assets/photo-search/current-texans.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "C.J. Stroud",
+        "number": 7,
+        "era": "Houston Texans · 2023–2025",
+        "sourcePage": "https://www.houstontexans.com/team/players-roster/c-j-stroud/",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "Compare C.J. Stroud’s face and braids with the reference; look for a navy and red jacket.",
+                "target": [
+                    0.36,
+                    0.29,
+                    0.16,
+                    0.25
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station concourse",
+                "clue": "Compare C.J. Stroud’s face and braids with the reference; look for a navy and red jacket.",
+                "target": [
+                    0.64,
+                    0.31,
+                    0.16,
+                    0.25
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Tailgate gathering",
+                "clue": "Compare C.J. Stroud’s face and braids with the reference; look for a navy and red jacket.",
+                "target": [
+                    0.41,
+                    0.44,
+                    0.16,
+                    0.25
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Compare C.J. Stroud’s face and braids with the reference; look for a navy and red jacket.",
+                "target": [
+                    0.75,
+                    0.26,
+                    0.14,
+                    0.22
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Compare C.J. Stroud’s face and braids with the reference; look for a navy and red jacket.",
+                "target": [
+                    0.45,
+                    0.34,
+                    0.15,
+                    0.24
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "colts": {
+        "src": "assets/photo-search/current-colts.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Andrew Luck",
+        "number": 12,
+        "era": "Indianapolis Colts · 2016–2018",
+        "sourcePage": "https://www.nfl.com/sitemap/html/rosters/2018/indianapolis-colts",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "Look for Andrew Luck’s face and beard above the royal blue jacket.",
+                "target": [
+                    0.36,
+                    0.34,
+                    0.16,
+                    0.22
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station concourse",
+                "clue": "Look for Andrew Luck’s face and beard above the royal blue jacket.",
+                "target": [
+                    0.64,
+                    0.31,
+                    0.18,
+                    0.22
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Tailgate gathering",
+                "clue": "Look for Andrew Luck’s face and beard above the royal blue jacket.",
+                "target": [
+                    0.4,
+                    0.43,
+                    0.18,
+                    0.25
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Andrew Luck’s face and beard above the royal blue jacket.",
+                "target": [
+                    0.74,
+                    0.29,
+                    0.17,
+                    0.22
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Andrew Luck’s face and beard above the royal blue jacket.",
+                "target": [
+                    0.46,
+                    0.34,
+                    0.18,
+                    0.24
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "titans": {
+        "src": "assets/photo-search/current-titans.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Cam Ward",
+        "number": 1,
+        "era": "Tennessee Titans · 2025",
+        "sourcePage": "https://www.tennesseetitans.com/team/players-roster/cam-ward/",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "Look for Cam Ward’s face and short braids above the light blue and navy jacket.",
+                "target": [
+                    0.4,
+                    0.32,
+                    0.18,
+                    0.25
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station concourse",
+                "clue": "Look for Cam Ward’s face and short braids above the light blue and navy jacket.",
+                "target": [
+                    0.55,
+                    0.32,
+                    0.18,
+                    0.24
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Tailgate gathering",
+                "clue": "Look for Cam Ward’s face and short braids above the light blue and navy jacket.",
+                "target": [
+                    0.41,
+                    0.45,
+                    0.18,
+                    0.25
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Cam Ward’s face and short braids above the light blue and navy jacket.",
+                "target": [
+                    0.66,
+                    0.27,
+                    0.18,
+                    0.24
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Cam Ward’s face and short braids above the light blue and navy jacket.",
+                "target": [
+                    0.52,
+                    0.35,
+                    0.18,
+                    0.25
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "broncos": {
+        "src": "assets/photo-search/current-broncos.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Bo Nix",
+        "number": 10,
+        "era": "Denver Broncos · 2024–2025",
+        "sourcePage": "https://www.denverbroncos.com/team/players-roster/bo-nix/",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "Look for Bo Nix’s face and short light-brown hair above the orange and navy jacket.",
+                "target": [
+                    0.35,
+                    0.3,
+                    0.16,
+                    0.23
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station concourse",
+                "clue": "Look for Bo Nix’s face and short light-brown hair above the orange and navy jacket.",
+                "target": [
+                    0.6,
+                    0.33,
+                    0.16,
+                    0.23
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Tailgate gathering",
+                "clue": "Look for Bo Nix’s face and short light-brown hair above the orange and navy jacket.",
+                "target": [
+                    0.4,
+                    0.45,
+                    0.16,
+                    0.25
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Look for Bo Nix’s face and short light-brown hair above the orange and navy jacket.",
+                "target": [
+                    0.7,
+                    0.25,
+                    0.16,
+                    0.23
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Look for Bo Nix’s face and short light-brown hair above the orange and navy jacket.",
+                "target": [
+                    0.47,
+                    0.38,
+                    0.16,
+                    0.23
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "chargers": {
+        "src": "assets/photo-search/current-chargers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Justin Herbert",
+        "number": 10,
+        "era": "Los Angeles Chargers · 2020–2025",
+        "sourcePage": "https://www.chargers.com/team/players-roster/justin-herbert/",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "Compare Justin Herbert’s face and wavy brown hair with the reference; look for powder blue and gold.",
+                "target": [
+                    0.37,
+                    0.29,
+                    0.18,
+                    0.24
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station concourse",
+                "clue": "Compare Justin Herbert’s face and wavy brown hair with the reference; look for powder blue and gold.",
+                "target": [
+                    0.56,
+                    0.31,
+                    0.18,
+                    0.24
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Tailgate gathering",
+                "clue": "Compare Justin Herbert’s face and wavy brown hair with the reference; look for powder blue and gold.",
+                "target": [
+                    0.38,
+                    0.42,
+                    0.18,
+                    0.25
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Compare Justin Herbert’s face and wavy brown hair with the reference; look for powder blue and gold.",
+                "target": [
+                    0.74,
+                    0.26,
+                    0.17,
+                    0.24
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Compare Justin Herbert’s face and wavy brown hair with the reference; look for powder blue and gold.",
+                "target": [
+                    0.45,
+                    0.31,
+                    0.18,
+                    0.25
+                ],
+                "kind": "generated"
+            }
+        ]
+    },
+    "raiders": {
+        "src": "assets/photo-search/current-raiders.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Derek Carr",
+        "number": 4,
+        "era": "Las Vegas Raiders · 2020–2022",
+        "sourcePage": "https://www.nfl.com/sitemap/html/rosters/2022/las-vegas-raiders",
+        "credit": "AI-created fictional crowd scenes and player likeness",
+        "version": 5,
+        "authentic": false,
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Farmers market",
+                "clue": "Compare Derek Carr’s face and short dark hair with the reference; look for black and silver.",
+                "target": [
+                    0.29,
+                    0.28,
+                    0.16,
+                    0.23
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Station concourse",
+                "clue": "Compare Derek Carr’s face and short dark hair with the reference; look for black and silver.",
+                "target": [
+                    0.61,
+                    0.28,
+                    0.16,
+                    0.23
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Tailgate gathering",
+                "clue": "Compare Derek Carr’s face and short dark hair with the reference; look for black and silver.",
+                "target": [
+                    0.37,
+                    0.46,
+                    0.17,
+                    0.24
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Street food festival",
+                "clue": "Compare Derek Carr’s face and short dark hair with the reference; look for black and silver.",
+                "target": [
+                    0.74,
+                    0.25,
+                    0.17,
+                    0.24
+                ],
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Stadium entrance",
+                "clue": "Compare Derek Carr’s face and short dark hair with the reference; look for black and silver.",
+                "target": [
+                    0.47,
+                    0.36,
+                    0.17,
+                    0.24
+                ],
+                "kind": "generated"
+            }
+        ]
+    }
+}

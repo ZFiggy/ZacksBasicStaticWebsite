@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#004c54">
-    <meta name="description" content="The Eagles arcade. Choose Barkley Bird, Where’s Jalen?, Field Goal Challenge, or Field Run. Browse games and pick up your saved progress.">
+    <meta name="description" content="The Eagles arcade. Ten football games, from passing reads and blitz puzzles to Barkley Bird and photo search. Browse games and pick up your saved progress.">
     <title>Games · Zack’s Eagles Arcade</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <script src="scripts/theme.js"></script>
+    <script src="scripts/teams-data.js"></script>
+    <script src="scripts/teams.js"></script>
+    <script defer src="scripts/photo-scenes.js"></script>
+    <script defer src="scripts/personality-data.js"></script>
+    <script defer src="scripts/game-personality.js"></script>
+    <script defer src="scripts/team-rules.js"></script>
+    <script defer src="scripts/team-ui.js"></script>
+    <script defer src="scripts/playbook-data.js"></script>
     <script defer src="scripts/arcade.js"></script>
+    <script type="module" src="scripts/league-sync.js"></script>
     <script defer src="scripts/games.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="teams.css">
 </head>
 <body class="games-lobby-page">
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -24,35 +34,13 @@
             </div>
         </header>
         <main id="main-content" tabindex="-1" class="games-lobby">
-            <div class="lobby-heading"><div><p class="eyebrow">The Eagles arcade</p><h1>PICK YOUR <span>PLAY.</span></h1><p>Four games. One home crowd. Find your rhythm and put up a new best.</p></div><div class="lobby-profile"><span class="lobby-monogram" aria-hidden="true">PHI</span><div><span id="lobby-fan">The Philly faithful</span><a href="index.html#fan-locker">Your records &amp; badges</a></div></div></div>
-            <section class="lobby-feature" aria-labelledby="featured-game-title">
-                <div class="lobby-feature-lines" aria-hidden="true"></div>
-                <div class="lobby-feature-copy"><p class="eyebrow">Featured flight · Action</p><h2 id="featured-game-title">BARKLEY<br>BIRD.</h2><p>Midnight-green wings. Stadium lights.<br>Keep Saquon flying and chase the next gap.</p><div class="lobby-feature-actions"><a class="button" href="barkley.html">Play Barkley Bird <span aria-hidden="true">26</span></a><span class="lobby-feature-record">YOUR BEST <strong id="featured-bird-best">0</strong></span></div></div>
-                <img class="lobby-bird-art" src="assets/barkley-flight.png" alt="Winged Saquon Barkley in his number 26 Eagles uniform" width="512" height="512" fetchpriority="high">
-                <span class="lobby-feature-word" aria-hidden="true">TAKE FLIGHT</span>
-            </section>
+            <div class="lobby-heading"><div><p class="eyebrow">The Eagles arcade</p><h1>PICK YOUR <span>PLAY.</span></h1><p>Ten games. One home crowd. Find your rhythm and put up a new best.</p></div><div class="lobby-profile"><span class="lobby-monogram" aria-hidden="true">PHI</span><div><span id="lobby-fan">The Philly faithful</span><a href="index.html#fan-locker">Your records &amp; badges</a></div></div></div>
+            <section class="team-lobby-feature"><div><p class="eyebrow">Your home cartoon crew</p><h2 data-team-motto></h2><p data-team-setting></p><a class="button" href="barkley.html" id="featured-game-link">Take flight</a><p class="lobby-feature-record">FLIGHT BEST <strong id="featured-bird-best">0</strong></p></div><div class="lobby-team-art" data-team-art></div></section>
             <div class="lobby-resume" id="lobby-resume" hidden><div><span class="eyebrow">Back for another play?</span><p id="lobby-recent-title">Your last game</p></div><a class="button game-restart" id="lobby-recent-link" href="barkley.html">Continue playing</a></div>
             <section class="game-library" aria-labelledby="library-title">
-                <div class="library-heading"><h2 id="library-title">The game lineup</h2><p id="library-count" role="status">4 games ready to play</p></div>
-                <div class="game-filters" role="group" aria-label="Filter games by category"><button type="button" data-game-filter="all" aria-pressed="true">All games <span>4</span></button><button type="button" data-game-filter="action" aria-pressed="false">Action <span>2</span></button><button type="button" data-game-filter="timing" aria-pressed="false">Timing <span>1</span></button><button type="button" data-game-filter="search" aria-pressed="false">Photo search <span>1</span></button></div>
-                <div class="game-library-grid">
-                    <article class="library-game" data-game-category="action">
-                        <a class="library-art library-bird-art" href="barkley.html" tabindex="-1" aria-hidden="true"><img src="assets/barkley-flight.png" alt="" width="512" height="512" loading="lazy"><span>26</span></a>
-                        <div class="library-game-copy"><p class="eyebrow">Action · Tap / Space</p><h3>Barkley Bird</h3><p>Flap through the stadium. Dodge the uprights as the pace picks up.</p><div class="library-record"><span>Personal best</span><strong id="library-bird-best">0 gaps</strong></div><a class="library-play" href="barkley.html">Take flight <span aria-hidden="true">+</span></a></div>
-                    </article>
-                    <article class="library-game" data-game-category="search">
-                        <a class="library-art library-search-art" href="jalen.html" tabindex="-1" aria-hidden="true"><img src="assets/search-level-3-v2.jpg" alt="" width="1536" height="1024" loading="lazy"><span>5 PHOTOS</span></a>
-                        <div class="library-game-copy"><p class="eyebrow">Photo search · Zoom &amp; inspect</p><h3>Where’s Jalen?</h3><p>Five harder crowd photos. Small faces, changing outfits, and natural cover.</p><div class="library-record"><span>Saved search</span><strong id="library-jalen-progress">Photo 1 / 5</strong></div><a class="library-play" href="jalen.html">Find your quarterback <span aria-hidden="true">+</span></a><small class="library-disclosure">Real fan photos, AI-edited for the game.</small></div>
-                    </article>
-                    <article class="library-game" data-game-category="timing">
-                        <a class="library-art library-kick-art" href="kick.html" tabindex="-1" aria-hidden="true"><span class="library-goalpost"></span><span class="library-football"></span><span class="library-art-label">PHI · FIELD GOALS</span></a>
-                        <div class="library-game-copy"><p class="eyebrow">Timing · Click / Space</p><h3>Field Goal Challenge</h3><p>Beat the crosswind and a faster meter. Five kicks to split the uprights.</p><div class="library-record"><span>Personal best</span><strong id="library-kick-best">0 / 15 pts</strong></div><a class="library-play" href="kick.html">Line up a kick <span aria-hidden="true">+</span></a></div>
-                    </article>
-                    <article class="library-game" data-game-category="action">
-                        <a class="library-art library-field-art" href="game.html" tabindex="-1" aria-hidden="true"><img src="assets/field-preview.svg" alt="" width="600" height="340" loading="lazy"><span>FIELD RUN</span></a>
-                        <div class="library-game-copy"><p class="eyebrow">Action · Arrows / Touch</p><h3>Eagles Field Run</h3><p>Suit up in midnight green and collect every football on the field.</p><div class="library-record"><span>Fields cleared</span><strong id="library-field-wins">0 clears</strong></div><a class="library-play" href="game.html">Take the field <span aria-hidden="true">+</span></a></div>
-                    </article>
-                </div>
+                <div class="library-heading"><h2 id="library-title">Your team’s game lineup</h2><p id="library-count" role="status">10 games ready to play</p></div>
+                <div class="game-filters" role="group" aria-label="Filter games by category"><button type="button" data-game-filter="all" aria-pressed="true">All games <span>10</span></button><button type="button" data-game-filter="action" aria-pressed="false">Action <span>3</span></button><button type="button" data-game-filter="timing" aria-pressed="false">Timing <span>3</span></button><button type="button" data-game-filter="strategy" aria-pressed="false">Strategy <span>3</span></button><button type="button" data-game-filter="search" aria-pressed="false">Photo hunt <span>1</span></button></div>
+                <div class="game-library-grid" id="team-game-grid"></div>
             </section>
             <a class="lobby-scoreboard-link" href="counter.html"><div><p class="eyebrow">Keep the stadium loud</p><h2>Every seven clicks. Another touchdown.</h2><p>Visit the fan scoreboard and light up your next passing play.</p></div><span>Open the scoreboard <b aria-hidden="true">+</b></span></a>
         </main>

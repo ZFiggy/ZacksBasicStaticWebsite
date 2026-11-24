@@ -1,0 +1,104 @@
+{
+    "team": "commanders",
+    "level": 1,
+    "sourceIndex": 524,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/commanders-524.jpg",
+    "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/commanders/ikq3t9wqaghjapg2puqg.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/commanders.png",
+    "player": "Jayden Daniels",
+    "face": [
+        387.12,
+        317.94,
+        29.74,
+        35.22
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Jayden Daniels's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Jayden Daniels naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Face turns toward viewer while nearby crowd watches foreground player; match original clapping pose and gaze away from camera.\nThe original spectator's head fits inside original-image pixel bounds [384, 309, 420, 358], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-c47caa79-5a62-4964-9db9-418ede9c5e55.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/commanders-ai-v2-2.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.291866028708134,
+                0.43251859723698194,
+                0.03708133971291866,
+                0.07226354941551541
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.291866028708134,
+        0.43251859723698194,
+        0.03708133971291866,
+        0.07226354941551541
+    ],
+    "history": [
+        {
+            "team": "commanders",
+            "level": 1,
+            "sourceIndex": 524,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/commanders-524.jpg",
+            "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/commanders/ikq3t9wqaghjapg2puqg.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/commanders.png",
+            "player": "Jayden Daniels",
+            "face": [
+                387.12,
+                317.94,
+                29.74,
+                35.22
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real commanders crowd photograph to edit. Image 2 is Jayden Daniels's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Jayden Daniels, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual commanders fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-3b1e1631-0898-4c31-926d-f754d1968e81.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/commanders-ai-v1-2.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.2929212945500059,
+                        0.4233882885810293,
+                        0.03757289471238422,
+                        0.0736674366544588
+                    ],
+                    "similarity": 0.34965735221157956,
+                    "distance": 0.0039592775406652935
+                },
+                {
+                    "target": [
+                        0.3929183080207788,
+                        0.35647968835455707,
+                        0.03644481531170565,
+                        0.09043470052299542
+                    ],
+                    "similarity": 0.18699362780353113,
+                    "distance": 0.11472017370423561
+                },
+                {
+                    "target": [
+                        0.4081584863799611,
+                        0.4436306634187445,
+                        0.02832647862046526,
+                        0.07481971846123434
+                    ],
+                    "similarity": 0.09967620259703835,
+                    "distance": 0.10969967382953259
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.2929212945500059,
+                0.4233882885810293,
+                0.03757289471238422,
+                0.0736674366544588
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "commanders-2"
+}

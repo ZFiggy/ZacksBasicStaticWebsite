@@ -1,0 +1,106 @@
+{
+    "team": "titans",
+    "level": 0,
+    "sourceIndex": 7,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/titans-7.jpg",
+    "sourcePage": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/titans/dd2laokmqyl9mjpi78dz.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/titans.png",
+    "player": "Derrick Henry",
+    "face": [
+        786.86,
+        53.72,
+        34.17,
+        45.75
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Derrick Henry's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Derrick Henry naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Large detached-looking head above occluded torso; restore original scale and plausible neck/shoulder placement.\nThe original spectator's head fits inside original-image pixel bounds [783, 43, 825, 106], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-cda6b166-6e41-4112-af2a-9b4207e4ab38.png",
+    "status": "generated",
+    "guideVersion": 2,
+    "src": "assets/photo-search/rounds/titans-ai-v2-1.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.6088516746411483,
+                0.05526036131774708,
+                0.04366028708133971,
+                0.10520722635494155
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.6088516746411483,
+        0.05526036131774708,
+        0.04366028708133971,
+        0.10520722635494155
+    ],
+    "history": [
+        {
+            "team": "titans",
+            "level": 0,
+            "sourceIndex": 7,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/titans-7.jpg",
+            "sourcePage": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/titans/dd2laokmqyl9mjpi78dz.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/titans.png",
+            "player": "Derrick Henry",
+            "face": [
+                786.86,
+                53.72,
+                34.17,
+                45.75
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real titans crowd photograph to edit. Image 2 is Derrick Henry's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Derrick Henry, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual titans fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-202c0913-0e08-42f9-a3cb-541a8bca4c8d.png",
+            "status": "generated",
+            "guideVersion": 2,
+            "src": "assets/photo-search/rounds/titans-ai-v1-1.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.6078130509636619,
+                        0.054878593631302514,
+                        0.03888055906341404,
+                        0.09525911369688579
+                    ],
+                    "similarity": 0.6659527084700585,
+                    "distance": 0.0009535140996563868
+                },
+                {
+                    "target": [
+                        0.7293363040029717,
+                        0.10434589527871986,
+                        0.041836845726487826,
+                        0.10966169983623637
+                    ],
+                    "similarity": 0.24268097541698808,
+                    "distance": 0.1346935195407592
+                },
+                {
+                    "target": [
+                        0.49691385225816204,
+                        0.22601256639113715,
+                        0.040241847289236014,
+                        0.09289810796853208
+                    ],
+                    "similarity": 0.25055645941847615,
+                    "distance": 0.20255120620212325
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.6078130509636619,
+                0.054878593631302514,
+                0.03888055906341404,
+                0.09525911369688579
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "titans-1"
+}

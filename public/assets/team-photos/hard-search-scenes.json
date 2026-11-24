@@ -1,0 +1,2978 @@
+{
+    "cowboys": {
+        "src": "assets/team-photos/cowboys/photo-58.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.dallascowboys.com/photos/best-of-training-camp-2026",
+        "credit": "www.dallascowboys.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Under the lights",
+                "clue": "Find #88 beside the sideline handshake.",
+                "target": [
+                    0.5,
+                    0,
+                    0.32,
+                    1
+                ],
+                "src": "assets/team-photos/cowboys/photo-58.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.dallascowboys.com/photos/pregame-gallery-vs-titans-2026",
+                "credit": "www.dallascowboys.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find #28 behind the ball carrier.",
+                "target": [
+                    0.78,
+                    0.1,
+                    0.17,
+                    0.86
+                ],
+                "src": "assets/team-photos/cowboys/photo-15.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.dallascowboys.com/photos/rank-em-top-20-training-camp-standouts",
+                "credit": "www.dallascowboys.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find the dark jersey facing the receiver.",
+                "target": [
+                    0.82,
+                    0.3,
+                    0.18,
+                    0.58
+                ],
+                "src": "assets/team-photos/cowboys/photo-26.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.dallascowboys.com/photos/practice-gallery-tenvsdal-2026",
+                "credit": "www.dallascowboys.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find #41, walking with the practice group.",
+                "target": [
+                    0.67,
+                    0.18,
+                    0.12,
+                    0.72
+                ],
+                "src": "assets/team-photos/cowboys/photo-10.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.dallascowboys.com/photos/best-of-training-camp-2026",
+                "credit": "www.dallascowboys.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the smiling fan beneath the black floppy sunhat with the pale rim. Tap his face.",
+                "target": [
+                    0.325,
+                    0.19,
+                    0.06,
+                    0.11
+                ],
+                "src": "assets/fan-crowds/cowboys.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+                "credit": "\u00a9James D. Smith/Dallas Cowboys",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "lions": {
+        "src": "assets/team-photos/lions/photo-44.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.detroitlions.com/photos/practice-photos-nov-19-2026",
+        "credit": "www.detroitlions.com / official team photography",
+        "scenes": [
+            {
+                "index": 4,
+                "name": "Community day",
+                "clue": "Find the plain red shirt at the left of the group.",
+                "target": [
+                    0.135,
+                    0.4,
+                    0.06,
+                    0.45
+                ],
+                "src": "assets/team-photos/lions/photo-44.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.detroitlions.com/photos/lions-meet-with-families-from-taps-x9333",
+                "credit": "www.detroitlions.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Under the lights",
+                "clue": "Find #16 throwing behind the offensive line.",
+                "target": [
+                    0.4,
+                    0.24,
+                    0.16,
+                    0.68
+                ],
+                "src": "assets/team-photos/lions/photo-54.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.detroitlions.com/photos/lions-vs-buccaneers-week-11-photos",
+                "credit": "www.detroitlions.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find the blue jersey stretching at the right edge behind his teammates.",
+                "target": [
+                    0.89,
+                    0.37,
+                    0.1,
+                    0.6
+                ],
+                "src": "assets/team-photos/lions/photo-2.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.detroitlions.com/photos/practice-photos-nov-19-2026",
+                "credit": "www.detroitlions.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find #81, seated behind #97.",
+                "target": [
+                    0.045,
+                    0.68,
+                    0.15,
+                    0.31
+                ],
+                "src": "assets/team-photos/lions/photo-19.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.detroitlions.com/photos/practice-photos-nov-13-2026",
+                "credit": "www.detroitlions.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the black camera being held above a fan\u2019s face. Tap the camera.",
+                "target": [
+                    0.555,
+                    0.415,
+                    0.05,
+                    0.09
+                ],
+                "src": "assets/fan-crowds/lions.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+                "credit": "Carl Jones II/Detroit Lions",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "dolphins": {
+        "src": "assets/team-photos/dolphins/photo-32.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.miamidolphins.com/photos/2026-miami-dolphins-week-11-practice",
+        "credit": "www.miamidolphins.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Community day",
+                "clue": "Find #9 at the right end of the hospital group.",
+                "target": [
+                    0.82,
+                    0.28,
+                    0.17,
+                    0.72
+                ],
+                "src": "assets/team-photos/dolphins/photo-32.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.miamidolphins.com/photos/miami-dolphins-visit-safe-haven-hospital",
+                "credit": "www.miamidolphins.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find the leftmost player in the chase drill.",
+                "target": [
+                    0.12,
+                    0.14,
+                    0.2,
+                    0.5
+                ],
+                "src": "assets/team-photos/dolphins/photo-22.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.miamidolphins.com/photos/2026-miami-dolphins-week-9-practice",
+                "credit": "www.miamidolphins.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Community day",
+                "clue": "Find #92 among the players visiting the hospital.",
+                "target": [
+                    0.57,
+                    0.22,
+                    0.1,
+                    0.55
+                ],
+                "src": "assets/team-photos/dolphins/photo-36.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.miamidolphins.com/photos/miami-dolphins-visit-safe-haven-hospital",
+                "credit": "www.miamidolphins.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find #24 beside #3 in the indoor practice line.",
+                "target": [
+                    0.35,
+                    0.56,
+                    0.12,
+                    0.43
+                ],
+                "src": "assets/team-photos/dolphins/photo-4.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.miamidolphins.com/photos/2026-miami-dolphins-week-11-practice",
+                "credit": "www.miamidolphins.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the white #13 jersey beneath the giant flag, among the aqua shirts. Tap the number.",
+                "target": [
+                    0.5515,
+                    0.6785,
+                    0.045,
+                    0.075
+                ],
+                "src": "assets/fan-crowds/dolphins.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.miamidolphins.com/photos/2026-miami-dolphins-at-new-york-jets-fan-cam",
+                "credit": "Tomas Diniz Santos/Miami Dolphins",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "49ers": {
+        "src": "assets/team-photos/49ers/photo-18.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.49ers.com/photos/49ers-bring-the-energy-on-day-12-of-training-camp",
+        "credit": "www.49ers.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find #58 waiting behind the kneeling teammate.",
+                "target": [
+                    0.76,
+                    0.15,
+                    0.15,
+                    0.65
+                ],
+                "src": "assets/team-photos/49ers/photo-18.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.49ers.com/photos/best-of-defense-at-49ers-training-camp-warner-greenlaw-nfl",
+                "credit": "www.49ers.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find the player at the left edge of the blocking drill.",
+                "target": [
+                    0,
+                    0.18,
+                    0.105,
+                    0.72
+                ],
+                "src": "assets/team-photos/49ers/photo-7.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.49ers.com/photos/49ers-bring-the-energy-on-day-12-of-training-camp",
+                "credit": "www.49ers.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Under the lights",
+                "clue": "Find the red #6 jersey at the left edge of the play.",
+                "target": [
+                    0.03,
+                    0.26,
+                    0.15,
+                    0.47
+                ],
+                "src": "assets/team-photos/49ers/photo-44.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.49ers.com/photos/game-photos-49ers-vs-cowboys-week-10",
+                "credit": "www.49ers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find the red #4 jersey among the defenders.",
+                "target": [
+                    0.025,
+                    0.35,
+                    0.12,
+                    0.55
+                ],
+                "src": "assets/team-photos/49ers/photo-15.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.49ers.com/photos/best-of-defense-at-49ers-training-camp-warner-greenlaw-nfl",
+                "credit": "www.49ers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the gold helmet with tall spikes among the fans. Tap the gold face mask.",
+                "target": [
+                    0.114,
+                    0.425,
+                    0.04,
+                    0.08
+                ],
+                "src": "assets/fan-crowds/49ers.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.49ers.com/photos/san-francisco-fans-faithful-take-over-the-new-orleans-saints-superdome",
+                "credit": "Kym Fortino/49ers",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "jaguars": {
+        "src": "assets/team-photos/jaguars/photo-9.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.jaguars.com/photos/jaguars-practice-photos-2026-week-11-vs-giants",
+        "credit": "www.jaguars.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find the red practice jersey behind the handoff.",
+                "target": [
+                    0.075,
+                    0.19,
+                    0.18,
+                    0.69
+                ],
+                "src": "assets/team-photos/jaguars/photo-9.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.jaguars.com/photos/jaguars-practice-photos-2026-week-11-vs-giants",
+                "credit": "www.jaguars.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find #44 in the background huddle.",
+                "target": [
+                    0.68,
+                    0.05,
+                    0.15,
+                    0.75
+                ],
+                "src": "assets/team-photos/jaguars/photo-12.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.jaguars.com/photos/k000477-practice-photos-jaguars-thursday-session-2025-week-18-vs-titans",
+                "credit": "www.jaguars.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find #96 behind the running lineman.",
+                "target": [
+                    0.01,
+                    0.21,
+                    0.15,
+                    0.63
+                ],
+                "src": "assets/team-photos/jaguars/photo-3.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.jaguars.com/photos/jaguars-practice-photos-2026-week-11-vs-giants",
+                "credit": "www.jaguars.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find the teal jersey by the yellow practice pad.",
+                "target": [
+                    0.06,
+                    0.23,
+                    0.12,
+                    0.65
+                ],
+                "src": "assets/team-photos/jaguars/photo-21.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.jaguars.com/photos/k000477-practice-photos-jaguars-thursday-session-2025-week-18-vs-titans",
+                "credit": "www.jaguars.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Behind the fan line",
+                "clue": "Find the face partly hidden behind the dark-haired girl beside the gray hood. Tap that face.",
+                "target": [
+                    0.1925,
+                    0.255,
+                    0.035,
+                    0.09
+                ],
+                "src": "assets/fan-crowds/jaguars.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.jaguars.com/photos/jaguars-host-open-practice-for-fans-in-london",
+                "credit": "Chris Kim/Jacksonville Jaguars",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "jets": {
+        "src": "assets/team-photos/jets/photo-35.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.newyorkjets.com/photos/through-the-lens-best-photos-from-2026-jets-training-camp",
+        "credit": "www.newyorkjets.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find white #43 behind #41.",
+                "target": [
+                    0.6,
+                    0.07,
+                    0.18,
+                    0.79
+                ],
+                "src": "assets/team-photos/jets/photo-35.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.newyorkjets.com/photos/through-the-lens-jets-training-camp-week-2-best-photos-08-03-2026",
+                "credit": "www.newyorkjets.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find white #97 behind the quarterback.",
+                "target": [
+                    0.83,
+                    0.05,
+                    0.16,
+                    0.87
+                ],
+                "src": "assets/team-photos/jets/photo-0.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.newyorkjets.com/photos/through-the-lens-best-photos-from-2026-jets-training-camp",
+                "credit": "www.newyorkjets.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find white #21 at the right of the group.",
+                "target": [
+                    0.79,
+                    0.28,
+                    0.14,
+                    0.64
+                ],
+                "src": "assets/team-photos/jets/photo-18.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.newyorkjets.com/photos/through-the-lens-best-photos-week-2-jets-training-camp-08-09-2026",
+                "credit": "www.newyorkjets.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Under the lights",
+                "clue": "Find white #17 among the sideline group.",
+                "target": [
+                    0.43,
+                    0.29,
+                    0.13,
+                    0.65
+                ],
+                "src": "assets/team-photos/jets/photo-58.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.newyorkjets.com/photos/game-photos-week-11-jets-vs-chargers-11-22-2026",
+                "credit": "www.newyorkjets.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the small green JETS flag waving beyond the raised phones. Tap the flag.",
+                "target": [
+                    0.64,
+                    0.385,
+                    0.05,
+                    0.09
+                ],
+                "src": "assets/fan-crowds/jets.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+                "credit": "www.newyorkjets.com",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "titans": {
+        "src": "assets/team-photos/titans/photo-55.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.tennesseetitans.com/photos/fan-photos-2026-titans-training-camp-presented-by-seatgeek",
+        "credit": "www.tennesseetitans.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "In the pocket",
+                "clue": "Find #1 behind the blocking line.",
+                "target": [
+                    0.53,
+                    0.21,
+                    0.16,
+                    0.65
+                ],
+                "src": "assets/team-photos/titans/photo-55.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.tennesseetitans.com/photos/game-photos-2026-week-11-vs-dallas-cowboys",
+                "credit": "www.tennesseetitans.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Community day",
+                "clue": "Find #38 in the hospital group.",
+                "target": [
+                    0.56,
+                    0.33,
+                    0.12,
+                    0.61
+                ],
+                "src": "assets/team-photos/titans/photo-46.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.tennesseetitans.com/photos/community-tuesday-wounded-warrior-project",
+                "credit": "www.tennesseetitans.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find #83 seated in the far background.",
+                "target": [
+                    0.83,
+                    0.03,
+                    0.16,
+                    0.38
+                ],
+                "src": "assets/team-photos/titans/photo-21.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.tennesseetitans.com/photos/practice-photos-november-20th-2026",
+                "credit": "www.tennesseetitans.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Under the lights",
+                "clue": "Find #79 at the far left of the sideline group.",
+                "target": [
+                    0,
+                    0.23,
+                    0.08,
+                    0.67
+                ],
+                "src": "assets/team-photos/titans/photo-54.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.tennesseetitans.com/photos/game-photos-2026-week-11-vs-dallas-cowboys",
+                "credit": "www.tennesseetitans.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the pale floral bucket hat above the large white #80 jersey in the crowd. Tap the hat.",
+                "target": [
+                    0.535,
+                    0.355,
+                    0.05,
+                    0.09
+                ],
+                "src": "assets/fan-crowds/titans.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
+                "credit": "Coral Scoles-Coburn/Tennessee Titans",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "commanders": {
+        "src": "assets/team-photos/commanders/photo-44.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.commanders.com/photos/photos-best-of-week-9-practice",
+        "credit": "www.commanders.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Under the lights",
+                "clue": "Find the second burgundy jersey in the tunnel behind #3.",
+                "target": [
+                    0.26,
+                    0.17,
+                    0.16,
+                    0.8
+                ],
+                "src": "assets/team-photos/commanders/photo-44.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.commanders.com/photos/photos-commanders-vs-giants-week-10-pregame",
+                "credit": "www.commanders.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find white #2 behind #4.",
+                "target": [
+                    0.01,
+                    0.46,
+                    0.23,
+                    0.53
+                ],
+                "src": "assets/team-photos/commanders/photo-17.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.commanders.com/photos/photos-best-of-week-8-practice",
+                "credit": "www.commanders.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find white #34 among the practice group.",
+                "target": [
+                    0.61,
+                    0.28,
+                    0.17,
+                    0.63
+                ],
+                "src": "assets/team-photos/commanders/photo-7.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.commanders.com/photos/photos-best-of-week-9-practice",
+                "credit": "www.commanders.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find the coach behind the blocking drill.",
+                "target": [
+                    0.6,
+                    0.29,
+                    0.14,
+                    0.59
+                ],
+                "src": "assets/team-photos/commanders/photo-20.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.commanders.com/photos/photos-best-of-week-8-practice",
+                "credit": "www.commanders.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the black-and-gold #99 jersey behind the raised arms. Tap the jersey number.",
+                "target": [
+                    0.3,
+                    0.415,
+                    0.05,
+                    0.09
+                ],
+                "src": "assets/fan-crowds/commanders.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+                "credit": "Emily Faith Morgan/Washington Commanders",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "packers": {
+        "src": "assets/team-photos/packers/photo-25.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.packers.com/photos/photos-packers-roll-into-thursdays-training-camp-practice-july-30-2026",
+        "credit": "www.packers.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "On the move",
+                "clue": "Find the player to the right of the tall white jersey.",
+                "target": [
+                    0.72,
+                    0.21,
+                    0.2,
+                    0.65
+                ],
+                "src": "assets/team-photos/packers/photo-25.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.packers.com/photos/photos-packers-pedal-to-tuesday-s-training-camp-practice-aug-19-2025",
+                "credit": "www.packers.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "On the move",
+                "clue": "Find the dark #27 jersey among the cyclists.",
+                "target": [
+                    0.34,
+                    0.28,
+                    0.14,
+                    0.63
+                ],
+                "src": "assets/team-photos/packers/photo-28.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.packers.com/photos/photos-packers-pedal-to-tuesday-s-training-camp-practice-aug-19-2025",
+                "credit": "www.packers.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "On the move",
+                "clue": "Find the child in the green shirt behind the cyclist.",
+                "target": [
+                    0.71,
+                    0.46,
+                    0.15,
+                    0.49
+                ],
+                "src": "assets/team-photos/packers/photo-19.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.packers.com/photos/photos-players-and-fans-bike-to-first-training-camp-practice-july-29-2026",
+                "credit": "www.packers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find the white-helmeted rider beside #55.",
+                "target": [
+                    0.5,
+                    0.35,
+                    0.12,
+                    0.57
+                ],
+                "src": "assets/team-photos/packers/photo-8.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.packers.com/photos/photos-packers-roll-into-thursdays-training-camp-practice-july-30-2026",
+                "credit": "www.packers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find #8 behind the bicycling #25.",
+                "target": [
+                    0.61,
+                    0.4,
+                    0.075,
+                    0.54
+                ],
+                "src": "assets/team-photos/packers/photo-1.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.packers.com/photos/photos-packers-roll-into-thursdays-training-camp-practice-july-30-2026",
+                "credit": "www.packers.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "chiefs": {
+        "src": "assets/team-photos/chiefs/photo-20.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.chiefs.com/photos/photos-training-camp-day-17-practice-8-19-26-x8592",
+        "credit": "www.chiefs.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find the standing white jersey behind Mahomes.",
+                "target": [
+                    0.72,
+                    0.02,
+                    0.16,
+                    0.66
+                ],
+                "src": "assets/team-photos/chiefs/photo-20.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chiefs.com/photos/photos-training-camp-day-16-practice-8-18-26",
+                "credit": "www.chiefs.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find red #43 in the practice background.",
+                "target": [
+                    0.69,
+                    0.22,
+                    0.075,
+                    0.58
+                ],
+                "src": "assets/team-photos/chiefs/photo-3.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chiefs.com/photos/photos-training-camp-day-17-practice-8-19-26-x8592",
+                "credit": "www.chiefs.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find white #35 behind the tackling drill.",
+                "target": [
+                    0.76,
+                    0.33,
+                    0.06,
+                    0.46
+                ],
+                "src": "assets/team-photos/chiefs/photo-15.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chiefs.com/photos/photos-training-camp-day-16-practice-8-18-26",
+                "credit": "www.chiefs.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "src": "assets/team-photos/chiefs/photo-30.jpg",
+                "sourcePage": "https://www.chiefs.com/photos/photos-training-camp-day-15-practice-8-17-26",
+                "credit": "www.chiefs.com / official team photography",
+                "index": 3,
+                "name": "Behind the practice drill",
+                "kind": "photograph",
+                "target": [
+                    0.151,
+                    0.095,
+                    0.04,
+                    0.07
+                ],
+                "clue": "Find the red cap on the black-shirted observer behind white #34. Tap the cap.",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find red #61 at the far right of the line.",
+                "target": [
+                    0.9,
+                    0.53,
+                    0.07,
+                    0.37
+                ],
+                "src": "assets/team-photos/chiefs/photo-6.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chiefs.com/photos/photos-training-camp-day-17-practice-8-19-26-x8592",
+                "credit": "www.chiefs.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "seahawks": {
+        "src": "assets/team-photos/seahawks/photo-39.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.seahawks.com/photos/photos-12s-pack-the-berm-for-the-first-training-camp-practice-of-2026",
+        "credit": "www.seahawks.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find #26 between the two quarterbacks.",
+                "target": [
+                    0.43,
+                    0.26,
+                    0.14,
+                    0.74
+                ],
+                "src": "assets/team-photos/seahawks/photo-39.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.seahawks.com/photos/photos-eye-on-the-hawks-behind-the-scenes-from-the-week-10-win-at-the-raiders",
+                "credit": "www.seahawks.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find white #10 in the back of the tunnel.",
+                "target": [
+                    0.095,
+                    0.325,
+                    0.13,
+                    0.65
+                ],
+                "src": "assets/team-photos/seahawks/photo-37.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.seahawks.com/photos/photos-eye-on-the-hawks-behind-the-scenes-from-the-week-10-win-at-the-raiders",
+                "credit": "www.seahawks.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find #18 at the back of the drill.",
+                "target": [
+                    0.85,
+                    0.13,
+                    0.09,
+                    0.59
+                ],
+                "src": "assets/team-photos/seahawks/photo-28.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.seahawks.com/photos/photos-top-shots-of-seahawks-training-camp",
+                "credit": "www.seahawks.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find the small white #23 behind the practice group.",
+                "target": [
+                    0.75,
+                    0.62,
+                    0.11,
+                    0.34
+                ],
+                "src": "assets/team-photos/seahawks/photo-25.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.seahawks.com/photos/photos-top-shots-of-seahawks-training-camp",
+                "credit": "www.seahawks.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find the dark #12 jersey near the top of the grassy crowd.",
+                "target": [
+                    0.715,
+                    0.02,
+                    0.1,
+                    0.2
+                ],
+                "src": "assets/team-photos/seahawks/photo-0.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.seahawks.com/photos/photos-12s-pack-the-berm-for-the-first-training-camp-practice-of-2026",
+                "credit": "www.seahawks.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "buccaneers": {
+        "src": "assets/team-photos/buccaneers/photo-33.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.buccaneers.com/photos/photos-buccaneers-practice-week-11-2026",
+        "credit": "www.buccaneers.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find red #38 behind #24.",
+                "target": [
+                    0.02,
+                    0.13,
+                    0.2,
+                    0.86
+                ],
+                "src": "assets/team-photos/buccaneers/photo-33.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.buccaneers.com/photos/photos-buccaneers-practice-week-8-2026",
+                "credit": "www.buccaneers.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find red #25 seated behind his teammates.",
+                "target": [
+                    0.72,
+                    0.39,
+                    0.24,
+                    0.61
+                ],
+                "src": "assets/team-photos/buccaneers/photo-19.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.buccaneers.com/photos/photos-buccaneers-practice-week-9-2026",
+                "credit": "www.buccaneers.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find red #94 behind the blocking drill.",
+                "target": [
+                    0.64,
+                    0.13,
+                    0.15,
+                    0.69
+                ],
+                "src": "assets/team-photos/buccaneers/photo-17.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.buccaneers.com/photos/photos-buccaneers-practice-week-9-2026",
+                "credit": "www.buccaneers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Under the lights",
+                "clue": "Find white #15 in the tunnel behind #1.",
+                "target": [
+                    0.49,
+                    0.24,
+                    0.12,
+                    0.65
+                ],
+                "src": "assets/team-photos/buccaneers/photo-39.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.buccaneers.com/photos/bucs-vs-lions-pregame-photos-2026",
+                "credit": "www.buccaneers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the red visor above dark wraparound sunglasses, behind the raised hands. Tap the visor.",
+                "target": [
+                    0.455,
+                    0.155,
+                    0.05,
+                    0.09
+                ],
+                "src": "assets/fan-crowds/buccaneers.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+                "credit": "www.buccaneers.com",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "rams": {
+        "src": "assets/team-photos/rams/photo-29.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.therams.com/photos/rams-practice-in-front-of-fans-during-back-together-weekend-2026-training-camp",
+        "credit": "www.therams.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find white #54 at the left of the practice huddle.",
+                "target": [
+                    0.2,
+                    0,
+                    0.18,
+                    0.95
+                ],
+                "src": "assets/team-photos/rams/photo-29.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.therams.com/photos/practice-photos-rams-second-open-practice-2026-training-camp",
+                "credit": "www.therams.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find red #11 between the other quarterbacks.",
+                "target": [
+                    0.45,
+                    0.21,
+                    0.15,
+                    0.72
+                ],
+                "src": "assets/team-photos/rams/photo-24.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.therams.com/photos/practice-photos-rams-second-open-practice-2026-training-camp",
+                "credit": "www.therams.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Under the lights",
+                "clue": "Find the traveler in white trousers behind the blue tracksuit.",
+                "target": [
+                    0.36,
+                    0.24,
+                    0.11,
+                    0.65
+                ],
+                "src": "assets/team-photos/rams/photo-58.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.therams.com/photos/runway-energy-best-rams-players-gameday-fits-from-2025-season",
+                "credit": "www.therams.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find white #93 behind the running drill.",
+                "target": [
+                    0.475,
+                    0.2,
+                    0.105,
+                    0.58
+                ],
+                "src": "assets/team-photos/rams/photo-11.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.therams.com/photos/rams-practice-in-front-of-fans-during-back-together-weekend-2026-training-camp",
+                "credit": "www.therams.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the white #11 jersey beside the aisle railing in the crowd. Tap the jersey number.",
+                "target": [
+                    0.4715,
+                    0.4905,
+                    0.027,
+                    0.055
+                ],
+                "src": "assets/fan-crowds/rams.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.therams.com/photos/fan-photos-rams-fans-shine-under-the-sofi-stadium-spotlight-during-the-rams-week-11-win-over-the-seahawks",
+                "credit": "Abigail Dean/ Los Angeles Rams/Los Angeles Rams",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "texans": {
+        "src": "assets/team-photos/texans/photo-18.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.houstontexans.com/photos/week-11-practice-photos-texans-vs-colts",
+        "credit": "www.houstontexans.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find white #37 behind the coverage drill.",
+                "target": [
+                    0.73,
+                    0.13,
+                    0.17,
+                    0.7
+                ],
+                "src": "assets/team-photos/texans/photo-18.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.houstontexans.com/photos/week-10-practice-photos-texans-at-cleveland-browns",
+                "credit": "www.houstontexans.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Under the lights",
+                "clue": "Find white #7 behind the offensive line.",
+                "target": [
+                    0.46,
+                    0.2,
+                    0.15,
+                    0.66
+                ],
+                "src": "assets/team-photos/texans/photo-43.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.houstontexans.com/photos/texans-vs-colts-week-11-gameday-action",
+                "credit": "www.houstontexans.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find black #78 at the right edge of the practice group.",
+                "target": [
+                    0.9,
+                    0.27,
+                    0.1,
+                    0.58
+                ],
+                "src": "assets/team-photos/texans/photo-23.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.houstontexans.com/photos/week-10-practice-photos-texans-at-cleveland-browns",
+                "credit": "www.houstontexans.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find white #8 running in the distant background.",
+                "target": [
+                    0.76,
+                    0.35,
+                    0.09,
+                    0.42
+                ],
+                "src": "assets/team-photos/texans/photo-15.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.houstontexans.com/photos/week-11-practice-photos-texans-vs-colts",
+                "credit": "www.houstontexans.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Under the lights",
+                "clue": "Find red #27 in the group lineup.",
+                "target": [
+                    0.325,
+                    0.55,
+                    0.055,
+                    0.23
+                ],
+                "src": "assets/team-photos/texans/photo-36.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.houstontexans.com/photos/salute-to-service-flag-football-game-presented-by-american-national-insurance",
+                "credit": "www.houstontexans.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "colts": {
+        "src": "assets/team-photos/colts/photo-33.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.colts.com/photos/indianapolis-colts-2026-practice-highlights-november-12-photo-gallery",
+        "credit": "www.colts.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Community day",
+                "clue": "Find blue #62 in the left background of the craft room.",
+                "target": [
+                    0.02,
+                    0.12,
+                    0.15,
+                    0.74
+                ],
+                "src": "assets/team-photos/colts/photo-33.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.colts.com/photos/community-tuesday-kicasso-with-military-youth",
+                "credit": "www.colts.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Under the lights",
+                "clue": "Find blue #80 behind the quarterback.",
+                "target": [
+                    0.63,
+                    0.01,
+                    0.16,
+                    0.67
+                ],
+                "src": "assets/team-photos/colts/photo-47.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.colts.com/photos/game-photos-colts-at-texans-x9357",
+                "credit": "www.colts.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find blue #24 behind the ball carrier.",
+                "target": [
+                    0.62,
+                    0.57,
+                    0.19,
+                    0.43
+                ],
+                "src": "assets/team-photos/colts/photo-6.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.colts.com/photos/indianapolis-colts-2026-practice-highlights-november-12-photo-gallery",
+                "credit": "www.colts.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find white #98 behind the posing #85.",
+                "target": [
+                    0.15,
+                    0.5,
+                    0.1,
+                    0.48
+                ],
+                "src": "assets/team-photos/colts/photo-1.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.colts.com/photos/indianapolis-colts-2026-practice-highlights-november-12-photo-gallery",
+                "credit": "www.colts.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find the small blue jersey behind #84.",
+                "target": [
+                    0.2,
+                    0.36,
+                    0.12,
+                    0.26
+                ],
+                "src": "assets/team-photos/colts/photo-7.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.colts.com/photos/indianapolis-colts-2026-practice-highlights-november-12-photo-gallery",
+                "credit": "www.colts.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "ravens": {
+        "src": "assets/team-photos/ravens/photo-9.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.baltimoreravens.com/photos/ravens-week-6-rams-practice-photos-gallery-2025",
+        "credit": "www.baltimoreravens.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find purple #70 behind the ball carrier.",
+                "target": [
+                    0.24,
+                    0.06,
+                    0.3,
+                    0.93
+                ],
+                "src": "assets/team-photos/ravens/photo-9.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.baltimoreravens.com/photos/ravens-week-6-rams-practice-photos-gallery-2025",
+                "credit": "www.baltimoreravens.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find purple #44 behind the throwing quarterback.",
+                "target": [
+                    0.15,
+                    0.39,
+                    0.4,
+                    0.6
+                ],
+                "src": "assets/team-photos/ravens/photo-26.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.baltimoreravens.com/photos/top-shots-from-ravens-wednesday-practice-ahead-of-chargers-game",
+                "credit": "www.baltimoreravens.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find white #3 beside the leaping receiver.",
+                "target": [
+                    0.78,
+                    0.13,
+                    0.22,
+                    0.87
+                ],
+                "src": "assets/team-photos/ravens/photo-4.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.baltimoreravens.com/photos/ravens-week-6-rams-practice-photos-gallery-2025",
+                "credit": "www.baltimoreravens.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "src": "assets/team-photos/ravens/photo-19.jpg",
+                "sourcePage": "https://www.baltimoreravens.com/photos/top-shots-from-ravens-thursday-practice-ahead-of-panthers-game",
+                "credit": "www.baltimoreravens.com / official team photography",
+                "index": 3,
+                "name": "Behind the practice drill",
+                "kind": "photograph",
+                "target": [
+                    0.005,
+                    0.19,
+                    0.03,
+                    0.04
+                ],
+                "clue": "Find the black tape around the outstretched fingertip. Tap the tape.",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find white #6 in the back of the practice line.",
+                "target": [
+                    0.8,
+                    0.01,
+                    0.12,
+                    0.66
+                ],
+                "src": "assets/team-photos/ravens/photo-12.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.baltimoreravens.com/photos/top-shots-from-ravens-thursday-practice-ahead-of-panthers-game",
+                "credit": "www.baltimoreravens.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "cardinals": {
+        "src": "assets/team-photos/cardinals/photo-19.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.azcardinals.com/photos/photos-2026-training-camp-red-and-white-practice",
+        "credit": "www.azcardinals.com / official team photography",
+        "scenes": [
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find the red #11 jersey in the background of the bike ride.",
+                "target": [
+                    0.79,
+                    0.25,
+                    0.04,
+                    0.3
+                ],
+                "src": "assets/team-photos/cardinals/photo-19.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.azcardinals.com/photos/photos-cardinals-and-packers-training-camp-practice",
+                "credit": "www.azcardinals.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find white #74 behind the receiver.",
+                "target": [
+                    0.09,
+                    0.08,
+                    0.15,
+                    0.63
+                ],
+                "src": "assets/team-photos/cardinals/photo-3.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.azcardinals.com/photos/photos-2026-training-camp-red-and-white-practice",
+                "credit": "www.azcardinals.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find red #26 behind the jumping receiver.",
+                "target": [
+                    0.31,
+                    0.28,
+                    0.095,
+                    0.59
+                ],
+                "src": "assets/team-photos/cardinals/photo-5.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.azcardinals.com/photos/photos-2026-training-camp-red-and-white-practice",
+                "credit": "www.azcardinals.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find the black-clad observer behind the drill.",
+                "target": [
+                    0.765,
+                    0.28,
+                    0.075,
+                    0.34
+                ],
+                "src": "assets/team-photos/cardinals/photo-22.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.azcardinals.com/photos/photos-cardinals-and-packers-training-camp-practice",
+                "credit": "www.azcardinals.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "src": "assets/team-photos/cardinals/photo-26.jpg",
+                "sourcePage": "https://www.azcardinals.com/photos/photos-2026-training-camp-at-dignity-health-training-center",
+                "credit": "www.azcardinals.com / official team photography",
+                "index": 4,
+                "name": "Behind the practice drill",
+                "kind": "photograph",
+                "target": [
+                    0.435,
+                    0.25,
+                    0.045,
+                    0.07
+                ],
+                "clue": "Find the face partly hidden between the two outstretched arms. Tap that face.",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "saints": {
+        "src": "assets/team-photos/saints/photo-8.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-18-fan-photos-august-26-2026",
+        "credit": "www.neworleanssaints.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find the dark jersey farther along the autograph line.",
+                "target": [
+                    0.51,
+                    0.28,
+                    0.2,
+                    0.7
+                ],
+                "src": "assets/team-photos/saints/photo-8.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-18-fan-photos-august-26-2026",
+                "credit": "www.neworleanssaints.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find the fan in a white NEW ORLEANS shirt beside #44.",
+                "target": [
+                    0.03,
+                    0.2,
+                    0.19,
+                    0.64
+                ],
+                "src": "assets/team-photos/saints/photo-3.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-18-fan-photos-august-26-2026",
+                "credit": "www.neworleanssaints.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find the child in the black cap beside the gold helmet.",
+                "target": [
+                    0.6,
+                    0.26,
+                    0.15,
+                    0.35
+                ],
+                "src": "assets/team-photos/saints/photo-13.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-9-fan-photos-august-9-2026",
+                "credit": "www.neworleanssaints.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find the green sunglasses behind the sideline wall.",
+                "target": [
+                    0.515,
+                    0.265,
+                    0.05,
+                    0.2
+                ],
+                "src": "assets/team-photos/saints/photo-0.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-18-fan-photos-august-26-2026",
+                "credit": "www.neworleanssaints.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find the blue sunglasses in the back row.",
+                "target": [
+                    0.49,
+                    0.235,
+                    0.055,
+                    0.13
+                ],
+                "src": "assets/team-photos/saints/photo-33.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-8-fan-photos-august-8-2026",
+                "credit": "www.neworleanssaints.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "giants": {
+        "src": "assets/team-photos/giants/photo-4.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.giants.com/photos/practice-photos-getting-ready-for-mnf-rams-2026",
+        "credit": "www.giants.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find blue #22 behind the foreground defender.",
+                "target": [
+                    0.27,
+                    0.33,
+                    0.23,
+                    0.67
+                ],
+                "src": "assets/team-photos/giants/photo-4.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.giants.com/photos/practice-photos-getting-ready-for-mnf-rams-2026",
+                "credit": "www.giants.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "On the move",
+                "clue": "Find the traveler with red shoes behind the front pair.",
+                "target": [
+                    0.53,
+                    0.06,
+                    0.15,
+                    0.85
+                ],
+                "src": "assets/team-photos/giants/photo-26.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.giants.com/photos/travel-photos-giants-head-to-philadelphia-x7205",
+                "credit": "www.giants.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find white #71 behind the crouching line.",
+                "target": [
+                    0.71,
+                    0.16,
+                    0.16,
+                    0.55
+                ],
+                "src": "assets/team-photos/giants/photo-7.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.giants.com/photos/practice-photos-getting-ready-for-mnf-rams-2026",
+                "credit": "www.giants.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find red #6 behind the offensive line.",
+                "target": [
+                    0.37,
+                    0.22,
+                    0.19,
+                    0.37
+                ],
+                "src": "assets/team-photos/giants/photo-9.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.giants.com/photos/practice-photos-getting-ready-for-mnf-rams-2026",
+                "credit": "www.giants.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the standing fan in the red shirt behind the barrier. Tap the white emblem on his chest.",
+                "target": [
+                    0.315,
+                    0.235,
+                    0.05,
+                    0.09
+                ],
+                "src": "assets/fan-crowds/giants.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
+                "credit": "www.giants.com",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "panthers": {
+        "src": "assets/team-photos/panthers/photo-17.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.panthers.com/photos/panthers-practice-week-11-vs-ravens-november-19-2026",
+        "credit": "www.panthers.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find the white jersey behind #24 at the right of the group.",
+                "target": [
+                    0.72,
+                    0.11,
+                    0.27,
+                    0.86
+                ],
+                "src": "assets/team-photos/panthers/photo-17.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.panthers.com/photos/panthers-practice-week-11-vs-ravens-november-18-2026",
+                "credit": "www.panthers.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "On the move",
+                "clue": "Find the black-hooded player behind the signing teammate.",
+                "target": [
+                    0.79,
+                    0.03,
+                    0.19,
+                    0.96
+                ],
+                "src": "assets/team-photos/panthers/photo-25.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.panthers.com/photos/arrival-gallery-panthers-vs-ravens-november-22-2026",
+                "credit": "www.panthers.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find white #30 behind the front practice group.",
+                "target": [
+                    0.69,
+                    0.23,
+                    0.22,
+                    0.77
+                ],
+                "src": "assets/team-photos/panthers/photo-10.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.panthers.com/photos/panthers-practice-week-11-vs-ravens-november-19-2026",
+                "credit": "www.panthers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "On the move",
+                "clue": "Find the beanie-wearing teammate behind the autograph line.",
+                "target": [
+                    0.36,
+                    0.17,
+                    0.15,
+                    0.4
+                ],
+                "src": "assets/team-photos/panthers/photo-31.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.panthers.com/photos/arrival-gallery-panthers-vs-ravens-november-22-2026",
+                "credit": "www.panthers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the woman in round dark sunglasses just above the railing. Tap the sunglasses.",
+                "target": [
+                    0.681,
+                    0.515,
+                    0.05,
+                    0.09
+                ],
+                "src": "assets/fan-crowds/panthers.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.panthers.com/photos/photos-capturing-the-fans-at-fan-fest",
+                "credit": "Chanelle Smith-Walker/Carolina Panthers",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "bears": {
+        "src": "assets/team-photos/bears/photo-15.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.chicagobears.com/photos/bears-welcome-junior-photographer-training-camp-practice-snaps-2026",
+        "credit": "www.chicagobears.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find #43 behind the leaping receiver.",
+                "target": [
+                    0.26,
+                    0.03,
+                    0.17,
+                    0.84
+                ],
+                "src": "assets/team-photos/bears/photo-15.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chicagobears.com/photos/practice-snaps-kicking-off-training-camp-2026",
+                "credit": "www.chicagobears.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find #9 behind the throwing player.",
+                "target": [
+                    0.11,
+                    0.01,
+                    0.14,
+                    0.97
+                ],
+                "src": "assets/team-photos/bears/photo-32.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chicagobears.com/photos/2026-veteran-minicamp-practice-snaps",
+                "credit": "www.chicagobears.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find the receiver waiting at the back right of the drill.",
+                "target": [
+                    0.78,
+                    0.06,
+                    0.13,
+                    0.82
+                ],
+                "src": "assets/team-photos/bears/photo-21.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chicagobears.com/photos/practice-snaps-kicking-off-training-camp-2026",
+                "credit": "www.chicagobears.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find the coach holding the football behind the players.",
+                "target": [
+                    0.17,
+                    0.2,
+                    0.12,
+                    0.6
+                ],
+                "src": "assets/team-photos/bears/photo-9.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chicagobears.com/photos/bears-welcome-junior-photographer-training-camp-practice-snaps-2026",
+                "credit": "www.chicagobears.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find the referee on the distant right sideline.",
+                "target": [
+                    0.79,
+                    0.39,
+                    0.045,
+                    0.2
+                ],
+                "src": "assets/team-photos/bears/photo-24.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chicagobears.com/photos/2026-veteran-minicamp-practice-snaps",
+                "credit": "www.chicagobears.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "bengals": {
+        "src": "assets/team-photos/bengals/photo-18.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.bengals.com/photos/monday-night-football-bengals-commanders-week-11-2026-practice-photos",
+        "credit": "www.bengals.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find black #27 behind #20.",
+                "target": [
+                    0.62,
+                    0.11,
+                    0.28,
+                    0.85
+                ],
+                "src": "assets/team-photos/bengals/photo-18.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.bengals.com/photos/monday-night-football-bengals-commanders-week-11-2026-practice-photos",
+                "credit": "www.bengals.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find black #37 at the right side of the huddle.",
+                "target": [
+                    0.57,
+                    0.15,
+                    0.21,
+                    0.78
+                ],
+                "src": "assets/team-photos/bengals/photo-15.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.bengals.com/photos/monday-night-football-bengals-commanders-week-11-2026-practice-photos",
+                "credit": "www.bengals.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find black #45 running behind the ball carrier.",
+                "target": [
+                    0.015,
+                    0.28,
+                    0.12,
+                    0.48
+                ],
+                "src": "assets/team-photos/bengals/photo-32.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.bengals.com/photos/bengals-practice-monday-night-football-photos-week-11-2026-commanders",
+                "credit": "www.bengals.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Under the lights",
+                "clue": "Find the fan in a red jacket behind the sideline.",
+                "target": [
+                    0.73,
+                    0.28,
+                    0.07,
+                    0.41
+                ],
+                "src": "assets/team-photos/bengals/photo-54.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.bengals.com/photos/bengals-steelers-sunday-night-football-game-photos-week-10-2026",
+                "credit": "www.bengals.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Community day",
+                "clue": "Find the child beside the far end of the activity mat.",
+                "target": [
+                    0.33,
+                    0.42,
+                    0.045,
+                    0.3
+                ],
+                "src": "assets/team-photos/bengals/photo-44.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.bengals.com/photos/bengals-host-play60-event-at-rees-e-price-academy-community-photos",
+                "credit": "www.bengals.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "broncos": {
+        "src": "assets/team-photos/broncos/photo-23.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.denverbroncos.com/photos/practice-photos-a-look-at-the-broncos-on-field-preparation-for-week-11-vs-the-raiders",
+        "credit": "www.denverbroncos.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find white #14 at the right edge of the running group.",
+                "target": [
+                    0.85,
+                    0.01,
+                    0.15,
+                    0.96
+                ],
+                "src": "assets/team-photos/broncos/photo-23.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.denverbroncos.com/photos/practice-photos-a-look-at-the-broncos-on-field-preparation-for-week-9-vs-the-panthers",
+                "credit": "www.denverbroncos.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find white #94 between #34 and the coach.",
+                "target": [
+                    0.45,
+                    0.07,
+                    0.15,
+                    0.85
+                ],
+                "src": "assets/team-photos/broncos/photo-2.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.denverbroncos.com/photos/practice-photos-a-look-at-the-broncos-on-field-preparation-for-week-11-vs-the-raiders",
+                "credit": "www.denverbroncos.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find the observer behind the receiver drill.",
+                "target": [
+                    0.02,
+                    0.22,
+                    0.12,
+                    0.4
+                ],
+                "src": "assets/team-photos/broncos/photo-14.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.denverbroncos.com/photos/practice-photos-a-look-at-the-broncos-on-field-preparation-for-week-9-vs-the-panthers",
+                "credit": "www.denverbroncos.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find the seated player at the right of the stretching group.",
+                "target": [
+                    0.73,
+                    0.55,
+                    0.21,
+                    0.19
+                ],
+                "src": "assets/team-photos/broncos/photo-0.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.denverbroncos.com/photos/practice-photos-a-look-at-the-broncos-on-field-preparation-for-week-11-vs-the-raiders",
+                "credit": "www.denverbroncos.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Community day",
+                "clue": "Find the child in the bright yellow shirt in the crowd.",
+                "target": [
+                    0.42,
+                    0.49,
+                    0.1,
+                    0.35
+                ],
+                "src": "assets/team-photos/broncos/photo-31.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.denverbroncos.com/photos/photos-broncos-partner-with-campos-to-host-stem-activities-and-pep-rally-for-students-at-dsst-cedar-middle-school",
+                "credit": "www.denverbroncos.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "bills": {
+        "src": "assets/team-photos/bills/photo-21.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.buffalobills.com/photos/in-the-lab-buffalo-bills-week-11-practice-nov-20-2026",
+        "credit": "www.buffalobills.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find the crouching blue jersey at the far right of the drill.",
+                "target": [
+                    0.79,
+                    0.24,
+                    0.2,
+                    0.74
+                ],
+                "src": "assets/team-photos/bills/photo-21.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.buffalobills.com/photos/in-the-lab-buffalo-bills-week-11-practice-nov-19-2026",
+                "credit": "www.buffalobills.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find blue #90 behind the running lineman.",
+                "target": [
+                    0.1,
+                    0.24,
+                    0.18,
+                    0.7
+                ],
+                "src": "assets/team-photos/bills/photo-6.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.buffalobills.com/photos/in-the-lab-buffalo-bills-week-11-practice-nov-20-2026",
+                "credit": "www.buffalobills.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find blue #21 behind #24.",
+                "target": [
+                    0.05,
+                    0.36,
+                    0.16,
+                    0.59
+                ],
+                "src": "assets/team-photos/bills/photo-7.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.buffalobills.com/photos/in-the-lab-buffalo-bills-week-11-practice-nov-20-2026",
+                "credit": "www.buffalobills.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "On the move",
+                "clue": "Find the gray-jacketed traveler between the two foreground players.",
+                "target": [
+                    0.51,
+                    0.42,
+                    0.13,
+                    0.56
+                ],
+                "src": "assets/team-photos/bills/photo-39.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.buffalobills.com/photos/photos-buffalo-bills-travel-to-east-rutherford",
+                "credit": "www.buffalobills.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Community day",
+                "clue": "Find blue #56 in the back row of the community group.",
+                "target": [
+                    0.74,
+                    0.11,
+                    0.08,
+                    0.33
+                ],
+                "src": "assets/team-photos/bills/photo-44.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.buffalobills.com/photos/thanksgiving-blitz-provides-holiday-meals-to-wny-families",
+                "credit": "www.buffalobills.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "browns": {
+        "src": "assets/team-photos/browns/photo-36.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.clevelandbrowns.com/photos/browns-practice-for-2026-week-10-matchup-vs-texans",
+        "credit": "www.clevelandbrowns.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find the seated player at the far end of the row.",
+                "target": [
+                    0.86,
+                    0.015,
+                    0.14,
+                    0.72
+                ],
+                "src": "assets/team-photos/browns/photo-36.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.clevelandbrowns.com/photos/behind-the-scenes-of-the-team-photo-2026-in-focus",
+                "credit": "www.clevelandbrowns.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find white #17 in the practice group.",
+                "target": [
+                    0.2,
+                    0.19,
+                    0.12,
+                    0.66
+                ],
+                "src": "assets/team-photos/browns/photo-1.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.clevelandbrowns.com/photos/browns-practice-for-2026-week-10-matchup-vs-texans",
+                "credit": "www.clevelandbrowns.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find white #52 between #77 and #66.",
+                "target": [
+                    0.43,
+                    0.05,
+                    0.09,
+                    0.85
+                ],
+                "src": "assets/team-photos/browns/photo-22.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.clevelandbrowns.com/photos/browns-practice-for-2026-week-9-matchup-vs-saints",
+                "credit": "www.clevelandbrowns.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find white #79 behind the linemen.",
+                "target": [
+                    0.735,
+                    0.105,
+                    0.115,
+                    0.57
+                ],
+                "src": "assets/team-photos/browns/photo-19.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.clevelandbrowns.com/photos/browns-practice-for-2026-week-9-matchup-vs-saints",
+                "credit": "www.clevelandbrowns.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find black #50 in the back row of the group photo.",
+                "target": [
+                    0.73,
+                    0.04,
+                    0.08,
+                    0.39
+                ],
+                "src": "assets/team-photos/browns/photo-38.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.clevelandbrowns.com/photos/behind-the-scenes-of-the-team-photo-2026-in-focus",
+                "credit": "www.clevelandbrowns.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "falcons": {
+        "src": "assets/team-photos/falcons/photo-5.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.atlantafalcons.com/photos/training-camp-joint-practice-08-20-26",
+        "credit": "www.atlantafalcons.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find white #7 in the coverage drill.",
+                "target": [
+                    0.23,
+                    0.18,
+                    0.36,
+                    0.8
+                ],
+                "src": "assets/team-photos/falcons/photo-5.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.atlantafalcons.com/photos/training-camp-joint-practice-08-20-26",
+                "credit": "www.atlantafalcons.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find the black-shirted observer behind the coverage drill.",
+                "target": [
+                    0.79,
+                    0.23,
+                    0.08,
+                    0.48
+                ],
+                "src": "assets/team-photos/falcons/photo-3.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.atlantafalcons.com/photos/training-camp-joint-practice-08-20-26",
+                "credit": "www.atlantafalcons.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find white #46 in the background of the group drill.",
+                "target": [
+                    0.57,
+                    0.4,
+                    0.08,
+                    0.45
+                ],
+                "src": "assets/team-photos/falcons/photo-9.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.atlantafalcons.com/photos/training-camp-joint-practice-08-20-26",
+                "credit": "www.atlantafalcons.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find black #96 behind the walking group.",
+                "target": [
+                    0.63,
+                    0.38,
+                    0.06,
+                    0.35
+                ],
+                "src": "assets/team-photos/falcons/photo-1.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.atlantafalcons.com/photos/training-camp-joint-practice-08-20-26",
+                "credit": "www.atlantafalcons.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the white sign reading JUST A GIRL. Tap the word GIRL.",
+                "target": [
+                    0.765,
+                    0.655,
+                    0.05,
+                    0.09
+                ],
+                "src": "assets/fan-crowds/falcons.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
+                "credit": "Atlanta Falcons / Kara Durrette",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "patriots": {
+        "src": "assets/team-photos/patriots/photo-19.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.patriots.com/photos/photos-patriots-practice-at-fc-bayern-training-center-in-munich-germany-to-prepare-for-their-week-10-game-against-the-detroit-lions",
+        "credit": "www.patriots.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Community day",
+                "clue": "Find the dark-shirted player leaning over the children's drill.",
+                "target": [
+                    0.51,
+                    0.01,
+                    0.19,
+                    0.79
+                ],
+                "src": "assets/team-photos/patriots/photo-19.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.patriots.com/photos/photos-patriots-host-youth-football-clinic-at-training-camp",
+                "credit": "www.patriots.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find navy #33 at the back of the practice group.",
+                "target": [
+                    0.8,
+                    0.18,
+                    0.18,
+                    0.68
+                ],
+                "src": "assets/team-photos/patriots/photo-3.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.patriots.com/photos/photos-patriots-practice-at-fc-bayern-training-center-in-munich-germany-to-prepare-for-their-week-10-game-against-the-detroit-lions",
+                "credit": "www.patriots.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find navy #33 behind the coach and foreground player.",
+                "target": [
+                    0.79,
+                    0.42,
+                    0.15,
+                    0.44
+                ],
+                "src": "assets/team-photos/patriots/photo-8.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.patriots.com/photos/photos-patriots-practice-at-fc-bayern-training-center-in-munich-germany-to-prepare-for-their-week-10-game-against-the-detroit-lions",
+                "credit": "www.patriots.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "On the move",
+                "clue": "Find the child in red shorts beside the bike line.",
+                "target": [
+                    0.6,
+                    0.34,
+                    0.12,
+                    0.41
+                ],
+                "src": "assets/team-photos/patriots/photo-24.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.patriots.com/photos/photos-patriots-surprise-kids-with-bikes-after-training-camp",
+                "credit": "www.patriots.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find navy #93 behind the catching player.",
+                "target": [
+                    0.58,
+                    0.48,
+                    0.1,
+                    0.35
+                ],
+                "src": "assets/team-photos/patriots/photo-6.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.patriots.com/photos/photos-patriots-practice-at-fc-bayern-training-center-in-munich-germany-to-prepare-for-their-week-10-game-against-the-detroit-lions",
+                "credit": "www.patriots.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "raiders": {
+        "src": "assets/team-photos/raiders/photo-40.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.raiders.com/photos/practice-photos-friday-11-20-26",
+        "credit": "www.raiders.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Under the lights",
+                "clue": "Find white #23 behind #18 in the play.",
+                "target": [
+                    0.55,
+                    0.19,
+                    0.19,
+                    0.71
+                ],
+                "src": "assets/team-photos/raiders/photo-40.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.raiders.com/photos/gameday-photos-week-11-vs-broncos",
+                "credit": "www.raiders.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find black #52 at the back of the practice group.",
+                "target": [
+                    0.23,
+                    0.01,
+                    0.13,
+                    0.64
+                ],
+                "src": "assets/team-photos/raiders/photo-22.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.raiders.com/photos/practice-photos-thursday-11-19-26",
+                "credit": "www.raiders.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find white #70 behind the foreground #2 jersey.",
+                "target": [
+                    0.23,
+                    0.13,
+                    0.12,
+                    0.6
+                ],
+                "src": "assets/team-photos/raiders/photo-20.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.raiders.com/photos/practice-photos-thursday-11-19-26",
+                "credit": "www.raiders.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find the small standing player just left of the tackling pad.",
+                "target": [
+                    0.48,
+                    0.33,
+                    0.06,
+                    0.33
+                ],
+                "src": "assets/team-photos/raiders/photo-5.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.raiders.com/photos/practice-photos-friday-11-20-26",
+                "credit": "www.raiders.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find the crouching player behind the receiver.",
+                "target": [
+                    0.23,
+                    0.59,
+                    0.05,
+                    0.17
+                ],
+                "src": "assets/team-photos/raiders/photo-10.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.raiders.com/photos/practice-photos-friday-11-20-26",
+                "credit": "www.raiders.com / official team photography",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "chargers": {
+        "src": "assets/team-photos/chargers/photo-35.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.chargers.com/photos/practice-friday-week-11-2026",
+        "credit": "www.chargers.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Around the practice field",
+                "clue": "Find white #83 behind the throwing quarterback.",
+                "target": [
+                    0.64,
+                    0.11,
+                    0.18,
+                    0.87
+                ],
+                "src": "assets/team-photos/chargers/photo-35.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chargers.com/photos/practice-saturday-week-10-2026",
+                "credit": "www.chargers.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Around the practice field",
+                "clue": "Find #28 behind the first two runners.",
+                "target": [
+                    0.82,
+                    0.1,
+                    0.16,
+                    0.87
+                ],
+                "src": "assets/team-photos/chargers/photo-2.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chargers.com/photos/practice-friday-week-11-2026",
+                "credit": "www.chargers.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find blue #93 behind the foreground player.",
+                "target": [
+                    0.19,
+                    0.14,
+                    0.17,
+                    0.79
+                ],
+                "src": "assets/team-photos/chargers/photo-25.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chargers.com/photos/practice-saturday-week-10-2026",
+                "credit": "www.chargers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find blue #20 at the back of the group.",
+                "target": [
+                    0.85,
+                    0.17,
+                    0.14,
+                    0.82
+                ],
+                "src": "assets/team-photos/chargers/photo-5.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chargers.com/photos/practice-friday-week-11-2026",
+                "credit": "www.chargers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the fan with long dark dreadlocks behind the front row. Tap his face.",
+                "target": [
+                    0.465,
+                    0.435,
+                    0.05,
+                    0.09
+                ],
+                "src": "assets/fan-crowds/chargers.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.chargers.com/photos/2026-tailgate-photos-week-9-texans",
+                "credit": "Ryan Young/Los Angeles Chargers",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "steelers": {
+        "src": "assets/team-photos/steelers/photo-17.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.steelers.com/photos/photos-practice-eagles-week-day-2-x4934",
+        "credit": "www.steelers.com / official team photography",
+        "scenes": [
+            {
+                "index": 4,
+                "name": "Around the practice field",
+                "clue": "Find yellow #25 behind the runner.",
+                "target": [
+                    0.68,
+                    0.14,
+                    0.12,
+                    0.7
+                ],
+                "src": "assets/team-photos/steelers/photo-17.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.steelers.com/photos/photos-practice-eagles-week-day-1-x4129",
+                "credit": "www.steelers.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Under the lights",
+                "clue": "Find white #8 behind the offensive line.",
+                "target": [
+                    0.54,
+                    0,
+                    0.15,
+                    0.98
+                ],
+                "src": "assets/team-photos/steelers/photo-37.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.steelers.com/photos/game-photos-week-11-at-eagles",
+                "credit": "www.steelers.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Around the practice field",
+                "clue": "Find the white quarterback jersey behind the crouching line.",
+                "target": [
+                    0.36,
+                    0.05,
+                    0.22,
+                    0.56
+                ],
+                "src": "assets/team-photos/steelers/photo-0.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.steelers.com/photos/photos-practice-eagles-week-day-2-x4934",
+                "credit": "www.steelers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find yellow #22 in the background line.",
+                "target": [
+                    0.27,
+                    0.15,
+                    0.125,
+                    0.7
+                ],
+                "src": "assets/team-photos/steelers/photo-16.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.steelers.com/photos/photos-practice-eagles-week-day-1-x4129",
+                "credit": "www.steelers.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the bright yellow cap near the right edge behind the front-row fans. Tap the cap.",
+                "target": [
+                    0.915,
+                    0.285,
+                    0.05,
+                    0.09
+                ],
+                "src": "assets/fan-crowds/steelers.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.steelers.com/photos/photos-best-of-fans-at-steelers-camp-x2048",
+                "credit": "Jordan Perez/Pittsburgh Steelers",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    },
+    "vikings": {
+        "src": "assets/team-photos/vikings/photo-0.jpg",
+        "cols": 1,
+        "rows": 1,
+        "referenceIndex": 0,
+        "playerName": "your target",
+        "number": 0,
+        "era": "Real team photography",
+        "sourcePage": "https://www.vikings.com/photos/girls-flag-football-clinic-training-camp-2026",
+        "credit": "www.vikings.com / official team photography",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Community day",
+                "clue": "Find the purple-shirted girl at the back right of the drill.",
+                "target": [
+                    0.84,
+                    0.23,
+                    0.14,
+                    0.45
+                ],
+                "src": "assets/team-photos/vikings/photo-0.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.vikings.com/photos/girls-flag-football-clinic-training-camp-2026",
+                "credit": "www.vikings.com / official team photography",
+                "difficulty": "Hard"
+            },
+            {
+                "index": 1,
+                "name": "Community day",
+                "clue": "Find the white cap beside the seated woman greeting #33.",
+                "target": [
+                    0.29,
+                    0.66,
+                    0.1,
+                    0.19
+                ],
+                "src": "assets/team-photos/vikings/photo-30.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.vikings.com/photos/legends-players-visit-veterans-minnesota-va-hospitals",
+                "credit": "www.vikings.com / official team photography",
+                "difficulty": "Harder"
+            },
+            {
+                "index": 2,
+                "name": "Under the lights",
+                "clue": "Find the purple #10 jersey behind the sideline wall.",
+                "target": [
+                    0.285,
+                    0.49,
+                    0.075,
+                    0.2
+                ],
+                "src": "assets/team-photos/vikings/photo-37.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.vikings.com/photos/pregame-green-bay-packers-2026",
+                "credit": "www.vikings.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 3,
+                "name": "Around the practice field",
+                "clue": "Find the face behind #19 and #11 in the group photo.",
+                "target": [
+                    0.48,
+                    0.23,
+                    0.08,
+                    0.18
+                ],
+                "src": "assets/team-photos/vikings/photo-24.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.vikings.com/photos/girls-flag-football-museum-unveiling-training-camp",
+                "credit": "www.vikings.com / official team photography",
+                "difficulty": "Expert"
+            },
+            {
+                "index": 4,
+                "name": "Lost in the home crowd",
+                "clue": "Find the purple #88 jersey beside the green #17 jersey in the distant crowd. Tap the number 88.",
+                "target": [
+                    0.5345,
+                    0.66,
+                    0.045,
+                    0.08
+                ],
+                "src": "assets/fan-crowds/vikings.jpg",
+                "kind": "photograph",
+                "sourcePage": "https://www.vikings.com/photos/fans-packers-week-1-2026",
+                "credit": "Andy Berg/Minnesota Vikings",
+                "difficulty": "Final challenge"
+            }
+        ],
+        "version": 7,
+        "authentic": true,
+        "disclosure": "Real team football and fan photographs. Targets are small faces, helmets, and jersey details already present in the original photographs."
+    }
+}

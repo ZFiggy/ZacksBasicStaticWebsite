@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#004c54">
+    <title>Fan &amp; team standings · Sunday Arcade</title><meta name="description" content="Fans, colors, and scores. Individual game leaderboards and overall team standings for all 32 NFL teams.">
+    <link rel="icon" href="assets/football.svg" type="image/svg+xml">
+    <script src="scripts/theme.js"></script><script src="scripts/teams-data.js"></script><script src="scripts/teams.js"></script>
+    <script defer src="scripts/photo-scenes.js"></script>
+    <script defer src="scripts/personality-data.js"></script>
+    <script defer src="scripts/game-personality.js"></script>
+    <script defer src="scripts/team-rules.js"></script>
+    <script defer src="scripts/team-ui.js"></script><script defer src="scripts/playbook-data.js"></script><script defer src="scripts/arcade.js"></script>
+    <script type="module" src="scripts/league-board.js"></script>
+    <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="teams.css">
+</head>
+<body class="leaders-page">
+    <a class="skip-link" href="#main-content">Skip to standings</a>
+    <div class="site-shell">
+        <header class="site-header"><a class="wordmark" href="index.html">SUNDAY / ARCADE</a><div class="header-actions"><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="counter.html">Scoreboard</a><a href="games.html">Games</a></nav><button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">◐ Dark mode</button></div></header>
+        <main id="main-content" tabindex="-1">
+            <section class="leaders-intro"><div><p class="eyebrow">Every fan. Every team. Every point.</p><h1>REP YOUR COLORS.<br>CLIMB THE BOARD.</h1><p>Individual records show your name, chosen team, and score. Team standings add all published arcade points for each club. Ten games, up to 100 points each; fan clicks are ranked separately.</p></div><div class="leaders-mascot" data-team-art></div></section>
+            <div class="leaderboard-tabs" role="group" aria-label="Leaderboard view"><button type="button" data-board="fans" aria-pressed="true">Fan leaders</button><button type="button" data-board="teams" aria-pressed="false">Team standings</button><button type="button" data-board="local" aria-pressed="false">My browser records</button></div>
+            <div class="league-board-layout">
+                <section class="league-board" aria-label="Rankings">
+                    <div class="league-board-filters"><label>Team<select id="board-team"><option value="all">All 32 teams</option></select></label><label>Game<select id="board-game"><option value="overall">Overall arcade points</option><option value="clicks">Fan scoreboard clicks</option></select></label></div>
+                    <div class="league-board-table-wrap"><table><caption id="board-caption" class="visually-hidden">Fan rankings. Equal scores share a rank.</caption><thead id="board-head"><tr><th scope="col">Rank</th><th scope="col">Fan</th><th scope="col">Team</th><th scope="col">Score</th></tr></thead><tbody id="board-rows"></tbody></table></div>
+                    <p id="board-empty">Connecting to the shared standings…</p><p class="board-status" id="board-status" role="status"></p><button class="leaderboard-retry" id="board-refresh" type="button">Refresh standings</button>
+                </section>
+                <aside class="league-profile" aria-label="Your public fan profile"><p class="eyebrow">Your colors on the board</p><h2 data-team-name></h2><p>Your record belongs to this team. Switching teams starts a separate record and preserves this one.</p><div class="profile-points"><span>ARCADE POINTS</span><strong><span data-arcade-points>0</span><small> / 1,000</small></strong></div><form id="league-profile-form"><label for="league-name">Public nickname</label><input id="league-name" name="nickname" type="text" minlength="2" maxlength="20" autocomplete="nickname" placeholder="e.g. SundayFan26" required><button class="button" id="league-join" type="submit">Publish my team record</button></form><p id="league-sync" role="status" class="small-note">Joining is optional. Your nickname, team, and scores become public.</p><button class="button" id="league-sync-button" type="button" hidden>Sync my scores</button><p class="small-note">One record per browser identity per team. Clearing site data can create another identity. Casual fan scores are browser-reported.</p><a href="games.html">Earn more points</a></aside>
+            </div>
+            <section aria-labelledby="points-title"><div class="section-heading"><div><p class="eyebrow">Your team’s scorecard</p><h2 id="points-title">Every game has a place.</h2></div><p>100 points per game. 1,000 maximum per team.</p></div><div id="score-breakdown" class="team-score-breakdown"></div></section>
+            <noscript><p>Enable JavaScript to view standings or publish a record.</p></noscript>
+        </main>
+        <footer class="site-footer"><p>Sunday Arcade · Unofficial fan project.</p><a href="choose.html">Switch teams</a></footer>
+    </div>
+</body>
+</html>

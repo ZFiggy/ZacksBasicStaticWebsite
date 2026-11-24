@@ -8,12 +8,14 @@ class BarkleyBird {
         this.pauseButton.addEventListener('click', () => this.togglePause());
         this.best = 0;
         try {
-            const stored = Number(localStorage.getItem('barkleyBest'));
+            const stored = Number(window.teamArcade.storage.getItem('barkleyBest'));
             if (Number.isSafeInteger(stored) && stored >= 0 && stored <= 1000000) this.best = stored;
         } catch { /* Local play is still available without storage. */ }
         this.portrait = new Image();
         this.portrait.onload = () => this.draw();
-        this.portrait.src = 'assets/barkley-flight.png';
+        this.portrait.onerror = () => this.draw();
+        this.flightSprite = window.teamArcade.personality.flightSprite;
+        this.portrait.src = this.flightSprite.src;
         this.button.addEventListener('click', () => this.flap());
         this.canvas.addEventListener('pointerdown', (event) => { if (event.button === 0) { event.preventDefault(); this.flap(); } });
         document.addEventListener('keydown', (event) => {
@@ -35,6 +37,9 @@ class BarkleyBird {
                 this.togglePause();
             }
         });
+        window.addEventListener('blur', () => {
+            if (this.state === 'playing') this.togglePause();
+        });
         window.barkleyScores = {
             getCount: () => this.best,
             restoreCount: (value) => {
@@ -47,7 +52,7 @@ class BarkleyBird {
     }
 
     saveBest() {
-        try { localStorage.setItem('barkleyBest', this.best.toString()); } catch { /* Keep this session's best. */ }
+        try { window.teamArcade.storage.setItem('barkleyBest', this.best.toString()); } catch { /* Keep this session's best. */ }
         document.dispatchEvent(new Event('arcade:progress'));
     }
 
@@ -74,7 +79,7 @@ class BarkleyBird {
         this.pauseButton.disabled = false;
         this.pauseButton.textContent = 'Pause';
         this.button.textContent = 'Flap';
-        this.status.textContent = 'Keep Saquon between the uprights.';
+        this.status.textContent = 'Keep your flying star between the uprights.';
         this.draw();
     }
 
@@ -91,7 +96,7 @@ class BarkleyBird {
             this.lastTime = null;
             this.pauseButton.textContent = 'Pause';
             this.button.textContent = 'Flap';
-            this.status.textContent = 'Keep Saquon between the uprights.';
+            this.status.textContent = 'Keep your flying star between the uprights.';
             this.frame = requestAnimationFrame(time => this.tick(time));
         }
     }
@@ -159,8 +164,8 @@ class BarkleyBird {
         const ctx = this.ctx;
         const sky = ctx.createLinearGradient(0, 0, 0, 680);
         sky.addColorStop(0, '#071e34');
-        sky.addColorStop(0.55, '#276979');
-        sky.addColorStop(1, '#a0bdb0');
+        sky.addColorStop(0.55, window.teamArcade.team.primary);
+        sky.addColorStop(1, window.teamArcade.team.secondary);
         ctx.fillStyle = sky;
         ctx.fillRect(0, 0, 480, 680);
         const glow = ctx.createRadialGradient(365, 240, 10, 365, 240, 260);
@@ -171,72 +176,78 @@ class BarkleyBird {
         const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         const drift = reduced ? 0 : this.distance;
         // Soft cloud banks, skyline and the stadium move at different depths.
-        ctx.fillStyle = '#d9e8e516';
+        ctx.fillStyle = window.teamArcade.tint('#d9e8e516');
         for (let i = 0; i < 5; i++) {
-            const x = ((i * 145 - drift * 0.06) % 700 + 700) % 700 - 110;
+            const x = ((i * 145 - drift * 0.06) % 800 + 800) % 800 - 160;
             const y = 155 + i % 3 * 58;
             ctx.beginPath();
             ctx.ellipse(x, y, 78, 11, 0, 0, Math.PI * 2);
             ctx.ellipse(x + 24, y - 6, 40, 15, 0, 0, Math.PI * 2);
             ctx.fill();
         }
-        ctx.fillStyle = '#163e51';
-        for (let i = 0; i < 12; i++) {
-            const x = i * 48 - drift * 0.11 % 48;
-            const height = [55, 90, 65, 110, 75, 140][i % 6];
+        ctx.fillStyle = window.teamArcade.tint('#163e51');
+        // Wrap the whole repeating skyline, so each building keeps its height
+        // until it leaves the screen. Include the partially visible edge buildings.
+        const skylineHeights = [55, 90, 65, 110, 75, 140];
+        const skylinePeriod = skylineHeights.length * 48;
+        const skylineOffset = drift * 0.11 % skylinePeriod;
+        for (let i = 0; i < Math.ceil((480 + skylinePeriod) / 48); i++) {
+            const x = i * 48 - skylineOffset;
+            const height = skylineHeights[i % skylineHeights.length];
             ctx.fillRect(x, 440 - height, 35, height);
             if (i % 3 === 0) {
                 ctx.beginPath(); ctx.moveTo(x, 440 - height); ctx.lineTo(x + 17, 420 - height); ctx.lineTo(x + 35, 440 - height); ctx.fill();
             }
         }
         // Stadium bowl, light towers and illuminated fascia.
-        ctx.fillStyle = '#10323e';
+        ctx.fillStyle = window.teamArcade.tint('#10323e');
         ctx.beginPath(); ctx.moveTo(0, 410); ctx.quadraticCurveTo(240, 485, 480, 410); ctx.lineTo(480, 628); ctx.lineTo(0, 628); ctx.closePath(); ctx.fill();
         for (const x of [30, 435]) {
-            ctx.fillStyle = '#1b4e5c'; ctx.fillRect(x + 6, 220, 5, 215);
+            ctx.fillStyle = window.teamArcade.tint('#1b4e5c'); ctx.fillRect(x + 6, 220, 5, 215);
             ctx.fillStyle = '#e4e7cf'; ctx.fillRect(x - 9, 218, 40, 8);
             ctx.fillStyle = '#f4edbd80'; ctx.fillRect(x - 11, 216, 44, 3);
         }
         for (let row = 0; row < 7; row++) {
             const y = 466 + row * 21;
-            ctx.fillStyle = row % 2 ? '#1a4853' : '#214f58';
+            ctx.fillStyle = row % 2 ? window.teamArcade.tint('#1a4853') : window.teamArcade.tint('#214f58');
             ctx.fillRect(0, y, 480, 17);
             for (let x = 0; x < 480; x += 12) {
-                ctx.fillStyle = (x / 12 + row) % 5 === 0 ? '#d4d7b9a0' : '#62a19c80';
+                ctx.fillStyle = (x / 12 + row) % 5 === 0 ? '#d4d7b9a0' : window.teamArcade.tint('#62a19c80');
                 ctx.fillRect(x + 2, y + 5, 4, 4);
             }
         }
-        ctx.fillStyle = '#04252e'; ctx.fillRect(0, 444, 480, 19);
-        ctx.fillStyle = '#9cd5c9'; ctx.textAlign = 'center'; ctx.font = '700 10px Arial';
-        ctx.fillText('PHILADELPHIA  ·  ALL HEART  ·  ALL PHILLY  ·  FLY EAGLES FLY', 240, 457);
+        ctx.fillStyle = window.teamArcade.tint('#04252e'); ctx.fillRect(0, 444, 480, 19);
+        ctx.fillStyle = window.teamArcade.tint('#9cd5c9'); ctx.textAlign = 'center'; ctx.font = '700 10px Arial';
+        ctx.fillText(`${window.teamArcade.team.city.toUpperCase()} · ${window.teamArcade.team.motto.toUpperCase()}`, 240, 457);
+        window.teamArt.atmosphere(ctx, 480, 430, this.distance);
         const visiblePipes = this.state === 'ready' ? [{x: 375, top: 185, bottom: 440}] : this.pipes;
         for (const pipe of visiblePipes) {
             const pad = ctx.createLinearGradient(pipe.x, 0, pipe.x + 66, 0);
-            pad.addColorStop(0, '#063d47'); pad.addColorStop(0.45, '#1b6970'); pad.addColorStop(1, '#063840');
+            pad.addColorStop(0, window.teamArcade.team.primary); pad.addColorStop(0.45, window.teamArcade.team.secondary); pad.addColorStop(1, window.teamArcade.team.primary);
             ctx.fillStyle = pad;
             ctx.fillRect(pipe.x, 0, 66, pipe.top);
             ctx.fillRect(pipe.x, pipe.bottom, 66, 628 - pipe.bottom);
-            ctx.strokeStyle = '#7eaba770'; ctx.lineWidth = 1;
+            ctx.strokeStyle = window.teamArcade.tint('#7eaba770'); ctx.lineWidth = 1;
             ctx.strokeRect(pipe.x + 5, -1, 56, pipe.top - 5);
             ctx.strokeRect(pipe.x + 5, pipe.bottom + 5, 56, 628 - pipe.bottom);
-            ctx.fillStyle = '#bfd3ce';
+            ctx.fillStyle = window.teamArcade.tint('#bfd3ce');
             ctx.fillRect(pipe.x - 3, pipe.top - 10, 72, 10);
             ctx.fillRect(pipe.x - 3, pipe.bottom, 72, 10);
             ctx.fillStyle = '#e4f2e9';
             ctx.fillRect(pipe.x - 3, pipe.top - 10, 72, 3);
             ctx.fillRect(pipe.x - 3, pipe.bottom, 72, 3);
             ctx.fillStyle = '#dce9df80'; ctx.font = 'italic 800 18px Arial';
-            if (pipe.top > 65) ctx.fillText('PHI', pipe.x + 33, pipe.top - 30);
+            if (pipe.top > 65) ctx.fillText(window.teamArcade.team.short, pipe.x + 33, pipe.top - 30);
         }
         // Turf and sideline.
         ctx.fillStyle = '#125c49'; ctx.fillRect(0, 628, 480, 52);
         ctx.fillStyle = '#dbe6d5'; ctx.fillRect(0, 628, 480, 4);
         ctx.fillStyle = '#2b7c60';
         for (let x = 0; x < 520; x += 36) ctx.fillRect(x - drift % 36, 637, 18, 3);
-        ctx.fillStyle = '#c6e4d9'; ctx.font = 'italic 800 17px Arial'; ctx.fillText('FLY · BARKLEY · FLY', 240, 666);
+        ctx.fillStyle = '#c6e4d9'; ctx.font = 'italic 800 17px Arial'; ctx.fillText(`${window.teamArcade.personality.flierTitle.toUpperCase()}`, 240, 666, 440);
         if (this.state === 'playing' && !reduced) {
             for (let i = 1; i <= 4; i++) {
-                ctx.fillStyle = `rgba(157, 225, 205, ${0.27 - i * 0.05})`;
+                ctx.fillStyle = window.teamArcade.team.secondary + Math.round((0.27 - i * 0.05) * 255).toString(16).padStart(2, '0');
                 ctx.beginPath(); ctx.arc(120 - i * 15, this.y + 8 + i * 2, 4 - i * 0.5, 0, Math.PI * 2); ctx.fill();
             }
         }
@@ -244,24 +255,24 @@ class BarkleyBird {
         ctx.translate(120, this.y);
         ctx.rotate(Math.max(-0.3, Math.min(0.5, this.velocity / 1000)));
         if (this.portrait.complete && this.portrait.naturalWidth) {
-            ctx.drawImage(this.portrait, -37, -37, 74, 74);
+            window.teamArcade.drawGameCover(ctx, this.portrait, this.flightSprite, -42, -42, 84, 84, 'contain');
         } else {
-            ctx.fillStyle = '#004c54'; ctx.beginPath(); ctx.arc(0, 0, 18, 0, Math.PI * 2); ctx.fill();
-            ctx.fillStyle = 'white'; ctx.font = '800 18px Arial'; ctx.fillText('26', 0, 6);
+            // Keep the player visible while its sprite loads or if a request fails.
+            window.teamArt.mascot(ctx, 0, 0, 36);
         }
         ctx.restore();
         // Always-visible broadcast score, clear of the playable character.
-        ctx.fillStyle = '#06252bbf';
+        ctx.fillStyle = window.teamArcade.tint('#06252bbf');
         ctx.beginPath(); ctx.roundRect(171, 24, 138, 75, 12); ctx.fill();
-        ctx.fillStyle = '#b8d8d2'; ctx.font = '700 10px Arial'; ctx.fillText('GAPS CLEARED', 240, 43);
+        ctx.fillStyle = window.teamArcade.tint('#b8d8d2'); ctx.font = '700 10px Arial'; ctx.fillText('GAPS CLEARED', 240, 43);
         ctx.fillStyle = '#ffffff'; ctx.font = '800 36px Arial'; ctx.fillText(this.score.toString(), 240, 83);
         if (this.state !== 'playing') {
-            ctx.fillStyle = '#072934ed'; ctx.strokeStyle = '#8dbab580'; ctx.lineWidth = 1;
+            ctx.fillStyle = window.teamArcade.tint('#072934ed'); ctx.strokeStyle = window.teamArcade.tint('#8dbab580'); ctx.lineWidth = 1;
             ctx.beginPath(); ctx.roundRect(40, 140, 400, 132, 14); ctx.fill(); ctx.stroke();
-            ctx.fillStyle = '#9cd8c9'; ctx.font = '700 11px Arial'; ctx.fillText('SAQUON BARKLEY · PHILADELPHIA · #26', 240, 175);
+            ctx.fillStyle = window.teamArcade.tint('#9cd8c9'); ctx.font = '700 11px Arial'; ctx.fillText(`${window.teamArcade.personality.runner.name.toUpperCase()} · #${window.teamArcade.personality.runner.number}`, 240, 175);
             ctx.fillStyle = '#ffffff'; ctx.font = 'italic 800 32px Arial';
-            ctx.fillText(this.state === 'over' ? 'FLIGHT OVER' : this.state === 'paused' ? 'TAKE A BREATHER' : 'BARKLEY BIRD', 240, 217);
-            ctx.fillStyle = '#c8e1dc'; ctx.font = '15px Arial';
+            ctx.fillText(this.state === 'over' ? 'FLIGHT OVER' : this.state === 'paused' ? 'TAKE A BREATHER' : window.teamArcade.team.games.bird.toUpperCase(), 240, 217, 360);
+            ctx.fillStyle = window.teamArcade.tint('#c8e1dc'); ctx.font = '15px Arial';
             ctx.fillText(this.state === 'over' ? `${this.score} POINTS · BEST ${this.best} · TAP TO RETRY` : 'TAP OR PRESS SPACE TO TAKE FLIGHT', 240, 252);
         }
     }

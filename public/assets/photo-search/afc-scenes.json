@@ -1,0 +1,1330 @@
+{
+    "dolphins": {
+        "src": "assets/photo-search/dolphins.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Dan Marino",
+        "number": 13,
+        "era": "1983–1999 Dolphins era",
+        "sourcePage": "https://www.miamidolphins.com/photos/2026-miami-dolphins-at-new-york-jets-fan-cam",
+        "credit": "www.miamidolphins.com / credited gallery photographer; player identity reference: Pro Football Hall of Fame / NFL; AI photographic composite",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A dark baseball cap and navy Dolphins jacket.",
+                "target": [
+                    0.47,
+                    0.695,
+                    0.062,
+                    0.132
+                ],
+                "src": "assets/photo-search/rounds/dolphins-1.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat and a teal number 13 jersey.",
+                "target": [
+                    0.675,
+                    0.6,
+                    0.06,
+                    0.18
+                ],
+                "src": "assets/photo-search/rounds/dolphins-2.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.46,
+                    0.625,
+                    0.05,
+                    0.13
+                ],
+                "src": "assets/photo-search/rounds/dolphins-3.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat and a teal Dolphins sweatshirt.",
+                "target": [
+                    0.59,
+                    0.635,
+                    0.064,
+                    0.155
+                ],
+                "src": "assets/photo-search/rounds/dolphins-4.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A teal baseball cap and dark Dolphins hoodie.",
+                "target": [
+                    0.602,
+                    0.62,
+                    0.06,
+                    0.16
+                ],
+                "src": "assets/photo-search/rounds/dolphins-5.jpg",
+                "kind": "edited"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/dolphins.jpg",
+        "version": 2,
+        "referencePage": "https://www.profootballhof.com/players/dan-marino",
+        "referenceCredit": "Pro Football Hall of Fame / NFL"
+    },
+    "jets": {
+        "src": "assets/photo-search/jets.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Joe Namath",
+        "number": 12,
+        "era": "1965–1976 Jets era",
+        "sourcePage": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+        "credit": "www.newyorkjets.com / credited gallery photographer; player identity reference: Pro Football Hall of Fame / NFL; AI photographic composite",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A dark green baseball cap and green Jets jacket.",
+                "target": [
+                    0.274,
+                    0.443,
+                    0.074,
+                    0.17
+                ],
+                "src": "assets/photo-search/rounds/jets-1.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat and a green number 12 jersey.",
+                "target": [
+                    0.64,
+                    0.472,
+                    0.1,
+                    0.18
+                ],
+                "src": "assets/photo-search/rounds/jets-2.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.392,
+                    0.495,
+                    0.065,
+                    0.18
+                ],
+                "src": "assets/photo-search/rounds/jets-3.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat and a green Jets sweatshirt.",
+                "target": [
+                    0.546,
+                    0.495,
+                    0.076,
+                    0.18
+                ],
+                "src": "assets/photo-search/rounds/jets-4.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A green baseball cap and dark hoodie.",
+                "target": [
+                    0.54,
+                    0.49,
+                    0.08,
+                    0.16
+                ],
+                "src": "assets/photo-search/rounds/jets-5.jpg",
+                "kind": "edited"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/jets.jpg",
+        "version": 2,
+        "referencePage": "https://www.profootballhof.com/players/joe-namath",
+        "referenceCredit": "Pro Football Hall of Fame / NFL"
+    },
+    "steelers": {
+        "src": "assets/photo-search/steelers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Terry Bradshaw",
+        "number": 12,
+        "era": "1970–1983 Steelers era",
+        "sourcePage": "https://www.steelers.com/photos/photos-best-of-fans-at-steelers-camp-x2048",
+        "credit": "Jordan Perez/Pittsburgh Steelers; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A black baseball cap and black Steelers jacket.",
+                "target": [
+                    0.258,
+                    0.22,
+                    0.092,
+                    0.18
+                ],
+                "src": "assets/photo-search/rounds/steelers-1.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat, blond hair, and a black number 12 jersey.",
+                "target": [
+                    0.651,
+                    0.236,
+                    0.076,
+                    0.17
+                ],
+                "src": "assets/photo-search/rounds/steelers-2.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.37,
+                    0.284,
+                    0.085,
+                    0.18
+                ],
+                "src": "assets/photo-search/rounds/steelers-3.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat, blond hair, and a black Steelers sweatshirt.",
+                "target": [
+                    0.62,
+                    0.233,
+                    0.084,
+                    0.18
+                ],
+                "src": "assets/photo-search/rounds/steelers-4.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A black baseball cap with a gold brim and black hoodie.",
+                "target": [
+                    0.577,
+                    0.236,
+                    0.088,
+                    0.16
+                ],
+                "src": "assets/photo-search/rounds/steelers-5.jpg",
+                "kind": "edited"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/steelers.jpg",
+        "version": 2,
+        "referencePage": "https://www.steelers.com/history/bios/bradshaw_terry",
+        "referenceCredit": "Pro Football Hall of Fame / NFL"
+    },
+    "patriots": {
+        "src": "assets/photo-search/patriots.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Tom Brady",
+        "number": 12,
+        "era": "2000–2019 Patriots era",
+        "sourcePage": "https://www.patriots.com/photos/patriots-thank-the-fans-284901",
+        "credit": "www.patriots.com; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A navy baseball cap and navy Patriots jacket.",
+                "target": [
+                    0.21,
+                    0.42,
+                    0.09,
+                    0.18
+                ],
+                "src": "assets/photo-search/rounds/patriots-1.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat, eye black, and a navy number 12 jersey.",
+                "target": [
+                    0.59,
+                    0.23,
+                    0.12,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/patriots-2.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A dark knit cap, eye black, and gray hoodie.",
+                "target": [
+                    0.405,
+                    0.409,
+                    0.108,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/patriots-3.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat, eye black, and a navy Patriots sweatshirt.",
+                "target": [
+                    0.58,
+                    0.24,
+                    0.13,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/patriots-4.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A navy baseball cap with a red brim and navy hoodie.",
+                "target": [
+                    0.548,
+                    0.19,
+                    0.09,
+                    0.2
+                ],
+                "src": "assets/photo-search/rounds/patriots-5.jpg",
+                "kind": "edited"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/patriots.jpg",
+        "version": 2,
+        "referencePage": "https://www.patriotshalloffame.com/hall_of_famer/tom-brady/",
+        "referenceCredit": "The Patriots Hall of Fame / New England Patriots"
+    },
+    "broncos": {
+        "src": "assets/photo-search/broncos.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "John Elway",
+        "number": 7,
+        "era": "1983–1998 Broncos era",
+        "sourcePage": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+        "credit": "Ben Swanson/2026 Denver Broncos; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A navy baseball cap and navy Broncos jacket.",
+                "target": [
+                    0.302,
+                    0.24,
+                    0.123,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/broncos-1.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat and an orange Broncos jersey.",
+                "target": [
+                    0.652,
+                    0.205,
+                    0.115,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/broncos-2.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap and gray Broncos hoodie.",
+                "target": [
+                    0.342,
+                    0.315,
+                    0.11,
+                    0.26
+                ],
+                "src": "assets/photo-search/rounds/broncos-3.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat and an orange Broncos sweatshirt.",
+                "target": [
+                    0.52,
+                    0.272,
+                    0.12,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/broncos-4.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "An orange baseball cap and navy Broncos hoodie.",
+                "target": [
+                    0.53,
+                    0.218,
+                    0.1,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/broncos-5.jpg",
+                "kind": "edited"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/broncos.jpg",
+        "version": 2,
+        "referencePage": "https://www.profootballhof.com/players/john-elway",
+        "referenceCredit": "Pro Football Hall of Fame / NFL"
+    },
+    "bills": {
+        "src": "assets/photo-search/bills.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Jim Kelly",
+        "number": 12,
+        "era": "1986–1996 Bills era",
+        "sourcePage": "https://www.buffalobills.com/photos/fan-photos-bills-vs-ravens-week-8",
+        "credit": "Bjorn Franke/Buffalo Bills; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A dark Bills baseball cap and blue jacket.",
+                "target": [
+                    0.222,
+                    0.17,
+                    0.103,
+                    0.235
+                ],
+                "src": "assets/photo-search/rounds/bills-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat and a blue Bills jersey.",
+                "target": [
+                    0.635,
+                    0.255,
+                    0.09,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/bills-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.381,
+                    0.449,
+                    0.09,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/bills-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat and a blue BILLS sweatshirt.",
+                "target": [
+                    0.534,
+                    0.324,
+                    0.09,
+                    0.26
+                ],
+                "src": "assets/photo-search/rounds/bills-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A dark Bills cap and navy hoodie.",
+                "target": [
+                    0.532,
+                    0.205,
+                    0.08,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/bills-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/bills.jpg",
+        "referencePage": "https://www.profootballhof.com/players/jim-kelly",
+        "referenceCredit": "Pro Football Hall of Fame / NFL",
+        "version": 2
+    },
+    "ravens": {
+        "src": "assets/photo-search/ravens.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Joe Flacco",
+        "number": 5,
+        "era": "2008–2018 Ravens era",
+        "sourcePage": "https://www.baltimoreravens.com/photos/ravens-fans-flock-to-stadium-practice-17415895",
+        "credit": "www.baltimoreravens.com; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A dark Ravens cap and black zip-up team jacket.",
+                "target": [
+                    0.254,
+                    0.266,
+                    0.083,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/ravens-1.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat and a purple number 5 jersey.",
+                "target": [
+                    0.606,
+                    0.293,
+                    0.083,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/ravens-2.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap and dark hoodie with a gray hood.",
+                "target": [
+                    0.383,
+                    0.4,
+                    0.08,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/ravens-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat and a purple Ravens sweatshirt.",
+                "target": [
+                    0.64,
+                    0.315,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/ravens-4.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A black Ravens cap with a purple brim and black hoodie.",
+                "target": [
+                    0.527,
+                    0.17,
+                    0.08,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/ravens-5.jpg",
+                "kind": "edited"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/ravens.png",
+        "referencePage": "https://www.espn.com/nfl/player/_/id/11252/joe-flacco",
+        "referenceCredit": "ESPN media player portrait; identity reference only",
+        "version": 2
+    },
+    "colts": {
+        "src": "assets/photo-search/colts.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Peyton Manning",
+        "number": 18,
+        "era": "1998–2011 Colts era",
+        "sourcePage": "https://www.colts.com/photos/best-of-2025-fans",
+        "credit": "© Indianapolis Colts; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A dark Colts cap and dark zip-up jacket.",
+                "target": [
+                    0.247,
+                    0.235,
+                    0.08,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/colts-1.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat and a blue number 18 jersey.",
+                "target": [
+                    0.627,
+                    0.314,
+                    0.07,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/colts-2.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black Colts knit cap and gray hoodie.",
+                "target": [
+                    0.337,
+                    0.305,
+                    0.08,
+                    0.26
+                ],
+                "src": "assets/photo-search/rounds/colts-3.jpg",
+                "kind": "edited"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat, short light-brown hair, and a blue Colts sweatshirt.",
+                "target": [
+                    0.459,
+                    0.355,
+                    0.071,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/colts-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A blue Colts cap and dark hoodie.",
+                "target": [
+                    0.493,
+                    0.24,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/colts-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/colts.jpg",
+        "referencePage": "https://www.profootballhof.com/players/peyton-manning",
+        "referenceCredit": "Pro Football Hall of Fame / NFL",
+        "version": 2
+    },
+    "jaguars": {
+        "src": "assets/photo-search/jaguars.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Mark Brunell",
+        "number": 8,
+        "era": "1995–2003 Jaguars era",
+        "sourcePage": "https://www.jaguars.com/photos/jaguars-host-open-practice-for-fans-in-london",
+        "credit": "Chris Kim/Jacksonville Jaguars; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A dark Jaguars cap and teal plaid jacket.",
+                "target": [
+                    0.21,
+                    0.21,
+                    0.08,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/jaguars-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat, short gray hair, and a teal number 8 jersey.",
+                "target": [
+                    0.617,
+                    0.32,
+                    0.073,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/jaguars-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.381,
+                    0.451,
+                    0.089,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/jaguars-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat, short gray hair, and a teal Jaguars sweatshirt.",
+                "target": [
+                    0.515,
+                    0.343,
+                    0.066,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/jaguars-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A teal Jaguars cap and charcoal hoodie.",
+                "target": [
+                    0.537,
+                    0.18,
+                    0.08,
+                    0.23
+                ],
+                "src": "assets/photo-search/rounds/jaguars-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/jaguars.jpg",
+        "referencePage": "https://www.detroitlions.com/team/coaches-roster/mark-brunell",
+        "referenceCredit": "Zack Silver / Detroit Lions, June 3 2024",
+        "version": 2
+    },
+    "chiefs": {
+        "src": "assets/photo-search/chiefs.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Len Dawson",
+        "number": 16,
+        "era": "1962–1975 Dallas Texans/Chiefs era",
+        "sourcePage": "https://www.chiefs.com/photos/photos-fans-at-chiefs-training-camp-7-27-24",
+        "credit": "Steve Sanders; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A dark Chiefs cap and red jacket.",
+                "target": [
+                    0.232,
+                    0.221,
+                    0.08,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/chiefs-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat, dark wavy hair, and a red number 16 jersey.",
+                "target": [
+                    0.633,
+                    0.307,
+                    0.083,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/chiefs-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap and gray zip-up hoodie.",
+                "target": [
+                    0.35,
+                    0.369,
+                    0.1,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/chiefs-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat, dark wavy hair, and a red Chiefs sweatshirt.",
+                "target": [
+                    0.505,
+                    0.378,
+                    0.083,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/chiefs-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A red Chiefs cap and black hoodie.",
+                "target": [
+                    0.515,
+                    0.149,
+                    0.092,
+                    0.26
+                ],
+                "src": "assets/photo-search/rounds/chiefs-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/chiefs.jpg",
+        "referencePage": "https://www.profootballhof.com/players/len-dawson",
+        "referenceCredit": "Pro Football Hall of Fame / NFL",
+        "version": 2
+    },
+    "raiders": {
+        "src": "assets/photo-search/raiders.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Ken Stabler",
+        "number": 12,
+        "era": "1970–1979 Raiders era",
+        "sourcePage": "https://www.raiders.com/photos/top-shots-the-best-of-raider-nation",
+        "credit": "Ali Badain/Las Vegas Raiders; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A black Raiders cap, a beard, and a shiny black team jacket.",
+                "target": [
+                    0.303,
+                    0.245,
+                    0.1,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/raiders-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat, shaggy light-brown hair, a beard, and a black Raiders jersey.",
+                "target": [
+                    0.603,
+                    0.34,
+                    0.087,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/raiders-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.372,
+                    0.455,
+                    0.1,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/raiders-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat, shaggy hair, a beard, and a charcoal Raiders sweatshirt.",
+                "target": [
+                    0.485,
+                    0.345,
+                    0.1,
+                    0.255
+                ],
+                "src": "assets/photo-search/rounds/raiders-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A black Raiders cap, a beard, and a dark hoodie.",
+                "target": [
+                    0.523,
+                    0.18,
+                    0.103,
+                    0.26
+                ],
+                "src": "assets/photo-search/rounds/raiders-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/raiders.jpg",
+        "referencePage": "https://www.profootballhof.com/players/ken-stabler",
+        "referenceCredit": "Pro Football Hall of Fame / NFL",
+        "version": 2
+    },
+    "titans": {
+        "src": "assets/photo-search/titans.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Steve McNair",
+        "number": 9,
+        "era": "Oilers/Titans legend",
+        "sourcePage": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
+        "credit": "Coral Scoles-Coburn/Tennessee Titans; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A dark Titans baseball cap and navy jacket with light-blue shoulder stripes.",
+                "target": [
+                    0.292,
+                    0.25,
+                    0.11,
+                    0.22
+                ],
+                "src": "assets/photo-search/rounds/titans-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat and a navy number 9 Titans jersey.",
+                "target": [
+                    0.575,
+                    0.325,
+                    0.12,
+                    0.23
+                ],
+                "src": "assets/photo-search/rounds/titans-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.35,
+                    0.445,
+                    0.13,
+                    0.23
+                ],
+                "src": "assets/photo-search/rounds/titans-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat and a navy Titans sweatshirt.",
+                "target": [
+                    0.46,
+                    0.365,
+                    0.15,
+                    0.23
+                ],
+                "src": "assets/photo-search/rounds/titans-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A navy Titans baseball cap and dark hoodie.",
+                "target": [
+                    0.53,
+                    0.21,
+                    0.11,
+                    0.22
+                ],
+                "src": "assets/photo-search/rounds/titans-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/titans-face.jpg",
+        "referencePage": "https://www.tennesseetitans.com/photos/special-moments-with-steve-mcnair-s-family-17270571",
+        "referenceCredit": "Donn Jones Photography / Tennessee Titans",
+        "version": 2
+    },
+    "chargers": {
+        "src": "assets/photo-search/chargers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Dan Fouts",
+        "number": 14,
+        "era": "1973–1987 Chargers era",
+        "sourcePage": "https://www.chargers.com/photos/2026-tailgate-photos-week-9-texans",
+        "credit": "Ryan Young/Los Angeles Chargers; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A navy Chargers baseball cap, full beard, and blue team jacket.",
+                "target": [
+                    0.3,
+                    0.27,
+                    0.13,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/chargers-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat, a full beard, and a blue number 14 jersey.",
+                "target": [
+                    0.535,
+                    0.3,
+                    0.15,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/chargers-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap, full beard, and gray hoodie.",
+                "target": [
+                    0.385,
+                    0.395,
+                    0.13,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/chargers-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat, a full beard, and a navy Chargers sweatshirt.",
+                "target": [
+                    0.45,
+                    0.345,
+                    0.16,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/chargers-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A navy Chargers baseball cap, full beard, and navy hoodie.",
+                "target": [
+                    0.5,
+                    0.215,
+                    0.12,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/chargers-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/chargers.jpg",
+        "referencePage": "https://www.profootballhof.com/players/dan-fouts",
+        "referenceCredit": "Pro Football Hall of Fame / NFL",
+        "version": 2
+    },
+    "browns": {
+        "src": "assets/photo-search/browns.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Bernie Kosar",
+        "number": 19,
+        "era": "1985–1993 Browns era",
+        "sourcePage": "https://www.clevelandbrowns.com/photos/best-fans-in-the-nfl-11816001",
+        "credit": "Clevelandbrowns.com; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A dark brown baseball cap and brown team jacket with orange trim.",
+                "target": [
+                    0.26,
+                    0.19,
+                    0.12,
+                    0.2
+                ],
+                "src": "assets/photo-search/rounds/browns-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat, curly dark hair, and a brown number 19 jersey.",
+                "target": [
+                    0.62,
+                    0.28,
+                    0.16,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/browns-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.375,
+                    0.425,
+                    0.13,
+                    0.23
+                ],
+                "src": "assets/photo-search/rounds/browns-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat, curly dark hair, and a brown Browns sweatshirt.",
+                "target": [
+                    0.535,
+                    0.375,
+                    0.145,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/browns-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A brown baseball cap and dark brown hoodie.",
+                "target": [
+                    0.51,
+                    0.195,
+                    0.12,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/browns-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/browns.jpg",
+        "referencePage": "https://www.clevelandbrowns.com/photos/photos-the-history-of-no-19-17136368",
+        "referenceCredit": "Cleveland Browns archive",
+        "version": 2
+    },
+    "texans": {
+        "src": "assets/photo-search/texans.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Matt Schaub",
+        "number": 8,
+        "era": "2007–2013 Texans era",
+        "sourcePage": "https://www.houstontexans.com/photos/top-25-photos-fans-in-stands",
+        "credit": "Houston Texans / gallery photographer; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A navy Texans baseball cap and navy jacket with red shoulder stripes.",
+                "target": [
+                    0.22,
+                    0.2,
+                    0.13,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/texans-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat and a navy number 8 Texans jersey.",
+                "target": [
+                    0.575,
+                    0.322,
+                    0.135,
+                    0.23
+                ],
+                "src": "assets/photo-search/rounds/texans-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black Texans baseball cap and gray hoodie.",
+                "target": [
+                    0.377,
+                    0.4,
+                    0.13,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/texans-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat and a navy Texans sweatshirt.",
+                "target": [
+                    0.46,
+                    0.37,
+                    0.15,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/texans-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "A navy Texans baseball cap with a pale brim and dark hoodie.",
+                "target": [
+                    0.5,
+                    0.165,
+                    0.13,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/texans-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/texans.jpg",
+        "referencePage": "https://www.houstontexans.com/photos/matt-schaub-s-texans-career-12792426",
+        "referenceCredit": "Houston Texans archive",
+        "version": 2
+    },
+    "bengals": {
+        "src": "assets/photo-search/bengals.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Ken Anderson",
+        "number": 14,
+        "era": "1971–1986 Bengals era",
+        "sourcePage": "https://www.bengals.com/photos/around-the-jungle-for-salute-to-service-week-9-against-raiders-fan-photos",
+        "credit": "Erik Schelkun; AI-edited fan photographs",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Crowd arrival",
+                "clue": "A black Bengals baseball cap, dark mustache, and black team jacket.",
+                "target": [
+                    0.22,
+                    0.25,
+                    0.13,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/bengals-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Between the jerseys",
+                "clue": "No hat, dark mustache, and a black number 14 jersey.",
+                "target": [
+                    0.55,
+                    0.28,
+                    0.15,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/bengals-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Fan camouflage",
+                "clue": "A black knit cap, dark mustache, and gray hoodie.",
+                "target": [
+                    0.38,
+                    0.42,
+                    0.13,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/bengals-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Stadium gathering",
+                "clue": "No hat, dark mustache, and a black Bengals sweatshirt.",
+                "target": [
+                    0.42,
+                    0.375,
+                    0.13,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/bengals-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "One familiar face",
+                "clue": "An orange-and-black baseball cap, dark mustache, and black hoodie.",
+                "target": [
+                    0.5,
+                    0.2,
+                    0.13,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/bengals-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance.",
+        "referenceSrc": "assets/player-references/bengals.jpg",
+        "referencePage": "https://www.bengals.com/team/ring-of-honor/kenanderson",
+        "referenceCredit": "Cincinnati Bengals",
+        "version": 2
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "team": "colts",
+    "level": 4,
+    "sourceIndex": 526,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/colts-526.jpg",
+    "sourcePage": "https://www.colts.com/photos/best-of-2025-fans",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/colts/xgnjtikjym5jcuv8vscl.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/colts.png",
+    "player": "Jonathan Taylor",
+    "face": [
+        565.41,
+        531.75,
+        15.97,
+        20.27
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real colts crowd photograph to edit. Image 2 is Jonathan Taylor's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Jonathan Taylor, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual colts fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/colts-ai-v2-5.jpg",
+    "status": "generated",
+    "guideVersion": 2,
+    "src": "assets/photo-search/rounds/colts-ai-v2-5.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.43230669487036016,
+                0.713964800778915,
+                0.021877318021783446,
+                0.05074578020701882
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.43230669487036016,
+        0.713964800778915,
+        0.021877318021783446,
+        0.05074578020701882
+    ],
+    "history": [
+        {
+            "team": "colts",
+            "level": 4,
+            "sourceIndex": 526,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/colts-526.jpg",
+            "sourcePage": "https://www.colts.com/photos/best-of-2025-fans",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/colts/xgnjtikjym5jcuv8vscl.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/colts.png",
+            "player": "Jonathan Taylor",
+            "face": [
+                565.41,
+                531.75,
+                15.97,
+                20.27
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real colts crowd photograph to edit. Image 2 is Jonathan Taylor's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Jonathan Taylor, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual colts fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-814e1126-2903-427c-ab41-321214bf190f.png",
+            "status": "generated",
+            "guideVersion": 2,
+            "src": "assets/photo-search/rounds/colts-ai-v1-5.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.43230669487036016,
+                        0.713964800778915,
+                        0.021877318021783446,
+                        0.05074578020701882
+                    ],
+                    "similarity": 0.23242893001770426,
+                    "distance": 0.012401197282349005
+                },
+                {
+                    "target": [
+                        0.46074558352739614,
+                        0.7010635204700304,
+                        0.01612704863388573,
+                        0.03588015022237296
+                    ],
+                    "similarity": 0.2134467694650084,
+                    "distance": 0.038469592139648366
+                },
+                {
+                    "target": [
+                        0.3963725227944589,
+                        0.7324429982273536,
+                        0.01715362176940767,
+                        0.03901545436425369
+                    ],
+                    "similarity": 0.1481238367249489,
+                    "distance": 0.043021664518985446
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.43230669487036016,
+                0.713964800778915,
+                0.021877318021783446,
+                0.05074578020701882
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "colts-5",
+    "focusCorrection": {
+        "sigmaPixels": 0.5,
+        "maskFeatherPixels": 4.75525384521485,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

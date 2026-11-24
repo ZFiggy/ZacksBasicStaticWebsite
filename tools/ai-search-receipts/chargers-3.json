@@ -1,0 +1,68 @@
+{
+    "team": "chargers",
+    "level": 2,
+    "sourceIndex": 548,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/chargers-548.jpg",
+    "sourcePage": "https://www.chargers.com/photos/2026-tailgate-photos-week-9-texans",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/chargers/hebu6a3ym9uzbcgxv2yp.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/chargers.png",
+    "player": "Justin Herbert",
+    "face": [
+        985.48,
+        329.49,
+        40.82,
+        46.48
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real chargers crowd photograph to edit. Image 2 is Justin Herbert's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Justin Herbert, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual chargers fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+    "guideVersion": 2,
+    "guideBounds": [
+        981,
+        319,
+        1031,
+        382
+    ],
+    "styleReference": "public/assets/search-level-5-v2.jpg",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-05f5ebed-4df8-4e50-8e62-fdd4d1a5680b.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/chargers-ai-v1-3.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.7642115322368567,
+                0.44549375284744247,
+                0.0406618102771815,
+                0.08639980725603578
+            ],
+            "similarity": 0.4945607581503282,
+            "distance": 0.0022880883826346854
+        },
+        {
+            "target": [
+                0.6664791548651372,
+                0.4781936681992696,
+                0.044281412653945744,
+                0.09625948704264496
+            ],
+            "similarity": 0.13755216523850322,
+            "distance": 0.10508426953375852
+        },
+        {
+            "target": [
+                0.5693474287279485,
+                0.4884234336180084,
+                0.04689154711636625,
+                0.11006655069770772
+            ],
+            "similarity": 0.20871344023862548,
+            "distance": 0.20143499161110456
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.7642115322368567,
+        0.44549375284744247,
+        0.0406618102771815,
+        0.08639980725603578
+    ]
+}

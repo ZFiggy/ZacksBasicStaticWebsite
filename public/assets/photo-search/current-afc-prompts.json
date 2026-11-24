@@ -1,0 +1,135 @@
+{
+    "tool": "Built-in Imagegen",
+    "reconstructedBriefs": {
+        "bills": {
+            "playerName": "Josh Allen",
+            "source": "https://www.buffalobills.com/team/players-roster/josh-allen/",
+            "provenance": "Built-in Imagegen; exact generation text was not retained after the interrupted image session. This brief is reconstructed from the saved scene metadata.",
+            "brief": "Five fictional crowded scenes featuring Josh Allen, naturally integrated with consistent facial identity, plus a sixth face-reference portrait. Scenes: Farmers market, Station rush, Game-day tailgate, Street festival, Holiday fair.",
+            "clues": [
+                "Look for the blue jacket near the produce stalls.",
+                "A gray coat in the station crowd.",
+                "A red hoodie among the tailgate tents.",
+                "A navy shirt in the festival crowd.",
+                "A blue winter hat beneath the lights."
+            ]
+        },
+        "dolphins": {
+            "playerName": "Tua Tagovailoa",
+            "source": "https://www.nfl.com/players/tua-tagovailoa/stats/career",
+            "provenance": "Built-in Imagegen; exact generation text was not retained after the interrupted image session. This brief is reconstructed from the saved scene metadata.",
+            "brief": "Five fictional crowded scenes featuring Tua Tagovailoa, naturally integrated with consistent facial identity, plus a sixth face-reference portrait. Scenes: Farmers market, Station rush, Game-day tailgate, Street festival, Holiday fair.",
+            "clues": [
+                "An aqua jacket by the market stalls.",
+                "A gray coat among the station travelers.",
+                "An aqua hoodie beside the tailgate tents.",
+                "A dark shirt in the festival crowd.",
+                "An aqua-and-orange knit hat."
+            ]
+        },
+        "ravens": {
+            "playerName": "Lamar Jackson",
+            "source": "https://www.baltimoreravens.com/team/players-roster/lamar-jackson/",
+            "provenance": "Built-in Imagegen; exact generation text was not retained after the interrupted image session. This brief is reconstructed from the saved scene metadata.",
+            "brief": "Five fictional crowded scenes featuring Lamar Jackson, naturally integrated with consistent facial identity, plus a sixth face-reference portrait. Scenes: Farmers market, Station rush, Game-day tailgate, Street festival, Holiday fair.",
+            "clues": [
+                "A purple jacket near the produce stalls.",
+                "A gray coat beneath the station roof.",
+                "A purple hoodie beside the coolers.",
+                "A dark shirt behind the foreground spectators.",
+                "A purple knit hat among the holiday shoppers."
+            ]
+        },
+        "patriots": {
+            "playerName": "Drake Maye",
+            "source": "https://www.patriots.com/team/players-roster/drake-maye/",
+            "provenance": "Built-in Imagegen; exact generation text was not retained after the interrupted image session. This brief is reconstructed from the saved scene metadata.",
+            "brief": "Five fictional crowded scenes featuring Drake Maye, naturally integrated with consistent facial identity, plus a sixth face-reference portrait. Scenes: Farmers market, Station rush, Game-day tailgate, Street festival, Holiday fair.",
+            "clues": [
+                "A navy-and-red jacket beside the flower stalls.",
+                "A gray coat and backpack in the station.",
+                "A navy-and-red hoodie by the tailgate.",
+                "A dark shirt beneath the festival bunting.",
+                "A navy-and-red knit hat among the shoppers."
+            ]
+        },
+        "jets": {
+            "playerName": "Garrett Wilson",
+            "source": "https://www.newyorkjets.com/team/players-roster/garrett-wilson/",
+            "provenance": "Built-in Imagegen; exact generation text was not retained after the interrupted image session. This brief is reconstructed from the saved scene metadata.",
+            "brief": "Five fictional crowded scenes featuring Garrett Wilson, naturally integrated with consistent facial identity, plus a sixth face-reference portrait. Scenes: Farmers market, Station rush, Game-day tailgate, Street festival, Holiday fair.",
+            "clues": [
+                "A green jacket among the market shoppers.",
+                "A gray coat under the station clock.",
+                "A green hoodie among the tailgaters.",
+                "A black shirt and silver necklace in the festival crowd.",
+                "A green knit hat and green coat."
+            ]
+        },
+        "bengals": {
+            "playerName": "Joe Burrow",
+            "source": "https://www.bengals.com/team/players-roster/joe-burrow/",
+            "provenance": "Built-in Imagegen; exact generation text was not retained after the interrupted image session. This brief is reconstructed from the saved scene metadata.",
+            "brief": "Five fictional crowded scenes featuring Joe Burrow, naturally integrated with consistent facial identity, plus a sixth face-reference portrait. Scenes: Farmers market, Station rush, Game-day tailgate, Street festival, Holiday fair.",
+            "clues": [
+                "An orange-and-black jacket near the flower stalls.",
+                "A gray coat in the station crowd.",
+                "An orange hood among the tailgaters.",
+                "A black shirt among the festivalgoers.",
+                "An orange-and-black knit hat under the holiday lights."
+            ]
+        },
+        "browns": {
+            "playerName": "Myles Garrett",
+            "source": "https://www.clevelandbrowns.com/team/players-roster/myles-garrett/",
+            "provenance": "Built-in Imagegen; exact generation text was not retained after the interrupted image session. This brief is reconstructed from the saved scene metadata.",
+            "brief": "Five fictional crowded scenes featuring Myles Garrett, naturally integrated with consistent facial identity, plus a sixth face-reference portrait. Scenes: Farmers market, Station rush, Game-day tailgate, Street festival, Holiday fair.",
+            "clues": [
+                "A brown-and-orange jacket by the produce stalls.",
+                "A gray coat in the station crowd.",
+                "A brown hoodie with orange drawstrings.",
+                "A black shirt and gold chain among the festivalgoers.",
+                "A brown-and-orange knit hat under the holiday lights."
+            ]
+        },
+        "steelers": {
+            "playerName": "T.J. Watt",
+            "source": "https://www.steelers.com/team/players-roster/t-j-watt/",
+            "provenance": "Built-in Imagegen; exact generation text was not retained after the interrupted image session. This brief is reconstructed from the saved scene metadata.",
+            "brief": "Five fictional crowded scenes featuring T.J. Watt, naturally integrated with consistent facial identity, plus a sixth face-reference portrait. Scenes: Farmers market, Station rush, Game-day tailgate, Street festival, Holiday fair.",
+            "clues": [
+                "A gold-and-black jacket beside the flower stalls.",
+                "A gray coat and backpack among the travelers.",
+                "A black hoodie with gold lining.",
+                "A dark shirt among the festivalgoers.",
+                "A black-and-gold knit hat beside the holiday stalls."
+            ]
+        },
+        "jaguars": {
+            "playerName": "Trevor Lawrence",
+            "source": "https://www.jaguars.com/team/players-roster/trevor-lawrence/",
+            "provenance": "Built-in Imagegen; exact generation text was not retained after the interrupted image session. This brief is reconstructed from the saved scene metadata.",
+            "brief": "Five fictional crowded scenes featuring Trevor Lawrence, naturally integrated with consistent facial identity, plus a sixth face-reference portrait. Scenes: Farmers market, Station rush, Game-day tailgate, Street festival, Holiday fair.",
+            "clues": [
+                "Long blond hair and a teal jacket by the stalls.",
+                "A gray coat beside the train.",
+                "A teal hoodie among the tailgaters.",
+                "Long blond hair over a dark shirt.",
+                "A teal knit hat beneath the holiday lights."
+            ]
+        },
+        "chiefs": {
+            "playerName": "Patrick Mahomes",
+            "source": "https://www.chiefs.com/team/players-roster/patrick-mahomes/",
+            "provenance": "Built-in Imagegen; exact generation text was not retained after the interrupted image session. This brief is reconstructed from the saved scene metadata.",
+            "brief": "Five fictional crowded scenes featuring Patrick Mahomes, naturally integrated with consistent facial identity, plus a sixth face-reference portrait. Scenes: Tailgate gathering, Covered market, Station concourse, Street food festival, Stadium entrance.",
+            "clues": [
+                "Compare Patrick Mahomes\u2019s face with the reference. Look behind the foreground crowd.",
+                "Compare Patrick Mahomes\u2019s face with the reference. Look behind the foreground crowd.",
+                "Compare Patrick Mahomes\u2019s face with the reference. Look behind the foreground crowd.",
+                "Compare Patrick Mahomes\u2019s face with the reference. Look behind the foreground crowd.",
+                "Compare Patrick Mahomes\u2019s face with the reference. Look behind the foreground crowd."
+            ]
+        }
+    }
+}

@@ -1,0 +1,1428 @@
+{
+    "cowboys": {
+        "quarterback": {
+            "name": "Dak Prescott",
+            "number": 4,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/6",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cowboys-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/6"
+        },
+        "runner": {
+            "name": "Javonte Williams",
+            "number": 33,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/6",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cowboys-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/6"
+        },
+        "kicker": {
+            "name": "Brandon Aubrey",
+            "number": 17,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/6",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cowboys-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/6"
+        },
+        "defender": {
+            "name": "DaRon Bland",
+            "number": 26,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/6",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cowboys-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/6"
+        }
+    },
+    "giants": {
+        "quarterback": {
+            "name": "Jaxson Dart",
+            "number": 6,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/19",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/giants-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/19"
+        },
+        "runner": {
+            "name": "Tyrone Tracy Jr.",
+            "number": 29,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/19",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/giants-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/19"
+        },
+        "kicker": {
+            "name": "Dominic Zvada",
+            "number": 34,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/19",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/giants-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/19"
+        },
+        "defender": {
+            "name": "Darius Alexander",
+            "number": 91,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/19",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/giants-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/19"
+        }
+    },
+    "commanders": {
+        "quarterback": {
+            "name": "Jayden Daniels",
+            "number": 5,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/28",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/commanders-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/28"
+        },
+        "runner": {
+            "name": "Austin Ekeler",
+            "number": 30,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/28",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/commanders-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/28"
+        },
+        "kicker": {
+            "name": "Drew Stevens",
+            "number": 19,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/28",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/commanders-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/28"
+        },
+        "defender": {
+            "name": "Dorance Armstrong",
+            "number": 92,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/28",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/commanders-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/28"
+        }
+    },
+    "bears": {
+        "quarterback": {
+            "name": "Caleb Williams",
+            "number": 18,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/3",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bears-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/3"
+        },
+        "runner": {
+            "name": "D'Andre Swift",
+            "number": 4,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/3",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bears-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/3"
+        },
+        "kicker": {
+            "name": "Cairo Santos",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/3",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bears-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/3"
+        },
+        "defender": {
+            "name": "Jaylon Johnson",
+            "number": 1,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/3",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bears-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/3"
+        }
+    },
+    "lions": {
+        "quarterback": {
+            "name": "Jared Goff",
+            "number": 16,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/8",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/lions-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/8"
+        },
+        "runner": {
+            "name": "Jahmyr Gibbs",
+            "number": 0,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/8",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/lions-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/8"
+        },
+        "kicker": {
+            "name": "Jake Bates",
+            "number": 39,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/8",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/lions-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/8"
+        },
+        "defender": {
+            "name": "Aidan Hutchinson",
+            "number": 97,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/8",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/lions-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/8"
+        }
+    },
+    "packers": {
+        "quarterback": {
+            "name": "Jordan Love",
+            "number": 10,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/9",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/packers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/9"
+        },
+        "runner": {
+            "name": "Josh Jacobs",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/9",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/packers-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/9"
+        },
+        "kicker": {
+            "name": "Trey Smack",
+            "number": 28,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/9",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/packers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/9"
+        },
+        "defender": {
+            "name": "Xavier McKinney",
+            "number": 29,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/9",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/packers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/9"
+        }
+    },
+    "vikings": {
+        "quarterback": {
+            "name": "Kyler Murray",
+            "number": 1,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/16",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/vikings-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/16"
+        },
+        "runner": {
+            "name": "Aaron Jones Sr.",
+            "number": 33,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/16",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/vikings-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/16"
+        },
+        "kicker": {
+            "name": "Will Reichard",
+            "number": 16,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/16",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/vikings-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/16"
+        },
+        "defender": {
+            "name": "Byron Murphy Jr.",
+            "number": 7,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/16",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/vikings-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/16"
+        }
+    },
+    "falcons": {
+        "quarterback": {
+            "name": "Michael Penix Jr.",
+            "number": 9,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/1",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/falcons-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/1"
+        },
+        "runner": {
+            "name": "Bijan Robinson",
+            "number": 7,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/1",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/falcons-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/1"
+        },
+        "kicker": {
+            "name": "Jake Moody",
+            "number": 45,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/1",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/falcons-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/1"
+        },
+        "defender": {
+            "name": "Yasir Abdullah",
+            "number": 22,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/1",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/falcons-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/1"
+        }
+    },
+    "panthers": {
+        "quarterback": {
+            "name": "Bryce Young",
+            "number": 9,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/29",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/panthers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/29"
+        },
+        "runner": {
+            "name": "Chuba Hubbard",
+            "number": 30,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/29",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/panthers-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/29"
+        },
+        "kicker": {
+            "name": "Ryan Fitzgerald",
+            "number": 10,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/29",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/panthers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/29"
+        },
+        "defender": {
+            "name": "Jaycee Horn",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/29",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/panthers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/29"
+        }
+    },
+    "saints": {
+        "quarterback": {
+            "name": "Tyler Shough",
+            "number": 6,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/18",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/saints-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/18"
+        },
+        "runner": {
+            "name": "Alvin Kamara",
+            "number": 41,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/18",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/saints-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/18"
+        },
+        "kicker": {
+            "name": "Charlie Smyth",
+            "number": 39,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/18",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/saints-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/18"
+        },
+        "defender": {
+            "name": "Julian Blackmon",
+            "number": 23,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/18",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/saints-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/18"
+        }
+    },
+    "buccaneers": {
+        "quarterback": {
+            "name": "Baker Mayfield",
+            "number": 6,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/27",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/buccaneers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/27"
+        },
+        "runner": {
+            "name": "Bucky Irving",
+            "number": 7,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/27",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/buccaneers-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/27"
+        },
+        "kicker": {
+            "name": "Chase McLaughlin",
+            "number": 4,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/27",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/buccaneers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/27"
+        },
+        "defender": {
+            "name": "Antoine Winfield Jr.",
+            "number": 31,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/27",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/buccaneers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/27"
+        }
+    },
+    "cardinals": {
+        "quarterback": {
+            "name": "Gardner Minshew II",
+            "number": 15,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/22",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cardinals-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/22"
+        },
+        "runner": {
+            "name": "Tyler Allgeier",
+            "number": 22,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/22",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cardinals-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/22"
+        },
+        "kicker": {
+            "name": "Chad Ryland",
+            "number": 38,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/22",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cardinals-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/22"
+        },
+        "defender": {
+            "name": "Budda Baker",
+            "number": 3,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/22",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cardinals-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/22"
+        }
+    },
+    "rams": {
+        "quarterback": {
+            "name": "Matthew Stafford",
+            "number": 9,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/14",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/rams-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/14"
+        },
+        "runner": {
+            "name": "Kyren Williams",
+            "number": 23,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/14",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/rams-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/14"
+        },
+        "kicker": {
+            "name": "Joshua Karty",
+            "number": 16,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/14",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/rams-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/14"
+        },
+        "defender": {
+            "name": "Wesley Bailey",
+            "number": 47,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/14",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/rams-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/14"
+        }
+    },
+    "49ers": {
+        "quarterback": {
+            "name": "Brock Purdy",
+            "number": 13,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/25",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/49ers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/25"
+        },
+        "runner": {
+            "name": "Christian McCaffrey",
+            "number": 23,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/25",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/49ers-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/25"
+        },
+        "kicker": {
+            "name": "Eddy Pineiro",
+            "number": 18,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/25",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/49ers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/25"
+        },
+        "defender": {
+            "name": "Fred Warner",
+            "number": 54,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/25",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/49ers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/25"
+        }
+    },
+    "seahawks": {
+        "quarterback": {
+            "name": "Sam Darnold",
+            "number": 14,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/26",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/seahawks-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/26"
+        },
+        "runner": {
+            "name": "Zach Charbonnet",
+            "number": 26,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/26",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/seahawks-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/26"
+        },
+        "kicker": {
+            "name": "Jason Myers",
+            "number": 5,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/26",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/seahawks-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/26"
+        },
+        "defender": {
+            "name": "Devon Witherspoon",
+            "number": 21,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/26",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/seahawks-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/26"
+        }
+    },
+    "bills": {
+        "quarterback": {
+            "name": "Josh Allen",
+            "number": 17,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/2",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bills-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/2"
+        },
+        "runner": {
+            "name": "James Cook III",
+            "number": 4,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/2",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bills-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/2"
+        },
+        "kicker": {
+            "name": "Tyler Bass",
+            "number": 16,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/2",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bills-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/2"
+        },
+        "defender": {
+            "name": "Ed Oliver",
+            "number": 91,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/2",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bills-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/2"
+        }
+    },
+    "dolphins": {
+        "quarterback": {
+            "name": "Malik Willis",
+            "number": 2,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/15",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/dolphins-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/15"
+        },
+        "runner": {
+            "name": "Jaylen Wright",
+            "number": 5,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/15",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/dolphins-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/15"
+        },
+        "kicker": {
+            "name": "Daniel Carlson",
+            "number": 38,
+            "era": "2026 roster",
+            "source": "https://www.miamidolphins.com/team/players-roster/daniel-carlson/",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/dolphins-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.miamidolphins.com/team/players-roster/daniel-carlson/"
+        },
+        "defender": {
+            "name": "Jordyn Brooks",
+            "number": 20,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/15",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/dolphins-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/15"
+        }
+    },
+    "patriots": {
+        "quarterback": {
+            "name": "Drake Maye",
+            "number": 10,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/17",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/patriots-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/17"
+        },
+        "runner": {
+            "name": "Rhamondre Stevenson",
+            "number": 38,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/17",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/patriots-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/17"
+        },
+        "kicker": {
+            "name": "Andy Borregales",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/17",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/patriots-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/17"
+        },
+        "defender": {
+            "name": "Christian Gonzalez",
+            "number": 0,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/17",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/patriots-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/17"
+        }
+    },
+    "jets": {
+        "quarterback": {
+            "name": "Geno Smith",
+            "number": 7,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/20",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jets-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/20"
+        },
+        "runner": {
+            "name": "Breece Hall",
+            "number": 20,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/20",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jets-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/20"
+        },
+        "kicker": {
+            "name": "Jason Sanders",
+            "number": 19,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/20",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jets-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/20"
+        },
+        "defender": {
+            "name": "David Bailey",
+            "number": 31,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/20",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jets-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/20"
+        }
+    },
+    "ravens": {
+        "quarterback": {
+            "name": "Lamar Jackson",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/33",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/ravens-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/33"
+        },
+        "runner": {
+            "name": "Derrick Henry",
+            "number": 22,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/33",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/ravens-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/33"
+        },
+        "kicker": {
+            "name": "Riley Patterson",
+            "number": 35,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/33",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/ravens-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/33"
+        },
+        "defender": {
+            "name": "Kyle Hamilton",
+            "number": 14,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/33",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/ravens-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/33"
+        }
+    },
+    "bengals": {
+        "quarterback": {
+            "name": "Joe Burrow",
+            "number": 9,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/4",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bengals-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/4"
+        },
+        "runner": {
+            "name": "Chase Brown",
+            "number": 30,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/4",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bengals-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/4"
+        },
+        "kicker": {
+            "name": "Evan McPherson",
+            "number": 2,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/4",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bengals-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/4"
+        },
+        "defender": {
+            "name": "Jonathan Allen",
+            "number": 93,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/4",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bengals-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/4"
+        }
+    },
+    "browns": {
+        "quarterback": {
+            "name": "Shedeur Sanders",
+            "number": 2,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/5",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/browns-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/5"
+        },
+        "runner": {
+            "name": "Quinshon Judkins",
+            "number": 10,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/5",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/browns-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/5"
+        },
+        "kicker": {
+            "name": "Andre Szmyt",
+            "number": 25,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/5",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/browns-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/5"
+        },
+        "defender": {
+            "name": "Derek Barnett",
+            "number": 97,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/5",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/browns-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/5"
+        }
+    },
+    "steelers": {
+        "quarterback": {
+            "name": "Aaron Rodgers",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/23",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/steelers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/23"
+        },
+        "runner": {
+            "name": "Jaylen Warren",
+            "number": 30,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/23",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/steelers-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/23"
+        },
+        "kicker": {
+            "name": "Chris Boswell",
+            "number": 9,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/23",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/steelers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/23"
+        },
+        "defender": {
+            "name": "T.J. Watt",
+            "number": 90,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/23",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/steelers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/23"
+        }
+    },
+    "texans": {
+        "quarterback": {
+            "name": "C.J. Stroud",
+            "number": 7,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/34",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/texans-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/34"
+        },
+        "runner": {
+            "name": "Woody Marks",
+            "number": 4,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/34",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/texans-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/34"
+        },
+        "kicker": {
+            "name": "Ka'imi Fairbairn",
+            "number": 15,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/34",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/texans-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/34"
+        },
+        "defender": {
+            "name": "Will Anderson Jr.",
+            "number": 51,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/34",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/texans-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/34"
+        }
+    },
+    "colts": {
+        "quarterback": {
+            "name": "Anthony Richardson Sr.",
+            "number": 5,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/11",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/colts-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/11"
+        },
+        "runner": {
+            "name": "Jonathan Taylor",
+            "number": 28,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/11",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/colts-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/11"
+        },
+        "kicker": {
+            "name": "Spencer Shrader",
+            "number": 3,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/11",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/colts-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/11"
+        },
+        "defender": {
+            "name": "Laiatu Latu",
+            "number": 97,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/11",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/colts-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/11"
+        }
+    },
+    "jaguars": {
+        "quarterback": {
+            "name": "Trevor Lawrence",
+            "number": 16,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/30",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jaguars-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/30"
+        },
+        "runner": {
+            "name": "Bhayshul Tuten",
+            "number": 33,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/30",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jaguars-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/30"
+        },
+        "kicker": {
+            "name": "Cam Little",
+            "number": 39,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/30",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jaguars-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/30"
+        },
+        "defender": {
+            "name": "Josh Hines-Allen",
+            "number": 41,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/30",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jaguars-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/30"
+        }
+    },
+    "titans": {
+        "quarterback": {
+            "name": "Cam Ward",
+            "number": 1,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/10",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/titans-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/10"
+        },
+        "runner": {
+            "name": "Tony Pollard",
+            "number": 20,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/10",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/titans-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/10"
+        },
+        "kicker": {
+            "name": "Joey Slye",
+            "number": 6,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/10",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/titans-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/10"
+        },
+        "defender": {
+            "name": "Tony Adams",
+            "number": 29,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/10",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/titans-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/10"
+        }
+    },
+    "broncos": {
+        "quarterback": {
+            "name": "Bo Nix",
+            "number": 10,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/7",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/broncos-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/7"
+        },
+        "runner": {
+            "name": "J.K. Dobbins",
+            "number": 27,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/7",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/broncos-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/7"
+        },
+        "kicker": {
+            "name": "Wil Lutz",
+            "number": 3,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/7",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/broncos-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/7"
+        },
+        "defender": {
+            "name": "Kris Abrams-Draine",
+            "number": 31,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/7",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/broncos-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/7"
+        }
+    },
+    "chiefs": {
+        "quarterback": {
+            "name": "Patrick Mahomes",
+            "number": 15,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/12",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chiefs-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/12"
+        },
+        "runner": {
+            "name": "Kenneth Walker III",
+            "number": 9,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/12",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chiefs-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/12"
+        },
+        "kicker": {
+            "name": "Harrison Butker",
+            "number": 7,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/12",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chiefs-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/12"
+        },
+        "defender": {
+            "name": "Chris Jones",
+            "number": 95,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/12",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chiefs-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/12"
+        }
+    },
+    "raiders": {
+        "quarterback": {
+            "name": "Fernando Mendoza",
+            "number": 15,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/13",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/raiders-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/13"
+        },
+        "runner": {
+            "name": "Ashton Jeanty",
+            "number": 2,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/13",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/raiders-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/13"
+        },
+        "kicker": {
+            "name": "Matt Gay",
+            "number": 14,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/13",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/raiders-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/13"
+        },
+        "defender": {
+            "name": "Maxx Crosby",
+            "number": 98,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/13",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/raiders-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/13"
+        }
+    },
+    "chargers": {
+        "quarterback": {
+            "name": "Justin Herbert",
+            "number": 10,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/24",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chargers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/24"
+        },
+        "runner": {
+            "name": "Omarion Hampton",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/24",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chargers-runner-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/24"
+        },
+        "kicker": {
+            "name": "Cameron Dicker",
+            "number": 11,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/24",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chargers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/24"
+        },
+        "defender": {
+            "name": "Derwin James Jr.",
+            "number": 3,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/24",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chargers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/24"
+        }
+    }
+}

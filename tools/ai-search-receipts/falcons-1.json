@@ -1,0 +1,60 @@
+{
+    "team": "falcons",
+    "level": 0,
+    "sourceIndex": 528,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/falcons-528.jpg",
+    "sourcePage": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/falcons/csakj7qwatuxexozol5m.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/falcons.png",
+    "player": "Bijan Robinson",
+    "face": [
+        258.48,
+        445.05,
+        41.68,
+        51.72
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real falcons crowd photograph to edit. Image 2 is Bijan Robinson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Bijan Robinson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual falcons fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-ee9c0dcc-23f1-4361-9a3b-0d4baa3fa4b6.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/falcons-ai-v1-1.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.1947762978932504,
+                0.5841720167559341,
+                0.04713484175467604,
+                0.11804017280797517
+            ],
+            "similarity": 0.6909938441838221,
+            "distance": 0.006635013906933904
+        },
+        {
+            "target": [
+                0.10486395087538723,
+                0.5807234584715111,
+                0.03097528402885183,
+                0.07064104961918219
+            ],
+            "similarity": 0.20360097461434634,
+            "distance": 0.10409823300030105
+        },
+        {
+            "target": [
+                0.10492519521256953,
+                0.5273666148738071,
+                0.020961375464662986,
+                0.050145155514464794
+            ],
+            "similarity": 0.1899454251906718,
+            "distance": 0.14329283409208673
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.1947762978932504,
+        0.5841720167559341,
+        0.04713484175467604,
+        0.11804017280797517
+    ]
+}

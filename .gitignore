@@ -63,6 +63,8 @@ node_modules/
 .yarn-integrity
 
 # dotenv environment variables file
+# Private local API keys: never commit this file, including with force-add.
+/.env.local
 .env
 .env.*
 !.env.example

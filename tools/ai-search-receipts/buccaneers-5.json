@@ -1,0 +1,109 @@
+{
+    "team": "buccaneers",
+    "level": 4,
+    "sourceIndex": 510,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/buccaneers-510.jpg",
+    "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/qwcgm4hro2g9gfk8zpaj.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/buccaneers.png",
+    "player": "Baker Mayfield",
+    "face": [
+        652.4,
+        350.47,
+        18.83,
+        23.63
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real buccaneers crowd photograph to edit. Image 2 is Baker Mayfield's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Baker Mayfield, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual buccaneers fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/buccaneers-ai-v2-5.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/buccaneers-ai-v2-5.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.48413277178860165,
+                0.46333182352128877,
+                0.03584677764673553,
+                0.08563388009633831
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.48413277178860165,
+        0.46333182352128877,
+        0.03584677764673553,
+        0.08563388009633831
+    ],
+    "history": [
+        {
+            "team": "buccaneers",
+            "level": 4,
+            "sourceIndex": 510,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/buccaneers-510.jpg",
+            "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+            "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/qwcgm4hro2g9gfk8zpaj.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/buccaneers.png",
+            "player": "Baker Mayfield",
+            "face": [
+                652.4,
+                350.47,
+                18.83,
+                23.63
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real buccaneers crowd photograph to edit. Image 2 is Baker Mayfield's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Baker Mayfield, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual buccaneers fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-aaab3610-6bf6-4bd9-81d9-1882b9a19afe.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/buccaneers-ai-v1-5.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.48413277178860165,
+                        0.46333182352128877,
+                        0.03584677764673553,
+                        0.08563388009633831
+                    ],
+                    "similarity": 0.43903426279939595,
+                    "distance": 0.01615571533666973
+                },
+                {
+                    "target": [
+                        0.45330893126401034,
+                        0.4337468694551085,
+                        0.01562724752289262,
+                        0.035492138350808
+                    ],
+                    "similarity": 0.17981252955519267,
+                    "distance": 0.07528993329945419
+                },
+                {
+                    "target": [
+                        0.5042661137101753,
+                        0.5750083659837907,
+                        0.021830193825315678,
+                        0.052063262323263956
+                    ],
+                    "similarity": 0.19325435493374243,
+                    "distance": 0.09974313771528406
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.48413277178860165,
+                0.46333182352128877,
+                0.03584677764673553,
+                0.08563388009633831
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "buccaneers-5",
+    "focusCorrection": {
+        "sigmaPixels": 1,
+        "maskFeatherPixels": 7.791655589294435,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "team": "rams",
+    "round": 3,
+    "issue": "Small isolated head appears pasted between foreground people; restore plausible hidden body/neck and original strong background blur.",
+    "status": "accepted-after-visual-review",
+    "key": "rams-3",
+    "player": "Puka Nacua",
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/rams-6231.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/rams.png",
+    "guidePath": "/private/tmp/search-naturalness-repairs/rams-3-guide.jpg",
+    "contextPath": "/private/tmp/search-naturalness-repairs/rams-3-original-context.jpg",
+    "headBounds": [
+        748,
+        190,
+        787,
+        247
+    ],
+    "sourceSize": [
+        1280,
+        720
+    ],
+    "beforeSrc": "assets/photo-search/rounds/rams-ai-v1-3.jpg",
+    "beforeTarget": [
+        0.586036206455322,
+        0.2528518490279519,
+        0.039191583651675035,
+        0.09343987849009532
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Puka Nacua's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Puka Nacua naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Small isolated head appears pasted between foreground people; restore plausible hidden body/neck and original strong background blur.\nThe original spectator's head fits inside original-image pixel bounds [748, 190, 787, 247], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-a7615def-668d-43bf-a021-e65aa8a4a814.png",
+    "src": "assets/photo-search/rounds/rams-ai-v2-3.jpg",
+    "proposedTarget": [
+        0.584375,
+        0.2638888888888889,
+        0.03046875,
+        0.07916666666666666
+    ],
+    "reviewedTarget": [
+        0.5879186602870813,
+        0.23485653560042508,
+        0.04844497607655503,
+        0.1179596174282678
+    ],
+    "reviewNotes": "Compared at equal scale with original and previous edit. Connected pose and foreground occlusions restored; full-head target adjusted to actual final image."
+}

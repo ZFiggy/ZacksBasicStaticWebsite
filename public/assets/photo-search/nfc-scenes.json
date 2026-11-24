@@ -1,0 +1,1247 @@
+{
+    "giants": {
+        "src": "assets/photo-search/giants.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Eli Manning",
+        "number": 10,
+        "era": "Giants legend · 2004–2019",
+        "sourcePage": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
+        "credit": "www.giants.com; player reference: ESPN player headshot; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Manning’s blue cap",
+                "clue": "A blue NY cap and blue jacket with red panels.",
+                "target": [
+                    0.232,
+                    0.241,
+                    0.08,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/giants-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Ten in the bleachers",
+                "clue": "No hat and a blue number 10 jersey.",
+                "target": [
+                    0.623,
+                    0.299,
+                    0.08,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/giants-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Eli’s hoodie disguise",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.376,
+                    0.398,
+                    0.09,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/giants-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Big Blue sweatshirt",
+                "clue": "No hat and a blue NY sweatshirt.",
+                "target": [
+                    0.484,
+                    0.307,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/giants-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "The NY scarf",
+                "clue": "A blue NY cap and navy hoodie.",
+                "target": [
+                    0.534,
+                    0.165,
+                    0.065,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/giants-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/giants.png",
+        "referencePage": "https://www.espn.com/nfl/player/_/id/5526/",
+        "referenceCredit": "ESPN media player portrait; identity reference only",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "vikings": {
+        "src": "assets/photo-search/vikings.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Fran Tarkenton",
+        "number": 10,
+        "era": "Vikings legend · 1961–1966 and 1972–1978",
+        "sourcePage": "https://www.vikings.com/photos/fans-packers-week-1-2026",
+        "credit": "Andy Berg/Minnesota Vikings; player reference: www.profootballhof.com; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Fran at the fan plaza",
+                "clue": "A dark Vikings cap and purple varsity jacket.",
+                "target": [
+                    0.239,
+                    0.233,
+                    0.097,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/vikings-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Tarkenton in purple",
+                "clue": "No hat, curly brown hair, sideburns, and a purple number 10 jersey.",
+                "target": [
+                    0.602,
+                    0.3,
+                    0.105,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/vikings-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "The cream hoodie",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.402,
+                    0.42,
+                    0.105,
+                    0.26
+                ],
+                "src": "assets/photo-search/rounds/vikings-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Plaza sweatshirt scramble",
+                "clue": "No hat, curly brown hair, and a purple Vikings sweatshirt.",
+                "target": [
+                    0.511,
+                    0.365,
+                    0.104,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/vikings-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Purple-and-gold scarf",
+                "clue": "A purple Vikings cap and dark hoodie.",
+                "target": [
+                    0.52,
+                    0.144,
+                    0.085,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/vikings-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/vikings.jpg",
+        "referencePage": "https://www.profootballhof.com/players/fran-tarkenton",
+        "referenceCredit": "Pro Football Hall of Fame / NFL",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "falcons": {
+        "src": "assets/photo-search/falcons.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Matt Ryan",
+        "number": 2,
+        "era": "Falcons legend · 2008–2021",
+        "sourcePage": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
+        "credit": "Atlanta Falcons / Kara Durrette; player reference: ESPN player headshot; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Ryan above the red sea",
+                "clue": "A black Falcons cap and red zip-up team jacket.",
+                "target": [
+                    0.31,
+                    0.246,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/falcons-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Two in the upper rows",
+                "clue": "No hat and a black number 2 jersey.",
+                "target": [
+                    0.619,
+                    0.321,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/falcons-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Beside the German Girl sign",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.377,
+                    0.414,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/falcons-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Matty Ice in the lower rows",
+                "clue": "No hat and a black Falcons sweatshirt.",
+                "target": [
+                    0.512,
+                    0.351,
+                    0.07,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/falcons-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "The far-right Falcon",
+                "clue": "A black Falcons cap with red trim and black hoodie.",
+                "target": [
+                    0.551,
+                    0.165,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/falcons-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/falcons.png",
+        "referencePage": "https://www.espn.com/nfl/player/_/id/11237/",
+        "referenceCredit": "ESPN media player portrait; identity reference only",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "panthers": {
+        "src": "assets/photo-search/panthers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Cam Newton",
+        "number": 1,
+        "era": "Panthers legend · 2011–2019 and 2021",
+        "sourcePage": "https://www.panthers.com/photos/photos-capturing-the-fans-at-fan-fest",
+        "credit": "Chanelle Smith-Walker/Carolina Panthers; player reference: ESPN player headshot; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Cam above the blue seats",
+                "clue": "A dark Panthers cap and black jacket with bright-blue panels.",
+                "target": [
+                    0.261,
+                    0.25,
+                    0.067,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/panthers-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Superman in the stands",
+                "clue": "Tall tied-up twists, no hat, and a bright-blue Panthers jersey.",
+                "target": [
+                    0.546,
+                    0.284,
+                    0.065,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/panthers-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "One behind the fans",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.383,
+                    0.394,
+                    0.086,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/panthers-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Cam beside the rail",
+                "clue": "Tall tied-up twists and a bright-blue Panthers sweatshirt.",
+                "target": [
+                    0.603,
+                    0.287,
+                    0.073,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/panthers-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "The right-edge Panther",
+                "clue": "A teal-and-black Panthers cap and dark hoodie.",
+                "target": [
+                    0.497,
+                    0.21,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/panthers-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/panthers.png",
+        "referencePage": "https://www.espn.com/nfl/player/_/id/13994/",
+        "referenceCredit": "ESPN media player portrait; identity reference only",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "cowboys": {
+        "src": "assets/photo-search/cowboys.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Troy Aikman",
+        "number": 8,
+        "era": "Cowboys legend · 1989–2000",
+        "sourcePage": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+        "credit": "©James D. Smith/Dallas Cowboys; player reference: https://www.profootballhof.com/players/troy-aikman; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Aikman at training camp",
+                "clue": "A navy Cowboys cap and navy zip-up team jacket.",
+                "target": [
+                    0.443,
+                    0.229,
+                    0.08,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/cowboys-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Eight behind the caps",
+                "clue": "No hat, sandy-brown hair, and a navy number 8 jersey.",
+                "target": [
+                    0.616,
+                    0.33,
+                    0.09,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/cowboys-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Troy in the bleachers",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.378,
+                    0.376,
+                    0.1,
+                    0.28
+                ],
+                "src": "assets/photo-search/rounds/cowboys-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "A star in the lower rows",
+                "clue": "No hat and a navy sweatshirt with a large Cowboys star.",
+                "target": [
+                    0.511,
+                    0.365,
+                    0.09,
+                    0.28
+                ],
+                "src": "assets/photo-search/rounds/cowboys-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "The far-right Cowboy",
+                "clue": "A navy Cowboys cap and dark hoodie.",
+                "target": [
+                    0.54,
+                    0.174,
+                    0.087,
+                    0.26
+                ],
+                "src": "assets/photo-search/rounds/cowboys-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/cowboys.jpg",
+        "referencePage": "https://www.profootballhof.com/players/troy-aikman",
+        "referenceCredit": "Pro Football Hall of Fame / NFL",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "packers": {
+        "src": "assets/photo-search/packers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Aaron Rodgers",
+        "number": 12,
+        "era": "Packers legend · 2005–2022",
+        "sourcePage": "https://www.packers.com/photos/photos-fans-tailgate-at-lambeau-field-ahead-of-rivalries-game-packers-vs-bears-2026",
+        "credit": "Keller Nienau, packers.com; player reference: ESPN player headshot; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Rodgers behind the raised arms",
+                "clue": "A dark-green Packers cap and green team jacket.",
+                "target": [
+                    0.292,
+                    0.23,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/packers-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Twelve above the yellow blazer",
+                "clue": "No hat, short dark hair, and a green Packers jersey.",
+                "target": [
+                    0.6,
+                    0.276,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/packers-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Behind the Packers glove",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.385,
+                    0.448,
+                    0.08,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/packers-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "A quarterback by the golden coat",
+                "clue": "No hat and a dark-green Packers sweatshirt.",
+                "target": [
+                    0.473,
+                    0.35,
+                    0.074,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/packers-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Rodgers at the right edge",
+                "clue": "A green-and-gold Packers cap and black hoodie.",
+                "target": [
+                    0.527,
+                    0.214,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/packers-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/packers.png",
+        "referencePage": "https://www.espn.com/nfl/player/_/id/8439/",
+        "referenceCredit": "ESPN media player portrait; identity reference only",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "49ers": {
+        "src": "assets/photo-search/49ers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Joe Montana",
+        "number": 16,
+        "era": "49ers legend · 1979–1992",
+        "sourcePage": "https://www.49ers.com/photos/san-francisco-fans-faithful-take-over-the-new-orleans-saints-superdome",
+        "credit": "Kym Fortino/49ers; player reference: www.profootballhof.com; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Montana in the red sea",
+                "clue": "A black 49ers cap and red varsity jacket.",
+                "target": [
+                    0.238,
+                    0.232,
+                    0.09,
+                    0.26
+                ],
+                "src": "assets/photo-search/rounds/49ers-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Sixteen in the middle rows",
+                "clue": "No hat, curly light-brown hair, and a red number 16 jersey.",
+                "target": [
+                    0.64,
+                    0.301,
+                    0.09,
+                    0.26
+                ],
+                "src": "assets/photo-search/rounds/49ers-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Joe by the sideline crowd",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.391,
+                    0.423,
+                    0.1,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/49ers-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Montana behind the barrier",
+                "clue": "No hat and a red 49ers sweatshirt.",
+                "target": [
+                    0.459,
+                    0.356,
+                    0.09,
+                    0.26
+                ],
+                "src": "assets/photo-search/rounds/49ers-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "The far-right Forty-Niner",
+                "clue": "A red 49ers cap and dark hoodie.",
+                "target": [
+                    0.538,
+                    0.211,
+                    0.08,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/49ers-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/49ers.jpg",
+        "referencePage": "https://www.profootballhof.com/players/joe-montana",
+        "referenceCredit": "Pro Football Hall of Fame / NFL",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "rams": {
+        "src": "assets/photo-search/rams.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Kurt Warner",
+        "number": 13,
+        "era": "Rams legend · #13 era, 1999–2003",
+        "sourcePage": "https://www.therams.com/photos/fan-photos-rams-fans-shine-under-the-sofi-stadium-spotlight-during-the-rams-week-11-win-over-the-seahawks",
+        "credit": "Abigail Dean/ Los Angeles Rams/Los Angeles Rams; player reference: https://www.profootballhof.com/players/kurt-warner; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Warner in the SoFi upper rows",
+                "clue": "A navy Rams cap, a goatee, and a blue jacket with yellow trim.",
+                "target": [
+                    0.28,
+                    0.274,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/rams-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Thirteen below the suites",
+                "clue": "No hat, short dark hair, a goatee, and a blue-and-gold Rams jersey.",
+                "target": [
+                    0.618,
+                    0.302,
+                    0.075,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/rams-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Kurt behind the home fans",
+                "clue": "A black knit cap, a goatee, and a gray hoodie.",
+                "target": [
+                    0.366,
+                    0.441,
+                    0.09,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/rams-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "The blue-and-gold lower rows",
+                "clue": "No hat, short dark hair, a goatee, and a navy Rams sweatshirt.",
+                "target": [
+                    0.574,
+                    0.36,
+                    0.085,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/rams-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Warner at the stadium edge",
+                "clue": "A navy Rams cap, a goatee, and a dark-blue hoodie.",
+                "target": [
+                    0.542,
+                    0.187,
+                    0.08,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/rams-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/rams.jpg",
+        "referencePage": "https://www.profootballhof.com/players/kurt-warner",
+        "referenceCredit": "Pro Football Hall of Fame / NFL",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "lions": {
+        "src": "assets/photo-search/lions.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Matthew Stafford",
+        "number": 9,
+        "era": "Lions legend · 2009–2020",
+        "sourcePage": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+        "credit": "Carl Jones II/Detroit Lions; player reference: ESPN player headshot; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Stafford at Ford Field",
+                "clue": "A dark Lions cap and a blue zip-up jacket.",
+                "target": [
+                    0.218,
+                    0.22,
+                    0.1,
+                    0.23
+                ],
+                "src": "assets/photo-search/rounds/lions-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Nine behind the draft party",
+                "clue": "No hat, curly hair, and a blue number 9 jersey.",
+                "target": [
+                    0.61,
+                    0.29,
+                    0.11,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/lions-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Matthew in the celebration",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.369,
+                    0.43,
+                    0.092,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/lions-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Stafford among the blue chairs",
+                "clue": "No hat, curly hair, and a blue Lions sweatshirt.",
+                "target": [
+                    0.546,
+                    0.367,
+                    0.09,
+                    0.275
+                ],
+                "src": "assets/photo-search/rounds/lions-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "The right-edge Lion",
+                "clue": "A blue Lions cap and dark hoodie.",
+                "target": [
+                    0.501,
+                    0.215,
+                    0.075,
+                    0.235
+                ],
+                "src": "assets/photo-search/rounds/lions-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/lions.png",
+        "referencePage": "https://www.espn.com/nfl/player/_/id/12483/",
+        "referenceCredit": "ESPN media player portrait; identity reference only",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "cardinals": {
+        "src": "assets/photo-search/cardinals.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Kurt Warner",
+        "number": 13,
+        "era": "Cardinals legend · 2005–2009",
+        "sourcePage": "https://www.azcardinals.com/photos/photos-fan-friday-best-of-2023",
+        "credit": "Arianna Grainey/Arizona Cardinals; player reference: https://www.profootballhof.com/players/kurt-warner; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Warner beside the belt",
+                "clue": "A dark Cardinals cap and a red-and-black zip-up jacket.",
+                "target": [
+                    0.319,
+                    0.255,
+                    0.092,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/cardinals-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Kurt below the championship belt",
+                "clue": "No hat and a red number 13 jersey.",
+                "target": [
+                    0.574,
+                    0.347,
+                    0.11,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/cardinals-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Thirteen behind the peace sign",
+                "clue": "A black knit cap and gray zip-up hoodie.",
+                "target": [
+                    0.375,
+                    0.42,
+                    0.1,
+                    0.29
+                ],
+                "src": "assets/photo-search/rounds/cardinals-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "The front-row Cardinal",
+                "clue": "No hat and a plain red Cardinals sweatshirt.",
+                "target": [
+                    0.475,
+                    0.368,
+                    0.1,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/cardinals-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Warner among the red jerseys",
+                "clue": "A red Cardinals cap and black hoodie.",
+                "target": [
+                    0.54,
+                    0.19,
+                    0.09,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/cardinals-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/cardinals.jpg",
+        "referencePage": "https://www.profootballhof.com/players/kurt-warner",
+        "referenceCredit": "Pro Football Hall of Fame / NFL",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "commanders": {
+        "src": "assets/photo-search/commanders.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Joe Theismann",
+        "number": 7,
+        "era": "Washington legend · 1974–1985",
+        "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+        "credit": "Emily Faith Morgan/Washington Commanders; player reference: Ted Van Pelt / Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/); adapted as AI photographic composite; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Theismann in the burgundy crowd",
+                "clue": "A burgundy W cap and burgundy jacket over a white collar.",
+                "target": [
+                    0.233,
+                    0.265,
+                    0.1,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/commanders-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Seven above the W flag",
+                "clue": "No hat, curly brown hair, and a burgundy number 7 jersey.",
+                "target": [
+                    0.66,
+                    0.318,
+                    0.1,
+                    0.275
+                ],
+                "src": "assets/photo-search/rounds/commanders-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Joe beside the raised hands",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.375,
+                    0.418,
+                    0.1,
+                    0.29
+                ],
+                "src": "assets/photo-search/rounds/commanders-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "The lower-row Washington legend",
+                "clue": "No hat and a burgundy Commanders sweatshirt.",
+                "target": [
+                    0.503,
+                    0.36,
+                    0.105,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/commanders-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Theismann at the right edge",
+                "clue": "A burgundy W cap and dark hoodie.",
+                "target": [
+                    0.519,
+                    0.195,
+                    0.09,
+                    0.255
+                ],
+                "src": "assets/photo-search/rounds/commanders-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/commanders-1983.jpg",
+        "referencePage": "https://commons.wikimedia.org/wiki/File:Joe_Theismann1983.jpg",
+        "referenceCredit": "Ted Van Pelt / Wikimedia Commons",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "bears": {
+        "src": "assets/photo-search/bears.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Jim McMahon",
+        "number": 9,
+        "era": "Bears legend · 1982–1988",
+        "sourcePage": "https://thankyoufans.chicagobears.com/week-4/index.html",
+        "credit": "Chicago Bears / featured fan-submitted tailgate photograph; player reference: www.chicagobears.com; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "McMahon under the orange umbrella",
+                "clue": "A navy C cap and navy jacket with orange lining.",
+                "target": [
+                    0.338,
+                    0.258,
+                    0.08,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/bears-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "The headband at the tailgate",
+                "clue": "No hat and a navy number 9 jersey.",
+                "target": [
+                    0.627,
+                    0.295,
+                    0.1,
+                    0.29
+                ],
+                "src": "assets/photo-search/rounds/bears-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Nine between the Bears fans",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.355,
+                    0.428,
+                    0.1,
+                    0.3
+                ],
+                "src": "assets/photo-search/rounds/bears-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "McMahon behind the buffet",
+                "clue": "No hat and a navy C sweatshirt.",
+                "target": [
+                    0.473,
+                    0.354,
+                    0.105,
+                    0.275
+                ],
+                "src": "assets/photo-search/rounds/bears-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Shades beside the umbrella pole",
+                "clue": "A navy C cap and dark hoodie.",
+                "target": [
+                    0.518,
+                    0.198,
+                    0.075,
+                    0.24
+                ],
+                "src": "assets/photo-search/rounds/bears-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/bears.jpg",
+        "referencePage": "https://www.chicagobears.com/photos/happy-birthday-jim-mcmahon-15712657",
+        "referenceCredit": "www.chicagobears.com",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "saints": {
+        "src": "assets/photo-search/saints.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Drew Brees",
+        "number": 9,
+        "era": "Saints legend · 2006–2020",
+        "sourcePage": "https://www.neworleanssaints.com/photos/2026-nfl-week-10-carolina-panthers-vs-new-orleans-saints-photos-fans",
+        "credit": "Michael C. Hebert/New Orleans Saints; player reference: ESPN media player portrait; identity reference only; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Brees above the cheering child",
+                "clue": "A black Saints cap and dark jacket with tan trim.",
+                "target": [
+                    0.283,
+                    0.245,
+                    0.074,
+                    0.26
+                ],
+                "src": "assets/photo-search/rounds/saints-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Nine in the upper crowd",
+                "clue": "No hat and a black number 9 jersey.",
+                "target": [
+                    0.551,
+                    0.323,
+                    0.084,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/saints-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Drew beside the seated supporter",
+                "clue": "A black Saints knit cap and gray hoodie.",
+                "target": [
+                    0.38,
+                    0.445,
+                    0.095,
+                    0.28
+                ],
+                "src": "assets/photo-search/rounds/saints-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Brees behind the glasses",
+                "clue": "No hat and a black Saints sweatshirt.",
+                "target": [
+                    0.601,
+                    0.375,
+                    0.09,
+                    0.31
+                ],
+                "src": "assets/photo-search/rounds/saints-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Nine behind the gold pom-poms",
+                "clue": "A black-and-gold Saints cap and black hoodie.",
+                "target": [
+                    0.535,
+                    0.22,
+                    0.087,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/saints-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/saints.png",
+        "referencePage": "https://www.espn.com/nfl/player/_/id/2580/",
+        "referenceCredit": "ESPN media player portrait; identity reference only",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "seahawks": {
+        "src": "assets/photo-search/seahawks.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Matt Hasselbeck",
+        "number": 8,
+        "era": "Seahawks legend · 2001–2010",
+        "sourcePage": "https://www.seahawks.com/photos/2025-nfc-divisional-round-seahawks-vs-49ers-lumen-field-12s-fan-photos",
+        "credit": "Seattle Seahawks / credited gallery photographer; player reference: Seattle Seahawks official Top50 player page; AI photographic composite edit.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Hasselbeck behind the green wigs",
+                "clue": "A dark Seahawks cap and navy zip-up jacket.",
+                "target": [
+                    0.329,
+                    0.265,
+                    0.09,
+                    0.29
+                ],
+                "src": "assets/photo-search/rounds/seahawks-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Eight above the twelve",
+                "clue": "No hat, a receding hairline, and a navy number 8 jersey.",
+                "target": [
+                    0.634,
+                    0.273,
+                    0.087,
+                    0.29
+                ],
+                "src": "assets/photo-search/rounds/seahawks-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Matt beside the peace sign",
+                "clue": "A black knit cap and gray hoodie.",
+                "target": [
+                    0.406,
+                    0.392,
+                    0.085,
+                    0.29
+                ],
+                "src": "assets/photo-search/rounds/seahawks-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Behind MAKE IT QUAKE",
+                "clue": "No hat, a receding hairline, and a navy Seahawks sweatshirt.",
+                "target": [
+                    0.515,
+                    0.35,
+                    0.1,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/seahawks-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "Hasselbeck at the railing",
+                "clue": "A navy Seahawks cap and dark hoodie.",
+                "target": [
+                    0.522,
+                    0.198,
+                    0.087,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/seahawks-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/seahawks.webp",
+        "referencePage": "https://50.seahawks.com/players/matt-hasselbeck",
+        "referenceCredit": "Seattle Seahawks official Top50 player page",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    },
+    "buccaneers": {
+        "src": "assets/photo-search/buccaneers.png",
+        "cols": 3,
+        "rows": 2,
+        "referenceIndex": 5,
+        "playerName": "Doug Williams",
+        "number": 12,
+        "era": "Buccaneers legend · 1978–1982",
+        "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+        "credit": "www.buccaneers.com; player reference: Nick Wass / Washington Commanders; AI photographic composite edit.; historic playing-era reference: Tampa Bay Buccaneers / Best of Doug Williams gallery.",
+        "scenes": [
+            {
+                "index": 0,
+                "name": "Doug in the sunny fan crowd",
+                "clue": "A dark Buccaneers cap, gray beard, and red zip-up jacket.",
+                "target": [
+                    0.262,
+                    0.264,
+                    0.08,
+                    0.25
+                ],
+                "src": "assets/photo-search/rounds/buccaneers-1.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 1,
+                "name": "Orange among the red jerseys",
+                "clue": "No hat, a gray beard, and a red number 17 jersey.",
+                "target": [
+                    0.658,
+                    0.29,
+                    0.09,
+                    0.3
+                ],
+                "src": "assets/photo-search/rounds/buccaneers-2.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 2,
+                "name": "Williams beside the young fan",
+                "clue": "A black knit cap, gray beard, and gray hoodie.",
+                "target": [
+                    0.381,
+                    0.394,
+                    0.08,
+                    0.27
+                ],
+                "src": "assets/photo-search/rounds/buccaneers-3.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 3,
+                "name": "Doug behind the front row",
+                "clue": "No hat and a red Buccaneers sweatshirt.",
+                "target": [
+                    0.51,
+                    0.345,
+                    0.09,
+                    0.29
+                ],
+                "src": "assets/photo-search/rounds/buccaneers-4.jpg",
+                "kind": "generated"
+            },
+            {
+                "index": 4,
+                "name": "The far-right Buccaneer",
+                "clue": "A dark Buccaneers cap, gray beard, and black hoodie.",
+                "target": [
+                    0.535,
+                    0.184,
+                    0.08,
+                    0.245
+                ],
+                "src": "assets/photo-search/rounds/buccaneers-5.jpg",
+                "kind": "generated"
+            }
+        ],
+        "referenceSrc": "assets/player-references/buccaneers.jpg",
+        "referencePage": "https://www.commanders.com/team/front-office-roster/doug-williams",
+        "referenceCredit": "Nick Wass / Washington Commanders",
+        "version": 2,
+        "disclosure": "AI-created fictional crowd scenes and edited fan photographs. These scenes do not document a real player appearance."
+    }
+}

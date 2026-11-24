@@ -1,0 +1,109 @@
+{
+    "team": "vikings",
+    "level": 4,
+    "sourceIndex": 8034,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/vikings-8034.jpg",
+    "sourcePage": "https://www.vikings.com/photos/best-photos-of-vikings-fans-from-the-2025-season",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/vikings/qoxi9ehvykz2azqsbypw.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/vikings.png",
+    "player": "Justin Jefferson",
+    "face": [
+        594.21,
+        182.04,
+        29.01,
+        32.79
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real vikings crowd photograph to edit. Image 2 is Justin Jefferson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Justin Jefferson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual vikings fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/vikings-ai-v2-5.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/vikings-ai-v2-5.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.4577782992312783,
+                0.22857941172454865,
+                0.042820920259758574,
+                0.09459158707881199
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.4577782992312783,
+        0.22857941172454865,
+        0.042820920259758574,
+        0.09459158707881199
+    ],
+    "history": [
+        {
+            "team": "vikings",
+            "level": 4,
+            "sourceIndex": 8034,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/vikings-8034.jpg",
+            "sourcePage": "https://www.vikings.com/photos/best-photos-of-vikings-fans-from-the-2025-season",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/vikings/qoxi9ehvykz2azqsbypw.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/vikings.png",
+            "player": "Justin Jefferson",
+            "face": [
+                594.21,
+                182.04,
+                29.01,
+                32.79
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real vikings crowd photograph to edit. Image 2 is Justin Jefferson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Justin Jefferson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual vikings fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-e50779ef-15d2-43d7-a63e-248f8d3fa266.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/vikings-ai-v1-5.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.4577782992312783,
+                        0.22857941172454865,
+                        0.042820920259758574,
+                        0.09459158707881199
+                    ],
+                    "similarity": 0.3887096881016987,
+                    "distance": 0.0051473962726574
+                },
+                {
+                    "target": [
+                        0.3897544083754982,
+                        0.3201458755639104,
+                        0.0573226320002068,
+                        0.12159938021750047
+                    ],
+                    "similarity": 0.15539341374187643,
+                    "distance": 0.12367677904183967
+                },
+                {
+                    "target": [
+                        0.4383802214307648,
+                        0.29420869890105583,
+                        0.03282941357370769,
+                        0.07370109760799265
+                    ],
+                    "similarity": 0.10450610610087097,
+                    "distance": 0.06168678305425985
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.4577782992312783,
+                0.22857941172454865,
+                0.042820920259758574,
+                0.09459158707881199
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "vikings-5",
+    "focusCorrection": {
+        "sigmaPixels": 0.85,
+        "maskFeatherPixels": 9.307555227661124,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

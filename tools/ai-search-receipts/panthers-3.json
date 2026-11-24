@@ -1,0 +1,109 @@
+{
+    "team": "panthers",
+    "level": 2,
+    "sourceIndex": 621,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/panthers-621.jpg",
+    "sourcePage": "https://www.panthers.com/photos/photos-capturing-the-fans-at-fan-fest",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/panthers/po5ad7o7cckbs8cnl1t7.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/panthers.png",
+    "player": "Bryce Young",
+    "face": [
+        566.54,
+        330.06,
+        24.53,
+        31.09
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real panthers crowd photograph to edit. Image 2 is Bryce Young's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Bryce Young, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual panthers fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/panthers-ai-v2-3.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/panthers-ai-v2-3.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.43437703246705267,
+                0.4354931206049499,
+                0.03221121956857199,
+                0.09063092838818412
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.43437703246705267,
+        0.4354931206049499,
+        0.03221121956857199,
+        0.09063092838818412
+    ],
+    "history": [
+        {
+            "team": "panthers",
+            "level": 2,
+            "sourceIndex": 621,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/panthers-621.jpg",
+            "sourcePage": "https://www.panthers.com/photos/photos-capturing-the-fans-at-fan-fest",
+            "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/panthers/po5ad7o7cckbs8cnl1t7.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/panthers.png",
+            "player": "Bryce Young",
+            "face": [
+                566.54,
+                330.06,
+                24.53,
+                31.09
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real panthers crowd photograph to edit. Image 2 is Bryce Young's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Bryce Young, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual panthers fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-95e277ec-1a21-415c-bb62-cd668443da33.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/panthers-ai-v1-3.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.43437703246705267,
+                        0.4354931206049499,
+                        0.03221121956857199,
+                        0.09063092838818412
+                    ],
+                    "similarity": 0.4726530842108332,
+                    "distance": 0.004385105113498667
+                },
+                {
+                    "target": [
+                        0.49373469410900866,
+                        0.31745453519344835,
+                        0.020975093271173327,
+                        0.04151914031041925
+                    ],
+                    "similarity": 0.21081203166841078,
+                    "distance": 0.14964658790064728
+                },
+                {
+                    "target": [
+                        0.5036793822648993,
+                        0.5916608897583138,
+                        0.027156527350393818,
+                        0.06677553377546742
+                    ],
+                    "similarity": 0.21963759947720973,
+                    "distance": 0.16114650670134675
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.43437703246705267,
+                0.4354931206049499,
+                0.03221121956857199,
+                0.09063092838818412
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "panthers-3",
+    "focusCorrection": {
+        "sigmaPixels": 0.45,
+        "maskFeatherPixels": 7.001430685424808,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

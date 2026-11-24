@@ -1,0 +1,44 @@
+{
+    "bills": [
+        "A dark Bills baseball cap and blue jacket.",
+        "No hat and a blue Bills jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat and a blue BILLS sweatshirt.",
+        "A dark Bills cap and navy hoodie."
+    ],
+    "ravens": [
+        "A dark Ravens cap and black zip-up team jacket.",
+        "No hat and a purple number 5 jersey.",
+        "A black knit cap and dark hoodie with a gray hood.",
+        "No hat and a purple Ravens sweatshirt.",
+        "A black Ravens cap with a purple brim and black hoodie."
+    ],
+    "colts": [
+        "A dark Colts cap and dark zip-up jacket.",
+        "No hat and a blue number 18 jersey.",
+        "A black Colts knit cap and gray hoodie.",
+        "No hat, short light-brown hair, and a blue Colts sweatshirt.",
+        "A blue Colts cap and dark hoodie."
+    ],
+    "jaguars": [
+        "A dark Jaguars cap and teal plaid jacket.",
+        "No hat, short gray hair, and a teal number 8 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat, short gray hair, and a teal Jaguars sweatshirt.",
+        "A teal Jaguars cap and charcoal hoodie."
+    ],
+    "chiefs": [
+        "A dark Chiefs cap and red jacket.",
+        "No hat, dark wavy hair, and a red number 16 jersey.",
+        "A black knit cap and gray zip-up hoodie.",
+        "No hat, dark wavy hair, and a red Chiefs sweatshirt.",
+        "A red Chiefs cap and black hoodie."
+    ],
+    "raiders": [
+        "A black Raiders cap, a beard, and a shiny black team jacket.",
+        "No hat, shaggy light-brown hair, a beard, and a black Raiders jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat, shaggy hair, a beard, and a charcoal Raiders sweatshirt.",
+        "A black Raiders cap, a beard, and a dark hoodie."
+    ]
+}

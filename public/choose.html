@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#10202d">
+    <title>Choose your team · Sunday Arcade</title>
+    <meta name="description" content="32 teams. Ten games each. Choose your NFL team and enter your own fan arcade.">
+    <link rel="icon" href="assets/football.svg" type="image/svg+xml">
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/teams-data.js"></script>
+    <script src="scripts/teams.js"></script>
+    <script defer src="scripts/personality-data.js"></script>
+    <script defer src="scripts/game-personality.js"></script>
+    <script defer src="scripts/team-rules.js"></script>
+    <script defer src="scripts/choose.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="teams.css">
+</head>
+<body class="choose-page">
+    <a class="skip-link" href="#main-content">Skip to teams</a>
+    <div class="site-shell">
+        <header class="choose-header"><a class="league-wordmark" href="choose.html">SUNDAY<span>ARCADE</span></a><span>32 TEAMS / YOUR HOME TURF</span></header>
+        <main id="main-content" tabindex="-1">
+            <section class="choose-intro"><p class="eyebrow">A different home crowd for every fan</p><h1>YOUR TEAM.<br>YOUR <em>GAME.</em></h1><p>Pick your colors. Find your home crowd. Play ten football challenges made for your team, then help your fan base climb the standings.</p><div class="choose-promises"><span>10 games per team</span><span>Real team photography</span><span>Switch teams anytime</span></div></section>
+            <div class="choose-toolbar"><label for="team-search">Find your team<input id="team-search" type="search" placeholder="Team, city, or division…" autocomplete="off"></label><div class="game-filters" role="group" aria-label="Conference"><button type="button" data-conference="all" aria-pressed="true">All teams</button><button type="button" data-conference="AFC" aria-pressed="false">AFC</button><button type="button" data-conference="NFC" aria-pressed="false">NFC</button></div><p id="team-count" role="status">32 teams</p></div>
+            <div class="team-grid" id="team-grid"></div><p id="team-no-results" hidden>No teams match. Try a city or team name.</p>
+            <noscript><p>JavaScript is required to choose a team and play. Enable it and reload this page.</p></noscript>
+        </main>
+        <footer class="site-footer"><p>Sunday Arcade · An unofficial fan project. Team photography is credited in each team’s arcade.</p><p>All 32 fan bases welcome.</p></footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+    "dolphins": [
+        "A dark baseball cap and navy Dolphins jacket.",
+        "No hat and a teal number 13 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat and a teal Dolphins sweatshirt.",
+        "A teal baseball cap and dark Dolphins hoodie."
+    ],
+    "jets": [
+        "A dark green baseball cap and green Jets jacket.",
+        "No hat and a green number 12 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat and a green Jets sweatshirt.",
+        "A green baseball cap and dark hoodie."
+    ],
+    "steelers": [
+        "A black baseball cap and black Steelers jacket.",
+        "No hat, blond hair, and a black number 12 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat, blond hair, and a black Steelers sweatshirt.",
+        "A black baseball cap with a gold brim and black hoodie."
+    ],
+    "patriots": [
+        "A navy baseball cap and navy Patriots jacket.",
+        "No hat, eye black, and a navy number 12 jersey.",
+        "A dark knit cap, eye black, and gray hoodie.",
+        "No hat, eye black, and a navy Patriots sweatshirt.",
+        "A navy baseball cap with a red brim and navy hoodie."
+    ],
+    "broncos": [
+        "A navy baseball cap and navy Broncos jacket.",
+        "No hat and an orange Broncos jersey.",
+        "A black knit cap and gray Broncos hoodie.",
+        "No hat and an orange Broncos sweatshirt.",
+        "An orange baseball cap and navy Broncos hoodie."
+    ]
+}

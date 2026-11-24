@@ -1,0 +1,131 @@
+{
+    "team": "bengals",
+    "level": 0,
+    "sourceIndex": 3004,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/bengals-3004.jpg",
+    "sourcePage": "https://www.bengals.com/photos/2026-white-bengal-steelers-week-10-fan-photos",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bengals/eqsad5seswf1ep1up0nh.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/bengals.png",
+    "player": "Joe Burrow",
+    "face": [
+        516.63,
+        247.84,
+        58.99,
+        79.35
+    ],
+    "prompt": "Use case: precise-object-edit. Image 1 is the current edited real crowd photograph. Image 2 is Joe Burrow's face identity reference. Image 3 is the original photograph, for local texture and depth of field only. Refine ONLY the already inserted Joe Burrow in image 1, in his current exact location, body and head size. His current face looks too crisp and like a posed studio portrait compared to the surrounding fans. Give him a subtle candid smile and a slight three-quarter gaze toward the action, faithfully preserving recognizable Joe Burrow facial structure. Integrate his face, hair, ears, neck, and connected Bengals fan clothes naturally. Match the noticeably SOFT FOCUS and low microcontrast of other heads at the same depth, local light direction and color temperature. Do not make Joe any sharper, brighter, or larger than the immediately neighboring faces. Keep the foreground occlusions, all other people, all text and logos, overall framing and original photograph unchanged. Output only the clean image, no boxes, arrows, labels or collage.",
+    "guideVersion": 2,
+    "guideBounds": [
+        510,
+        230,
+        583,
+        337
+    ],
+    "styleReference": "public/assets/search-level-5-v2.jpg",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/bengals-ai-v2-1.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/bengals-ai-v2-1.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.3981856881830681,
+                0.3190483981060551,
+                0.06384083104475831,
+                0.14915931855707446
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "previousPrompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real bengals crowd photograph to edit. Image 2 is Joe Burrow's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Joe Burrow, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual bengals fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+    "previousOutputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-f2760d4c-d5cd-4ea7-9d43-7efae565261f.png",
+    "revision": 2,
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.3981856881830681,
+        0.3190483981060551,
+        0.06384083104475831,
+        0.14915931855707446
+    ],
+    "history": [
+        {
+            "team": "bengals",
+            "level": 0,
+            "sourceIndex": 3004,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/bengals-3004.jpg",
+            "sourcePage": "https://www.bengals.com/photos/2026-white-bengal-steelers-week-10-fan-photos",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bengals/eqsad5seswf1ep1up0nh.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/bengals.png",
+            "player": "Joe Burrow",
+            "face": [
+                516.63,
+                247.84,
+                58.99,
+                79.35
+            ],
+            "prompt": "Use case: precise-object-edit. Image 1 is the current edited real crowd photograph. Image 2 is Joe Burrow's face identity reference. Image 3 is the original photograph, for local texture and depth of field only. Refine ONLY the already inserted Joe Burrow in image 1, in his current exact location, body and head size. His current face looks too crisp and like a posed studio portrait compared to the surrounding fans. Give him a subtle candid smile and a slight three-quarter gaze toward the action, faithfully preserving recognizable Joe Burrow facial structure. Integrate his face, hair, ears, neck, and connected Bengals fan clothes naturally. Match the noticeably SOFT FOCUS and low microcontrast of other heads at the same depth, local light direction and color temperature. Do not make Joe any sharper, brighter, or larger than the immediately neighboring faces. Keep the foreground occlusions, all other people, all text and logos, overall framing and original photograph unchanged. Output only the clean image, no boxes, arrows, labels or collage.",
+            "guideVersion": 2,
+            "guideBounds": [
+                510,
+                230,
+                583,
+                337
+            ],
+            "styleReference": "public/assets/search-level-5-v2.jpg",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-a57e962c-5435-4b1c-b594-dca8afea304a.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/bengals-ai-v1-1.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.3981856881830681,
+                        0.3190483981060551,
+                        0.06384083104475831,
+                        0.14915931855707446
+                    ],
+                    "similarity": 0.8212924052377275,
+                    "distance": 0.0034658848914964277
+                },
+                {
+                    "target": [
+                        0.504683603396256,
+                        0.31764759951519533,
+                        0.0790979362560802,
+                        0.1720820817126478
+                    ],
+                    "similarity": 0.22971307690022513,
+                    "distance": 0.11804103679002415
+                },
+                {
+                    "target": [
+                        0.2877680480993536,
+                        0.38099479472599174,
+                        0.09024443211167622,
+                        0.2143393991857482
+                    ],
+                    "similarity": 0.12760632958816132,
+                    "distance": 0.13455001913385267
+                }
+            ],
+            "previousPrompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real bengals crowd photograph to edit. Image 2 is Joe Burrow's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Joe Burrow, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual bengals fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+            "previousOutputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-f2760d4c-d5cd-4ea7-9d43-7efae565261f.png",
+            "revision": 2,
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.3981856881830681,
+                0.3190483981060551,
+                0.06384083104475831,
+                0.14915931855707446
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "bengals-1",
+    "focusCorrection": {
+        "sigmaPixels": 1.25,
+        "maskFeatherPixels": 13.876443035888666,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

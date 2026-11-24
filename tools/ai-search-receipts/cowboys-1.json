@@ -1,0 +1,60 @@
+{
+    "team": "cowboys",
+    "level": 0,
+    "sourceIndex": 2,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/cowboys-2.jpg",
+    "sourcePage": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/bj7zmbppgttn9ew6gd7t.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/cowboys.png",
+    "player": "Dak Prescott",
+    "face": [
+        331.19,
+        145.47,
+        56.77,
+        71.45
+    ],
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-7521d331-c516-48d8-b8ee-ee15edcdcae4.png",
+    "prompt": "Use case: compositing. Edit Image 1, the real Dallas Cowboys crowd photograph. Image 2 is Dak Prescott's photographic identity reference. Image 3 is ONLY the successful Where's Jalen style/difficulty reference: Jalen is an ordinary, naturally integrated spectator in its back row, not a pasted floating portrait. Produce ONE edited full landscape photograph, preserving Image 1's exact composition, framing, resolution/aspect ratio, crowd, environment, banner and text. Naturally integrate ONE recognizable Dak Prescott into the BACK ROW of the fans left of center, where the blue-cap/sunglasses adult spectator is just behind the tall gray-shirt man and to the right of the gray-haired sunglasses man. Replace that one adult spectator with Dak as a complete anatomically coherent person: natural connected head, neck, shoulders and visible torso in ordinary navy Cowboys fan clothing. Use normal neighbor-matching head size, around 35-45 pixels wide at the original 1280px width. Keep foreground people naturally in front of him. His expression, gaze, pose, skin, hair, beard, camera sharpness, grain, lighting, color and shadows must fit this candid photograph. He should be discoverable by careful face comparison and zoom like the Jalen example, rather than an obvious oversized smiling head. Preserve his identity without copying the portrait's studio lighting or rigid pose. No floating heads, face stickers, halos, mismatched skin/body, giant heads, duplicate Dak, arrows, target markers, new captions, or invented replacement crowd. Keep all other people and the original photo intact. Return only the edited Image 1.",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/cowboys-ai-v1-1.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.16841190657547217,
+                0.1396927524449088,
+                0.057522789074473404,
+                0.13393462421283459
+            ],
+            "similarity": 0.6501466682839236,
+            "distance": 0.09290057539612016
+        },
+        {
+            "target": [
+                0.2518906578721042,
+                0.1773115516849076,
+                0.05905991713966476,
+                0.139590901649467
+            ],
+            "similarity": 0.136382877663209,
+            "distance": 0.0006632187086766155
+        },
+        {
+            "target": [
+                0.40862340892901255,
+                0.18051746826496184,
+                0.04827284493514801,
+                0.10891682283277845
+            ],
+            "similarity": 0.160408088897384,
+            "distance": 0.15237992868186198
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.16841190657547217,
+        0.1396927524449088,
+        0.057522789074473404,
+        0.13393462421283459
+    ]
+}

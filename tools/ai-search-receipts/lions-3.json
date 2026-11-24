@@ -1,0 +1,109 @@
+{
+    "team": "lions",
+    "level": 2,
+    "sourceIndex": 513,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/lions-513.jpg",
+    "sourcePage": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/cqd1ppqwvkdpjctfpnpd.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/lions.png",
+    "player": "Jared Goff",
+    "face": [
+        962.49,
+        258.46,
+        36.12,
+        45.31
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real lions crowd photograph to edit. Image 2 is Jared Goff's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Jared Goff, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual lions fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/lions-ai-v2-3.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/lions-ai-v2-3.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.7468221409126902,
+                0.3377332616435101,
+                0.040959856909428015,
+                0.09979601544857532
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.7468221409126902,
+        0.3377332616435101,
+        0.040959856909428015,
+        0.09979601544857532
+    ],
+    "history": [
+        {
+            "team": "lions",
+            "level": 2,
+            "sourceIndex": 513,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/lions-513.jpg",
+            "sourcePage": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/cqd1ppqwvkdpjctfpnpd.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/lions.png",
+            "player": "Jared Goff",
+            "face": [
+                962.49,
+                258.46,
+                36.12,
+                45.31
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real lions crowd photograph to edit. Image 2 is Jared Goff's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Jared Goff, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual lions fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-52610d9c-de04-48f0-91b7-de884dcc289a.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/lions-ai-v1-3.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.7468221409126902,
+                        0.3377332616435101,
+                        0.040959856909428015,
+                        0.09979601544857532
+                    ],
+                    "similarity": 0.46725546846937505,
+                    "distance": 0.001459595787552795
+                },
+                {
+                    "target": [
+                        0.7981228126635392,
+                        0.35825842371909195,
+                        0.02125916987514948,
+                        0.056690023099958096
+                    ],
+                    "similarity": 0.12761406211575377,
+                    "distance": 0.042736051498706934
+                },
+                {
+                    "target": [
+                        0.49788464158345636,
+                        0.2776146320176809,
+                        0.047669313421660094,
+                        0.11387165162819224
+                    ],
+                    "similarity": 0.2624849023186471,
+                    "distance": 0.2497700890559505
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.7468221409126902,
+                0.3377332616435101,
+                0.040959856909428015,
+                0.09979601544857532
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "lions-3",
+    "focusCorrection": {
+        "sigmaPixels": 1.5,
+        "maskFeatherPixels": 8.903034497833273,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

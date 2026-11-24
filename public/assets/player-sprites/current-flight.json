@@ -1,0 +1,498 @@
+{
+    "cowboys": {
+        "player": {
+            "name": "CeeDee Lamb",
+            "number": 88,
+            "era": "Dallas Cowboys · 2020–2025",
+            "source": "https://www.nfl.com/players/ceedee-lamb/stats/career"
+        },
+        "flierTitle": "CeeDee Skyride",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    "giants": {
+        "player": {
+            "name": "Cam Skattebo",
+            "number": 44,
+            "era": "New York Giants · 2025",
+            "source": "https://www.giants.com/team/players-roster/cam-skattebo/"
+        },
+        "flierTitle": "Skattebo Bird",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    "commanders": {
+        "player": {
+            "name": "Terry McLaurin",
+            "number": 17,
+            "era": "Washington Commanders · 2020–2025",
+            "source": "https://www.nfl.com/players/terry-mclaurin/stats/career"
+        },
+        "flierTitle": "McLaurin Air Command",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    "bears": {
+        "player": {
+            "name": "DJ Moore",
+            "number": 2,
+            "era": "Chicago Bears · 2023–2025",
+            "source": "https://www.nfl.com/players/d-j-moore/stats/career"
+        },
+        "flierTitle": "DJ’s Windy City Wings",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    "lions": {
+        "player": {
+            "name": "Jahmyr Gibbs",
+            "number": 26,
+            "era": "Detroit Lions · 2023–2025",
+            "source": "https://www.nfl.com/players/jahmyr-gibbs/stats/career"
+        },
+        "flierTitle": "Gibbs Takes Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    "packers": {
+        "player": {
+            "name": "Josh Jacobs",
+            "number": 8,
+            "era": "Green Bay Packers · 2024–2025",
+            "source": "https://www.nfl.com/players/josh-jacobs/stats/career"
+        },
+        "flierTitle": "Jacobs Air Express",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    "vikings": {
+        "player": {
+            "name": "Justin Jefferson",
+            "number": 18,
+            "era": "Minnesota Vikings · 2020–2025",
+            "source": "https://www.nfl.com/players/justin-jefferson/stats/career"
+        },
+        "flierTitle": "Jefferson Jet",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    "falcons": {
+        "player": {
+            "name": "Bijan Robinson",
+            "number": 7,
+            "era": "Atlanta Falcons · 2023–2025",
+            "source": "https://www.nfl.com/players/bijan-robinson/stats/career"
+        },
+        "flierTitle": "Bijan Bird",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    "panthers": {
+        "player": {
+            "name": "Christian McCaffrey",
+            "number": 22,
+            "era": "Carolina Panthers · 2017–2022",
+            "source": "https://www.nfl.com/players/christian-mccaffrey/stats/career"
+        },
+        "flierTitle": "McCaffrey Carolina Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    "saints": {
+        "player": {
+            "name": "Alvin Kamara",
+            "number": 41,
+            "era": "New Orleans Saints · 2017–2025",
+            "source": "https://www.nfl.com/players/alvin-kamara/stats/career"
+        },
+        "flierTitle": "Kamara Sky March",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    "buccaneers": {
+        "player": {
+            "name": "Mike Evans",
+            "number": 13,
+            "era": "Tampa Bay Buccaneers · 2016–2025",
+            "source": "https://www.nfl.com/players/mike-evans/stats/career"
+        },
+        "flierTitle": "Evans Air Raid",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    "cardinals": {
+        "player": {
+            "name": "Larry Fitzgerald",
+            "number": 11,
+            "era": "Arizona Cardinals · 2016–2020",
+            "source": "https://www.nfl.com/players/larry-fitzgerald/stats/career"
+        },
+        "flierTitle": "Fitzgerald Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    "rams": {
+        "player": {
+            "name": "Puka Nacua",
+            "number": 17,
+            "era": "Los Angeles Rams · 2023–2024",
+            "source": "https://www.nfl.com/players/puka-nacua/stats/career"
+        },
+        "flierTitle": "Puka Takes Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    "49ers": {
+        "player": {
+            "name": "Christian McCaffrey",
+            "number": 23,
+            "era": "San Francisco 49ers · 2022–2025",
+            "source": "https://www.nfl.com/players/christian-mccaffrey/stats/career"
+        },
+        "flierTitle": "McCaffrey Gold Rush",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    "seahawks": {
+        "player": {
+            "name": "Jaxon Smith-Njigba",
+            "number": 11,
+            "era": "Seattle Seahawks · 2023–2025",
+            "source": "https://www.nfl.com/players/jaxon-smith-njigba/stats/career"
+        },
+        "flierTitle": "JSN Skyride",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    "bills": {
+        "player": {
+            "name": "James Cook",
+            "number": 4,
+            "era": "Buffalo Bills · 2022–2025",
+            "source": "https://www.nfl.com/players/james-cook/stats/career"
+        },
+        "flierTitle": "Cook’s Buffalo Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    "dolphins": {
+        "player": {
+            "name": "Tyreek Hill",
+            "number": 10,
+            "era": "Miami Dolphins · 2022–2025",
+            "source": "https://www.nfl.com/players/tyreek-hill/stats/career"
+        },
+        "flierTitle": "Tyreek Takes Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    "patriots": {
+        "player": {
+            "name": "Rob Gronkowski",
+            "number": 87,
+            "era": "New England Patriots · 2016–2018",
+            "source": "https://www.nfl.com/players/rob-gronkowski/stats/career"
+        },
+        "flierTitle": "Gronk Air Spike",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    "jets": {
+        "player": {
+            "name": "Breece Hall",
+            "number": 20,
+            "era": "New York Jets · 2022–2025",
+            "source": "https://www.nfl.com/players/breece-hall/stats/career"
+        },
+        "flierTitle": "Breece Jet",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    "ravens": {
+        "player": {
+            "name": "Derrick Henry",
+            "number": 22,
+            "era": "Baltimore Ravens · 2024–2025",
+            "source": "https://www.nfl.com/players/derrick-henry/stats/career"
+        },
+        "flierTitle": "Henry Raven Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    "bengals": {
+        "player": {
+            "name": "Ja’Marr Chase",
+            "number": 1,
+            "era": "Cincinnati Bengals · 2021–2025",
+            "source": "https://www.nfl.com/players/ja-marr-chase/stats/career"
+        },
+        "flierTitle": "Chase Takes Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    "browns": {
+        "player": {
+            "name": "Nick Chubb",
+            "number": 24,
+            "era": "Cleveland Browns · 2018–2024",
+            "source": "https://www.nfl.com/players/nick-chubb/stats/career"
+        },
+        "flierTitle": "Chubb Air Express",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    "steelers": {
+        "player": {
+            "name": "T.J. Watt",
+            "number": 90,
+            "era": "Pittsburgh Steelers · 2017–2025",
+            "source": "https://www.nfl.com/players/t-j-watt/stats/career"
+        },
+        "flierTitle": "Watt Takes Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    "texans": {
+        "player": {
+            "name": "Nico Collins",
+            "number": 12,
+            "era": "Houston Texans · 2021–2025",
+            "source": "https://www.nfl.com/players/nico-collins/stats/career"
+        },
+        "flierTitle": "Nico Launch",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    "colts": {
+        "player": {
+            "name": "Jonathan Taylor",
+            "number": 28,
+            "era": "Indianapolis Colts · 2020–2025",
+            "source": "https://www.nfl.com/players/jonathan-taylor/stats/career"
+        },
+        "flierTitle": "Taylor Takes Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    "jaguars": {
+        "player": {
+            "name": "Travis Etienne Jr.",
+            "number": 1,
+            "era": "Jacksonville Jaguars · 2022–2025",
+            "source": "https://www.nfl.com/players/travis-etienne/stats/career"
+        },
+        "flierTitle": "Etienne Air Prowl",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    "titans": {
+        "player": {
+            "name": "Derrick Henry",
+            "number": 22,
+            "era": "Tennessee Titans · 2016–2023",
+            "source": "https://www.nfl.com/players/derrick-henry/stats/career"
+        },
+        "flierTitle": "Henry Titan Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    "broncos": {
+        "player": {
+            "name": "Courtland Sutton",
+            "number": 14,
+            "era": "Denver Broncos · 2018–2025",
+            "source": "https://www.nfl.com/players/courtland-sutton/stats/career"
+        },
+        "flierTitle": "Sutton Mile High",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    "chiefs": {
+        "player": {
+            "name": "Travis Kelce",
+            "number": 87,
+            "era": "Kansas City Chiefs · 2016–2025",
+            "source": "https://www.nfl.com/players/travis-kelce/stats/career"
+        },
+        "flierTitle": "Kelce Skyride",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-7.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    "raiders": {
+        "player": {
+            "name": "Ashton Jeanty",
+            "number": 2,
+            "era": "Las Vegas Raiders · 2025",
+            "source": "https://www.nfl.com/players/ashton-jeanty/stats/career"
+        },
+        "flierTitle": "Jeanty Air Raid",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-7.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    "chargers": {
+        "player": {
+            "name": "Ladd McConkey",
+            "number": 15,
+            "era": "Los Angeles Chargers · 2024–2025",
+            "source": "https://www.nfl.com/players/ladd-mcconkey/stats/career"
+        },
+        "flierTitle": "McConkey Lightning Flight",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-7.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    }
+}

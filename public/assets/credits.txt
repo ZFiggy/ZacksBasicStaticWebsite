@@ -27,3 +27,57 @@ Calm arrivals identity reference: https://www.philadelphiaeagles.com/photos/phot
 Studio face reference: https://www.philadelphiaeagles.com/team/players-roster/jalen-hurts/
 Calm winter portrait reference: https://www.philadelphiaeagles.com/photos/rooted-in-strength-2026-eagles-photoshoot
 These are AI-edited game scenes, not records of real appearances. Exact prompts, refinement prompts, and saved filenames: search-hard-prompts.json.
+
+Sunday Arcade team cartoons (32 original fan characters):
+Generated with the built-in image_gen tool, November 2026. Four 4×2 illustration sheets
+in assets/teams/: nfc-east-north.png, nfc-south-west.png, afc-east-north.png,
+afc-south-west.png. Original mascot-inspired football characters and city settings;
+not official team mascots, logos, player photographs, or licensed team artwork.
+Full production prompts and tile layout provenance: assets/teams/prompts.json.
+Team names/conferences: https://www.nfl.com/teams/
+Divisions: https://www.nfl.com/standings/division/2026/REG
+Palettes are representative accessible fan-art colors, not exact brand specifications.
+
+Player-led arcade artwork and photo-search update (November 2026):
+Original Saquon Barkley sprite and original five Jalen Hurts photo edits restored as Eagles defaults.
+All new game-cover illustrations, flight sprites and photo composites created with built-in image_gen.
+Game/player facts and exact sources: assets/game-covers/personality-sources.json.
+Active artwork mapping: assets/game-covers/manifest.json.
+Exact illustration prompts: assets/game-covers/{eagles-prompt,afc-prompts,nfc-prompts}.json.
+Exact active sprite prompts/corrections: assets/player-sprites/{active-prompts,correction-prompts}.json.
+Real fan-photo sources and photographer credits: assets/fan-crowds/sources.json.
+Identity reference credits/license details: assets/player-references/sources.json.
+Photographic edit prompts and source provenance: assets/photo-search/{afc-prompts,nfc-prompts}.json.
+Photo hit areas: assets/photo-search/{afc-scenes,nfc-scenes}.json.
+Historical legends are labeled by era; generated art/photo composites do not assert current roster status or real event attendance.
+Jim Brown sprite helmet correction verified against: https://www.clevelandbrowns.com/photos/history-of-the-browns-helmet-15101737
+
+Archived full-size AI crowd search rounds (superseded by the real photographic composites):
+155 fictional AI-generated scenes and AI-edited fan photographs, created with built-in Imagegen. These images do not document real player appearances. Player identity reference credits: assets/player-references/sources.json. Original fan-photo credits remain in assets/photo-search/afc-scenes.json and nfc-scenes.json for the edited rounds. The five original Eagles search images are unchanged.
+
+
+Previous November 2026 photography refresh (superseded game assets):
+- Authentic official team-gallery photographs supplied the 31 non-Eagles home heroes, scoreboard backgrounds, team picker cards, and game covers. Individual file URLs, original gallery pages, and credits: assets/team-photos/sources.json.
+- The previous 155 non-Eagles search rounds used unaltered official team photographs with reviewed target rectangles: assets/team-photos/search-scenes.json. These choices are now archived; the current named-player hunts are described below.
+- Recent roster characters and original ESPN / NFL player portraits: assets/team-photos/roster-sources.json. Roster membership and jersey numbers were checked against the linked team roster pages on November 22, 2026; these are snapshots and do not claim to be starting lineups.
+- Eagles original photo-search rounds and flight sprite remain in use. The team picker uses the existing credited assets/hurts.jpg photograph for Philadelphia.
+
+Current game-screen and named-player refresh (November 2026):
+- 31 full-body cartoon flight characters created with built-in Imagegen: assets/player-sprites/current-flight-0.png through current-flight-7.png. Exact prompts and player/era references: current-flight-prompts.json and current-flight.json in the same directory. Original Eagles Saquon artwork is retained.
+- 31 fictional photo atlases, each containing five crowded situations and one player-likeness reference, created with built-in Imagegen: assets/photo-search/current-<team>.png. These generated scenes do not document real player appearances. Retained exact generation prompts: assets/photo-search/current-nfc-prompts.json and current-remaining-prompts.json. Reconstructed generation briefs for interrupted AFC jobs: current-afc-prompts.json. Player information links and reviewed face hit areas: current-scenes.json in the same directory. The five original Eagles Jalen photo edits are retained.
+- 248 original native SVG game previews show the actual field-run, kicking, and playbook challenges: assets/game-covers/previews/. Source generator: tools/build-game-previews.mjs. The flight and search covers use the new characters/scenes; Eagles original covers are retained.
+- Team-picker photography is curated for visible team colors: assets/team-photos/selection.json. Original gallery and photographer credits are included in that manifest; Philadelphia retains assets/hurts.jpg.
+
+Playable character casts (2026 refresh)
+assets/characters/cast-0.png through cast-7.png: original AI-created fictional arcade athlete illustrations made with built-in image_gen. Four separate roles per team: runner, quarterback, kicker and defender. Team-inspired fantasy equipment and player likenesses are fan art, not official player photography. Prompt set: tools/character-art-prompts.json. Role mapping: assets/characters/manifest.json.
+
+Real-photo player search revision (November 2026; complete):
+The selected official team crowd photographs and ESPN player portrait references are retained. Built-in image_gen edits integrate the named player naturally into the original crowd photo, matching pose, clothing, lighting and occlusion. These are fictional appearances, not records of actual attendance.
+All 31 non-Eagles teams use five visually reviewed AI-integrated edits each (155 rounds). A subsequent naturalness review refined 87 images as *-ai-v2-*.jpg: 30 new built-in image_gen edits repair pose, body connection, scale or occlusion, and 57 use only user-authorized local blur filters. Eight of the 30 new AI repairs also use a small local blur adjustment. The other 68 images retain their accepted *-ai-v1-*.jpg versions. Filters never paste, move or resize faces. The active manifest marks every replacement set aiIntegrated. Previous conventional face-cutout composites remain archived and are not active.
+Per-round original gallery links and credits: assets/photo-search/consistent-crowd-scenes.json.
+Player portrait URLs, credits and checked team playing seasons: assets/photo-search/real-player-sources.json.
+Unedited inputs: assets/photo-search/real-sources/ and real-players/.
+Exact executed prompts and output receipts: tools/ai-search-receipts/ and tools/ai-search-edits.json. Completion status: tools/ai-search-status.json. Reviewed targets: tools/ai-search-review.json; activation helper: tools/adopt-ai-search.py.
+Naturalness findings and resolutions: tools/ai-search-naturalness-audit.json. New AI repair prompts, generated output paths, blur parameters and reviewed targets: tools/ai-search-repairs/. Filter-only settings: tools/ai-search-focus-settings.json; filter helper: tools/match-search-focus.py.
+Original photo selection and placement guide records: tools/real-search-placements.json.
+The five original Eagles Jalen scenes remain unchanged and retain their original credits above.

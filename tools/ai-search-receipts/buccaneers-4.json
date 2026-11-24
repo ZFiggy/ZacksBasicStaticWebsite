@@ -1,0 +1,60 @@
+{
+    "team": "buccaneers",
+    "level": 3,
+    "sourceIndex": 5636,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/buccaneers-5636.jpg",
+    "sourcePage": "https://www.buccaneers.com/photos/fan-photos-from-bucs-training-camp-july-29-gallery",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/jsgcrxvbzy1lffy8ihuf.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/buccaneers.png",
+    "player": "Baker Mayfield",
+    "face": [
+        695.86,
+        156.25,
+        19.8,
+        23.15
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real buccaneers crowd photograph to edit. Image 2 is Baker Mayfield's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Baker Mayfield, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual buccaneers fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-dbc592f6-193c-4f77-b2bb-eab681921ccc.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/buccaneers-ai-v1-4.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.5423371405578686,
+                0.20179802553053236,
+                0.024186626826747215,
+                0.057261390969806474
+            ],
+            "similarity": 0.3669552806913998,
+            "distance": 0.003117004344266346
+        },
+        {
+            "target": [
+                0.5227625787087035,
+                0.2651149778132991,
+                0.047419726996900925,
+                0.11641386804367862
+            ],
+            "similarity": 0.16837622467755864,
+            "distance": 0.0945165270468117
+        },
+        {
+            "target": [
+                0.6095364064691169,
+                0.182450324391964,
+                0.013935351599916846,
+                0.034139218872589194
+            ],
+            "similarity": 0.09487566626012267,
+            "distance": 0.07272131083809112
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.5423371405578686,
+        0.20179802553053236,
+        0.024186626826747215,
+        0.057261390969806474
+    ]
+}

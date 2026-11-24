@@ -1,0 +1,109 @@
+{
+    "team": "giants",
+    "level": 1,
+    "sourceIndex": 1,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/giants-1.jpg",
+    "sourcePage": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/giants/nt3juwnwluhehggcbyvd.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/giants.png",
+    "player": "Malik Nabers",
+    "face": [
+        166.54,
+        210.76,
+        27.43,
+        32.59
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real giants crowd photograph to edit. Image 2 is Malik Nabers's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Malik Nabers, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual giants fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/giants-ai-v2-2.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/giants-ai-v2-2.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.12626737918579978,
+                0.2672596038591342,
+                0.03222506883612088,
+                0.08001288678516871
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.12626737918579978,
+        0.2672596038591342,
+        0.03222506883612088,
+        0.08001288678516871
+    ],
+    "history": [
+        {
+            "team": "giants",
+            "level": 1,
+            "sourceIndex": 1,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/giants-1.jpg",
+            "sourcePage": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
+            "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/giants/nt3juwnwluhehggcbyvd.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/giants.png",
+            "player": "Malik Nabers",
+            "face": [
+                166.54,
+                210.76,
+                27.43,
+                32.59
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real giants crowd photograph to edit. Image 2 is Malik Nabers's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Malik Nabers, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual giants fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-92baf25f-a0fe-4ddc-bfb2-0356064fbf33.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/giants-ai-v1-2.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.12626737918579978,
+                        0.2672596038591342,
+                        0.03222506883612088,
+                        0.08001288678516871
+                    ],
+                    "similarity": 0.6349787693220605,
+                    "distance": 0.005456963979950084
+                },
+                {
+                    "target": [
+                        0.14005747963937276,
+                        0.1514151823507992,
+                        0.01845732547449723,
+                        0.04347614365353722
+                    ],
+                    "similarity": 0.11735548040019239,
+                    "distance": 0.14090251959125516
+                },
+                {
+                    "target": [
+                        0.18868362915002557,
+                        0.29908012102311526,
+                        0.02289014889292741,
+                        0.052966307782974786
+                    ],
+                    "similarity": 0.03687148279414032,
+                    "distance": 0.060526449349809976
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.12626737918579978,
+                0.2672596038591342,
+                0.03222506883612088,
+                0.08001288678516871
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "giants-2",
+    "focusCorrection": {
+        "sigmaPixels": 1.4,
+        "maskFeatherPixels": 7.004440962219236,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

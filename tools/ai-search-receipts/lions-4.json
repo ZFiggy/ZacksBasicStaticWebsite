@@ -1,0 +1,60 @@
+{
+    "team": "lions",
+    "level": 3,
+    "sourceIndex": 550,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/lions-550.jpg",
+    "sourcePage": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/nnauhlkoxdy8c42lu5gl.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/lions.png",
+    "player": "Jared Goff",
+    "face": [
+        863.98,
+        404.42,
+        25.92,
+        28.73
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real lions crowd photograph to edit. Image 2 is Jared Goff's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Jared Goff, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual lions fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-21e3bd52-fcc0-4f55-bc76-89f2d6a62651.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/lions-ai-v1-4.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.667962370671724,
+                0.5304202921965677,
+                0.03505783715316541,
+                0.0754004961879296
+            ],
+            "similarity": 0.43116268068763475,
+            "distance": 0.010839147514250521
+        },
+        {
+            "target": [
+                0.6016415162177747,
+                0.5308204148198289,
+                0.023385296894602788,
+                0.05918681907856507
+            ],
+            "similarity": 0.12397424824848713,
+            "distance": 0.07427774535477412
+        },
+        {
+            "target": [
+                0.617485851693952,
+                0.5571175047239005,
+                0.03178226219980327,
+                0.07635501776440866
+            ],
+            "similarity": 0.09308956433233107,
+            "distance": 0.05426246699146769
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.667962370671724,
+        0.5304202921965677,
+        0.03505783715316541,
+        0.0754004961879296
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "team": "cardinals",
+    "round": 4,
+    "issue": "Enlarged crisp head amid smaller soft neighboring faces; restore original scale and focus.",
+    "status": "accepted-after-visual-review",
+    "key": "cardinals-4",
+    "player": "Kyler Murray",
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/cardinals-2300.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/cardinals.png",
+    "guidePath": "/private/tmp/search-naturalness-repairs/cardinals-4-guide.jpg",
+    "contextPath": "/private/tmp/search-naturalness-repairs/cardinals-4-original-context.jpg",
+    "headBounds": [
+        757,
+        89,
+        796,
+        142
+    ],
+    "sourceSize": [
+        1280,
+        720
+    ],
+    "beforeSrc": "assets/photo-search/rounds/cardinals-ai-v1-4.jpg",
+    "beforeTarget": [
+        0.5867753094349182,
+        0.11555107797750377,
+        0.0383651889910538,
+        0.093819802879147
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Kyler Murray's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Kyler Murray naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Enlarged crisp head amid smaller soft neighboring faces; restore original scale and focus.\nThe original spectator's head fits inside original-image pixel bounds [757, 89, 796, 142], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "method": "User-authorized local Gaussian blur; AI-integrated person unchanged",
+    "sigmaPixels": 0.75,
+    "maskFeatherPixels": 8.339057479095455,
+    "referenceDetail": 0.09899521619081497,
+    "beforeDetail": 0.20267167687416077,
+    "afterDetail": 0.11554223299026489,
+    "reviewedTarget": [
+        0.5867753094349182,
+        0.11555107797750377,
+        0.0383651889910538,
+        0.093819802879147
+    ],
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/cardinals-ai-v2-4.jpg",
+    "src": "assets/photo-search/rounds/cardinals-ai-v2-4.jpg",
+    "proposedTarget": [
+        0.5867753094349182,
+        0.11555107797750377,
+        0.0383651889910538,
+        0.093819802879147
+    ]
+}

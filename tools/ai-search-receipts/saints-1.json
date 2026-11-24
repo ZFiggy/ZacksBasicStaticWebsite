@@ -1,0 +1,68 @@
+{
+    "team": "saints",
+    "level": 0,
+    "sourceIndex": 2227,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/saints-2227.jpg",
+    "sourcePage": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-18-fan-photos-august-26-2026",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/saints/x5krgdyewq27lkmbtrht.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/saints.png",
+    "player": "Chris Olave",
+    "face": [
+        738.15,
+        143.24,
+        54.65,
+        68.76
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real saints crowd photograph to edit. Image 2 is Chris Olave's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Chris Olave, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual saints fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+    "guideVersion": 2,
+    "guideBounds": [
+        732,
+        127,
+        799,
+        220
+    ],
+    "styleReference": "public/assets/search-level-5-v2.jpg",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-77d1a20f-a59e-49ea-a7de-2162fa277dce.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/saints-ai-v1-1.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.5725584150159188,
+                0.16495776607176957,
+                0.05656163767764447,
+                0.1307039331807087
+            ],
+            "similarity": 0.6709793451354926,
+            "distance": 0.012049402026476435
+        },
+        {
+            "target": [
+                0.4546796528118079,
+                0.3230592989136131,
+                0.05068641762984422,
+                0.11564726550824836
+            ],
+            "similarity": 0.21851236590191547,
+            "distance": 0.18181621839472667
+        },
+        {
+            "target": [
+                0.7443975849242872,
+                0.12913172658014246,
+                0.05112236077705643,
+                0.12198888472618886
+            ],
+            "similarity": 0.18442213997150247,
+            "distance": 0.1796843571361478
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.5725584150159188,
+        0.16495776607176957,
+        0.05656163767764447,
+        0.1307039331807087
+    ]
+}

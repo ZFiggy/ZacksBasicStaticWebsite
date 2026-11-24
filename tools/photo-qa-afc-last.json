@@ -1,0 +1,167 @@
+{
+    "accepted": [
+        "titans-1",
+        "titans-2",
+        "titans-3",
+        "titans-4",
+        "titans-5",
+        "chargers-1",
+        "chargers-2",
+        "chargers-3",
+        "chargers-4",
+        "chargers-5",
+        "browns-1",
+        "browns-2",
+        "browns-3",
+        "browns-4",
+        "browns-5",
+        "texans-1",
+        "texans-2",
+        "texans-3",
+        "texans-4",
+        "texans-5",
+        "bengals-1",
+        "bengals-2",
+        "bengals-3",
+        "bengals-4",
+        "bengals-5"
+    ],
+    "rejected": {},
+    "reviews": {
+        "titans": [
+            {
+                "roundId": "titans-1",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "titans-2",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "titans-3",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "titans-4",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "titans-5",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            }
+        ],
+        "chargers": [
+            {
+                "roundId": "chargers-1",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "chargers-2",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "chargers-3",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "chargers-4",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "chargers-5",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            }
+        ],
+        "browns": [
+            {
+                "roundId": "browns-1",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "browns-2",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "browns-3",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "browns-4",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "browns-5",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            }
+        ],
+        "texans": [
+            {
+                "roundId": "texans-1",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "texans-2",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "texans-3",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "texans-4",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "texans-5",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            }
+        ],
+        "bengals": [
+            {
+                "roundId": "bengals-1",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "bengals-2",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "bengals-3",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "bengals-4",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            },
+            {
+                "roundId": "bengals-5",
+                "accepted": true,
+                "reason": "Recognizable legend; coherent neck and torso, natural crowd scale, lighting, and occlusion."
+            }
+        ]
+    }
+}

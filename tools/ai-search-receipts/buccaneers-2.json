@@ -1,0 +1,109 @@
+{
+    "team": "buccaneers",
+    "level": 1,
+    "sourceIndex": 505,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/buccaneers-505.jpg",
+    "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/avbwfprn0vyflxz7dejb.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/buccaneers.png",
+    "player": "Baker Mayfield",
+    "face": [
+        295.25,
+        63.18,
+        36.72,
+        48.77
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Baker Mayfield's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Baker Mayfield naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Neutral direct studio portrait among animated crowd, sharp and differently lit; match candid cheering, local focus and sunlight.\nThe original spectator's head fits inside original-image pixel bounds [291, 51, 336, 119], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/buccaneers-ai-v2-2.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/buccaneers-ai-v2-2.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.215311004784689,
+                0.061636556854410204,
+                0.04784688995215311,
+                0.1392136025504782
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.215311004784689,
+        0.061636556854410204,
+        0.04784688995215311,
+        0.1392136025504782
+    ],
+    "history": [
+        {
+            "team": "buccaneers",
+            "level": 1,
+            "sourceIndex": 505,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/buccaneers-505.jpg",
+            "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+            "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/avbwfprn0vyflxz7dejb.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/buccaneers.png",
+            "player": "Baker Mayfield",
+            "face": [
+                295.25,
+                63.18,
+                36.72,
+                48.77
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real buccaneers crowd photograph to edit. Image 2 is Baker Mayfield's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Baker Mayfield, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual buccaneers fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-781348fe-2d49-46a1-96c2-3980d8c004b8.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/buccaneers-ai-v1-2.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.2238242342369408,
+                        0.07011276147824165,
+                        0.04684348740646142,
+                        0.11826237709945371
+                    ],
+                    "similarity": 0.4572741210276945,
+                    "distance": 0.012059064429264384
+                },
+                {
+                    "target": [
+                        0.15509197652625126,
+                        0.15766278691550242,
+                        0.040887785687971315,
+                        0.08521959667631467
+                    ],
+                    "similarity": 0.0798997170381881,
+                    "distance": 0.10724238627864423
+                },
+                {
+                    "target": [
+                        0.12435303528343092,
+                        0.04164683071383761,
+                        0.035039918707888654,
+                        0.08156844736032354
+                    ],
+                    "similarity": 0.0442885398024373,
+                    "distance": 0.10932787161208929
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.2238242342369408,
+                0.07011276147824165,
+                0.04684348740646142,
+                0.11826237709945371
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "buccaneers-2",
+    "focusCorrection": {
+        "sigmaPixels": 0.8,
+        "maskFeatherPixels": 10.4,
+        "method": "AI pose repair followed by user-authorized local Gaussian blur"
+    }
+}

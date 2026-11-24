@@ -1,0 +1,45 @@
+{
+    "team": "buccaneers",
+    "round": 3,
+    "issue": "Player enlarged and sharper than original distant spectator; restore original body/head scale and defocus.",
+    "status": "accepted-after-visual-review",
+    "key": "buccaneers-3",
+    "player": "Baker Mayfield",
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/buccaneers-518.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/buccaneers.png",
+    "guidePath": "/private/tmp/search-naturalness-repairs/buccaneers-3-guide.jpg",
+    "contextPath": "/private/tmp/search-naturalness-repairs/buccaneers-3-original-context.jpg",
+    "headBounds": [
+        1023,
+        183,
+        1049,
+        219
+    ],
+    "sourceSize": [
+        1280,
+        720
+    ],
+    "beforeSrc": "assets/photo-search/rounds/buccaneers-ai-v1-3.jpg",
+    "beforeTarget": [
+        0.7941856650530437,
+        0.2512223368370064,
+        0.02520765108354917,
+        0.05779756552101323
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Baker Mayfield's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Baker Mayfield naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Player enlarged and sharper than original distant spectator; restore original body/head scale and defocus.\nThe original spectator's head fits inside original-image pixel bounds [1023, 183, 1049, 219], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-e54d5b53-0d5b-4e75-96b0-e644e5f476a7.png",
+    "src": "assets/photo-search/rounds/buccaneers-ai-v2-3.jpg",
+    "proposedTarget": [
+        0.7960526315789473,
+        0.24017003188097769,
+        0.025717703349282296,
+        0.05844845908607864
+    ],
+    "reviewedTarget": [
+        0.7960526315789473,
+        0.24017003188097769,
+        0.025717703349282296,
+        0.05844845908607864
+    ],
+    "reviewNotes": "Original attention direction, partly hidden body and casual clothing restored; compared equal-scale contextual crops against original. Full visible head/cap target reviewed at native resolution."
+}

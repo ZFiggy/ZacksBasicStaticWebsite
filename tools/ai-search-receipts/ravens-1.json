@@ -1,0 +1,125 @@
+{
+    "team": "ravens",
+    "level": 0,
+    "sourceIndex": 5072,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/ravens-5072.jpg",
+    "sourcePage": "https://www.baltimoreravens.com/photos/fan-photos-baltimore-ravens-2023-season",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/ravens/opzkjwgyoyuavec0fy7w.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/ravens.png",
+    "player": "Lamar Jackson",
+    "face": [
+        1060.88,
+        44.33,
+        56.32,
+        69.36
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real ravens crowd photograph to edit. Image 2 is Lamar Jackson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Lamar Jackson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual ravens fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+    "guideVersion": 2,
+    "guideBounds": [
+        1054,
+        28,
+        1124,
+        122
+    ],
+    "styleReference": "public/assets/search-level-5-v2.jpg",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/ravens-ai-v2-1.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/ravens-ai-v2-1.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.8209957890761527,
+                0.039736742674354286,
+                0.06506539367602766,
+                0.1482504557853804
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.8209957890761527,
+        0.039736742674354286,
+        0.06506539367602766,
+        0.1482504557853804
+    ],
+    "history": [
+        {
+            "team": "ravens",
+            "level": 0,
+            "sourceIndex": 5072,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/ravens-5072.jpg",
+            "sourcePage": "https://www.baltimoreravens.com/photos/fan-photos-baltimore-ravens-2023-season",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/ravens/opzkjwgyoyuavec0fy7w.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/ravens.png",
+            "player": "Lamar Jackson",
+            "face": [
+                1060.88,
+                44.33,
+                56.32,
+                69.36
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real ravens crowd photograph to edit. Image 2 is Lamar Jackson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Lamar Jackson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual ravens fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+            "guideVersion": 2,
+            "guideBounds": [
+                1054,
+                28,
+                1124,
+                122
+            ],
+            "styleReference": "public/assets/search-level-5-v2.jpg",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-d198b8de-346d-4a61-8ee6-85709a87bf83.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/ravens-ai-v1-1.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.8209957890761527,
+                        0.039736742674354286,
+                        0.06506539367602766,
+                        0.1482504557853804
+                    ],
+                    "similarity": 0.8012558767023279,
+                    "distance": 0.00980422400088193
+                },
+                {
+                    "target": [
+                        0.736804316808162,
+                        0.08594450104375954,
+                        0.08934751930419345,
+                        0.18339842777069773
+                    ],
+                    "similarity": 0.2171089623551552,
+                    "distance": 0.10174076874286389
+                },
+                {
+                    "target": [
+                        0.9134533116007536,
+                        0.187883780435852,
+                        0.0777985019775099,
+                        0.17561181095784067
+                    ],
+                    "similarity": 0.16600745539813033,
+                    "distance": 0.19992994674135417
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.8209957890761527,
+                0.039736742674354286,
+                0.06506539367602766,
+                0.1482504557853804
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "ravens-1",
+    "focusCorrection": {
+        "sigmaPixels": 1.5,
+        "maskFeatherPixels": 14.142613969421372,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

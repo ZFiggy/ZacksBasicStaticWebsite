@@ -1,0 +1,17 @@
+{
+    "file": "assets/game-covers/eagles.png",
+    "cols": 4,
+    "rows": 2,
+    "order": [
+        "game",
+        "kick",
+        "pocket",
+        "shove",
+        "recall",
+        "punt",
+        "blitz",
+        "signal"
+    ],
+    "prompt": "Use case: illustration-story. Asset type: EIGHT INDIVIDUAL GAME COVER ILLUSTRATIONS packed into one exact 4-column by 2-row atlas for a Philadelphia Eagles fan arcade. Wide image; eight equal cells; no gutters, no borders, no text, no words, no labels. Each cell is an entirely different energetic scene, a different composition, a different camera angle and different storytelling; absolutely do not repeat a mascot portrait. These are illustrated sports fantasies clearly not documentary photography. Combine vivid cinematic comic-book sports art with selective photorealistic faces, detailed grass, stadium light, and midnight green / silver uniforms. TOP ROW LEFT TO RIGHT: 1) Saquon Barkley number26, low-angle heroic football run through South Philly rowhouse streets toward a glowing end zone, full action body and speed trails. 2) An Eagles kicker's boot launching a football through enormous yellow uprights with the Liberty Bell and stadium lit at dusk, composition focused on leg and ball, no portrait. 3) Jalen Hurts number1 in the throwing pocket, three receiver routes luminous across a stadium from an over-the-shoulder view, unmistakable throwing action, readable face in profile. 4) Brotherly Shove, close view of a tightly packed midnight-green offensive line driving Jalen Hurts over the goal line, helmets, shoulders, grass flying, no isolated portrait. BOTTOM ROW LEFT TO RIGHT: 5) An Eagles receiver number6 cutting across a giant chalkboard play diagram that turns into a real field, dynamic overhead route lines, camera aerial. 6) A punt spiraling above the Delaware river toward a tiny coffin-corner flag on a riverside field, city bridges in distance, football and landscape are the stars. 7) Brian Dawkins number20 in classic Eagles gear bursting through a blitz under dramatic tunnel smoke, defenders charging, electric comic motion, three-quarter full-body defensive pose. 8) An Eagles sideline coordinator's hands making secret signals above a laminated play sheet, headset silhouette, green stadium behind, close-up hands and cryptic football symbols, no legible text. Keep subjects centered in their individual cells so they remain readable as small game covers; no shared protagonist/face across all cells.",
+    "generator": "Built-in image_gen"
+}

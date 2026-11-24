@@ -1,0 +1,104 @@
+{
+    "team": "rams",
+    "level": 2,
+    "sourceIndex": 6231,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/rams-6231.jpg",
+    "sourcePage": "https://www.therams.com/photos/repping-rams-new-rivalries-gear-waving-playoff-flags-best-of-fans-during-2025-season",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/tdczdxn05o9okvmniqzv.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/rams.png",
+    "player": "Puka Nacua",
+    "face": [
+        752.07,
+        199.82,
+        30.82,
+        40.7
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Puka Nacua's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Puka Nacua naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Small isolated head appears pasted between foreground people; restore plausible hidden body/neck and original strong background blur.\nThe original spectator's head fits inside original-image pixel bounds [748, 190, 787, 247], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-a7615def-668d-43bf-a021-e65aa8a4a814.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/rams-ai-v2-3.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.5879186602870813,
+                0.23485653560042508,
+                0.04844497607655503,
+                0.1179596174282678
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.5879186602870813,
+        0.23485653560042508,
+        0.04844497607655503,
+        0.1179596174282678
+    ],
+    "history": [
+        {
+            "team": "rams",
+            "level": 2,
+            "sourceIndex": 6231,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/rams-6231.jpg",
+            "sourcePage": "https://www.therams.com/photos/repping-rams-new-rivalries-gear-waving-playoff-flags-best-of-fans-during-2025-season",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/tdczdxn05o9okvmniqzv.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/rams.png",
+            "player": "Puka Nacua",
+            "face": [
+                752.07,
+                199.82,
+                30.82,
+                40.7
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real rams crowd photograph to edit. Image 2 is Puka Nacua's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Puka Nacua, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual rams fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-ba705548-5bfd-43ff-ad07-54005219649e.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/rams-ai-v1-3.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.586036206455322,
+                        0.2528518490279519,
+                        0.039191583651675035,
+                        0.09343987849009532
+                    ],
+                    "similarity": 0.8193697745741417,
+                    "distance": 0.006691093773944184
+                },
+                {
+                    "target": [
+                        0.6009517734130604,
+                        0.1955826523200105,
+                        0.025499275996924586,
+                        0.06009975680636042
+                    ],
+                    "similarity": 0.18408367377378454,
+                    "distance": 0.07927804776120324
+                },
+                {
+                    "target": [
+                        0.6293064195915843,
+                        0.08582830479750597,
+                        0.1498115565103777,
+                        0.3119772770199588
+                    ],
+                    "similarity": 0.10794775796330214,
+                    "distance": 0.11720200580387959
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.586036206455322,
+                0.2528518490279519,
+                0.039191583651675035,
+                0.09343987849009532
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "rams-3"
+}

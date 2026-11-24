@@ -1,0 +1,330 @@
+{
+  "giants": {
+    "prompt": "Use case: compositing. Asset type: six-cell photographic find-the-player game atlas. Input1 is the EDIT TARGET, an actual fan photograph. Input2 is the FACE IDENTITY reference of Eli Manning. Preserve input1's actual people, faces, clothes, architecture, signage, lighting, depth of field, and photographic character. The real source has Sterling Shepard #3 catching a football in the foreground and a crowd in bleachers above a blue NY barrier. Preserve that player and barrier. Frame the actual upper crowd more closely so it fills most cells, using different crops of that exact source. Insert Eli in the bleachers, not in the foreground or on the barrier.\n\nOutput EXACTLY THREE equal COLUMNS and TWO equal ROWS: six rectangular cells in one landscape atlas, tight grid with NO gaps/borders, no new words or labels. Row-major order. Cells0–4 must each contain EXACTLY ONE Eli Manning, small and naturally hidden as a background spectator among the ORIGINAL photographed fans. His recognizable youthful playing-era face must match reference2. Face/head about5–7%of cellheight; total visible head+shoulders12–18%of cellheight. Match neighboring fan scale, shadow, grain, blur and perspective. Partial occlusion by a real adjacent shoulder, hat, barrier or railing; keep enough face visible to recognize. NOT a large foreground face, sticker, drawing, outline, arrow, spotlight, or floating head. Do not replace original fans with generated generic crowds; preserve all unchanged source regions faithfully. Each scene is a separately cropped photographic edit of the SAME actual image.\n\nAim target centers within each cell: cell0(.24,.35), cell1(.70,.40), cell2(.46,.62), cell3(.83,.28), cell4(.56,.22), moving only if needed to remain physically among actual fans. Each cell must visibly contain the one player; do NOT omit him or hide his entire face. Vary attire for clues: cell0 dark baseballcap + dark jacket, cell1 nohat + Giants blue and red teamjersey, cell2 dark knitcap + creamhoodie, cell3 nohat + gray sweatshirt, cell4 darkcap + Giants blue and red scarf. No helmets. Natural neutral/slightly smiling expression, never cartoon.\nCell5 bottom-right is a clear authentic-style PHOTO portrait reference of the SAME Eli Manning, young playing-era face, head and shoulders, neutral backdrop, no text, simple team-colored shirt. Oneperson only. It is the reference tile, not another search scene. All six cells are photographic composites from the supplied real images; no illustration or fully invented crowd.",
+    "referencedImagePaths": [
+      "/private/tmp/nfl-fan-candidates/giants-1.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/giants.png"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-bebbf7a6-86ef-4173-a273-d100e1613602.png",
+    "source": {
+      "file": "assets/fan-crowds/giants.jpg",
+      "sourcePage": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
+      "credit": "www.giants.com",
+      "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/giants/nt3juwnwluhehggcbyvd.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/giants.png",
+      "sourcePage": "https://www.espn.com/nfl/player/_/id/5526/",
+      "credit": "ESPN player headshot",
+      "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5526.png"
+    }
+  },
+  "vikings": {
+    "prompt": "Use case: compositing. Asset type: six-cell photographic find-the-player game atlas. Input1 is the EDIT TARGET, an actual fan photograph. Input2 is the FACE IDENTITY reference of Fran Tarkenton. Preserve input1's actual people, faces, clothes, architecture, signage, lighting, depth of field, and photographic character. Preserve the real U.S. Bank Stadium building, the NFL TODAY sign, stage scaffolding, and real purple-clad fans. Crop to the populated plaza portion as needed so crowd fills each scene. Fran must be among those real fans, not floating over the building or printed on the sign.\n\nOutput EXACTLY THREE equal COLUMNS and TWO equal ROWS: six rectangular cells in one landscape atlas, tight grid with NO gaps/borders, no new words or labels. Row-major order. Cells0–4 must each contain EXACTLY ONE Fran Tarkenton, small and naturally hidden as a background spectator among the ORIGINAL photographed fans. His recognizable youthful playing-era face must match reference2. Face/head about5–7%of cellheight; total visible head+shoulders12–18%of cellheight. Match neighboring fan scale, shadow, grain, blur and perspective. Partial occlusion by a real adjacent shoulder, hat, barrier or railing; keep enough face visible to recognize. NOT a large foreground face, sticker, drawing, outline, arrow, spotlight, or floating head. Do not replace original fans with generated generic crowds; preserve all unchanged source regions faithfully. Each scene is a separately cropped photographic edit of the SAME actual image.\n\nAim target centers within each cell: cell0(.24,.35), cell1(.70,.40), cell2(.46,.62), cell3(.83,.28), cell4(.56,.22), moving only if needed to remain physically among actual fans. Each cell must visibly contain the one player; do NOT omit him or hide his entire face. Vary attire for clues: cell0 dark baseballcap + dark jacket, cell1 nohat + Vikings purple and gold teamjersey, cell2 dark knitcap + creamhoodie, cell3 nohat + gray sweatshirt, cell4 darkcap + Vikings purple and gold scarf. No helmets. Natural neutral/slightly smiling expression, never cartoon.\nCell5 bottom-right is a clear authentic-style PHOTO portrait reference of the SAME Fran Tarkenton, young playing-era face, head and shoulders, neutral backdrop, no text, simple team-colored shirt. Oneperson only. It is the reference tile, not another search scene. All six cells are photographic composites from the supplied real images; no illustration or fully invented crowd.",
+    "referencedImagePaths": [
+      "/private/tmp/nfl-fan-candidates/vikings-0.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/vikings.jpg"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-674abc59-cfff-4092-950a-ebaade5b0de2.png",
+    "source": {
+      "file": "assets/fan-crowds/vikings.jpg",
+      "sourcePage": "https://www.vikings.com/photos/fans-packers-week-1-2026",
+      "credit": "Andy Berg/Minnesota Vikings",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/vikings/qidcuohomycp767q7qon.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/vikings.jpg",
+      "sourcePage": "https://www.profootballhof.com/players/fran-tarkenton",
+      "credit": "www.profootballhof.com",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_ratio16_9-size60-f_webp-c_fill/hof/tbteenj6818qnbpmrvx2"
+    }
+  },
+  "falcons": {
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, a real fan photograph, and using input2 ONLY as Matt Ryan's facial identity. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE SMALL spectator inserted: Matt Ryan, recognizable face, Falcons red #2 jersey. Preserve original fans, every face, clothes, seats, architecture, camera view, framing, and source-photo sharpness. Do not reconstruct or zoom the crowd. This is a careful photographic paste-in, not a new scene. Insert him at natural scale among distant fans, face about5%of cellheight, head+visible shoulders at most15%of cellheight, partially hidden by neighboring fans. Five different positions across the same WIDE source photograph: upper-left, upper-middle, center-right, lower-middle, far-right. Every cell has exactly ONE clearly visible Matt Ryan. Never enlarge him or center him for a portrait in cells0–4. Sixthcell(bottomright) is the reference photo: crop input2 to Matt Ryan's face and shoulders. All6cells photorealistic; no cartoon, labels, arrows, outlines, spotlight or visual highlights. Preserve source photograph identically except tiny inserted player in each scene.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/falcons.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/falcons.png"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-dd770bc7-b092-4ce2-b92e-4c55e24a5435.png",
+    "source": {
+      "file": "assets/fan-crowds/falcons.jpg",
+      "sourcePage": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
+      "credit": "Atlanta Falcons / Kara Durrette",
+      "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/falcons/muan4bxzxzh3ca0eimej.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/falcons.png",
+      "sourcePage": "https://www.espn.com/nfl/player/_/id/11237/",
+      "credit": "ESPN player headshot",
+      "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/11237.png"
+    }
+  },
+  "panthers": {
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, a real fan photograph, and using input2 ONLY as Cam Newton's facial identity. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE SMALL spectator inserted: Cam Newton, recognizable face, Panthers blue #1 jersey. Preserve original fans, every face, clothes, seats, architecture, camera view, framing, and source-photo sharpness. Do not reconstruct or zoom the crowd. This is a careful photographic paste-in, not a new scene. Insert him at natural scale among distant fans, face about5%of cellheight, head+visible shoulders at most15%of cellheight, partially hidden by neighboring fans. Five different positions across the same WIDE source photograph: upper-left, upper-middle, center-right, lower-middle, far-right. Every cell has exactly ONE clearly visible Cam Newton. Never enlarge him or center him for a portrait in cells0–4. Sixthcell(bottomright) is the reference photo: crop input2 to Cam Newton's face and shoulders. All6cells photorealistic; no cartoon, labels, arrows, outlines, spotlight or visual highlights. Preserve source photograph identically except tiny inserted player in each scene.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/panthers.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/panthers.png"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-caeaf69a-2ad2-4d13-8e95-5c26f9a0a34d.png",
+    "source": {
+      "file": "assets/fan-crowds/panthers.jpg",
+      "sourcePage": "https://www.panthers.com/photos/photos-capturing-the-fans-at-fan-fest",
+      "credit": "Chanelle Smith-Walker/Carolina Panthers",
+      "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/panthers/y5mqns0two5kwlmhxlzj.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/panthers.png",
+      "sourcePage": "https://www.espn.com/nfl/player/_/id/13994/",
+      "credit": "ESPN player headshot",
+      "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13994.png"
+    }
+  },
+  "cowboys": {
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, a real fan photograph, and using input2 ONLY as Troy Aikman's facial identity. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE SMALL spectator inserted: Troy Aikman, recognizable playing-era face, Cowboys blue #8 jersey. Preserve original fans, every face, clothes, seats, architecture, camera view, framing, and source-photo sharpness. Do not reconstruct or zoom the crowd. This is a careful photographic paste-in, not a new scene. Insert him at natural scale among distant fans, face about5%of cellheight, head+visible shoulders at most15%of cellheight, partially hidden by neighboring fans. Five different positions across the same WIDE source photograph: upper-left, upper-middle, center-right, lower-middle, far-right. Every cell has exactly ONE clearly visible Troy Aikman. Never enlarge him or center him for a portrait in cells0–4. Sixthcell(bottomright) is the reference photo: Troy Aikman's face and shoulders in Cowboys blue #8 shirt, based on input2 facial identity, nohelmet. All6cells photorealistic; no cartoon, labels, arrows, outlines, spotlight or visual highlights. Preserve source photograph identically except tiny inserted player in each scene.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/cowboys.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/cowboys.jpg"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-ee573be2-1bc5-49c3-9725-7bb6ff4e4ec4.png",
+    "source": {
+      "file": "assets/fan-crowds/cowboys.jpg",
+      "sourcePage": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+      "credit": "©James D. Smith/Dallas Cowboys",
+      "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/qzrcy7qiochv0fv6ktdc.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/cowboys.jpg",
+      "sourcePage": "https://www.profootballhof.com/players/troy-aikman",
+      "credit": null,
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_ratio16_9-size60-f_webp-c_fill/hof/al2z731cqrsvszuvslqq"
+    }
+  },
+  "packers": {
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, a real fan photograph, and using input2 ONLY as Aaron Rodgers's facial identity. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE SMALL spectator inserted: Aaron Rodgers, recognizable playing-era face, Packers green #12 jersey. Preserve original fans, every face, clothes, seats, architecture, camera view, framing, and source-photo sharpness. Do not reconstruct or zoom the crowd. This is a careful photographic paste-in, not a new scene. Insert him at natural scale among distant fans, face about5%of cellheight, head+visible shoulders at most15%of cellheight, partially hidden by neighboring fans. Five different positions across the same WIDE source photograph: upper-left, upper-middle, center-right, lower-middle, far-right. Every cell has exactly ONE clearly visible Aaron Rodgers. Never enlarge him or center him for a portrait in cells0–4. Sixthcell(bottomright) is the reference photo: Aaron Rodgers's face and shoulders in Packers green #12 shirt, based on input2 facial identity, nohelmet. All6cells photorealistic; no cartoon, labels, arrows, outlines, spotlight or visual highlights. Preserve source photograph identically except tiny inserted player in each scene.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/packers.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/packers.png"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-19e63eec-7ad3-4841-a1da-12a743035206.png",
+    "source": {
+      "file": "assets/fan-crowds/packers.jpg",
+      "sourcePage": "https://www.packers.com/photos/photos-fans-tailgate-at-lambeau-field-ahead-of-rivalries-game-packers-vs-bears-2026",
+      "credit": "Keller Nienau, packers.com",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/packers/o6gofyygpcmbtdlyxut3.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/packers.png",
+      "sourcePage": "https://www.espn.com/nfl/player/_/id/8439/",
+      "credit": "ESPN player headshot",
+      "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/8439.png"
+    }
+  },
+  "49ers": {
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, a real fan photograph, and using input2 ONLY as Joe Montana's facial identity. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE SMALL spectator inserted: Joe Montana, recognizable playing-era face, 49ers red #16 jersey. Preserve original fans, every face, clothes, seats, architecture, camera view, framing, and source-photo sharpness. Do not reconstruct or zoom the crowd. This is a careful photographic paste-in, not a new scene. Insert him at natural scale among distant fans in the STANDS, never on the playing field, face about5%of cellheight, head+visible shoulders at most15%of cellheight, partially hidden by neighboring fans. Five different positions across the same WIDE source photograph: upper-left, upper-middle, center-right, lower-middle, far-right. Every cell has exactly ONE clearly visible Joe Montana. Never enlarge him or center him for a portrait in cells0–4. Sixthcell(bottomright) is the reference photo: Joe Montana's face and shoulders in 49ers red #16 shirt, based on input2 facial identity, nohelmet. All6cells photorealistic; no cartoon, labels, arrows, outlines, spotlight or visual highlights. Preserve source photograph identically except tiny inserted player in each scene.",
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-3f86bcbe-a9f3-4086-b9a0-d74032b3ed96.png",
+    "source": {
+      "file": "assets/fan-crowds/49ers.jpg",
+      "sourcePage": "https://www.49ers.com/photos/san-francisco-fans-faithful-take-over-the-new-orleans-saints-superdome",
+      "credit": "Kym Fortino/49ers",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/49ers/lkqa17xbhm68fvuqxrfl.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/49ers.jpg",
+      "sourcePage": "https://www.profootballhof.com/players/joe-montana",
+      "credit": "www.profootballhof.com",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_ratio16_9-size60-f_webp-c_fill/v1794867955/hof/zk4dnlavpdjwt7wuuyfn"
+    },
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/49ers.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/49ers.jpg"
+    ]
+  },
+  "rams": {
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, a real fan photograph, and using input2 ONLY as Kurt Warner's facial identity. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE SMALL spectator inserted: Kurt Warner, recognizable playing-era face, Rams blue #13 jersey. Preserve original fans, every face, clothes, seats, architecture, camera view, framing, and source-photo sharpness. Do not reconstruct or zoom the crowd. This is a careful photographic paste-in, not a new scene. Insert him at natural scale among distant fans in the STANDS, never on the playing field, face about5%of cellheight, head+visible shoulders at most15%of cellheight, partially hidden by neighboring fans. Five different positions across the same WIDE source photograph: upper-left, upper-middle, center-right, lower-middle, far-right. Every cell has exactly ONE clearly visible Kurt Warner. Never enlarge him or center him for a portrait in cells0–4. Sixthcell(bottomright) is the reference photo: Kurt Warner's face and shoulders in Rams blue #13 shirt, based on input2 facial identity, nohelmet. All6cells photorealistic; no cartoon, labels, arrows, outlines, spotlight or visual highlights. Preserve source photograph identically except tiny inserted player in each scene.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/rams.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/rams.jpg"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-e1c6f078-c05e-4632-b242-7c87848ab97c.png",
+    "source": {
+      "file": "assets/fan-crowds/rams.jpg",
+      "sourcePage": "https://www.therams.com/photos/fan-photos-rams-fans-shine-under-the-sofi-stadium-spotlight-during-the-rams-week-11-win-over-the-seahawks",
+      "credit": "Abigail Dean/ Los Angeles Rams/Los Angeles Rams",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/ynbnjhaqaglrv7wvvnuk.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/rams.jpg",
+      "sourcePage": "https://www.profootballhof.com/players/kurt-warner",
+      "credit": null,
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_ratio16_9-size60-f_webp-c_fill/hof/w3xex9pjfhwxywvo3bap"
+    }
+  },
+  "lions": {
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-9b770ab9-4baa-47f1-87f8-2da03d58a8cf.png",
+    "source": {
+      "file": "assets/fan-crowds/lions.jpg",
+      "sourcePage": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+      "credit": "Carl Jones II/Detroit Lions",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/fttjlg03v8mex0iy5rfm.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/lions.png",
+      "sourcePage": "https://www.espn.com/nfl/player/_/id/12483/",
+      "credit": "ESPN player headshot",
+      "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/12483.png"
+    },
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, a real fan photograph, and using input2 ONLY as Matthew Stafford's facial identity. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE SMALL spectator inserted: Matthew Stafford, recognizable playing-era face, Lions blue #9 jersey. Preserve original fans, every face, clothes, seats, architecture, camera view, framing, and source-photo sharpness. Do not reconstruct or zoom the crowd. This is a careful photographic paste-in, not a new scene. Insert him at natural scale among distant fans, face about5%of cellheight, head+visible shoulders at most15%of cellheight, partially hidden by neighboring fans. Five different positions across the same WIDE source photograph: upper-left, upper-middle, center-right, lower-middle, far-right. Every cell has exactly ONE clearly visible Matthew Stafford. Never enlarge him or center him for a portrait in cells0–4. Sixthcell(bottomright) is the reference photo: Matthew Stafford's face and shoulders in Lions blue #9 shirt, based on input2 facial identity, nohelmet. All6cells photorealistic; no cartoon, labels, arrows, outlines, spotlight or visual highlights. Preserve source photograph identically except tiny inserted player in each scene.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/lions.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/lions.png"
+    ]
+  },
+  "cardinals": {
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, a real fan photograph, and using input2 ONLY as Kurt Warner's facial identity. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE SMALL spectator inserted: Kurt Warner, recognizable playing-era face, Cardinals red #13 jersey. Preserve original fans, every face, clothes, seats, architecture, camera view, framing, and source-photo sharpness. Do not reconstruct or zoom the crowd. This is a careful photographic paste-in, not a new scene. Insert him at natural scale among distant fans, face about5%of cellheight, head+visible shoulders at most15%of cellheight, partially hidden by neighboring fans. Five different positions across the same WIDE source photograph: upper-left, upper-middle, center-right, lower-middle, far-right. Every cell has exactly ONE clearly visible Kurt Warner. Never enlarge him or center him for a portrait in cells0–4. Sixthcell(bottomright) is the reference photo: Kurt Warner's face and shoulders in Cardinals red #13 shirt, based on input2 facial identity, nohelmet. All6cells photorealistic; no cartoon, labels, arrows, outlines, spotlight or visual highlights. Preserve source photograph identically except tiny inserted player in each scene.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/cardinals.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/cardinals.jpg"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-d30c7d08-f78b-45a6-9fa1-dee0ff55d7c0.png",
+    "source": {
+      "file": "assets/fan-crowds/cardinals.jpg",
+      "sourcePage": "https://www.azcardinals.com/photos/photos-fan-friday-best-of-2023",
+      "credit": "Arianna Grainey/Arizona Cardinals",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/cardinals/scq8qime1ejgoqtbydsd.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/cardinals.jpg",
+      "sourcePage": "https://www.profootballhof.com/players/kurt-warner",
+      "credit": null,
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_ratio16_9-size60-f_webp-c_fill/hof/w3xex9pjfhwxywvo3bap"
+    }
+  },
+  "commanders": {
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-b14561cf-4334-4490-b897-6c11e9b40ce3.png",
+    "source": {
+      "file": "assets/fan-crowds/commanders.jpg",
+      "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+      "credit": "Emily Faith Morgan/Washington Commanders",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/commanders/v26slxjnqdqnt0l2wa1t.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/commanders-1983.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Joe_Theismann1983.jpg",
+      "credit": "Ted Van Pelt / Wikimedia Commons, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/); adapted as AI photographic composite",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Joe_Theismann1983.jpg"
+    },
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, a real fan photograph, and using input2 ONLY as Joe Theismann's facial identity. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE SMALL spectator inserted: Joe Theismann, recognizable playing-era face, Washington burgundy #7 jersey. Preserve original fans, every face, clothes, seats, architecture, camera view, framing, and source-photo sharpness. Do not reconstruct or zoom the crowd. This is a careful photographic paste-in, not a new scene. Insert him at natural scale among distant fans, face about5%of cellheight, head+visible shoulders at most15%of cellheight, partially hidden by neighboring fans. Five different positions across the same WIDE source photograph: upper-left, upper-middle, center-right, lower-middle, far-right. Every cell has exactly ONE clearly visible Joe Theismann. Never enlarge him or center him for a portrait in cells0–4. Sixthcell(bottomright) is the reference photo: Joe Theismann's face and shoulders in Washington burgundy #7 shirt, based on input2 facial identity, nohelmet. All6cells photorealistic; no cartoon, labels, arrows, outlines, spotlight or visual highlights. Preserve source photograph identically except tiny inserted player in each scene.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/commanders.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/commanders-1983.jpg"
+    ]
+  },
+  "bears": {
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, a real Bears fan tailgate buffet photograph under an orange umbrella. Input2 is ONLY the real playing-era face identity reference of Jim McMahon. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE spectator inserted: Jim McMahon, recognizable youthful face, dark hair, his characteristic sunglasses and white headband, a Bears navy number9 jersey. Preserve original11fans, faces, clothes, food trays, umbrella, background and source-photo sharpness. Do not reconstruct or zoom the group. This is careful photographic paste-in, not a new scene. Insert him at natural neighboring-person scale, partially hidden behind fans, the buffet or umbrella pole. Five different plausible positions across samephoto: upper-left behindfans, upper-middle behindfans, center-right behindfans, lower-middle behindbuffet, far-right nexttopole. Every cell has exactly ONE clearly visible Jim McMahon face. Sixthcell(bottomright) is a photographic playing-era face+shoulders reference portrait of the same McMahon in Bears navy9shirt with same shades/headband, based on input2 identity, nohelmet, no graphic birthday text copied from reference. All6cells photorealistic; no cartoon, labels, arrows, outlines, spotlight or visual highlights. Preserve source photograph identically except inserted player in each scene.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/bears.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/bears.jpg"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-6ff3581f-1f73-4c2a-a89b-41476d5916b8.png",
+    "source": {
+      "file": "assets/fan-crowds/bears.jpg",
+      "sourcePage": "https://thankyoufans.chicagobears.com/week-4/index.html",
+      "credit": "Chicago Bears / featured fan-submitted tailgate photograph",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/v1734124825/bears/krxeabeyhzjkppxd4xn4.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/bears.jpg",
+      "sourcePage": "https://www.chicagobears.com/photos/happy-birthday-jim-mcmahon-15712657",
+      "credit": "www.chicagobears.com",
+      "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/bears/x3gbjnrupp92dewzznkk"
+    }
+  },
+  "saints": {
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, a real fan photograph, and using input2 ONLY as Drew Brees's facial identity. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE SMALL spectator inserted: Drew Brees, recognizable playing-era face, Saints black #9 jersey. Preserve original fans, every face, clothes, seats, architecture, camera view, framing, and source-photo sharpness. Do not reconstruct or zoom the crowd. This is a careful photographic paste-in, not a new scene. Insert him at natural scale among distant fans, face about5%of cellheight, head+visible shoulders at most15%of cellheight, partially hidden by neighboring fans. Five different positions across the same WIDE source photograph: upper-left, upper-middle, center-right, lower-middle, far-right. Every cell has exactly ONE clearly visible Drew Brees. Never enlarge him or center him for a portrait in cells0–4. Sixthcell(bottomright) is the reference photo: Drew Brees's face and shoulders in Saints black #9 shirt, based on input2 facial identity, nohelmet. All6cells photorealistic; no cartoon, labels, arrows, outlines, spotlight or visual highlights. Preserve source photograph identically except tiny inserted player in each scene.\n\nREPAIR PASS:\nUse case: precise-object-edit. Input1 is an existing 3columns×2rows photographic game atlas. Preserve its exact grid, sixcell arrangement, realism, referenceportraitbottomright and all unmentioned regions. Input2 is the ORIGINAL unedited realcrowd, for restoration. FIX DUPLICATE PLAYERS ONLY. Top-leftcell0 and top-middlecell1 each correctly have one DrewBrees in the upperleft crowd; leave them unchanged. Top-rightcell2 incorrectly has TWO Drews: keep the Drew at center-right nextto the seatedwoman, REMOVE the extra Drew in upperleft (near cell-normalized x.30,y.14) and restore that area from originalcrowd input2. Bottom-leftcell3 incorrectly has TWO: keep Drew at bottom-left nextto womanwithglasses, REMOVE the extra Drew in upperleft (same x.30,y.14) and restore originalcrowd. Bottom-middlecell4 incorrectly has TWO: keep Drew at farright behind goldpompoms, REMOVE the extra Drew in upperleft (same x.30,y.14) and restore originalcrowd. Cell5referenceportrait staysunchanged. Final first5cells must each contain EXACTLYONE DrewBrees, never2; restoredareas must show originalfans from input2, noempty holes. Do not move the five retainedplayers, addplayers, changegrid, enlargefaces, change light or otherwise redesignimage.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/saints.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/saints.png",
+      "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-8c15ca53-ceea-410c-a7e6-7ad42cd52c6e.png",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/saints.jpg"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-f916f226-d6fa-4ef0-8850-97f6c16e3fa8.png",
+    "source": {
+      "file": "assets/fan-crowds/saints.jpg",
+      "sourcePage": "https://www.neworleanssaints.com/photos/2026-nfl-week-10-carolina-panthers-vs-new-orleans-saints-photos-fans",
+      "credit": "Michael C. Hebert/New Orleans Saints",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/saints/jihnbaox55trjczpf7v3.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/saints.png",
+      "sourcePage": "https://www.espn.com/nfl/player/_/id/2580/",
+      "credit": "ESPN media player portrait; identity reference only",
+      "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2580.png"
+    }
+  },
+  "seahawks": {
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, the actual Seattle fan photograph with green wigs, MAKE IT QUAKE sign and blue jerseys. Input2 is ONLY Matt Hasselbeck's real playing-era facial identity and#8 uniform reference; portray him WITHOUThelmet, bald head, recognizable youthfulface. EXACT3columns×2rows, six equal square cells, no margins or borders. Cells0–4 each repeat the FULL WIDE INPUT1 PHOTO with only ONE SMALL spectator inserted: MattHasselbeck, recognizableface, Seahawks navy number8 jersey. Preserve originalfans, faces, clothes, seats, sign, railing, camera view, framing, and source sharpness. Do not reconstruct or zoomthecrowd. Careful photographic paste-in, notnewscene. Insert atnaturalneighboringfanscale, partlyhiddenbehindfans, face5–7%cellheight. Five differentpositions across samewidephoto: upper-left, upper-middle, center-right, lower-middlebehindrail, far-right. Eachcell has EXACTLYONE MattHasselbeck; no duplicated target fromanotherpanel. Sixthcell(bottomright) is a photographic MattHasselbeckface+shoulders reference based oninput2, bare baldhead, nohelmet, navy8shirt. All6cellsphotorealistic; nocartoon, labels, arrows, outlines, spotlight. Preserve source identically except tinyplayerinsertions.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/seahawks.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/seahawks.webp"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-c8193e18-3903-4b0b-8e6e-34aaea63f3a1.png",
+    "source": {
+      "file": "assets/fan-crowds/seahawks.jpg",
+      "sourcePage": "https://www.seahawks.com/photos/2025-nfc-divisional-round-seahawks-vs-49ers-lumen-field-12s-fan-photos",
+      "credit": "Seattle Seahawks / credited gallery photographer",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/seahawks/rbaxwiz9iqpg2vx5hbcu.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/seahawks.webp",
+      "sourcePage": "https://50.seahawks.com/players/matt-hasselbeck",
+      "credit": "Seattle Seahawks official Top50 player page",
+      "imageUrl": "https://cdn.prod.website-files.com/66df77242dfdc94b1344ad51/67032f6bdaaee3cf8c767b6e_Hasselbeck-Matt.webp"
+    }
+  },
+  "buccaneers": {
+    "prompt": "Use case: compositing. Make a photographic six-panel hidden-player game sheet by EDITING input1, actual crowded Buccaneers fan photograph. Input2 is real DougWilliams facialidentity (modernreference only), input3 is real youthfulplaying-era DougWilliams wearing historic orange Buccaneers#12. Render recognizablyyoung1978–1982DougWilliamsface inall6cells: shortblackhair, darkmustache, cleancheeks withNOgraybeard; authentic orange#12jerseyandnowhitehelmet. EXACT3columns×2rows, sixequal squarecells, no margins or borders. Cells0–4 each repeat FULL WIDE INPUT1PHOTO with only ONE SMALL spectator inserted:youngDougWilliams. Preserve originalfans, faces, clothes, hats, camera view, framing, sunshinelighting and source sharpness. Do not reconstruct or zoomcrowd. Carefulphotographicpaste-in, notnewscene. Insertatnaturalneighboringfanscale, partlyhiddenbehindfans, face5–7%cellheight. Five distinctpositions across samewidephoto: upper-left, upper-middle, center-right, lower-middle, far-right. EachcellhasEXACTLYONEyoungDougWilliams; no duplicated targetfromanotherpanel. Sixthcell(bottomright) is a photographic youthfulDougWilliamsface+shouldersreference based oninputs2+3, shortblackhairandmustache, nograybeard, nohelmet,orange12shirt. All6cellsphotorealistic; nocartoon,labels,arrows,outlines,spotlight. Preserve source identically except tinyplayerinsertions.",
+    "referencedImagePaths": [
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/fan-crowds/buccaneers.jpg",
+      "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/player-references/buccaneers.jpg",
+      "/private/tmp/nfl-final-photo-candidates/doug-2.jpg"
+    ],
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fb25-ec6b-76a2-a7ef-c1508f0a54d1/exec-1f7c43b2-e9de-499c-aa2d-f0cd330b5030.png",
+    "source": {
+      "file": "assets/fan-crowds/buccaneers.jpg",
+      "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+      "credit": "www.buccaneers.com",
+      "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/avbwfprn0vyflxz7dejb.jpg",
+      "reviewed": true
+    },
+    "reference": {
+      "file": "assets/player-references/buccaneers.jpg",
+      "sourcePage": "https://www.commanders.com/team/front-office-roster/doug-williams",
+      "credit": "Nick Wass / Washington Commanders",
+      "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/commanders/dilmkstosza0wltpncb7"
+    },
+    "supportingReferences": [
+      {
+        "role": "Verified youthful Buccaneers uniform and playing-era reference",
+        "file": "assets/player-references/buccaneers-playing.jpg",
+        "originalInputPath": "/private/tmp/nfl-final-photo-candidates/doug-2.jpg",
+        "sourcePage": "https://www.buccaneers.com/photos/best-of-doug-williams-15284422",
+        "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/n0ij3rgdpivgaarcwmuw.jpg",
+        "credit": "Tampa Bay Buccaneers / Best of Doug Williams gallery; photographic reference for AI composite."
+      }
+    ]
+  }
+}

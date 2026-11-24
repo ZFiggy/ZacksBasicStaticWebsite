@@ -1,0 +1,104 @@
+{
+    "team": "bears",
+    "level": 2,
+    "sourceIndex": 7003,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/bears-7003.jpg",
+    "sourcePage": "https://www.chicagobears.com/photos/pnc-chicago-bears-5k-photos",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/bears/fwjdnntqdbshpacjt7uc.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/bears.png",
+    "player": "Caleb Williams",
+    "face": [
+        161.95,
+        314.73,
+        26.2,
+        29.91
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Caleb Williams's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Caleb Williams naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Rigid front-facing portrait on moving runner; match original runner head angle, cap and motion.\nThe original spectator's head fits inside original-image pixel bounds [159, 308, 191, 349], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-7b1fef3d-aa7c-4b0e-959c-741ac8abd66e.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/bears-ai-v2-3.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.12141148325358851,
+                0.4165781083953241,
+                0.03110047846889952,
+                0.07863974495217853
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.12141148325358851,
+        0.4165781083953241,
+        0.03110047846889952,
+        0.07863974495217853
+    ],
+    "history": [
+        {
+            "team": "bears",
+            "level": 2,
+            "sourceIndex": 7003,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/bears-7003.jpg",
+            "sourcePage": "https://www.chicagobears.com/photos/pnc-chicago-bears-5k-photos",
+            "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/bears/fwjdnntqdbshpacjt7uc.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/bears.png",
+            "player": "Caleb Williams",
+            "face": [
+                161.95,
+                314.73,
+                26.2,
+                29.91
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real bears crowd photograph to edit. Image 2 is Caleb Williams's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Caleb Williams, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual bears fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-07dd8260-ecad-4d2a-9173-0ab67312497e.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/bears-ai-v1-3.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.12182051610718503,
+                        0.42386185932868853,
+                        0.02880688922827325,
+                        0.0701992687586137
+                    ],
+                    "similarity": 0.7652135721909872,
+                    "distance": 0.003612468369743524
+                },
+                {
+                    "target": [
+                        0.19463254804246163,
+                        0.4755225926479295,
+                        0.014879342745365719,
+                        0.03499989443707033
+                    ],
+                    "similarity": 0.15152327177020197,
+                    "distance": 0.07476119073315154
+                },
+                {
+                    "target": [
+                        0.20798725340354954,
+                        0.4920837314171948,
+                        0.020041984348205887,
+                        0.04528221470896675
+                    ],
+                    "similarity": 0.06573936073255027,
+                    "distance": 0.10008792694678476
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.12182051610718503,
+                0.42386185932868853,
+                0.02880688922827325,
+                0.0701992687586137
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "bears-3"
+}

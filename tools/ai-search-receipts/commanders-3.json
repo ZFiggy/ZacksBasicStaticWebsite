@@ -1,0 +1,109 @@
+{
+    "team": "commanders",
+    "level": 2,
+    "sourceIndex": 521,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/commanders-521.jpg",
+    "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/commanders/v26slxjnqdqnt0l2wa1t.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/commanders.png",
+    "player": "Jayden Daniels",
+    "face": [
+        954.69,
+        243.23,
+        27.58,
+        35.21
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real commanders crowd photograph to edit. Image 2 is Jayden Daniels's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Jayden Daniels, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual commanders fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/commanders-ai-v2-3.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/commanders-ai-v2-3.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.7369705311761519,
+                0.31598014608579794,
+                0.03544661330264152,
+                0.08802446047127185
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.7369705311761519,
+        0.31598014608579794,
+        0.03544661330264152,
+        0.08802446047127185
+    ],
+    "history": [
+        {
+            "team": "commanders",
+            "level": 2,
+            "sourceIndex": 521,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/commanders-521.jpg",
+            "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/commanders/v26slxjnqdqnt0l2wa1t.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/commanders.png",
+            "player": "Jayden Daniels",
+            "face": [
+                954.69,
+                243.23,
+                27.58,
+                35.21
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real commanders crowd photograph to edit. Image 2 is Jayden Daniels's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Jayden Daniels, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual commanders fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-96a3eba5-d831-47bb-9c10-2589fcc40a63.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/commanders-ai-v1-3.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.7369705311761519,
+                        0.31598014608579794,
+                        0.03544661330264152,
+                        0.08802446047127185
+                    ],
+                    "similarity": 0.7422767053407142,
+                    "distance": 0.0021161256474721587
+                },
+                {
+                    "target": [
+                        0.7820915749654815,
+                        0.44382666122647324,
+                        0.04500646308278356,
+                        0.09886308886926308
+                    ],
+                    "similarity": 0.17978960766959062,
+                    "distance": 0.14281542230043806
+                },
+                {
+                    "target": [
+                        0.8302826722158769,
+                        0.35576283437666045,
+                        0.03319267099553897,
+                        0.0688177678334219
+                    ],
+                    "similarity": 0.07990265394892049,
+                    "distance": 0.0952230770011338
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.7369705311761519,
+                0.31598014608579794,
+                0.03544661330264152,
+                0.08802446047127185
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "commanders-3",
+    "focusCorrection": {
+        "sigmaPixels": 0.8,
+        "maskFeatherPixels": 7.704675867462161,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

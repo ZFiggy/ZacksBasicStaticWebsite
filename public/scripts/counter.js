@@ -17,7 +17,7 @@ function celebrateTouchdown() {
     // Restart the pass even when two milestones are reached in quick succession.
     void touchdownStage.offsetWidth;
     touchdownStage.classList.add(reducedMotion ? 'reduced-celebration' : 'is-playing');
-    touchdownStatus.textContent = 'Touchdown! Eagles quarterback to the end zone. Fly Eagles Fly!';
+    touchdownStatus.textContent = `Touchdown! ${window.teamArcade.team.nickname} captain to the end zone. ${window.teamArcade.team.motto}`;
     window.setTimeout(() => {
         touchdownStage.classList.remove('is-playing', 'reduced-celebration');
         celebrating = false;
@@ -49,8 +49,8 @@ function showStorageError() {
 }
 
 try {
-    clickCount = parseCount(localStorage.getItem(clickCountKey));
-    localStorage.setItem(clickCountKey, clickCount.toString());
+    clickCount = parseCount(window.teamArcade.storage.getItem(clickCountKey));
+    window.teamArcade.storage.setItem(clickCountKey, clickCount.toString());
 } catch {
     showStorageError();
 }
@@ -66,7 +66,7 @@ window.eaglesCounter = {
         clickCount = restored;
         displayCount();
         try {
-            localStorage.setItem(clickCountKey, clickCount.toString());
+            window.teamArcade.storage.setItem(clickCountKey, clickCount.toString());
         } catch {
             showStorageError();
         }
@@ -79,7 +79,7 @@ incrementButton.addEventListener('click', () => {
 
     try {
         // Include clicks made in another tab before incrementing.
-        clickCount = Math.max(clickCount, parseCount(localStorage.getItem(clickCountKey)));
+        clickCount = Math.max(clickCount, parseCount(window.teamArcade.storage.getItem(clickCountKey)));
     } catch {
         showStorageError();
     }
@@ -92,7 +92,7 @@ incrementButton.addEventListener('click', () => {
     }
 
     try {
-        localStorage.setItem(clickCountKey, clickCount.toString());
+        window.teamArcade.storage.setItem(clickCountKey, clickCount.toString());
         saveStatus.textContent = 'Saved on this browser. Come back anytime.';
     } catch {
         showStorageError();
@@ -101,7 +101,7 @@ incrementButton.addEventListener('click', () => {
 });
 
 window.addEventListener('storage', (event) => {
-    if (event.key === clickCountKey || event.key === null) {
+    if (event.key === window.teamArcade.keyFor(clickCountKey) || event.key === null) {
         clickCount = parseCount(event.newValue);
         displayCount();
     }

@@ -1,0 +1,15 @@
+{
+    "id": "bills",
+    "level": 3,
+    "src": "assets/photo-search/rounds/bills-4.jpg",
+    "generatedPath": "/Users/zack/.codex/generated_images/01a1fd44-89a9-7a02-af66-273e4dc50180/exec-9ef3ebe7-cff0-4e42-a525-917c003f15e1.png",
+    "prompt": "Use case: photorealistic-natural. Generate ONE full-resolution wide 16:9 fictional bills football fan crowd photograph for a hidden-player game. Input is ONLY Jim Kelly's facial identity reference, NOT a composition reference. Scene: a home supporters section under soft stadium lights; about 65 distinct bills fans densely fill the WHOLE photograph. At least 10 spectators per row and six rows deep, 35mm lens, deep depth of field. Mixed ages, genders, diverse ethnicities, varied authentic team jerseys, caps and everyday clothes. Current-day crowd with varied candid expressions and natural gestures, no repetitive cloned faces or uniforms. NO empty sky or playing field. Integrate exactly ONE youthful playing-era Jim Kelly as an ordinary spectator near normalized head center (0.8,0.47). He wears no hat and a plain team sweatshirt, no helmet or sunglasses. CRITICAL: his head must be exactly the SAME SCALE as neighboring spectators in that row, around 4\u20136% of whole photograph height; NEVER enlarge his face or a patch of fans around him. His natural neck/torso are physically present behind real foreground crowd occlusion. Match local shadows, skin exposure, light direction, perspective, sharpness and grain. This must look photographed together: no pasted head, halo, rectangular insert, portrait cutout, celebrity posing or spotlight. Keep face recognizable and visible near requested center; he is one of the small middle-row faces. Sharp editorial photographic detail, textured cloth, realistic skin. ONE coherent scene, NOT a collage or atlas. No text overlays, labels, arrows, rings, outlines, hints, borders or watermark. Render highest available full resolution.",
+    "target": [
+        0.76,
+        0.415,
+        0.08,
+        0.14
+    ],
+    "clue": "no hat and a plain team sweatshirt",
+    "kind": "generated"
+}

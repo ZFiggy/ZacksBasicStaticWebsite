@@ -4,6 +4,7 @@ class Game {
         this.ctx = this.canvas.getContext('2d');
         this.scoreDisplay = document.getElementById('game-score');
         this.statusDisplay = document.getElementById('game-status');
+        this.rule = window.teamArcade.ruleFor('game');
         this.reset();
 
         document.addEventListener('keydown', (event) => {
@@ -42,6 +43,9 @@ class Game {
         this.stopMoving();
         this.recordedWin = false;
         this.score = 0;
+        this.carrying = false;
+        this.steps = 0;
+        this.defender = {x: 30, y: 360, width: 50, height: 50};
         this.shapes = [
             { x: 270, y: 660, width: 50, height: 50, name: 'Main' },
             { x: 130, y: 220, width: 50, height: 50, name: 'collectable' },
@@ -62,17 +66,17 @@ class Game {
         ctx.fillStyle = styles.getPropertyValue('--field-stripe').trim();
         for (let y = 80; y < 720; y += 128) ctx.fillRect(0, y, 600, 64);
 
-        ctx.fillStyle = '#00383f';
+        ctx.fillStyle = window.teamArcade.team.primary;
         ctx.fillRect(0, 0, 600, 80);
         ctx.fillRect(0, 720, 600, 80);
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
-        ctx.fillStyle = '#eef5f4';
+        ctx.fillStyle = window.teamArcade.tint('#eef5f4');
         ctx.font = 'italic 700 32px Arial';
-        ctx.fillText('PHILADELPHIA', 300, 42);
-        ctx.fillText('GO BIRDS', 300, 760);
+        ctx.fillText(window.teamArcade.team.city.toUpperCase(), 300, 42);
+        ctx.fillText(this.rule.variant === 'return' ? 'HOME · RETURN THE BALL' : `GO ${window.teamArcade.team.nickname.toUpperCase()}`, 300, 760);
 
-        ctx.strokeStyle = '#d8eeee80';
+        ctx.strokeStyle = window.teamArcade.tint('#d8eeee80');
         ctx.lineWidth = 2;
         for (let y = 80; y <= 720; y += 64) {
             ctx.beginPath();
@@ -89,7 +93,7 @@ class Game {
         }
         for (let y = 96; y < 720; y += 16) {
             for (const x of [225, 375]) {
-                ctx.fillStyle = '#d8eeee85';
+                ctx.fillStyle = window.teamArcade.tint('#d8eeee85');
                 ctx.fillRect(x, y, 10, 2);
             }
         }
@@ -97,30 +101,42 @@ class Game {
         ctx.lineWidth = 3;
         ctx.strokeRect(12, 10, 576, 780);
 
+        window.teamArt.gameScene(ctx, 'game', 0, 80, 600, 640, 0.38);
+        if (this.rule.variant === 'rush' && this.shapes.length > 1) {
+            if (!window.teamCharacters.draw(ctx, 'defender', this.defender.x - 20, this.defender.y - 40, 90, 100)) {
+            ctx.fillStyle = '#ffad75';
+            ctx.fillRect(this.defender.x, this.defender.y, 50, 50);
+            ctx.fillStyle = '#121d2c';
+            ctx.font = 'bold 26px Arial';
+            ctx.fillText('D', this.defender.x + 25, this.defender.y + 25);
+            }
+        }
         for (const shape of this.shapes) {
             if (shape.name === 'Main') this.drawJersey(shape);
             else this.drawFootball(shape);
         }
-        if (this.shapes.length === 1) {
-            ctx.fillStyle = '#002b35e8';
+        if (this.shapes.length === 1 && !this.carrying) {
+            ctx.fillStyle = window.teamArcade.tint('#002b35e8');
             ctx.fillRect(60, 300, 480, 180);
             ctx.fillStyle = '#ffffff';
             ctx.font = 'italic 800 46px Arial';
-            ctx.fillText('FLY EAGLES FLY!', 300, 365);
+            ctx.font = 'italic 800 30px Arial';
+            ctx.fillText(`${window.teamArcade.team.nickname.toUpperCase()} WIN!`, 300, 365);
             ctx.font = '20px Arial';
-            ctx.fillText('All footballs collected. Go Birds.', 300, 420);
+            ctx.fillText(`All footballs collected. Go ${window.teamArcade.team.nickname}.`, 300, 420);
         }
     }
 
     drawJersey(shape) {
         const ctx = this.ctx;
+        if (window.teamCharacters.draw(ctx, 'runner', shape.x - 25, shape.y - 50, 100, 112)) return;
         ctx.save();
         ctx.translate(shape.x, shape.y);
-        ctx.shadowColor = '#001c2c80';
+        ctx.shadowColor = window.teamArcade.tint('#001c2c80');
         ctx.shadowBlur = 10;
         ctx.shadowOffsetY = 4;
-        ctx.fillStyle = '#004c54';
-        ctx.strokeStyle = '#edf4f3';
+        ctx.fillStyle = window.teamArcade.team.primary;
+        ctx.strokeStyle = window.teamArcade.tint('#edf4f3');
         ctx.lineWidth = 2;
         ctx.beginPath();
         ctx.moveTo(12, 2);
@@ -142,12 +158,17 @@ class Game {
         ctx.shadowOffsetY = 0;
         ctx.fillStyle = '#ffffff';
         ctx.font = '800 26px Arial';
-        ctx.fillText('1', 25, 29);
+        ctx.fillText(String(window.teamArcade.personality.runner.number), 25, 29);
         ctx.restore();
     }
 
     drawFootball(shape) {
         footballArt.draw(this.ctx, shape.x + 25, shape.y + 25, 52, -Math.PI / 4);
+        if (this.rule.variant === 'gates') {
+            this.ctx.fillStyle = '#fff';
+            this.ctx.font = 'bold 22px Arial';
+            this.ctx.fillText(shape.x === 130 ? '1' : '2', shape.x + 25, shape.y - 10);
+        }
     }
 
     handleInput(event) {
@@ -160,17 +181,26 @@ class Game {
     }
 
     move(direction) {
-        if (this.shapes.length === 1) return;
+        if (this.shapes.length === 1 && !this.carrying) return;
         const player = this.shapes[0];
+        const stride = this.rule.variant === 'ice' ? 40 : this.carrying ? 10 : 20;
+        this.steps++;
         switch (direction) {
-            case 'ArrowUp': player.y -= 20; break;
-            case 'ArrowLeft': player.x -= 20; break;
-            case 'ArrowDown': player.y += 20; break;
-            case 'ArrowRight': player.x += 20; break;
+            case 'ArrowUp': player.y -= stride; break;
+            case 'ArrowLeft': player.x -= stride; break;
+            case 'ArrowDown': player.y += stride; break;
+            case 'ArrowRight': player.x += stride; break;
             default: return;
         }
         player.x = Math.max(0, Math.min(player.x, this.canvas.width - player.width));
         player.y = Math.max(0, Math.min(player.y, this.canvas.height - player.height));
+        if (this.rule.variant === 'rush') {
+            const phase = this.steps % 48;
+            this.defender.x = 30 + (phase <= 24 ? phase : 48 - phase) * 20;
+            if (this.checkCollision(player, this.defender)) {
+                player.x = 270; player.y = 660;
+            }
+        }
         this.update();
     }
 
@@ -183,20 +213,28 @@ class Game {
 
     update() {
         for (let i = this.shapes.length - 1; i >= 1; i--) {
+            if (this.rule.variant === 'return' && this.carrying) continue;
+            if (this.rule.variant === 'gates' && i !== 1) continue;
             if (this.checkCollision(this.shapes[0], this.shapes[i])) {
-                this.score++;
+                if (this.rule.variant === 'return') this.carrying = true;
+                else this.score++;
                 this.shapes.splice(i, 1);
             }
         }
+        if (this.carrying && this.shapes[0].y >= 720) {
+            this.carrying = false;
+            this.score++;
+        }
         this.scoreDisplay.textContent = this.score.toString();
-        this.statusDisplay.textContent = this.score === 2 ? 'All footballs collected. Fly Eagles Fly!' :
-            this.score === 1 ? 'One down. One football to go!' : 'Take the field. Two footballs to go.';
+        this.statusDisplay.textContent = this.score === 2 ? `All footballs collected. ${window.teamArcade.team.motto}` :
+            this.score === 1 ? 'One down. One football to go!' : `Run with ${window.teamArcade.personality.runner.name}. Two footballs to go.`;
+        if (this.carrying) this.statusDisplay.textContent = 'Football secured. Carry it back to the HOME end zone at the bottom.';
         if (this.score === 2 && !this.recordedWin) {
             this.recordedWin = true;
             try {
-                const stored = Number(localStorage.getItem('fieldRunWins'));
+                const stored = Number(window.teamArcade.storage.getItem('fieldRunWins'));
                 const wins = Number.isSafeInteger(stored) && stored >= 0 ? stored : 0;
-                localStorage.setItem('fieldRunWins', Math.min(wins + 1, Number.MAX_SAFE_INTEGER).toString());
+                window.teamArcade.storage.setItem('fieldRunWins', Math.min(wins + 1, Number.MAX_SAFE_INTEGER).toString());
             } catch {
                 // Winning still works if browser storage is unavailable.
             }

@@ -1,0 +1,62 @@
+{
+    "team": "buccaneers",
+    "level": 0,
+    "sourceIndex": 512,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/buccaneers-512.jpg",
+    "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/gsbb9cexbb4elw9eiz7l.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/buccaneers.png",
+    "player": "Baker Mayfield",
+    "face": [
+        612.57,
+        585.5,
+        49.19,
+        54.83
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real buccaneers crowd photograph to edit. Image 2 is Baker Mayfield's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Baker Mayfield, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual buccaneers fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Blending priority: all the fans at this background depth are OUT OF FOCUS. Baker must have exactly the same soft lens focus as the surrounding faces. His face must not be a sharp studio portrait or a face sticker. Let him have a natural mild smile and a three-quarter gaze toward the event. Preserve believable shoulders/neck connected to his red fan shirt, partial occlusion and the small size of the boxed spectator.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-5c908bba-fcf5-4561-9207-353d225c546f.png",
+    "status": "generated",
+    "revision": 2,
+    "guideVersion": 2,
+    "src": "assets/photo-search/rounds/buccaneers-ai-v1-1.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.4654363229286157,
+                0.7779384576552226,
+                0.05868248944077199,
+                0.1365422896447014
+            ],
+            "similarity": 0.35975675127792783,
+            "distance": 0.0030132652657473068
+        },
+        {
+            "target": [
+                0.44498571651403984,
+                0.686896306928742,
+                0.05239189531244155,
+                0.12667600366184995
+            ],
+            "similarity": 0.0067503031250453205,
+            "distance": 0.10011184170528029
+        },
+        {
+            "target": [
+                0.5263973209618381,
+                0.7185201594224011,
+                0.05172566299803526,
+                0.11455372436393718
+            ],
+            "similarity": -0.03839710874854063,
+            "distance": 0.08979423485610588
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.4654363229286157,
+        0.7779384576552226,
+        0.05868248944077199,
+        0.1365422896447014
+    ]
+}

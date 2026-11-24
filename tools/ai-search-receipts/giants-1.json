@@ -1,0 +1,60 @@
+{
+    "team": "giants",
+    "level": 0,
+    "sourceIndex": 549,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/giants-549.jpg",
+    "sourcePage": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/giants/l0l3x99x01y1ienv4hv4.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/giants.png",
+    "player": "Malik Nabers",
+    "face": [
+        177.72,
+        64.81,
+        41.29,
+        47.75
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real giants crowd photograph to edit. Image 2 is Malik Nabers's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Malik Nabers, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual giants fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-7ef9207f-5fb4-44c4-9b17-7fb0059f6115.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/giants-ai-v1-1.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.13300202317215037,
+                0.06313124321219012,
+                0.047312146008870265,
+                0.1098815772029216
+            ],
+            "similarity": 0.737447013329529,
+            "distance": 0.0020558706065900182
+        },
+        {
+            "target": [
+                0.19457067222686475,
+                0.33772617546835565,
+                0.04571770093087377,
+                0.11119054617967922
+            ],
+            "similarity": 0.13040545229648615,
+            "distance": 0.28114419180635575
+        },
+        {
+            "target": [
+                0.1594682564119403,
+                0.0,
+                0.04148210575706083,
+                0.07961150198763159
+            ],
+            "similarity": -0.04469111966136552,
+            "distance": 0.0913781403597573
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.13300202317215037,
+        0.06313124321219012,
+        0.047312146008870265,
+        0.1098815772029216
+    ]
+}

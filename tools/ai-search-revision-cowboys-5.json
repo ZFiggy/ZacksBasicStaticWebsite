@@ -1,0 +1,20 @@
+{
+    "team": "cowboys",
+    "level": 4,
+    "sourceIndex": 8,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/cowboys-8.jpg",
+    "sourcePage": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/ixwykfmn5ijyza6333hy.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/cowboys.png",
+    "player": "Dak Prescott",
+    "face": [
+        1169.31,
+        151.69,
+        35.12,
+        45.66
+    ],
+    "prompt": "Use case: precise photographic compositing for a difficult hidden-player game. Image 1 is the ORIGINAL crowd photo and the only edit target. Image 2 is Dak Prescott's identity reference. Image 3 is a placement guide showing the SAME original photo with a CYAN RECTANGLE around ONE SMALL BACK-ROW ADULT. Image 4 is the original Where's Jalen difficulty/style reference. Replace ONLY the SMALL BACK-ROW ADULT INSIDE THE CYAN RECTANGLE with recognizable Dak Prescott naturally standing in that exact spot. Keep his head as small as the original boxed spectator, approximately 35 pixels wide in the 1280px photo. Preserve the foreground people COMPLETELY: do not change the large foreground men, their faces, bodies, poses, caps or outfits. Dak's body is largely hidden behind those foreground people; show only anatomically connected head/neck/shoulder portions that would naturally be visible at this depth. Match the original boxed spectator's pose, local light, focus, shadows, grain, clothing and partial occlusion. He must feel physically present, never a floating or pasted face. Recognizable eyes/nose/beard but candid expression; do not clone the studio portrait. Preserve all unrelated photo content, framing, signs, buildings and crowd. Do NOT promote Dak to the front row. Do NOT enlarge his head. Do NOT duplicate him. Do NOT include the cyan rectangle or any marker in the output. Output ONLY one full edited original landscape photograph.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-dbae0ff7-fb4f-4507-95d2-5417644457a4.png",
+    "status": "generated",
+    "revision": 2
+}

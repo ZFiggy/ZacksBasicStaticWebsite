@@ -1,0 +1,125 @@
+{
+    "team": "seahawks",
+    "level": 3,
+    "sourceIndex": 2610,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/seahawks-2610.jpg",
+    "sourcePage": "https://www.seahawks.com/photos/photos-12s-take-over-allegiant-stadium-for-seahawks-week-10-matchup-at-las-vegas-raiders",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/seahawks/ladvzayflpnuizertfcs.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/seahawks.png",
+    "player": "DK Metcalf",
+    "face": [
+        217.77,
+        151.77,
+        35.21,
+        42.41
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real seahawks crowd photograph to edit. Image 2 is DK Metcalf's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable DK Metcalf, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual seahawks fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+    "guideVersion": 2,
+    "guideBounds": [
+        214,
+        142,
+        257,
+        199
+    ],
+    "styleReference": "public/assets/search-level-5-v2.jpg",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/seahawks-ai-v2-4.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/seahawks-ai-v2-4.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.16202690530621836,
+                0.18611435277049018,
+                0.04541874324305776,
+                0.10253316005662194
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.16202690530621836,
+        0.18611435277049018,
+        0.04541874324305776,
+        0.10253316005662194
+    ],
+    "history": [
+        {
+            "team": "seahawks",
+            "level": 3,
+            "sourceIndex": 2610,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/seahawks-2610.jpg",
+            "sourcePage": "https://www.seahawks.com/photos/photos-12s-take-over-allegiant-stadium-for-seahawks-week-10-matchup-at-las-vegas-raiders",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/seahawks/ladvzayflpnuizertfcs.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/seahawks.png",
+            "player": "DK Metcalf",
+            "face": [
+                217.77,
+                151.77,
+                35.21,
+                42.41
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real seahawks crowd photograph to edit. Image 2 is DK Metcalf's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable DK Metcalf, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual seahawks fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+            "guideVersion": 2,
+            "guideBounds": [
+                214,
+                142,
+                257,
+                199
+            ],
+            "styleReference": "public/assets/search-level-5-v2.jpg",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-dd47d184-499d-436d-8cad-7b2c7a2632bb.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/seahawks-ai-v1-4.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.16202690530621836,
+                        0.18611435277049018,
+                        0.04541874324305776,
+                        0.10253316005662194
+                    ],
+                    "similarity": 0.48891629758850286,
+                    "distance": 0.0011667940059781412
+                },
+                {
+                    "target": [
+                        0.22677537997943933,
+                        0.1659727724908389,
+                        0.02606370090867913,
+                        0.06479971923179505
+                    ],
+                    "similarity": 0.18740244020955288,
+                    "distance": 0.06849666588439185
+                },
+                {
+                    "target": [
+                        0.23869282455535598,
+                        0.22715890724271315,
+                        0.03176870031219919,
+                        0.07392183196405296
+                    ],
+                    "similarity": 0.1607385311583016,
+                    "distance": 0.0755002373432275
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.16202690530621836,
+                0.18611435277049018,
+                0.04541874324305776,
+                0.10253316005662194
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "seahawks-4",
+    "focusCorrection": {
+        "sigmaPixels": 1.1,
+        "maskFeatherPixels": 9.872218031311036,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

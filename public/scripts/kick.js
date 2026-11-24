@@ -7,8 +7,9 @@ class FieldGoalGame {
         this.marker = document.getElementById('kick-marker');
         this.frame = null;
         this.best = 0;
+        this.rule = window.teamArcade.ruleFor('kick');
         try {
-            const stored = Number(localStorage.getItem('fieldGoalBest'));
+            const stored = Number(window.teamArcade.storage.getItem('fieldGoalBest'));
             if (Number.isInteger(stored) && stored >= 0 && stored <= 15 && stored % 3 === 0) this.best = stored;
         } catch {
             // A new round is still playable when browser storage is blocked.
@@ -43,18 +44,19 @@ class FieldGoalGame {
         this.setWind();
         this.button.disabled = false;
         this.button.textContent = 'Start meter';
-        this.status.textContent = 'Press Start to line up your first kick.';
+        this.status.textContent = `Line it up with ${window.teamArcade.personality.kicker.name}. Five kicks to shine.`;
         this.updateDisplay();
         this.draw();
     }
 
     get zoneWidth() {
-        return Math.max(0.065, 0.16 - this.attempts * 0.023);
+        return Math.max(0.055, 0.12 - this.attempts * 0.016);
     }
 
     setWind() {
         this.wind = (Math.random() * 2 - 1) * (0.09 + this.attempts * 0.018);
-        this.zoneCenter = 0.5 - this.wind;
+        this.baseZoneCenter = 0.5 - this.wind;
+        this.zoneCenter = this.baseZoneCenter;
     }
 
     updateDisplay() {
@@ -73,11 +75,16 @@ class FieldGoalGame {
             this.lastResult = null;
             this.shotProgress = 0;
             this.startedAt = performance.now();
+            this.crossedMidfield = false;
             this.position = 0;
             this.button.textContent = 'Kick!';
-            this.status.textContent = 'Time your kick. Stop the marker inside the green zone.';
+            this.status.textContent = 'Time your kick. Stop the marker inside the highlighted zone.';
             this.tick(this.startedAt);
         } else if (this.state === 'running') {
+            if (this.rule.variant === 'steady' && !this.crossedMidfield) {
+                this.status.textContent = 'Let the marker cross midfield before kicking.';
+                return;
+            }
             // Sample the same meter position that is currently shown on screen.
             this.lastResult = Math.abs(this.position - this.zoneCenter) <= this.zoneWidth / 2;
             this.targetX = 300 + (this.position - this.zoneCenter) * (220 / this.zoneWidth);
@@ -97,7 +104,13 @@ class FieldGoalGame {
     tick(now) {
         if (this.state === 'running') {
             const phase = (now - this.startedAt) / (950 - this.attempts * 100) % 2;
-            this.position = phase <= 1 ? phase : 2 - phase;
+            const sweep = phase <= 1 ? phase : 2 - phase;
+            this.position = this.rule.variant === 'accelerate' ? sweep * sweep : this.rule.variant === 'ice' ? Math.pow(sweep, 0.55) : sweep;
+            if (this.position >= 0.5) this.crossedMidfield = true;
+            if (this.rule.variant === 'gust') {
+                this.zoneCenter = this.baseZoneCenter + Math.sin((now - this.startedAt) / 450) * 0.12;
+                document.getElementById('kick-zone').style.left = `${this.zoneCenter * 100}%`;
+            }
             this.marker.style.left = `${this.position * 100}%`;
             this.draw();
         } else if (this.state === 'flight') {
@@ -118,7 +131,7 @@ class FieldGoalGame {
         if (this.points > this.best) {
             this.best = this.points;
             try {
-                localStorage.setItem('fieldGoalBest', this.best.toString());
+                window.teamArcade.storage.setItem('fieldGoalBest', this.best.toString());
             } catch {
                 // Keep this session's personal best even without storage.
             }
@@ -138,11 +151,11 @@ class FieldGoalGame {
     draw() {
         const ctx = this.ctx;
         const sky = ctx.createLinearGradient(0, 0, 0, 380);
-        sky.addColorStop(0, '#062735');
-        sky.addColorStop(1, '#17646b');
+        sky.addColorStop(0, window.teamArcade.tint('#062735'));
+        sky.addColorStop(1, window.teamArcade.team.primary);
         ctx.fillStyle = sky;
         ctx.fillRect(0, 0, 600, 650);
-        ctx.fillStyle = '#8eb6b746';
+        ctx.fillStyle = window.teamArcade.tint('#8eb6b746');
         for (let row = 0; row < 4; row++) {
             for (let x = 12; x < 600; x += 20) ctx.fillRect(x, 235 + row * 17, 8, 6);
         }
@@ -163,12 +176,15 @@ class FieldGoalGame {
         ctx.moveTo(240, 330); ctx.lineTo(70, 650);
         ctx.moveTo(360, 330); ctx.lineTo(530, 650);
         ctx.stroke();
-        ctx.fillStyle = '#004c54';
+        ctx.fillStyle = window.teamArcade.team.primary;
         ctx.fillRect(0, 310, 600, 45);
         ctx.fillStyle = '#e6f1ee';
         ctx.textAlign = 'center';
         ctx.font = 'italic 800 25px Arial';
-        ctx.fillText('PHILADELPHIA EAGLES', 300, 340);
+        ctx.font = 'italic 800 22px Arial';
+        ctx.fillText(window.teamArcade.team.name.toUpperCase(), 300, 340);
+        window.teamArt.gameScene(ctx, 'kick', 0, 0, 600, 310, 0.65);
+        window.teamArt.atmosphere(ctx, 600, 330, this.position * 100);
         ctx.strokeStyle = '#ffda65';
         ctx.lineWidth = 9;
         ctx.lineCap = 'round';
@@ -177,12 +193,17 @@ class FieldGoalGame {
         ctx.moveTo(300, 260); ctx.lineTo(300, 350);
         ctx.stroke();
         const progress = this.shotProgress;
+        ctx.save();
+        ctx.translate(225, 565);
+        ctx.rotate(this.state === 'flight' ? -Math.sin(progress * Math.PI) * 0.12 : 0);
+        window.teamCharacters.draw(ctx, 'kicker', -70, -100, 150, 170);
+        ctx.restore();
         const ballX = 300 + ((this.targetX ?? 300) - 300) * progress;
         const ballY = 570 - 365 * progress - 135 * Math.sin(Math.PI * progress);
         const size = 1 - progress * 0.5;
         footballArt.draw(ctx, ballX, ballY, 56 * size, -0.6 + progress * 5);
         if (this.lastResult !== null && this.state !== 'flight') {
-            ctx.fillStyle = '#002e36e8';
+            ctx.fillStyle = window.teamArcade.tint('#002e36e8');
             ctx.fillRect(90, 30, 420, 65);
             ctx.fillStyle = this.lastResult ? '#b7f5cc' : '#ffffff';
             ctx.font = 'italic 800 32px Arial';

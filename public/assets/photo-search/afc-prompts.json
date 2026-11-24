@@ -1,0 +1,308 @@
+{
+    "bills": {
+        "initial": "Photographic compositing hiddenperson game: EXACT3columns2rows sixequalphotoatlas,no captions/gutters/markers. Image1 real BuffaloBills crowdedstand photograph MUST remain actual sourcephotograph (fans, aisles, red/bluejerseys, sunlight/shadow), notnewimaginedcrowd. Image2identity JIMKELLY. First5panels each are different modest crops/edits ofrealimage1 with exactlyONE JimKelly naturallyinserted amongfans at believablehuman scale, face12\u201325pixelsatmost, bodypartlyhidden. Five targetlocations spreadacrossleft,middle,right rows, neverduplicateposition. Five outfits royalbluepolo, redcap, whiteBillsjersey, grayhoodie, bluejacket. Recognizable youngplaying-era JimKellyface matchedlightgrain. Don't pasteoutlinedheadshot, don'tdrawillustration. Sixth bottomright photographicJimKellyportrait fromreference. Keep exact3x2 equaltiles.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/bills.jpg",
+                "sourcePage": "https://www.buffalobills.com/photos/fan-photos-bills-vs-ravens-week-8",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bills/fz1kwtumqvyrf3cqixbe.jpg",
+                "credit": "Bjorn Franke/Buffalo Bills",
+                "photoAlt": "Buffalo Bills vs Baltimore Ravens, Regular Season, November 01, 2026 at Highmark Stadium."
+            },
+            "player": {
+                "file": "assets/player-references/bills.jpg",
+                "sourcePage": "https://www.profootballhof.com/players/jim-kelly",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/hof/xnpewaoykvgfzis9ovf4",
+                "credit": "Pro Football Hall of Fame / NFL"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "dolphins": {
+        "initial": "Use case: compositing, identity-preserve. Production website asset: ONE photographic hidden-person game atlas in EXACTLY THREE COLUMNS by TWO ROWS, six equal rectangular photo tiles, edge-to-edge with no gutters, captions, borders or words. Input image 1 is the REAL Miami Dolphins/Jets stadium tailgate photograph to EDIT, not a style reference. Input image 2 is the photographic face identity reference of playing-era DAN MARINO; preserve his actual face. Tiles 0 through 4, in reading order, are FIVE different edits/crops of input photo 1. Keep real people, actual clothing, location, flags, light, and camera realism. Crop into the populated right-side crowd as needed to fill each tile with people; do NOT invent an illustrated crowd or replace the real scene. Insert exactly ONE naturally sized Dan Marino among the crowd in each of those five tiles, as if standing at that tailgate, his body/shoulders partly occluded by the actual surrounding people. His head plus visible upper torso should be only about 12\u201318% of each tile height, NOT a giant foreground face. Different subtle outfits per tile: aqua jersey, navy cap and gray sweatshirt, white polo, aqua cap and navy jacket, orange-collar dark shirt. Aim for local tile centers respectively (0.24,0.35), (0.70,0.40), (0.46,0.62), (0.83,0.28), (0.56,0.22), while keeping him grounded naturally among real people. His face must be recognizable from image2, with ordinary calm expressions, matched grain, perspective, exposure, shadows and focus. No white outline, glow, marker, arrow, label, enlarged head, plastic face, or cartoon rendering. Bottom-right tile 5 is a clean photographic crop of ONLY the face reference portrait from image2, no crowds, so the player can learn his face. Exact 3x2 atlas geometry is essential. All tiles use photographic realism and the first FIVE must remain visibly edits of the supplied real tailgate photo.",
+        "revision": "Precise compositing correction to image1 (the 3x2 Dan Marino photographic search atlas). Keep the exact 3-column by 2-row atlas and keep the bottom-right reference portrait unchanged. The FIVE search panels are currently FAR TOO EASY: Marino is a huge foreground man. In each of those first five panels, REMOVE that giant foreground Marino completely and restore ordinary crowd in the vacated space. Reinsert ONLY ONE Marino much farther back, with his FACE no larger than 3 percent of a panel's height (about one tenth of its current face size); his visible head plus upper torso together must be under 12 percent of a panel's height. He must be the SAME SIZE as other distant crowd members around him, with at least HALF his torso hidden behind real foreground people. The real crowd is image2, preserve its actual stadium/tailgate people and environment; do not replace it with a newly imagined crowd. The face identity is image3. Tiny but genuinely recognizable young Dan Marino, not a small copy of a headshot in a rectangular box. Spread his positions between five different distant crowd gaps; avoid the large front row and avoid giant central faces. Use aqua jersey for panel0, gray shirt and navy cap for panel1, white polo for panel2, navy jacket/aqua cap for panel3, navy shirt/orange collar for panel4. The change requested is SMALLER AND FARTHER BACK, NOT just a narrower crop of the same giant man. Preserve photographic lighting, grain, actual people, and face anatomy. No circles, labels, glow, arrows, outlines, numbers, or text overlays. Again, the target FACE is at most 3 percent of each panel HEIGHT, not 30 percent as in image1.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/dolphins.jpg",
+                "sourcePage": "https://www.miamidolphins.com/photos/2026-miami-dolphins-at-new-york-jets-fan-cam",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/dolphins/bqmwvzvm3octwacxhyyq.jpg",
+                "credit": "www.miamidolphins.com / credited gallery photographer",
+                "photoAlt": "Miami Dolphins photography from an NFL football game against the New York Jets on Sunday, Oct. 25, 2026 in East Rutherford, NJ. (Tomas Diniz Santos/Miami Dolphins via AP)"
+            },
+            "player": {
+                "file": "assets/player-references/dolphins.jpg",
+                "sourcePage": "https://www.profootballhof.com/players/dan-marino",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/v1777408802/hof/nkkubxmifbnsvqtg87n4",
+                "credit": "Pro Football Hall of Fame / NFL"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "patriots": {
+        "initial": "Use case: photographic edit/composite hidden-person game. Make EXACT3columns2rows atlas, six equal edge-to-edge tiles, no labels/gutters/markers. Input1 is actual NewEnglandPatriots crowded stadium stand photograph: preserve its actual people, winterclothes, bleachers, overheadsteelbeams and daylight; photoediting NOT new imaginedcrowd. Input2 is TOMBRADY face identity reference. In EACH of first FIVEpanels edit exactlyONE small naturally blended Patriots-era TomBrady, withouthelmet, into actual crowded backrows. FACE AT MOST3percent panelheight; visible head/torso LESS THAN12percent panelheight, shoulderspartlyhiddenbehindfans. NEVER foreground, gianthead, flatheadshotrectangle, illustration, oroutline. Keep originalwidephoto view withmanyrealfansvisible; don'tzoomcrop onto player. Five subtlydifferent crops/views sameactualphoto, targetdifferentlocations; outfits navypolo, grayhoodie, redjacket, navycap, whitepolo. Maintain accurate TomBrady face matched photo lighting/grain/focus. Tile6bottomright clean unhelmeted photographic TomBrady headportrait tolearnidentity. Exactly3x2photographicatlas.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/patriots.jpg",
+                "sourcePage": "https://www.patriots.com/photos/patriots-thank-the-fans-284901",
+                "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/patriots/hx076xiunngwde0sxrmi.jpg",
+                "credit": "www.patriots.com",
+                "photoAlt": "q4_lucky_row.jpg"
+            },
+            "player": {
+                "file": "assets/player-references/patriots.jpg",
+                "sourcePage": "https://www.patriotshalloffame.com/hall_of_famer/tom-brady/",
+                "imageUrl": "https://www.patriotshalloffame.com/wp-content/uploads/CP100117_EJA0059a-scaled.jpg",
+                "credit": "The Patriots Hall of Fame / New England Patriots"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "jets": {
+        "initial": "Use case: compositing, identity-preserve. Asset: photorealistic hidden-person game atlas. Output a large image with EXACT THREE COLUMNS and TWO ROWS of six equal edge-to-edge photo tiles, no gutters, text, captions, arrows, outlines or borders. Image 1 is a REAL New York Jets home stadium crowd photograph to EDIT; preserve the real people, raised phones, green clothing, location, stadium, and lighting, not an imagined replacement crowd. Image 2 is the playing-era photographic FACE IDENTITY reference of JOE NAMATH. The top row of 3 tiles and first 2 bottom-row tiles each show a DIFFERENT edit/crop of input photograph1 with exactly ONE naturally blended Joe Namath inserted among those real fans, in ordinary casual team clothing, matched photographic grain, focus, camera angle, shadows, occlusion and skin. He must have the actual handsome young Joe Namath face and dark hair from image2, not a generic man. Head plus visible upper torso only 12\u201318 percent of tile height, normal person scale; surrounding fans partly obscure shoulders/torso. Use five casual outfits: green jacket; white Jets polo; charcoal hoodie and green cap; green jersey; navy windbreaker. Keep each target at a different place, aim local tile centers (0.24,0.35), (0.70,0.40), (0.46,0.62), (0.83,0.28), (0.56,0.22) when those locations can be occupied naturally by real crowd members. Crop toward people, vary crops subtly, but retain the recognizable source photograph, not five newly invented scenes. Bottom-right tile6 is a clean photographic head-and-shoulders portrait crop of Joe Namath from the second image, to teach his face. Do NOT paste headshots as flat rectangles into a crowd; render natural complete human figures standing among it. Never draw cartoon fans, giant heads, face outlines, player labels, or markers. Strict 3x2 tile geometry, photographic realism, and the same face identity are essential.",
+        "revision": "Use case: precise photographic compositing correction. Preserve exact 3-column 2-row atlas layout and bottom-right Joe Namath photographic portrait. First five tiles currently have giant foreground Namath figures. REMOVE those foreground Namath figures entirely and restore ordinary fans/photographed crowd; then reinsert exactly ONE young playing-era Joe Namath per tile far back among the crowd, with FACE ONLY THREE PERCENT of panel height and visible head/upper torso BELOW TWELVE PERCENT panel height. His face must be same size as distant crowd members, partly obscured by other people, never foreground. Use original real Jets crowd photo image2 as scene edit source, identity reference image3. Keep real stadium, fans and phones; no illustrated or imagined replacement scene. Five different outfits green jacket, white polo, grayhoodie,greenjersey,navycoat. Each inserted Namath in different part of actual crowded people. Preserve face identity and photographic lighting. Do not zoom in, crop in or enlarge the player; show original wider crowd. No captions outlines or markers. EXACT SIX equal tiles 3columns2rows.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/jets.jpg",
+                "sourcePage": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/hwmxerp73dylitby6ddg.png",
+                "credit": "www.newyorkjets.com / credited gallery photographer",
+                "photoAlt": "fan thumb 1"
+            },
+            "player": {
+                "file": "assets/player-references/jets.jpg",
+                "sourcePage": "https://www.profootballhof.com/players/joe-namath",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/hof/kaxiy8v7kikmdqbqxjfd",
+                "credit": "Pro Football Hall of Fame / NFL"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "ravens": {
+        "initial": "Photographiccompositinggame atlas EXACT3columns2rows sixequaltiles, no textguttermarkers. Image1actual BaltimoreRavens crowdphotograph preserveactualpeople, seats,purplefanclothes and lighting notnewimaginedcrowd. Image2JOEFLACCO photographic faceidentity only(ignorecurrentjersey,useBaltimoreclothes). First5tiles eachcontain exactlyONE Baltimore-era JoeFlacco naturallyinserted amongadultfans atnormalscale partlyoccluded shoulders, NOT giantforegroundperson orflatheadshot. Differenttargetlocationineachtile: leftback,middleback,rightback,leftmiddle,rightmiddle; casualpurplepolo, blackcap, grayhoodie, whitepolo, purplejacket. Modestcroppedviews ofactualsourcephoto, maintainrecognizableactualfans. Sixthbottomright clean JoeFlaccophotographic portrait wearingplainpurplepolo, nohelmet. Matchfaceidentity,photographicgrain/focus, noillustration. Exactly3x2geometry.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/ravens.jpg",
+                "sourcePage": "https://www.baltimoreravens.com/photos/ravens-fans-flock-to-stadium-practice-17415895",
+                "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/ravens/janurzb0bfb3iikjn9p5.jpg",
+                "credit": "www.baltimoreravens.com",
+                "photoAlt": "No Title"
+            },
+            "player": {
+                "file": "assets/player-references/ravens.png",
+                "sourcePage": "https://www.espn.com/nfl/player/_/id/11252/joe-flacco",
+                "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/11252.png",
+                "credit": "ESPN media player portrait; identity reference only"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "bengals": {
+        "initial": "Photographiccompositinggame atlas EXACT3columns2rows sixequaltiles,no textguttermarkers. Image1actual CincinnatiBengals crowdedfanphotograph preserveactualpeople,barrier,pyroflames,stadium andsunlight notnewimaginedcrowd. Image2 KENANDERSON faceidentity. First5panels eachcontain exactlyONE youngplaying-era KenAnderson withouthelmet naturallyinserted amongbackrowfans, partlyoccludedshoulders, normalheadsize matchedneighbors. Differenttargetlocationperpanel leftback,middleback,rightback,leftmiddle,rightmiddle. Outfits blackpolo, orangecap, grayhoodie, blackjacket, whitepolo. Differentmodestcropofsameactualphotoeachpanel. MaintainAndersonaccurateface anddarkhair matchedphotograin/light, noflatheadshotrectangle/cartoon/outline. Sixthbottomright cleanphotographicunhelmetedKenAndersonportraitfromreference, removeeditorialtext. EXACT3x2.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/bengals.jpg",
+                "sourcePage": "https://www.bengals.com/photos/around-the-jungle-for-salute-to-service-week-9-against-raiders-fan-photos",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bengals/zejwscpon9ru2fgpo5dj.jpg",
+                "credit": "Erik Schelkun",
+                "photoAlt": "ES1_9255"
+            },
+            "player": {
+                "file": "assets/player-references/bengals.jpg",
+                "sourcePage": "https://www.bengals.com/team/ring-of-honor/kenanderson",
+                "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_mobile/f_auto/bengals/irfpfdl2blrpadmzeoer.jpg",
+                "credit": "Cincinnati Bengals"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "browns": {
+        "initial": "Photographiccompositinggame atlas EXACT3columns2rows sixequaltiles,no textguttermarkers. Image1actual ClevelandBrowns fanphotograph preserveactualwomen,clothes,cars,andoutdoorlight notnewimaginedcrowd. Image2 BERNIEKOSAR faceidentity. First5panels eachcontain exactlyONE youngplaying-era BernieKosar withouthelmet naturallyinserted behindfanrow, partlyoccludedshoulders, normalheadsize matchedneighbors. Differenttargetlocationperpanel leftback,middleback,rightback,leftmiddle,rightmiddle. Outfits brownpolo, orangecap, grayhoodie, brownjacket, whitepolo. Differentmodestcropofsameactualphotoeachpanel. MaintainKosaraccurateface,longdarkhair matchedphotograin/light, noflatheadshotrectangle/cartoon/outline. Sixthbottomright cleanphotographicunhelmetedBernieKosarportraitfromreference. EXACT3x2.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/browns.jpg",
+                "sourcePage": "https://www.clevelandbrowns.com/photos/best-fans-in-the-nfl-11816001",
+                "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/browns/zr86vhdy370mxdrgyl1s.jpg",
+                "credit": "Clevelandbrowns.com",
+                "photoAlt": "Best fans in the NFL."
+            },
+            "player": {
+                "file": "assets/player-references/browns.jpg",
+                "sourcePage": "https://www.clevelandbrowns.com/photos/photos-the-history-of-no-19-17136368",
+                "imageUrl": "https://static.clubs.nfl.com/image/private/t_new_photo_album/f_auto/browns/rhai0sp26gne4n7z6y2i.jpg",
+                "credit": "Cleveland Browns archive"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "steelers": {
+        "initial": "Use case: photographic edit/composite hidden-person game. Make EXACT3columns2rows atlas, six equal edge-to-edge tiles, no labels/gutters/markers. Input1 is actual Pittsburgh Steelers crowded training camp photograph: preserve its real people, barrier, grassy hill, trees, lighting; this is photo editing NOT a new crowd generation. Input2 is young TERRY BRADSHAW face identity reference. In EACH of first FIVE panels edit exactlyONE small naturally blended playing-era Terry Bradshaw into actual crowd, at SAMEscale as back-row people. FACE must be at MOST3percent of panelheight; visible head/torso LESS THAN12percent of panelheight, shoulders/body partlyhiddenbehindotherfans. NEVER foreground, gianthead, cutoutrectangle, illustration, or outline. Keep wide original photograph view with many realfans visible; don'tcropin on player. Five subtle differing crop/views ofsameactualphoto and differenttargetlocations across backrows; outfits blackpolo, yellowtee, graycap, Steelerswindbreaker, blackjersey. Need recognizable blond Bradshaw face natural photo matching grain/light/focus. Tile6 bottomright: clean photographicportrait from identityreference2. Exactly3x2 photorealistic atlas.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/steelers.jpg",
+                "sourcePage": "https://www.steelers.com/photos/photos-best-of-fans-at-steelers-camp-x2048",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/steelers/d2to98b5pkp3pqjrdg95.jpg",
+                "credit": "Jordan Perez/Pittsburgh Steelers",
+                "photoAlt": "trains at Saint Vincent College during the 2026 Steelers Training Camp on Wednesday July 29, 2026 in Latrobe, PA. (Jordan Perez / Pittsburgh Steelers)"
+            },
+            "player": {
+                "file": "assets/player-references/steelers.jpg",
+                "sourcePage": "https://www.steelers.com/history/bios/bradshaw_terry",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/hof/iwkd4ofaeewu7gyx4xyj",
+                "credit": "Pro Football Hall of Fame / NFL"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "texans": {
+        "initial": "Photographiccompositinggame atlas EXACT3columns2rows sixequaltiles,no textguttermarkers. Image1actual HoustonTexans crowdedstandphotograph preserveactualpeople,paintedfans,seats,clothes,andlighting notnewimaginedcrowd. Image2 MATTSCHAUB faceidentity. First5panels eachcontain exactlyONE Texans-era MattSchaub naturallyinserted amongbackrowfans, partlyoccludedshoulders, normalheadsize matchedneighbors. Differenttargetlocationperpanel leftback,middleback,rightback,leftmiddle,rightmiddle. Outfits navypolo, redcap, grayhoodie, navyjacket, whitepolo. Differentmodestcropofsameactualphotoeachpanel. MaintainSchaubaccurateface matchedphotograin/light, noflatheadshotrectangle/cartoon/outline. Sixthbottomright cleanphotographicMattSchaubportraitfromreference inplainnavyshirt. EXACT3x2.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/texans.jpg",
+                "sourcePage": "https://www.houstontexans.com/photos/top-25-photos-fans-in-stands",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/texans/kgxga4clvpowbmtp7zet.jpg",
+                "credit": "Houston Texans / gallery photographer",
+                "photoAlt": "fans_cowboys"
+            },
+            "player": {
+                "file": "assets/player-references/texans.jpg",
+                "sourcePage": "https://www.houstontexans.com/photos/matt-schaub-s-texans-career-12792426",
+                "imageUrl": "https://static.clubs.nfl.com/image/private/t_new_photo_album/f_auto/texans/rivupyfne5hiflxwsimt.jpg",
+                "credit": "Houston Texans archive"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "colts": {
+        "initial": "Photographiccompositing hiddenperson game atlas EXACT3columns2rows sixequalphotopanels, no textguttermarkers. Input1actual IndianapolisColts fanphotograph preserve realpeople,theirjerseys, bluewhitecolors and lighting, notimaginednewcrowd. Input2 PEYTONMANNING identityreference. First5panels each contain exactlyONE Colts-era PeytonManning naturallystanding amongbackrowfans, normalperspectivescale partiallyoccludedshoulders, face same size asnearbyfans. Differenttargetlocationperpanel: upperleft,uppermiddle,upperright,middleleft,middleright. Fivecasualoutfits bluepolo, whitecap, grayhoodie, bluejacket, whitepolo. Actual Manning recognizable face matchedphotograin/light. No flatheadshot cutoutoutline orillustration. Sixthbottomright clean photographic PeytonManningportrait fromreference. Exact3x2grid.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/colts.jpg",
+                "sourcePage": "https://www.colts.com/photos/best-of-2025-fans",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/colts/uyr5jafnhq242147dmcn.jpg",
+                "credit": "\u00a9 Indianapolis Colts",
+                "photoAlt": "2025_1026_TEN_15986"
+            },
+            "player": {
+                "file": "assets/player-references/colts.jpg",
+                "sourcePage": "https://www.profootballhof.com/players/peyton-manning",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/hof/z4rxh0vi7mu9famtrsal",
+                "credit": "Pro Football Hall of Fame / NFL"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "jaguars": {
+        "initial": "Photographiccompositinggame atlas EXACT3columns2rows sixequaltiles,no textguttermarkers. Image1actual JacksonvilleJaguars fanphotograph preserveactualgroup,barrier,tent,trees,tealpom-poms anddaylight, notnewimaginedcrowd. Image2 MARKBRUNELL faceidentity only; showplaying-era adultMarkBrunell withdarkhair inJaguarstealordinaryclothes NOT Lions kit. First5panels eachcontain exactlyONE Brunell naturallyinserted behindfanrow standingnormalpersonscale partlyoccluded; differentpositions acrossbackrow eachpanel,left,middle,right,leftmiddle,rightmiddle. Outfits tealpolo, blackcap, whitepolo, tealjacket, graytee. Preserveoriginalrealpeople/photo look, matchgrain/light, nobigfloatinghead orflatrectangleorcartoon. Sixthbottomright cleannaturalphoto portrait ofplaying-eraMarkBrunell inplaintealpolo; identityreference face younger. Exactly3x2.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/jaguars.jpg",
+                "sourcePage": "https://www.jaguars.com/photos/jaguars-host-open-practice-for-fans-in-london",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jaguars/ddqyjn2utopw0qw6rctr.jpg",
+                "credit": "Chris Kim/Jacksonville Jaguars",
+                "photoAlt": "CK1_4757"
+            },
+            "player": {
+                "file": "assets/player-references/jaguars.jpg",
+                "sourcePage": "https://www.detroitlions.com/team/coaches-roster/mark-brunell",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_mobile/f_auto/lions/pj8yxl4tkte5p0e1doxe.jpg",
+                "credit": "Zack Silver / Detroit Lions, June 3 2024"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "titans": {
+        "initial": "Photographiccompositinggame atlas EXACT3columns2rows sixequaltiles,no textguttermarkers. Image1actual TennesseeTitans crowdedstandphotograph preserveactualfans,seats,bluejerseys,field anddaylight notnewimaginedcrowd. Image2 STEVEMCNAIR faceidentity. First5panels eachcontain exactlyONE playing-era SteveMcNair withouthelmet naturallyinserted amongbackrowfans, partlyoccludedshoulders, normalheadsize matchedneighbors. Differenttargetlocationperpanel leftback,middleback,rightback,leftmiddle,rightmiddle. Outfits navypolo, whitecap, grayhoodie, bluejacket, whitepolo. Differentmodestcropofsameactualphotoeachpanel. MaintaindistinctiveMcNairface/complexion,mustache, accurateidentitymatchedgrain/light, noflatheadshotrectangle/cartoon/outline. Sixthbottomright cleanphotographicunhelmetedSteveMcNairportraitfromreference. EXACT3x2.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/titans.jpg",
+                "sourcePage": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/titans/weymtgt6cazwph4ivkmx.jpg",
+                "credit": "Coral Scoles-Coburn/Tennessee Titans",
+                "photoAlt": "Tennessee Titans Fans during the game between the Tennessee Titans and the Jacksonville Jaguars at Nissan Stadium on November 15, 2026 in Nashville, TN. Photo By Coral Scoles-Coburn/Tennessee Titans"
+            },
+            "player": {
+                "file": "assets/player-references/titans.jpg",
+                "sourcePage": "https://www.nfl.com/photos/steve-mcnair-through-the-years-09000d5d807d15bc",
+                "imageUrl": "https://res.cloudinary.com/nflleague/image/private/t_new_photo_album/f_auto/league/c56xfmq1l3jxvkug5h4v.jpg",
+                "credit": "Scott Halleran / Allsport, via NFL"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "broncos": {
+        "initial": "Use case: photographic edit/composite hiddenperson game. Output EXACT THREE COLUMNS TWO ROWS, sixequalphoto tiles, no labels/gutters/markers. Image1 actual DenverBroncos fans at barrier must stay the same real crowd, orangeclothes, phones and daylight. Image2 JohnElway face identity. FirstFIVEtiles each contain exactlyONE playing-era JOHN ELWAY naturally photographed among fans behind foregroundrow; normalhuman scale no giantheads. Showoriginal wideview, preservepeople. Use differenttargetlocations eachtile: leftback, rightback, middleback, leftmiddle, rightmiddle, ordinarycasualoutfits navycap, orangepolo, whitepolo, navyjacket, graytee. Face must blend into crowd at normalheadsizes and lighting, bodypartlyoccluded. Neverpasteflatheadshotorillustration. NootherElways. Sixth bottomright cleanphotographicElwayportrait from reference. Six equalphotopanels EXACT3x2.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/broncos.jpg",
+                "sourcePage": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/broncos/xo1h3t6ow2axabqd9pny.jpg",
+                "credit": "Ben Swanson/2026 Denver Broncos",
+                "photoAlt": "Fans during team arrivals before the Broncos' Week 2 game against the Jacksonville Jaguars at Empower Field at Mile High in Denver, Colorado on September 20, 2026. Photo by Ben Swanson / Denver Broncos"
+            },
+            "player": {
+                "file": "assets/player-references/broncos.jpg",
+                "sourcePage": "https://www.profootballhof.com/players/john-elway",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/hof/tumc75a7lsbqrcvp7oel",
+                "credit": "Pro Football Hall of Fame / NFL"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "chiefs": {
+        "initial": "Photographiccompositinggame atlas EXACT3columns2rows sixequaltiles,no textguttermarkers. Image1actual KansasCityChiefs fanphotograph preserveactualpeople,hands,barrier,redjerseys andsunlight notnewimaginedcrowd. Image2 LENDAWSON faceidentity. First5panels eachcontain exactlyONE youngplaying-era LenDawson naturallyinserted amongbackrowfans, partlyoccludedshoulders, normalheadsize matchedneighbors. Differenttargetlocationperpanel leftback,middleback,rightback,leftmiddle,rightmiddle. Outfits redpolo, whitecap, grayhoodie, redjacket, whitepolo. Differentmodestcropofsameactualphotoeachpanel. Maintainfacedarkhairaccuratelikeness,matchedgrain/light, noflatheadshotrectangle/cartoon/outline. Sixthbottomright cleanphotographicLenDawsonportraitfromreference. EXACT3x2.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/chiefs.jpg",
+                "sourcePage": "https://www.chiefs.com/photos/photos-fans-at-chiefs-training-camp-7-27-24",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/chiefs/zmnaue3z6ndtxlp7yomg.jpg",
+                "credit": "Steve Sanders",
+                "photoAlt": "Kansas City Chiefs wide receiver Kadarius Toney (19) with fans during day 6 of training camp at Missouri Western State University, Saturday July 27, 2024 in St Joseph, MO."
+            },
+            "player": {
+                "file": "assets/player-references/chiefs.jpg",
+                "sourcePage": "https://www.profootballhof.com/players/len-dawson",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/hof/zxiyl141nmil7xiyjnjw",
+                "credit": "Pro Football Hall of Fame / NFL"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "raiders": {
+        "initial": "Photographiccompositinggame atlas EXACT3columns2rows sixequaltiles,no textguttermarkers. Image1actual Raiders fanphotograph preserveactualpeople,barrier,sign,stadium,black/silverkit anddaylight notnewimaginedcrowd. Image2 KENSTABLER playing-era faceidentity. First5panels eachcontain exactlyONE KenStabler naturallyinserted behindactualfanrow, partlyoccludedshoulders, normalheadsize matchedneighbors. Differenttargetlocationperpanel leftback,middleback,rightback,leftmiddle,rightmiddle. Outfits blackpolo, whitecap, grayhoodie, blackjacket, whitepolo. Differentmodestcropofsameactualphotoeachpanel. MaintainactualStablerface,beardandlonghair accurate,matchedgrain/light, noflatheadshotrectangle/cartoon/outline. Sixthbottomright cleanphotographicKenStablerportraitfromreference, colorizednaturally. EXACT3x2.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/raiders.jpg",
+                "sourcePage": "https://www.raiders.com/photos/top-shots-the-best-of-raider-nation",
+                "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/raiders/ebbfxgp0cjzhydc4frjd.jpg",
+                "credit": "Ali Badain/Las Vegas Raiders",
+                "photoAlt": "A Raiders fan holds up a sign during the Raiders regular season game against the Jacksonville Jaguars."
+            },
+            "player": {
+                "file": "assets/player-references/raiders.jpg",
+                "sourcePage": "https://www.profootballhof.com/players/ken-stabler",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/hof/fkkzgzdqaqobiupcutbw",
+                "credit": "Pro Football Hall of Fame / NFL"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    },
+    "chargers": {
+        "initial": "Photographiccompositinggame atlas EXACT3columns2rows sixequaltiles,no textguttermarkers. Image1actual Chargers tailgatefanphotograph preserveactualpeople,tents,flags,blueyellows andsunlight notnewimaginedcrowd. Image2 DANFOUTS faceidentity. First5panels eachcontain exactlyONE youngplaying-era DanFouts naturallyinserted behindfans, partlyoccludedshoulders, normalheadsize matchedneighbors. Differenttargetlocationperpanel leftback,middleback,rightback,leftmiddle,rightmiddle. Outfits bluepolo, whitecap, grayhoodie, bluejacket, yellowpolo. Differentmodestcropofsameactualphotoeachpanel. MaintainFoutsdistinctiveface andfullbeard, matchedphotograin/light, noflatheadshotrectangle/cartoon/outline. Sixthbottomright cleanphotographicDanFoutsportraitfromreference,colorizednaturally. EXACT3x2.",
+        "sourceReferences": {
+            "crowd": {
+                "file": "assets/fan-crowds/chargers.jpg",
+                "sourcePage": "https://www.chargers.com/photos/2026-tailgate-photos-week-9-texans",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/chargers/hebu6a3ym9uzbcgxv2yp.jpg",
+                "credit": "Ryan Young/Los Angeles Chargers",
+                "photoAlt": "The Los Angeles Chargers play the Houston Texans on Sunday, November 8, 2026 at SoFi Stadium in Inglewood, CA.\n[FINAL SCORE: HOU 44 - LAC 22]"
+            },
+            "player": {
+                "file": "assets/player-references/chargers.jpg",
+                "sourcePage": "https://www.profootballhof.com/players/dan-fouts",
+                "imageUrl": "https://static.clubs.nfl.com/image/upload/hof/ggygn9482szdtaboblsu",
+                "credit": "Pro Football Hall of Fame / NFL"
+            }
+        },
+        "disclosure": "AI-edited fan photographs. The featured legend was inserted for a fan-made visual search game; these composites do not document a real appearance."
+    }
+}

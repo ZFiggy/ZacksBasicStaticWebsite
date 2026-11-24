@@ -1,0 +1,1397 @@
+[
+    {
+        "team": "cowboys",
+        "index": 2,
+        "path": "public/assets/photo-search/real-sources/cowboys-2.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/bj7zmbppgttn9ew6gd7t.jpg",
+        "page": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+        "credit": "dallascowboys.com / official team photography",
+        "backgroundSha256": "2fbc0a51e1f54ff648080a5b1b68dd4d0534a6d5798e9174a70d18ef0d52c806"
+    },
+    {
+        "team": "cowboys",
+        "index": 10,
+        "path": "public/assets/photo-search/real-sources/cowboys-10.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/vx8jly27elv2pd2tvzhp.jpg",
+        "page": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+        "credit": "dallascowboys.com / official team photography",
+        "backgroundSha256": "620746065946dd51dabeb8035ce3959e8091980604d5cc5f6390c96e16e171ed"
+    },
+    {
+        "team": "cowboys",
+        "index": 0,
+        "path": "public/assets/photo-search/real-sources/cowboys-0.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/qzrcy7qiochv0fv6ktdc.jpg",
+        "page": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+        "credit": "dallascowboys.com / official team photography",
+        "backgroundSha256": "432765a00498060ff6f7d110133625f7ae8a35cc12d1528be22a4cd794258deb"
+    },
+    {
+        "team": "cowboys",
+        "index": 4,
+        "path": "public/assets/photo-search/real-sources/cowboys-4.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/ttgkseay7esnrq6r990q.jpg",
+        "page": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+        "credit": "dallascowboys.com / official team photography",
+        "backgroundSha256": "750301cbcc5295acad66ffdb6e7bc8128d27e7e5ebaaee4faea236846f7fe3a7"
+    },
+    {
+        "team": "cowboys",
+        "index": 8,
+        "path": "public/assets/photo-search/real-sources/cowboys-8.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/ixwykfmn5ijyza6333hy.jpg",
+        "page": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+        "credit": "dallascowboys.com / official team photography",
+        "backgroundSha256": "79140ed5d4c20877f8196dd6bfb2abf0a399a6a1ccf2e698f538c4f035538db3"
+    },
+    {
+        "team": "giants",
+        "index": 549,
+        "path": "public/assets/photo-search/real-sources/giants-549.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/giants/l0l3x99x01y1ienv4hv4.jpg",
+        "page": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
+        "credit": "giants.com / official team photography",
+        "backgroundSha256": "19e840c05d6852dd36ce0091d300634eb96480485109bbacd9767bbb9f964929"
+    },
+    {
+        "team": "giants",
+        "index": 1,
+        "path": "public/assets/photo-search/real-sources/giants-1.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/giants/nt3juwnwluhehggcbyvd.jpg",
+        "page": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
+        "credit": "giants.com / official team photography",
+        "backgroundSha256": "ae11c988c1f4870f14ab66c579b0aeb9a2c68769e3cac3f182ea909e91dc92b5"
+    },
+    {
+        "team": "giants",
+        "index": 542,
+        "path": "public/assets/photo-search/real-sources/giants-542.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/giants/roylon6fijcniqw9ckrn.jpg",
+        "page": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
+        "credit": "giants.com / official team photography",
+        "backgroundSha256": "4c844f3551c0fedcc7764db2a3ded099c0e6c81f4c96f1f36ab21460c47d2eaf"
+    },
+    {
+        "team": "giants",
+        "index": 547,
+        "path": "public/assets/photo-search/real-sources/giants-547.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/giants/hndp0tsknl62datxiswp.jpg",
+        "page": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
+        "credit": "giants.com / official team photography",
+        "backgroundSha256": "e7e5f18cac65354548e5eabdf46c2563552e3816d7a5a96e0d20b90d68a5f773"
+    },
+    {
+        "team": "giants",
+        "index": 521,
+        "path": "public/assets/photo-search/real-sources/giants-521.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/giants/cudrv2i0x1qvackuusbv.jpg",
+        "page": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
+        "credit": "giants.com / official team photography",
+        "backgroundSha256": "c59898846752803b085b35bc9a1756d2f1b33d23b342f3ba5366e89c6c5cf5c4"
+    },
+    {
+        "team": "commanders",
+        "index": 511,
+        "path": "public/assets/photo-search/real-sources/commanders-511.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/commanders/kapie9hpobeflrlq5a6g.jpg",
+        "page": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+        "credit": "commanders.com / official team photography",
+        "backgroundSha256": "6afb87f8090daa875862a98e7918b070910cada74a5052f15fb57f37898eab21"
+    },
+    {
+        "team": "commanders",
+        "index": 524,
+        "path": "public/assets/photo-search/real-sources/commanders-524.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/commanders/ikq3t9wqaghjapg2puqg.jpg",
+        "page": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+        "credit": "commanders.com / official team photography",
+        "backgroundSha256": "7f1fafce4665618ae1ded4546571fa25bdbbff4085f11076645faf04e7a6b94f"
+    },
+    {
+        "team": "commanders",
+        "index": 521,
+        "path": "public/assets/photo-search/real-sources/commanders-521.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/commanders/v26slxjnqdqnt0l2wa1t.jpg",
+        "page": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+        "credit": "commanders.com / official team photography",
+        "backgroundSha256": "8c3993a38774537df483ce0c5874559a142b7facf5067803cc5b3fe0525ea865"
+    },
+    {
+        "team": "commanders",
+        "index": 522,
+        "path": "public/assets/photo-search/real-sources/commanders-522.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/commanders/k5385mrneys4qqzjjtnq.jpg",
+        "page": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+        "credit": "commanders.com / official team photography",
+        "backgroundSha256": "fef0ccac24c291dd9058cc47892edf2496e734f2f9eb867e75ef7a457dd44b0a"
+    },
+    {
+        "team": "commanders",
+        "index": 504,
+        "path": "public/assets/photo-search/real-sources/commanders-504.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/commanders/mgu59zfxpzfcxotnybnm.jpg",
+        "page": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+        "credit": "commanders.com / official team photography",
+        "backgroundSha256": "3e30635a005ac022fb3c390a21f7a83e0e6e91e602ac0ec98f99389766b903c7"
+    },
+    {
+        "team": "bears",
+        "index": 530,
+        "path": "public/assets/photo-search/real-sources/bears-530.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bears/nbinlhaowlbpromdankc.jpg",
+        "page": "https://www.chicagobears.com/photos/bears-host-fan-events-in-glasgow-belfast-to-close-out-uk-grand-tour",
+        "credit": "chicagobears.com / official team photography",
+        "backgroundSha256": "29565cdd735a5775e9d7100c675bc300fb3a3d7ac9c43d9ed2c9a18cca3a2fd0"
+    },
+    {
+        "team": "bears",
+        "index": 7004,
+        "path": "public/assets/photo-search/real-sources/bears-7004.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/bears/i6ix30sukmnx3benkmjx.jpg",
+        "page": "https://www.chicagobears.com/photos/pnc-chicago-bears-5k-photos",
+        "credit": "chicagobears.com / official team photography",
+        "backgroundSha256": "151e867c6b7a67cfc7362e9aae2fc2c6e69fa83583b35914d0c650e457ace619"
+    },
+    {
+        "team": "bears",
+        "index": 7003,
+        "path": "public/assets/photo-search/real-sources/bears-7003.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/bears/fwjdnntqdbshpacjt7uc.jpg",
+        "page": "https://www.chicagobears.com/photos/pnc-chicago-bears-5k-photos",
+        "credit": "chicagobears.com / official team photography",
+        "backgroundSha256": "5a25315486f9c7b1ed3482396c0db633c8801b85a3708d124544f5d264864cf1"
+    },
+    {
+        "team": "bears",
+        "index": 7215,
+        "path": "public/assets/photo-search/real-sources/bears-7215.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bears/hdxagrfdjceaoesju2uk.jpg",
+        "page": "https://www.chicagobears.com/photos/bears-celebrate-crucial-catch-game-at-soldier-field",
+        "credit": "chicagobears.com / official team photography",
+        "backgroundSha256": "1d9cabf8b8bffe9a6037e26bc04ef8fca5e0c544bfdda53384c4c5e71f3a9a65"
+    },
+    {
+        "team": "bears",
+        "index": 619,
+        "path": "public/assets/photo-search/real-sources/bears-619.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bears/fkuzhh3vr2wkur8sqso3.jpg",
+        "page": "https://www.chicagobears.com/photos/bears-host-fan-events-in-bournemouth-as-part-of-uk-grand-tour",
+        "credit": "chicagobears.com / official team photography",
+        "backgroundSha256": "ce722d714dd8fb127fbaee76f5d5f8f4935dd5891579dac9e787524ac3521437"
+    },
+    {
+        "team": "lions",
+        "index": 523,
+        "path": "public/assets/photo-search/real-sources/lions-523.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/upjxa8zlrvjx4hax5snj.jpg",
+        "page": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+        "credit": "detroitlions.com / official team photography",
+        "backgroundSha256": "ff42a6597ef11acb9dd2bcfc309cc588b72c8b69204105f575dda74f36b8429c"
+    },
+    {
+        "team": "lions",
+        "index": 502,
+        "path": "public/assets/photo-search/real-sources/lions-502.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/sbvn9j3sxi5wvualuqr5.jpg",
+        "page": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+        "credit": "detroitlions.com / official team photography",
+        "backgroundSha256": "275a78564847e77a376ec2033b4eb1bf465c56e18a8cb48fed831220480ec828"
+    },
+    {
+        "team": "lions",
+        "index": 513,
+        "path": "public/assets/photo-search/real-sources/lions-513.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/cqd1ppqwvkdpjctfpnpd.jpg",
+        "page": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+        "credit": "detroitlions.com / official team photography",
+        "backgroundSha256": "ad9f57d94d70f18191ee23c85f9ed9327710a09b8b0d8f850ecc41d9da49aa24"
+    },
+    {
+        "team": "lions",
+        "index": 550,
+        "path": "public/assets/photo-search/real-sources/lions-550.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/nnauhlkoxdy8c42lu5gl.jpg",
+        "page": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+        "credit": "detroitlions.com / official team photography",
+        "backgroundSha256": "4205e879a643bd4391d2c99df9b84747964a15240a23da8f5c48ea76e06e213b"
+    },
+    {
+        "team": "lions",
+        "index": 514,
+        "path": "public/assets/photo-search/real-sources/lions-514.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/fttjlg03v8mex0iy5rfm.jpg",
+        "page": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+        "credit": "detroitlions.com / official team photography",
+        "backgroundSha256": "c9f86b22630290849b4e71b0b39eec65543446ea2047b569fe6a0f0936abe757"
+    },
+    {
+        "team": "falcons",
+        "index": 528,
+        "path": "public/assets/photo-search/real-sources/falcons-528.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/falcons/csakj7qwatuxexozol5m.jpg",
+        "page": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
+        "credit": "atlantafalcons.com / official team photography",
+        "backgroundSha256": "c11c94c874ce08a93524500530e87ef1ef82cb670a9eedf0278287f8069c2921"
+    },
+    {
+        "team": "falcons",
+        "index": 533,
+        "path": "public/assets/photo-search/real-sources/falcons-533.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/falcons/asmbgpgwpygrjmsj2g9o.jpg",
+        "page": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
+        "credit": "atlantafalcons.com / official team photography",
+        "backgroundSha256": "41ad07e6983ec440bede3bf5fce55d51bf418785d09e3b61f08f658ab827ce1f"
+    },
+    {
+        "team": "falcons",
+        "index": 539,
+        "path": "public/assets/photo-search/real-sources/falcons-539.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/falcons/jjjubq0gglfh8skesqjx.jpg",
+        "page": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
+        "credit": "atlantafalcons.com / official team photography",
+        "backgroundSha256": "74d163c90e87c555b87e52d33562234c216f15f26f69d06337cb953c043f2583"
+    },
+    {
+        "team": "falcons",
+        "index": 525,
+        "path": "public/assets/photo-search/real-sources/falcons-525.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/falcons/qlwvfkdmhkgvvjflpurk.jpg",
+        "page": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
+        "credit": "atlantafalcons.com / official team photography",
+        "backgroundSha256": "8b8e78060478744e07904bc3bd5256821937c51728d15acfa678e740872c1c94"
+    },
+    {
+        "team": "falcons",
+        "index": 9000,
+        "path": "public/assets/fan-crowds/falcons.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/falcons/muan4bxzxzh3ca0eimej.jpg",
+        "page": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
+        "credit": "atlantafalcons.com / official team photography",
+        "backgroundSha256": "533a36ce8107ad0120489812ea1fa8cadb0d55285685940df4d8443aad4bd5f4"
+    },
+    {
+        "team": "panthers",
+        "index": 529,
+        "path": "public/assets/photo-search/real-sources/panthers-529.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/panthers/bqho7yucyibzdij5bcql.jpg",
+        "page": "https://www.panthers.com/photos/photos-capturing-the-fans-at-fan-fest",
+        "credit": "panthers.com / official team photography",
+        "backgroundSha256": "d6ab9d6285896b604de30a15f0121e6858a9ffc011f98648bcecd068bba5a1b6"
+    },
+    {
+        "team": "panthers",
+        "index": 0,
+        "path": "public/assets/photo-search/real-sources/panthers-0.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/panthers/y5mqns0two5kwlmhxlzj.jpg",
+        "page": "https://www.panthers.com/photos/photos-capturing-the-fans-at-fan-fest",
+        "credit": "panthers.com / official team photography",
+        "backgroundSha256": "29169b99097fd8d3feefc0fd177274d3efc1f3a5659d0f0cd295b704bf07d1d7"
+    },
+    {
+        "team": "panthers",
+        "index": 621,
+        "path": "public/assets/photo-search/real-sources/panthers-621.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/panthers/po5ad7o7cckbs8cnl1t7.jpg",
+        "page": "https://www.panthers.com/photos/photos-capturing-the-fans-at-fan-fest",
+        "credit": "panthers.com / official team photography",
+        "backgroundSha256": "e7a6231e346b81707557710c3da88ed13f203ef3b1ecfe64c3ab728d71d6dfcd"
+    },
+    {
+        "team": "panthers",
+        "index": 544,
+        "path": "public/assets/photo-search/real-sources/panthers-544.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/panthers/jbarbcw8e6zb4qwwh3hk.jpg",
+        "page": "https://www.panthers.com/photos/photos-capturing-the-fans-at-fan-fest",
+        "credit": "panthers.com / official team photography",
+        "backgroundSha256": "ba0b6db13afc0b7fc42e08505a5dc12a02f88ff06fe98418d19b567907970ff2"
+    },
+    {
+        "team": "panthers",
+        "index": 533,
+        "path": "public/assets/photo-search/real-sources/panthers-533.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/panthers/t2x4zoysomki8eeqljcu.jpg",
+        "page": "https://www.panthers.com/photos/photos-capturing-the-fans-at-fan-fest",
+        "credit": "panthers.com / official team photography",
+        "backgroundSha256": "deb0a5ddd0764e76644653c851d7d0d9d0a4e1375239b131da231c065dad6a16"
+    },
+    {
+        "team": "vikings",
+        "index": 8142,
+        "path": "public/assets/photo-search/real-sources/vikings-8142.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/vikings/pcqxhknkd0rzz5mcrfh8.jpg",
+        "page": "https://www.vikings.com/photos/best-photos-of-vikings-fans-from-the-2025-season",
+        "credit": "vikings.com / official team photography",
+        "backgroundSha256": "2bede6f43fbd8e5ef24727a78bd2808b10773ddb65c01811749704ff38109817"
+    },
+    {
+        "team": "vikings",
+        "index": 8135,
+        "path": "public/assets/photo-search/real-sources/vikings-8135.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/vikings/ub3viitmytd4lkvxyg0b.jpg",
+        "page": "https://www.vikings.com/photos/best-photos-of-vikings-fans-from-the-2025-season",
+        "credit": "vikings.com / official team photography",
+        "backgroundSha256": "e7b911d0d15db27557fb6d4bb5e553d54b2856743656df907812ce59d0947bcc"
+    },
+    {
+        "team": "vikings",
+        "index": 8052,
+        "path": "public/assets/photo-search/real-sources/vikings-8052.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/vikings/aa4cxogvlfgfzc3fw04t.jpg",
+        "page": "https://www.vikings.com/photos/best-photos-of-vikings-fans-from-the-2025-season",
+        "credit": "vikings.com / official team photography",
+        "backgroundSha256": "d8c9f9ab8adc362bb349a5579565b604befec9098c0467e580e1d5191e1641e6"
+    },
+    {
+        "team": "vikings",
+        "index": 8067,
+        "path": "public/assets/photo-search/real-sources/vikings-8067.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/vikings/uxsktficvhxapcuoyev2.jpg",
+        "page": "https://www.vikings.com/photos/best-photos-of-vikings-fans-from-the-2025-season",
+        "credit": "vikings.com / official team photography",
+        "backgroundSha256": "3772a316b470ede871257afae252765988b14e082be78f39b0f62b853aa52abc"
+    },
+    {
+        "team": "vikings",
+        "index": 8034,
+        "path": "public/assets/photo-search/real-sources/vikings-8034.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/vikings/qoxi9ehvykz2azqsbypw.jpg",
+        "page": "https://www.vikings.com/photos/best-photos-of-vikings-fans-from-the-2025-season",
+        "credit": "vikings.com / official team photography",
+        "backgroundSha256": "e1b07588dc6fa734a681aabd9f00a6f2af66abf72e330d1f906857b6e6ea9d26"
+    },
+    {
+        "team": "buccaneers",
+        "index": 512,
+        "path": "public/assets/photo-search/real-sources/buccaneers-512.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/gsbb9cexbb4elw9eiz7l.jpg",
+        "page": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+        "credit": "buccaneers.com / official team photography",
+        "backgroundSha256": "7c7c9481c21b3c37e4a1cc14cc9a5df843359bce2baa1d4b7ba1645abcf7cef2"
+    },
+    {
+        "team": "buccaneers",
+        "index": 505,
+        "path": "public/assets/photo-search/real-sources/buccaneers-505.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/avbwfprn0vyflxz7dejb.jpg",
+        "page": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+        "credit": "buccaneers.com / official team photography",
+        "backgroundSha256": "d704ac33a041afc1c9414d25b9b386443174246c2e93064b0ed27c5148cbced5"
+    },
+    {
+        "team": "buccaneers",
+        "index": 518,
+        "path": "public/assets/photo-search/real-sources/buccaneers-518.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/g48zvj8yh6q0ya08h6ws.jpg",
+        "page": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+        "credit": "buccaneers.com / official team photography",
+        "backgroundSha256": "7dd707f525cf7cb45d131445fdfbffc1dfe18abd7e4ef450ce9df74bdc5e7ed9"
+    },
+    {
+        "team": "buccaneers",
+        "index": 5636,
+        "path": "public/assets/photo-search/real-sources/buccaneers-5636.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/jsgcrxvbzy1lffy8ihuf.jpg",
+        "page": "https://www.buccaneers.com/photos/fan-photos-from-bucs-training-camp-july-29-gallery",
+        "credit": "buccaneers.com / official team photography",
+        "backgroundSha256": "b42325f837ef81386c8f59541a618b09586e7e957cbe3e5651e158d4198711b9"
+    },
+    {
+        "team": "buccaneers",
+        "index": 510,
+        "path": "public/assets/photo-search/real-sources/buccaneers-510.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/qwcgm4hro2g9gfk8zpaj.jpg",
+        "page": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+        "credit": "buccaneers.com / official team photography",
+        "backgroundSha256": "92fdef136fcf45f098e04acfb21e2e80ea06fa607afb2f7aeddab066a13230ff"
+    },
+    {
+        "team": "rams",
+        "index": 6315,
+        "path": "public/assets/photo-search/real-sources/rams-6315.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/nyrsyzsb0y5zekrdstmr.jpg",
+        "page": "https://www.therams.com/photos/repping-rams-new-rivalries-gear-waving-playoff-flags-best-of-fans-during-2025-season",
+        "credit": "therams.com / official team photography",
+        "backgroundSha256": "6a51477e9d2914c0930c0ac8bd7c2eaa9bbd89f268fdf8b853f5e821048a7d65"
+    },
+    {
+        "team": "rams",
+        "index": 6208,
+        "path": "public/assets/photo-search/real-sources/rams-6208.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/ji3whzf34oyq6snjhy7i.jpg",
+        "page": "https://www.therams.com/photos/repping-rams-new-rivalries-gear-waving-playoff-flags-best-of-fans-during-2025-season",
+        "credit": "therams.com / official team photography",
+        "backgroundSha256": "b0518cbd40eca5705b6cd920ec4a4f3f049883bb886ea3c33ca9da0d388a8709"
+    },
+    {
+        "team": "rams",
+        "index": 6231,
+        "path": "public/assets/photo-search/real-sources/rams-6231.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/tdczdxn05o9okvmniqzv.jpg",
+        "page": "https://www.therams.com/photos/repping-rams-new-rivalries-gear-waving-playoff-flags-best-of-fans-during-2025-season",
+        "credit": "therams.com / official team photography",
+        "backgroundSha256": "785825120705565a54c5cacc975b9305c1e404270a67028a83a690ff7ca55214"
+    },
+    {
+        "team": "rams",
+        "index": 6321,
+        "path": "public/assets/photo-search/real-sources/rams-6321.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/ssu9mfypmq0skx1jgtyh.jpg",
+        "page": "https://www.therams.com/photos/repping-rams-new-rivalries-gear-waving-playoff-flags-best-of-fans-during-2025-season",
+        "credit": "therams.com / official team photography",
+        "backgroundSha256": "90e44ce69eaca437bd35a3e9f8c001ea25e32269c37be3e14d22aa0e53a2756b"
+    },
+    {
+        "team": "rams",
+        "index": 6293,
+        "path": "public/assets/photo-search/real-sources/rams-6293.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/lbovmqommqomehhqtwbg.jpg",
+        "page": "https://www.therams.com/photos/repping-rams-new-rivalries-gear-waving-playoff-flags-best-of-fans-during-2025-season",
+        "credit": "therams.com / official team photography",
+        "backgroundSha256": "fa31f466e8ef1ff8f60a64b9dbd2d1764d359eef3cf55602659fb14aadd24043"
+    },
+    {
+        "team": "jets",
+        "index": 536,
+        "path": "public/assets/photo-search/real-sources/jets-536.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/swnkzry62wb43kmojngo.jpg",
+        "page": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+        "credit": "newyorkjets.com / official team photography",
+        "backgroundSha256": "4463e39332962eb2ccd701eb59c2436277773af6fc6ad0ec11bdd6d8a14a1417"
+    },
+    {
+        "team": "jets",
+        "index": 548,
+        "path": "public/assets/photo-search/real-sources/jets-548.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/aqb8jncgwqxrq0yjuvpg.jpg",
+        "page": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+        "credit": "newyorkjets.com / official team photography",
+        "backgroundSha256": "0eb11f3c3db125427ed7ffc4e84f123dce6a13f4fcb9e2135715119e022ba161"
+    },
+    {
+        "team": "jets",
+        "index": 513,
+        "path": "public/assets/photo-search/real-sources/jets-513.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/ncooanqbnxmb2u2yeys4.jpg",
+        "page": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+        "credit": "newyorkjets.com / official team photography",
+        "backgroundSha256": "ed7f59a5a82f50f748b31edf387d2672d7b51fe139dfbfe0c295949f1561196b"
+    },
+    {
+        "team": "jets",
+        "index": 535,
+        "path": "public/assets/photo-search/real-sources/jets-535.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/ltplwhbtmrr4qpzly89q.jpg",
+        "page": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+        "credit": "newyorkjets.com / official team photography",
+        "backgroundSha256": "98367d71fb640919be1ac4bbebbe65d8c00774cd906d096d64c4da5110412e7a"
+    },
+    {
+        "team": "jets",
+        "index": 537,
+        "path": "public/assets/photo-search/real-sources/jets-537.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/c1nh5dhb0duhv28cryk4.jpg",
+        "page": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+        "credit": "newyorkjets.com / official team photography",
+        "backgroundSha256": "1cae91cc570d94afd083c7be08dd365034874de0ecebc7c2cfb2f2ec6f1a269e"
+    },
+    {
+        "team": "steelers",
+        "index": 536,
+        "path": "public/assets/photo-search/real-sources/steelers-536.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/steelers/lsen7eim0mveuoctgval.jpg",
+        "page": "https://www.steelers.com/photos/photos-best-of-fans-at-steelers-camp-x2048",
+        "credit": "steelers.com / official team photography",
+        "backgroundSha256": "e560f554853f42a8ad92d1f2c50b5f13ba7004790b33f6c6490373f1fb08a367"
+    },
+    {
+        "team": "steelers",
+        "index": 534,
+        "path": "public/assets/photo-search/real-sources/steelers-534.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/steelers/sdkaonnytvadevcyxrcx.jpg",
+        "page": "https://www.steelers.com/photos/photos-best-of-fans-at-steelers-camp-x2048",
+        "credit": "steelers.com / official team photography",
+        "backgroundSha256": "00ede15392481018b26100ae34e6ce15f61b7ca92fafae0ebbe3651ad74eaccf"
+    },
+    {
+        "team": "steelers",
+        "index": 519,
+        "path": "public/assets/photo-search/real-sources/steelers-519.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/steelers/qzjnowhiwf7l5qtlhrpk.jpg",
+        "page": "https://www.steelers.com/photos/photos-best-of-fans-at-steelers-camp-x2048",
+        "credit": "steelers.com / official team photography",
+        "backgroundSha256": "b44853380e6333a522bf7b8427383517a7538a36303fd74a4fbdd6997c878088"
+    },
+    {
+        "team": "steelers",
+        "index": 2,
+        "path": "public/assets/photo-search/real-sources/steelers-2.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/steelers/d2to98b5pkp3pqjrdg95.jpg",
+        "page": "https://www.steelers.com/photos/photos-best-of-fans-at-steelers-camp-x2048",
+        "credit": "steelers.com / official team photography",
+        "backgroundSha256": "b9c84913e619ce37c63a86ea3d9f818b2f117d42c359dc9f7dcc09fecc2da86c"
+    },
+    {
+        "team": "steelers",
+        "index": 514,
+        "path": "public/assets/photo-search/real-sources/steelers-514.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/steelers/kvgail0exnwysl1vwgso.jpg",
+        "page": "https://www.steelers.com/photos/photos-best-of-fans-at-steelers-camp-x2048",
+        "credit": "steelers.com / official team photography",
+        "backgroundSha256": "9e9edeecd427d76dfffe6d375abcdd9d89713ed1d4029777d139fb2ee331e61c"
+    },
+    {
+        "team": "colts",
+        "index": 9000,
+        "path": "public/assets/fan-crowds/colts.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/colts/uyr5jafnhq242147dmcn.jpg",
+        "page": "https://www.colts.com/photos/best-of-2025-fans",
+        "credit": "colts.com / official team photography",
+        "backgroundSha256": "63fce0f836fcbeb7f8afd5f47ce397e908ea45ca72a74b9f333628969a45f4a2"
+    },
+    {
+        "team": "colts",
+        "index": 537,
+        "path": "public/assets/photo-search/real-sources/colts-537.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/colts/l1mug7edowvfos5nj27s.jpg",
+        "page": "https://www.colts.com/photos/best-of-2025-fans",
+        "credit": "colts.com / official team photography",
+        "backgroundSha256": "356ccaaed04282ef862dd011f223290b8a497c05205a95838953fac482a7a85e"
+    },
+    {
+        "team": "colts",
+        "index": 9,
+        "path": "public/assets/photo-search/real-sources/colts-9.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/colts/krzxcw2kqj9graqsf2la.jpg",
+        "page": "https://www.colts.com/photos/best-of-2025-fans",
+        "credit": "colts.com / official team photography",
+        "backgroundSha256": "d589ca50f6e77a9a877166f97221cc611fe2998cc1a435042f138404d99f0542"
+    },
+    {
+        "team": "colts",
+        "index": 531,
+        "path": "public/assets/photo-search/real-sources/colts-531.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/colts/swpywio46rgnyv4byklm.jpg",
+        "page": "https://www.colts.com/photos/best-of-2025-fans",
+        "credit": "colts.com / official team photography",
+        "backgroundSha256": "561d3ca7ed1acf44e281b66acc5d8b0fab843ced303687d474f8dad41f1041f4"
+    },
+    {
+        "team": "colts",
+        "index": 526,
+        "path": "public/assets/photo-search/real-sources/colts-526.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/colts/xgnjtikjym5jcuv8vscl.jpg",
+        "page": "https://www.colts.com/photos/best-of-2025-fans",
+        "credit": "colts.com / official team photography",
+        "backgroundSha256": "8ac107d36ff281cecc3696b36eb2b8d2b7c394c802cf11ca85ab5aa105904d99"
+    },
+    {
+        "team": "texans",
+        "index": 505,
+        "path": "public/assets/photo-search/real-sources/texans-505.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/texans/wtt92lemz3qrslcndifb.jpg",
+        "page": "https://www.houstontexans.com/photos/top-25-photos-fans-in-stands",
+        "credit": "houstontexans.com / official team photography",
+        "backgroundSha256": "6cfead7e16a1a22003dffa6814bcae08de5ad2247093061df94d0ec94522d8d4"
+    },
+    {
+        "team": "texans",
+        "index": 507,
+        "path": "public/assets/photo-search/real-sources/texans-507.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/texans/ltghdjt7sy8gubaqxl2e.jpg",
+        "page": "https://www.houstontexans.com/photos/top-25-photos-fans-in-stands",
+        "credit": "houstontexans.com / official team photography",
+        "backgroundSha256": "e5d97125280b2fec255b70fe52678f6a54f0121142b4928a632879a0c34fbcf9"
+    },
+    {
+        "team": "texans",
+        "index": 520,
+        "path": "public/assets/photo-search/real-sources/texans-520.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/texans/xskxal5ad6iszyqiqsy5.jpg",
+        "page": "https://www.houstontexans.com/photos/top-25-photos-fans-in-stands",
+        "credit": "houstontexans.com / official team photography",
+        "backgroundSha256": "1c6cd9e3f71673f1ca7491eec1721eea1b3f2c645a7a4798e72ad2f295d7c260"
+    },
+    {
+        "team": "texans",
+        "index": 511,
+        "path": "public/assets/photo-search/real-sources/texans-511.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/texans/rcmsxjfogedsrr6u2fam.jpg",
+        "page": "https://www.houstontexans.com/photos/top-25-photos-fans-in-stands",
+        "credit": "houstontexans.com / official team photography",
+        "backgroundSha256": "ce1ab380a1baed9a8d64d7377dfac0b96536eb0717b3b08f6c28218e7ac6ea42"
+    },
+    {
+        "team": "texans",
+        "index": 521,
+        "path": "public/assets/photo-search/real-sources/texans-521.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/texans/t8oopg37xd6pvdyfhddq.jpg",
+        "page": "https://www.houstontexans.com/photos/top-25-photos-fans-in-stands",
+        "credit": "houstontexans.com / official team photography",
+        "backgroundSha256": "022ab2dbec9a6bdb2f1e2e473aaef86dafd072c8b7d17572851f194119ab05ce"
+    },
+    {
+        "team": "titans",
+        "index": 7,
+        "path": "public/assets/photo-search/real-sources/titans-7.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/titans/dd2laokmqyl9mjpi78dz.jpg",
+        "page": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
+        "credit": "tennesseetitans.com / official team photography",
+        "backgroundSha256": "c2d7e6b38f4b2ede47e9a0b6c3f9ebfd706e7cb9949e08ac713897b1d1ebd6f5"
+    },
+    {
+        "team": "titans",
+        "index": 11,
+        "path": "public/assets/photo-search/real-sources/titans-11.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/titans/xc43zufdwguciecmd2vz.jpg",
+        "page": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
+        "credit": "tennesseetitans.com / official team photography",
+        "backgroundSha256": "b3e9151b5bb5ee21192a5590ba0dd09c6e0a37249852bc0e0eff2adea3f42f91"
+    },
+    {
+        "team": "titans",
+        "index": 4,
+        "path": "public/assets/photo-search/real-sources/titans-4.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/titans/weymtgt6cazwph4ivkmx.jpg",
+        "page": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
+        "credit": "tennesseetitans.com / official team photography",
+        "backgroundSha256": "e4ccdb6fac3f5efe5bf5e3f87cfbe00d5333400fc34a688cb582002e9b8b8998"
+    },
+    {
+        "team": "titans",
+        "index": 9,
+        "path": "public/assets/photo-search/real-sources/titans-9.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/titans/uk8t69cxuwhvqdpkn1bt.jpg",
+        "page": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
+        "credit": "tennesseetitans.com / official team photography",
+        "backgroundSha256": "6b4f6553ce15566304bcf4a45b0014d416e4380b678c732cc8158de579266e39"
+    },
+    {
+        "team": "titans",
+        "index": 513,
+        "path": "public/assets/photo-search/real-sources/titans-513.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/titans/cbshpbo79qw9jjrvpzae.jpg",
+        "page": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
+        "credit": "tennesseetitans.com / official team photography",
+        "backgroundSha256": "a2d2ae37147d5647541a7d09d6eef2aab84334ff6621c92f98cdbc348d32c68f"
+    },
+    {
+        "team": "broncos",
+        "index": 541,
+        "path": "public/assets/photo-search/real-sources/broncos-541.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/broncos/afcigch0i9rxrvqwurp4.jpg",
+        "page": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+        "credit": "denverbroncos.com / official team photography",
+        "backgroundSha256": "3de18a9febb683ee4f0eacfd993359701e251d8a712e422013a36f5abee1b45a"
+    },
+    {
+        "team": "broncos",
+        "index": 549,
+        "path": "public/assets/photo-search/real-sources/broncos-549.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/broncos/bebdlfnvtlg6pehpa88t.jpg",
+        "page": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+        "credit": "denverbroncos.com / official team photography",
+        "backgroundSha256": "31ecd34422ff486291c880460a41a674215f42aad6afb502965fbd4d0f3ad9da"
+    },
+    {
+        "team": "broncos",
+        "index": 524,
+        "path": "public/assets/photo-search/real-sources/broncos-524.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/broncos/xfktqwfwacxqsg84wzic.jpg",
+        "page": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+        "credit": "denverbroncos.com / official team photography",
+        "backgroundSha256": "15032482271bab8cbd7a13a473ddad52d67d8bbc1ab9c5fe8bcaab2ed64811f9"
+    },
+    {
+        "team": "broncos",
+        "index": 544,
+        "path": "public/assets/photo-search/real-sources/broncos-544.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/broncos/l9m1m3dh1fejxg1mcocp.jpg",
+        "page": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+        "credit": "denverbroncos.com / official team photography",
+        "backgroundSha256": "d719dc110882bd7872c5915ab6829333ce85d41245d85ea248fb86fec490e500"
+    },
+    {
+        "team": "broncos",
+        "index": 543,
+        "path": "public/assets/photo-search/real-sources/broncos-543.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/broncos/uh6vducsyvegrhdcuc8c.jpg",
+        "page": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+        "credit": "denverbroncos.com / official team photography",
+        "backgroundSha256": "d125492ed77e78ca8ddf7d70f1117babae19f817784e8625ca5c3e67463184c9"
+    },
+    {
+        "team": "raiders",
+        "index": 515,
+        "path": "public/assets/photo-search/real-sources/raiders-515.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/raiders/qw04fhocqzmrxhpbm22n.jpg",
+        "page": "https://www.raiders.com/photos/top-shots-the-best-of-raider-nation",
+        "credit": "raiders.com / official team photography",
+        "backgroundSha256": "fd80adfa2525159f2c06952d49b9aca106fd790cdbeb69cf5dc75cd56ddc6e9d"
+    },
+    {
+        "team": "raiders",
+        "index": 501,
+        "path": "public/assets/photo-search/real-sources/raiders-501.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/raiders/edbdpyavianvr6agl7by.jpg",
+        "page": "https://www.raiders.com/photos/top-shots-the-best-of-raider-nation",
+        "credit": "raiders.com / official team photography",
+        "backgroundSha256": "615edff25c9379f1affa59d4338f6a0f49554445a0f656e03329bc2890686d0a"
+    },
+    {
+        "team": "raiders",
+        "index": 530,
+        "path": "public/assets/photo-search/real-sources/raiders-530.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/raiders/mlo90tf7bbzjpnma0fii.jpg",
+        "page": "https://www.raiders.com/photos/top-shots-the-best-of-raider-nation",
+        "credit": "raiders.com / official team photography",
+        "backgroundSha256": "13f3e076901c08ab3cbeb162d66d3965131c0926bbbfd984854b15ef882a4158"
+    },
+    {
+        "team": "raiders",
+        "index": 532,
+        "path": "public/assets/photo-search/real-sources/raiders-532.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/raiders/ylhvty2osn2nh4jiufc5.jpg",
+        "page": "https://www.raiders.com/photos/top-shots-the-best-of-raider-nation",
+        "credit": "raiders.com / official team photography",
+        "backgroundSha256": "c029e9d1ff79abe53268e83e85e2755d289ef8424393a06bace7ac98cc7c9f4c"
+    },
+    {
+        "team": "raiders",
+        "index": 527,
+        "path": "public/assets/photo-search/real-sources/raiders-527.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/raiders/k6h8qhghlzlqasgqyhpw.jpg",
+        "page": "https://www.raiders.com/photos/top-shots-the-best-of-raider-nation",
+        "credit": "raiders.com / official team photography",
+        "backgroundSha256": "c8a1819664a179855df538121820f3de3ef2c38a325d3d071314ac3268ee2628"
+    },
+    {
+        "team": "patriots",
+        "index": 7,
+        "path": "public/assets/photo-search/real-sources/patriots-7.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/patriots/x5lzact9ikjg5pp78s5r.jpg",
+        "page": "https://www.patriots.com/photos/patriots-thank-the-fans-284901",
+        "credit": "patriots.com / official team photography",
+        "backgroundSha256": "d44393724dd7991dba1e19fab30cb7b73d8a3b0b3b23ff83e87e4e07d96cc34f"
+    },
+    {
+        "team": "patriots",
+        "index": 512,
+        "path": "public/assets/photo-search/real-sources/patriots-512.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/patriots/n1hb0sqqx38omgdhx7hl.jpg",
+        "page": "https://www.patriots.com/photos/patriots-thank-the-fans-284901",
+        "credit": "patriots.com / official team photography",
+        "backgroundSha256": "99010806bed935ca2cec343ff21a13bbbf5313c0eda1823ce8cfcb1695bc2bbd"
+    },
+    {
+        "team": "patriots",
+        "index": 514,
+        "path": "public/assets/photo-search/real-sources/patriots-514.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/patriots/ole0obam6vrumdlagams.jpg",
+        "page": "https://www.patriots.com/photos/patriots-thank-the-fans-284901",
+        "credit": "patriots.com / official team photography",
+        "backgroundSha256": "60f6e8a6500eec17b0d54ebd046d83a27b490256be18ff3f00fc120a55e9793e"
+    },
+    {
+        "team": "patriots",
+        "index": 513,
+        "path": "public/assets/photo-search/real-sources/patriots-513.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/patriots/oopanh1tj2d1zex2r3as.jpg",
+        "page": "https://www.patriots.com/photos/patriots-thank-the-fans-284901",
+        "credit": "patriots.com / official team photography",
+        "backgroundSha256": "cf58b0ead6e5718e8ed2f85dce49ef3880e0a81252ec9d63f795c81a6ca9a3d5"
+    },
+    {
+        "team": "patriots",
+        "index": 5,
+        "path": "public/assets/photo-search/real-sources/patriots-5.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/patriots/hx076xiunngwde0sxrmi.jpg",
+        "page": "https://www.patriots.com/photos/patriots-thank-the-fans-284901",
+        "credit": "patriots.com / official team photography",
+        "backgroundSha256": "ea9f5b8918615ffbe37036fbadb61c123ab223a26f79a0e35f0fc363804087ea"
+    },
+    {
+        "team": "chargers",
+        "index": 535,
+        "path": "public/assets/photo-search/real-sources/chargers-535.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/chargers/zdmcovznlv66cqeqfhop.jpg",
+        "page": "https://www.chargers.com/photos/2026-tailgate-photos-week-9-texans",
+        "credit": "chargers.com / official team photography",
+        "backgroundSha256": "cd9ad772c00d330705a13172bdcef67189fbad950842bd7b0fd0ed632077c440"
+    },
+    {
+        "team": "chargers",
+        "index": 536,
+        "path": "public/assets/photo-search/real-sources/chargers-536.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/chargers/xr7vb1dh1dvezzjt0foq.jpg",
+        "page": "https://www.chargers.com/photos/2026-tailgate-photos-week-9-texans",
+        "credit": "chargers.com / official team photography",
+        "backgroundSha256": "2d01e753ade1d3aee1ce1254659164f341ecb6ed304289961dff45db5e059073"
+    },
+    {
+        "team": "chargers",
+        "index": 548,
+        "path": "public/assets/photo-search/real-sources/chargers-548.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/chargers/hebu6a3ym9uzbcgxv2yp.jpg",
+        "page": "https://www.chargers.com/photos/2026-tailgate-photos-week-9-texans",
+        "credit": "chargers.com / official team photography",
+        "backgroundSha256": "4602af211f283eeaa8cbaf33e4b61d58f06e0b62d7029c8f417179689e1fc722"
+    },
+    {
+        "team": "chargers",
+        "index": 551,
+        "path": "public/assets/photo-search/real-sources/chargers-551.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/chargers/c7jmu67klhh03gwerlrv.jpg",
+        "page": "https://www.chargers.com/photos/2026-tailgate-photos-week-9-texans",
+        "credit": "chargers.com / official team photography",
+        "backgroundSha256": "8b9bc12a4651b77eb9928dea352d33e3a8f1f49d4db402d6d4cba9c92fd5e7b7"
+    },
+    {
+        "team": "chargers",
+        "index": 11,
+        "path": "public/assets/photo-search/real-sources/chargers-11.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/chargers/ofgwhywn1c4jq9pql3lf.jpg",
+        "page": "https://www.chargers.com/photos/2026-tailgate-photos-week-9-texans",
+        "credit": "chargers.com / official team photography",
+        "backgroundSha256": "380e596b08cc8bd89c398acccaff0dc7e6d618ef2309f369f9ce77003674b8c0"
+    },
+    {
+        "team": "cardinals",
+        "index": 2338,
+        "path": "public/assets/photo-search/real-sources/cardinals-2338.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/cardinals/mkbzlbrgo2zfszgmfzcb.jpg",
+        "page": "https://www.azcardinals.com/photos/photos-2025-best-of-cardinals-fans",
+        "credit": "azcardinals.com / official team photography",
+        "backgroundSha256": "a6a6c1738474c42ba25a74fc1558bb72edf4910eca4db1533705dbbb01530f9b"
+    },
+    {
+        "team": "cardinals",
+        "index": 2441,
+        "path": "public/assets/photo-search/real-sources/cardinals-2441.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/cardinals/zi2vc2ja8fp581xhcqee.jpg",
+        "page": "https://www.azcardinals.com/photos/photos-2024-best-of-cardinals-fans",
+        "credit": "azcardinals.com / official team photography",
+        "backgroundSha256": "acad139aa53ed9c7b424845f8fe4011a3e45d71c4e1d4f110c883b3edef7f333"
+    },
+    {
+        "team": "cardinals",
+        "index": 576,
+        "path": "public/assets/photo-search/real-sources/cardinals-576.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/cardinals/knzoqadximtdpkenwaua.jpg",
+        "page": "https://www.azcardinals.com/photos/photos-fan-friday-best-of-2023",
+        "credit": "azcardinals.com / official team photography",
+        "backgroundSha256": "6198572ce91ececb1f13abc2dc61268a6ed76e2b55c7fac6d3aa7c6ad138a9ca"
+    },
+    {
+        "team": "cardinals",
+        "index": 2300,
+        "path": "public/assets/photo-search/real-sources/cardinals-2300.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/cardinals/q22jabqlvwox5dbxzn0b.jpg",
+        "page": "https://www.azcardinals.com/photos/photos-2025-best-of-cardinals-fans",
+        "credit": "azcardinals.com / official team photography",
+        "backgroundSha256": "e336e8291cb5a6fb5ba205ec1d08d4c21c4304c921ee5ca5bb568984a52489f7"
+    },
+    {
+        "team": "cardinals",
+        "index": 2349,
+        "path": "public/assets/photo-search/real-sources/cardinals-2349.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/cardinals/mfwyjbdqxnugg7cvlndl.jpg",
+        "page": "https://www.azcardinals.com/photos/photos-2025-best-of-cardinals-fans",
+        "credit": "azcardinals.com / official team photography",
+        "backgroundSha256": "dc0bacce003aca0a2ac0de5bb33a937cbc6930b8cbd2f63cdf3f3b304afe8554"
+    },
+    {
+        "team": "chiefs",
+        "index": 3817,
+        "path": "public/assets/photo-search/real-sources/chiefs-3817.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/chiefs/mdr5szp1nshjsir2bsgc.jpg",
+        "page": "https://www.chiefs.com/photos/photo-gallery-best-of-chiefs-fans-18561732",
+        "credit": "chiefs.com / official team photography",
+        "backgroundSha256": "9402c587ab70eac9eabe17974d83e8e5b8107f84750809523377b7fa9a09b5de"
+    },
+    {
+        "team": "chiefs",
+        "index": 3818,
+        "path": "public/assets/photo-search/real-sources/chiefs-3818.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/chiefs/f7t5npk2gcyigcbvonnr.jpg",
+        "page": "https://www.chiefs.com/photos/photo-gallery-best-of-chiefs-fans-18561732",
+        "credit": "chiefs.com / official team photography",
+        "backgroundSha256": "65adfab7d3fd22f516724500081374b7acac2bd8afdf76b093d18d04f793f9b9"
+    },
+    {
+        "team": "chiefs",
+        "index": 3815,
+        "path": "public/assets/photo-search/real-sources/chiefs-3815.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/chiefs/l3fv3v1wtxsf0kxgjbwd.jpg",
+        "page": "https://www.chiefs.com/photos/photo-gallery-best-of-chiefs-fans-18561732",
+        "credit": "chiefs.com / official team photography",
+        "backgroundSha256": "81ef4001ed3776200acd55be7458fbf1a526fe299e723d911e107181fc460b4e"
+    },
+    {
+        "team": "chiefs",
+        "index": 3808,
+        "path": "public/assets/photo-search/real-sources/chiefs-3808.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/chiefs/rrhyfjqz6p6ux9se4ubz.jpg",
+        "page": "https://www.chiefs.com/photos/photo-gallery-best-of-chiefs-fans-18561732",
+        "credit": "chiefs.com / official team photography",
+        "backgroundSha256": "ac9b3630ea24daf183c6e2ca4f80f34bc95521c1168f34c7af421107b221f2cd"
+    },
+    {
+        "team": "chiefs",
+        "index": 3824,
+        "path": "public/assets/photo-search/real-sources/chiefs-3824.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/chiefs/ikwkwk2r0bcjhy1vmeux.jpg",
+        "page": "https://www.chiefs.com/photos/photo-gallery-best-of-chiefs-fans-18561732",
+        "credit": "chiefs.com / official team photography",
+        "backgroundSha256": "67c3cb8fff2c3fc983e8f8697a728d519984b8139bb19bf63e0bf089c68a5880"
+    },
+    {
+        "team": "seahawks",
+        "index": 2612,
+        "path": "public/assets/photo-search/real-sources/seahawks-2612.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/seahawks/cjjli8jagie66kad5jn7.jpg",
+        "page": "https://www.seahawks.com/photos/photos-12s-take-over-allegiant-stadium-for-seahawks-week-10-matchup-at-las-vegas-raiders",
+        "credit": "seahawks.com / official team photography",
+        "backgroundSha256": "931f0c36deb40cede8db6b05dca692e8fe5c45cabb4110b03a88a7900e5d06db"
+    },
+    {
+        "team": "seahawks",
+        "index": 2605,
+        "path": "public/assets/photo-search/real-sources/seahawks-2605.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/seahawks/oqdsqzerquuhsn5wthn7.jpg",
+        "page": "https://www.seahawks.com/photos/photos-12s-take-over-allegiant-stadium-for-seahawks-week-10-matchup-at-las-vegas-raiders",
+        "credit": "seahawks.com / official team photography",
+        "backgroundSha256": "4fea8cf51540fa5fb1f3ebdce61af4b04648e75b77be1de5ad0299981ecd3cf4"
+    },
+    {
+        "team": "seahawks",
+        "index": 2607,
+        "path": "public/assets/photo-search/real-sources/seahawks-2607.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/seahawks/s2mtetdan9wvwnqyktb2.jpg",
+        "page": "https://www.seahawks.com/photos/photos-12s-take-over-allegiant-stadium-for-seahawks-week-10-matchup-at-las-vegas-raiders",
+        "credit": "seahawks.com / official team photography",
+        "backgroundSha256": "8c121a8d183cdbdba76682370be6b7e713393261dae625c3fc4bcae5f3112876"
+    },
+    {
+        "team": "seahawks",
+        "index": 2610,
+        "path": "public/assets/photo-search/real-sources/seahawks-2610.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/seahawks/ladvzayflpnuizertfcs.jpg",
+        "page": "https://www.seahawks.com/photos/photos-12s-take-over-allegiant-stadium-for-seahawks-week-10-matchup-at-las-vegas-raiders",
+        "credit": "seahawks.com / official team photography",
+        "backgroundSha256": "81beb592fac3e988504a9dbbb7ceb04e0d16345b14d4696776a7780bbb02e598"
+    },
+    {
+        "team": "seahawks",
+        "index": 2608,
+        "path": "public/assets/photo-search/real-sources/seahawks-2608.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/seahawks/g8rhzy3tiktyieifl3ms.jpg",
+        "page": "https://www.seahawks.com/photos/photos-12s-take-over-allegiant-stadium-for-seahawks-week-10-matchup-at-las-vegas-raiders",
+        "credit": "seahawks.com / official team photography",
+        "backgroundSha256": "aa45eba281d527149469604a8eb67d216d61f1c2be9a3047067e9d8ebdbbc50a"
+    },
+    {
+        "team": "packers",
+        "index": 5830,
+        "path": "public/assets/photo-search/real-sources/packers-5830.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/packers/dmkf466hzr3ef8aphhec.jpg",
+        "page": "https://www.packers.com/photos/packers-fans-gather-in-minneapolis-for-pep-rally",
+        "credit": "packers.com / official team photography",
+        "backgroundSha256": "238d6070d30ade918e312b9314a1796be157f77209d7f675923222f884cd205f"
+    },
+    {
+        "team": "packers",
+        "index": 2008,
+        "path": "public/assets/photo-search/real-sources/packers-2008.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/packers/hunkxyjt6yiollxvz8dx.jpg",
+        "page": "https://www.packers.com/photos/photos-lambeau-field-welcomes-back-57-411-fans-for-family-night-2026",
+        "credit": "packers.com / official team photography",
+        "backgroundSha256": "fcf1e5eef0618eca7b64b7a7554713d63328d69cbe03c9e6bbe83a2c69e5f882"
+    },
+    {
+        "team": "packers",
+        "index": 5800,
+        "path": "public/assets/photo-search/real-sources/packers-5800.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/packers/dps2tozfexaqitcbt7qw.jpg",
+        "page": "https://www.packers.com/photos/packers-fans-gather-in-minneapolis-for-pep-rally",
+        "credit": "packers.com / official team photography",
+        "backgroundSha256": "3cbd88468171467aa29cf7bc1e2e77e76de410d60570686772bc27fe659556d6"
+    },
+    {
+        "team": "packers",
+        "index": 2011,
+        "path": "public/assets/photo-search/real-sources/packers-2011.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/packers/msvte3qlqhholwfauzq1.jpg",
+        "page": "https://www.packers.com/photos/photos-lambeau-field-welcomes-back-57-411-fans-for-family-night-2026",
+        "credit": "packers.com / official team photography",
+        "backgroundSha256": "280b2ae654d0bf55dc0c1fcf0cbd6c413da0fb33470f0377d032abac613c5eb1"
+    },
+    {
+        "team": "packers",
+        "index": 5823,
+        "path": "public/assets/photo-search/real-sources/packers-5823.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/packers/c5c419arurfbswzpcyrp.jpg",
+        "page": "https://www.packers.com/photos/packers-fans-gather-in-minneapolis-for-pep-rally",
+        "credit": "packers.com / official team photography",
+        "backgroundSha256": "f4b528d65319b03e38c9213a46cd1e33064374025a1f24809dbb55cf364f2ba3"
+    },
+    {
+        "team": "49ers",
+        "index": 9012,
+        "path": "public/assets/photo-search/real-sources/49ers-9012.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/49ers/vmhidwpeb5jkfpzgd497.png",
+        "page": "https://www.49ers.com/photos/best-of-49ers-invasions-2024-in-review",
+        "credit": "49ers.com / official team photography",
+        "backgroundSha256": "8a99dbb631345ccb9eea966c23d7c4c37492372d58012930556aab8a7f56630a"
+    },
+    {
+        "team": "49ers",
+        "index": 9027,
+        "path": "public/assets/photo-search/real-sources/49ers-9027.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/49ers/iichuuijpy2yuhhan63t.png",
+        "page": "https://www.49ers.com/photos/best-of-49ers-invasions-2024-in-review",
+        "credit": "49ers.com / official team photography",
+        "backgroundSha256": "df28733d58d51abe855b2a4a1b331c9eddb996534b64d44d69718a6b56f01a0f"
+    },
+    {
+        "team": "49ers",
+        "index": 9017,
+        "path": "public/assets/photo-search/real-sources/49ers-9017.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/49ers/v9vwkn685lesn8uykya4.png",
+        "page": "https://www.49ers.com/photos/best-of-49ers-invasions-2024-in-review",
+        "credit": "49ers.com / official team photography",
+        "backgroundSha256": "ad7d057f98f9e9ee24eef9ea7e5ef230840ec17e59d2fc6582473815af6713bd"
+    },
+    {
+        "team": "49ers",
+        "index": 9014,
+        "path": "public/assets/photo-search/real-sources/49ers-9014.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/49ers/mzcbmqe1vciombtt7his.png",
+        "page": "https://www.49ers.com/photos/best-of-49ers-invasions-2024-in-review",
+        "credit": "49ers.com / official team photography",
+        "backgroundSha256": "a6526b3f8e93ac19ac7926485cdf43eeeb7d21acdd252d653c2d458132ab0880"
+    },
+    {
+        "team": "49ers",
+        "index": 3,
+        "path": "public/assets/photo-search/real-sources/49ers-3.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/49ers/lkqa17xbhm68fvuqxrfl.jpg",
+        "page": "https://www.49ers.com/photos/san-francisco-fans-faithful-take-over-the-new-orleans-saints-superdome",
+        "credit": "49ers.com / official team photography",
+        "backgroundSha256": "68f8181690ed09c37840273f0a6d41e7af74dfa579718fa684b574b6c2b85b7d"
+    },
+    {
+        "team": "dolphins",
+        "index": 7,
+        "path": "public/assets/photo-search/real-sources/dolphins-7.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/dolphins/o1co0718luapdfhx8i3a.jpg",
+        "page": "https://www.miamidolphins.com/photos/2026-miami-dolphins-at-new-york-jets-fan-cam",
+        "credit": "miamidolphins.com / official team photography",
+        "backgroundSha256": "bcc861e83c04b3d0bfb6eb08e4296a791282f5aa38b2fb2bac860684cad15d79"
+    },
+    {
+        "team": "dolphins",
+        "index": 3,
+        "path": "public/assets/photo-search/real-sources/dolphins-3.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/dolphins/ao8emyuidlozz8iaxxbf.jpg",
+        "page": "https://www.miamidolphins.com/photos/2026-miami-dolphins-at-new-york-jets-fan-cam",
+        "credit": "miamidolphins.com / official team photography",
+        "backgroundSha256": "f4a49a65144ddf08bcbfa7978e532b9b4b729097fd9a376ced9c26d32e0ad6c0"
+    },
+    {
+        "team": "dolphins",
+        "index": 0,
+        "path": "public/assets/photo-search/real-sources/dolphins-0.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/dolphins/bqmwvzvm3octwacxhyyq.jpg",
+        "page": "https://www.miamidolphins.com/photos/2026-miami-dolphins-at-new-york-jets-fan-cam",
+        "credit": "miamidolphins.com / official team photography",
+        "backgroundSha256": "794259eb4937535e0b775bcaf906ff2d1cf1a964548b709e1ee16f98b98b46d1"
+    },
+    {
+        "team": "dolphins",
+        "index": 2,
+        "path": "public/assets/photo-search/real-sources/dolphins-2.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/dolphins/gmgsd6atbv1mtzwa8s9d.jpg",
+        "page": "https://www.miamidolphins.com/photos/2026-miami-dolphins-at-new-york-jets-fan-cam",
+        "credit": "miamidolphins.com / official team photography",
+        "backgroundSha256": "f89ccf8b30e5d38996e026804ea0bb6d5331e3574aa2268c782f3a7313d6a4a2"
+    },
+    {
+        "team": "dolphins",
+        "index": 4,
+        "path": "public/assets/photo-search/real-sources/dolphins-4.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/dolphins/kefyixhzj7omhzs8gfpv.jpg",
+        "page": "https://www.miamidolphins.com/photos/2026-miami-dolphins-at-new-york-jets-fan-cam",
+        "credit": "miamidolphins.com / official team photography",
+        "backgroundSha256": "221e8eda91994204228e57f1d647e9ada5be0327509d0c743aa084abaf2756af"
+    },
+    {
+        "team": "bills",
+        "index": 2804,
+        "path": "public/assets/photo-search/real-sources/bills-2804.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bills/ofoh6ruohz1u9xvsibxi.jpg",
+        "page": "https://www.buffalobills.com/photos/fan-photos-bills-vs-dolphins-week-11",
+        "credit": "buffalobills.com / official team photography",
+        "backgroundSha256": "64440b850691a94ce29c13294cfd42bb8f0536a47aeb55d32f6516b98ad42877"
+    },
+    {
+        "team": "bills",
+        "index": 618,
+        "path": "public/assets/photo-search/real-sources/bills-618.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bills/l9bhxpjxp2qfvgriwn2x.jpg",
+        "page": "https://www.buffalobills.com/photos/fan-photos-bills-vs-ravens-week-8",
+        "credit": "buffalobills.com / official team photography",
+        "backgroundSha256": "e2c4b0fef205526996b18758d9045e80db9a75c8bb91e114e2ab223371c24bea"
+    },
+    {
+        "team": "bills",
+        "index": 588,
+        "path": "public/assets/photo-search/real-sources/bills-588.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bills/ub2kb5nddo2y5wskmvqo.jpg",
+        "page": "https://www.buffalobills.com/photos/fan-photos-bills-vs-ravens-week-8",
+        "credit": "buffalobills.com / official team photography",
+        "backgroundSha256": "aa214f47201c4a31d6682cc3f61381bd6ade7a59727783fe1a0009172ce5ac9a"
+    },
+    {
+        "team": "bills",
+        "index": 2849,
+        "path": "public/assets/photo-search/real-sources/bills-2849.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bills/lzgynvr2jhcqzagko75j.jpg",
+        "page": "https://www.buffalobills.com/photos/fan-photos-bills-vs-dolphins-week-11",
+        "credit": "buffalobills.com / official team photography",
+        "backgroundSha256": "d4137795229074e4f9a9ddd6982d0ae675ec588abe4886a2c1809dce96100744"
+    },
+    {
+        "team": "bills",
+        "index": 604,
+        "path": "public/assets/photo-search/real-sources/bills-604.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bills/hc6tab1aopfa4yx8d8n4.jpg",
+        "page": "https://www.buffalobills.com/photos/fan-photos-bills-vs-ravens-week-8",
+        "credit": "buffalobills.com / official team photography",
+        "backgroundSha256": "93dcb277d8cc108fe66ca00de4e9da9b2b1c4ad6d842641efe3e8a18a86d1c44"
+    },
+    {
+        "team": "bengals",
+        "index": 3004,
+        "path": "public/assets/photo-search/real-sources/bengals-3004.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bengals/eqsad5seswf1ep1up0nh.jpg",
+        "page": "https://www.bengals.com/photos/2026-white-bengal-steelers-week-10-fan-photos",
+        "credit": "bengals.com / official team photography",
+        "backgroundSha256": "168453095d2ebd1eb17add8cbf27677d0bf10ad6713dacb31fed9a207118839c"
+    },
+    {
+        "team": "bengals",
+        "index": 515,
+        "path": "public/assets/photo-search/real-sources/bengals-515.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bengals/tua22cgy9ovkgs2cr3vl.jpg",
+        "page": "https://www.bengals.com/photos/around-the-jungle-for-salute-to-service-week-9-against-raiders-fan-photos",
+        "credit": "bengals.com / official team photography",
+        "backgroundSha256": "9d1330273510c71833d4a7d6eeb1e58fb46b04ac92bb621be0c311676c43b77d"
+    },
+    {
+        "team": "bengals",
+        "index": 3101,
+        "path": "public/assets/photo-search/real-sources/bengals-3101.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bengals/oryyyja5wlgzgipfd3p3.jpg",
+        "page": "https://www.bengals.com/photos/who-dey-nation-bengals-madrid-fan-photos",
+        "credit": "bengals.com / official team photography",
+        "backgroundSha256": "6b9628a10f7eaa17094691ab8e4a8c725414c3a1fc03f2aea1f8943581be12a9"
+    },
+    {
+        "team": "bengals",
+        "index": 3100,
+        "path": "public/assets/photo-search/real-sources/bengals-3100.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bengals/oddukp7zi2y1blyncglg.jpg",
+        "page": "https://www.bengals.com/photos/who-dey-nation-bengals-madrid-fan-photos",
+        "credit": "bengals.com / official team photography",
+        "backgroundSha256": "db73c5ed2c0dd6ccc82755e679bcec5c38c3babb38a129b9b9357b3b023861e2"
+    },
+    {
+        "team": "bengals",
+        "index": 512,
+        "path": "public/assets/photo-search/real-sources/bengals-512.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bengals/dna6kp0iksyaloynyanw.jpg",
+        "page": "https://www.bengals.com/photos/around-the-jungle-for-salute-to-service-week-9-against-raiders-fan-photos",
+        "credit": "bengals.com / official team photography",
+        "backgroundSha256": "262ac1bd2bcd3fd6f72e0f506a3a4cef50d97d82d0b0d3610495f5560e0d447e"
+    },
+    {
+        "team": "saints",
+        "index": 2227,
+        "path": "public/assets/photo-search/real-sources/saints-2227.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/saints/x5krgdyewq27lkmbtrht.jpg",
+        "page": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-18-fan-photos-august-26-2026",
+        "credit": "neworleanssaints.com / official team photography",
+        "backgroundSha256": "2aaccebca66c3fac367d0510d21711ffbc0a6a58131e55035227a46aa49e1a34"
+    },
+    {
+        "team": "saints",
+        "index": 517,
+        "path": "public/assets/photo-search/real-sources/saints-517.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/saints/nvfoc81kzqofvujpnx42.jpg",
+        "page": "https://www.neworleanssaints.com/photos/2026-nfl-week-10-carolina-panthers-vs-new-orleans-saints-photos-fans",
+        "credit": "neworleanssaints.com / official team photography",
+        "backgroundSha256": "0faf3a97c862bff83f4fe4144a774f6d556c8e8f8907bec9c509089047a57521"
+    },
+    {
+        "team": "saints",
+        "index": 2213,
+        "path": "public/assets/photo-search/real-sources/saints-2213.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/saints/dtvu5vgr135rhpxc28zc.jpg",
+        "page": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-18-fan-photos-august-26-2026",
+        "credit": "neworleanssaints.com / official team photography",
+        "backgroundSha256": "cccab018d216c6f5953cff53027b5d7ffcf963ac1f3470250771bfbfe8855664"
+    },
+    {
+        "team": "saints",
+        "index": 2256,
+        "path": "public/assets/photo-search/real-sources/saints-2256.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/saints/q4teoskjqlnar8ts7xgx.jpg",
+        "page": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-18-fan-photos-august-26-2026",
+        "credit": "neworleanssaints.com / official team photography",
+        "backgroundSha256": "848278c454e5202cb0e7db88d00be47e002f032dfbdb378cffc310cff65b9727"
+    },
+    {
+        "team": "saints",
+        "index": 2218,
+        "path": "public/assets/photo-search/real-sources/saints-2218.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/saints/wo8fvmieaeu8micvoqvc.jpg",
+        "page": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-18-fan-photos-august-26-2026",
+        "credit": "neworleanssaints.com / official team photography",
+        "backgroundSha256": "678dd4c2dcf7dd2de7da4dca2f9063cb5d5fee907a17a49d0172784f9f649c2f"
+    },
+    {
+        "team": "jaguars",
+        "index": 5229,
+        "path": "public/assets/photo-search/real-sources/jaguars-5229.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jaguars/dw2nb7cc6j7dy9h7krk1.jpg",
+        "page": "https://www.jaguars.com/photos/k000588-jaguars-best-of-2025-duuuval-fan-moments",
+        "credit": "jaguars.com / official team photography",
+        "backgroundSha256": "480916a422d1ea66e53673503a3d2cd00c8434a347712ec13663261013997eeb"
+    },
+    {
+        "team": "jaguars",
+        "index": 5248,
+        "path": "public/assets/photo-search/real-sources/jaguars-5248.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jaguars/hd7mnm3jpoumey54k4ho.jpg",
+        "page": "https://www.jaguars.com/photos/k000588-jaguars-best-of-2025-duuuval-fan-moments",
+        "credit": "jaguars.com / official team photography",
+        "backgroundSha256": "69407760b69c41936836ebc281f55f4af9b46c07172137d27da70568179e0a4b"
+    },
+    {
+        "team": "jaguars",
+        "index": 5257,
+        "path": "public/assets/photo-search/real-sources/jaguars-5257.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jaguars/igir04k46vpu8ehiwmet.jpg",
+        "page": "https://www.jaguars.com/photos/k000588-jaguars-best-of-2025-duuuval-fan-moments",
+        "credit": "jaguars.com / official team photography",
+        "backgroundSha256": "7d7a15cdda3889df152463fc0533a2d762c4d44f319339045d96821e29a5e175"
+    },
+    {
+        "team": "jaguars",
+        "index": 5222,
+        "path": "public/assets/photo-search/real-sources/jaguars-5222.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jaguars/j0xjcnbwlm53wsebbebu.jpg",
+        "page": "https://www.jaguars.com/photos/k000588-jaguars-best-of-2025-duuuval-fan-moments",
+        "credit": "jaguars.com / official team photography",
+        "backgroundSha256": "3915b7a5a8f21ae3436c56155d56ca61ba5614586ae8d2954eea437db41c7bb3"
+    },
+    {
+        "team": "jaguars",
+        "index": 5245,
+        "path": "public/assets/photo-search/real-sources/jaguars-5245.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jaguars/tvtqgfhrexuqa4hdtsw8.jpg",
+        "page": "https://www.jaguars.com/photos/k000588-jaguars-best-of-2025-duuuval-fan-moments",
+        "credit": "jaguars.com / official team photography",
+        "backgroundSha256": "aa6a6a12949d80e614285dff9333e006870f81f4d39d18e163fb3cdc85458766"
+    },
+    {
+        "team": "ravens",
+        "index": 5072,
+        "path": "public/assets/photo-search/real-sources/ravens-5072.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/ravens/opzkjwgyoyuavec0fy7w.jpg",
+        "page": "https://www.baltimoreravens.com/photos/fan-photos-baltimore-ravens-2023-season",
+        "credit": "baltimoreravens.com / official team photography",
+        "backgroundSha256": "7e4d40eb83c47e2e320e76afe85b15347d22fc8eec1b70c96a42be0d55fa9ff9"
+    },
+    {
+        "team": "ravens",
+        "index": 5027,
+        "path": "public/assets/photo-search/real-sources/ravens-5027.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/ravens/as5avtfnhrzsueg0qcb6.jpg",
+        "page": "https://www.baltimoreravens.com/photos/fan-photos-baltimore-ravens-2023-season",
+        "credit": "baltimoreravens.com / official team photography",
+        "backgroundSha256": "81ae083022fab06024ddaab6b44cddcb8ca5a643c94e1d5140bb6718712e9de9"
+    },
+    {
+        "team": "ravens",
+        "index": 5046,
+        "path": "public/assets/photo-search/real-sources/ravens-5046.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/ravens/cscq512ife5zklvakodb.jpg",
+        "page": "https://www.baltimoreravens.com/photos/fan-photos-baltimore-ravens-2023-season",
+        "credit": "baltimoreravens.com / official team photography",
+        "backgroundSha256": "6bb40d484ba796cbaac8fe734d72f600d835018af0c57d48e483660c12583482"
+    },
+    {
+        "team": "ravens",
+        "index": 5034,
+        "path": "public/assets/photo-search/real-sources/ravens-5034.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/ravens/ctoeah3ebdadu36zg8x5.jpg",
+        "page": "https://www.baltimoreravens.com/photos/fan-photos-baltimore-ravens-2023-season",
+        "credit": "baltimoreravens.com / official team photography",
+        "backgroundSha256": "b48ed1815a72149cb8f23e08318cfa66422af4308ae72cb79f57fc0033103e7b"
+    },
+    {
+        "team": "ravens",
+        "index": 5043,
+        "path": "public/assets/photo-search/real-sources/ravens-5043.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/ravens/x98x8w7odzikbthgbpjc.jpg",
+        "page": "https://www.baltimoreravens.com/photos/fan-photos-baltimore-ravens-2023-season",
+        "credit": "baltimoreravens.com / official team photography",
+        "backgroundSha256": "a84003e21277e80144e8088e89d52f3af83dd8284a937731b56604a67c006b14"
+    },
+    {
+        "team": "browns",
+        "index": 8,
+        "path": "public/assets/photo-search/real-sources/browns-8.jpg",
+        "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/browns/r3r5qamz66432h48edbd.jpg",
+        "page": "https://www.clevelandbrowns.com/photos/best-fans-in-the-nfl-11816001",
+        "credit": "clevelandbrowns.com / official team photography",
+        "backgroundSha256": "7fcfee033fc96f48c585381cc80cecc38f398cdc0d03b758e413d5c521f59797"
+    },
+    {
+        "team": "browns",
+        "index": 5421,
+        "path": "public/assets/photo-search/real-sources/browns-5421.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/browns/vaznpkwmbsdveo2t1hmv.jpg",
+        "page": "https://www.clevelandbrowns.com/photos/browns-in-london-2025-in-focus",
+        "credit": "clevelandbrowns.com / official team photography",
+        "backgroundSha256": "a6935c42abd23f4a51f952fd3117c21bda4b4939b0dd11eff978a381783201f3"
+    },
+    {
+        "team": "browns",
+        "index": 5400,
+        "path": "public/assets/photo-search/real-sources/browns-5400.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/browns/vpbw2zwrubb10dxc2ne6.jpg",
+        "page": "https://www.clevelandbrowns.com/photos/browns-in-london-2025-in-focus",
+        "credit": "clevelandbrowns.com / official team photography",
+        "backgroundSha256": "1ea749c7b8539de804c69d34d42022efd1ce58ba8a01a0e558b2b32449f882de"
+    },
+    {
+        "team": "browns",
+        "index": 7643,
+        "path": "public/assets/photo-search/real-sources/browns-7643.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/browns/bgd1d8zus5cogaitnm6i.jpg",
+        "page": "https://www.clevelandbrowns.com/photos/best-photos-browns-training-camp-2025-in-focus",
+        "credit": "clevelandbrowns.com / official team photography",
+        "backgroundSha256": "0a1ee73909a6f52ee16bb3d7f01a05a4e13048c397cbe644c8a9e9ac33027420"
+    },
+    {
+        "team": "browns",
+        "index": 5438,
+        "path": "public/assets/photo-search/real-sources/browns-5438.jpg",
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/browns/iqpv7yhoyyuadnwhryso.jpg",
+        "page": "https://www.clevelandbrowns.com/photos/browns-in-london-2025-in-focus",
+        "credit": "clevelandbrowns.com / official team photography",
+        "backgroundSha256": "b71ead22ec12e61362473ffc0891be16561dd4e8d5474a7f4fbbbc4cedac8e3f"
+    }
+]

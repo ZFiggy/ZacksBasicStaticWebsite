@@ -1,0 +1,131 @@
+{
+    "team": "ravens",
+    "level": 3,
+    "sourceIndex": 5034,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/ravens-5034.jpg",
+    "sourcePage": "https://www.baltimoreravens.com/photos/fan-photos-baltimore-ravens-2023-season",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/ravens/ctoeah3ebdadu36zg8x5.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/ravens.png",
+    "player": "Lamar Jackson",
+    "face": [
+        392.38,
+        170.06,
+        31.75,
+        41.19
+    ],
+    "prompt": "Use case: precise-object-edit. Image 1 is the current real crowd photo edited to contain Lamar Jackson. Image 2 is his FACE IDENTITY reference. Image 3 is the ORIGINAL real photo, for the local background focus and lighting. Refine ONLY the small inserted Lamar Jackson behind the woman wearing the black knit hat, in the background left of the large yellow sign. His face is currently too crisp, frontal, and posed. Preserve his exact position, current head size, connected Ravens fan hoodie and body, but turn his head slightly toward the action at image right, with a relaxed candid expression. Keep recognizable Lamar Jackson facial structure and braids while matching the distinctly SOFT, OUT-OF-FOCUS heads beside him on the same row. Hair and skin detail must have the same optical softness as the neighboring background fans. No bright studio facial lighting; match the dim local shade. Preserve the foreground woman's hat and all railings and obstructions. Change nothing else: same original crowd, original photograph, foreground people, signs, letters, colors, composition and aspect ratio. No guide marks, boxes or labels. Output only the clean edited photograph.",
+    "guideVersion": 2,
+    "guideBounds": [
+        389,
+        161,
+        428,
+        216
+    ],
+    "styleReference": "public/assets/search-level-5-v2.jpg",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/ravens-ai-v2-4.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/ravens-ai-v2-4.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.30279932891352895,
+                0.20878962477259377,
+                0.04174947916605823,
+                0.10002608588094034
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "previousPrompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real ravens crowd photograph to edit. Image 2 is Lamar Jackson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Lamar Jackson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual ravens fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+    "previousOutputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-61d6f8ac-f09f-4854-a5b8-92be89d9d8d8.png",
+    "revision": 2,
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.30279932891352895,
+        0.20878962477259377,
+        0.04174947916605823,
+        0.10002608588094034
+    ],
+    "history": [
+        {
+            "team": "ravens",
+            "level": 3,
+            "sourceIndex": 5034,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/ravens-5034.jpg",
+            "sourcePage": "https://www.baltimoreravens.com/photos/fan-photos-baltimore-ravens-2023-season",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/ravens/ctoeah3ebdadu36zg8x5.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/ravens.png",
+            "player": "Lamar Jackson",
+            "face": [
+                392.38,
+                170.06,
+                31.75,
+                41.19
+            ],
+            "prompt": "Use case: precise-object-edit. Image 1 is the current real crowd photo edited to contain Lamar Jackson. Image 2 is his FACE IDENTITY reference. Image 3 is the ORIGINAL real photo, for the local background focus and lighting. Refine ONLY the small inserted Lamar Jackson behind the woman wearing the black knit hat, in the background left of the large yellow sign. His face is currently too crisp, frontal, and posed. Preserve his exact position, current head size, connected Ravens fan hoodie and body, but turn his head slightly toward the action at image right, with a relaxed candid expression. Keep recognizable Lamar Jackson facial structure and braids while matching the distinctly SOFT, OUT-OF-FOCUS heads beside him on the same row. Hair and skin detail must have the same optical softness as the neighboring background fans. No bright studio facial lighting; match the dim local shade. Preserve the foreground woman's hat and all railings and obstructions. Change nothing else: same original crowd, original photograph, foreground people, signs, letters, colors, composition and aspect ratio. No guide marks, boxes or labels. Output only the clean edited photograph.",
+            "guideVersion": 2,
+            "guideBounds": [
+                389,
+                161,
+                428,
+                216
+            ],
+            "styleReference": "public/assets/search-level-5-v2.jpg",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-21c5ba9e-127f-4323-a4a9-890470971931.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/ravens-ai-v1-4.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.30279932891352895,
+                        0.20878962477259377,
+                        0.04174947916605823,
+                        0.10002608588094034
+                    ],
+                    "similarity": 0.5468690196922417,
+                    "distance": 0.005310188330347409
+                },
+                {
+                    "target": [
+                        0.27074164121344896,
+                        0.3204696160700572,
+                        0.046705746810402016,
+                        0.10471976560943314
+                    ],
+                    "similarity": 0.12390278016863476,
+                    "distance": 0.11450105076700876
+                },
+                {
+                    "target": [
+                        0.24299265836414538,
+                        0.24516175479868646,
+                        0.035014876908662784,
+                        0.07007640145410259
+                    ],
+                    "similarity": 0.055199201066500336,
+                    "distance": 0.061129820422437045
+                }
+            ],
+            "previousPrompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real ravens crowd photograph to edit. Image 2 is Lamar Jackson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Lamar Jackson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual ravens fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+            "previousOutputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-61d6f8ac-f09f-4854-a5b8-92be89d9d8d8.png",
+            "revision": 2,
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.30279932891352895,
+                0.20878962477259377,
+                0.04174947916605823,
+                0.10002608588094034
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "ravens-4",
+    "focusCorrection": {
+        "sigmaPixels": 1.8,
+        "maskFeatherPixels": 9.074666791534417,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

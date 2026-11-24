@@ -1,0 +1,188 @@
+{
+    "cowboys": {
+        "src": "assets/team-photos/cowboys/photo-15.jpg",
+        "sourcePage": "https://www.dallascowboys.com/photos/rank-em-top-20-training-camp-standouts",
+        "credit": "www.dallascowboys.com / official team photography",
+        "alt": "Dallas players in navy jerseys and silver helmets at practice"
+    },
+    "giants": {
+        "src": "assets/team-photos/giants/photo-3.jpg",
+        "sourcePage": "https://www.giants.com/photos/practice-photos-getting-ready-for-mnf-rams-2026",
+        "credit": "www.giants.com / official team photography",
+        "alt": "Giants players in royal-blue jerseys and blue Giants helmets"
+    },
+    "commanders": {
+        "src": "assets/team-photos/commanders-scoreboard.jpg",
+        "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+        "credit": "Emily Faith Morgan/Washington Commanders",
+        "alt": "Washington fans wearing burgundy and gold team shirts"
+    },
+    "bears": {
+        "src": "assets/fan-crowds/bears.jpg",
+        "sourcePage": "https://thankyoufans.chicagobears.com/week-4/index.html",
+        "credit": "Chicago Bears / featured fan-submitted tailgate photograph",
+        "alt": "bears supporters at a home-game tailgate"
+    },
+    "lions": {
+        "src": "assets/team-photos/lions/photo-34.jpg",
+        "sourcePage": "https://www.detroitlions.com/photos/practice-photos-nov-12-2026",
+        "credit": "www.detroitlions.com / official team photography",
+        "alt": "Detroit player carrying a football in a Honolulu-blue jersey and silver Lions helmet"
+    },
+    "packers": {
+        "src": "assets/team-photos/packers/photo-28.jpg",
+        "sourcePage": "https://www.packers.com/photos/photos-packers-pedal-to-tuesday-s-training-camp-practice-aug-19-2025",
+        "credit": "www.packers.com / official team photography",
+        "alt": "Packers players in green jerseys and gold pants cycling past fans"
+    },
+    "vikings": {
+        "src": "assets/team-photos/vikings/photo-30.jpg",
+        "sourcePage": "https://www.vikings.com/photos/legends-players-visit-veterans-minnesota-va-hospitals",
+        "credit": "www.vikings.com / official team photography",
+        "alt": "Vikings visitor in a purple number 53 jersey greeting fans during a community visit"
+    },
+    "falcons": {
+        "src": "assets/team-photos/falcons/photo-4.jpg",
+        "sourcePage": "https://www.atlantafalcons.com/photos/training-camp-joint-practice-08-20-26",
+        "credit": "www.atlantafalcons.com / official team photography",
+        "alt": "Atlanta quarterback in a red number 1 jersey and black Falcons helmet at practice"
+    },
+    "panthers": {
+        "src": "assets/team-photos/panthers/photo-10.jpg",
+        "sourcePage": "https://www.panthers.com/photos/panthers-practice-week-11-vs-ravens-november-19-2026",
+        "credit": "www.panthers.com / official team photography",
+        "alt": "Carolina players in Panthers jerseys with bright blue sleeves and black panther emblems"
+    },
+    "saints": {
+        "src": "assets/team-photos/saints/photo-15.jpg",
+        "sourcePage": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-9-fan-photos-august-9-2026",
+        "credit": "www.neworleanssaints.com / official team photography",
+        "alt": "Saints player wearing a black jersey with gold numbers while signing for fans"
+    },
+    "buccaneers": {
+        "src": "assets/fan-crowds/buccaneers.jpg",
+        "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
+        "credit": "www.buccaneers.com",
+        "alt": "Tampa Bay fans filling the stands in Buccaneers red"
+    },
+    "cardinals": {
+        "src": "assets/fan-crowds/cardinals.jpg",
+        "sourcePage": "https://www.azcardinals.com/photos/photos-fan-friday-best-of-2023",
+        "credit": "Arianna Grainey/Arizona Cardinals",
+        "alt": "Arizona fans in red Cardinals hats and team jerseys"
+    },
+    "rams": {
+        "src": "assets/team-photos/rams/photo-38.jpg",
+        "sourcePage": "https://www.therams.com/photos/practice-photos-headin-east-rams-practice-before-traveling-philadelphia-week-4-eagles",
+        "credit": "www.therams.com / official team photography",
+        "alt": "Rams players practicing in royal-blue jerseys and blue helmets with yellow horns"
+    },
+    "49ers": {
+        "src": "assets/team-photos/49ers/photo-9.jpg",
+        "sourcePage": "https://www.49ers.com/photos/49ers-bring-the-energy-on-day-12-of-training-camp",
+        "credit": "www.49ers.com / official team photography",
+        "alt": "San Francisco players lining up in scarlet jerseys and gold 49ers helmets"
+    },
+    "seahawks": {
+        "src": "assets/fan-crowds/seahawks.jpg",
+        "sourcePage": "https://www.seahawks.com/photos/2025-nfc-divisional-round-seahawks-vs-49ers-lumen-field-12s-fan-photos",
+        "credit": "Seattle Seahawks / credited gallery photographer",
+        "alt": "Seattle fans wearing navy and neon-green Seahawks jerseys"
+    },
+    "bills": {
+        "src": "assets/team-photos/bills/photo-7.jpg",
+        "sourcePage": "https://www.buffalobills.com/photos/in-the-lab-buffalo-bills-week-11-practice-nov-20-2026",
+        "credit": "www.buffalobills.com / official team photography",
+        "alt": "Buffalo players in royal-blue jerseys and white Bills helmets"
+    },
+    "dolphins": {
+        "src": "assets/team-photos/dolphins/photo-32.jpg",
+        "sourcePage": "https://www.miamidolphins.com/photos/miami-dolphins-visit-safe-haven-hospital",
+        "credit": "www.miamidolphins.com / official team photography",
+        "alt": "Miami players in aqua jerseys posing with visitors at a community event"
+    },
+    "patriots": {
+        "src": "assets/team-photos/patriots/photo-3.jpg",
+        "sourcePage": "https://www.patriots.com/photos/photos-patriots-practice-at-fc-bayern-training-center-in-munich-germany-to-prepare-for-their-week-10-game-against-the-detroit-lions",
+        "credit": "www.patriots.com / official team photography",
+        "alt": "New England players practicing in navy Patriots jerseys and silver helmets"
+    },
+    "jets": {
+        "src": "assets/team-photos/jets/photo-6.jpg",
+        "sourcePage": "https://www.newyorkjets.com/photos/through-the-lens-best-photos-from-2026-jets-training-camp",
+        "credit": "www.newyorkjets.com / official team photography",
+        "alt": "New York Jets receiver reaching for a catch in a green number 81 jersey"
+    },
+    "ravens": {
+        "src": "assets/team-photos/ravens/photo-19.jpg",
+        "sourcePage": "https://www.baltimoreravens.com/photos/top-shots-from-ravens-thursday-practice-ahead-of-panthers-game",
+        "credit": "www.baltimoreravens.com / official team photography",
+        "alt": "Baltimore players in purple and black jerseys practicing together"
+    },
+    "bengals": {
+        "src": "assets/team-photos/bengals/photo-19.jpg",
+        "sourcePage": "https://www.bengals.com/photos/monday-night-football-bengals-commanders-week-11-2026-practice-photos",
+        "credit": "www.bengals.com / official team photography",
+        "alt": "Cincinnati quarterback in an orange number 9 jersey and tiger-striped helmet"
+    },
+    "browns": {
+        "src": "assets/team-photos/browns/photo-10.jpg",
+        "sourcePage": "https://www.clevelandbrowns.com/photos/browns-practice-for-2026-week-10-matchup-vs-texans",
+        "credit": "www.clevelandbrowns.com / official team photography",
+        "alt": "Cleveland player in an orange Browns helmet and orange sleeves catching a football"
+    },
+    "steelers": {
+        "src": "assets/team-photos/steelers/photo-3.jpg",
+        "sourcePage": "https://www.steelers.com/photos/photos-practice-eagles-week-day-2-x4934",
+        "credit": "www.steelers.com / official team photography",
+        "alt": "Pittsburgh players blocking in yellow and black practice jerseys and Steelers helmets"
+    },
+    "texans": {
+        "src": "assets/team-photos/texans/photo-20.jpg",
+        "sourcePage": "https://www.houstontexans.com/photos/week-10-practice-photos-texans-at-cleveland-browns",
+        "credit": "www.houstontexans.com / official team photography",
+        "alt": "Houston quarterbacks in red Texans jerseys and navy helmets at practice"
+    },
+    "colts": {
+        "src": "assets/team-photos/colts-scoreboard.jpg",
+        "sourcePage": "https://www.colts.com/photos/best-of-2025-fans",
+        "credit": "© Indianapolis Colts",
+        "alt": "Indianapolis fan wearing a royal-blue Colts jersey at the stadium"
+    },
+    "jaguars": {
+        "src": "assets/team-photos/jaguars/photo-20.jpg",
+        "sourcePage": "https://www.jaguars.com/photos/k000477-practice-photos-jaguars-thursday-session-2025-week-18-vs-titans",
+        "credit": "www.jaguars.com / official team photography",
+        "alt": "Jacksonville player running in a teal Jaguars jersey and black helmet"
+    },
+    "titans": {
+        "src": "assets/fan-crowds/titans.jpg",
+        "sourcePage": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
+        "credit": "Coral Scoles-Coburn/Tennessee Titans",
+        "alt": "Tennessee fans filling the home section in Titans blue"
+    },
+    "broncos": {
+        "src": "assets/fan-crowds/broncos.jpg",
+        "sourcePage": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+        "credit": "Ben Swanson/2026 Denver Broncos",
+        "alt": "broncos supporters at a home-game tailgate"
+    },
+    "chiefs": {
+        "src": "assets/team-photos/chiefs/photo-59.jpg",
+        "sourcePage": "https://www.chiefs.com/photos/photos-warmups-pregame-from-regular-season-week-11-chiefs-vs-cardinals",
+        "credit": "www.chiefs.com / official team photography",
+        "alt": "Kansas City player on the field in a red Chiefs number 15 jersey"
+    },
+    "raiders": {
+        "src": "assets/team-photos/raiders/photo-22.jpg",
+        "sourcePage": "https://www.raiders.com/photos/practice-photos-thursday-11-19-26",
+        "credit": "www.raiders.com / official team photography",
+        "alt": "Las Vegas players in black jerseys and silver Raiders helmets at practice"
+    },
+    "chargers": {
+        "src": "assets/team-photos/chargers/photo-5.jpg",
+        "sourcePage": "https://www.chargers.com/photos/practice-friday-week-11-2026",
+        "credit": "www.chargers.com / official team photography",
+        "alt": "Chargers players in powder-blue jerseys and white helmets with yellow lightning bolts"
+    }
+}

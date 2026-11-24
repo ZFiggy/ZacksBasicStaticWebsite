@@ -1,0 +1,2630 @@
+{
+    "eagles": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/eagles.png",
+                "cols": 4,
+                "rows": 2,
+                "index": 0,
+                "focusY": 0.18
+            },
+            "bird": {
+                "src": "assets/barkley-flight.png",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/search-level-3-v2.jpg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/eagles.png",
+                "cols": 4,
+                "rows": 2,
+                "index": 1,
+                "focusY": 0.4
+            },
+            "pocket": {
+                "src": "assets/game-covers/eagles.png",
+                "cols": 4,
+                "rows": 2,
+                "index": 2,
+                "focusY": 0.6
+            },
+            "shove": {
+                "src": "assets/game-covers/eagles.png",
+                "cols": 4,
+                "rows": 2,
+                "index": 3,
+                "focusY": 0.5
+            },
+            "recall": {
+                "src": "assets/game-covers/eagles.png",
+                "cols": 4,
+                "rows": 2,
+                "index": 4,
+                "focusY": 0.45
+            },
+            "punt": {
+                "src": "assets/game-covers/eagles.png",
+                "cols": 4,
+                "rows": 2,
+                "index": 5,
+                "focusY": 0.2
+            },
+            "blitz": {
+                "src": "assets/game-covers/eagles.png",
+                "cols": 4,
+                "rows": 2,
+                "index": 6,
+                "focusY": 0.2
+            },
+            "signal": {
+                "src": "assets/game-covers/eagles.png",
+                "cols": 4,
+                "rows": 2,
+                "index": 7,
+                "focusY": 0.5
+            }
+        },
+        "flightSprite": {
+            "src": "assets/barkley-flight.png",
+            "cols": 1,
+            "rows": 1,
+            "index": 0
+        },
+        "photoSearch": "original-five-photo-round"
+    },
+    "cowboys": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/cowboys-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-0.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 0,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-cowboys.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/cowboys-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/cowboys-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/cowboys-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/cowboys-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/cowboys-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/cowboys-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/cowboys-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-cowboys.png"
+    },
+    "giants": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/giants-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-0.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 1,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-giants.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/giants-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/giants-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/giants-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/giants-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/giants-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/giants-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/giants-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-giants.png"
+    },
+    "commanders": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/commanders-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-0.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 2,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-commanders.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/commanders-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/commanders-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/commanders-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/commanders-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/commanders-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/commanders-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/commanders-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-commanders.png"
+    },
+    "bears": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/bears-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-0.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 3,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-bears.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/bears-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/bears-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/bears-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/bears-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/bears-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/bears-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/bears-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-bears.png"
+    },
+    "lions": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/lions-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-1.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 0,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-lions.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/lions-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/lions-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/lions-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/lions-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/lions-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/lions-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/lions-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-lions.png"
+    },
+    "packers": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/packers-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-1.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 1,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-packers.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/packers-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/packers-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/packers-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/packers-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/packers-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/packers-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/packers-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-packers.png"
+    },
+    "vikings": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/vikings-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-1.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 2,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-vikings.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/vikings-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/vikings-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/vikings-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/vikings-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/vikings-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/vikings-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/vikings-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-vikings.png"
+    },
+    "falcons": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/falcons-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-1.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 3,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-falcons.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/falcons-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/falcons-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/falcons-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/falcons-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/falcons-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/falcons-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/falcons-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-falcons.png"
+    },
+    "panthers": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/panthers-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-2.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 0,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-panthers.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/panthers-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/panthers-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/panthers-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/panthers-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/panthers-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/panthers-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/panthers-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-panthers.png"
+    },
+    "saints": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/saints-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-2.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 1,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-saints.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/saints-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/saints-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/saints-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/saints-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/saints-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/saints-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/saints-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-saints.png"
+    },
+    "buccaneers": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/buccaneers-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-2.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 2,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-buccaneers.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/buccaneers-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/buccaneers-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/buccaneers-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/buccaneers-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/buccaneers-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/buccaneers-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/buccaneers-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-buccaneers.png"
+    },
+    "cardinals": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/cardinals-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-2.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 3,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-cardinals.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/cardinals-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/cardinals-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/cardinals-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/cardinals-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/cardinals-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/cardinals-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/cardinals-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-cardinals.png"
+    },
+    "rams": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/rams-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-3.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 0,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-rams.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/rams-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/rams-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/rams-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/rams-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/rams-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/rams-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/rams-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-rams.png"
+    },
+    "49ers": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/49ers-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-3.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 1,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-49ers.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/49ers-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/49ers-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/49ers-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/49ers-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/49ers-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/49ers-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/49ers-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-49ers.png"
+    },
+    "seahawks": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/seahawks-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-3.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 2,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-seahawks.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/seahawks-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/seahawks-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/seahawks-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/seahawks-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/seahawks-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/seahawks-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/seahawks-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-seahawks.png"
+    },
+    "bills": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/bills-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-3.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 3,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-bills.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/bills-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/bills-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/bills-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/bills-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/bills-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/bills-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/bills-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-bills.png"
+    },
+    "dolphins": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/dolphins-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-4.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 0,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-dolphins.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/dolphins-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/dolphins-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/dolphins-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/dolphins-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/dolphins-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/dolphins-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/dolphins-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-dolphins.png"
+    },
+    "patriots": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/patriots-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-4.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 1,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-patriots.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/patriots-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/patriots-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/patriots-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/patriots-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/patriots-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/patriots-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/patriots-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-patriots.png"
+    },
+    "jets": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/jets-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-4.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 2,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-jets.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/jets-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/jets-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/jets-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/jets-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/jets-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/jets-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/jets-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-jets.png"
+    },
+    "ravens": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/ravens-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-4.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 3,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-ravens.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/ravens-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/ravens-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/ravens-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/ravens-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/ravens-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/ravens-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/ravens-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-ravens.png"
+    },
+    "bengals": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/bengals-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-5.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 0,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-bengals.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/bengals-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/bengals-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/bengals-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/bengals-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/bengals-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/bengals-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/bengals-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-bengals.png"
+    },
+    "browns": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/browns-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-5.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 1,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-browns.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/browns-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/browns-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/browns-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/browns-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/browns-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/browns-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/browns-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-browns.png"
+    },
+    "steelers": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/steelers-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-5.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 2,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-steelers.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/steelers-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/steelers-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/steelers-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/steelers-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/steelers-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/steelers-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/steelers-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-steelers.png"
+    },
+    "texans": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/texans-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-5.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 3,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-texans.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/texans-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/texans-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/texans-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/texans-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/texans-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/texans-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/texans-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-texans.png"
+    },
+    "colts": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/colts-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-6.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 0,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-colts.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/colts-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/colts-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/colts-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/colts-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/colts-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/colts-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/colts-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-colts.png"
+    },
+    "jaguars": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/jaguars-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-6.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 1,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-jaguars.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/jaguars-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/jaguars-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/jaguars-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/jaguars-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/jaguars-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/jaguars-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/jaguars-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-jaguars.png"
+    },
+    "titans": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/titans-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-6.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 2,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-titans.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/titans-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/titans-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/titans-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/titans-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/titans-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/titans-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/titans-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-titans.png"
+    },
+    "broncos": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/broncos-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-6.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 3,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-broncos.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/broncos-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/broncos-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/broncos-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/broncos-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/broncos-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/broncos-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/broncos-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-broncos.png"
+    },
+    "chiefs": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/chiefs-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-7.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 0,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-chiefs.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0,
+                "region": [
+                    0,
+                    0,
+                    0.3095429029671211,
+                    0.5114988104678826
+                ]
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/chiefs-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/chiefs-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/chiefs-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/chiefs-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/chiefs-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/chiefs-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/chiefs-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-7.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-chiefs.png"
+    },
+    "raiders": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/raiders-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-7.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 1,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-raiders.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/raiders-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/raiders-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/raiders-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/raiders-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/raiders-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/raiders-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/raiders-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-7.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-raiders.png"
+    },
+    "chargers": {
+        "covers": {
+            "game": {
+                "src": "assets/game-covers/previews/chargers-game.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "bird": {
+                "src": "assets/player-sprites/current-flight-7.png",
+                "cols": 2,
+                "rows": 2,
+                "index": 2,
+                "trimAlpha": true,
+                "cutout": true
+            },
+            "search": {
+                "src": "assets/photo-search/current-chargers.png",
+                "cols": 3,
+                "rows": 2,
+                "index": 0
+            },
+            "kick": {
+                "src": "assets/game-covers/previews/chargers-kick.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "pocket": {
+                "src": "assets/game-covers/previews/chargers-pocket.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "shove": {
+                "src": "assets/game-covers/previews/chargers-shove.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "recall": {
+                "src": "assets/game-covers/previews/chargers-recall.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "punt": {
+                "src": "assets/game-covers/previews/chargers-punt.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "blitz": {
+                "src": "assets/game-covers/previews/chargers-blitz.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            },
+            "signal": {
+                "src": "assets/game-covers/previews/chargers-signal.svg",
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "preview": true
+            }
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-7.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        },
+        "photoSearch": "assets/photo-search/current-chargers.png"
+    }
+}

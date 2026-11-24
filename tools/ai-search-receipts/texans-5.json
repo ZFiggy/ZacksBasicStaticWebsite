@@ -1,0 +1,111 @@
+{
+    "team": "texans",
+    "level": 4,
+    "sourceIndex": 521,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/texans-521.jpg",
+    "sourcePage": "https://www.houstontexans.com/photos/top-25-photos-fans-in-stands",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/texans/t8oopg37xd6pvdyfhddq.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/texans.png",
+    "player": "C.J. Stroud",
+    "face": [
+        981.58,
+        426.46,
+        19.27,
+        24.83
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real texans crowd photograph to edit. Image 2 is C.J. Stroud's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable C.J. Stroud, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual texans fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/texans-ai-v2-5.jpg",
+    "status": "generated",
+    "guideVersion": 2,
+    "src": "assets/photo-search/rounds/texans-ai-v2-5.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.759253257244968,
+                0.5789549125241676,
+                0.02589421400042821,
+                0.06527519509845531
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.759253257244968,
+        0.5789549125241676,
+        0.02589421400042821,
+        0.06527519509845531
+    ],
+    "history": [
+        {
+            "team": "texans",
+            "level": 4,
+            "sourceIndex": 521,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/texans-521.jpg",
+            "sourcePage": "https://www.houstontexans.com/photos/top-25-photos-fans-in-stands",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/texans/t8oopg37xd6pvdyfhddq.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/texans.png",
+            "player": "C.J. Stroud",
+            "face": [
+                981.58,
+                426.46,
+                19.27,
+                24.83
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real texans crowd photograph to edit. Image 2 is C.J. Stroud's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable C.J. Stroud, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual texans fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-c3ca02a5-d13b-4924-b203-23ab3208351f.png",
+            "status": "generated",
+            "guideVersion": 2,
+            "src": "assets/photo-search/rounds/texans-ai-v1-5.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.759253257244968,
+                        0.5789549125241676,
+                        0.02589421400042821,
+                        0.06527519509845531
+                    ],
+                    "similarity": 0.5875388020103856,
+                    "distance": 0.00489105298068821
+                },
+                {
+                    "target": [
+                        0.7789111530495603,
+                        0.4859108600555647,
+                        0.01894836914025987,
+                        0.04044576395584088
+                    ],
+                    "similarity": 0.22317314492102014,
+                    "distance": 0.1029268045727793
+                },
+                {
+                    "target": [
+                        0.6889903929016806,
+                        0.5353600054060869,
+                        0.014915876685147092,
+                        0.034496106706187524
+                    ],
+                    "similarity": 0.20001808615779737,
+                    "distance": 0.09580094927064328
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.759253257244968,
+                0.5789549125241676,
+                0.02589421400042821,
+                0.06527519509845531
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "texans-5",
+    "focusCorrection": {
+        "sigmaPixels": 0.5,
+        "maskFeatherPixels": 5.628366355133076,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

@@ -20,7 +20,7 @@
     applyTheme();
     document.addEventListener('DOMContentLoaded', () => {
         applyTheme();
-        document.getElementById('theme-toggle').addEventListener('click', () => {
+        document.getElementById('theme-toggle')?.addEventListener('click', () => {
             preference = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
             try {
                 localStorage.setItem(themeKey, preference);

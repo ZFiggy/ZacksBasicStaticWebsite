@@ -1,0 +1,106 @@
+{
+    "team": "jets",
+    "level": 4,
+    "sourceIndex": 537,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/jets-537.jpg",
+    "sourcePage": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/c1nh5dhb0duhv28cryk4.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/jets.png",
+    "player": "Garrett Wilson",
+    "face": [
+        876.98,
+        80.01,
+        35.03,
+        44.84
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Garrett Wilson's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Garrett Wilson naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Isolated sharp head against very blurred body/crowd; restore original scale, connected shoulders, and strong defocus.\nThe original spectator's head fits inside original-image pixel bounds [873, 69, 916, 132], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-095bb8df-8541-4cc6-b825-5d5e8e51ccae.png",
+    "status": "generated",
+    "guideVersion": 2,
+    "src": "assets/photo-search/rounds/jets-ai-v2-5.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.6698564593301436,
+                0.1030818278427205,
+                0.05203349282296651,
+                0.1030818278427205
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.6698564593301436,
+        0.1030818278427205,
+        0.05203349282296651,
+        0.1030818278427205
+    ],
+    "history": [
+        {
+            "team": "jets",
+            "level": 4,
+            "sourceIndex": 537,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/jets-537.jpg",
+            "sourcePage": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/c1nh5dhb0duhv28cryk4.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/jets.png",
+            "player": "Garrett Wilson",
+            "face": [
+                876.98,
+                80.01,
+                35.03,
+                44.84
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real jets crowd photograph to edit. Image 2 is Garrett Wilson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Garrett Wilson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual jets fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-0c2d4d94-3ce5-45fc-80a1-2138b66b7849.png",
+            "status": "generated",
+            "guideVersion": 2,
+            "src": "assets/photo-search/rounds/jets-ai-v1-5.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.6775154600189063,
+                        0.09609655568754255,
+                        0.03963410902251476,
+                        0.09956807897650854
+                    ],
+                    "similarity": 0.7207155136618439,
+                    "distance": 0.007326194062852808
+                },
+                {
+                    "target": [
+                        0.443409084794624,
+                        0.0670259538543085,
+                        0.11164218026485173,
+                        0.2801244916115253
+                    ],
+                    "similarity": 0.12469397450240649,
+                    "distance": 0.21315988582838352
+                },
+                {
+                    "target": [
+                        0.699762765049364,
+                        0.2676911754385191,
+                        0.04074140535016956,
+                        0.08882180679110485
+                    ],
+                    "similarity": 0.05421939282894073,
+                    "distance": 0.17431773757931648
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.6775154600189063,
+                0.09609655568754255,
+                0.03963410902251476,
+                0.09956807897650854
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "jets-5"
+}

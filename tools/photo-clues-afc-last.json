@@ -1,0 +1,37 @@
+{
+    "titans": [
+        "A dark Titans baseball cap and navy jacket with light-blue shoulder stripes.",
+        "No hat and a navy number 9 Titans jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat and a navy Titans sweatshirt.",
+        "A navy Titans baseball cap and dark hoodie."
+    ],
+    "chargers": [
+        "A navy Chargers baseball cap, full beard, and blue team jacket.",
+        "No hat, a full beard, and a blue number 14 jersey.",
+        "A black knit cap, full beard, and gray hoodie.",
+        "No hat, a full beard, and a navy Chargers sweatshirt.",
+        "A navy Chargers baseball cap, full beard, and navy hoodie."
+    ],
+    "browns": [
+        "A dark brown baseball cap and brown team jacket with orange trim.",
+        "No hat, curly dark hair, and a brown number 19 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat, curly dark hair, and a brown Browns sweatshirt.",
+        "A brown baseball cap and dark brown hoodie."
+    ],
+    "texans": [
+        "A navy Texans baseball cap and navy jacket with red shoulder stripes.",
+        "No hat and a navy number 8 Texans jersey.",
+        "A black Texans baseball cap and gray hoodie.",
+        "No hat and a navy Texans sweatshirt.",
+        "A navy Texans baseball cap with a pale brim and dark hoodie."
+    ],
+    "bengals": [
+        "A black Bengals baseball cap, dark mustache, and black team jacket.",
+        "No hat, dark mustache, and a black number 14 jersey.",
+        "A black knit cap, dark mustache, and gray hoodie.",
+        "No hat, dark mustache, and a black Bengals sweatshirt.",
+        "An orange-and-black baseball cap, dark mustache, and black hoodie."
+    ]
+}

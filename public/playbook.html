@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#004c54">
+    <meta name="description" content="Six original Eagles football challenges. Read coverage, move the pile, decode signals, and escape the blitz.">
+    <title>The Playbook · Zack’s Eagles Arcade</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/teams-data.js"></script>
+    <script src="scripts/teams.js"></script>
+    <script defer src="scripts/photo-scenes.js"></script>
+    <script defer src="scripts/personality-data.js"></script>
+    <script defer src="scripts/game-personality.js"></script>
+    <script defer src="scripts/team-rules.js"></script>
+    <script defer src="scripts/character-art.js"></script>
+    <script defer src="scripts/team-ui.js"></script>
+    <script defer src="scripts/playbook-data.js"></script>
+    <script defer src="scripts/arcade.js"></script>
+    <script type="module" src="scripts/league-sync.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="teams.css">
+    <link rel="stylesheet" href="game-screen.css">
+    <script defer src="scripts/playbook.js"></script>
+    <script defer src="scripts/game-screen.js"></script>
+</head>
+<body class="game-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <noscript><p class="script-notice">Turn on JavaScript to play the games, save scores, and view your fan locker. You can still explore the <a href="games.html">game lineup</a>.</p></noscript>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="wordmark" href="index.html" aria-label="Zack's Website home"><span class="brand-icon" aria-hidden="true">Z</span> ZACK<span class="brand-light"> / PHILLY</span></a>
+            <div class="header-actions">
+                <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="counter.html">Scoreboard</a><a href="games.html" aria-current="location">Games</a></nav>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Dark mode</button>
+            </div>
+        </header>
+        <nav class="game-tabs playbook-tabs" id="playbook-tabs" aria-label="Playbook games"></nav>
+        <main id="main-content" tabindex="-1" class="game-layout playbook-layout">
+            <section class="game-story" aria-labelledby="game-title">
+                <div class="game-intro"><p class="eyebrow">The Eagles playbook · Six new challenges</p><h1 id="game-title">THE PLAYBOOK</h1><p id="game-tagline"></p></div>
+                <div class="game-dashboard">
+                    <div class="game-score"><span id="score-label">SCORE</span><strong id="playbook-score">0</strong></div>
+                    <p id="playbook-best" class="playbook-best"></p>
+                    <p class="game-status" id="playbook-status" role="status" aria-live="polite"></p>
+                    <button class="button game-restart" id="playbook-start" type="button">Start game</button>
+                </div>
+                <div class="game-instructions"><h2>The playbook</h2><p id="playbook-rules"></p><p>Scores and badges save on this browser. These are arcade adaptations of football, with simplified rules.</p><a class="browse-games" href="games.html">Browse all ten games</a></div>
+            </section>
+            <section class="field-panel playbook-panel" aria-label="Interactive football challenge">
+                <div class="field-heading"><span>PHILADELPHIA</span><span id="playbook-mode"></span></div>
+                <div id="playbook-stage" class="playbook-stage" tabindex="0" aria-label="Game area. See the playbook for controls."></div>
+                <div id="playbook-controls" class="playbook-controls"></div>
+            </section>
+        </main>
+        <footer class="site-footer"><p>ZACK / PHILLY <span class="footer-divider">·</span> An unofficial fan project.</p><a href="counter.html">Visit the Eagles scoreboard</a></footer>
+    </div>
+</body>
+</html>

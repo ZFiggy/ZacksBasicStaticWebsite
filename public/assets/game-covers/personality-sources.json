@@ -1,0 +1,1984 @@
+[
+    {
+        "teamId": "eagles",
+        "quarterback": {
+            "name": "Jalen Hurts",
+            "number": 1,
+            "era": "Eagles player; original arcade character",
+            "source": "https://www.philadelphiaeagles.com/news/eagles-announce-initial-53-man-roster-2026-season",
+            "portraitCandidate": "https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png",
+            "portraitSource": "https://www.philadelphiaeagles.com/news/eagles-announce-initial-53-man-roster-2026-season",
+            "portraitCredit": "Existing credited Philadelphia Eagles photography or generated artwork; see assets/credits.txt.",
+            "portraitVerified": true,
+            "portrait": "assets/jalen-reference.jpg"
+        },
+        "runner": {
+            "name": "Saquon Barkley",
+            "number": 26,
+            "era": "Eagles player; original arcade character",
+            "source": "https://www.philadelphiaeagles.com/news/eagles-announce-initial-53-man-roster-2026-season",
+            "portraitCandidate": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
+            "portraitSource": "https://www.philadelphiaeagles.com/news/eagles-announce-initial-53-man-roster-2026-season",
+            "portraitCredit": "Existing credited Philadelphia Eagles photography or generated artwork; see assets/credits.txt.",
+            "portraitVerified": true,
+            "portrait": "assets/barkley-flight.png"
+        },
+        "kicker": {
+            "name": "Jake Elliott",
+            "number": 4,
+            "era": "Eagles player",
+            "source": "https://www.philadelphiaeagles.com/news/eagles-announce-initial-53-man-roster-2026-season"
+        },
+        "defender": {
+            "name": "Brian Dawkins",
+            "number": 20,
+            "era": "Eagles legend \u00b7 1996\u20132008",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2002/philadelphia-eagles"
+        },
+        "flierTitle": "Barkley Bird",
+        "searchTitle": "Where\u2019s Jalen?",
+        "settingDetails": "South Philadelphia rowhouses, a silver Liberty Bell, green stadium padding, real fan crowd photos, and footballs with feather trails.",
+        "gameHooks": {
+            "game": "Saquon cuts through a South Philly street-field, gathering footballs between rowhouse stoops.",
+            "bird": "Restore the existing transparent winged Saquon #26 sprite; feather flaps, jersey detail, and stadium uprights are the identity.",
+            "search": "Restore all five real Eagles crowd photographs with the existing edited Jalen appearances and exact hit rectangles as the default.",
+            "kick": "Jake Elliott\u2019s planted boot and a spinning football frame Liberty Bell-shaped uprights under falling stadium snow.",
+            "pocket": "Jalen Hurts #1 steps up with his eyes downfield while three receiver routes peel apart and a safety silhouette shades the read.",
+            "shove": "The familiar Hurts #1 wedge advances behind a close-up wall of silver-wing helmets; the pile strains visibly on every push.",
+            "recall": "A player\u2019s gloved hand redraws routes across a Liberty Bell playbook; a sideline audible flips the arrows.",
+            "punt": "A spinning punt rides above the Delaware waterfront and takes a chalk-dust bounce near the painted sideline.",
+            "blitz": "Brian Dawkins #20 crouches in a low, intense stance at the edge of a Philadelphia practice-grid tunnel.",
+            "signal": "Midnight-green wristbands, a headset, and handwritten play cards turn the secret call into an Eagles sideline puzzle."
+        },
+        "flightSprite": {
+            "src": "assets/barkley-flight.png",
+            "cols": 1,
+            "rows": 1,
+            "index": 0
+        }
+    },
+    {
+        "teamId": "cowboys",
+        "quarterback": {
+            "name": "Dak Prescott",
+            "number": 4,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/6",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cowboys-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/6"
+        },
+        "runner": {
+            "name": "CeeDee Lamb",
+            "number": 88,
+            "era": "Dallas Cowboys \u00b7 2020\u20132025",
+            "source": "https://www.nfl.com/players/ceedee-lamb/stats/career"
+        },
+        "kicker": {
+            "name": "Brandon Aubrey",
+            "number": 17,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/6",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cowboys-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/6"
+        },
+        "defender": {
+            "name": "DaRon Bland",
+            "number": 26,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/6",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cowboys-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/6"
+        },
+        "flierTitle": "CeeDee Skyride",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent cowboys football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as CeeDee Lamb #88. Collect both footballs and bring them home.",
+            "bird": "Take CeeDee Lamb through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Brandon Aubrey #17. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Dak Prescott #4, then find the open receiver.",
+            "shove": "Move the line with Dak Prescott and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Dak Prescott\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by DaRon Bland #26. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "giants",
+        "quarterback": {
+            "name": "Jaxson Dart",
+            "number": 6,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/19",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/giants-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/19"
+        },
+        "runner": {
+            "name": "Cam Skattebo",
+            "number": 44,
+            "era": "New York Giants \u00b7 2025",
+            "source": "https://www.giants.com/team/players-roster/cam-skattebo/"
+        },
+        "kicker": {
+            "name": "Graham Gano",
+            "number": 9,
+            "era": "Giants \u00b7 2025",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2025/new-york-giants"
+        },
+        "defender": {
+            "name": "Dexter Lawrence",
+            "number": 97,
+            "era": "2025 franchise star",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2025/new-york-giants"
+        },
+        "flierTitle": "Skattebo Bird",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent giants football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Cam Skattebo #44. Collect both footballs and bring them home.",
+            "bird": "Take Cam Skattebo through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Graham Gano #9. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Jaxson Dart #6, then find the open receiver.",
+            "shove": "Move the line with Jaxson Dart and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Jaxson Dart\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Dexter Lawrence #97. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "commanders",
+        "quarterback": {
+            "name": "Jayden Daniels",
+            "number": 5,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/28",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/commanders-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/28"
+        },
+        "runner": {
+            "name": "Terry McLaurin",
+            "number": 17,
+            "era": "Washington Commanders \u00b7 2020\u20132025",
+            "source": "https://www.nfl.com/players/terry-mclaurin/stats/career"
+        },
+        "kicker": {
+            "name": "Drew Stevens",
+            "number": 19,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/28",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/commanders-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/28"
+        },
+        "defender": {
+            "name": "Bobby Wagner",
+            "number": 54,
+            "era": "2024 franchise star",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2024/washington-commanders"
+        },
+        "flierTitle": "McLaurin Air Command",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent commanders football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Terry McLaurin #17. Collect both footballs and bring them home.",
+            "bird": "Take Terry McLaurin through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Drew Stevens #19. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Jayden Daniels #5, then find the open receiver.",
+            "shove": "Move the line with Jayden Daniels and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Jayden Daniels\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Bobby Wagner #54. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "bears",
+        "quarterback": {
+            "name": "Caleb Williams",
+            "number": 18,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/3",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bears-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/3"
+        },
+        "runner": {
+            "name": "DJ Moore",
+            "number": 2,
+            "era": "Chicago Bears \u00b7 2023\u20132025",
+            "source": "https://www.nfl.com/players/d-j-moore/stats/career"
+        },
+        "kicker": {
+            "name": "Cairo Santos",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/3",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bears-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/3"
+        },
+        "defender": {
+            "name": "Jaylon Johnson",
+            "number": 1,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/3",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bears-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/3"
+        },
+        "flierTitle": "DJ\u2019s Windy City Wings",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent bears football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as DJ Moore #2. Collect both footballs and bring them home.",
+            "bird": "Take DJ Moore through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Cairo Santos #8. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Caleb Williams #18, then find the open receiver.",
+            "shove": "Move the line with Caleb Williams and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Caleb Williams\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Jaylon Johnson #1. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-0.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "lions",
+        "quarterback": {
+            "name": "Jared Goff",
+            "number": 16,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/8",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/lions-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/8"
+        },
+        "runner": {
+            "name": "Jahmyr Gibbs",
+            "number": 26,
+            "era": "Detroit Lions \u00b7 2023\u20132025",
+            "source": "https://www.nfl.com/players/jahmyr-gibbs/stats/career"
+        },
+        "kicker": {
+            "name": "Jake Bates",
+            "number": 39,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/8",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/lions-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/8"
+        },
+        "defender": {
+            "name": "Aidan Hutchinson",
+            "number": 97,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/8",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/lions-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/8"
+        },
+        "flierTitle": "Gibbs Takes Flight",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent lions football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Jahmyr Gibbs #26. Collect both footballs and bring them home.",
+            "bird": "Take Jahmyr Gibbs through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Jake Bates #39. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Jared Goff #16, then find the open receiver.",
+            "shove": "Move the line with Jared Goff and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Jared Goff\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Aidan Hutchinson #97. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "packers",
+        "quarterback": {
+            "name": "Jordan Love",
+            "number": 10,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/9",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/packers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/9"
+        },
+        "runner": {
+            "name": "Josh Jacobs",
+            "number": 8,
+            "era": "Green Bay Packers \u00b7 2024\u20132025",
+            "source": "https://www.nfl.com/players/josh-jacobs/stats/career"
+        },
+        "kicker": {
+            "name": "Trey Smack",
+            "number": 28,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/9",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/packers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/9"
+        },
+        "defender": {
+            "name": "Xavier McKinney",
+            "number": 29,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/9",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/packers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/9"
+        },
+        "flierTitle": "Jacobs Air Express",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent packers football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Josh Jacobs #8. Collect both footballs and bring them home.",
+            "bird": "Take Josh Jacobs through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Trey Smack #28. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Jordan Love #10, then find the open receiver.",
+            "shove": "Move the line with Jordan Love and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Jordan Love\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Xavier McKinney #29. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "vikings",
+        "quarterback": {
+            "name": "Kyler Murray",
+            "number": 1,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/16",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/vikings-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/16"
+        },
+        "runner": {
+            "name": "Justin Jefferson",
+            "number": 18,
+            "era": "Minnesota Vikings \u00b7 2020\u20132025",
+            "source": "https://www.nfl.com/players/justin-jefferson/stats/career"
+        },
+        "kicker": {
+            "name": "Will Reichard",
+            "number": 16,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/16",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/vikings-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/16"
+        },
+        "defender": {
+            "name": "Byron Murphy Jr.",
+            "number": 7,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/16",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/vikings-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/16"
+        },
+        "flierTitle": "Jefferson Jet",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent vikings football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Justin Jefferson #18. Collect both footballs and bring them home.",
+            "bird": "Take Justin Jefferson through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Will Reichard #16. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Kyler Murray #1, then find the open receiver.",
+            "shove": "Move the line with Kyler Murray and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Kyler Murray\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Byron Murphy Jr. #7. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "falcons",
+        "quarterback": {
+            "name": "Michael Penix Jr.",
+            "number": 9,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/1",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/falcons-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/1"
+        },
+        "runner": {
+            "name": "Bijan Robinson",
+            "number": 7,
+            "era": "Atlanta Falcons \u00b7 2023\u20132025",
+            "source": "https://www.nfl.com/players/bijan-robinson/stats/career"
+        },
+        "kicker": {
+            "name": "Jake Moody",
+            "number": 45,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/1",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/falcons-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/1"
+        },
+        "defender": {
+            "name": "Jessie Bates III",
+            "number": 3,
+            "era": "2025 franchise star",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2025/atlanta-falcons"
+        },
+        "flierTitle": "Bijan Bird",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent falcons football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Bijan Robinson #7. Collect both footballs and bring them home.",
+            "bird": "Take Bijan Robinson through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Jake Moody #45. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Michael Penix Jr. #9, then find the open receiver.",
+            "shove": "Move the line with Michael Penix Jr. and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Michael Penix Jr.\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Jessie Bates III #3. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-1.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "panthers",
+        "quarterback": {
+            "name": "Bryce Young",
+            "number": 9,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/29",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/panthers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/29"
+        },
+        "runner": {
+            "name": "Christian McCaffrey",
+            "number": 22,
+            "era": "Carolina Panthers \u00b7 2017\u20132022",
+            "source": "https://www.nfl.com/players/christian-mccaffrey/stats/career"
+        },
+        "kicker": {
+            "name": "Ryan Fitzgerald",
+            "number": 10,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/29",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/panthers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/29"
+        },
+        "defender": {
+            "name": "Jaycee Horn",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/29",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/panthers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/29"
+        },
+        "flierTitle": "McCaffrey Carolina Flight",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent panthers football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Christian McCaffrey #22. Collect both footballs and bring them home.",
+            "bird": "Take Christian McCaffrey through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Ryan Fitzgerald #10. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Bryce Young #9, then find the open receiver.",
+            "shove": "Move the line with Bryce Young and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Bryce Young\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Jaycee Horn #8. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "saints",
+        "quarterback": {
+            "name": "Tyler Shough",
+            "number": 6,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/18",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/saints-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/18"
+        },
+        "runner": {
+            "name": "Alvin Kamara",
+            "number": 41,
+            "era": "New Orleans Saints \u00b7 2017\u20132025",
+            "source": "https://www.nfl.com/players/alvin-kamara/stats/career"
+        },
+        "kicker": {
+            "name": "Charlie Smyth",
+            "number": 39,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/18",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/saints-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/18"
+        },
+        "defender": {
+            "name": "Demario Davis",
+            "number": 56,
+            "era": "2024 franchise star",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2024/new-orleans-saints"
+        },
+        "flierTitle": "Kamara Sky March",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent saints football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Alvin Kamara #41. Collect both footballs and bring them home.",
+            "bird": "Take Alvin Kamara through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Charlie Smyth #39. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Tyler Shough #6, then find the open receiver.",
+            "shove": "Move the line with Tyler Shough and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Tyler Shough\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Demario Davis #56. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "buccaneers",
+        "quarterback": {
+            "name": "Baker Mayfield",
+            "number": 6,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/27",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/buccaneers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/27"
+        },
+        "runner": {
+            "name": "Mike Evans",
+            "number": 13,
+            "era": "Tampa Bay Buccaneers \u00b7 2016\u20132025",
+            "source": "https://www.nfl.com/players/mike-evans/stats/career"
+        },
+        "kicker": {
+            "name": "Chase McLaughlin",
+            "number": 4,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/27",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/buccaneers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/27"
+        },
+        "defender": {
+            "name": "Antoine Winfield Jr.",
+            "number": 31,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/27",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/buccaneers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/27"
+        },
+        "flierTitle": "Evans Air Raid",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent buccaneers football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Mike Evans #13. Collect both footballs and bring them home.",
+            "bird": "Take Mike Evans through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Chase McLaughlin #4. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Baker Mayfield #6, then find the open receiver.",
+            "shove": "Move the line with Baker Mayfield and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Baker Mayfield\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Antoine Winfield Jr. #31. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "cardinals",
+        "quarterback": {
+            "name": "Gardner Minshew II",
+            "number": 15,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/22",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cardinals-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/22"
+        },
+        "runner": {
+            "name": "Larry Fitzgerald",
+            "number": 11,
+            "era": "Arizona Cardinals \u00b7 2016\u20132020",
+            "source": "https://www.nfl.com/players/larry-fitzgerald/stats/career"
+        },
+        "kicker": {
+            "name": "Chad Ryland",
+            "number": 38,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/22",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cardinals-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/22"
+        },
+        "defender": {
+            "name": "Budda Baker",
+            "number": 3,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/22",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/cardinals-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/22"
+        },
+        "flierTitle": "Fitzgerald Flight",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent cardinals football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Larry Fitzgerald #11. Collect both footballs and bring them home.",
+            "bird": "Take Larry Fitzgerald through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Chad Ryland #38. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Gardner Minshew II #15, then find the open receiver.",
+            "shove": "Move the line with Gardner Minshew II and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Gardner Minshew II\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Budda Baker #3. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-2.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "rams",
+        "quarterback": {
+            "name": "Matthew Stafford",
+            "number": 9,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/14",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/rams-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/14"
+        },
+        "runner": {
+            "name": "Puka Nacua",
+            "number": 17,
+            "era": "Los Angeles Rams \u00b7 2023\u20132024",
+            "source": "https://www.nfl.com/players/puka-nacua/stats/career"
+        },
+        "kicker": {
+            "name": "Joshua Karty",
+            "number": 16,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/14",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/rams-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/14"
+        },
+        "defender": {
+            "name": "Aaron Donald",
+            "number": 99,
+            "era": "2023 franchise star",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2023/los-angeles-rams"
+        },
+        "flierTitle": "Puka Takes Flight",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent rams football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Puka Nacua #17. Collect both footballs and bring them home.",
+            "bird": "Take Puka Nacua through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Joshua Karty #16. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Matthew Stafford #9, then find the open receiver.",
+            "shove": "Move the line with Matthew Stafford and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Matthew Stafford\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Aaron Donald #99. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "49ers",
+        "quarterback": {
+            "name": "Brock Purdy",
+            "number": 13,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/25",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/49ers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/25"
+        },
+        "runner": {
+            "name": "Christian McCaffrey",
+            "number": 23,
+            "era": "San Francisco 49ers \u00b7 2022\u20132025",
+            "source": "https://www.nfl.com/players/christian-mccaffrey/stats/career"
+        },
+        "kicker": {
+            "name": "Eddy Pineiro",
+            "number": 18,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/25",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/49ers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/25"
+        },
+        "defender": {
+            "name": "Fred Warner",
+            "number": 54,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/25",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/49ers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/25"
+        },
+        "flierTitle": "McCaffrey Gold Rush",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent 49ers football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Christian McCaffrey #23. Collect both footballs and bring them home.",
+            "bird": "Take Christian McCaffrey through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Eddy Pineiro #18. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Brock Purdy #13, then find the open receiver.",
+            "shove": "Move the line with Brock Purdy and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Brock Purdy\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Fred Warner #54. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "seahawks",
+        "quarterback": {
+            "name": "Sam Darnold",
+            "number": 14,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/26",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/seahawks-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/26"
+        },
+        "runner": {
+            "name": "Jaxon Smith-Njigba",
+            "number": 11,
+            "era": "Seattle Seahawks \u00b7 2023\u20132025",
+            "source": "https://www.nfl.com/players/jaxon-smith-njigba/stats/career"
+        },
+        "kicker": {
+            "name": "Jason Myers",
+            "number": 5,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/26",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/seahawks-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/26"
+        },
+        "defender": {
+            "name": "Devon Witherspoon",
+            "number": 21,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/26",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/seahawks-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/26"
+        },
+        "flierTitle": "JSN Skyride",
+        "searchTitle": "Photo Hunt",
+        "settingDetails": "Recent seahawks football photography, team-colored controls, and a home-field arcade.",
+        "gameHooks": {
+            "game": "Play as Jaxon Smith-Njigba #11. Collect both footballs and bring them home.",
+            "bird": "Take Jaxon Smith-Njigba through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Jason Myers #5. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Sam Darnold #14, then find the open receiver.",
+            "shove": "Move the line with Sam Darnold and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Sam Darnold\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Devon Witherspoon #21. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "bills",
+        "quarterback": {
+            "name": "Josh Allen",
+            "number": 17,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/2",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bills-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/2"
+        },
+        "runner": {
+            "name": "James Cook",
+            "number": 4,
+            "era": "Buffalo Bills \u00b7 2022\u20132025",
+            "source": "https://www.nfl.com/players/james-cook/stats/career"
+        },
+        "kicker": {
+            "name": "Tyler Bass",
+            "number": 16,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/2",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bills-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/2"
+        },
+        "defender": {
+            "name": "Ed Oliver",
+            "number": 91,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/2",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bills-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/2"
+        },
+        "flierTitle": "Cook\u2019s Buffalo Flight",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as James Cook #4. Collect both footballs and bring them home.",
+            "bird": "Take James Cook through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Tyler Bass #16. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Josh Allen #17, then find the open receiver.",
+            "shove": "Move the line with Josh Allen and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Josh Allen\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Ed Oliver #91. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent bills football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-3.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "dolphins",
+        "quarterback": {
+            "name": "Malik Willis",
+            "number": 2,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/15",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/dolphins-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/15"
+        },
+        "runner": {
+            "name": "Tyreek Hill",
+            "number": 10,
+            "era": "Miami Dolphins \u00b7 2022\u20132025",
+            "source": "https://www.nfl.com/players/tyreek-hill/stats/career"
+        },
+        "kicker": {
+            "name": "Daniel Carlson",
+            "number": 38,
+            "era": "2026 roster",
+            "source": "https://www.miamidolphins.com/team/players-roster/daniel-carlson/",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/dolphins-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.miamidolphins.com/team/players-roster/daniel-carlson/"
+        },
+        "defender": {
+            "name": "Jordyn Brooks",
+            "number": 20,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/15",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/dolphins-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/15"
+        },
+        "flierTitle": "Tyreek Takes Flight",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Tyreek Hill #10. Collect both footballs and bring them home.",
+            "bird": "Take Tyreek Hill through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Daniel Carlson #38. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Malik Willis #2, then find the open receiver.",
+            "shove": "Move the line with Malik Willis and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Malik Willis\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Jordyn Brooks #20. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent dolphins football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "patriots",
+        "quarterback": {
+            "name": "Drake Maye",
+            "number": 10,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/17",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/patriots-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/17"
+        },
+        "runner": {
+            "name": "Rob Gronkowski",
+            "number": 87,
+            "era": "New England Patriots \u00b7 2016\u20132018",
+            "source": "https://www.nfl.com/players/rob-gronkowski/stats/career"
+        },
+        "kicker": {
+            "name": "Andy Borregales",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/17",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/patriots-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/17"
+        },
+        "defender": {
+            "name": "Christian Gonzalez",
+            "number": 0,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/17",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/patriots-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/17"
+        },
+        "flierTitle": "Gronk Air Spike",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Rob Gronkowski #87. Collect both footballs and bring them home.",
+            "bird": "Take Rob Gronkowski through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Andy Borregales #8. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Drake Maye #10, then find the open receiver.",
+            "shove": "Move the line with Drake Maye and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Drake Maye\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Christian Gonzalez #0. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent patriots football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "jets",
+        "quarterback": {
+            "name": "Geno Smith",
+            "number": 7,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/20",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jets-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/20"
+        },
+        "runner": {
+            "name": "Breece Hall",
+            "number": 20,
+            "era": "New York Jets \u00b7 2022\u20132025",
+            "source": "https://www.nfl.com/players/breece-hall/stats/career"
+        },
+        "kicker": {
+            "name": "Jason Sanders",
+            "number": 19,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/20",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jets-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/20"
+        },
+        "defender": {
+            "name": "Sauce Gardner",
+            "number": 1,
+            "era": "2024 franchise star",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2024/new-york-jets"
+        },
+        "flierTitle": "Breece Jet",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Breece Hall #20. Collect both footballs and bring them home.",
+            "bird": "Take Breece Hall through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Jason Sanders #19. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Geno Smith #7, then find the open receiver.",
+            "shove": "Move the line with Geno Smith and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Geno Smith\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Sauce Gardner #1. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent jets football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "ravens",
+        "quarterback": {
+            "name": "Lamar Jackson",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/33",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/ravens-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/33"
+        },
+        "runner": {
+            "name": "Derrick Henry",
+            "number": 22,
+            "era": "Baltimore Ravens \u00b7 2024\u20132025",
+            "source": "https://www.nfl.com/players/derrick-henry/stats/career"
+        },
+        "kicker": {
+            "name": "Riley Patterson",
+            "number": 35,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/33",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/ravens-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/33"
+        },
+        "defender": {
+            "name": "Kyle Hamilton",
+            "number": 14,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/33",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/ravens-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/33"
+        },
+        "flierTitle": "Henry Raven Flight",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Derrick Henry #22. Collect both footballs and bring them home.",
+            "bird": "Take Derrick Henry through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Riley Patterson #35. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Lamar Jackson #8, then find the open receiver.",
+            "shove": "Move the line with Lamar Jackson and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Lamar Jackson\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Kyle Hamilton #14. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent ravens football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-4.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "bengals",
+        "quarterback": {
+            "name": "Joe Burrow",
+            "number": 9,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/4",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bengals-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/4"
+        },
+        "runner": {
+            "name": "Ja\u2019Marr Chase",
+            "number": 1,
+            "era": "Cincinnati Bengals \u00b7 2021\u20132025",
+            "source": "https://www.nfl.com/players/ja-marr-chase/stats/career"
+        },
+        "kicker": {
+            "name": "Evan McPherson",
+            "number": 2,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/4",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bengals-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/4"
+        },
+        "defender": {
+            "name": "Trey Hendrickson",
+            "number": 91,
+            "era": "2024 franchise star",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2024/cincinnati-bengals"
+        },
+        "flierTitle": "Chase Takes Flight",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Ja\u2019Marr Chase #1. Collect both footballs and bring them home.",
+            "bird": "Take Ja\u2019Marr Chase through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Evan McPherson #2. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Joe Burrow #9, then find the open receiver.",
+            "shove": "Move the line with Joe Burrow and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Joe Burrow\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Trey Hendrickson #91. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent bengals football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "browns",
+        "quarterback": {
+            "name": "Shedeur Sanders",
+            "number": 2,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/5",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/browns-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/5"
+        },
+        "runner": {
+            "name": "Nick Chubb",
+            "number": 24,
+            "era": "Cleveland Browns \u00b7 2018\u20132024",
+            "source": "https://www.nfl.com/players/nick-chubb/stats/career"
+        },
+        "kicker": {
+            "name": "Andre Szmyt",
+            "number": 25,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/5",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/browns-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/5"
+        },
+        "defender": {
+            "name": "Myles Garrett",
+            "number": 95,
+            "era": "2024 franchise star",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2024/cleveland-browns"
+        },
+        "flierTitle": "Chubb Air Express",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Nick Chubb #24. Collect both footballs and bring them home.",
+            "bird": "Take Nick Chubb through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Andre Szmyt #25. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Shedeur Sanders #2, then find the open receiver.",
+            "shove": "Move the line with Shedeur Sanders and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Shedeur Sanders\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Myles Garrett #95. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent browns football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "steelers",
+        "quarterback": {
+            "name": "Aaron Rodgers",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/23",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/steelers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/23"
+        },
+        "runner": {
+            "name": "T.J. Watt",
+            "number": 90,
+            "era": "Pittsburgh Steelers \u00b7 2017\u20132025",
+            "source": "https://www.nfl.com/players/t-j-watt/stats/career"
+        },
+        "kicker": {
+            "name": "Chris Boswell",
+            "number": 9,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/23",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/steelers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/23"
+        },
+        "defender": {
+            "name": "T.J. Watt",
+            "number": 90,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/23",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/steelers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/23"
+        },
+        "flierTitle": "Watt Takes Flight",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as T.J. Watt #90. Collect both footballs and bring them home.",
+            "bird": "Take T.J. Watt through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Chris Boswell #9. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Aaron Rodgers #8, then find the open receiver.",
+            "shove": "Move the line with Aaron Rodgers and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Aaron Rodgers\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by T.J. Watt #90. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent steelers football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "texans",
+        "quarterback": {
+            "name": "C.J. Stroud",
+            "number": 7,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/34",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/texans-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/34"
+        },
+        "runner": {
+            "name": "Nico Collins",
+            "number": 12,
+            "era": "Houston Texans \u00b7 2021\u20132025",
+            "source": "https://www.nfl.com/players/nico-collins/stats/career"
+        },
+        "kicker": {
+            "name": "Ka'imi Fairbairn",
+            "number": 15,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/34",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/texans-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/34"
+        },
+        "defender": {
+            "name": "Will Anderson Jr.",
+            "number": 51,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/34",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/texans-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/34"
+        },
+        "flierTitle": "Nico Launch",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Nico Collins #12. Collect both footballs and bring them home.",
+            "bird": "Take Nico Collins through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Ka'imi Fairbairn #15. Read the wind and split the uprights.",
+            "pocket": "Read the defense as C.J. Stroud #7, then find the open receiver.",
+            "shove": "Move the line with C.J. Stroud and the home offense. Time the snap and push for the first down.",
+            "recall": "Study C.J. Stroud\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Will Anderson Jr. #51. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent texans football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-5.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "colts",
+        "quarterback": {
+            "name": "Anthony Richardson Sr.",
+            "number": 5,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/11",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/colts-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/11"
+        },
+        "runner": {
+            "name": "Jonathan Taylor",
+            "number": 28,
+            "era": "Indianapolis Colts \u00b7 2020\u20132025",
+            "source": "https://www.nfl.com/players/jonathan-taylor/stats/career"
+        },
+        "kicker": {
+            "name": "Spencer Shrader",
+            "number": 3,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/11",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/colts-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/11"
+        },
+        "defender": {
+            "name": "DeForest Buckner",
+            "number": 99,
+            "era": "2024 franchise star",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2024/indianapolis-colts"
+        },
+        "flierTitle": "Taylor Takes Flight",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Jonathan Taylor #28. Collect both footballs and bring them home.",
+            "bird": "Take Jonathan Taylor through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Spencer Shrader #3. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Anthony Richardson Sr. #5, then find the open receiver.",
+            "shove": "Move the line with Anthony Richardson Sr. and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Anthony Richardson Sr.\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by DeForest Buckner #99. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent colts football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "jaguars",
+        "quarterback": {
+            "name": "Trevor Lawrence",
+            "number": 16,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/30",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jaguars-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/30"
+        },
+        "runner": {
+            "name": "Travis Etienne Jr.",
+            "number": 1,
+            "era": "Jacksonville Jaguars \u00b7 2022\u20132025",
+            "source": "https://www.nfl.com/players/travis-etienne/stats/career"
+        },
+        "kicker": {
+            "name": "Cam Little",
+            "number": 39,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/30",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jaguars-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/30"
+        },
+        "defender": {
+            "name": "Josh Hines-Allen",
+            "number": 41,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/30",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/jaguars-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/30"
+        },
+        "flierTitle": "Etienne Air Prowl",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Travis Etienne Jr. #1. Collect both footballs and bring them home.",
+            "bird": "Take Travis Etienne Jr. through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Cam Little #39. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Trevor Lawrence #16, then find the open receiver.",
+            "shove": "Move the line with Trevor Lawrence and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Trevor Lawrence\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Josh Hines-Allen #41. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent jaguars football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "titans",
+        "quarterback": {
+            "name": "Cam Ward",
+            "number": 1,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/10",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/titans-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/10"
+        },
+        "runner": {
+            "name": "Derrick Henry",
+            "number": 22,
+            "era": "Tennessee Titans \u00b7 2016\u20132023",
+            "source": "https://www.nfl.com/players/derrick-henry/stats/career"
+        },
+        "kicker": {
+            "name": "Joey Slye",
+            "number": 6,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/10",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/titans-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/10"
+        },
+        "defender": {
+            "name": "Jeffery Simmons",
+            "number": 98,
+            "era": "2025 franchise star",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2025/tennessee-titans"
+        },
+        "flierTitle": "Henry Titan Flight",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Derrick Henry #22. Collect both footballs and bring them home.",
+            "bird": "Take Derrick Henry through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Joey Slye #6. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Cam Ward #1, then find the open receiver.",
+            "shove": "Move the line with Cam Ward and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Cam Ward\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Jeffery Simmons #98. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent titans football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "broncos",
+        "quarterback": {
+            "name": "Bo Nix",
+            "number": 10,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/7",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/broncos-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/7"
+        },
+        "runner": {
+            "name": "Courtland Sutton",
+            "number": 14,
+            "era": "Denver Broncos \u00b7 2018\u20132025",
+            "source": "https://www.nfl.com/players/courtland-sutton/stats/career"
+        },
+        "kicker": {
+            "name": "Wil Lutz",
+            "number": 3,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/7",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/broncos-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/7"
+        },
+        "defender": {
+            "name": "Pat Surtain II",
+            "number": 2,
+            "era": "2024 franchise star",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2024/denver-broncos"
+        },
+        "flierTitle": "Sutton Mile High",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Courtland Sutton #14. Collect both footballs and bring them home.",
+            "bird": "Take Courtland Sutton through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Wil Lutz #3. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Bo Nix #10, then find the open receiver.",
+            "shove": "Move the line with Bo Nix and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Bo Nix\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Pat Surtain II #2. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent broncos football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-6.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 3,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "chiefs",
+        "quarterback": {
+            "name": "Patrick Mahomes",
+            "number": 15,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/12",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chiefs-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/12"
+        },
+        "runner": {
+            "name": "Travis Kelce",
+            "number": 87,
+            "era": "Kansas City Chiefs \u00b7 2016\u20132025",
+            "source": "https://www.nfl.com/players/travis-kelce/stats/career"
+        },
+        "kicker": {
+            "name": "Harrison Butker",
+            "number": 7,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/12",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chiefs-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/12"
+        },
+        "defender": {
+            "name": "Chris Jones",
+            "number": 95,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/12",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chiefs-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/12"
+        },
+        "flierTitle": "Kelce Skyride",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Travis Kelce #87. Collect both footballs and bring them home.",
+            "bird": "Take Travis Kelce through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Harrison Butker #7. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Patrick Mahomes #15, then find the open receiver.",
+            "shove": "Move the line with Patrick Mahomes and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Patrick Mahomes\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Chris Jones #95. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent chiefs football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-7.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 0,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "raiders",
+        "quarterback": {
+            "name": "Fernando Mendoza",
+            "number": 15,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/13",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/raiders-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/13"
+        },
+        "runner": {
+            "name": "Ashton Jeanty",
+            "number": 2,
+            "era": "Las Vegas Raiders \u00b7 2025",
+            "source": "https://www.nfl.com/players/ashton-jeanty/stats/career"
+        },
+        "kicker": {
+            "name": "Matt Gay",
+            "number": 14,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/13",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/raiders-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/13"
+        },
+        "defender": {
+            "name": "Maxx Crosby",
+            "number": 98,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/13",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/raiders-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/13"
+        },
+        "flierTitle": "Jeanty Air Raid",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Ashton Jeanty #2. Collect both footballs and bring them home.",
+            "bird": "Take Ashton Jeanty through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Matt Gay #14. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Fernando Mendoza #15, then find the open receiver.",
+            "shove": "Move the line with Fernando Mendoza and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Fernando Mendoza\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Maxx Crosby #98. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent raiders football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-7.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 1,
+            "trimAlpha": true
+        }
+    },
+    {
+        "teamId": "chargers",
+        "quarterback": {
+            "name": "Justin Herbert",
+            "number": 10,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/24",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chargers-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/24"
+        },
+        "runner": {
+            "name": "Ladd McConkey",
+            "number": 15,
+            "era": "Los Angeles Chargers \u00b7 2024\u20132025",
+            "source": "https://www.nfl.com/players/ladd-mcconkey/stats/career"
+        },
+        "kicker": {
+            "name": "Cameron Dicker",
+            "number": 11,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/24",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chargers-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/24"
+        },
+        "defender": {
+            "name": "Derwin James Jr.",
+            "number": 3,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/24",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/chargers-defender-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/24"
+        },
+        "flierTitle": "McConkey Lightning Flight",
+        "searchTitle": "Photo Hunt",
+        "gameHooks": {
+            "game": "Play as Ladd McConkey #15. Collect both footballs and bring them home.",
+            "bird": "Take Ladd McConkey through the stadium gaps and chase your next flight record.",
+            "search": "Follow the clue through five real team photographs. Search for players, fans, and small details around the field and beyond it.",
+            "kick": "Line up the kick with Cameron Dicker #11. Read the wind and split the uprights.",
+            "pocket": "Read the defense as Justin Herbert #10, then find the open receiver.",
+            "shove": "Move the line with Justin Herbert and the home offense. Time the snap and push for the first down.",
+            "recall": "Study Justin Herbert\u2019s playbook. Remember the routes and react to the audible.",
+            "punt": "Judge the wind, hang time, and bounce to pin the ball beside the sideline.",
+            "blitz": "Escape a rush led by Derwin James Jr. #3. Plan a route around the blockers.",
+            "signal": "Read the sideline signals and crack the play call before your chances run out."
+        },
+        "settingDetails": "Recent chargers football photography, team-colored controls, and a home-field arcade.",
+        "flightSprite": {
+            "src": "assets/player-sprites/current-flight-7.png",
+            "cols": 2,
+            "rows": 2,
+            "index": 2,
+            "trimAlpha": true
+        }
+    }
+]

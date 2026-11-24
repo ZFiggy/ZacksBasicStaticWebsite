@@ -1,0 +1,106 @@
+{
+    "team": "cowboys",
+    "level": 4,
+    "sourceIndex": 8,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/cowboys-8.jpg",
+    "sourcePage": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/ixwykfmn5ijyza6333hy.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/cowboys.png",
+    "player": "Dak Prescott",
+    "face": [
+        1169.31,
+        151.69,
+        35.12,
+        45.66
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Dak Prescott's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Dak Prescott naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Head appears detached behind foreground men; restore believable neck/shoulder connection and match the crowd gaze instead of looking upward.\nThe original spectator's head fits inside original-image pixel bounds [1165, 141, 1209, 204], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage. SPECIFIC PLACEMENT: Replace ONLY the pale young adult man whose head is INSIDE the cyan box, BEHIND the large dark-skinned foreground man in the plain BLACK T-SHIRT. The target is between the foreground black-shirted man and the blue-polo man with his head lowered. The large black-shirted foreground man with braided hair and tattooed arms MUST REMAIN EXACTLY UNCHANGED, including his face, hair, black shirt, arms, gray shorts and stance. Do not replace him. The target is the SMALL partly hidden background head only. Keep the target looking toward image RIGHT, head at the same scale as the original pale young man. Do not move Dak forward or expose his hidden torso.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-ab7282dc-e017-4b8f-b499-31d8263721f8.png",
+    "status": "generated",
+    "revision": 2,
+    "src": "assets/photo-search/rounds/cowboys-ai-v2-5.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.9061004784688995,
+                0.1806588735387885,
+                0.03648325358851675,
+                0.09032943676939426
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.9061004784688995,
+        0.1806588735387885,
+        0.03648325358851675,
+        0.09032943676939426
+    ],
+    "history": [
+        {
+            "team": "cowboys",
+            "level": 4,
+            "sourceIndex": 8,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/cowboys-8.jpg",
+            "sourcePage": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
+            "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/ixwykfmn5ijyza6333hy.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/cowboys.png",
+            "player": "Dak Prescott",
+            "face": [
+                1169.31,
+                151.69,
+                35.12,
+                45.66
+            ],
+            "prompt": "Use case: precise photographic compositing for a difficult hidden-player game. Image 1 is the ORIGINAL crowd photo and the only edit target. Image 2 is Dak Prescott's identity reference. Image 3 is a placement guide showing the SAME original photo with a CYAN RECTANGLE around ONE SMALL BACK-ROW ADULT. Image 4 is the original Where's Jalen difficulty/style reference. Replace ONLY the SMALL BACK-ROW ADULT INSIDE THE CYAN RECTANGLE with recognizable Dak Prescott naturally standing in that exact spot. Keep his head as small as the original boxed spectator, approximately 35 pixels wide in the 1280px photo. Preserve the foreground people COMPLETELY: do not change the large foreground men, their faces, bodies, poses, caps or outfits. Dak's body is largely hidden behind those foreground people; show only anatomically connected head/neck/shoulder portions that would naturally be visible at this depth. Match the original boxed spectator's pose, local light, focus, shadows, grain, clothing and partial occlusion. He must feel physically present, never a floating or pasted face. Recognizable eyes/nose/beard but candid expression; do not clone the studio portrait. Preserve all unrelated photo content, framing, signs, buildings and crowd. Do NOT promote Dak to the front row. Do NOT enlarge his head. Do NOT duplicate him. Do NOT include the cyan rectangle or any marker in the output. Output ONLY one full edited original landscape photograph.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-dbae0ff7-fb4f-4507-95d2-5417644457a4.png",
+            "status": "generated",
+            "revision": 2,
+            "src": "assets/photo-search/rounds/cowboys-ai-v1-5.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.9082878105492113,
+                        0.19061522529431787,
+                        0.041766015741813774,
+                        0.09963097405104278
+                    ],
+                    "similarity": 0.4974816007015761,
+                    "distance": 0.002505984423956648
+                },
+                {
+                    "target": [
+                        0.9517567420576177,
+                        0.22055406398144842,
+                        0.048243257942382274,
+                        0.10383573850333752
+                    ],
+                    "similarity": 0.1715480228258457,
+                    "distance": 0.061297625514140155
+                },
+                {
+                    "target": [
+                        0.8679237464968668,
+                        0.1669279254584966,
+                        0.047589033528378025,
+                        0.12195392410002655
+                    ],
+                    "similarity": 0.13258774205678492,
+                    "distance": 0.03693967420719164
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.9082878105492113,
+                0.19061522529431787,
+                0.041766015741813774,
+                0.09963097405104278
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "cowboys-5"
+}

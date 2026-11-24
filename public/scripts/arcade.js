@@ -1,19 +1,21 @@
 class FanArcade {
     constructor() {
-        this.games = {
-            'game.html': 'Eagles Field Run',
-            'kick.html': 'Field Goal Challenge',
-            'jalen.html': 'Where’s Jalen?',
-            'barkley.html': 'Barkley Bird'
-        };
+        this.games = Object.fromEntries(window.teamArcade.games.map(game => [game.href, game.title]));
         this.badges = [
             { id: 'touchdown', title: 'On the board', detail: 'Score your first seven-click touchdown.', key: 'clickCount', goal: 7, mark: 'TD', href: 'counter.html' },
-            { id: 'field', title: 'Clean sweep', detail: 'Collect both footballs in Field Run.', key: 'fieldRunWins', goal: 1, mark: 'PHI', href: 'game.html' },
+            { id: 'field', title: 'Clean sweep', detail: `Collect both footballs for the ${window.teamArcade.team.nickname}.`, key: 'fieldRunWins', goal: 1, mark: window.teamArcade.team.short, href: 'game.html' },
             { id: 'kicker', title: 'Split the uprights', detail: 'Make three field goals in one round.', key: 'fieldGoalBest', goal: 9, mark: '3×', href: 'kick.html' },
-            { id: 'jalen', title: 'Eagle eye', detail: 'Find Jalen in all five photos.', key: 'jalenCleared', goal: 5, mark: '01', href: 'jalen.html' },
-            { id: 'barkley', title: 'Cleared for takeoff', detail: 'Clear five gaps in Barkley Bird.', key: 'barkleyBest', goal: 5, mark: '26', href: 'barkley.html' }
+            { id: 'jalen', title: 'Crowd detective', detail: `Find ${window.NFL_PHOTO_SCENES?.[window.teamArcade.team.id]?.playerName || 'Jalen Hurts'} in all five scenes.`, key: 'jalenCleared', goal: 5, mark: '01', href: 'jalen.html' },
+            { id: 'barkley', title: 'Cleared for takeoff', detail: `Clear five gaps in ${window.teamArcade.team.games.bird}.`, key: 'barkleyBest', goal: 5, mark: window.teamArcade.team.short, href: 'barkley.html' }
         ];
+        for (const [id, game] of Object.entries(window.playbookGames || {})) {
+            this.badges.push({ id: `playbook-${id}`, title: game.badge, detail: `Reach ${game.goal} ${game.unit} in ${game.title}.`, key: `playbook-${id}-best`, goal: game.goal, mark: game.mark, href: `playbook.html?game=${id}` });
+        }
         this.page = location.pathname.split('/').pop();
+        if (this.page === 'playbook.html') {
+            const requested = new URLSearchParams(location.search).get('game');
+            this.page += `?game=${Object.hasOwn(window.playbookGames || {}, requested) ? requested : 'pocket'}`;
+        }
         if (Object.hasOwn(this.games, this.page)) this.write('arcadeLastGame', this.page);
         this.earned = new Set(this.badges.filter(badge => this.number(badge.key) >= badge.goal).map(badge => badge.id));
         this.render();
@@ -24,11 +26,11 @@ class FanArcade {
     }
 
     read(key) {
-        try { return localStorage.getItem(key); } catch { return null; }
+        try { return window.teamArcade.storage.getItem(key); } catch { return null; }
     }
 
     write(key, value) {
-        try { localStorage.setItem(key, value); } catch { /* The arcade remains usable without storage. */ }
+        try { window.teamArcade.storage.setItem(key, value); } catch { /* The arcade remains usable without storage. */ }
     }
 
     number(key) {
@@ -54,12 +56,12 @@ class FanArcade {
         const hasRecentGame = Object.hasOwn(this.games, recent);
         continueLink.hidden = !hasRecentGame;
         const heroLink = document.getElementById('hero-continue');
-        heroLink.href = 'games.html';
+        heroLink.href = window.teamArcade.link('games.html');
         heroLink.textContent = 'Explore the games';
         if (hasRecentGame) {
-            continueLink.href = recent;
+            continueLink.href = window.teamArcade.link(recent);
             continueLink.textContent = `Continue ${this.games[recent]}`;
-            heroLink.href = recent;
+            heroLink.href = window.teamArcade.link(recent);
             heroLink.textContent = `Continue ${this.games[recent]}`;
         }
         const grid = document.getElementById('fan-badges');
@@ -80,14 +82,14 @@ class FanArcade {
             status.textContent = earned ? 'Earned' : `${progress} / ${badge.goal}`;
             copy.append(title, detail, status); card.append(mark, copy); grid.append(card);
         }
-        document.getElementById('badge-count').textContent = `${unlocked} / 5 earned`;
+        document.getElementById('badge-count').textContent = `${unlocked} / ${this.badges.length} earned`;
         // Suggest the closest unfinished badge; ties follow the playbook order.
         const next = this.badges.filter(badge => this.number(badge.key) < badge.goal)
             .sort((first, second) => this.number(second.key) / second.goal - this.number(first.key) / first.goal)[0];
-        document.getElementById('challenge-title').textContent = next ? next.title : 'The whole playbook. All five badges.';
+        document.getElementById('challenge-title').textContent = next ? next.title : 'The whole playbook. Every badge.';
         document.getElementById('challenge-detail').textContent = next ? `${next.detail} Progress: ${this.number(next.key)} / ${next.goal}.` : 'You earned every badge. Take the field and chase a new personal best.';
         const challengeLink = document.getElementById('challenge-link');
-        challengeLink.href = next ? next.href : 'games.html';
+        challengeLink.href = window.teamArcade.link(next ? next.href : 'games.html');
         challengeLink.firstChild.textContent = next ? 'Chase this badge ' : 'Back to the arcade ';
         document.getElementById('locker-challenge').hidden = false;
     }

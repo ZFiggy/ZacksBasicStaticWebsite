@@ -1,0 +1,30 @@
+{
+    "accepted": [
+        "dolphins-1",
+        "dolphins-2",
+        "dolphins-3",
+        "dolphins-4",
+        "dolphins-5",
+        "jets-1",
+        "jets-2",
+        "jets-3",
+        "jets-4",
+        "jets-5",
+        "steelers-1",
+        "steelers-2",
+        "steelers-3",
+        "steelers-4",
+        "steelers-5",
+        "patriots-1",
+        "patriots-2",
+        "patriots-3",
+        "patriots-4",
+        "patriots-5",
+        "broncos-1",
+        "broncos-2",
+        "broncos-3",
+        "broncos-4",
+        "broncos-5"
+    ],
+    "rejected": {}
+}

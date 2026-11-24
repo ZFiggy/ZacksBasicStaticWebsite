@@ -1,0 +1,68 @@
+{
+    "tool": "Built-in Imagegen",
+    "prompts": [
+        {
+            "teamId": "seahawks",
+            "name": "Russell Wilson",
+            "number": 3,
+            "era": "Seattle Seahawks · 2016–2021",
+            "colors": "navy and lime green",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2021/seattle-seahawks",
+            "prompt": "Use case: photorealistic-natural. Create a production photo atlas for a hidden-person fan game. EXACT 3 columns x 2 rows of equal photographs, clean straight borders, no margins, labels or text. A wide 3:2 overall canvas, six equal square cells. The FIRST FIVE cells are realistic fictional candid crowd photos, each containing ONE naturally integrated Russell Wilson, recognizable as during Seattle Seahawks · 2016–2021, ordinary size among 30–45 diverse people, no huge face or floating pasted head. Match lighting, perspective and focus of surrounding people, with lower body hidden by foreground crowd. The same face and hairstyle throughout. His face must remain visible; no hat or sunglasses. Plain navy and lime green casual jacket, no letters. Top left: busy farmers market, his head near cell x.28 y.40. Top middle: bustling train concourse, head near x.68 y.40. Top right: stadium tailgate, head near x.42 y.60. Bottom left: crowded outdoor street food fair, head near x.75 y.35. Bottom middle: stadium arrival queue, head near x.57 y.48. Bottom right: matching clear face-reference portrait of Russell Wilson, same age/hair and navy and lime green jacket, neutral background. No other crowd member duplicates his face. Different natural crowded situation in each photograph. No circles, arrows or markers. Faithful equal 3x2 grid, no uneven collage. All first five scenes include him naturally and allow finding his face by matching the sixth image."
+        },
+        {
+            "teamId": "texans",
+            "name": "C.J. Stroud",
+            "number": 7,
+            "era": "Houston Texans · 2023–2025",
+            "colors": "navy blue and red",
+            "source": "https://www.houstontexans.com/team/players-roster/c-j-stroud/",
+            "prompt": "Use case: photorealistic-natural. Create a production photo atlas for a hidden-person fan game. EXACT 3 columns x 2 rows of equal photographs, clean straight borders, no margins, labels or text. A wide 3:2 overall canvas, six equal square cells. The FIRST FIVE cells are realistic fictional candid crowd photos, each containing ONE naturally integrated C.J. Stroud, recognizable as during Houston Texans · 2023–2025, ordinary size among 30–45 diverse people, no huge face or floating pasted head. Match lighting, perspective and focus of surrounding people, with lower body hidden by foreground crowd. The same face and hairstyle throughout. His face must remain visible; no hat or sunglasses. Plain navy blue and red casual jacket, no letters. Top left: busy farmers market, his head near cell x.28 y.40. Top middle: bustling train concourse, head near x.68 y.40. Top right: stadium tailgate, head near x.42 y.60. Bottom left: crowded outdoor street food fair, head near x.75 y.35. Bottom middle: stadium arrival queue, head near x.57 y.48. Bottom right: matching clear face-reference portrait of C.J. Stroud, same age/hair and navy blue and red jacket, neutral background. No other crowd member duplicates his face. Different natural crowded situation in each photograph. No circles, arrows or markers. Faithful equal 3x2 grid, no uneven collage. All first five scenes include him naturally and allow finding his face by matching the sixth image."
+        },
+        {
+            "teamId": "colts",
+            "name": "Andrew Luck",
+            "number": 12,
+            "era": "Indianapolis Colts · 2016–2018",
+            "colors": "royal blue and white",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2018/indianapolis-colts",
+            "prompt": "Use case: photorealistic-natural. Create a production photo atlas for a hidden-person fan game. EXACT 3 columns x 2 rows of equal photographs, clean straight borders, no margins, labels or text. A wide 3:2 overall canvas, six equal square cells. The FIRST FIVE cells are realistic fictional candid crowd photos, each containing ONE naturally integrated Andrew Luck, recognizable as during Indianapolis Colts · 2016–2018, ordinary size among 30–45 diverse people, no huge face or floating pasted head. Match lighting, perspective and focus of surrounding people, with lower body hidden by foreground crowd. The same face and hairstyle throughout. His face must remain visible; no hat or sunglasses. Plain royal blue and white casual jacket, no letters. Top left: busy farmers market, his head near cell x.28 y.40. Top middle: bustling train concourse, head near x.68 y.40. Top right: stadium tailgate, head near x.42 y.60. Bottom left: crowded outdoor street food fair, head near x.75 y.35. Bottom middle: stadium arrival queue, head near x.57 y.48. Bottom right: matching clear face-reference portrait of Andrew Luck, same age/hair and royal blue and white jacket, neutral background. No other crowd member duplicates his face. Different natural crowded situation in each photograph. No circles, arrows or markers. Faithful equal 3x2 grid, no uneven collage. All first five scenes include him naturally and allow finding his face by matching the sixth image."
+        },
+        {
+            "teamId": "titans",
+            "name": "Cam Ward",
+            "number": 1,
+            "era": "Tennessee Titans · 2025",
+            "colors": "light blue and navy",
+            "source": "https://www.tennesseetitans.com/team/players-roster/cam-ward/",
+            "prompt": "Use case: photorealistic-natural. Create a production photo atlas for a hidden-person fan game. EXACT 3 columns x 2 rows of equal photographs, clean straight borders, no margins, labels or text. A wide 3:2 overall canvas, six equal square cells. The FIRST FIVE cells are realistic fictional candid crowd photos, each containing ONE naturally integrated Cam Ward, recognizable as during Tennessee Titans · 2025, ordinary size among 30–45 diverse people, no huge face or floating pasted head. Match lighting, perspective and focus of surrounding people, with lower body hidden by foreground crowd. The same face and hairstyle throughout. His face must remain visible; no hat or sunglasses. Plain light blue and navy casual jacket, no letters. Top left: busy farmers market, his head near cell x.28 y.40. Top middle: bustling train concourse, head near x.68 y.40. Top right: stadium tailgate, head near x.42 y.60. Bottom left: crowded outdoor street food fair, head near x.75 y.35. Bottom middle: stadium arrival queue, head near x.57 y.48. Bottom right: matching clear face-reference portrait of Cam Ward, same age/hair and light blue and navy jacket, neutral background. No other crowd member duplicates his face. Different natural crowded situation in each photograph. No circles, arrows or markers. Faithful equal 3x2 grid, no uneven collage. All first five scenes include him naturally and allow finding his face by matching the sixth image."
+        },
+        {
+            "teamId": "broncos",
+            "name": "Bo Nix",
+            "number": 10,
+            "era": "Denver Broncos · 2024–2025",
+            "colors": "orange and navy",
+            "source": "https://www.denverbroncos.com/team/players-roster/bo-nix/",
+            "prompt": "Use case: photorealistic-natural. Create a production photo atlas for a hidden-person fan game. EXACT 3 columns x 2 rows of equal photographs, clean straight borders, no margins, labels or text. A wide 3:2 overall canvas, six equal square cells. The FIRST FIVE cells are realistic fictional candid crowd photos, each containing ONE naturally integrated Bo Nix, recognizable as during Denver Broncos · 2024–2025, ordinary size among 30–45 diverse people, no huge face or floating pasted head. Match lighting, perspective and focus of surrounding people, with lower body hidden by foreground crowd. The same face and hairstyle throughout. His face must remain visible; no hat or sunglasses. Plain orange and navy casual jacket, no letters. Top left: busy farmers market, his head near cell x.28 y.40. Top middle: bustling train concourse, head near x.68 y.40. Top right: stadium tailgate, head near x.42 y.60. Bottom left: crowded outdoor street food fair, head near x.75 y.35. Bottom middle: stadium arrival queue, head near x.57 y.48. Bottom right: matching clear face-reference portrait of Bo Nix, same age/hair and orange and navy jacket, neutral background. No other crowd member duplicates his face. Different natural crowded situation in each photograph. No circles, arrows or markers. Faithful equal 3x2 grid, no uneven collage. All first five scenes include him naturally and allow finding his face by matching the sixth image."
+        },
+        {
+            "teamId": "raiders",
+            "name": "Derek Carr",
+            "number": 4,
+            "era": "Las Vegas Raiders · 2020–2022",
+            "colors": "black and silver",
+            "source": "https://www.nfl.com/sitemap/html/rosters/2022/las-vegas-raiders",
+            "prompt": "Use case: photorealistic-natural. Create a production photo atlas for a hidden-person fan game. EXACT 3 columns x 2 rows of equal photographs, clean straight borders, no margins, labels or text. A wide 3:2 overall canvas, six equal square cells. The FIRST FIVE cells are realistic fictional candid crowd photos, each containing ONE naturally integrated Derek Carr, recognizable as during Las Vegas Raiders · 2020–2022, ordinary size among 30–45 diverse people, no huge face or floating pasted head. Match lighting, perspective and focus of surrounding people, with lower body hidden by foreground crowd. The same face and hairstyle throughout. His face must remain visible; no hat or sunglasses. Plain black and silver casual jacket, no letters. Top left: busy farmers market, his head near cell x.28 y.40. Top middle: bustling train concourse, head near x.68 y.40. Top right: stadium tailgate, head near x.42 y.60. Bottom left: crowded outdoor street food fair, head near x.75 y.35. Bottom middle: stadium arrival queue, head near x.57 y.48. Bottom right: matching clear face-reference portrait of Derek Carr, same age/hair and black and silver jacket, neutral background. No other crowd member duplicates his face. Different natural crowded situation in each photograph. No circles, arrows or markers. Faithful equal 3x2 grid, no uneven collage. All first five scenes include him naturally and allow finding his face by matching the sixth image."
+        },
+        {
+            "teamId": "chargers",
+            "name": "Justin Herbert",
+            "number": 10,
+            "era": "Los Angeles Chargers · 2020–2025",
+            "colors": "powder blue and gold",
+            "source": "https://www.chargers.com/team/players-roster/justin-herbert/",
+            "prompt": "Use case: photorealistic-natural. Create a production photo atlas for a hidden-person fan game. EXACT 3 columns x 2 rows of equal photographs, clean straight borders, no margins, labels or text. A wide 3:2 overall canvas, six equal square cells. The FIRST FIVE cells are realistic fictional candid crowd photos, each containing ONE naturally integrated Justin Herbert, recognizable as during Los Angeles Chargers · 2020–2025, ordinary size among 30–45 diverse people, no huge face or floating pasted head. Match lighting, perspective and focus of surrounding people, with lower body hidden by foreground crowd. The same face and hairstyle throughout. His face must remain visible; no hat or sunglasses. Plain powder blue and gold casual jacket, no letters. Top left: busy farmers market, his head near cell x.28 y.40. Top middle: bustling train concourse, head near x.68 y.40. Top right: stadium tailgate, head near x.42 y.60. Bottom left: crowded outdoor street food fair, head near x.75 y.35. Bottom middle: stadium arrival queue, head near x.57 y.48. Bottom right: matching clear face-reference portrait of Justin Herbert, same age/hair and powder blue and gold jacket, neutral background. No other crowd member duplicates his face. Different natural crowded situation in each photograph. No circles, arrows or markers. Faithful equal 3x2 grid, no uneven collage. All first five scenes include him naturally and allow finding his face by matching the sixth image."
+        }
+    ]
+}

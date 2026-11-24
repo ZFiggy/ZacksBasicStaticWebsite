@@ -1,0 +1,58 @@
+{
+    "giants": [
+        "A blue NY cap and blue jacket with red panels.",
+        "No hat and a blue number 10 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat and a blue NY sweatshirt.",
+        "A blue NY cap and navy hoodie."
+    ],
+    "vikings": [
+        "A dark Vikings cap and purple varsity jacket.",
+        "No hat, curly brown hair, sideburns, and a purple number 10 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat, curly brown hair, and a purple Vikings sweatshirt.",
+        "A purple Vikings cap and dark hoodie."
+    ],
+    "falcons": [
+        "A black Falcons cap and red zip-up team jacket.",
+        "No hat and a black number 2 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat and a black Falcons sweatshirt.",
+        "A black Falcons cap with red trim and black hoodie."
+    ],
+    "panthers": [
+        "A dark Panthers cap and black jacket with bright-blue panels.",
+        "Tall tied-up twists, no hat, and a bright-blue Panthers jersey.",
+        "A black knit cap and gray hoodie.",
+        "Tall tied-up twists and a bright-blue Panthers sweatshirt.",
+        "A teal-and-black Panthers cap and dark hoodie."
+    ],
+    "cowboys": [
+        "A navy Cowboys cap and navy zip-up team jacket.",
+        "No hat, sandy-brown hair, and a navy number 8 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat and a navy sweatshirt with a large Cowboys star.",
+        "A navy Cowboys cap and dark hoodie."
+    ],
+    "packers": [
+        "A dark-green Packers cap and green team jacket.",
+        "No hat, short dark hair, and a green Packers jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat and a dark-green Packers sweatshirt.",
+        "A green-and-gold Packers cap and black hoodie."
+    ],
+    "49ers": [
+        "A black 49ers cap and red varsity jacket.",
+        "No hat, curly light-brown hair, and a red number 16 jersey.",
+        "A black knit cap and gray hoodie.",
+        "No hat and a red 49ers sweatshirt.",
+        "A red 49ers cap and dark hoodie."
+    ],
+    "rams": [
+        "A navy Rams cap, a goatee, and a blue jacket with yellow trim.",
+        "No hat, short dark hair, a goatee, and a blue-and-gold Rams jersey.",
+        "A black knit cap, a goatee, and a gray hoodie.",
+        "No hat, short dark hair, a goatee, and a navy Rams sweatshirt.",
+        "A navy Rams cap, a goatee, and a dark-blue hoodie."
+    ]
+}

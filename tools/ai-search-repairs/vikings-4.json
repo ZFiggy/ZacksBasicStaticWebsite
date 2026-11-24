@@ -1,0 +1,45 @@
+{
+    "team": "vikings",
+    "round": 4,
+    "issue": "Head/neck connection and gaze conflict with body and nearby spectators watching the foreground person; match original pose.",
+    "status": "accepted-after-visual-review",
+    "key": "vikings-4",
+    "player": "Justin Jefferson",
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/vikings-8067.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/vikings.png",
+    "guidePath": "/private/tmp/search-naturalness-repairs/vikings-4-guide.jpg",
+    "contextPath": "/private/tmp/search-naturalness-repairs/vikings-4-original-context.jpg",
+    "headBounds": [
+        277,
+        41,
+        319,
+        99
+    ],
+    "sourceSize": [
+        1280,
+        720
+    ],
+    "beforeSrc": "assets/photo-search/rounds/vikings-ai-v1-4.jpg",
+    "beforeTarget": [
+        0.21349251158499832,
+        0.02879793002932282,
+        0.05283960880845355,
+        0.11880173556482879
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Justin Jefferson's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Justin Jefferson naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Head/neck connection and gaze conflict with body and nearby spectators watching the foreground person; match original pose.\nThe original spectator's head fits inside original-image pixel bounds [277, 41, 319, 99], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-9a6419bd-9f6c-4c24-acd9-101cb656c6b0.png",
+    "src": "assets/photo-search/rounds/vikings-ai-v2-4.jpg",
+    "proposedTarget": [
+        0.21640625,
+        0.05694444444444444,
+        0.0328125,
+        0.08055555555555556
+    ],
+    "reviewedTarget": [
+        0.19736842105263158,
+        0.02975557917109458,
+        0.056818181818181816,
+        0.09776833156216791
+    ],
+    "reviewNotes": "Inspected original, previous insertion and full repaired scene at equal magnification. Natural head/body connection, original candid attention and foreground occlusion retained. Full visible head/cap bounds reviewed on final 1672 by 941 image."
+}

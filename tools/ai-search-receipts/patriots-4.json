@@ -1,0 +1,120 @@
+{
+    "team": "patriots",
+    "level": 3,
+    "sourceIndex": 513,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/patriots-513.jpg",
+    "sourcePage": "https://www.patriots.com/photos/patriots-thank-the-fans-284901",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/patriots/oopanh1tj2d1zex2r3as.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/patriots.png",
+    "player": "Drake Maye",
+    "face": [
+        229.07,
+        106.37,
+        29.24,
+        37.49
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Drake Maye's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Drake Maye naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Sharp camera-facing head above partly hidden body; match original spectator angle, shoulder connection and focus.\nThe original spectator's head fits inside original-image pixel bounds [226, 97, 262, 149], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "guideVersion": 2,
+    "guideBounds": [
+        226,
+        98,
+        262,
+        148
+    ],
+    "styleReference": "public/assets/search-level-5-v2.jpg",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-6cdce6f7-0582-4b09-b611-f1c60e9420a3.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/patriots-ai-v2-4.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.16028708133971292,
+                0.1381509032943677,
+                0.05382775119617225,
+                0.11477151965993623
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.16028708133971292,
+        0.1381509032943677,
+        0.05382775119617225,
+        0.11477151965993623
+    ],
+    "history": [
+        {
+            "team": "patriots",
+            "level": 3,
+            "sourceIndex": 513,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/patriots-513.jpg",
+            "sourcePage": "https://www.patriots.com/photos/patriots-thank-the-fans-284901",
+            "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/patriots/oopanh1tj2d1zex2r3as.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/patriots.png",
+            "player": "Drake Maye",
+            "face": [
+                229.07,
+                106.37,
+                29.24,
+                37.49
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real patriots crowd photograph to edit. Image 2 is Drake Maye's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Drake Maye, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual patriots fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+            "guideVersion": 2,
+            "guideBounds": [
+                226,
+                98,
+                262,
+                148
+            ],
+            "styleReference": "public/assets/search-level-5-v2.jpg",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-53805cbb-5a61-4307-83d1-d040cbb7a1e2.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/patriots-ai-v1-4.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.17472133310217608,
+                        0.12390770238213535,
+                        0.04189889227944696,
+                        0.09308092480131469
+                    ],
+                    "similarity": 0.7777672663544308,
+                    "distance": 0.005287956376236349
+                },
+                {
+                    "target": [
+                        0.2702476016984602,
+                        0.13539623530080797,
+                        0.020625672887957292,
+                        0.045728831032764136
+                    ],
+                    "similarity": 0.1927066707139602,
+                    "distance": 0.0912391074989958
+                },
+                {
+                    "target": [
+                        0.21907654721200753,
+                        0.16786107702792388,
+                        0.02769926883387222,
+                        0.0617317596986874
+                    ],
+                    "similarity": 0.15529928353385003,
+                    "distance": 0.050474229447205594
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.17472133310217608,
+                0.12390770238213535,
+                0.04189889227944696,
+                0.09308092480131469
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "patriots-4"
+}

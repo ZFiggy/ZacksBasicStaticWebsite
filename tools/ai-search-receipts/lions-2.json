@@ -1,0 +1,104 @@
+{
+    "team": "lions",
+    "level": 1,
+    "sourceIndex": 502,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/lions-502.jpg",
+    "sourcePage": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/sbvn9j3sxi5wvualuqr5.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/lions.png",
+    "player": "Jared Goff",
+    "face": [
+        1007.87,
+        456.82,
+        36.99,
+        47.78
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Jared Goff's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Jared Goff naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Direct camera-facing portrait gaze differs from cheering spectators watching the field; match their attention and posture.\nThe original spectator's head fits inside original-image pixel bounds [1003, 445, 1049, 512], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-4bf0996e-eefb-4825-ab0a-96648aee89ab.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/lions-ai-v2-2.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.7799043062200957,
+                0.6259298618490967,
+                0.04126794258373206,
+                0.0818278427205101
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.7799043062200957,
+        0.6259298618490967,
+        0.04126794258373206,
+        0.0818278427205101
+    ],
+    "history": [
+        {
+            "team": "lions",
+            "level": 1,
+            "sourceIndex": 502,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/lions-502.jpg",
+            "sourcePage": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/sbvn9j3sxi5wvualuqr5.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/lions.png",
+            "player": "Jared Goff",
+            "face": [
+                1007.87,
+                456.82,
+                36.99,
+                47.78
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real lions crowd photograph to edit. Image 2 is Jared Goff's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Jared Goff, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual lions fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-a6c5220a-3347-4732-8d37-e5c37691e15e.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/lions-ai-v1-2.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.7808384064624183,
+                        0.6108369117842217,
+                        0.03953116891486805,
+                        0.09300805232730094
+                    ],
+                    "similarity": 0.8325536297143117,
+                    "distance": 0.007099900543275425
+                },
+                {
+                    "target": [
+                        0.6608479369998548,
+                        0.6144139971920585,
+                        0.03622466087341318,
+                        0.08324154033924393
+                    ],
+                    "similarity": 0.28905102756652923,
+                    "distance": 0.12319110826311674
+                },
+                {
+                    "target": [
+                        0.8952976878864343,
+                        0.6214137812096558,
+                        0.037808457607287564,
+                        0.07950027092863728
+                    ],
+                    "similarity": 0.2681847821768315,
+                    "distance": 0.1124135773764758
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.7808384064624183,
+                0.6108369117842217,
+                0.03953116891486805,
+                0.09300805232730094
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "lions-2"
+}

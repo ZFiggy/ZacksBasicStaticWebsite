@@ -1,0 +1,1093 @@
+{
+    "kind": "AI-created fictional arcade character art",
+    "teams": {
+        "eagles": {
+            "runner": {
+                "name": "Saquon Barkley",
+                "number": 26,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0
+            },
+            "quarterback": {
+                "name": "Jalen Hurts",
+                "number": 1,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1
+            },
+            "kicker": {
+                "name": "Jake Elliott",
+                "number": 4,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2
+            },
+            "defender": {
+                "name": "Brian Dawkins",
+                "number": 20,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3
+            }
+        },
+        "cowboys": {
+            "runner": {
+                "name": "CeeDee Lamb",
+                "number": 88,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4
+            },
+            "quarterback": {
+                "name": "Dak Prescott",
+                "number": 4,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5
+            },
+            "kicker": {
+                "name": "Brandon Aubrey",
+                "number": 17,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6
+            },
+            "defender": {
+                "name": "DaRon Bland",
+                "number": 26,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7
+            }
+        },
+        "giants": {
+            "runner": {
+                "name": "Cam Skattebo",
+                "number": 44,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8
+            },
+            "quarterback": {
+                "name": "Jaxson Dart",
+                "number": 6,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9
+            },
+            "kicker": {
+                "name": "Graham Gano",
+                "number": 9,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10
+            },
+            "defender": {
+                "name": "Dexter Lawrence",
+                "number": 97,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11
+            }
+        },
+        "commanders": {
+            "runner": {
+                "name": "Terry McLaurin",
+                "number": 17,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12
+            },
+            "quarterback": {
+                "name": "Jayden Daniels",
+                "number": 5,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13
+            },
+            "kicker": {
+                "name": "Drew Stevens",
+                "number": 19,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14
+            },
+            "defender": {
+                "name": "Bobby Wagner",
+                "number": 54,
+                "src": "assets/characters/cast-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15
+            }
+        },
+        "bears": {
+            "runner": {
+                "name": "DJ Moore",
+                "number": 2,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0
+            },
+            "quarterback": {
+                "name": "Caleb Williams",
+                "number": 18,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1
+            },
+            "kicker": {
+                "name": "Cairo Santos",
+                "number": 8,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2
+            },
+            "defender": {
+                "name": "Jaylon Johnson",
+                "number": 1,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3
+            }
+        },
+        "lions": {
+            "runner": {
+                "name": "Jahmyr Gibbs",
+                "number": 26,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4
+            },
+            "quarterback": {
+                "name": "Jared Goff",
+                "number": 16,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5
+            },
+            "kicker": {
+                "name": "Jake Bates",
+                "number": 39,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6
+            },
+            "defender": {
+                "name": "Aidan Hutchinson",
+                "number": 97,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7
+            }
+        },
+        "packers": {
+            "runner": {
+                "name": "Josh Jacobs",
+                "number": 8,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8
+            },
+            "quarterback": {
+                "name": "Jordan Love",
+                "number": 10,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9
+            },
+            "kicker": {
+                "name": "Trey Smack",
+                "number": 28,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10
+            },
+            "defender": {
+                "name": "Xavier McKinney",
+                "number": 29,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11
+            }
+        },
+        "vikings": {
+            "runner": {
+                "name": "Justin Jefferson",
+                "number": 18,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12
+            },
+            "quarterback": {
+                "name": "Kyler Murray",
+                "number": 1,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13
+            },
+            "kicker": {
+                "name": "Will Reichard",
+                "number": 16,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14
+            },
+            "defender": {
+                "name": "Byron Murphy Jr.",
+                "number": 7,
+                "src": "assets/characters/cast-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15
+            }
+        },
+        "falcons": {
+            "runner": {
+                "name": "Bijan Robinson",
+                "number": 7,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0
+            },
+            "quarterback": {
+                "name": "Michael Penix Jr.",
+                "number": 9,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1
+            },
+            "kicker": {
+                "name": "Jake Moody",
+                "number": 45,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2
+            },
+            "defender": {
+                "name": "Jessie Bates III",
+                "number": 3,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3
+            }
+        },
+        "panthers": {
+            "runner": {
+                "name": "Christian McCaffrey",
+                "number": 22,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4
+            },
+            "quarterback": {
+                "name": "Bryce Young",
+                "number": 9,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5
+            },
+            "kicker": {
+                "name": "Ryan Fitzgerald",
+                "number": 10,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6
+            },
+            "defender": {
+                "name": "Jaycee Horn",
+                "number": 8,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7
+            }
+        },
+        "saints": {
+            "runner": {
+                "name": "Alvin Kamara",
+                "number": 41,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8
+            },
+            "quarterback": {
+                "name": "Tyler Shough",
+                "number": 6,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9
+            },
+            "kicker": {
+                "name": "Charlie Smyth",
+                "number": 39,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10
+            },
+            "defender": {
+                "name": "Demario Davis",
+                "number": 56,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11
+            }
+        },
+        "buccaneers": {
+            "runner": {
+                "name": "Mike Evans",
+                "number": 13,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12
+            },
+            "quarterback": {
+                "name": "Baker Mayfield",
+                "number": 6,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13
+            },
+            "kicker": {
+                "name": "Chase McLaughlin",
+                "number": 4,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14
+            },
+            "defender": {
+                "name": "Antoine Winfield Jr.",
+                "number": 31,
+                "src": "assets/characters/cast-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15
+            }
+        },
+        "cardinals": {
+            "runner": {
+                "name": "Larry Fitzgerald",
+                "number": 11,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0
+            },
+            "quarterback": {
+                "name": "Gardner Minshew II",
+                "number": 15,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1
+            },
+            "kicker": {
+                "name": "Chad Ryland",
+                "number": 38,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2
+            },
+            "defender": {
+                "name": "Budda Baker",
+                "number": 3,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3
+            }
+        },
+        "rams": {
+            "runner": {
+                "name": "Puka Nacua",
+                "number": 17,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4
+            },
+            "quarterback": {
+                "name": "Matthew Stafford",
+                "number": 9,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5
+            },
+            "kicker": {
+                "name": "Joshua Karty",
+                "number": 16,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6
+            },
+            "defender": {
+                "name": "Aaron Donald",
+                "number": 99,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7
+            }
+        },
+        "49ers": {
+            "runner": {
+                "name": "Christian McCaffrey",
+                "number": 23,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8
+            },
+            "quarterback": {
+                "name": "Brock Purdy",
+                "number": 13,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9
+            },
+            "kicker": {
+                "name": "Eddy Pineiro",
+                "number": 18,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10
+            },
+            "defender": {
+                "name": "Fred Warner",
+                "number": 54,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11
+            }
+        },
+        "seahawks": {
+            "runner": {
+                "name": "Jaxon Smith-Njigba",
+                "number": 11,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12
+            },
+            "quarterback": {
+                "name": "Sam Darnold",
+                "number": 14,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13
+            },
+            "kicker": {
+                "name": "Jason Myers",
+                "number": 5,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14
+            },
+            "defender": {
+                "name": "Devon Witherspoon",
+                "number": 21,
+                "src": "assets/characters/cast-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15
+            }
+        },
+        "bills": {
+            "runner": {
+                "name": "James Cook",
+                "number": 4,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0
+            },
+            "quarterback": {
+                "name": "Josh Allen",
+                "number": 17,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1
+            },
+            "kicker": {
+                "name": "Tyler Bass",
+                "number": 16,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2
+            },
+            "defender": {
+                "name": "Ed Oliver",
+                "number": 91,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3
+            }
+        },
+        "dolphins": {
+            "runner": {
+                "name": "Tyreek Hill",
+                "number": 10,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4
+            },
+            "quarterback": {
+                "name": "Malik Willis",
+                "number": 2,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5
+            },
+            "kicker": {
+                "name": "Daniel Carlson",
+                "number": 38,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6
+            },
+            "defender": {
+                "name": "Jordyn Brooks",
+                "number": 20,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7
+            }
+        },
+        "patriots": {
+            "runner": {
+                "name": "Rob Gronkowski",
+                "number": 87,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8
+            },
+            "quarterback": {
+                "name": "Drake Maye",
+                "number": 10,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9
+            },
+            "kicker": {
+                "name": "Andy Borregales",
+                "number": 8,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10
+            },
+            "defender": {
+                "name": "Christian Gonzalez",
+                "number": 0,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11
+            }
+        },
+        "jets": {
+            "runner": {
+                "name": "Breece Hall",
+                "number": 20,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12
+            },
+            "quarterback": {
+                "name": "Geno Smith",
+                "number": 7,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13
+            },
+            "kicker": {
+                "name": "Jason Sanders",
+                "number": 19,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14
+            },
+            "defender": {
+                "name": "Sauce Gardner",
+                "number": 1,
+                "src": "assets/characters/cast-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15
+            }
+        },
+        "ravens": {
+            "runner": {
+                "name": "Derrick Henry",
+                "number": 22,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0
+            },
+            "quarterback": {
+                "name": "Lamar Jackson",
+                "number": 8,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1
+            },
+            "kicker": {
+                "name": "Riley Patterson",
+                "number": 35,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2
+            },
+            "defender": {
+                "name": "Kyle Hamilton",
+                "number": 14,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3
+            }
+        },
+        "bengals": {
+            "runner": {
+                "name": "Ja’Marr Chase",
+                "number": 1,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4
+            },
+            "quarterback": {
+                "name": "Joe Burrow",
+                "number": 9,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5
+            },
+            "kicker": {
+                "name": "Evan McPherson",
+                "number": 2,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6
+            },
+            "defender": {
+                "name": "Trey Hendrickson",
+                "number": 91,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7
+            }
+        },
+        "browns": {
+            "runner": {
+                "name": "Nick Chubb",
+                "number": 24,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8
+            },
+            "quarterback": {
+                "name": "Shedeur Sanders",
+                "number": 2,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9
+            },
+            "kicker": {
+                "name": "Andre Szmyt",
+                "number": 25,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10
+            },
+            "defender": {
+                "name": "Myles Garrett",
+                "number": 95,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11
+            }
+        },
+        "steelers": {
+            "runner": {
+                "name": "T.J. Watt",
+                "number": 90,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12
+            },
+            "quarterback": {
+                "name": "Aaron Rodgers",
+                "number": 8,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13
+            },
+            "kicker": {
+                "name": "Chris Boswell",
+                "number": 9,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14
+            },
+            "defender": {
+                "name": "T.J. Watt",
+                "number": 90,
+                "src": "assets/characters/cast-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15
+            }
+        },
+        "texans": {
+            "runner": {
+                "name": "Nico Collins",
+                "number": 12,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0
+            },
+            "quarterback": {
+                "name": "C.J. Stroud",
+                "number": 7,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1
+            },
+            "kicker": {
+                "name": "Ka'imi Fairbairn",
+                "number": 15,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2
+            },
+            "defender": {
+                "name": "Will Anderson Jr.",
+                "number": 51,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3
+            }
+        },
+        "colts": {
+            "runner": {
+                "name": "Jonathan Taylor",
+                "number": 28,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4
+            },
+            "quarterback": {
+                "name": "Anthony Richardson Sr.",
+                "number": 5,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5
+            },
+            "kicker": {
+                "name": "Spencer Shrader",
+                "number": 3,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6
+            },
+            "defender": {
+                "name": "DeForest Buckner",
+                "number": 99,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7
+            }
+        },
+        "jaguars": {
+            "runner": {
+                "name": "Travis Etienne Jr.",
+                "number": 1,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8
+            },
+            "quarterback": {
+                "name": "Trevor Lawrence",
+                "number": 16,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9
+            },
+            "kicker": {
+                "name": "Cam Little",
+                "number": 39,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10
+            },
+            "defender": {
+                "name": "Josh Hines-Allen",
+                "number": 41,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11
+            }
+        },
+        "titans": {
+            "runner": {
+                "name": "Derrick Henry",
+                "number": 22,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12
+            },
+            "quarterback": {
+                "name": "Cam Ward",
+                "number": 1,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13
+            },
+            "kicker": {
+                "name": "Joey Slye",
+                "number": 6,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14
+            },
+            "defender": {
+                "name": "Jeffery Simmons",
+                "number": 98,
+                "src": "assets/characters/cast-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15
+            }
+        },
+        "broncos": {
+            "runner": {
+                "name": "Courtland Sutton",
+                "number": 14,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0
+            },
+            "quarterback": {
+                "name": "Bo Nix",
+                "number": 10,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1
+            },
+            "kicker": {
+                "name": "Wil Lutz",
+                "number": 3,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2
+            },
+            "defender": {
+                "name": "Pat Surtain II",
+                "number": 2,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3
+            }
+        },
+        "chiefs": {
+            "runner": {
+                "name": "Travis Kelce",
+                "number": 87,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4
+            },
+            "quarterback": {
+                "name": "Patrick Mahomes",
+                "number": 15,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5
+            },
+            "kicker": {
+                "name": "Harrison Butker",
+                "number": 7,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6
+            },
+            "defender": {
+                "name": "Chris Jones",
+                "number": 95,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7
+            }
+        },
+        "raiders": {
+            "runner": {
+                "name": "Ashton Jeanty",
+                "number": 2,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8
+            },
+            "quarterback": {
+                "name": "Fernando Mendoza",
+                "number": 15,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9
+            },
+            "kicker": {
+                "name": "Matt Gay",
+                "number": 14,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10
+            },
+            "defender": {
+                "name": "Maxx Crosby",
+                "number": 98,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11
+            }
+        },
+        "chargers": {
+            "runner": {
+                "name": "Ladd McConkey",
+                "number": 15,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12
+            },
+            "quarterback": {
+                "name": "Justin Herbert",
+                "number": 10,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13
+            },
+            "kicker": {
+                "name": "Cameron Dicker",
+                "number": 11,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14
+            },
+            "defender": {
+                "name": "Derwin James Jr.",
+                "number": 3,
+                "src": "assets/characters/cast-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15
+            }
+        }
+    }
+}

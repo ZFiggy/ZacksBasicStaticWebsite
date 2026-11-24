@@ -1,0 +1,109 @@
+{
+    "team": "falcons",
+    "level": 1,
+    "sourceIndex": 533,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/falcons-533.jpg",
+    "sourcePage": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/falcons/asmbgpgwpygrjmsj2g9o.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/falcons.png",
+    "player": "Bijan Robinson",
+    "face": [
+        1109.34,
+        162.27,
+        36.02,
+        46.11
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real falcons crowd photograph to edit. Image 2 is Bijan Robinson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Bijan Robinson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual falcons fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/falcons-ai-v2-2.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/falcons-ai-v2-2.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.8574472223628651,
+                0.2026990774967465,
+                0.045979534632851614,
+                0.11249315867895272
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.8574472223628651,
+        0.2026990774967465,
+        0.045979534632851614,
+        0.11249315867895272
+    ],
+    "history": [
+        {
+            "team": "falcons",
+            "level": 1,
+            "sourceIndex": 533,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/falcons-533.jpg",
+            "sourcePage": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
+            "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/falcons/asmbgpgwpygrjmsj2g9o.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/falcons.png",
+            "player": "Bijan Robinson",
+            "face": [
+                1109.34,
+                162.27,
+                36.02,
+                46.11
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real falcons crowd photograph to edit. Image 2 is Bijan Robinson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Bijan Robinson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual falcons fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-5ec04ac0-93c5-4bc2-8e6b-86bc3341e5e6.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/falcons-ai-v1-2.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.8574472223628651,
+                        0.2026990774967465,
+                        0.045979534632851614,
+                        0.11249315867895272
+                    ],
+                    "similarity": 0.4486838192920004,
+                    "distance": 0.0055757893361320235
+                },
+                {
+                    "target": [
+                        0.9200190071854295,
+                        0.30744913204570123,
+                        0.031446244728051874,
+                        0.09621344798429614
+                    ],
+                    "similarity": 0.14637685837442405,
+                    "distance": 0.11552825385728696
+                },
+                {
+                    "target": [
+                        0.8827945194404092,
+                        0.06606106449009636,
+                        0.02240299249950196,
+                        0.05180596119539137
+                    ],
+                    "similarity": 0.13437338752464711,
+                    "distance": 0.16411762329567983
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.8574472223628651,
+                0.2026990774967465,
+                0.045979534632851614,
+                0.11249315867895272
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "falcons-2",
+    "focusCorrection": {
+        "sigmaPixels": 1.15,
+        "maskFeatherPixels": 9.994111647796627,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

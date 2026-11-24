@@ -1,0 +1,61 @@
+{
+    "team": "steelers",
+    "level": 0,
+    "sourceIndex": 536,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/steelers-536.jpg",
+    "sourcePage": "https://www.steelers.com/photos/photos-best-of-fans-at-steelers-camp-x2048",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/steelers/lsen7eim0mveuoctgval.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/steelers.png",
+    "player": "T.J. Watt",
+    "face": [
+        387.71,
+        211.36,
+        41.37,
+        45.46
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real steelers crowd photograph to edit. Image 2 is T.J. Watt's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable T.J. Watt, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual steelers fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-47a389e7-af96-4c98-9e46-d2149f099169.png",
+    "status": "generated",
+    "guideVersion": 2,
+    "src": "assets/photo-search/rounds/steelers-ai-v1-1.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.29603105189127216,
+                0.2738353504257932,
+                0.03968394192782314,
+                0.08516978913488601
+            ],
+            "similarity": 0.5913735834901672,
+            "distance": 0.006497465117704073
+        },
+        {
+            "target": [
+                0.41823003432397066,
+                0.3278107896494688,
+                0.013239580295873068,
+                0.027273207288492765
+            ],
+            "similarity": 0.1764086806447267,
+            "distance": 0.10719583934752501
+        },
+        {
+            "target": [
+                0.22764092794445712,
+                0.28090383421221904,
+                0.009980390585210337,
+                0.022460870002965466
+            ],
+            "similarity": 0.10610935325485116,
+            "distance": 0.09222695830566525
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.29603105189127216,
+        0.2738353504257932,
+        0.03968394192782314,
+        0.08516978913488601
+    ]
+}

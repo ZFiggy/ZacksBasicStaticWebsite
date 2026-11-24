@@ -1,0 +1,125 @@
+{
+    "team": "browns",
+    "level": 3,
+    "sourceIndex": 7643,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/browns-7643.jpg",
+    "sourcePage": "https://www.clevelandbrowns.com/photos/best-photos-browns-training-camp-2025-in-focus",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/browns/bgd1d8zus5cogaitnm6i.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/browns.png",
+    "player": "Myles Garrett",
+    "face": [
+        106.68,
+        46.68,
+        28.4,
+        33.33
+    ],
+    "prompt": "Use case: identity-preserve / precise photographic compositing.\nImage 1 is the ORIGINAL REAL CROWD PHOTO and the ONLY edit target. Image 2 supplies Myles Garrett's face identity ONLY, not the pose, lighting, focus, jersey or expression. Image 3 is image 1 with a cyan rectangle locating the one original adult spectator to replace. Image 4 is an enlarged crop of that ORIGINAL spectator and nearby people; use it to match the original pose, body connection and optical focus, not as output framing.\nReplace ONLY that boxed adult with Myles Garrett naturally present as an ordinary fan. Fit his identity INTO THE ORIGINAL PERSON, rather than putting a portrait over them. Preserve the original body silhouette, arm position, head footprint, head tilt, viewing direction, neck/shoulder relationship and distance from camera. Retain any cap, hood or sunglasses and ALL foreground obstructions. Adapt the visible skin, neck and ears coherently to the player's identity. Keep the spectator's existing casual team fan clothing and pose. Never enlarge the head, expose a hidden torso, move him forward, or turn his face toward the viewer for recognition.\nCritical visual problem to fix: Head enlarged relative to original seated spectator and nearby people, creating an oversized head/neck; restore original body scale.\nThe original spectator's head fits inside original-image pixel bounds [103, 39, 138, 85], in a 1280 by 720 photograph. That is a strict maximum head footprint including hair: do not expand beyond it. His face must point where the ORIGINAL spectator looked, even if this is profile or looking down. Preserve natural candid expression and attention to the event.\nOPTICAL FOCUS IS ESSENTIAL: the edited head, hair, ears and neck must have the SAME lens defocus, motion softness, grain, low contrast and resolution as the ORIGINAL spectator in image 4 and adjacent people at that depth. A defocused face must remain visibly defocused, even at the cost of facial detail. Do not sharpen, beautify, relight, restore, upscale or enhance the target person. No crisp eyes, razor hair edges, portrait lighting, glossy skin, oversized smile or isolated floating head. Match original sun/shade and skin shading. Restore foreground fence links, rails, hats, arms and people OVER the target wherever the original photo has them.\nKeep the original real photograph's composition, every other person, foreground football players, mascots, children, background, signs, text, logos, geometry and framing unchanged. Do not invent new scenery or new spectators. Output ONLY the clean full image 1, same landscape aspect ratio, without the cyan guide, annotations, labels or collage.",
+    "guideVersion": 2,
+    "guideBounds": [
+        103,
+        39,
+        138,
+        84
+    ],
+    "styleReference": "public/assets/search-level-5-v2.jpg",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/browns-ai-v2-4.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/browns-ai-v2-4.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.07476076555023924,
+                0.04782146652497343,
+                0.04126794258373206,
+                0.08395324123273114
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.07476076555023924,
+        0.04782146652497343,
+        0.04126794258373206,
+        0.08395324123273114
+    ],
+    "history": [
+        {
+            "team": "browns",
+            "level": 3,
+            "sourceIndex": 7643,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/browns-7643.jpg",
+            "sourcePage": "https://www.clevelandbrowns.com/photos/best-photos-browns-training-camp-2025-in-focus",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/browns/bgd1d8zus5cogaitnm6i.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/browns.png",
+            "player": "Myles Garrett",
+            "face": [
+                106.68,
+                46.68,
+                28.4,
+                33.33
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real browns crowd photograph to edit. Image 2 is Myles Garrett's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Myles Garrett, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual browns fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+            "guideVersion": 2,
+            "guideBounds": [
+                103,
+                39,
+                138,
+                84
+            ],
+            "styleReference": "public/assets/search-level-5-v2.jpg",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-0dbf56ad-d1c3-47d0-b4a7-111cc1a39c6e.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/browns-ai-v1-4.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.0809086692618411,
+                        0.05009390621205572,
+                        0.036542796586689186,
+                        0.07956049287737238
+                    ],
+                    "similarity": 0.35019423394726346,
+                    "distance": 0.006702664511157154
+                },
+                {
+                    "target": [
+                        0.0,
+                        0.007475532710108823,
+                        0.016206662118720093,
+                        0.04820159441859765
+                    ],
+                    "similarity": 0.17449642127758125,
+                    "distance": 0.10330353789180806
+                },
+                {
+                    "target": [
+                        0.23674963597475626,
+                        0.13837460985092503,
+                        0.020522196235839278,
+                        0.04491915201152675
+                    ],
+                    "similarity": 0.21153238134866115,
+                    "distance": 0.16977271818199982
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.0809086692618411,
+                0.05009390621205572,
+                0.036542796586689186,
+                0.07956049287737238
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "browns-4",
+    "focusCorrection": {
+        "sigmaPixels": 0.55,
+        "maskFeatherPixels": 8.97,
+        "method": "AI pose repair followed by user-authorized local Gaussian blur"
+    }
+}

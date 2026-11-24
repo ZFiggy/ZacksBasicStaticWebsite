@@ -1,0 +1,61 @@
+{
+    "team": "jets",
+    "level": 0,
+    "sourceIndex": 536,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/jets-536.jpg",
+    "sourcePage": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/swnkzry62wb43kmojngo.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/jets.png",
+    "player": "Garrett Wilson",
+    "face": [
+        1033.65,
+        400.76,
+        58.59,
+        85.65
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real jets crowd photograph to edit. Image 2 is Garrett Wilson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Garrett Wilson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual jets fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-15870108-8677-4311-b2a4-1a71426bc620.png",
+    "status": "generated",
+    "guideVersion": 2,
+    "src": "assets/photo-search/rounds/jets-ai-v1-1.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.8021805723089921,
+                0.5440320127448671,
+                0.06774740063973027,
+                0.16806828400533846
+            ],
+            "similarity": 0.4144910158174753,
+            "distance": 0.01883879515078857
+        },
+        {
+            "target": [
+                0.8163210605548329,
+                0.7692921240195458,
+                0.05822862479104949,
+                0.13748613574426313
+            ],
+            "similarity": 0.15217594411024038,
+            "distance": 0.22735112305586266
+        },
+        {
+            "target": [
+                0.6240156825307454,
+                0.27997193047648156,
+                0.05598562432248066,
+                0.15267112480593284
+            ],
+            "similarity": 0.1997166286278116,
+            "distance": 0.3106712093249355
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.8021805723089921,
+        0.5440320127448671,
+        0.06774740063973027,
+        0.16806828400533846
+    ]
+}

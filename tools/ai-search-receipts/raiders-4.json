@@ -1,0 +1,111 @@
+{
+    "team": "raiders",
+    "level": 3,
+    "sourceIndex": 532,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/raiders-532.jpg",
+    "sourcePage": "https://www.raiders.com/photos/top-shots-the-best-of-raider-nation",
+    "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/raiders/ylhvty2osn2nh4jiufc5.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/raiders.png",
+    "player": "Maxx Crosby",
+    "face": [
+        209.99,
+        475.71,
+        22.82,
+        26.53
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real raiders crowd photograph to edit. Image 2 is Maxx Crosby's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Maxx Crosby, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual raiders fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/raiders-ai-v2-4.jpg",
+    "status": "generated",
+    "guideVersion": 2,
+    "src": "assets/photo-search/rounds/raiders-ai-v2-4.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.15631006918455426,
+                0.6380333256898854,
+                0.03908754599721809,
+                0.08489520065842723
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.15631006918455426,
+        0.6380333256898854,
+        0.03908754599721809,
+        0.08489520065842723
+    ],
+    "history": [
+        {
+            "team": "raiders",
+            "level": 3,
+            "sourceIndex": 532,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/raiders-532.jpg",
+            "sourcePage": "https://www.raiders.com/photos/top-shots-the-best-of-raider-nation",
+            "sourceImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/raiders/ylhvty2osn2nh4jiufc5.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/raiders.png",
+            "player": "Maxx Crosby",
+            "face": [
+                209.99,
+                475.71,
+                22.82,
+                26.53
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real raiders crowd photograph to edit. Image 2 is Maxx Crosby's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Maxx Crosby, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual raiders fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-e0524724-f124-46ab-b92a-033d4cf9440c.png",
+            "status": "generated",
+            "guideVersion": 2,
+            "src": "assets/photo-search/rounds/raiders-ai-v1-4.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.15631006918455426,
+                        0.6380333256898854,
+                        0.03908754599721809,
+                        0.08489520065842723
+                    ],
+                    "similarity": 0.6658780985490012,
+                    "distance": 0.00524558720802826
+                },
+                {
+                    "target": [
+                        0.2678490810645254,
+                        0.6847920797836514,
+                        0.023835031221928205,
+                        0.05378921622297587
+                    ],
+                    "similarity": 0.21474594601386343,
+                    "distance": 0.112224588153118
+                },
+                {
+                    "target": [
+                        0.0729669512972307,
+                        0.654253335358866,
+                        0.023613160147050928,
+                        0.05611290034781602
+                    ],
+                    "similarity": 0.18988279695111032,
+                    "distance": 0.08834731614439056
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.15631006918455426,
+                0.6380333256898854,
+                0.03908754599721809,
+                0.08489520065842723
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "raiders-4",
+    "focusCorrection": {
+        "sigmaPixels": 0.7,
+        "maskFeatherPixels": 8.496068997955323,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

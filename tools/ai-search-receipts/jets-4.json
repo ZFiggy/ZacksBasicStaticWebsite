@@ -1,0 +1,111 @@
+{
+    "team": "jets",
+    "level": 3,
+    "sourceIndex": 535,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/jets-535.jpg",
+    "sourcePage": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/ltplwhbtmrr4qpzly89q.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/jets.png",
+    "player": "Garrett Wilson",
+    "face": [
+        770.34,
+        229.5,
+        39.22,
+        50.9
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real jets crowd photograph to edit. Image 2 is Garrett Wilson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Garrett Wilson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual jets fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/jets-ai-v2-4.jpg",
+    "status": "generated",
+    "guideVersion": 2,
+    "src": "assets/photo-search/rounds/jets-ai-v2-4.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.5929836417385266,
+                0.2946809673410673,
+                0.04872601559287625,
+                0.11938977783722024
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.5929836417385266,
+        0.2946809673410673,
+        0.04872601559287625,
+        0.11938977783722024
+    ],
+    "history": [
+        {
+            "team": "jets",
+            "level": 3,
+            "sourceIndex": 535,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/jets-535.jpg",
+            "sourcePage": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/ltplwhbtmrr4qpzly89q.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/jets.png",
+            "player": "Garrett Wilson",
+            "face": [
+                770.34,
+                229.5,
+                39.22,
+                50.9
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real jets crowd photograph to edit. Image 2 is Garrett Wilson's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Garrett Wilson, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual jets fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-bbbe69d3-6288-4f93-8017-cc6f07639151.png",
+            "status": "generated",
+            "guideVersion": 2,
+            "src": "assets/photo-search/rounds/jets-ai-v1-4.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.5929836417385266,
+                        0.2946809673410673,
+                        0.04872601559287625,
+                        0.11938977783722024
+                    ],
+                    "similarity": 0.7891327636467622,
+                    "distance": 0.0045468766444924456
+                },
+                {
+                    "target": [
+                        0.5604449223787591,
+                        0.3257178723115343,
+                        0.028669194490715616,
+                        0.08266454244648105
+                    ],
+                    "similarity": 0.1567872702744353,
+                    "distance": 0.045255963144262404
+                },
+                {
+                    "target": [
+                        0.433304410505523,
+                        0.21167407709784514,
+                        0.0872145058663838,
+                        0.2096180801310524
+                    ],
+                    "similarity": 0.20520590798969351,
+                    "distance": 0.14343651308907696
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.5929836417385266,
+                0.2946809673410673,
+                0.04872601559287625,
+                0.11938977783722024
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "jets-4",
+    "focusCorrection": {
+        "sigmaPixels": 1,
+        "maskFeatherPixels": 10.591086749267582,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

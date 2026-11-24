@@ -1,0 +1,115 @@
+{
+    "team": "broncos",
+    "level": 1,
+    "sourceIndex": 549,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/broncos-549.jpg",
+    "sourcePage": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/broncos/bebdlfnvtlg6pehpa88t.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/broncos.png",
+    "player": "Bo Nix",
+    "face": [
+        730.88,
+        261.01,
+        24.15,
+        29.52
+    ],
+    "prompt": "Use case: precise-object-edit. Image 1 is the edited Denver crowd photo to correct. Remove ONLY the thin cyan/turquoise rectangular outline drawn around the small smiling Bo Nix spectator near the middle, just to the right of center. Restore the tiny pixels occupied by those guide lines using the surrounding clothing/crowd. Image 2 is the original real photo for clean background texture reference. Keep Bo Nix present with exactly the same recognizable face, natural head size, expression, body, orange shirt, placement and lighting as image 1. Keep every other person, goalpost, sign, color, crop and photo detail unchanged. Absolutely no cyan box, outline, guide mark, arrow or target marker anywhere. This is only removal of an accidental annotation, not a new scene or new player insertion. Output the full clean corrected landscape photo.",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/broncos-ai-v2-2.jpg",
+    "status": "generated",
+    "guideVersion": 2,
+    "editParent": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-7f405310-19c7-4088-9001-c56160eaeec1.png",
+    "revision": 2,
+    "src": "assets/photo-search/rounds/broncos-ai-v2-2.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.5662388933902722,
+                0.33952733991503337,
+                0.029481391359174026,
+                0.0699892496074551
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.5662388933902722,
+        0.33952733991503337,
+        0.029481391359174026,
+        0.0699892496074551
+    ],
+    "history": [
+        {
+            "team": "broncos",
+            "level": 1,
+            "sourceIndex": 549,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/broncos-549.jpg",
+            "sourcePage": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/broncos/bebdlfnvtlg6pehpa88t.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/broncos.png",
+            "player": "Bo Nix",
+            "face": [
+                730.88,
+                261.01,
+                24.15,
+                29.52
+            ],
+            "prompt": "Use case: precise-object-edit. Image 1 is the edited Denver crowd photo to correct. Remove ONLY the thin cyan/turquoise rectangular outline drawn around the small smiling Bo Nix spectator near the middle, just to the right of center. Restore the tiny pixels occupied by those guide lines using the surrounding clothing/crowd. Image 2 is the original real photo for clean background texture reference. Keep Bo Nix present with exactly the same recognizable face, natural head size, expression, body, orange shirt, placement and lighting as image 1. Keep every other person, goalpost, sign, color, crop and photo detail unchanged. Absolutely no cyan box, outline, guide mark, arrow or target marker anywhere. This is only removal of an accidental annotation, not a new scene or new player insertion. Output the full clean corrected landscape photo.",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-77afbc3b-47da-42d3-8d0d-d7c44a0d9013.png",
+            "status": "generated",
+            "guideVersion": 2,
+            "editParent": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-7f405310-19c7-4088-9001-c56160eaeec1.png",
+            "revision": 2,
+            "src": "assets/photo-search/rounds/broncos-ai-v1-2.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.5662388933902722,
+                        0.33952733991503337,
+                        0.029481391359174026,
+                        0.0699892496074551
+                    ],
+                    "similarity": 0.5729826001332228,
+                    "distance": 0.006017130692627873
+                },
+                {
+                    "target": [
+                        0.7600834038154931,
+                        0.23205875108903323,
+                        0.019870363491003462,
+                        0.049332224473943115
+                    ],
+                    "similarity": 0.25530564616201445,
+                    "distance": 0.22682478347145774
+                },
+                {
+                    "target": [
+                        0.49926292811854606,
+                        0.38712871948793515,
+                        0.025768919401762038,
+                        0.057081479955302286
+                    ],
+                    "similarity": 0.12042548073850412,
+                    "distance": 0.07659435294607586
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.5662388933902722,
+                0.33952733991503337,
+                0.029481391359174026,
+                0.0699892496074551
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "broncos-2",
+    "focusCorrection": {
+        "sigmaPixels": 0.55,
+        "maskFeatherPixels": 6.408075225830067,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

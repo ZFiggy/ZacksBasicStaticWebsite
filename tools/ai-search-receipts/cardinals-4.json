@@ -1,0 +1,125 @@
+{
+    "team": "cardinals",
+    "level": 3,
+    "sourceIndex": 2300,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/cardinals-2300.jpg",
+    "sourcePage": "https://www.azcardinals.com/photos/photos-2025-best-of-cardinals-fans",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/cardinals/q22jabqlvwox5dbxzn0b.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/cardinals.png",
+    "player": "Kyler Murray",
+    "face": [
+        760.62,
+        97.8,
+        31.49,
+        38.53
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real cardinals crowd photograph to edit. Image 2 is Kyler Murray's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Kyler Murray, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual cardinals fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+    "guideVersion": 2,
+    "guideBounds": [
+        757,
+        89,
+        796,
+        141
+    ],
+    "styleReference": "public/assets/search-level-5-v2.jpg",
+    "outputPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/rounds/cardinals-ai-v2-4.jpg",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/cardinals-ai-v2-4.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.5867753094349182,
+                0.11555107797750377,
+                0.0383651889910538,
+                0.093819802879147
+            ],
+            "method": "Visually reviewed full-head bounds"
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.5867753094349182,
+        0.11555107797750377,
+        0.0383651889910538,
+        0.093819802879147
+    ],
+    "history": [
+        {
+            "team": "cardinals",
+            "level": 3,
+            "sourceIndex": 2300,
+            "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/cardinals-2300.jpg",
+            "sourcePage": "https://www.azcardinals.com/photos/photos-2025-best-of-cardinals-fans",
+            "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/cardinals/q22jabqlvwox5dbxzn0b.jpg",
+            "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/cardinals.png",
+            "player": "Kyler Murray",
+            "face": [
+                760.62,
+                97.8,
+                31.49,
+                38.53
+            ],
+            "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real cardinals crowd photograph to edit. Image 2 is Kyler Murray's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Kyler Murray, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual cardinals fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage. Critical scale: the cyan box closely bounds the original spectator's head, not a space for a bigger head. Keep the new head entirely inside that box. Preserve any local softness or motion blur so the player is no sharper than adjacent faces at his depth. Retain recognizable identity through natural facial structure, not by copying a rigid studio portrait expression. Image 2 supplies FACE IDENTITY ONLY. Ignore its jersey, team logo and clothing colors. The inserted person must wear casual fan clothing for the team in image 1, never a different team's jersey from the portrait.",
+            "guideVersion": 2,
+            "guideBounds": [
+                757,
+                89,
+                796,
+                141
+            ],
+            "styleReference": "public/assets/search-level-5-v2.jpg",
+            "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-9cbdd7f8-21f0-4853-866c-fd7224e3a7d3.png",
+            "status": "generated",
+            "src": "assets/photo-search/rounds/cardinals-ai-v1-4.jpg",
+            "targetCandidates": [
+                {
+                    "target": [
+                        0.5867753094349182,
+                        0.11555107797750377,
+                        0.0383651889910538,
+                        0.093819802879147
+                    ],
+                    "similarity": 0.7533128181903521,
+                    "distance": 0.0032727171409738932
+                },
+                {
+                    "target": [
+                        0.6537360067458814,
+                        0.13277030928608716,
+                        0.04265580213811418,
+                        0.1076298631593094
+                    ],
+                    "similarity": 0.14736985186118545,
+                    "distance": 0.07396757191222625
+                },
+                {
+                    "target": [
+                        0.6165482822445592,
+                        0.05506648976795225,
+                        0.030247983476191606,
+                        0.07365122763687441
+                    ],
+                    "similarity": 0.13903018808446177,
+                    "distance": 0.07256097916961836
+                }
+            ],
+            "reviewed": true,
+            "selectedCandidate": 1,
+            "target": [
+                0.5867753094349182,
+                0.11555107797750377,
+                0.0383651889910538,
+                0.093819802879147
+            ],
+            "history": []
+        }
+    ],
+    "assetRevision": 2,
+    "naturalnessRepair": "cardinals-4",
+    "focusCorrection": {
+        "sigmaPixels": 0.75,
+        "maskFeatherPixels": 8.339057479095455,
+        "method": "User-authorized local Gaussian blur; AI-integrated person unchanged"
+    }
+}

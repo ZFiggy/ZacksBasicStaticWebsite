@@ -1,0 +1,60 @@
+{
+    "team": "commanders",
+    "level": 4,
+    "sourceIndex": 504,
+    "sourcePath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-sources/commanders-504.jpg",
+    "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
+    "sourceImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/commanders/mgu59zfxpzfcxotnybnm.jpg",
+    "portraitPath": "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/photo-search/real-players/commanders.png",
+    "player": "Jayden Daniels",
+    "face": [
+        846.39,
+        390.72,
+        17.61,
+        23.39
+    ],
+    "prompt": "Use case: precise photographic compositing for a hidden-player search. Image 1 is the ORIGINAL real commanders crowd photograph to edit. Image 2 is Jayden Daniels's identity reference. Image 3 is the SAME original photograph with a CYAN RECTANGLE locating the ONLY adult spectator to replace. Image 4 is ONLY the original Where's Jalen natural appearance and difficulty reference. Naturally replace the single SMALL SPECTATOR INSIDE THE CYAN RECTANGLE with recognizable Jayden Daniels, physically present in that exact spot as an ordinary fan. Keep the head the SAME size as the boxed adult, matching adjacent fans. AI-edit this individual's connected head, neck, visible shoulders, body and skin as necessary to make a coherent candid person in casual commanders fan clothes, at the original pose and depth. Match the local light direction, complexion, shadows, focus, grain, color temperature, expression and perspective. Keep foreground obstructions in front of him, including other spectators, hands, fences and rails. If his torso is hidden, keep it hidden. Do not alter or replace ANY foreground/on-field football player, mascot, child or other spectator. In particular the large foreground players and people must stay exactly as in the original. The player must blend naturally like Jalen: no pasted face, floating head, oversized head, studio portrait pose, new spotlight, razor-sharp head in blurry crowd, or duplicate player. Preserve the existing photograph's composition, environment, crowd, signs, logos, aspect ratio and original framing. Do not invent a new crowd or move the target forward. Remove all guide marks: output ONLY the clean edited image 1, no cyan box, labels, arrows or collage.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a206d0-6b2b-79c2-a6dd-2ff87672e2bd/exec-fe77760e-8877-4b74-87cc-c10efd591109.png",
+    "status": "generated",
+    "src": "assets/photo-search/rounds/commanders-ai-v1-5.jpg",
+    "targetCandidates": [
+        {
+            "target": [
+                0.650204294857226,
+                0.5292484960444549,
+                0.029621739775370116,
+                0.06850280437408679
+            ],
+            "similarity": 0.4288962947530308,
+            "distance": 0.0076917158901038275
+        },
+        {
+            "target": [
+                0.6861911869847603,
+                0.5057394415868582,
+                0.012395157129570693,
+                0.03968260072876368
+            ],
+            "similarity": 0.07082229078150704,
+            "distance": 0.04009088831096449
+        },
+        {
+            "target": [
+                0.9687488436470763,
+                0.5097514085637902,
+                0.017389163263676743,
+                0.04511543663097877
+            ],
+            "similarity": 0.28687491872915416,
+            "distance": 0.31033007133748475
+        }
+    ],
+    "reviewed": true,
+    "selectedCandidate": 1,
+    "target": [
+        0.650204294857226,
+        0.5292484960444549,
+        0.029621739775370116,
+        0.06850280437408679
+    ]
+}

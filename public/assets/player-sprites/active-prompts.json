@@ -1,0 +1,105 @@
+[
+    {
+        "file": "assets/player-sprites/flight-v2-0.png",
+        "teamIds": [
+            "cowboys",
+            "giants",
+            "commanders",
+            "bears"
+        ],
+        "cols": 2,
+        "rows": 2,
+        "prompt": "Use case: stylized-concept. Production TRANSPARENT PNG sprite atlas. EXACT2columns×2rows, four equal cells, no visible grid, each character entirely inside its own cell with generous transparent padding. FOUR DISTINCT full-body flying football PLAYER characters, each with a completely DIFFERENT pose, physique, face, hair, wing shape, and expression. Do NOT recolor or duplicate the same body or face. Premium playful dimensional sports-cartoon style, compact heroic caricatures with big expressive helmeted faces and readable jerseys. All athletes are recognizable historical franchise legends in their playing-era appearance, not modern old-age faces. GENUINE transparent alpha outside all bodies/wings; no floor/background/medallions/boxes; no lettering except jersey numbers. Each athlete faces generally RIGHT but their action and silhouette must differ dramatically. TOP LEFT: Emmitt Smith of the Dallas Cowboys, jersey22, uniform palette#003594/#b6bdc8. Emmitt: short, powerful, thick-legged build, football hugged LEFT, right arm punching forward in a low determined power stride, broad smiling face. TOP RIGHT: Tiki Barber of the New York Giants, jersey21, uniform palette#0b2265/#ff6475. Tiki: compact lean build, close-shaved hair, football tight RIGHT, left arm stretched in a balancing stiff-arm, a quick sideways juke and tucked rear foot. BOTTOM LEFT: John Riggins of the Washington Commanders, jersey44, uniform palette#5a1414/#ffb612. Riggins: stocky WHITE power back, broad shoulders, long brown hair behind the helmet, football held in both hands, knees driving low like a charging diesel, vintage burgundy and gold. BOTTOM RIGHT: Walter Payton of the Chicago Bears, jersey34, uniform palette#0b162a/#ff7b36. Payton: lean graceful BLACK runner, vintage rounded helmet, light mustache, a joyful high-stepping Sweetness pose, one foot high and left arm in a sweeping stiff-arm.  IMPORTANT: entire helmets, wings, bodies and feet must be visible and not touch cell boundaries. Exaggerate the differences so the characters are identifiable even at80px. No repeated Saquon pose, no recycled face.",
+        "generator": "Built-in image_gen; independent player poses and likenesses"
+    },
+    {
+        "file": "assets/player-sprites/flight-v2-1.png",
+        "teamIds": [
+            "lions",
+            "packers",
+            "vikings",
+            "falcons"
+        ],
+        "cols": 2,
+        "rows": 2,
+        "prompt": "Use case: stylized-concept. Production TRANSPARENT PNG sprite atlas. EXACT2columns×2rows, four equal cells, no visible grid, each character entirely inside its own cell with generous transparent padding. FOUR DISTINCT full-body flying football PLAYER characters, each with a completely DIFFERENT pose, physique, face, hair, wing shape, and expression. Do NOT recolor or duplicate the same body or face. Premium playful dimensional sports-cartoon style, compact heroic caricatures with big expressive helmeted faces and readable jerseys. All athletes are recognizable historical franchise legends in their playing-era appearance, not modern old-age faces. GENUINE transparent alpha outside all bodies/wings; no floor/background/medallions/boxes; no lettering except jersey numbers. Each athlete faces generally RIGHT but their action and silhouette must differ dramatically. TOP LEFT: Barry Sanders of the Detroit Lions, jersey20, uniform palette#005a8b/#c2d2dc. Barry: small compact BLACK runner with huge thighs, low center of gravity, sharply twisting evasive juke, ball held close to chest, feet moving in opposite directions; blue-white wings tucked tight. TOP RIGHT: Ahman Green of the Green Bay Packers, jersey30, uniform palette#203731/#ffb612. Ahman: broad athletic BLACK runner, green-and-gold kit, open long stride and ball in left arm, one wing extended upward and the other folded for a banking turn. BOTTOM LEFT: Adrian Peterson of the Minnesota Vikings, jersey28, uniform palette#4f2683/#ffc62f. Peterson: very muscular BLACK runner, fierce face, powerful HIGH KNEE with right arm stretched out in a stiff-arm and ball left, large purple-tipped wings flaring. BOTTOM RIGHT: Michael Turner of the Atlanta Falcons, jersey33, uniform palette#a71930/#d3d3d3. Turner: heavyweight barrel-chested BLACK power runner, thick neck/thighs, head down in a driving two-arm ball cradle, compact red falcon-like wings and a cloud-like pose.  IMPORTANT: entire helmets, wings, bodies and feet must be visible and not touch cell boundaries. Exaggerate the differences so the characters are identifiable even at80px. No repeated Saquon pose, no recycled face.",
+        "generator": "Built-in image_gen; independent player poses and likenesses"
+    },
+    {
+        "file": "assets/player-sprites/flight-v2-2.png",
+        "teamIds": [
+            "panthers",
+            "saints",
+            "buccaneers",
+            "cardinals"
+        ],
+        "cols": 2,
+        "rows": 2,
+        "prompt": "Use case: stylized-concept. Production TRANSPARENT PNG sprite atlas. EXACT2columns×2rows, four equal cells, no visible grid, each character entirely inside its own cell with generous transparent padding. FOUR DISTINCT full-body flying football PLAYER characters, each with a completely DIFFERENT pose, physique, face, hair, wing shape, and expression. Do NOT recolor or duplicate the same body or face. Premium playful dimensional sports-cartoon style, compact heroic caricatures with big expressive helmeted faces and readable jerseys. All athletes are recognizable historical franchise legends in their playing-era appearance, not modern old-age faces. GENUINE transparent alpha outside all bodies/wings; no floor/background/medallions/boxes; no lettering except jersey numbers. Each athlete faces generally RIGHT but their action and silhouette must differ dramatically. TOP LEFT: Steve Smith Sr. of the Carolina Panthers, jersey89, uniform palette#005f86/#bfc0bf. Steve Smith: SMALL, lean BLACK wide receiver with short hair and a close beard, leaping upward for a one-handed catch, other hand clenched in celebration, bright blue-tipped wings, number89. TOP RIGHT: Deuce McAllister of the New Orleans Saints, jersey26, uniform palette#1d1d1b/#d3bc8d. Deuce: large powerful BLACK running back, broad face, black-and-gold uniform, ball carried with both hands in an upright hurdle, one gold-tipped wing sweeping forward. BOTTOM LEFT: Mike Alstott of the Tampa Bay Buccaneers, jersey40, uniform palette#a71930/#ffb25b. Alstott: HUGE stocky WHITE fullback, short brown hair, clean-shaven square face, red-pewter number40, shoulder lowered, a train-like power lunge with ball braced under right arm and small steel-silver wings. BOTTOM RIGHT: Larry Fitzgerald of the Arizona Cardinals, jersey11, uniform palette#97233f/#ffb612. Fitzgerald: TALL LEAN BLACK receiver, long dark DREADLOCKS spilling behind helmet, both arms extended in front for a two-handed catch, long legs trailing, red and white wings.  IMPORTANT: entire helmets, wings, bodies and feet must be visible and not touch cell boundaries. Exaggerate the differences so the characters are identifiable even at80px. No repeated Saquon pose, no recycled face.",
+        "generator": "Built-in image_gen; independent player poses and likenesses"
+    },
+    {
+        "file": "assets/player-sprites/flight-v2-3.png",
+        "teamIds": [
+            "rams",
+            "49ers",
+            "seahawks",
+            "bills"
+        ],
+        "cols": 2,
+        "rows": 2,
+        "prompt": "Use case: stylized-concept. Production TRANSPARENT PNG sprite atlas. EXACT2columns×2rows, four equal cells, no visible grid, each character entirely inside its own cell with generous transparent padding. FOUR DISTINCT full-body flying football PLAYER characters, each with a completely DIFFERENT pose, physique, face, hair, wing shape, and expression. Do NOT recolor or duplicate the same body or face. Premium playful dimensional sports-cartoon style, compact heroic caricatures with big expressive helmeted faces and readable jerseys. All athletes are recognizable historical franchise legends in their playing-era appearance, not modern old-age faces. GENUINE transparent alpha outside all bodies/wings; no floor/background/medallions/boxes; no lettering except jersey numbers. Each athlete faces generally RIGHT but their action and silhouette must differ dramatically. TOP LEFT: Marshall Faulk of the Los Angeles Rams, jersey28, uniform palette#003594/#ffd100. Faulk: COMPACT, slender BLACK all-purpose back, balanced lateral cut with body tilted, ball under left arm and right hand reaching down for balance, curved gold-blue wings. TOP RIGHT: Jerry Rice of the San Francisco 49ers, jersey80, uniform palette#aa0000/#e0bf79. Rice: TALL, lean BLACK wide receiver, long graceful limbs, helmet tilted up toward football in both hands, one knee bent in a leaping catch, red-white feather wings spread vertically. BOTTOM LEFT: Marshawn Lynch of the Seattle Seahawks, jersey24, uniform palette#002244/#69be28. Lynch: HEAVY, muscular BLACK runner with LONG DREADLOCKS and dark visor, oversized thighs, spectacular long stiff-arm LEFT, ball hugged RIGHT, fierce face, navy/lime wings, Beast Mode pose. BOTTOM RIGHT: Thurman Thomas of the Buffalo Bills, jersey34, uniform palette#00338d/#ff5a66. Thurman: compact broad BLACK back, football tucked right, leaning through a flying sidestep with opposite arm balancing behind, blue-red wings with a snowflake-like silhouette.  IMPORTANT: entire helmets, wings, bodies and feet must be visible and not touch cell boundaries. Exaggerate the differences so the characters are identifiable even at80px. No repeated Saquon pose, no recycled face.",
+        "generator": "Built-in image_gen; independent player poses and likenesses"
+    },
+    {
+        "file": "assets/player-sprites/flight-v2-4.png",
+        "teamIds": [
+            "dolphins",
+            "patriots",
+            "jets",
+            "ravens"
+        ],
+        "cols": 2,
+        "rows": 2,
+        "prompt": "Use case: stylized-concept. Production TRANSPARENT PNG sprite atlas. EXACT2columns×2rows, four equal cells, no visible grid, each character entirely inside its own cell with generous transparent padding. FOUR DISTINCT full-body flying football PLAYER characters, each with a completely DIFFERENT pose, physique, face, hair, wing shape, and expression. Do NOT recolor or duplicate the same body or face. Premium playful dimensional sports-cartoon style, compact heroic caricatures with big expressive helmeted faces and readable jerseys. All athletes are recognizable historical franchise legends in their playing-era appearance, not modern old-age faces. GENUINE transparent alpha outside all bodies/wings; no floor/background/medallions/boxes; no lettering except jersey numbers. Each athlete faces generally RIGHT but their action and silhouette must differ dramatically. TOP LEFT: Ricky Williams of the Miami Dolphins, jersey34, uniform palette#006c72/#ff9248. Ricky: thick-shouldered muscular BLACK back, LONG DARK DREADLOCKS, aqua number34, calm face, football cradled in both arms in an upright floating stride, aqua/orange wings with wave curls. TOP RIGHT: Rob Gronkowski of the New England Patriots, jersey87, uniform palette#002244/#ff6373. Gronk: VERY TALL HUGE WHITE tight end with short brown hair and a wide goofy grin, football held ABOVE HIS HEAD with both hands in a touchdown-spike windup, long legs kicked back, navy/red wings. BOTTOM LEFT: Curtis Martin of the New York Jets, jersey28, uniform palette#125740/#d5e4df. Curtis: lean BLACK runner with neat short hair and calm focused face, compact economical airborne sprint, football securely in the left elbow, green-white swept jet-like feather wings. BOTTOM RIGHT: Jamal Lewis of the Baltimore Ravens, jersey31, uniform palette#24135f/#e2c46d. Jamal: extraordinarily stocky muscular BLACK power back, purple number31, low shoulder-first flying charge with both arms locked around ball, broad black-purple raven wings.  IMPORTANT: entire helmets, wings, bodies and feet must be visible and not touch cell boundaries. Exaggerate the differences so the characters are identifiable even at80px. No repeated Saquon pose, no recycled face.",
+        "generator": "Built-in image_gen; independent player poses and likenesses"
+    },
+    {
+        "file": "assets/player-sprites/flight-v2-5.png",
+        "teamIds": [
+            "bengals",
+            "browns",
+            "steelers",
+            "texans"
+        ],
+        "cols": 2,
+        "rows": 2,
+        "prompt": "Use case: stylized-concept. Production TRANSPARENT PNG sprite atlas. EXACT2columns×2rows, four equal cells, no visible grid, each character entirely inside its own cell with generous transparent padding. FOUR DISTINCT full-body flying football PLAYER characters, each with a completely DIFFERENT pose, physique, face, hair, wing shape, and expression. Do NOT recolor or duplicate the same body or face. Premium playful dimensional sports-cartoon style, compact heroic caricatures with big expressive helmeted faces and readable jerseys. All athletes are recognizable historical franchise legends in their playing-era appearance, not modern old-age faces. GENUINE transparent alpha outside all bodies/wings; no floor/background/medallions/boxes; no lettering except jersey numbers. Each athlete faces generally RIGHT but their action and silhouette must differ dramatically. TOP LEFT: Corey Dillon of the Cincinnati Bengals, jersey28, uniform palette#a83c00/#ffb267. Dillon: tall strong BLACK back, orange-black tiger stripes, very LONG airborne stride with right knee high, football in left arm, orange-black striped feather wings. TOP RIGHT: Jim Brown of the Cleveland Browns, jersey32, uniform palette#311d00/#ff8b3d. Jim Brown: powerful vintage BLACK athlete, short hair and distinctive stern square face, old-fashioned white helmet with simple bar face mask, brown number32, right-arm stiff-arm and left-arm ball, cream-brown wings. BOTTOM LEFT: Franco Harris of the Pittsburgh Steelers, jersey32, uniform palette#171717/#ffb612. Franco: BLACK runner with a FULL DARK BEARD and visible CURLY AFRO under vintage helmet, bending low while catching a football near his knees, both feet kicked back, black/gold wings. BOTTOM RIGHT: Arian Foster of the Houston Texans, jersey23, uniform palette#03202f/#ff5367. Foster: TALL LEAN BLACK runner with neat dark beard, navy-red number23, peaceful touchdown pose with hands together over football braced at chest and legs tucked, wing tips shaped like red-blue star trails.  IMPORTANT: entire helmets, wings, bodies and feet must be visible and not touch cell boundaries. Exaggerate the differences so the characters are identifiable even at80px. No repeated Saquon pose, no recycled face.",
+        "generator": "Built-in image_gen; independent player poses and likenesses"
+    },
+    {
+        "file": "assets/player-sprites/flight-v2-6.png",
+        "teamIds": [
+            "colts",
+            "jaguars",
+            "titans",
+            "broncos"
+        ],
+        "cols": 2,
+        "rows": 2,
+        "prompt": "Use case: stylized-concept. Production TRANSPARENT PNG sprite atlas. EXACT2columns×2rows, four equal cells, no visible grid, each character entirely inside its own cell with generous transparent padding. FOUR DISTINCT full-body flying football PLAYER characters, each with a completely DIFFERENT pose, physique, face, hair, wing shape, and expression. Do NOT recolor or duplicate the same body or face. Premium playful dimensional sports-cartoon style, compact heroic caricatures with big expressive helmeted faces and readable jerseys. All athletes are recognizable historical franchise legends in their playing-era appearance, not modern old-age faces. GENUINE transparent alpha outside all bodies/wings; no floor/background/medallions/boxes; no lettering except jersey numbers. Each athlete faces generally RIGHT but their action and silhouette must differ dramatically. TOP LEFT: Edgerrin James of the Indianapolis Colts, jersey32, uniform palette#002c5f/#c3d2e0. Edgerrin: lean BLACK runner with LONG DREADLOCKS and a grin, white-blue number32, ball in left arm, long sharp lateral jump with right arm behind, white/blue horseshoe-shaped feather wings. TOP RIGHT: Fred Taylor of the Jacksonville Jaguars, jersey28, uniform palette#006778/#e5ba75. Fred: muscular BLACK running back with strong thighs, teal number28, elegant gliding long stride with ball RIGHT and left palm open toward viewer, gold/teal wings arched like a pouncing cat. BOTTOM LEFT: Eddie George of the Tennessee Titans, jersey27, uniform palette#0c2340/#75b9e8. Eddie: VERY TALL upright muscular BLACK back, navy-light blue number27, left stiff-arm and ball right, legs in a strong galloping high-knee pose, pale-blue flame-shaped feathers. BOTTOM RIGHT: Terrell Davis of the Denver Broncos, jersey30, uniform palette#002244/#ff8a42. Terrell: compact muscular BLACK back, orange/navy number30, distinctive RIGHT HAND SALUTE at the forehead with football under left arm, one leg extended forward, orange/white wings.  IMPORTANT: entire helmets, wings, bodies and feet must be visible and not touch cell boundaries. Exaggerate the differences so the characters are identifiable even at80px. No repeated Saquon pose, no recycled face.",
+        "generator": "Built-in image_gen; independent player poses and likenesses"
+    },
+    {
+        "file": "assets/player-sprites/flight-v2-7.png",
+        "teamIds": [
+            "chiefs",
+            "raiders",
+            "chargers"
+        ],
+        "cols": 2,
+        "rows": 2,
+        "prompt": "Use case: stylized-concept. Production TRANSPARENT PNG sprite atlas. EXACT2columns×2rows, four equal cells, no visible grid, each character entirely inside its own cell with generous transparent padding. FOUR DISTINCT full-body flying football PLAYER characters, each with a completely DIFFERENT pose, physique, face, hair, wing shape, and expression. Do NOT recolor or duplicate the same body or face. Premium playful dimensional sports-cartoon style, compact heroic caricatures with big expressive helmeted faces and readable jerseys. All athletes are recognizable historical franchise legends in their playing-era appearance, not modern old-age faces. GENUINE transparent alpha outside all bodies/wings; no floor/background/medallions/boxes; no lettering except jersey numbers. Each athlete faces generally RIGHT but their action and silhouette must differ dramatically. TOP LEFT: Priest Holmes of the Kansas City Chiefs, jersey31, uniform palette#a71930/#ffce55. Priest: athletic BLACK runner, red-gold number31, head tilted forward with football high in left arm, right arm in a long forward reaching stiff-arm, red/gold wings lifted asymmetrically. TOP RIGHT: Marcus Allen of the Las Vegas Raiders, jersey32, uniform palette#101010/#c4c8cc. Marcus: TALL lean BLACK runner, silver-black number32, torso twists backward while running right in a graceful reverse-direction cut, football in right arm, long silver feather wings. BOTTOM LEFT: LaDainian Tomlinson of the Los Angeles Chargers, jersey21, uniform palette#005c91/#ffd644. LT: powerful BLACK runner with a DARK TINTED VISOR, powder-blue/gold number21, a high-knee leap with football raised in right hand and left fist up, lightning-shaped white/gold wings. Bottom right must remain completely empty transparent. IMPORTANT: entire helmets, wings, bodies and feet must be visible and not touch cell boundaries. Exaggerate the differences so the characters are identifiable even at80px. No repeated Saquon pose, no recycled face.",
+        "generator": "Built-in image_gen; independent player poses and likenesses"
+    }
+]
