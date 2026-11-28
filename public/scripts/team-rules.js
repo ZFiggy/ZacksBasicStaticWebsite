@@ -83,6 +83,7 @@
         }
     };
     api.ruleFor = (id, teamId = api.team.id) => {
+        if (id === 'game') return {theme: 'Touchdown Rush', variant: 'rush', description: 'Collect the football, then score in the right end zone. Defenders chase your position after every step and accelerate on burst turns. Use friendly blockers, collect the ball, and score with fewer steps for more bonus points and stars.'};
         const tuple = identities[teamId];
         const index = ['game', 'kick', 'pocket', 'shove', 'recall', 'punt', 'blitz', 'signal'].indexOf(id);
         return index < 0 ? null : {theme: tuple[0], variant: tuple[index + 1], description: descriptions[id][tuple[index + 1]]};

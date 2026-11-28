@@ -92,25 +92,18 @@ for(const team of ['eagles', ...Object.keys(teams)]) {
 console.log('PASS all 32 home frames; all 160 search rounds load, reject misses and accept targets; one named person per team; Eagles originals preserved.');
 if (process.argv.includes('--search-only')) { client.ws.close(); browser.ws.close(); process.exit(0); }
 for(const team of ['eagles', ...Object.keys(teams)]) {
-    for(const mode of ['pocket','shove','recall','punt','blitz','signal']) {
+    for(const mode of ['pocket','shove','recall','punt','signal']) {
         await go(`playbook.html?team=${team}&game=${mode}`);
         await client.evaluate('document.playbook.reset()');
+        if(mode==='pocket') {
+            assert.equal(await client.evaluate('document.passingGame.phase'), 'ready');
+            assert.equal(await client.evaluate('document.passingGame.rival.id !== teamArcade.team.id'), true);
+            assert.equal(await client.evaluate('document.querySelectorAll(".passing-calls button").length'), 3);
+            continue; // Passing Drive's simulation, controls, artwork, and scoring have a dedicated suite.
+        }
         assert.ok(await client.evaluate('document.playbook.active'));
         await client.until('Array.from(document.querySelectorAll(".player-character")).some(c=>c.dataset.ready==="true")');
         assert.equal(await client.evaluate('document.querySelectorAll(".player-character[data-ready=error]").length'),0);
-        if(mode==='pocket') {
-            const variant=await client.evaluate('document.playbook.rule.variant');
-            if(variant==='pump') {
-                await client.evaluate('(()=>{const g=document.playbook;g.pass((g.openLane+1)%3);g.pass(g.openLane)})()');
-                assert.equal(await client.evaluate('document.playbook.score'),1);
-            } else if(variant==='deep') {
-                await client.evaluate('(()=>{const g=document.playbook;g.pass(g.openLane)})()');
-                assert.equal(await client.evaluate('document.playbook.lives'),2);
-            } else {
-                await client.evaluate('(()=>{const g=document.playbook;g.openLane=g.calledLane;g.pass(g.openLane)})()');
-                assert.equal(await client.evaluate('document.playbook.score'),1);
-            }
-        }
         if(mode==='shove') {
             await client.evaluate('(()=>{const g=document.playbook;g.meter=g.windowCenter;g.push()})()');
             assert.ok(await client.evaluate('document.playbook.inches>=22'));
@@ -122,10 +115,6 @@ for(const team of ['eagles', ...Object.keys(teams)]) {
             assert.deepEqual(await client.evaluate('document.playbook.expected'),expected);
         }
         if(mode==='punt') assert.ok(await client.evaluate('Number.isFinite(document.playbook.puntValues().final)'));
-        if(mode==='blitz') {
-            // Solve each formation with the actual rush algorithm. A valid route must exist.
-            assert.equal(await client.evaluate(`(()=>{const g=document.playbook;for(let n=0;n<3;n++){g.score=n;g.loadField();const queue=[{p:g.player,r:g.rusher,key:!!g.key,steps:0}],seen=new Set();let solved=false;while(queue.length){const s=queue.shift();if(s.steps>=16)continue;for(const [dx,dy] of [[0,-1],[-1,0],[1,0],[0,1]]){const p=[s.p[0]+dx,s.p[1]+dy];if(!g.walkable(p)||g.same(p,s.r))continue;const key=s.key&&!g.same(p,g.key);if(g.same(p,g.goal)&&!key){solved=true;break;}g.rusher=s.r;const r=g.rushStep(p);if(g.same(p,r))continue;const sig=[...p,...r,key].join(',');if(!seen.has(sig)){seen.add(sig);queue.push({p,r,key,steps:s.steps+1})}}if(solved)break;}if(!solved)return false;}return true})()`),true,`Solvable ${team}`);
-        }
         if(mode==='signal') {
             const variant=await client.evaluate('document.playbook.rule.variant');
             if(variant==='six') assert.equal(await client.evaluate('document.playbook.plays.length'),6);
@@ -138,11 +127,11 @@ for(const team of ['eagles', ...Object.keys(teams)]) {
         }
     }
 }
-console.log('PASS passing, shove timing, recall audibles, punt physics, solvable blitz layouts, and cipher match counts.');
+console.log('PASS passing, shove timing, recall audibles, punt physics, touchdown runs, and cipher match counts.');
 for(const team of ['eagles','cowboys','packers','lions']) {
     await go(`game.html?team=${team}`);
-    const result=await client.evaluate(`(()=>{const g=document.myGame;const v=g.rule.variant;g.shapes[0].x=g.shapes[1].x;g.shapes[0].y=g.shapes[1].y;g.update();if(v==='return'){if(g.score!==0||!g.carrying)return false;g.shapes[0].y=730;g.update();if(g.score!==1)return false;}else if(g.score!==1)return false;g.shapes[0].x=g.shapes[1].x;g.shapes[0].y=g.shapes[1].y;g.update();if(v==='return'){g.shapes[0].y=730;g.update()}return g.score===2&&g.recordedWin})()`);
-    assert.equal(result,true,`Collect both footballs ${team}`);
+    const result=await client.evaluate(`(()=>{const g=document.myGame;g.action();for(const move of g.field.solution)g.move(...move);return g.phase==='won'&&g.player.carrying})()`);
+    assert.equal(result,true,`Touchdown Rush clear ${team}`);
     await go(`kick.html?team=${team}`);
     await client.evaluate('document.kickGame.act()');
     assert.equal(await client.evaluate('document.kickGame.state'),'running');
@@ -169,5 +158,5 @@ for(const width of [1440,768,390,320]) {
 }
 console.log('PASS all 32 picker images have equal landscape frames at desktop, tablet, and mobile widths.');
 assert.deepEqual(client.errors.map(e=>e.exception?.description||e.text),[]);
-console.log('PASS field-run collection, kicking, responsive layouts, dark leaderboard panel; no browser exceptions.');
+console.log('PASS Touchdown Rush scoring, kicking, responsive layouts, dark leaderboard panel; no browser exceptions.');
 client.ws.close();browser.ws.close();

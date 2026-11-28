@@ -1,140 +1,432 @@
 {
-    "kind": "AI-created fictional arcade character art",
+    "kind": "AI-illustrated real NFL players for Sunday Arcade",
     "teams": {
         "eagles": {
             "runner": {
                 "name": "Saquon Barkley",
                 "number": 26,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 0
+                "index": 0,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Jalen Hurts",
                 "number": 1,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 1
+                "index": 1,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 0
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-0.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Jake Elliott",
                 "number": 4,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 2
+                "index": 2,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 1
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-0.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 3,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Brian Dawkins",
                 "number": 20,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
                 "index": 3
+            },
+            "receiver": {
+                "name": "A.J. Brown",
+                "number": 11,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/PHI.pdf"
+            },
+            "receiver2": {
+                "name": "DeVonta Smith",
+                "number": 6,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/PHI.pdf"
+            },
+            "lineman": {
+                "name": "Lane Johnson",
+                "number": 65,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/PHI.pdf"
+            },
+            "corner": {
+                "name": "Darius Slay",
+                "number": 2,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/PHI.pdf"
             }
         },
         "cowboys": {
             "runner": {
                 "name": "CeeDee Lamb",
                 "number": 88,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 4
+                "index": 4,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 4,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Dak Prescott",
                 "number": 4,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 5
+                "index": 5,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 2
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-0.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 6,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Brandon Aubrey",
                 "number": 17,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 6
+                "index": 6,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 3
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-0.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 9,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "DaRon Bland",
                 "number": 26,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
                 "index": 7
+            },
+            "receiver": {
+                "name": "Jake Ferguson",
+                "number": 87,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DAL.pdf"
+            },
+            "receiver2": {
+                "name": "Brandin Cooks",
+                "number": 3,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DAL.pdf"
+            },
+            "lineman": {
+                "name": "Zack Martin",
+                "number": 70,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DAL.pdf"
+            },
+            "corner": {
+                "name": "Trevon Diggs",
+                "number": 7,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DAL.pdf"
             }
         },
         "giants": {
             "runner": {
                 "name": "Cam Skattebo",
                 "number": 44,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 8
+                "index": 8,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 8,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Jaxson Dart",
                 "number": 6,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 9
+                "index": 9,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 4
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-0.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Graham Gano",
                 "number": 9,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 10
+                "index": 10,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 5
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-0.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 15,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Dexter Lawrence",
                 "number": 97,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
                 "index": 11
+            },
+            "receiver": {
+                "name": "Malik Nabers",
+                "number": 1,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NYG.pdf"
+            },
+            "receiver2": {
+                "name": "Wan\u2019Dale Robinson",
+                "number": 17,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NYG.pdf"
+            },
+            "lineman": {
+                "name": "Andrew Thomas",
+                "number": 78,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NYG.pdf"
+            },
+            "corner": {
+                "name": "Deonte Banks",
+                "number": 3,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NYG.pdf"
             }
         },
         "commanders": {
             "runner": {
                 "name": "Terry McLaurin",
                 "number": 17,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 12
+                "index": 12,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Jayden Daniels",
                 "number": 5,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 13
+                "index": 13,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 6
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-0.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 18,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Drew Stevens",
                 "number": 19,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 14
+                "index": 14,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 7
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-0.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 21,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Bobby Wagner",
                 "number": 54,
-                "src": "assets/characters/cast-0.png",
+                "src": "assets/characters/cast-0-v2.png",
                 "cols": 4,
                 "rows": 4,
                 "index": 15
+            },
+            "receiver": {
+                "name": "Zach Ertz",
+                "number": 86,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/WAS.pdf"
+            },
+            "receiver2": {
+                "name": "Dyami Brown",
+                "number": 2,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/WAS.pdf"
+            },
+            "lineman": {
+                "name": "Sam Cosmi",
+                "number": 76,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/WAS.pdf"
+            },
+            "corner": {
+                "name": "Mike Sainristil",
+                "number": 0,
+                "src": "assets/characters/roster-0.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/WAS.pdf"
             }
         },
         "bears": {
@@ -144,7 +436,14 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 0
+                "index": 0,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Caleb Williams",
@@ -152,7 +451,20 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 1
+                "index": 1,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 8
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-1.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Cairo Santos",
@@ -160,7 +472,20 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 2
+                "index": 2,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 9
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-1.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 3,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Jaylon Johnson",
@@ -169,6 +494,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 3
+            },
+            "receiver": {
+                "name": "Keenan Allen",
+                "number": 13,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CHI.pdf"
+            },
+            "receiver2": {
+                "name": "Rome Odunze",
+                "number": 15,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CHI.pdf"
+            },
+            "lineman": {
+                "name": "Darnell Wright",
+                "number": 58,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CHI.pdf"
+            },
+            "corner": {
+                "name": "Tyrique Stevenson",
+                "number": 29,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CHI.pdf"
             }
         },
         "lions": {
@@ -178,7 +543,14 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 4
+                "index": 4,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 4,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Jared Goff",
@@ -186,7 +558,20 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 5
+                "index": 5,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 10
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-1.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 6,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Jake Bates",
@@ -194,7 +579,20 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 6
+                "index": 6,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 11
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-1.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 9,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Aidan Hutchinson",
@@ -203,6 +601,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 7
+            },
+            "receiver": {
+                "name": "Amon-Ra St. Brown",
+                "number": 14,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DET.pdf"
+            },
+            "receiver2": {
+                "name": "Jameson Williams",
+                "number": 9,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DET.pdf"
+            },
+            "lineman": {
+                "name": "Penei Sewell",
+                "number": 58,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DET.pdf"
+            },
+            "corner": {
+                "name": "Brian Branch",
+                "number": 32,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DET.pdf"
             }
         },
         "packers": {
@@ -212,7 +650,14 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 8
+                "index": 8,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 8,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Jordan Love",
@@ -220,7 +665,20 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 9
+                "index": 9,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 12
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-1.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Trey Smack",
@@ -228,7 +686,20 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 10
+                "index": 10,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 13
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-1.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 15,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Xavier McKinney",
@@ -237,6 +708,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 11
+            },
+            "receiver": {
+                "name": "Jayden Reed",
+                "number": 11,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/GB.pdf"
+            },
+            "receiver2": {
+                "name": "Romeo Doubs",
+                "number": 87,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/GB.pdf"
+            },
+            "lineman": {
+                "name": "Elgton Jenkins",
+                "number": 74,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/GB.pdf"
+            },
+            "corner": {
+                "name": "Jaire Alexander",
+                "number": 23,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/GB.pdf"
             }
         },
         "vikings": {
@@ -246,7 +757,14 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 12
+                "index": 12,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Kyler Murray",
@@ -254,7 +772,20 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 13
+                "index": 13,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 14
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-1.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 18,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Will Reichard",
@@ -262,7 +793,20 @@
                 "src": "assets/characters/cast-1.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 14
+                "index": 14,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-0.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 15
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-1.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 21,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Byron Murphy Jr.",
@@ -271,6 +815,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 15
+            },
+            "receiver": {
+                "name": "Jordan Addison",
+                "number": 3,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/MIN.pdf"
+            },
+            "receiver2": {
+                "name": "T.J. Hockenson",
+                "number": 87,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/MIN.pdf"
+            },
+            "lineman": {
+                "name": "Christian Darrisaw",
+                "number": 71,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/MIN.pdf"
+            },
+            "corner": {
+                "name": "Harrison Smith",
+                "number": 22,
+                "src": "assets/characters/roster-1.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/MIN.pdf"
             }
         },
         "falcons": {
@@ -280,7 +864,14 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 0
+                "index": 0,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Michael Penix Jr.",
@@ -288,7 +879,20 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 1
+                "index": 1,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 0
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-2.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Jake Moody",
@@ -296,7 +900,20 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 2
+                "index": 2,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 1
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-2.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 3,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Jessie Bates III",
@@ -305,6 +922,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 3
+            },
+            "receiver": {
+                "name": "Drake London",
+                "number": 5,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/ATL.pdf"
+            },
+            "receiver2": {
+                "name": "Darnell Mooney",
+                "number": 1,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/ATL.pdf"
+            },
+            "lineman": {
+                "name": "Chris Lindstrom",
+                "number": 63,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/ATL.pdf"
+            },
+            "corner": {
+                "name": "A.J. Terrell",
+                "number": 24,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/ATL.pdf"
             }
         },
         "panthers": {
@@ -314,7 +971,14 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 4
+                "index": 4,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 4,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Bryce Young",
@@ -322,7 +986,20 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 5
+                "index": 5,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 2
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-2.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 6,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Ryan Fitzgerald",
@@ -330,7 +1007,20 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 6
+                "index": 6,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 3
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-2.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 9,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Jaycee Horn",
@@ -339,6 +1029,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 7
+            },
+            "receiver": {
+                "name": "Adam Thielen",
+                "number": 19,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CAR.pdf"
+            },
+            "receiver2": {
+                "name": "Xavier Legette",
+                "number": 17,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CAR.pdf"
+            },
+            "lineman": {
+                "name": "Taylor Moton",
+                "number": 72,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CAR.pdf"
+            },
+            "corner": {
+                "name": "Xavier Woods",
+                "number": 25,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CAR.pdf"
             }
         },
         "saints": {
@@ -348,7 +1078,14 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 8
+                "index": 8,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 8,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Tyler Shough",
@@ -356,7 +1093,20 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 9
+                "index": 9,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 4
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-2.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Charlie Smyth",
@@ -364,7 +1114,20 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 10
+                "index": 10,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 5
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-2.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 15,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Demario Davis",
@@ -373,6 +1136,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 11
+            },
+            "receiver": {
+                "name": "Chris Olave",
+                "number": 12,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NO.pdf"
+            },
+            "receiver2": {
+                "name": "Rashid Shaheed",
+                "number": 22,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NO.pdf"
+            },
+            "lineman": {
+                "name": "Erik McCoy",
+                "number": 78,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NO.pdf"
+            },
+            "corner": {
+                "name": "Tyrann Mathieu",
+                "number": 32,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NO.pdf"
             }
         },
         "buccaneers": {
@@ -382,7 +1185,14 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 12
+                "index": 12,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Baker Mayfield",
@@ -390,7 +1200,20 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 13
+                "index": 13,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 6
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-2.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 18,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Chase McLaughlin",
@@ -398,7 +1221,20 @@
                 "src": "assets/characters/cast-2.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 14
+                "index": 14,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 7
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-2.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 21,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Antoine Winfield Jr.",
@@ -407,6 +1243,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 15
+            },
+            "receiver": {
+                "name": "Chris Godwin",
+                "number": 14,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/TB.pdf"
+            },
+            "receiver2": {
+                "name": "Jalen McMillan",
+                "number": 15,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/TB.pdf"
+            },
+            "lineman": {
+                "name": "Tristan Wirfs",
+                "number": 78,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/TB.pdf"
+            },
+            "corner": {
+                "name": "Jamel Dean",
+                "number": 35,
+                "src": "assets/characters/roster-2.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/TB.pdf"
             }
         },
         "cardinals": {
@@ -416,7 +1292,14 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 0
+                "index": 0,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Gardner Minshew II",
@@ -424,7 +1307,20 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 1
+                "index": 1,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 8
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-3.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Chad Ryland",
@@ -432,7 +1328,20 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 2
+                "index": 2,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 9
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-3.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 3,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Budda Baker",
@@ -441,6 +1350,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 3
+            },
+            "receiver": {
+                "name": "Marvin Harrison Jr.",
+                "number": 18,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/ARI.pdf"
+            },
+            "receiver2": {
+                "name": "Trey McBride",
+                "number": 85,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/ARI.pdf"
+            },
+            "lineman": {
+                "name": "Paris Johnson Jr.",
+                "number": 70,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/ARI.pdf"
+            },
+            "corner": {
+                "name": "Garrett Williams",
+                "number": 21,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/ARI.pdf"
             }
         },
         "rams": {
@@ -450,7 +1399,14 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 4
+                "index": 4,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 4,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Matthew Stafford",
@@ -458,7 +1414,20 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 5
+                "index": 5,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 10
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-3.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 6,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Joshua Karty",
@@ -466,7 +1435,20 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 6
+                "index": 6,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 11
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-3.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 9,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Aaron Donald",
@@ -475,6 +1457,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 7
+            },
+            "receiver": {
+                "name": "Cooper Kupp",
+                "number": 10,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LAR.pdf"
+            },
+            "receiver2": {
+                "name": "Demarcus Robinson",
+                "number": 15,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LAR.pdf"
+            },
+            "lineman": {
+                "name": "Rob Havenstein",
+                "number": 79,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LAR.pdf"
+            },
+            "corner": {
+                "name": "Darious Williams",
+                "number": 24,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LAR.pdf"
             }
         },
         "49ers": {
@@ -484,7 +1506,14 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 8
+                "index": 8,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 8,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Brock Purdy",
@@ -492,7 +1521,20 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 9
+                "index": 9,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 12
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-3.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Eddy Pineiro",
@@ -500,7 +1542,20 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 10
+                "index": 10,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 13
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-3.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 15,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Fred Warner",
@@ -509,6 +1564,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 11
+            },
+            "receiver": {
+                "name": "Deebo Samuel",
+                "number": 1,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/SF.pdf"
+            },
+            "receiver2": {
+                "name": "George Kittle",
+                "number": 85,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/SF.pdf"
+            },
+            "lineman": {
+                "name": "Trent Williams",
+                "number": 71,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/SF.pdf"
+            },
+            "corner": {
+                "name": "Deommodore Lenoir",
+                "number": 2,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/SF.pdf"
             }
         },
         "seahawks": {
@@ -518,7 +1613,14 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 12
+                "index": 12,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Sam Darnold",
@@ -526,7 +1628,20 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 13
+                "index": 13,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 14
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-3.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 18,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Jason Myers",
@@ -534,7 +1649,20 @@
                 "src": "assets/characters/cast-3.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 14
+                "index": 14,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-1.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 15
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-3.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 21,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Devon Witherspoon",
@@ -543,6 +1671,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 15
+            },
+            "receiver": {
+                "name": "DK Metcalf",
+                "number": 14,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/SEA.pdf"
+            },
+            "receiver2": {
+                "name": "Tyler Lockett",
+                "number": 16,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/SEA.pdf"
+            },
+            "lineman": {
+                "name": "Charles Cross",
+                "number": 67,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/SEA.pdf"
+            },
+            "corner": {
+                "name": "Devon Witherspoon",
+                "number": 21,
+                "src": "assets/characters/roster-3.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/SEA.pdf"
             }
         },
         "bills": {
@@ -552,7 +1720,14 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 0
+                "index": 0,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-4.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Josh Allen",
@@ -560,7 +1735,20 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 1
+                "index": 1,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 0
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-4.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Tyler Bass",
@@ -568,7 +1756,20 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 2
+                "index": 2,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 1
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-4.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 3,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Ed Oliver",
@@ -577,6 +1778,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 3
+            },
+            "receiver": {
+                "name": "Khalil Shakir",
+                "number": 10,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BUF.pdf"
+            },
+            "receiver2": {
+                "name": "Keon Coleman",
+                "number": 0,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BUF.pdf"
+            },
+            "lineman": {
+                "name": "Dion Dawkins",
+                "number": 73,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BUF.pdf"
+            },
+            "corner": {
+                "name": "Christian Benford",
+                "number": 47,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BUF.pdf"
             }
         },
         "dolphins": {
@@ -586,7 +1827,14 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 4
+                "index": 4,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-4.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 4,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Malik Willis",
@@ -594,7 +1842,20 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 5
+                "index": 5,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 2
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-4.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 6,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Daniel Carlson",
@@ -602,7 +1863,20 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 6
+                "index": 6,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 3
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-4.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 9,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Jordyn Brooks",
@@ -611,6 +1885,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 7
+            },
+            "receiver": {
+                "name": "Jonnu Smith",
+                "number": 9,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/MIA.pdf"
+            },
+            "receiver2": {
+                "name": "Jaylen Waddle",
+                "number": 17,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/MIA.pdf"
+            },
+            "lineman": {
+                "name": "Terron Armstead",
+                "number": 72,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/MIA.pdf"
+            },
+            "corner": {
+                "name": "Jalen Ramsey",
+                "number": 5,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/MIA.pdf"
             }
         },
         "patriots": {
@@ -620,7 +1934,14 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 8
+                "index": 8,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-4.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 8,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Drake Maye",
@@ -628,7 +1949,20 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 9
+                "index": 9,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 4
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-4.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Andy Borregales",
@@ -636,7 +1970,20 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 10
+                "index": 10,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 5
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-4.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 15,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Christian Gonzalez",
@@ -645,6 +1992,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 11
+            },
+            "receiver": {
+                "name": "DeMario Douglas",
+                "number": 3,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NE.pdf"
+            },
+            "receiver2": {
+                "name": "Hunter Henry",
+                "number": 85,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NE.pdf"
+            },
+            "lineman": {
+                "name": "Mike Onwenu",
+                "number": 71,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NE.pdf"
+            },
+            "corner": {
+                "name": "Christian Gonzalez",
+                "number": 0,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NE.pdf"
             }
         },
         "jets": {
@@ -654,7 +2041,14 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 12
+                "index": 12,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-4.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Geno Smith",
@@ -662,7 +2056,20 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 13
+                "index": 13,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 6
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-4.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 18,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Jason Sanders",
@@ -670,7 +2077,20 @@
                 "src": "assets/characters/cast-4.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 14
+                "index": 14,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 7
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-4.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 21,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Sauce Gardner",
@@ -679,6 +2099,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 15
+            },
+            "receiver": {
+                "name": "Garrett Wilson",
+                "number": 5,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NYJ.pdf"
+            },
+            "receiver2": {
+                "name": "Allen Lazard",
+                "number": 10,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NYJ.pdf"
+            },
+            "lineman": {
+                "name": "Alijah Vera-Tucker",
+                "number": 75,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NYJ.pdf"
+            },
+            "corner": {
+                "name": "D.J. Reed",
+                "number": 4,
+                "src": "assets/characters/roster-4.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/NYJ.pdf"
             }
         },
         "ravens": {
@@ -688,7 +2148,14 @@
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 0
+                "index": 0,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-5.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Lamar Jackson",
@@ -696,7 +2163,20 @@
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 1
+                "index": 1,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 8
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-5.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Riley Patterson",
@@ -704,7 +2184,20 @@
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 2
+                "index": 2,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 9
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-5.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 3,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Kyle Hamilton",
@@ -713,16 +2206,63 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 3
+            },
+            "receiver": {
+                "name": "Zay Flowers",
+                "number": 4,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BAL.pdf"
+            },
+            "receiver2": {
+                "name": "Rashod Bateman",
+                "number": 7,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BAL.pdf"
+            },
+            "lineman": {
+                "name": "Ronnie Stanley",
+                "number": 79,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BAL.pdf"
+            },
+            "corner": {
+                "name": "Marlon Humphrey",
+                "number": 44,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BAL.pdf"
             }
         },
         "bengals": {
             "runner": {
-                "name": "Ja’Marr Chase",
+                "name": "Ja\u2019Marr Chase",
                 "number": 1,
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 4
+                "index": 4,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-5.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 4,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Joe Burrow",
@@ -730,7 +2270,20 @@
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 5
+                "index": 5,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 10
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-5.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 6,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Evan McPherson",
@@ -738,7 +2291,20 @@
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 6
+                "index": 6,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 11
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-5.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 9,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Trey Hendrickson",
@@ -747,6 +2313,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 7
+            },
+            "receiver": {
+                "name": "Tee Higgins",
+                "number": 5,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CIN.pdf"
+            },
+            "receiver2": {
+                "name": "Andrei Iosivas",
+                "number": 80,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CIN.pdf"
+            },
+            "lineman": {
+                "name": "Orlando Brown Jr.",
+                "number": 75,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CIN.pdf"
+            },
+            "corner": {
+                "name": "Cam Taylor-Britt",
+                "number": 29,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CIN.pdf"
             }
         },
         "browns": {
@@ -756,7 +2362,14 @@
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 8
+                "index": 8,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-5.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 8,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Shedeur Sanders",
@@ -764,7 +2377,20 @@
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 9
+                "index": 9,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 12
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-5.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Andre Szmyt",
@@ -772,7 +2398,20 @@
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 10
+                "index": 10,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 13
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-5.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 15,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Myles Garrett",
@@ -781,6 +2420,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 11
+            },
+            "receiver": {
+                "name": "Jerry Jeudy",
+                "number": 3,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CLE.pdf"
+            },
+            "receiver2": {
+                "name": "David Njoku",
+                "number": 85,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CLE.pdf"
+            },
+            "lineman": {
+                "name": "Joel Bitonio",
+                "number": 75,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CLE.pdf"
+            },
+            "corner": {
+                "name": "Denzel Ward",
+                "number": 21,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/CLE.pdf"
             }
         },
         "steelers": {
@@ -790,7 +2469,14 @@
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 12
+                "index": 12,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-5.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Aaron Rodgers",
@@ -798,7 +2484,20 @@
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 13
+                "index": 13,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 14
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-5.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 18,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Chris Boswell",
@@ -806,7 +2505,20 @@
                 "src": "assets/characters/cast-5.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 14
+                "index": 14,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-2.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 15
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-5.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 21,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "T.J. Watt",
@@ -815,6 +2527,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 15
+            },
+            "receiver": {
+                "name": "George Pickens",
+                "number": 14,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/PIT.pdf"
+            },
+            "receiver2": {
+                "name": "Pat Freiermuth",
+                "number": 88,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/PIT.pdf"
+            },
+            "lineman": {
+                "name": "Broderick Jones",
+                "number": 77,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/PIT.pdf"
+            },
+            "corner": {
+                "name": "Joey Porter Jr.",
+                "number": 24,
+                "src": "assets/characters/roster-5.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/PIT.pdf"
             }
         },
         "texans": {
@@ -824,7 +2576,14 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 0
+                "index": 0,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-6.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "C.J. Stroud",
@@ -832,7 +2591,20 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 1
+                "index": 1,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 0
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-6.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Ka'imi Fairbairn",
@@ -840,7 +2612,20 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 2
+                "index": 2,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 1
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-6.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 3,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Will Anderson Jr.",
@@ -849,6 +2634,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 3
+            },
+            "receiver": {
+                "name": "Dalton Schultz",
+                "number": 86,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/HOU.pdf"
+            },
+            "receiver2": {
+                "name": "Tank Dell",
+                "number": 3,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/HOU.pdf"
+            },
+            "lineman": {
+                "name": "Laremy Tunsil",
+                "number": 78,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/HOU.pdf"
+            },
+            "corner": {
+                "name": "Derek Stingley Jr.",
+                "number": 24,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/HOU.pdf"
             }
         },
         "colts": {
@@ -858,7 +2683,14 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 4
+                "index": 4,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-6.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 4,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Anthony Richardson Sr.",
@@ -866,7 +2698,20 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 5
+                "index": 5,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 2
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-6.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 6,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Spencer Shrader",
@@ -874,7 +2719,20 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 6
+                "index": 6,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 3
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-6.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 9,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "DeForest Buckner",
@@ -883,6 +2741,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 7
+            },
+            "receiver": {
+                "name": "Michael Pittman Jr.",
+                "number": 11,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/IND.pdf"
+            },
+            "receiver2": {
+                "name": "Alec Pierce",
+                "number": 14,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/IND.pdf"
+            },
+            "lineman": {
+                "name": "Quenton Nelson",
+                "number": 56,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/IND.pdf"
+            },
+            "corner": {
+                "name": "Kenny Moore II",
+                "number": 23,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/IND.pdf"
             }
         },
         "jaguars": {
@@ -892,7 +2790,14 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 8
+                "index": 8,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-6.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 8,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Trevor Lawrence",
@@ -900,7 +2805,20 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 9
+                "index": 9,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 4
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-6.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Cam Little",
@@ -908,7 +2826,20 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 10
+                "index": 10,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 5
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-6.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 15,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Josh Hines-Allen",
@@ -917,6 +2848,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 11
+            },
+            "receiver": {
+                "name": "Brian Thomas Jr.",
+                "number": 7,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/JAX.pdf"
+            },
+            "receiver2": {
+                "name": "Christian Kirk",
+                "number": 13,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/JAX.pdf"
+            },
+            "lineman": {
+                "name": "Walker Little",
+                "number": 72,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/JAX.pdf"
+            },
+            "corner": {
+                "name": "Tyson Campbell",
+                "number": 3,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/JAX.pdf"
             }
         },
         "titans": {
@@ -926,7 +2897,14 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 12
+                "index": 12,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-6.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Cam Ward",
@@ -934,7 +2912,20 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 13
+                "index": 13,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 6
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-6.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 18,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Joey Slye",
@@ -942,7 +2933,20 @@
                 "src": "assets/characters/cast-6.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 14
+                "index": 14,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 7
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-6.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 21,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Jeffery Simmons",
@@ -951,6 +2955,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 15
+            },
+            "receiver": {
+                "name": "Calvin Ridley",
+                "number": 0,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/TEN.pdf"
+            },
+            "receiver2": {
+                "name": "Tyler Boyd",
+                "number": 83,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/TEN.pdf"
+            },
+            "lineman": {
+                "name": "Peter Skoronski",
+                "number": 77,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/TEN.pdf"
+            },
+            "corner": {
+                "name": "L\u2019Jarius Sneed",
+                "number": 38,
+                "src": "assets/characters/roster-6.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/TEN.pdf"
             }
         },
         "broncos": {
@@ -960,7 +3004,14 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 0
+                "index": 0,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-7.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Bo Nix",
@@ -968,7 +3019,20 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 1
+                "index": 1,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 8
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-7.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 0,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Wil Lutz",
@@ -976,7 +3040,20 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 2
+                "index": 2,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 9
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-7.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 3,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Pat Surtain II",
@@ -985,6 +3062,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 3
+            },
+            "receiver": {
+                "name": "Devaughn Vele",
+                "number": 17,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 0,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DEN.pdf"
+            },
+            "receiver2": {
+                "name": "Marvin Mims Jr.",
+                "number": 19,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 1,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DEN.pdf"
+            },
+            "lineman": {
+                "name": "Garett Bolles",
+                "number": 72,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 2,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DEN.pdf"
+            },
+            "corner": {
+                "name": "Patrick Surtain II",
+                "number": 2,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 3,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/DEN.pdf"
             }
         },
         "chiefs": {
@@ -994,7 +3111,14 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 4
+                "index": 4,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-7.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 4,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Patrick Mahomes",
@@ -1002,7 +3126,20 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 5
+                "index": 5,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 10
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-7.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 6,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Harrison Butker",
@@ -1010,7 +3147,20 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 6
+                "index": 6,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 11
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-7.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 9,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Chris Jones",
@@ -1019,6 +3169,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 7
+            },
+            "receiver": {
+                "name": "Rashee Rice",
+                "number": 4,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 4,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/KC.pdf"
+            },
+            "receiver2": {
+                "name": "Xavier Worthy",
+                "number": 1,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 5,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/KC.pdf"
+            },
+            "lineman": {
+                "name": "Creed Humphrey",
+                "number": 52,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 6,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/KC.pdf"
+            },
+            "corner": {
+                "name": "Trent McDuffie",
+                "number": 22,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 7,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/KC.pdf"
             }
         },
         "raiders": {
@@ -1028,7 +3218,14 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 8
+                "index": 8,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-7.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 8,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Fernando Mendoza",
@@ -1036,7 +3233,20 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 9
+                "index": 9,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 12
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-7.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Matt Gay",
@@ -1044,7 +3254,20 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 10
+                "index": 10,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 13
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-7.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 15,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Maxx Crosby",
@@ -1053,6 +3276,46 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 11
+            },
+            "receiver": {
+                "name": "Jakobi Meyers",
+                "number": 16,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 8,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LV.pdf"
+            },
+            "receiver2": {
+                "name": "Brock Bowers",
+                "number": 89,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 9,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LV.pdf"
+            },
+            "lineman": {
+                "name": "Kolton Miller",
+                "number": 74,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 10,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LV.pdf"
+            },
+            "corner": {
+                "name": "Jack Jones",
+                "number": 18,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 11,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LV.pdf"
             }
         },
         "chargers": {
@@ -1062,7 +3325,14 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 12
+                "index": 12,
+                "runCycle": {
+                    "src": "assets/characters/run-cycle-7.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "firstIndex": 12,
+                    "frames": 4
+                }
             },
             "quarterback": {
                 "name": "Justin Herbert",
@@ -1070,7 +3340,20 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 13
+                "index": 13,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 14
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-7.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 18,
+                    "frames": 3
+                }
             },
             "kicker": {
                 "name": "Cameron Dicker",
@@ -1078,7 +3361,20 @@
                 "src": "assets/characters/cast-7.png",
                 "cols": 4,
                 "rows": 4,
-                "index": 14
+                "index": 14,
+                "motionSprite": {
+                    "src": "assets/characters/motion-core-3.png",
+                    "cols": 4,
+                    "rows": 4,
+                    "index": 15
+                },
+                "actionFrames": {
+                    "src": "assets/characters/actions-7.png",
+                    "cols": 6,
+                    "rows": 4,
+                    "firstIndex": 21,
+                    "frames": 3
+                }
             },
             "defender": {
                 "name": "Derwin James Jr.",
@@ -1087,7 +3383,49 @@
                 "cols": 4,
                 "rows": 4,
                 "index": 15
+            },
+            "receiver": {
+                "name": "Quentin Johnston",
+                "number": 1,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 12,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LAC.pdf"
+            },
+            "receiver2": {
+                "name": "Joshua Palmer",
+                "number": 5,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 13,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LAC.pdf"
+            },
+            "lineman": {
+                "name": "Rashawn Slater",
+                "number": 70,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 14,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LAC.pdf"
+            },
+            "corner": {
+                "name": "Asante Samuel Jr.",
+                "number": 26,
+                "src": "assets/characters/roster-7.png",
+                "cols": 4,
+                "rows": 4,
+                "index": 15,
+                "season": 2024,
+                "source": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/LAC.pdf"
             }
         }
-    }
+    },
+    "expandedSeason": 2024,
+    "animation": "Complete-body action frames in scripts/player-motion.js; original card art retained."
 }

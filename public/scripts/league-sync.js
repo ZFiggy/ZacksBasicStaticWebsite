@@ -29,7 +29,7 @@ if (api && api.storage.getItem('leagueJoined') === '1') {
                 const existing = await transaction.get(ref);
                 if (!existing.exists()) return;
                 const previous = existing.data(), records = {}, scores = {};
-                for (const game of api.games) {
+                for (const game of api.recordGames) {
                     const raw = Number(api.storage.getItem(game.key));
                     const value = Number.isSafeInteger(raw) && raw >= 0 ? Math.min(1000000,raw) : 0;
                     records[game.id] = Math.max(value,previous.records[game.id]);
@@ -37,7 +37,7 @@ if (api && api.storage.getItem('leagueJoined') === '1') {
                 }
                 const rawClicks = Number(api.storage.getItem('clickCount'));
                 const clicks = Math.max(Number.isSafeInteger(rawClicks) && rawClicks >= 0 ? rawClicks : 0,previous.clicks);
-                if (clicks === previous.clicks && nickname === previous.nickname && api.games.every(game => records[game.id] === previous.records[game.id])) return;
+                if (clicks === previous.clicks && nickname === previous.nickname && api.recordGames.every(game => records[game.id] === previous.records[game.id])) return;
                 transaction.set(ref,{uid,teamId,nickname,records,scores,points:Object.values(scores).reduce((sum,value)=>sum+value,0),clicks,updatedAt:store.serverTimestamp()});
             });
             const notice = document.getElementById('team-sync-status');

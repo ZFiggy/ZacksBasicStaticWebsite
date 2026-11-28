@@ -1,6 +1,6 @@
 # Sunday Arcade
 
-A buildless, unofficial NFL fan arcade: 32 teams, ten game types, team selection, local records, and optional shared fan/team leaderboards. Deployable files live in `public/`; the optional Firebase aggregation backend lives in `functions/`.
+A buildless, unofficial NFL fan arcade: 32 teams, nine game types, team selection, local records, and optional shared fan/team leaderboards. Deployable files live in `public/`; the optional Firebase aggregation backend lives in `functions/`.
 
 ## Quick start
 
@@ -17,7 +17,7 @@ Local refresh checkpoint: **November 22, 2026**. The character/crowd refresh was
 - Front photos use equal landscape frames, clean source selections, and credits outside the home hero image. Bears and Broncos selections were replaced to avoid visible source marks.
 - Non-Eagles search follows one named player in five real team crowd photographs. The current revision uses AI edits to integrate the player naturally into the selected real crowd photographs, following the original Eagles look. All 31 non-Eagles teams use five visually reviewed AI-integrated edits each (155 rounds). The original Eagles Jalen scenes are preserved. Every replacement player joined the featured team in 2015 or later. These are fictional appearances, disclosed beside each photo with crowd and portrait source links. Face references, clues, up to 6× zoom, keyboard controls, saving, and replay remain available.
 - Preserve the original Eagles Jalen search and Flappy Bird gameplay/art unless requested otherwise. Eagles search still uses `search-level-1-v2.jpg` through `search-level-5-v2.jpg`; its target rectangles live in `jalen.js`. Eagles flight still uses `barkley-flight.png`.
-- The other eight game types use illustrated runner, quarterback, kicker, and defender roles, team settings, and gameplay variants. Shared engines remain, but team identity should extend beyond names and color swaps.
+- The other seven game types use illustrated runner, quarterback, kicker, and defender roles, team settings, and gameplay variants. Shared engines remain, but team identity should extend beyond names and color swaps.
 - Light/dark themes, touch/keyboard controls, reduced-motion support, local records, badges, and team switching are supported. The scoreboard's `.team-leaderboard-link` panel has its own dark-theme styling in `teams.css`.
 
 ## Source map
@@ -33,16 +33,41 @@ Paths below are relative to `public/` unless prefixed with `tools/`, `tests/`, o
 | Game viewport sizing and instructions | `game-screen.css`, `scripts/game-screen.js` |
 | Names, cards, photo credits, image drawing | `scripts/game-personality.js` |
 | Team gameplay rules | `scripts/team-rules.js` |
-| Four character roles and illustrated settings | `scripts/character-art.js`; canvas scenery: `scripts/team-art.js` |
-| Field run / flight / field goals | `game.html` + `scripts/game.js`; `barkley.html` + `scripts/barkley.js`; `kick.html` + `scripts/kick.js` |
+| Featured character art and illustrated settings | `scripts/character-art.js`; canvas scenery: `scripts/team-art.js` |
+| Animated football roster | `scripts/player-roster.js` + `scripts/player-motion.js`: named real-player supporting cast and animated featured runners, quarterbacks, and kickers; loaded only by the three football games |
+| Touchdown Rush / flight / field goals | `game.html` + `scripts/game.js`; `barkley.html` + `scripts/barkley.js`; `kick.html` + `scripts/kick.js` |
 | Crowd search | `jalen.html`, `scripts/jalen.js`, `scripts/photo-scenes.js` |
-| Six playbook games | `playbook.html`, `scripts/playbook.js`, `scripts/playbook-data.js` |
+| Five playbook games | `playbook.html`, `scripts/playbook.js`, `scripts/playbook-data.js` |
 | Records, badges, continue links | `scripts/arcade.js` |
 | Click scoreboard / visit counter | `counter.html`, `scripts/counter.js`, `scripts/main.js` |
 | Fan/team rankings and opt-in publishing | `leaders.html`, `scripts/league-board.js`, `scripts/league-sync.js` |
 | Backend validation and totals | `firestore.rules`, `firestore.indexes.json`, `functions/index.js`, `functions/aggregate.js` |
 
 Initialization order matters: team core → generated data → game-personality → rules → character art where used → page UI/engine → game-screen layout. Check the affected HTML before moving scripts.
+
+## Touchdown Rush
+
+`game.html` combines the old Field Run and Blitz Escape into a horizontal football chase. The field uses the page width; phones have a larger, horizontally scrolling view that follows the runner, plus a Full field overview toggle. Drag to scout ahead. Hold arrows/WASD or the touch buttons to run, Space/Wait spends one turn, and P pauses. Collect the football before entering the right end zone. Stationary rivals block tiles. Moving defenders chase the runner’s new position along shortest paths around those blockers, with a second move on burst turns. Friendly teammates prevent chasers entering their tile and its four orthogonal neighbors. The outlined green tiles mark that protection explicitly; diagonals are excluded. A tackle requires exact tile contact, either by stepping onto a chaser or being reached during its response. Adjacent tiles do not cause tackles. Standing rivals use a square marker and only block movement; pursuing rivals use an exclamation marker. Every immediate move and Wait has a prediction computed by the same `step` simulation: SAFE, SHIELDED, TACKLE, BLOCKED, SCORE, or NO STEPS. Field destination markers and an explicit two-move burst banner mirror those predictions. SAFE describes the next turn only. Turnover messages distinguish contact, chase/burst contact, and possession lost when the step allowance expires.
+
+`public/scripts/touchdown-rules.js` owns generation, the chase simulation, and A* route verification. Search tracks position, possession, every defender’s position, and burst cadence, with an admissible distance estimate so the verified route provides a shortest-route star target. Generation uses bounded retries and a verified fallback. Each accepted field has a complete legal winning route and a small step allowance beyond it. Difficulty increases through more blockers, more pursuing defenders, more frequent bursts, and less spare allowance, reaching expert pressure at level 12. Coach hint searches from the actual current state within the remaining allowance. A poor route can still lose; a bounded hint search can also fail to find a route. Retry reproduces the same seed.
+
+Each unused step earns 100 bonus points on top of 600 touchdown points. Matching the shortest route earns three stars, finishing within two additional steps earns two, and other legal touchdowns earn one. Every coach hint costs 250 points and caps the award at one star. The scoreboard shows the shrinking step bonus and best drive score. Losing triggers a strip/recovery and animated rival return around the blockers to the left end zone. The runner falls, the defender carries the ball, and the game announces the defensive touchdown before offering a retry. Skip return and Retry field interrupt safely; reduced-motion mode uses short held poses instead of a moving return.
+
+Team-scoped `touchdownRushProgress` saves level/seed, `touchdownRushBest` saves the highest level cleared, `touchdownRushPointsBest` saves the best drive points, and each touchdown increments the existing `fieldRunWins` record. Completing a level saves the next round immediately to prevent duplicate wins on reload. Old `playbook.html?game=blitz` links redirect to this game with team selection retained. The lobby has nine games; Passing Drive now occupies the Pocket Read slot; the other four playbook games are unchanged. Historical Blitz records remain in the ten-field leaderboard transport schema to preserve existing deployed Firestore compatibility and previously earned points; the retired game is not offered in the lobby or filters.
+
+## Passing Drive
+
+`playbook.html?game=pocket` now combines Pocket Read's quarterback decisions, Route Recall's route concepts, and live defensive pursuit. Call Slants, Flood, or Cross; snap with Space, move the quarterback with arrows/WASD or held touch buttons, and throw with 1–3 or by tapping a receiver. Bullet passes are fast and vulnerable to underneath coverage; lobs clear underneath defenders but give coverage time to close. The user controls the receiver after a catch. Each down chooses a seeded defensive look: press man, off man, Cover 2, Cover 3, man blitz, or robber. Front width, defender cushion, safety depth, and the number of rushers vary. Two blockers can delay two rushers for 2.4 seconds; overloads can leave a third rusher free. Zone defenders guard space; split safeties track their own halves. Each route concept varies depth, width, release spacing, and direction. Audibles preserve the defensive look and the underlying variation for that down. The quarterback stays behind the line of scrimmage while passing. Q / Tuck & run switches to a quarterback scramble and closes passing for that snap. T / Throw away consumes a down without losing yards. Hold Shift / Sprint while moving for a 26% speed burst. Each play has about 1.8 seconds of total burst, with no recovery until the next down. The visible energy bar shows the remaining budget. Receivers jog at 6.5 yards/second, quarterbacks at 5.4, and pursuit closes at 7.15. A receiver burst can briefly create separation; a quarterback cannot outrun pursuit in the open field. P pauses; hiding or leaving the tab pauses the play.
+
+Three possessions start at the own 25. Four downs gain ten yards, first downs reset the series, and touchdowns score six points. Sacks lose field position; incompletions consume a down; interceptions, safeties, and failed fourth downs end a possession. Unfinished drives save between plays in team-scoped `passingDrive-v1`; an interrupted live snap restarts from its previous checkpoint. `passingPointsBest` stores the best points total, while `playbook-pocket-best` retains completion records and existing leaderboard/badge compatibility, including historical Pocket Read records. The arcade remains at nine games.
+
+Passing Drive uses a full-width field with controls in a separate right-hand console on wide screens. At tablet and phone widths, controls stack beneath the field. The canvas no longer shrinks to a viewport-height formula. Field Goals groups wind, aim, and trajectory above the meter and primary kick button; Pause, New round, and Demo share a secondary row below the distance-labeled kick history. Each five-kick round assigns left, middle, and right hash situations, with a visible change on every attempt. Hash positions are fixed for the attempt. The formation shifts vertically, and the setup panel names the assigned hash. Kicker/holder labels and a team-color field key explain the formation; protection buttons identify the far, middle, and near lanes. Off-center kicks require aim compensation; shorter kicks have sharper hash angles, while long kicks have smaller angular openings. The geometry uses the NFL 18-foot-6-inch hash spacing and upright width, with clearance for the ball. Aim for wind & hash suggests compensation for the selected arc. The live range estimate distinguishes short power from enough distance, and the single power meter shows enough range for the current arc and air conditions. After power is locked, steer the white aiming dot horizontally with Left/Right, A/D, or held touch buttons and release while it is in the green zone above the posts; there is no accuracy timing bar. Pause freezes the meter and rush without using a kick. On phones the setup hides during active kicks, and the field scrolls into view so the release controls fit beside the action. Its fixed camera and uprights make the 25/33/40/47/55-yard progression visible: the kicker, ball, and both lines move back together, with distance shown in the console. Manual aim adjustment expands on demand. Passing Drive participates in the shared device-pixel-density canvas sizing so the larger field and character art render sharply on high-density displays.
+
+Passing Drive uses the shared five-step animated demo in `scripts/game-demo.js`. The first gameplay input offers Show demo / Skip demo; `How to play · Demo` reopens it. The browser-wide `sundayArcade.demo.passing-drive` choice is independent of rushing and kicking demos and persists across team changes. Replaying during a live snap pauses the passing game; close the demo and choose Resume to continue. Demo animations do not spend attempts or change scores, and reduced-motion preferences start the walkthrough paused.
+
+`scripts/passing-rules.js` owns DOM-independent drive transitions; `scripts/passing.js` owns the real-time game, controls, and canvas. Every completed play emits `football:play-result` with the before/after drive state and the play result. These are foundations for a later combined run/pass/kick game; the three games do not yet share a live drive or transfer possessions between pages. Existing rushing and kicking engines remain independent.
+
+The three football games use `scripts/player-motion.js` for named team receivers, linemen, holders, cornerbacks, safeties, and rushers. Eight new `roster-0.png` through `roster-7.png` atlases add 128 illustrated supporting sprites based on real 2024 team players, with names, jersey numbers, and roster sources in `assets/characters/expanded-roster.json`. This is a season-based supporting cast alongside the established featured stars, not a live roster service. After updating the authoritative roster JSON, run `node tools/build-player-roster.mjs`; `--check` verifies that browser identities match it. Four `motion-core-0.png` through `motion-core-3.png` atlases add 64 standing quarterback/kicker sprites. Their card art remains unchanged. Eight six-column `actions-*.png` atlases supply 192 drawn quarterback windup/release/follow-through and kicker backswing/contact/follow-through frames. Eight `run-cycle-*.png` atlases supply 128 four-frame featured-player run poses. The renderer draws complete bodies and uses one shared crop per animation group to keep head size and planted feet stable. Supporting players retain their own complete art with subtle footwork. Passing includes a windup before ball release; kicking shows an approach, plant, strike, and follow-through before flight. Running, blocking, throwing, catching, and kicking use separate poses; reduced-motion mode suppresses gait motion. Live status has dedicated space adjacent to the field so it does not cover players. Passing routes remain visible during the read, with an explicit play-result panel after the whistle; rushing adds a short touchdown confetti animation.
 
 ## Artwork and data precedence
 
@@ -88,7 +113,7 @@ Each game contributes `min(100, floor(rawRecord * 100 / target))` arcade points,
 
 | Game ID | Engine / full-point target |
 | --- | --- |
-| `game` | Field run: 5 clears |
+| `game` | Touchdown Rush: 5 touchdowns (legacy `fieldRunWins` key retained) |
 | `bird` | Flight: 20 gaps |
 | `search` | Consistent-person crowd search: 5 scenes |
 | `kick` | Field goals: 15 points |
@@ -96,10 +121,12 @@ Each game contributes `min(100, floor(rawRecord * 100 / target))` arcade points,
 | `shove` | Goal-line push: 5 touchdowns |
 | `recall` | Route memory: 8 rounds |
 | `punt` | Punting: 500 points |
-| `blitz` | Turn-based escape: 3 fields |
+| `blitz` (retired) | Saved historical Blitz Escape records remain in ranking payloads; no separate playable game |
 | `signal` | Cipher: 1 call cracked |
 
-Rules vary by team: return carries, ordered pickups, patrols or slippery turf; gust/approach variants; pump fakes, deep reads or called receivers; power/moving snap windows; reverse/mirror/rotation/pair audibles; punt surface/air effects; blitz keys/transformed fields; and distinct/repeating/six-choice ciphers. Treat `team-rules.js` plus the engine as authoritative, rather than assuming every team shares identical rules.
+Touchdown Rush replaces Field Run and Blitz Escape for all teams. Other rules vary by team: gust/approach variants; pump fakes, deep reads or called receivers; power/moving snap windows; reverse/mirror/rotation/pair audibles; punt surface/air effects; and distinct/repeating/six-choice ciphers. Treat `team-rules.js` plus the engine as authoritative, rather than assuming every team shares identical rules.
+
+Field Goals now uses a different division rival from Touchdown Rush for each team. Set aim and choose Drive, Balanced, or High arc before snapping; read and protect the announced rushing lane, lock power, then steer and release before the defensive rush arrives. Five attempts grow from 25 to 55 yards, with shifting crosswinds, headwinds/tailwinds, and changing rush lanes. Matching protection buys 0.75 seconds; the release countdown includes the 820ms kick windup. Higher arcs improve block clearance but reduce distance, and wind affects high arcs more. Three points per make and the existing team-scoped best out of 15 remain compatible with rankings. Physics and rival selection live in `public/scripts/kick-rules.js`; rendering and controls live in `kick.js` and `kick.css`.
 
 ## Verification
 
@@ -112,11 +139,19 @@ Browser scripts require a static server on **8000**, dedicated Chrome with DevTo
 ```
 
 ```sh
+node tests/passing-rules.mjs
+node tests/passing-browser.mjs
+node tests/football-refinements-browser.mjs
+node tests/roster-gameplay-browser.mjs
+node tests/kick-rules.mjs
+node tests/kick-browser.mjs
+node tests/touchdown-rules.mjs
+node tests/touchdown-browser.mjs
 node tests/team-identity-browser.mjs
 node tests/photographic-search-browser.mjs
 ```
 
-The current regression checks all homes, 160 search rounds, consistent identities, character loading, team mechanics, solvable blitz fields, cipher feedback, photo sizing, responsive layouts, and dark mode. `--search-only` checks homes/search. Older `personality-browser.mjs`, `game-screen-browser.mjs`, `visual-regressions-browser.mjs`, and `nfl-browser.mjs` may contain assertions about superseded artwork/modes; inspect those assertions before interpreting failures.
+The current regression checks all homes, 160 search rounds, consistent identities, character loading, team mechanics, Touchdown Rush scoring, cipher feedback, photo sizing, responsive layouts, and dark mode. `--search-only` checks homes/search. Older `personality-browser.mjs`, `game-screen-browser.mjs`, `visual-regressions-browser.mjs`, and `nfl-browser.mjs` may contain assertions about superseded artwork/modes; inspect those assertions before interpreting failures.
 
 Visually review new photo targets against the final pictures: tests clicking metadata coordinates cannot establish that the right face is there or that the hunt is hard. Check new character sheets for real alpha transparency, correct role cells, readable size, and label overlap. Last local character validation found transparent corners and substantial empty alpha in all eight sheets.
 
@@ -153,3 +188,31 @@ Deployment of hosting, rules, indexes, functions, or billing changes is a separa
 ## Credential safeguards
 
 Follow `AGENTS.md`: agents must not read or load real `.env` / `.env.*` credential files, including root `.env.local`. Keep them outside `public/`, ignored, and owner-only (`0600`). Sanitized example/sample files are the exception. No credentials belong in tracked files or browser assets. The existing restricted Firebase browser key is intentionally public; this exception does not extend to other keys. Keep `.githooks` enabled and do not broaden secret-scanner exceptions.
+
+### Current passing and kicking rosters
+
+`node tools/update-rosters.mjs` fetches public ESPN active rosters and depth charts for all 32 teams, validates position pools and jersey numbers, and updates `public/assets/characters/current-rosters.json` and its browser companion `scripts/current-rosters.js`. `node tools/update-rosters.mjs --check` validates the saved snapshot without network access. No API key or frontend network fetch is needed. `--in-season` skips March–July.
+
+Passing Drive and Field Goals use these snapshots for jersey numbers, names, and distinct on-field assignments. Players on injured reserve, suspended lists, or practice squads are excluded. Depth-chart ordering takes priority when supplied; missing slots use roster ordering, with WRs preferred for routes. This is a weekly roster snapshot, not a live game-day availability report. `tools/roster-role-overrides.json` records sourced, reviewed role preferences; preferences apply only while the player remains active and position-eligible. Holders default to the team's punter; the Eagles' Braden Mann assignment is checked against their official depth chart. Other teams' holder assignments are inferred, not individually confirmed.
+
+`.github/workflows/weekly-rosters.yml` proposes a roster update pull request every Tuesday from August through February, and can be run manually in GitHub Actions. It becomes available after these files are pushed to the default branch. The repository must permit Actions to create pull requests. It does not merge or deploy updates; the published site changes only through the usual separately authorized release. A failed fetch or incomplete team leaves the previous snapshot intact.
+
+Passing and kicking now render jointed canvas athletes in `scripts/football-players.js`, with connected limbs, readable current numbers, and separate throw, catch, interception, contact, blocking, holder, jumping, and kick poses. The original Eagles search and Flappy artwork are unchanged. Eagles end-zone logo source: https://a.espncdn.com/i/teamlogos/nfl/500/phi.png (ESPN team logo; Philadelphia Eagles trademark, unofficial fan use).
+
+### Individualized football sprites
+
+Passing Drive and Field Goals use illustrated player-specific heads on one shared canvas skeleton. Faces, hair, headbands, and facial hair are generated from the credited player portraits in `tools/player-likenesses/queue.json`. All 544 current on-field identities (17 per team) have separate artwork, indexed by stable roster ID. The jersey retains its current number. Passing receivers carry color-matched 1–3 key badges that follow their routes and can be tapped to throw; completion and interception messages identify the catcher by name and jersey number. Other floating names and position labels are omitted. Height and weight affect body proportions, with smaller portrait heads, padded silhouettes, and wrist-tape variations. A shared articulated rig keeps arm and leg lengths fixed. Running steps advance with distance traveled, route corners are rounded, and receivers keep striding as they gather the catch. Paired linemen share a contact plane and sustain hand/weight shifts until a rusher sheds the block. Kicking uses a snap/reception, placement, approach, plant, strike at 820ms, follow-through, and landing sequence. Supporting players continue animating throughout flight, and ball contact uses the same foot/hand geometry as the drawn athletes. Shared end-zone painting lives in `scripts/football-field.js`.
+
+Original generated head atlases are in `public/assets/characters/likenesses/heads-00.png` through `heads-15.png`. `manifest.json` stores source rectangles, sampled skin colors, and portrait credits. `tools/player-likenesses/generation.json` records the built-in image-generation prompt and reference order. Atlas indexing reads and validates alpha transparency without repainting the artwork. Re-downloadable portrait references and reference contact sheets are ignored by Git; source URLs, preparation code, prompts, queue, and final game artwork are retained.
+
+Run `node tools/check-player-likenesses.mjs` to verify that every on-field roster slot has the correct individualized asset and that browser metadata agrees with the source manifest. Weekly roster checks now include this gate: trades involving an already illustrated player keep that player's face, but a newly featured player requires reviewed cartoon art before the roster update passes. No other player's face is substituted. To prepare references for a new roster, use `node tools/prepare-player-likenesses.mjs`; it writes missing identities to `tools/player-likenesses/pending-queue.json` and preserves the accepted queue. Pass `pending-queue.json` to `prepare-references.py` to create new reference sheets. Append new reviewed artwork and manifest entries rather than overwriting accepted faces or IDs. The manifest indexing helper uses Python with Pillow, NumPy, and OpenCV; this is artwork tooling only, with no frontend dependency or build step.
+
+`node tests/football-animation-browser.mjs` checks all 544 loaded likenesses, unique identities, quarterback jersey rendering, paired tackles, interception possession, finite end zones, kick contact, and defensive block contact. It uses the same preview and Chrome prerequisites as the other browser tests.
+
+`node tests/football-motion-browser.mjs` checks constant limb lengths across interpolated poses, receiver badge tracking and targeting, named catches and interceptions, paired protection, pause, moving kick support, and rendered foot/ball and block contact. It saves pose and gameplay sequence sheets under `/private/tmp/football-*.png` for visual review, using the same preview and Chrome prerequisites.
+
+The shared end-zone renderer now uses locally cached team logos and actual wordmark silhouettes for the other 31 teams, with team-specific paint families and Bengals stripe patterns. The accepted Eagles treatment is preserved. These are representative home-field-inspired designs, not exact season-by-season stadium replicas. Artwork provenance is recorded in `public/assets/field-branding/credits.json`; `node tools/prepare-field-branding.mjs` refreshes the assets from ESPN and the [nflverse wordmark archive](https://github.com/nflverse/nflverse-pbp/tree/master/wordmarks). Paint references include the [Bengals' field description](https://www.bengals.com/news/bengals-fashion-change-727230), [49ers red end-zone photos](https://www.49ers.com/photos/gameday-ready-49ers-red-end-zones-are-back-divisional-playoffs-san-francisco-levis-stadium), and [Steelers gold end zones](https://www.steelers.com/news/steelers-to-wear-color-rush-uniforms-vs-ne).
+
+Animation mechanics use a consistent throwing arm and the opposite lead foot, with a planted lead foot and weight transfer through release. Kicking uses one striking leg through backswing, contact and recovery, with the opposite foot planted through contact. The renderer tapers muscle and fabric shapes around fixed joints instead of outlining each bone as a pipe. Mechanics references: [USA Football footwork and weight transfer](https://blogs.usafootball.com/blog/1283/U.S.%20National%20Team%20Regionals%3A%20The%20Journey%20to%20International%20Bowl%202019), [USA Football follow-through](https://blogs.usafootball.com/blog/5528/how-to-frame-your-quarterback-for-success), and [Northwestern's field-goal technique](https://www.northwestern.edu/magazine/fall2015/campuslife/how-to-kick-a-field-goal.html). The motion browser check verifies the planted feet, same-leg kick, live steering, pause, all field-branding assets, and produces a 32-team end-zone review sheet.
+
+Running arm poses keep elbows below the shoulders and preserve a relaxed bend through each stride. Sleeves overlap the torso, and continuous shading across limb segments softens shoulder, elbow, and knee joins. The motion browser check also verifies arm continuity across a full stride at several movement speeds.

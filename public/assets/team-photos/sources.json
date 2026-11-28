@@ -1,5 +1,30 @@
 [
     {
+        "teamId": "eagles",
+        "hero": {
+            "src": "assets/hurts.jpg",
+            "sourcePage": "https://www.philadelphiaeagles.com/photos/commanders-vs-eagles-gameday-photo-gallery-september-13-2026-nfl-week-1",
+            "credit": "Philadelphia Eagles / official team photography",
+            "alt": "Jalen Hurts in a midnight-green Eagles jersey"
+        },
+        "selection": {
+            "src": "assets/hurts.jpg",
+            "sourcePage": "https://www.philadelphiaeagles.com/photos/commanders-vs-eagles-gameday-photo-gallery-september-13-2026-nfl-week-1",
+            "credit": "Philadelphia Eagles / official team photography",
+            "alt": "Jalen Hurts in a midnight-green Eagles jersey"
+        },
+        "scoreboard": {
+            "src": "assets/team-photos/eagles-scoreboard.jpg",
+            "url": "https://static.clubs.nfl.com/image/private/f_jpg,q_90/eagles/vwmupqolrvb0hfyco8p3.jpg",
+            "sourcePage": "https://www.philadelphiaeagles.com/photos/eagles-lincoln-financial-field-20th-anniversary-photo-gallery",
+            "credit": "Kiel Leggere / Philadelphia Eagles",
+            "alt": "Boston Scott carrying the ball into the end zone at Lincoln Financial Field during the January 29, 2023 NFC Championship",
+            "objectPosition": "center 40%",
+            "width": 2560,
+            "height": 1440
+        }
+    },
+    {
         "teamId": "cowboys",
         "hero": {
             "src": "assets/team-photos/cowboys/photo-15.jpg",

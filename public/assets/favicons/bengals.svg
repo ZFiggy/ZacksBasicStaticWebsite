@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 76">
+    <defs>
+        <linearGradient id="leather" x1="0" y1="0" x2="0.25" y2="1">
+            <stop stop-color="#be6d40"/>
+            <stop offset=".45" stop-color="#a83c00"/>
+            <stop offset="1" stop-color="#7e2d00"/>
+        </linearGradient>
+    </defs>
+    <g stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 38C16 17 36 6 60 6S104 17 116 38C104 59 84 70 60 70S16 59 4 38Z" fill="url(#leather)" stroke="#5c2100" stroke-width="2"/>
+        <path d="M13 35C29 17 44 12 60 12S91 17 107 35" fill="none" stroke="#e1bba6" stroke-opacity=".6" stroke-width="1.5"/>
+        <path d="M7 39Q60 62 113 39" fill="none" stroke="#6d2700" stroke-opacity=".65" stroke-width="1.5"/>
+        <path d="M38 36H82" fill="none" stroke="#652400" stroke-width="6"/>
+        <path d="M39 35H81M44 29V42M52 28V43M60 28V43M68 28V43M76 29V42" fill="none" stroke="#ffffff" stroke-width="3"/>
+    </g>
+</svg>

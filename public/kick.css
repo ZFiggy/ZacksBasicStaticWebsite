@@ -1,0 +1,215 @@
+.kick-readouts, .kick-meter-heading { display: flex; justify-content: space-between; gap: 8px; font-size: 0.875rem; }
+.kick-readouts { padding: 6px 0; }
+.kick-setup { border: 0; padding: 4px 0; margin: 0; min-width: 0; }
+.kick-setup legend { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.kick-setup label { display: flex; justify-content: space-between; font-size: 0.875rem; }
+.kick-setup input { display: block; width: 100%; margin: 0; height: 30px; accent-color: var(--club-primary); cursor: pointer; }
+.kick-lofts { display: flex; gap: 6px; margin-bottom: 8px; }
+.kick-lofts button { flex: 1; min-height: 44px; padding: 5px; border: 1px solid var(--club-muted, #729b9d); border-radius: 6px; background: var(--club-panel, #092c34); color: var(--club-soft, #fff); font: inherit; font-size: 0.875rem; cursor: pointer; }
+.kick-lofts small { display: block; font-size: 0.75rem; }
+.kick-lofts button[aria-pressed='true'] { outline: 2px solid var(--club-accent, #ffe699); outline-offset: -2px; background: var(--club-primary, #004c54); color: #fff; }
+.kick-lofts button:disabled { cursor: default; opacity: 0.65; }
+.kick-history { display: flex; justify-content: center; gap: 12px; padding: 0; margin: 5px 0; list-style: none; }
+.kick-history li { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--club-panel, #092c34); color: var(--club-soft, #fff); font-weight: 800; }
+.kick-history li[data-result='good'] { background: #145334; color: #c6ffda; }
+.kick-history li:not([data-result='pending']):not([data-result='good']) { background: #733332; color: #fff; }
+.game-page.nfl-page.kick-page .field-panel { max-width: 560px; }
+.game-page.nfl-page.kick-page .game-surface { min-height: 160px; }
+@media (max-height: 780px) and (min-width: 601px) {
+    .game-page.nfl-page.kick-page .site-shell { min-height: 740px; height: auto; }
+    .game-page.nfl-page.kick-page .field-panel { min-height: 590px; }
+}
+@media (max-width: 600px) {
+    .game-page.nfl-page.kick-page .site-shell { height: auto; min-height: 100dvh; }
+    .game-page.nfl-page.kick-page .game-layout { display: flex; flex-direction: column; }
+    .game-page.nfl-page.kick-page .game-story { display: contents; }
+    .game-page.nfl-page.kick-page .game-intro { display: none; }
+    .game-page.nfl-page.kick-page .game-dashboard { order: 2; }
+    .game-page.nfl-page.kick-page .game-instructions { order: 3; }
+    .game-page.nfl-page.kick-page .field-panel { min-height: 650px; width: 100%; max-width: none; box-sizing: border-box; }
+    .game-page.nfl-page.kick-page .game-surface { flex: 1 0 290px; }
+}
+@media (max-width: 600px) {
+    .game-page.nfl-page.kick-page .game-dashboard { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; order: -1; }
+    .game-page.nfl-page.kick-page #kick-matchup { grid-column: 1; grid-row: 1; margin: 0; font-size: 0.8125rem; }
+    .game-page.nfl-page.kick-page .game-score { grid-column: 2; grid-row: 1; display: flex; }
+    .game-page.nfl-page.kick-page .personal-best { grid-column: 1; grid-row: 2; }
+    .game-page.nfl-page.kick-page .game-status { grid-column: 1 / -1; grid-row: 3; }
+    .game-page.nfl-page.kick-page .field-panel { min-height: 590px; }
+    .game-page.nfl-page.kick-page .game-surface { flex-basis: 230px; }
+}
+
+/* A horizontal field with a separate console keeps the arena large. */
+.game-page.nfl-page.kick-page .site-shell { width: 100%; max-width: none; height: auto; min-height: 100dvh; padding-inline: clamp(8px, 1vw, 20px); display: flex; flex-direction: column; }
+.game-page.nfl-page.kick-page .game-layout { display: flex; flex-direction: column; gap: 10px; padding-block: 8px; }
+.game-page.nfl-page.kick-page .game-story { display: flex; flex-direction: row; max-width: none; justify-content: space-between; align-items: center; gap: 16px; }
+.game-page.nfl-page.kick-page .game-intro { display: block; }
+.game-page.nfl-page.kick-page .game-intro h1 { font-size: clamp(1.5rem, 2vw, 2rem); margin: 0; }
+.game-page.nfl-page.kick-page .game-intro h1 br { display: none; }
+.game-page.nfl-page.kick-page .game-intro > p, .game-page.nfl-page.kick-page .game-instructions { display: none; }
+.game-page.nfl-page.kick-page .game-dashboard { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; }
+.game-page.nfl-page.kick-page .game-score { margin: 0; border: 0; padding: 0; gap: 10px; }
+.game-page.nfl-page.kick-page .game-status { flex-basis: 100%; order: 2; margin: 0; min-height: 0; }
+.game-page.nfl-page.kick-page #kick-matchup { margin: 0; }
+.game-page.nfl-page.kick-page .field-panel { display: grid; grid-template-columns: minmax(0, 1fr) 280px; grid-template-rows: auto auto minmax(0, 1fr); gap: 8px 16px; max-width: none; width: 100%; min-height: 0; box-sizing: border-box; }
+.game-page.nfl-page.kick-page .team-rule-banner, .game-page.nfl-page.kick-page .field-heading { grid-column: 1 / -1; }
+.game-page.nfl-page.kick-page .game-surface { grid-column: 1; grid-row: 3; display: block; min-height: 0; }
+.game-page.nfl-page.kick-page .game-surface #kickCanvas { width: 100% !important; height: auto !important; aspect-ratio: 1064 / 552; }
+.kick-console { grid-column: 2; grid-row: 3; display: flex; flex-direction: column; justify-content: center; min-width: 0; }
+.game-page.nfl-page.kick-page .site-footer { margin-top: auto; }
+@media (max-width: 900px) {
+    .game-page.nfl-page.kick-page .game-story { flex-direction: column; align-items: stretch; }
+    .game-page.nfl-page.kick-page .field-panel { grid-template-columns: minmax(0, 1fr); }
+    .kick-console { grid-column: 1; grid-row: 4; }
+    .game-page.nfl-page.kick-page .game-dashboard { order: 0; }
+}
+
+/* Keep setup, the active kick action, and secondary actions in distinct groups. */
+.game-page.nfl-page.kick-page .field-panel { grid-template-columns: minmax(0, 1fr) 300px; align-items: start; }
+.kick-console { padding: 16px; gap: 14px; background: #10252c; border: 1px solid #ffffff24; border-radius: 12px; color: #f0f7f4; }
+.kick-readouts { padding: 0 0 12px; align-items: center; border-bottom: 1px solid #ffffff24; }
+.kick-readouts strong { color: #ffdb64; font-size: 1rem; }
+.kick-setup { padding: 0; }
+.kick-setup legend { position: static; width: auto; height: auto; clip-path: none; padding: 0 0 8px; color: #c2d7d4; font-size: 0.875rem; font-weight: 700; }
+.game-page.nfl-page.kick-page .kick-setup .wind-readout { margin: 0 0 12px; color: #c2d7d4; line-height: 1.45; }
+.kick-setup label { align-items: center; font-weight: 700; }
+.kick-setup output { padding: 3px 8px; border-radius: 4px; background: #ffffff12; font-weight: 400; }
+.kick-setup input { height: 38px; accent-color: #b9f1cd; }
+.kick-lofts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; margin: 4px 0 0; }
+.kick-lofts button { min-height: 64px; padding: 8px 4px; background: #203d43; border-color: #729b9d; color: #f0f7f4; font-weight: 700; }
+.kick-lofts small { margin-top: 4px; font-size: 0.75rem; font-weight: 400; color: #c2d7d4; }
+.kick-lofts button[aria-pressed='true'] { background: #b9f1cd; color: #10252c; outline: 0; border-color: #b9f1cd; }
+.kick-lofts button[aria-pressed='true'] small { color: #24463a; }
+.kick-release { padding-top: 14px; border-top: 1px solid #ffffff24; }
+.kick-meter-heading { flex-wrap: wrap; color: #f0f7f4; }
+.game-page.nfl-page.kick-page .kick-meter { height: 26px; margin: 10px 0 12px; }
+.game-page.nfl-page.kick-page #kick-button { display: block; width: 100%; min-height: 56px; padding: 12px; margin: 0; background: #ffdb64; color: #10252c; border: 1px solid #ffdb64; border-radius: 8px; font-size: 1rem; font-weight: 800; }
+.kick-history { justify-content: space-between; gap: 8px; margin: 0; }
+.kick-history li { width: 32px; height: 32px; background: #203d43; color: #f0f7f4; }
+.kick-secondary { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding-top: 12px; border-top: 1px solid #ffffff24; }
+.game-page.nfl-page.kick-page .kick-secondary button { width: 100%; min-height: 44px; margin: 0; padding: 8px; border: 1px solid #729b9d; border-radius: 6px; background: transparent; color: #e0eee7; font: inherit; font-size: 0.875rem; cursor: pointer; }
+.kick-secondary .demo-replay { grid-column: auto !important; }
+.kick-console button:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+.kick-console button:disabled { opacity: 0.55; cursor: default; }
+@media (max-width: 900px) {
+    .game-page.nfl-page.kick-page .field-panel { grid-template-columns: minmax(0, 1fr); }
+    .kick-console { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px 20px; }
+    .kick-readouts { grid-column: 1 / -1; }
+    .kick-release { padding-top: 0; border-top: 0; align-self: center; }
+    .kick-secondary { grid-column: 2; padding-top: 0; border: 0; }
+    .kick-history { align-self: center; }
+}
+@media (max-width: 550px) {
+    .kick-console { grid-template-columns: minmax(0, 1fr); padding: 14px; gap: 14px; }
+    .kick-secondary { grid-column: 1; padding-top: 12px; border-top: 1px solid #ffffff24; }
+    .kick-release { border-top: 1px solid #ffffff24; padding-top: 14px; }
+}
+
+.game-page.nfl-page.kick-page .kick-live-status { grid-column: 1 / -1; grid-row: 1; margin: 0; min-height: 2em; padding: 10px 14px; border-left: 4px solid #ffdb64; border-radius: 6px; background: #10252c; color: #fff; font-size: 1rem; line-height: 1.5; }
+.game-page.nfl-page.kick-page .team-rule-banner { display: none; }
+.kick-hashes { display: flex; gap: 6px; margin: 4px 0 8px; }
+.kick-hashes button, #kick-compensate { min-height: 36px; border: 1px solid #729b9d; border-radius: 6px; background: #203d43; color: #f0f7f4; font: inherit; font-size: 0.875rem; cursor: pointer; padding: 6px; }
+.kick-hashes button { flex: 1; }
+.kick-hashes button[aria-pressed='true'] { background: #b9f1cd; color: #10252c; }
+#kick-compensate { width: 100%; margin-bottom: 10px; }
+.kick-coach { color: #ffdf91; font-size: 0.875rem; line-height: 1.5; margin: 0 0 10px; min-height: 3em; font-variant-numeric: tabular-nums; }
+.game-page.nfl-page.kick-page .game-surface { align-self: start; }
+.kick-history li { border-radius: 6px; width: auto; flex: 1; font-size: 0.875rem; white-space: nowrap; }
+.kick-secondary { grid-template-columns: 1fr 1fr; }
+.kick-console { gap: 10px; padding: 12px; }
+.kick-lofts button { min-height: 56px; }
+.kick-secondary { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.game-page.nfl-page.kick-page .kick-secondary button { font-size: 0.8125rem; padding: 6px 4px; }
+@media (max-width: 900px) {
+    [data-kick-state='running'] .kick-setup,
+    [data-kick-state='accuracy'] .kick-setup,
+    [data-kick-state='flight'] .kick-setup { display: none; }
+    [data-kick-state='running'] .kick-console,
+    [data-kick-state='accuracy'] .kick-console,
+    [data-kick-state='flight'] .kick-console { display: flex; }
+}
+@media (max-width: 550px) {
+    .game-page.nfl-page.kick-page .game-story { gap: 6px; }
+    .game-page.nfl-page.kick-page .game-intro h1 { font-size: 1.5rem; }
+    .kick-lofts button { min-height: 52px; }
+    .kick-console { gap: 10px; }
+}
+
+.kick-protection { display: flex; gap: 5px; margin: 8px 0; }
+.kick-protection button, .kick-steer button { flex: 1; min-height: 44px; border: 1px solid #729b9d; border-radius: 6px; background: #203d43; color: #f0f7f4; font: inherit; font-size: 0.875rem; padding: 5px; cursor: pointer; touch-action: none; }
+.kick-protection button[aria-pressed='true'] { background: #b9f1cd; color: #10252c; }
+.kick-situation { margin: 4px 0; font-size: 0.875rem; color: #ffdf91; line-height: 1.5; }
+.kick-steer:not([hidden]) { display: flex; align-items: center; gap: 6px; margin: 10px 0; }
+.kick-steer output { flex: 1.2; text-align: center; font-size: 0.875rem; color: #ffdf91; }
+[data-kick-state='accuracy'] .kick-meter, [data-kick-state='flight'] .kick-meter, [data-kick-state='ready'] .kick-meter, [data-kick-state='complete'] .kick-meter { display: none; }
+
+/* Keep setup, live action, and the field key in distinct, readable spaces. */
+.game-page.nfl-page.kick-page .field-panel { grid-template-columns: minmax(0, 1fr) 330px; align-items: start; }
+.kick-console { grid-row: 3; gap: 14px; padding: 18px; justify-content: flex-start; }
+.kick-readouts { align-items: baseline; padding: 0 0 12px; }
+.kick-readouts strong { font-size: 1.125rem; }
+.kick-spot { color: #c2d7d4; font-size: 0.875rem; margin: 0 0 12px; }
+.kick-setting-title { font-weight: 700; font-family: inherit; font-size: 0.9375rem; line-height: 1.4; letter-spacing: 0; margin: 14px 0 8px; color: #fff; }
+.kick-console .wind-readout { margin: 0 0 12px; text-align: left; color: #c2d7d4; font-size: 0.875rem; font-weight: 400; }
+.kick-setup input { height: 38px; }
+.kick-hashes[hidden] { display: none; }
+#kick-compensate { margin: 2px 0 0; min-height: 40px; }
+.kick-situation { color: #c2d7d4; margin: 0 0 10px; }
+.kick-protection { gap: 8px; }
+.kick-lofts { gap: 8px; margin-bottom: 0; }
+.kick-lofts button { min-height: 56px; }
+.kick-lofts button small { font-size: 0.8125rem; }
+.kick-coach { min-height: 0; margin: 0 0 12px; color: #e0eee7; }
+[data-kick-state='ready'] .kick-coach,
+[data-kick-state='ready'] .kick-meter-heading { display: none; }
+.kick-meter-heading { margin-bottom: 10px; }
+.kick-field-guide { margin-top: 12px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 16px; padding: 16px; border: 1px solid #ffffff24; border-radius: 8px; background: #10252c; color: #c2d7d4; font-size: 0.875rem; line-height: 1.5; }
+.kick-field-guide span { display: block; }
+.kick-field-guide strong { display: block; color: #fff; }
+.kick-field-guide i { display: block; width: 24px; height: 12px; border: 1px solid #ffffffa0; border-radius: 3px; margin-bottom: 8px; }
+.kick-field-guide .kick-path-swatch { height: 0; border: 0; border-top: 3px dashed #ffe699; margin-block: 5px 16px; border-radius: 0; }
+.kick-field-guide p { grid-column: 1 / -1; margin: 0; padding-top: 10px; border-top: 1px solid #ffffff24; }
+@media (max-width: 1050px) {
+    .game-page.nfl-page.kick-page .field-panel { grid-template-columns: minmax(0, 1fr) 300px; gap: 12px; }
+    .kick-console { padding: 14px; }
+}
+@media (max-width: 900px) {
+    .game-page.nfl-page.kick-page .field-panel { grid-template-columns: minmax(0, 1fr); }
+    .kick-console { grid-column: 1; grid-row: 4; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px 24px; }
+    .kick-setup { grid-column: 1; grid-row: 2 / span 3; }
+    .kick-release { grid-column: 2; grid-row: 2; }
+    .kick-history { grid-column: 2; }
+    .kick-secondary { grid-column: 2; }
+    [data-kick-state='running'] .kick-console,
+    [data-kick-state='accuracy'] .kick-console,
+    [data-kick-state='flight'] .kick-console { display: flex; }
+    [data-kick-state='running'] .kick-field-guide,
+    [data-kick-state='accuracy'] .kick-field-guide,
+    [data-kick-state='flight'] .kick-field-guide { display: none; }
+}
+@media (max-width: 550px) {
+    .kick-console { display: flex; flex-direction: column; }
+    .kick-field-guide { gap: 10px; padding: 12px; font-size: 0.8125rem; }
+    .kick-field-guide i { margin-bottom: 4px; }
+    .kick-field-guide p { font-size: 0.8125rem; }
+    .kick-release { padding-top: 14px; border-top: 1px solid #ffffff24; }
+}
+
+.game-page.nfl-page.kick-page .game-surface { height: auto; flex: none; }
+.kick-setup legend { position: absolute; width: 1px; height: 1px; clip-path: inset(50%); overflow: hidden; }
+.kick-manual-aim { margin-bottom: 10px; font-size: 0.875rem; }
+.kick-manual-aim summary { min-height: 36px; display: list-item; align-content: center; cursor: pointer; color: #e0eee7; }
+.kick-manual-aim label { padding-top: 8px; }
+.kick-air { font-size: 0.875rem; color: #c2d7d4; line-height: 1.5; margin: 0 0 10px; }
+
+.kick-protection small { display: block; margin-top: 4px; font-size: 0.8125rem; }
+
+/* Give the flight camera a square, readable frame on phones. */
+@media (max-width: 600px) {
+    .game-page.nfl-page.kick-page .game-surface #kickCanvas { aspect-ratio: 1; }
+}
+@media (max-height: 600px) and (orientation: landscape) {
+    .game-page.nfl-page.kick-page .field-panel { grid-template-columns: minmax(0, 1fr) 280px; }
+    .game-page.nfl-page.kick-page .kick-console { grid-column: 2; grid-row: 3; }
+    .game-page.nfl-page.kick-page .game-surface { grid-column: 1; grid-row: 3; }
+}

@@ -17,10 +17,15 @@
         } catch { return 'index.html'; }
     };
     if (!team && page !== 'choose.html') {
-        const next = safeNext(location.href);
-        location.replace(`choose.html?next=${encodeURIComponent(next)}`);
+        location.replace('choose.html');
     }
     const current = team || teams.find(item => item.id === 'eagles');
+    if (page !== 'choose.html' && team) document.querySelector('link[rel="icon"]')?.setAttribute('href', `assets/favicons/${team.id}.svg`);
+    const legacyBlitz = page === 'playbook.html' && params.get('game') === 'blitz';
+    if (team && legacyBlitz) {
+        params.delete('game'); params.set('team', team.id);
+        location.replace(`game.html?${params}`);
+    }
     if (team) try { localStorage.setItem('nflTeam', team.id); } catch { /* Team stays in internal links. */ }
     const keyFor = key => key === 'fanNickname' || key === 'pageViewsCount' ? key : `nfl:${current.id}:${key}`;
     // Only Philadelphia inherits the original Eagles records; other clubs start fresh.
@@ -52,14 +57,34 @@
             try { localStorage.removeItem(keyFor(key)); } catch { /* Nothing persisted. */ }
         }
     };
+    const rememberPage = () => {
+        if (team && pages.includes(page) && page !== 'choose.html' && !legacyBlitz) {
+            storage.setItem('lastPage', safeNext(location.href));
+        }
+    };
+    rememberPage();
+    // Back/forward navigation can restore a page without running its scripts again.
+    window.addEventListener('pageshow', rememberPage);
+    const teamDestination = teamId => {
+        let saved;
+        try { saved = localStorage.getItem(`nfl:${teamId}:lastPage`); } catch { /* New visits default to home. */ }
+        const url = new URL(safeNext(saved), location.href);
+        url.searchParams.set('team', teamId);
+        return url.pathname.split('/').pop() + url.search;
+    };
     const games = [
-        {id:'game', href:'game.html', key:'fieldRunWins', target:5, unit:'clears', category:'action', description:'Collect every football in your team’s home end zone.', mark:'RUN'},
+        {id:'game', href:'game.html', key:'fieldRunWins', target:5, unit:'touchdowns', category:'action', description:'Collect the football, outmaneuver the rival rush, and score on a new field every level.', mark:'RUN'},
         {id:'bird', href:'barkley.html', key:'barkleyBest', target:20, unit:'gaps', category:'action', description:`Send your ${current.nickname} cartoon hero through a stadium obstacle course.`, mark:'FLY'},
         {id:'search', href:'jalen.html', key:'jalenCleared', target:5, unit:'scenes', category:'search', description:`Find your captain in five illustrated ${current.nickname} crowds. Zoom, inspect, and follow clues.`, mark:'FIND'},
         {id:'kick', href:'kick.html', key:'fieldGoalBest', target:15, unit:'points', category:'timing', description:'Read the crosswind and split your home uprights in five kicks.', mark:'KICK'},
         ...['pocket','shove','recall','punt','blitz','signal'].map((id, i) => ({id, href:`playbook.html?game=${id}`, key:`playbook-${id}-best`, target:[10,5,8,500,3,1][i], unit:['completions','touchdowns','rounds','points','fields','calls'][i], category:['action','timing','strategy','timing','strategy','strategy'][i], mark:['QB','PUSH','X O','PIN','BLITZ','CALL'][i]}))
     ];
-    for (const game of games) game.title = current.games[game.id];
+    for (const game of games) game.title = game.id === 'pocket' ? 'Passing Drive' : current.games[game.id];
+    const recordGames = games.slice();
+    games.splice(games.findIndex(game => game.id === 'blitz'), 1);
+    const rivals = {eagles:'cowboys', cowboys:'eagles', giants:'eagles', commanders:'cowboys', bears:'packers', packers:'bears', lions:'packers', vikings:'packers', falcons:'saints', saints:'falcons', panthers:'buccaneers', buccaneers:'saints', cardinals:'seahawks', rams:'49ers', '49ers':'seahawks', seahawks:'49ers', bills:'dolphins', dolphins:'bills', patriots:'jets', jets:'patriots', ravens:'steelers', steelers:'ravens', bengals:'steelers', browns:'steelers', texans:'titans', titans:'texans', colts:'jaguars', jaguars:'titans', broncos:'raiders', chiefs:'raiders', raiders:'chiefs', chargers:'chiefs'};
+    const rivalFor = (id = current.id) => rivals[id];
+    if (storage.getItem('arcadeLastGame') === 'playbook.html?game=blitz') storage.setItem('arcadeLastGame', 'game.html');
     const link = href => {
         const url = new URL(href, location.href);
         url.searchParams.set('team', current.id);
@@ -117,7 +142,7 @@
     }
     function points(teamId = current.id) {
         const scores = {};
-        for (const game of games) {
+        for (const game of recordGames) {
             let raw;
             try { raw = Number(teamId === current.id ? storage.getItem(game.key) : localStorage.getItem(`nfl:${teamId}:${game.key}`)); } catch { raw = 0; }
             scores[game.id] = Number.isSafeInteger(raw) && raw >= 0 ? Math.min(100, Math.floor(raw * 100 / game.target)) : 0;
@@ -145,5 +170,5 @@
         tints.set(hex, value);
         return value;
     }
-    window.teamArcade = {tint, team:current, teams, storage, keyFor, games, link, safeNext, artFor, paintArt, points};
+    window.teamArcade = {tint, team:current, teams, storage, keyFor, games, recordGames, rivalFor, link, safeNext, teamDestination, artFor, paintArt, points};
 })();

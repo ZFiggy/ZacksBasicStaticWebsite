@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#004c54">
     <meta name="description" content="Split the uprights in a five-kick Philadelphia football challenge.">
     <title>Field Goal Challenge · Zack’s Eagles Arcade</title>
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="assets/football.svg" type="image/svg+xml">
     <script src="scripts/theme.js"></script>
     <script src="scripts/teams-data.js"></script>
     <script src="scripts/teams.js"></script>
@@ -15,6 +15,11 @@
     <script defer src="scripts/game-personality.js"></script>
     <script defer src="scripts/team-rules.js"></script>
     <script defer src="scripts/character-art.js"></script>
+    <script defer src="scripts/player-roster.js"></script>
+    <script defer src="scripts/player-motion.js"></script>
+    <script defer src="scripts/current-rosters.js"></script>
+    <script defer src="scripts/player-likenesses.js"></script>
+    <script defer src="scripts/football-players.js"></script>
     <script defer src="scripts/team-ui.js"></script>
     <script defer src="scripts/playbook-data.js"></script>
     <script defer src="scripts/arcade.js"></script>
@@ -22,12 +27,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="teams.css">
     <link rel="stylesheet" href="game-screen.css">
+    <link rel="stylesheet" href="kick.css">
     <script defer src="scripts/football-art.js"></script>
+    <script defer src="scripts/football-field.js"></script>
     <script defer src="scripts/team-art.js"></script>
+    <script defer src="scripts/kick-rules.js"></script>
     <script defer src="scripts/kick.js"></script>
     <script defer src="scripts/game-screen.js"></script>
+    <link rel="stylesheet" href="game-demo.css">
+    <script defer src="scripts/game-demo.js"></script>
 </head>
-<body class="game-page">
+<body class="game-page kick-page">
     <a class="skip-link" href="#main-content">Skip to content</a>
     <noscript><p class="script-notice">Turn on JavaScript to play the games, save scores, and view your fan locker. You can still explore the <a href="games.html">game lineup</a>.</p></noscript>
     <div class="site-shell">
@@ -38,7 +48,7 @@
                 <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Dark mode</button>
             </div>
         </header>
-        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html">Field Run</a><a href="kick.html" aria-current="page">Field Goals</a><a href="jalen.html">Where’s Jalen?</a><a href="barkley.html">Barkley Bird</a><a href="games.html">All 10 games</a></div>
+        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html">Touchdown Rush</a><a href="playbook.html?game=pocket">Passing Drive</a><a href="kick.html" aria-current="page">Field Goals</a><a href="jalen.html">Where’s Jalen?</a><a href="barkley.html">Barkley Bird</a><a href="games.html">All 9 games</a></div>
         <main id="main-content" tabindex="-1" class="game-layout">
             <section class="game-story" aria-labelledby="kick-title">
                 <div class="game-intro">
@@ -47,24 +57,67 @@
                     <p>Five kicks. Crosswinds. Tiny windows. Time the moving marker to put points on the board for Philly.</p>
                 </div>
                 <div class="game-dashboard">
+                    <p id="kick-matchup" class="eyebrow"></p>
                     <div class="game-score"><span>POINTS</span><strong id="kick-score">0</strong></div>
                     <p class="personal-best">PERSONAL BEST <strong><span id="kick-best">0</span> / 15</strong></p>
                     <p class="game-status" id="kick-status" role="status">Press Start to line up your first kick.</p>
-                    <button class="button game-restart" id="restart-kicks" type="button">New round <span aria-hidden="true">↻</span></button>
                 </div>
-                <div class="game-instructions" id="kick-instructions"><h2>The playbook</h2><p>Start the meter, then press Kick when the marker is inside the green zone. Each field goal scores 3 points. The target is narrower, the meter accelerates each kick, and crosswinds shift the green zone. Aim into the wind.</p><p>Use the button or press Space while the field is focused. Five attempts per round.</p></div>
+                <div class="game-instructions" id="kick-instructions"><h2>The playbook</h2><p>Each kick assigns a different spot. Read the hash mark, then set your aim and arc. Read the rush and choose which lane to protect. Snap, lock enough power to reach the posts, then steer the aiming dot into the green zone with Left/Right or A/D and release before the rush arrives. Crosswinds shift during the play; headwinds reduce range and tailwinds add distance. High arcs beat the block but sacrifice range. Each field goal scores 3 points.</p><p>Use the button or press Space while the field is focused. Left/Right or A/D steer after power is locked; touch players can hold the aim buttons. Five attempts per round.</p></div>
             </section>
             <section class="field-panel kick-panel" aria-label="Field Goal Challenge">
                 <div class="field-heading"><span>PHILADELPHIA</span><span id="kick-attempt">KICK 1 / 5</span></div>
-                <canvas id="kickCanvas" width="600" height="650" tabindex="0" aria-label="Field goal kicking game" aria-describedby="kick-instructions kick-status">Use a browser with canvas support to play.</canvas>
-                <div class="kick-meter" aria-hidden="true"><span class="kick-zone" id="kick-zone"></span><span class="kick-marker" id="kick-marker"></span></div>
-                <p class="wind-readout" id="kick-wind"></p>
-                <p class="meter-caption">STOP THE MARKER IN THE GREEN ZONE</p>
-                <button class="button increment-button" id="kick-button" type="button">Start meter</button>
+                <canvas id="kickCanvas" width="1064" height="552" tabindex="0" aria-label="Field goal kicking game" aria-describedby="kick-instructions kick-status">Use a browser with canvas support to play.</canvas>
+                <div class="kick-field-guide" aria-label="Field guide">
+                    <span><i class="kick-team-swatch"></i><strong class="kick-team-key">Your team</strong> Kicker, holder &amp; blockers</span>
+                    <span><i class="kick-rival-swatch"></i><strong class="kick-rival-key">Opponents</strong> Rush toward the ball</span>
+                    <span><i class="kick-path-swatch"></i><strong>Dashed path</strong> Your planned kick</span>
+                    <p>At contact, the camera looks straight upfield. Watch the ball cross between the uprights and above the crossbar.</p>
+                </div>
+                <div class="kick-console">
+                    <div class="kick-readouts"><strong id="kick-distance">25 YARDS</strong><span id="kick-rush">Protection: 5.6s</span></div>
+                    <fieldset id="kick-setup" class="kick-setup">
+                        <legend>Set up your kick</legend>
+                        <p id="kick-spot" class="kick-spot"></p>
+                        <p class="wind-readout" id="kick-wind"></p>
+                        <details class="kick-manual-aim"><summary>Adjust aim manually</summary>
+                            <label for="kick-aim">Aim <output id="kick-aim-value" for="kick-aim">Center</output></label>
+                            <input id="kick-aim" type="range" min="-100" max="100" value="0" step="1" aria-describedby="kick-wind">
+                        </details>
+                        <div hidden class="kick-hashes" role="group" aria-label="Assigned hash mark"><button type="button" data-hash="-1" aria-pressed="false">Left hash</button><button type="button" data-hash="0" aria-pressed="true">Center</button><button type="button" data-hash="1" aria-pressed="false">Right hash</button></div>
+                        <button id="kick-compensate" type="button">Aim for wind &amp; hash</button>
+                        <h2 class="kick-setting-title">Protect against the rush</h2>
+                        <p id="kick-situation" class="kick-situation"></p>
+                        <div class="kick-protection" role="group" aria-label="Protect the rushing lane">
+                            <button type="button" data-protect="-1" aria-pressed="false">Left<small>Left rush</small></button>
+                            <button type="button" data-protect="0" aria-pressed="true">Middle<small>Center rush</small></button>
+                            <button type="button" data-protect="1" aria-pressed="false">Right<small>Right rush</small></button>
+                        </div>
+                        <h2 class="kick-setting-title">Choose your arc</h2>
+                        <p id="kick-air" class="kick-air"></p>
+                        <div class="kick-lofts" role="group" aria-label="Ball trajectory">
+                            <button type="button" data-loft="drive" aria-pressed="false">Drive <small>More distance</small></button>
+                            <button type="button" data-loft="balanced" aria-pressed="true">Balanced <small>All round</small></button>
+                            <button type="button" data-loft="high" aria-pressed="false">High arc <small>Beat the block</small></button>
+                        </div>
+                    </fieldset>
+                    <div class="kick-release">
+                        <p id="kick-coach" class="kick-coach" aria-live="off"></p>
+                        <div class="kick-meter-heading"><strong id="kick-stage">1 · SET AIM &amp; ARC</strong><span id="kick-power">Power: —</span></div>
+                        <div class="kick-steer" role="group" aria-label="Steer the kick" hidden>
+                            <button type="button" data-steer="-1" aria-label="Aim left">Aim left · A</button>
+                            <output id="kick-flight-read" aria-live="off">Keep the dot in the green zone</output>
+                            <button type="button" data-steer="1" aria-label="Aim right">Aim right · D</button>
+                        </div>
+                        <div class="kick-meter" aria-hidden="true"><span class="kick-zone" id="kick-zone"></span><span class="kick-marker" id="kick-marker"></span></div>
+                        <button class="button increment-button" id="kick-button" type="button">Snap ball</button>
+                    </div>
+                    <ol id="kick-history" class="kick-history" aria-label="Kick results"></ol>
+                    <div class="kick-secondary"><button id="kick-pause" type="button" disabled>Pause · P</button><button class="game-restart" id="restart-kicks" type="button">New round</button></div>
+                </div>
                 <button class="expand-game" data-expand-game type="button" hidden>Expand game</button>
             </section>
         </main>
-        <footer class="site-footer"><p>ZACK / PHILLY <span class="footer-divider">·</span> An unofficial fan project.</p><a href="game.html">Play Eagles Field Run</a></footer>
+        <footer class="site-footer"><p>ZACK / PHILLY <span class="footer-divider">·</span> An unofficial fan project.</p><a href="game.html">Play Touchdown Rush</a></footer>
     </div>
 </body>
 </html>

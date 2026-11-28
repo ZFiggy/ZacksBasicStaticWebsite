@@ -53,6 +53,22 @@ async function checkImage(src) {
     }
 }
 
+if (process.argv.includes('--team-photos-only')) {
+    for (const photo of Object.values(selection)) {
+        await checkImage(photo.src);
+        assert.match(photo.sourcePage, /^https:\/\//);
+        assert.ok(photo.credit && photo.alt);
+    }
+    const path = resolve(publicRoot, 'scripts/personality-data.js');
+    const current = await readFile(path, 'utf8');
+    const marker = 'window.NFL_TEAM_MEDIA = ';
+    assert.ok(current.includes(marker));
+    const teamMedia = Object.fromEntries(Object.entries(media).map(([id, {galleryPhotos, ...item}]) => [id, item]));
+    await writeFile(path, current.slice(0, current.indexOf(marker)) + marker + JSON.stringify(teamMedia, null, 4) + ';\n');
+    console.log(`Validated and updated ${Object.keys(selection).length} team cover photos; preserved Eagles and other artwork metadata.`);
+    process.exit(0);
+}
+
 if (searchOnly) {
     const playerSources = await readJson('assets/photo-search/real-player-sources.json');
     assert.equal(playerSources.length, 31);

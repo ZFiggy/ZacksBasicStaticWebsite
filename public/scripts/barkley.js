@@ -102,7 +102,7 @@ class BarkleyBird {
     }
 
     spawnPipe() {
-        const gap = Math.max(145, 210 - this.score * 3);
+        const gap = Math.max(165, 230 - this.score * 3);
         const top = 95 + Math.random() * (410 - gap);
         this.pipes.push({x: 500, top, bottom: top + gap, passed: false});
     }
@@ -126,7 +126,7 @@ class BarkleyBird {
         for (const pipe of this.pipes) {
             pipe.x -= speed * dt;
             if (this.collides(pipe)) { this.end(); return; }
-            if (!pipe.passed && pipe.x + 66 < 120 - 18) {
+            if (!pipe.passed && pipe.x + 69 < 120 + this.playerShape().left) {
                 pipe.passed = true; this.score++;
                 if (this.score > this.best) {
                     this.best = this.score; this.saveBest();
@@ -136,15 +136,65 @@ class BarkleyBird {
             }
         }
         this.pipes = this.pipes.filter(pipe => pipe.x > -80);
-        if (this.y - 18 < 0 || this.y + 18 > 628) this.end();
+        const shape = this.playerShape();
+        if (this.y + shape.top <= 0 || this.y + shape.bottom >= 628) this.end();
+    }
+
+    drawPlayer(ctx) {
+        ctx.rotate(Math.max(-0.3, Math.min(0.5, this.velocity / 1000)));
+        if (this.portrait.complete && this.portrait.naturalWidth) {
+            window.teamArcade.drawGameCover(ctx, this.portrait, this.flightSprite, -42, -42, 84, 84, 'contain');
+        } else {
+            window.teamArt.mascot(ctx, 0, 0, 36);
+        }
+    }
+
+    playerShape() {
+        const angle = Math.max(-0.3, Math.min(0.5, this.velocity / 1000));
+        const loaded = !!(this.portrait.complete && this.portrait.naturalWidth);
+        if (this.cachedShape?.angle === angle && this.cachedShape.loaded === loaded) return this.cachedShape;
+        if (!this.collisionCanvas) {
+            this.collisionCanvas = document.createElement('canvas');
+            this.collisionCanvas.width = this.collisionCanvas.height = 120;
+            this.collisionContext = this.collisionCanvas.getContext('2d', {willReadFrequently: true});
+        }
+        const ctx = this.collisionContext;
+        ctx.clearRect(0, 0, 120, 120);
+        ctx.save();
+        ctx.translate(60, 60);
+        this.drawPlayer(ctx);
+        ctx.restore();
+        const pixels = ctx.getImageData(0, 0, 120, 120).data;
+        const shape = {angle, loaded, runs: [], left: 60, top: 60, bottom: -60};
+        // Keep opaque pixel runs, excluding transparent space around and within the sprite.
+        for (let y = 0; y < 120; y++) {
+            let start = -1;
+            for (let x = 0; x <= 120; x++) {
+                const solid = x < 120 && pixels[(y * 120 + x) * 4 + 3] >= 32;
+                if (solid && start < 0) start = x;
+                if (!solid && start >= 0) {
+                    shape.runs.push({left: start - 60, right: x - 60, top: y - 60, bottom: y - 59});
+                    shape.left = Math.min(shape.left, start - 60);
+                    shape.top = Math.min(shape.top, y - 60);
+                    shape.bottom = Math.max(shape.bottom, y - 59);
+                    start = -1;
+                }
+            }
+        }
+        this.cachedShape = shape;
+        return shape;
     }
 
     collides(pipe) {
-        const closestX = Math.max(pipe.x, Math.min(120, pipe.x + 66));
-        const dx = 120 - closestX;
-        const topY = Math.max(0, Math.min(this.y, pipe.top));
-        const bottomY = Math.max(pipe.bottom, Math.min(this.y, 628));
-        return dx * dx + (this.y - topY) ** 2 < 18 ** 2 || dx * dx + (this.y - bottomY) ** 2 < 18 ** 2;
+        const rectangles = [
+            [pipe.x, 0, pipe.x + 66, pipe.top],
+            [pipe.x, pipe.bottom, pipe.x + 66, 628],
+            [pipe.x - 3, pipe.top - 10, pipe.x + 69, pipe.top],
+            [pipe.x - 3, pipe.bottom, pipe.x + 69, pipe.bottom + 10]
+        ];
+        return this.playerShape().runs.some(run => rectangles.some(([left, top, right, bottom]) =>
+            120 + run.right >= left && 120 + run.left <= right
+            && this.y + run.bottom >= top && this.y + run.top <= bottom));
     }
 
     end() {
@@ -253,13 +303,7 @@ class BarkleyBird {
         }
         ctx.save();
         ctx.translate(120, this.y);
-        ctx.rotate(Math.max(-0.3, Math.min(0.5, this.velocity / 1000)));
-        if (this.portrait.complete && this.portrait.naturalWidth) {
-            window.teamArcade.drawGameCover(ctx, this.portrait, this.flightSprite, -42, -42, 84, 84, 'contain');
-        } else {
-            // Keep the player visible while its sprite loads or if a request fails.
-            window.teamArt.mascot(ctx, 0, 0, 36);
-        }
+        this.drawPlayer(ctx);
         ctx.restore();
         // Always-visible broadcast score, clear of the playable character.
         ctx.fillStyle = window.teamArcade.tint('#06252bbf');

@@ -1,5 +1,7 @@
 // Match assets/football.svg so canvas games and page illustrations share a style.
 const footballArt = {
+    gameplayWidth: 18,
+    kickFlightWidth: 30,
     outline: new Path2D('M4 38C16 17 36 6 60 6S104 17 116 38C104 59 84 70 60 70S16 59 4 38Z'),
     highlight: new Path2D('M13 35C29 17 44 12 60 12S91 17 107 35'),
     seam: new Path2D('M7 39Q60 62 113 39'),

@@ -120,8 +120,7 @@
 .team-choice-art { position: relative; overflow: hidden; aspect-ratio: 1; background-color: var(--card-primary); background-repeat: no-repeat; }
 .team-choice-copy { padding: 18px; }
 .team-choice-copy > span { color: #bccbda; font-size: 0.875rem; }
-.team-choice-copy h2 { font-size: 1.3rem; line-height: 1.2; margin: 9px 0 12px; }
-.team-choice-copy p { font-size: 0.875rem; line-height: 1.5; color: #c2cfdd; margin: 0; }
+.team-choice-copy h2 { font-size: 1.3rem; line-height: 1.2; margin: 9px 0 0; }
 .choose-page .site-footer { color: #c2cfdd; margin-top: 50px; border-color: #ffffff33; }
 .leaders-intro { display: flex; gap: 30px; justify-content: space-between; align-items: center; padding-block: 35px; }
 .leaders-intro h1 { font-family: Impact, 'Arial Narrow', sans-serif; font-style: italic; font-size: clamp(2.8rem, 5vw, 5rem); line-height: 1; margin-bottom: 20px; }
@@ -199,7 +198,6 @@
     .choose-promises { gap: 15px; }
     .team-choice-copy { padding: 14px; }
     .team-choice-copy h2 { font-size: 1.1rem; }
-    .team-choice-copy p { display: none; }
     .league-board-layout { grid-template-columns: minmax(0,1fr); }
     .league-profile { grid-row: 1; }
     .league-board { padding: 15px; }
@@ -390,7 +388,8 @@ html[data-effect='fire'] .team-hero-art { box-shadow: inset 0 -35px 40px -30px v
 [data-theme='dark'] .nfl-page .game-story h1 > span,
 [data-theme='dark'] .nfl-page .lobby-heading h1 > span { color: var(--team-secondary); }
 .nfl-page .team-rivalry-strip .eyebrow { color: var(--team-secondary); }
-.team-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.team-photo { display: block; position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; padding: 0; border: 0; object-fit: cover; object-position: center; transform: scale(var(--team-photo-scale, 1)); }
+.has-team-photo { overflow: hidden; }
 .counter-team-art.has-team-photo { position: absolute; inset: 0; opacity: 1; }
 .team-hero-art.has-team-photo { min-height: 480px; }
 .nfl-page .team-hero-art.has-team-photo::after { display: none; }
@@ -417,9 +416,9 @@ html[data-effect='fire'] .team-hero-art { box-shadow: inset 0 -35px 40px -30px v
 .nfl-page .play-caption { white-space: normal; overflow-wrap: anywhere; padding-inline: 8px; line-height: 1.2; }
 html:not([data-team='eagles']) .throw-quarterback path[fill='white'] { display: none; }
 
-/* Team colors frame the complete selection photo, including portrait photographs. */
+/* Selection photographs fill the frame without empty side margins. */
 .team-choice-art { aspect-ratio: 4 / 3; border-bottom: 6px solid var(--card-secondary); }
-.team-choice-art .team-photo { object-fit: contain; }
+.team-choice-art .team-photo { object-fit: cover; }
 .nfl-page .team-library-art, .nfl-page .mini-team-art { aspect-ratio: 16 / 10; }
 .library-mode-mark { top: 10px; left: 10px; font-size: 1rem; padding: 4px 8px; }
 .nfl-page .game-library-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -466,7 +465,7 @@ html:not([data-team='eagles']) .throw-quarterback path[fill='white'] { display: 
 .player-character { display: block; width: 100%; height: 100%; object-fit: contain; pointer-events: none; }
 .playbook-splash > span:has(.player-character) { display: block; width: 130px; height: 135px; margin: 0 auto 8px; }
 .character-world { isolation: isolate; }
-.character-world::before { content: ''; position: absolute; inset: 0; z-index: -1; background-image: var(--world-image); background-size: var(--world-size); background-position: var(--world-position); opacity: 0.32; pointer-events: none; }
+.character-world::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, transparent calc(50% - 1px), #ffffff26 calc(50% - 1px) calc(50% + 1px), transparent calc(50% + 1px)), radial-gradient(ellipse at top, #ffffff12, #00000030); pointer-events: none; }
 .pocket-qb { position: relative; }
 .pocket-qb > .player-character { position: absolute; width: 120px; height: 130px; left: 50%; bottom: 18px; transform: translateX(-50%); }
 .receiver-jersey:has(.player-character) { width: 90px; height: 95px; background: none; clip-path: none; padding: 0; }

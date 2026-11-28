@@ -1,0 +1,39 @@
+name: Weekly NFL roster refresh
+on:
+  workflow_dispatch:
+  schedule:
+    # Tuesdays, August through February (UTC); updates source, never hosting.
+    - cron: '17 12 * 1,2,8-12 2'
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: weekly-rosters
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node tools/update-rosters.mjs
+      - run: node tools/update-rosters.mjs --check
+      - run: node tools/check-player-likenesses.mjs
+      - name: Propose roster update
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -C automation/weekly-rosters
+          git add public/assets/characters/current-rosters.json public/scripts/current-rosters.js
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh active NFL rosters and depth charts'
+          git push --force-with-lease origin automation/weekly-rosters
+          if ! gh pr list --head automation/weekly-rosters --json number --jq '.[0].number' | grep -q '[0-9]'; then
+            gh pr create --base '${{ github.event.repository.default_branch }}' --head automation/weekly-rosters --title 'Refresh active NFL rosters' --body 'Updates the validated 32-team roster snapshot used by Passing Drive and Field Goals. All teams must validate before files change. No hosting deployment. Validation: node tools/update-rosters.mjs --check.'
+          fi

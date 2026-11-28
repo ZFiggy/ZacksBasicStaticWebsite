@@ -38,13 +38,13 @@ class LeagueBoard {
     }
     rawRecord() {
         const records={};
-        for(const game of this.api.games){const value=Number(this.api.storage.getItem(game.key));records[game.id]=Number.isSafeInteger(value)&&value>=0?Math.min(1000000,value):0;}
+        for(const game of this.api.recordGames){const value=Number(this.api.storage.getItem(game.key));records[game.id]=Number.isSafeInteger(value)&&value>=0?Math.min(1000000,value):0;}
         const rawClicks=Number(this.api.storage.getItem('clickCount'));
         return {records,clicks:Number.isSafeInteger(rawClicks)&&rawClicks>=0?rawClicks:0};
     }
     normalized(records) {
         const scores={};
-        for(const game of this.api.games)scores[game.id]=Math.min(100,Math.floor(records[game.id]*100/game.target));
+        for(const game of this.api.recordGames)scores[game.id]=Math.min(100,Math.floor(records[game.id]*100/game.target));
         return {scores,points:Object.values(scores).reduce((sum,value)=>sum+value,0)};
     }
     breakdown() {
@@ -104,7 +104,7 @@ class LeagueBoard {
         for(const team of this.api.teams){
             const {scores,points}=this.api.points(team.id);const records={};let hasRecord=false;let clicks=0;
             try{
-                for(const game of this.api.games){const value=Number(team.id===this.team.id?this.api.storage.getItem(game.key):localStorage.getItem(`nfl:${team.id}:${game.key}`));records[game.id]=Number.isSafeInteger(value)&&value>=0?value:0;if(value>0)hasRecord=true;}
+                for(const game of this.api.recordGames){const value=Number(team.id===this.team.id?this.api.storage.getItem(game.key):localStorage.getItem(`nfl:${team.id}:${game.key}`));records[game.id]=Number.isSafeInteger(value)&&value>=0?value:0;if(value>0)hasRecord=true;}
                 clicks=Number(team.id===this.team.id?this.api.storage.getItem('clickCount'):localStorage.getItem(`nfl:${team.id}:clickCount`))||0;
             }catch{ /* Current session points remain available. */ }
             if((hasRecord||clicks>0||team.id===this.team.id)&&(this.teamFilter.value==='all'||this.teamFilter.value===team.id))this.entries.push({id:`local-${team.id}`,teamId:team.id,nickname:this.name.value.trim()||'You (unnamed)',points,scores,records,clicks});
@@ -143,7 +143,7 @@ class LeagueBoard {
         finally{this.submit.disabled=false;}
     }
     restore(entry){
-        for(const game of this.api.games){const value=entry.records?.[game.id];if(Number.isSafeInteger(value)&&value>Number(this.api.storage.getItem(game.key)))this.api.storage.setItem(game.key,value);}
+        for(const game of this.api.recordGames){const value=entry.records?.[game.id];if(Number.isSafeInteger(value)&&value>Number(this.api.storage.getItem(game.key)))this.api.storage.setItem(game.key,value);}
         if(entry.clicks>Number(this.api.storage.getItem('clickCount')))this.api.storage.setItem('clickCount',entry.clicks);
         this.breakdown();
     }
@@ -158,7 +158,7 @@ class LeagueBoard {
             const ref=store.doc(db,'leagueFans',`${uid}_${teamId}`);const local=this.rawRecord();
             const result=await store.runTransaction(db,async tx=>{
                 const existing=await tx.get(ref),previous=existing.exists()?existing.data():{};const records={};
-                for(const game of this.api.games)records[game.id]=Math.max(local.records[game.id],previous.records?.[game.id]||0);
+                for(const game of this.api.recordGames)records[game.id]=Math.max(local.records[game.id],previous.records?.[game.id]||0);
                 const data={uid,teamId,nickname:this.nickname,records,clicks:Math.max(local.clicks,previous.clicks||0),...this.normalized(records),updatedAt:store.serverTimestamp()};
                 tx.set(ref,data);return data;
             });

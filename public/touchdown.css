@@ -1,0 +1,140 @@
+/* A wide broadcast-style arena for Touchdown Rush. */
+.game-page.rush-page .site-shell { max-width: 1600px; min-height: 720px; }
+.game-page.rush-page .rush-layout { display: flex; flex-direction: column; gap: 12px; padding-top: 16px; }
+.game-page.rush-page .rush-story { max-width: none; flex: 0 0 auto; display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 20px; }
+.game-page.rush-page .game-intro .eyebrow { font-size: 0.75rem; letter-spacing: 0.14em; margin-bottom: 4px; }
+.game-page.rush-page .game-story h1 { font-size: clamp(1.5rem, 2.8vw, 2.75rem); line-height: 1; margin: 0 0 6px; }
+.game-page.rush-page .game-intro > p:last-child { font-size: 0.9375rem; margin: 0; }
+.rush-runner { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; font-size: 0.875rem; }
+.rush-runner strong { white-space: nowrap; background: var(--team-primary); color: var(--team-on-primary); border-radius: 5px; padding: 6px 12px; letter-spacing: 0.08em; }
+.game-page.rush-page .field-panel.rush-panel { max-width: none; width: 100%; flex: 1 1 auto; min-height: 0; padding: 12px 16px; background: #10272e; color: #f0f7f4; border: 1px solid #3f6067; border-radius: 14px; box-shadow: 0 12px 35px #001c2320; }
+.rush-scoreboard { display: grid; grid-template-columns: repeat(3, 1fr) 1.5fr; flex: 0 0 auto; border-bottom: 1px solid #ffffff22; padding: 0 0 8px; }
+.rush-scoreboard > div { padding: 0 18px; border-right: 1px solid #ffffff22; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.rush-scoreboard > div:first-child { padding-left: 0; }
+.rush-scoreboard > div:last-child { border: 0; padding-right: 0; }
+.rush-scoreboard span { font-size: 0.75rem; letter-spacing: 0.07em; color: #bbd2c8; }
+.rush-scoreboard strong { font-size: 1.65rem; font-variant-numeric: tabular-nums; }
+.rush-scoreboard .rush-ball-status strong { font-size: 0.875rem; color: #ffe4a1; text-align: right; }
+.rush-field-wrap { position: relative; flex: 1 1 auto; min-height: 0; display: grid; place-items: center; overflow: hidden; container-type: size; }
+.game-page.rush-page #gameCanvas { width: min(100cqw, 192.75cqh); height: auto; max-width: 100%; max-height: 100%; aspect-ratio: 1064 / 552; border: 0; border-radius: 0; box-shadow: none; background: #102c31; }
+.rush-overlay { position: absolute; pointer-events: none; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; flex-direction: column; align-items: center; gap: 6px; width: max-content; max-width: 90%; padding: 18px 32px; border: 1px solid #c7f1d78c; border-radius: 10px; background: #0a202bf2; box-shadow: 0 6px 35px #0007; text-align: center; }
+.rush-overlay[hidden] { display: none; }
+.rush-overlay strong { font-size: clamp(1.25rem, 3vw, 2.5rem); font-style: italic; letter-spacing: 0.04em; color: #fff; }
+.rush-overlay span { font-size: 0.875rem; color: #c4ded0; }
+.rush-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.rush-legend { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 0.8125rem; color: #c6ded2; }
+.rush-legend > span { display: inline-flex; align-items: center; gap: 6px; }
+.rush-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; }
+.rush-dot.home { background: #a7ffd2; }
+.rush-dot.away { background: #ffbb9c; }
+.game-page.rush-page .game-status { min-height: 1.4em; color: #ecf7ed; font-size: 0.875rem; margin: 8px 0; }
+.rush-controls { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.rush-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.rush-controls button { min-height: 44px; border: 1px solid #738e8c; border-radius: 6px; padding: 8px 14px; background: #203d43; color: #f3fff7; font-family: inherit; font-size: 0.875rem; font-weight: 600; cursor: pointer; touch-action: none; }
+.rush-controls button:disabled { opacity: 0.45; cursor: default; }
+.rush-controls button:hover:not(:disabled) { background: #355b5e; }
+.rush-controls .button { background: #b9f1cd; border-color: #b9f1cd; color: #102c24; min-width: 130px; }
+.rush-controls .button:hover { background: #d4ffe3 !important; }
+.game-page.rush-page .touch-controls { display: flex; padding: 0; gap: 6px; margin: 0; }
+.game-page.rush-page .touch-controls button { width: 48px; height: 44px; }
+.rush-vertical { display: flex; gap: 6px; }
+.game-page.rush-page .rush-help { flex: 0 0 auto; margin: 0; padding: 0; border: 0; }
+.game-page.rush-page .rush-help p { font-size: 0.8125rem; line-height: 1.4; }
+.game-page.rush-page .field-panel:fullscreen .rush-field-wrap { flex: 1; }
+.game-page.rush-page .expand-game { display: block; flex: 0 0 auto; width: auto; padding: 2px 6px; min-height: 28px; font-size: 0.75rem; color: #c6ded2; background: transparent; border: 1px solid #738e8c; }
+@media (max-width: 700px) {
+    .game-page.rush-page .site-shell { min-height: 740px; height: auto; }
+    .game-page.rush-page .rush-layout { display: flex; gap: 12px; padding: 12px 0; }
+    .game-page.rush-page .rush-story { display: block; }
+    .rush-runner { flex-direction: row; justify-content: space-between; align-items: center; margin-top: 10px; font-size: 0.8125rem; }
+    .game-page.rush-page .rush-panel { padding: 10px; }
+    .rush-scoreboard > div { display: flex; flex-direction: column; padding: 0 5px; gap: 4px; }
+    .rush-scoreboard span { font-size: 0.6875rem; }
+    .rush-scoreboard strong { font-size: 1.5rem; }
+    .rush-scoreboard .rush-ball-status strong { font-size: 0.75rem; }
+    .rush-field-wrap { flex: none; width: 100%; height: auto; aspect-ratio: 1064 / 552; container-type: inline-size; }
+    .game-page.rush-page #gameCanvas { width: 100%; max-height: none; }
+    .rush-overlay { padding: 10px 14px; }
+    .rush-overlay span { font-size: 0.75rem; }
+    .rush-controls { flex-direction: column; align-items: stretch; }
+    .rush-actions { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 6px; }
+    .rush-controls button { padding: 8px 6px; font-size: 0.8125rem; }
+    .rush-controls .button { min-width: 0; }
+    .game-page.rush-page .touch-controls { justify-content: center; gap: 8px; }
+    .game-page.rush-page .touch-controls button { width: 48px; height: 48px; }
+    .rush-legend { gap: 6px 12px; font-size: 0.75rem; }
+    .game-page.rush-page .game-status { min-height: 2.8em; }
+    .game-page.rush-page .rush-help p { font-size: 0.8125rem; }
+}
+@media (max-height: 650px) and (min-width: 701px) {
+    .game-page.rush-page .site-shell { height: auto; min-height: 640px; }
+    .rush-field-wrap { flex: none; height: 300px; }
+}
+
+/* Give the field the full page width instead of fitting it into spare height. */
+.game-page.rush-page .site-shell {
+    width: 100%; max-width: none; height: auto; min-height: 100dvh;
+    padding-inline: clamp(8px, 1vw, 20px); display: flex; flex-direction: column;
+}
+.game-page.rush-page .rush-layout { flex: none; gap: 8px; padding: 6px 0; }
+.game-page.rush-page .rush-story { gap: 12px; }
+.game-page.rush-page .game-story h1 { font-size: clamp(1.5rem, 2vw, 2rem); margin: 0; }
+.game-page.rush-page .game-intro .eyebrow, .game-page.rush-page .game-intro > p:last-child { display: none; }
+.rush-runner { flex-direction: row; align-items: center; gap: 16px; }
+.game-page.rush-page .field-panel.rush-panel { flex: none; padding: 8px; }
+.rush-scoreboard { grid-template-columns: 0.65fr 1fr 1fr 0.8fr 1.5fr; padding-bottom: 6px; }
+.rush-scoreboard strong { font-size: 1.4rem; }
+.rush-view-frame { position: relative; min-width: 0; }
+.rush-field-wrap { display: block; place-items: start; flex: none; width: 100%; height: auto; aspect-ratio: auto; overflow-x: auto; overflow-y: hidden; container-type: normal; scrollbar-width: thin; scrollbar-color: #8ebaa6 #102c31; }
+.game-page.rush-page #gameCanvas { display: block; width: 100%; height: auto; max-width: none; max-height: none; outline-offset: -3px; }
+.rush-toolbar { padding-top: 4px; }
+.rush-legend { flex: 1; }
+.rush-view-toggle { display: none; }
+.rush-efficiency { margin: 6px 0 0; color: #ffe4a1; font-size: 0.8125rem; }
+.game-page.rush-page .game-status { margin: 5px 0; }
+.game-page.rush-page .rush-help { padding: 3px 0; }
+.rush-help summary { cursor: pointer; font-size: 0.875rem; }
+.rush-help[open] p { padding-top: 8px; max-width: 1000px; }
+.game-page.rush-page .site-footer { margin-top: auto; }
+@media (max-width: 700px) {
+    .game-page.rush-page .rush-story { display: flex; flex-wrap: wrap; gap: 6px; }
+    .game-page.rush-page .game-story h1 { font-size: 1.5rem; }
+    .rush-runner { margin-top: 0; gap: 8px; width: 100%; }
+    .rush-scoreboard { grid-template-columns: repeat(4, 1fr); gap: 4px 0; }
+    .rush-scoreboard > div { flex-direction: column; justify-content: space-between; }
+    .rush-scoreboard .rush-ball-status { grid-column: 1 / -1; flex-direction: row; justify-content: center; gap: 12px; padding-top: 4px; }
+    .rush-scoreboard span { font-size: 0.6875rem; }
+    .rush-scoreboard strong { font-size: 1.25rem; }
+    .game-page.rush-page #gameCanvas { width: max(100%, 850px); }
+    .game-page.rush-page .is-overview #gameCanvas { width: 100%; }
+    .rush-view-toggle { display: block; flex: 0 0 auto; background: transparent; color: #c6ded2; border: 1px solid #738e8c; border-radius: 5px; min-height: 32px; padding: 4px 8px; font-size: 0.75rem; }
+    .rush-toolbar { flex-wrap: wrap; }
+    .rush-legend { flex-basis: 100%; font-size: 0.75rem; }
+    .rush-efficiency { font-size: 0.75rem; }
+    .game-page.rush-page .game-status { min-height: 2.8em; }
+    .game-page.rush-page .rush-help p { font-size: 0.875rem; }
+    .rush-overlay { max-width: 88%; }
+}
+@media (max-height: 650px) and (min-width: 701px) {
+    .game-page.rush-page .site-shell { min-height: 100dvh; }
+    .rush-field-wrap { height: auto; }
+}
+.rush-controls { position: sticky; top: 0; bottom: auto; z-index: 2; padding: 6px 0; background: #10272e; }
+@media (max-width: 700px) {
+    .rush-controls { padding-bottom: max(6px, env(safe-area-inset-bottom)); }
+}
+.rush-contact-rule { margin: 0 0 6px; padding: 8px 10px; border: 1px solid #82b9a1; border-radius: 5px; background: #163b36; color: #e7fff0; font-size: 0.875rem; line-height: 1.35; }
+.rush-contact-rule[data-burst='true'] { background: #603427; border-color: #ffc291; color: #fff1dd; }
+.game-page.rush-page .touch-controls button { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2px; width: 68px; height: 56px; }
+.rush-move-outcome { font-size: 0.625rem; font-weight: 700; line-height: 1; letter-spacing: 0.02em; }
+.rush-controls button[data-outcome='tackle'], .rush-controls button[data-outcome='expired'] { background: #702e39; border-color: #ffa3ad; color: #fff; }
+.rush-controls button[data-outcome='protected'] { border-color: #a7ffd2; color: #c5ffda; }
+.rush-controls button[data-outcome='blocked'] { border-style: dashed; color: #bfcdcf; }
+@media (max-width: 700px) {
+    .game-page.rush-page .touch-controls { gap: 4px; }
+    .rush-vertical { gap: 4px; }
+    .game-page.rush-page .touch-controls button { width: 52px; height: 56px; padding-inline: 2px; }
+    .rush-contact-rule { font-size: 0.8125rem; }
+}
+/* Live feedback stays against the field instead of below the legend. */
+.rush-panel > #game-status { margin: 0; padding: 8px 12px; min-height: 2.5em; border-left: 4px solid #ffdb64; border-radius: 6px; background: #10252c; color: #fff; font-size: 0.875rem; line-height: 1.5; }

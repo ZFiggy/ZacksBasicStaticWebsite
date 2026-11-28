@@ -1,0 +1,11 @@
+{
+    "eagles": {
+        "source": "https://www.philadelphiaeagles.com/team/depth-chart-app",
+        "reviewedAt": "2026-11-26",
+        "note": "ESPN's depth-chart endpoint omits WR/TE and special-team slots. Prefer the official starters only while they remain active and position-eligible.",
+        "roles": {
+            "receiver": ["4241478", "4870795", "4715355"],
+            "holder": ["4035239"]
+        }
+    }
+}

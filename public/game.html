@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#004c54">
-    <meta name="description" content="Take the field in midnight green. Collect footballs in Eagles Field Run.">
-    <title>Eagles Field Run · Zack’s Eagles Arcade</title>
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <meta name="description" content="Collect the football, dodge the rival rush, and score in Touchdown Rush. Random fields with verified winning routes.">
+    <title>Touchdown Rush · Sunday Arcade</title>
+    <link rel="icon" href="assets/football.svg" type="image/svg+xml">
     <script src="scripts/theme.js"></script>
     <script src="scripts/teams-data.js"></script>
     <script src="scripts/teams.js"></script>
@@ -15,6 +15,8 @@
     <script defer src="scripts/game-personality.js"></script>
     <script defer src="scripts/team-rules.js"></script>
     <script defer src="scripts/character-art.js"></script>
+    <script defer src="scripts/player-roster.js"></script>
+    <script defer src="scripts/player-motion.js"></script>
     <script defer src="scripts/team-ui.js"></script>
     <script defer src="scripts/playbook-data.js"></script>
     <script defer src="scripts/arcade.js"></script>
@@ -22,12 +24,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="teams.css">
     <link rel="stylesheet" href="game-screen.css">
+    <link rel="stylesheet" href="touchdown.css">
     <script defer src="scripts/football-art.js"></script>
     <script defer src="scripts/team-art.js"></script>
+    <script defer src="scripts/touchdown-rules.js"></script>
     <script defer src="scripts/game.js"></script>
     <script defer src="scripts/game-screen.js"></script>
+    <link rel="stylesheet" href="game-demo.css">
+    <script defer src="scripts/game-demo.js"></script>
 </head>
-<body class="game-page">
+<body class="game-page rush-page">
     <a class="skip-link" href="#main-content">Skip to content</a>
     <noscript><p class="script-notice">Turn on JavaScript to play the games, save scores, and view your fan locker. You can still explore the <a href="games.html">game lineup</a>.</p></noscript>
     <div class="site-shell">
@@ -38,36 +44,39 @@
                 <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Dark mode</button>
             </div>
         </header>
-        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html" aria-current="page">Field Run</a><a href="kick.html">Field Goals</a><a href="jalen.html">Where’s Jalen?</a><a href="barkley.html">Barkley Bird</a><a href="games.html">All 10 games</a></div>
-        <main id="main-content" tabindex="-1" class="game-layout">
-            <section class="game-story" aria-labelledby="game-title">
-                <div class="game-intro">
-                    <p class="eyebrow">Philadelphia Eagles · Playground</p>
-                    <h1 id="game-title">OWN THE<br><span>FIELD.</span></h1>
-                    <p>Suit up in midnight green. Collect every football and bring it home for Philly.</p>
-                </div>
-                <div class="game-dashboard">
-                    <div class="game-score"><span>FOOTBALLS COLLECTED</span><strong><span id="game-score">0</span> / 2</strong></div>
-                    <p class="game-status" id="game-status" role="status">Take the field. Two footballs to go.</p>
-                    <button class="button game-restart" id="restart-game" type="button">Start again <span aria-hidden="true">↻</span></button>
-                </div>
-                <div class="game-instructions" id="game-instructions">
-                    <h2>The playbook</h2>
-                    <p>Use the arrow keys or W, A, S, D to move. On a phone, hold the buttons below the field to keep moving.</p>
-                    <p>Move your jersey over both footballs to win.</p>
-                </div>
+        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html" aria-current="page">Touchdown Rush</a><a href="playbook.html?game=pocket">Passing Drive</a><a href="kick.html">Field Goals</a><a href="jalen.html">Where’s Jalen?</a><a href="barkley.html">Barkley Bird</a><a href="games.html">All 9 games</a></div>
+        <main id="main-content" tabindex="-1" class="game-layout rush-layout">
+            <section class="game-story rush-story" aria-labelledby="game-title">
+                <div class="game-intro"><p class="eyebrow">FIELD RUN + BLITZ ESCAPE · REIMAGINED</p><h1 id="game-title">TOUCHDOWN RUSH</h1><p>Find the football. Read the rush. Take it all the way.</p></div>
+                <div class="rush-runner"><span id="rush-runner"></span><strong id="rush-matchup"></strong></div>
             </section>
-            <section class="field-panel" aria-label="Eagles Field Run game">
-                <div class="field-heading"><span>PHILADELPHIA</span><span>FIELD RUN</span></div>
-                <canvas id="gameCanvas" width="600" height="800" tabindex="0" aria-label="Football field. Move the number 1 Eagles jersey to collect two footballs." aria-describedby="game-instructions game-status">Use a browser that supports canvas to play Eagles Field Run.</canvas>
-                <div class="touch-controls" role="group" aria-label="Movement controls">
-                    <button type="button" data-direction="ArrowUp" aria-label="Move up">↑</button>
-                    <button type="button" data-direction="ArrowLeft" aria-label="Move left">←</button>
-                    <button type="button" data-direction="ArrowDown" aria-label="Move down">↓</button>
-                    <button type="button" data-direction="ArrowRight" aria-label="Move right">→</button>
+            <section class="field-panel rush-panel" aria-label="Touchdown Rush football game">
+                <div class="rush-scoreboard">
+                    <div><span>LEVEL</span><strong id="game-score">1</strong></div>
+                    <div><span>STEPS LEFT</span><strong id="rush-steps">0</strong></div>
+                    <div><span>STEP BONUS</span><strong id="rush-bonus">0</strong></div>
+                    <div><span>BEST DRIVE</span><strong id="rush-best">0</strong></div>
+                    <div class="rush-ball-status"><span>POSSESSION</span><strong id="rush-possession">FIND THE BALL</strong></div>
                 </div>
-                <button class="expand-game" data-expand-game type="button" hidden>Expand game</button>
+                <div class="rush-controls">
+                    <div class="rush-actions"><button class="button" id="rush-action" type="button">Start level</button><button id="restart-game" type="button">Retry field</button><button id="rush-hint" type="button">Coach hint</button></div>
+                    <div class="touch-controls" role="group" aria-label="Movement controls">
+                        <button type="button" data-direction="ArrowLeft" aria-label="Move left">←</button>
+                        <div class="rush-vertical"><button type="button" data-direction="ArrowUp" aria-label="Move up">↑</button><button type="button" data-direction="ArrowDown" aria-label="Move down">↓</button></div>
+                        <button type="button" data-direction="ArrowRight" aria-label="Move right">→</button>
+                        <button id="rush-wait" type="button" aria-label="Wait one step">Wait</button>
+                    </div>
+                </div>
+                <p class="rush-contact-rule" id="rush-contact-rule" role="status"></p>
+                <div class="rush-view-frame"><div class="rush-field-wrap">
+                    <canvas id="gameCanvas" width="1064" height="552" tabindex="0" aria-label="Horizontal football field" aria-describedby="game-instructions game-status">Use a browser that supports canvas to play Touchdown Rush.</canvas>
+                    </div><div class="rush-overlay" id="rush-overlay"><strong id="rush-overlay-title">LEVEL 1</strong><span id="rush-overlay-copy"></span></div>
+                </div>
+                <div class="rush-toolbar"><div class="rush-legend"><span>+ Your shield: tile + four neighbors</span><span>■ Rival blocker: blocks movement</span><span>! Chaser: tackles on contact · <span id="rush-rival">Rival defense</span></span><span id="rush-burst">DEFENDERS CHASE</span></div><button id="rush-view" class="rush-view-toggle" type="button">Full field</button><button class="expand-game" data-expand-game type="button" hidden>Expand game</button></div>
+                <p id="rush-efficiency" class="rush-efficiency"></p>
+                <p class="game-status" id="game-status" role="status" aria-live="polite">Defenders will chase you. Get the ball and make every step count.</p>
             </section>
+            <details class="game-instructions rush-help" id="game-instructions"><summary>Controls &amp; scoring</summary><p>Hold arrows / WASD or the direction buttons to run. Space / Wait lets a turn pass; P pauses. Rival defenders chase your new position after every step and take a second move on burst turns. Only a chaser sharing your exact tile causes a tackle, whether you run into it or it reaches you after your move. Standing next to a chaser is safe. Stationary rival blockers only block movement; they do not take the ball. Your blockers keep chasers out of the outlined green tiles: their own tile and four neighbors, excluding diagonals. Next-move labels include both moves of a burst. SAFE means this turn only. Running out of steps ends the drive and changes possession even without contact. Collect the football and score in the right end zone before your steps run out. Every step spends 100 bonus points. Match the shortest route for 3 stars; finish within 2 extra steps for 2 stars. Coach hints cost 250 points each and cap the award at 1 star. On a turnover, the rival recovers the football and returns it to the left end zone. Drag the field to scout ahead on phones, or use Full field for an overview.</p></details>
         </main>
         <footer class="site-footer"><p>ZACK / PHILLY <span class="footer-divider">·</span> An unofficial fan project.</p><a href="counter.html">Visit the Eagles scoreboard</a></footer>
     </div>

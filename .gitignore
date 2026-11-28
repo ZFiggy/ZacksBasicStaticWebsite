@@ -81,3 +81,9 @@ firebase-adminsdk*.json
 
 # dataconnect generated files
 .dataconnect
+
+# Re-downloadable credited portrait references; keep queue and generated game art.
+/tools/player-likenesses/references/
+/tools/player-likenesses/reference-*.jpg
+
+/tools/player-likenesses/pending-reference-*.jpg

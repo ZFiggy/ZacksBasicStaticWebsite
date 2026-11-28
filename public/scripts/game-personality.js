@@ -6,6 +6,7 @@
     const eaglesOrder = ['game', 'kick', 'pocket', 'shove', 'recall', 'punt', 'blitz', 'signal'];
     const images = new Map();
     const alphaBounds = new WeakMap();
+    const characterSprites = new WeakMap();
     const observers = [];
 
     function imageFor(src) {
@@ -31,6 +32,7 @@
         image.alt = `${team.name}: ${photo.alt || 'home crowd'}`;
         image.decoding = 'async';
         image.style.objectPosition = photo.objectPosition || 'center';
+        if (photo.frameScale) image.style.setProperty('--team-photo-scale', photo.frameScale);
         if (element.classList.contains('team-choice-art')) {
             image.loading = 'lazy';
             element.replaceChildren(image);
@@ -59,12 +61,92 @@
         const roles = {game: 'runner', kick: 'kicker', pocket: 'quarterback', shove: 'runner', recall: 'quarterback', punt: 'kicker', blitz: 'defender', signal: 'quarterback'};
         if (roles[id]) {
             const teamIndex = Object.keys(profiles).indexOf(team.id);
-            return {src: `assets/characters/cast-${Math.floor(teamIndex / 4)}.png`, cols: 4, rows: 4, index: teamIndex % 4 * 4 + ['runner', 'quarterback', 'kicker', 'defender'].indexOf(roles[id]), trimAlpha: true, character: true};
+            const sheet = Math.floor(teamIndex / 4);
+            return {src: `assets/characters/cast-${sheet}${sheet === 0 ? '-v2' : ''}.png`, cols: 4, rows: 4, index: teamIndex % 4 * 4 + ['runner', 'quarterback', 'kicker', 'defender'].indexOf(roles[id]), trimAlpha: true, character: true};
         }
         return {src: `assets/game-covers/${team.id}.png`, cols: team.id === 'eagles' ? 4 : 5, rows: 2, index: (team.id === 'eagles' ? eaglesOrder : order).indexOf(id), focusY: focusY[id]};
     }
 
+    // The illustrated sheets are not an exact grid: hands and feet cross cell
+    // boundaries. Separate connected silhouettes before framing each character.
+    function spritesFor(image, cols, rows) {
+        if (characterSprites.has(image)) return characterSprites.get(image);
+        const sample = document.createElement('canvas');
+        sample.width = image.naturalWidth;
+        sample.height = image.naturalHeight;
+        const context = sample.getContext('2d', {willReadFrequently: true});
+        context.drawImage(image, 0, 0);
+        const {width, height} = sample;
+        const pixels = context.getImageData(0, 0, width, height).data;
+        const labels = new Int32Array(width * height);
+        const queue = new Int32Array(labels.length);
+        const components = [];
+        let label = 0;
+        for (let start = 0; start < labels.length; start++) {
+            if (labels[start] || pixels[start * 4 + 3] < 40) continue;
+            label++;
+            let head = 0, tail = 1;
+            let left = width, top = height, right = 0, bottom = 0;
+            queue[0] = start;
+            labels[start] = label;
+            while (head < tail) {
+                const position = queue[head++];
+                const px = position % width, py = Math.floor(position / width);
+                left = Math.min(left, px); right = Math.max(right, px);
+                top = Math.min(top, py); bottom = Math.max(bottom, py);
+                for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+                    if (px + dx < 0 || px + dx >= width || py + dy < 0 || py + dy >= height) continue;
+                    const next = position + dy * width + dx;
+                    if (labels[next] || pixels[next * 4 + 3] < 40) continue;
+                    labels[next] = label;
+                    queue[tail++] = next;
+                }
+            }
+            if (tail < 3000) continue;
+            const index = Math.min(rows - 1, Math.floor((top + bottom) / 2 / height * rows)) * cols
+                + Math.min(cols - 1, Math.floor((left + right) / 2 / width * cols));
+            if (!components[index] || components[index].area < tail) components[index] = {label, left, top, right, bottom, area: tail};
+        }
+        const sprites = components.map(part => {
+            const left = Math.max(0, part.left - 2), top = Math.max(0, part.top - 2);
+            const sprite = document.createElement('canvas');
+            sprite.width = Math.min(width, part.right + 3) - left;
+            sprite.height = Math.min(height, part.bottom + 3) - top;
+            sprite.sourceBounds = {left, top};
+            const spriteContext = sprite.getContext('2d');
+            const data = spriteContext.createImageData(sprite.width, sprite.height);
+            for (let sy = 0; sy < sprite.height; sy++) for (let sx = 0; sx < sprite.width; sx++) {
+                const px = left + sx, py = top + sy, position = py * width + px;
+                let belongs = labels[position] === part.label;
+                // Retain the original antialiased fringe, but exclude neighbors.
+                if (!labels[position] && pixels[position * 4 + 3]) {
+                    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+                        if (px + dx >= 0 && px + dx < width && py + dy >= 0 && py + dy < height
+                            && labels[position + dy * width + dx] === part.label) belongs = true;
+                    }
+                }
+                if (belongs) data.data.set(pixels.subarray(position * 4, position * 4 + 4), (sy * sprite.width + sx) * 4);
+            }
+            spriteContext.putImageData(data, 0, 0);
+            return sprite;
+        });
+        characterSprites.set(image, sprites);
+        return sprites;
+    }
+
     function drawCover(ctx, image, cover, x, y, width, height, fit = 'cover') {
+        if (cover.character) {
+            const sprite = spritesFor(image, cover.cols, cover.rows)[cover.index];
+            if (sprite) {
+                const scale = Math.min(width / sprite.width, height / sprite.height);
+                ctx.save();
+                ctx.imageSmoothingEnabled = true;
+                ctx.imageSmoothingQuality = 'high';
+                ctx.drawImage(sprite, x + (width - sprite.width * scale) / 2, y + (height - sprite.height * scale) / 2, sprite.width * scale, sprite.height * scale);
+                ctx.restore();
+                return;
+            }
+        }
         let tileWidth = image.naturalWidth / cover.cols;
         let tileHeight = image.naturalHeight / cover.rows;
         let sourceX = cover.index % cover.cols * tileWidth;
@@ -146,8 +228,6 @@
                     sky.addColorStop(1, team.primary);
                     ctx.fillStyle = sky;
                     ctx.fillRect(0, 0, canvas.width, canvas.height);
-                    ctx.fillStyle = '#ffffff44';
-                    for (let i = 0; i < 7; i++) ctx.fillRect(canvas.width * i / 7, canvas.height * 0.15, 12 * ratio, 3 * ratio);
                 }
                 if (cover.character) {
                     const world = await imageFor(`assets/game-covers/${team.id}.png`);
@@ -171,6 +251,10 @@
     for (const team of api.teams) {
         const profile = profiles[team.id];
         if (!profile) continue;
+        team.games.game = 'Touchdown Rush';
+        team.games.pocket = 'Passing Drive';
+        profile.gameHooks.pocket = 'Call a route, work the pocket against the rival rush, and lead a receiver. Control the catcher to finish the drive.';
+        profile.gameHooks.game = `Run with ${profile.runner.name}. Outrun rival chasers, collect the football, and score with fewer steps for more stars.`;
         team.games.bird = profile.flierTitle;
         profile.gameHooks.bird = `${profile.runner.name} takes flight in ${profile.flierTitle}. Carry the football through the hometown obstacles and chase the next gap.`;
         const searchPlayer = window.NFL_PHOTO_SCENES?.[team.id]?.playerName || profile.searchPlayer?.name || profile.quarterback.name;
@@ -196,5 +280,6 @@
     api.paintGameArt = paintGameArt;
     api.loadGameImage = imageFor;
     api.drawGameCover = drawCover;
+    api.characterSpritesFor = spritesFor;
     window.addEventListener('pagehide', () => observers.forEach(observer => observer.disconnect()));
 })();

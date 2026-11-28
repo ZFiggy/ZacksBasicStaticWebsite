@@ -1,0 +1,444 @@
+{
+    "note": "Representative home-field-inspired paint, not a claim of exact current stadium reproduction.",
+    "assets": [
+        {
+            "team": "cowboys",
+            "kind": "logo",
+            "file": "cowboys-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "cowboys",
+            "kind": "wordmark",
+            "file": "cowboys-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/DAL.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "giants",
+            "kind": "logo",
+            "file": "giants-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "giants",
+            "kind": "wordmark",
+            "file": "giants-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/NYG.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "commanders",
+            "kind": "logo",
+            "file": "commanders-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "commanders",
+            "kind": "wordmark",
+            "file": "commanders-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/WAS.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "bears",
+            "kind": "logo",
+            "file": "bears-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "bears",
+            "kind": "wordmark",
+            "file": "bears-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/CHI.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "lions",
+            "kind": "logo",
+            "file": "lions-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "lions",
+            "kind": "wordmark",
+            "file": "lions-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/DET.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "packers",
+            "kind": "logo",
+            "file": "packers-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "packers",
+            "kind": "wordmark",
+            "file": "packers-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/GB.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "vikings",
+            "kind": "logo",
+            "file": "vikings-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "vikings",
+            "kind": "wordmark",
+            "file": "vikings-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/MIN.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "falcons",
+            "kind": "logo",
+            "file": "falcons-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "falcons",
+            "kind": "wordmark",
+            "file": "falcons-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/ATL.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "panthers",
+            "kind": "logo",
+            "file": "panthers-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "panthers",
+            "kind": "wordmark",
+            "file": "panthers-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/CAR.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "saints",
+            "kind": "logo",
+            "file": "saints-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "saints",
+            "kind": "wordmark",
+            "file": "saints-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/NO.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "buccaneers",
+            "kind": "logo",
+            "file": "buccaneers-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "buccaneers",
+            "kind": "wordmark",
+            "file": "buccaneers-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/TB.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "cardinals",
+            "kind": "logo",
+            "file": "cardinals-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "cardinals",
+            "kind": "wordmark",
+            "file": "cardinals-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/ARI.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "rams",
+            "kind": "logo",
+            "file": "rams-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "rams",
+            "kind": "wordmark",
+            "file": "rams-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/LAR.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "49ers",
+            "kind": "logo",
+            "file": "49ers-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "49ers",
+            "kind": "wordmark",
+            "file": "49ers-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/SF.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "seahawks",
+            "kind": "logo",
+            "file": "seahawks-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "seahawks",
+            "kind": "wordmark",
+            "file": "seahawks-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/SEA.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "bills",
+            "kind": "logo",
+            "file": "bills-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "bills",
+            "kind": "wordmark",
+            "file": "bills-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/BUF.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "dolphins",
+            "kind": "logo",
+            "file": "dolphins-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "dolphins",
+            "kind": "wordmark",
+            "file": "dolphins-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/MIA.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "patriots",
+            "kind": "logo",
+            "file": "patriots-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "patriots",
+            "kind": "wordmark",
+            "file": "patriots-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/NE.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "jets",
+            "kind": "logo",
+            "file": "jets-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "jets",
+            "kind": "wordmark",
+            "file": "jets-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/NYJ.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "ravens",
+            "kind": "logo",
+            "file": "ravens-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "ravens",
+            "kind": "wordmark",
+            "file": "ravens-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/BAL.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "bengals",
+            "kind": "logo",
+            "file": "bengals-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "bengals",
+            "kind": "wordmark",
+            "file": "bengals-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/CIN.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "browns",
+            "kind": "logo",
+            "file": "browns-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "browns",
+            "kind": "wordmark",
+            "file": "browns-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/CLE.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "steelers",
+            "kind": "logo",
+            "file": "steelers-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "steelers",
+            "kind": "wordmark",
+            "file": "steelers-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/PIT.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "texans",
+            "kind": "logo",
+            "file": "texans-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "texans",
+            "kind": "wordmark",
+            "file": "texans-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/HOU.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "colts",
+            "kind": "logo",
+            "file": "colts-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "colts",
+            "kind": "wordmark",
+            "file": "colts-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/IND.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "jaguars",
+            "kind": "logo",
+            "file": "jaguars-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "jaguars",
+            "kind": "wordmark",
+            "file": "jaguars-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/JAX.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "titans",
+            "kind": "logo",
+            "file": "titans-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "titans",
+            "kind": "wordmark",
+            "file": "titans-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/TEN.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "broncos",
+            "kind": "logo",
+            "file": "broncos-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "broncos",
+            "kind": "wordmark",
+            "file": "broncos-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/DEN.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "chiefs",
+            "kind": "logo",
+            "file": "chiefs-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "chiefs",
+            "kind": "wordmark",
+            "file": "chiefs-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/KC.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "raiders",
+            "kind": "logo",
+            "file": "raiders-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "raiders",
+            "kind": "wordmark",
+            "file": "raiders-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/LV.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "chargers",
+            "kind": "logo",
+            "file": "chargers-logo.png",
+            "source": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        },
+        {
+            "team": "chargers",
+            "kind": "wordmark",
+            "file": "chargers-wordmark.png",
+            "source": "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/wordmarks/LAC.png",
+            "rights": "Team trademark; unofficial fan project. Wordmark archive: nflverse."
+        }
+    ],
+    "references": [
+        "https://www.bengals.com/news/bengals-fashion-change-727230",
+        "https://www.49ers.com/photos/gameday-ready-49ers-red-end-zones-are-back-divisional-playoffs-san-francisco-levis-stadium",
+        "https://www.steelers.com/news/steelers-to-wear-color-rush-uniforms-vs-ne"
+    ]
+}

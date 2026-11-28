@@ -24,12 +24,6 @@ window.playbookGames = {
         rules: 'Set power and loft, then Punt. Wind changes on each of five kicks. Low loft rolls farther; high loft softens the bounce. Finish between 80 and 100 yards for points, with the most near 98. At 100 or beyond it is a touchback worth zero. The preview predicts landing, not the roll.',
         unit: 'points', goal: 300, badge: 'Pinned deep'
     },
-    blitz: {
-        title: 'Blitz Escape', category: 'strategy', mark: 'BLITZ', tagline: 'Every step gives the rush a turn.',
-        description: 'A turn-based pocket puzzle. Use your blockers to outmaneuver a pursuing defender.',
-        rules: 'Move with arrows, WASD, or the direction buttons. Reach the TD square in 16 steps. The red rusher moves one square after every step, choosing a shortest path around silver blockers. Blocked steps do not cost a turn. The marked square shows the rush toward your current spot; it recalculates after your move. Clear three different fields.',
-        unit: 'fields', goal: 3, badge: 'Rush hour escape'
-    },
     signal: {
         title: 'Sideline Cipher', category: 'strategy', mark: 'CALL', tagline: 'Crack the call before fourth down.',
         description: 'Decode a secret three-play call using exact and misplaced clues. No repeated plays.',
@@ -48,3 +42,11 @@ for (const [id, game] of Object.entries(window.playbookGames)) {
     if (rule) game.rules = `${rule.theme}. ${rule.description} ${id === 'signal' ? 'Select three plays and send your call. Use EXACT and SHIFT feedback to solve the order.' : id === 'recall' ? 'Watch the route pads, then answer with keys 1–4 or buttons. Clear eight rounds; replay once per round.' : game.rules}`;
     game.badge = `${team.short} ${game.badge}`;
 }
+
+// Passing Drive replaces the original lane-selection Pocket Read, preserving its record slot.
+Object.assign(window.playbookGames.pocket, {
+    title: 'Passing Drive', tagline: 'Call the route. Work the pocket. Run after the catch.',
+    description: 'Choose slants, flood, or crossing routes. Evade the rival rush, lead a receiver, and run after the catch across three football drives.',
+    rules: 'Four downs to gain ten yards. Choose a route and snap with Space. Move with arrows / WASD, throw with 1–3, then control the receiver. Bullet passes are fast; lobs clear underneath defenders. P pauses.',
+    goal: 7
+});

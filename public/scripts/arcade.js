@@ -3,7 +3,7 @@ class FanArcade {
         this.games = Object.fromEntries(window.teamArcade.games.map(game => [game.href, game.title]));
         this.badges = [
             { id: 'touchdown', title: 'On the board', detail: 'Score your first seven-click touchdown.', key: 'clickCount', goal: 7, mark: 'TD', href: 'counter.html' },
-            { id: 'field', title: 'Clean sweep', detail: `Collect both footballs for the ${window.teamArcade.team.nickname}.`, key: 'fieldRunWins', goal: 1, mark: window.teamArcade.team.short, href: 'game.html' },
+            { id: 'field', title: 'Breakaway', detail: `Score a Touchdown Rush touchdown for the ${window.teamArcade.team.nickname}.`, key: 'fieldRunWins', goal: 1, mark: window.teamArcade.team.short, href: 'game.html' },
             { id: 'kicker', title: 'Split the uprights', detail: 'Make three field goals in one round.', key: 'fieldGoalBest', goal: 9, mark: '3×', href: 'kick.html' },
             { id: 'jalen', title: 'Crowd detective', detail: `Find ${window.NFL_PHOTO_SCENES?.[window.teamArcade.team.id]?.playerName || 'Jalen Hurts'} in all five scenes.`, key: 'jalenCleared', goal: 5, mark: '01', href: 'jalen.html' },
             { id: 'barkley', title: 'Cleared for takeoff', detail: `Clear five gaps in ${window.teamArcade.team.games.bird}.`, key: 'barkleyBest', goal: 5, mark: window.teamArcade.team.short, href: 'barkley.html' }

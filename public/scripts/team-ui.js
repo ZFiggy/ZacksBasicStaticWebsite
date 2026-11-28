@@ -24,7 +24,7 @@
         }
         const change = document.createElement('a');
         change.className = 'switch-team';
-        change.href = `choose.html?next=${encodeURIComponent(api.safeNext(location.href))}`;
+        change.href = 'choose.html';
         change.textContent = `${team.short} · Switch team`;
         change.setAttribute('aria-label', `Current team: ${team.name}. Switch team`);
         actions.append(change);
@@ -47,7 +47,7 @@
     set('[data-team-city]', team.city);
     set('[data-team-nickname]', team.nickname);
     set('[data-team-motto]', team.motto);
-    set('[data-team-setting]', api.media ? `${team.city} football. Real team moments, home colors, and ten ways to play.` : team.setting);
+    set('[data-team-setting]', api.media ? `${team.city} football. Real team moments, home colors, and nine ways to play.` : team.setting);
     set('[data-team-division]', `${team.conference} ${team.division}`);
     set('[data-team-short]', team.short);
     const feature = document.querySelector('.lobby-team-art');
@@ -72,12 +72,12 @@
     if (game) document.title = `${game.title} · ${team.name} · Sunday Arcade`;
     else document.title = `${team.name} · Sunday Arcade`;
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', team.primary);
-    document.querySelector('meta[name="description"]')?.setAttribute('content', `${team.name} fan arcade. ${team.motto} Ten team-inspired games, saved records, and fan standings.`);
+    document.querySelector('meta[name="description"]')?.setAttribute('content', `${team.name} fan arcade. ${team.motto} Nine team-inspired games, saved records, and fan standings.`);
     if (page === 'game.html') {
         set('#game-title', team.games.game.toUpperCase());
         set('.game-intro > p:last-child', personality?.gameHooks.game || `Bring every football home for the ${team.nickname}.`);
         set('.field-heading span:first-child', team.city.toUpperCase());
-        document.getElementById('gameCanvas').setAttribute('aria-label', `${team.name} field. Move your team jersey to collect two footballs.`);
+        document.getElementById('gameCanvas').setAttribute('aria-label', `${team.name} field. Collect the football and carry it to the right end zone.`);
     }
     if (page === 'kick.html') {
         set('.game-intro h1', team.games.kick.toUpperCase());
@@ -111,7 +111,7 @@
         set('.throw-quarterback text', personality.quarterback.number);
         set('.touchdown-receiver text', personality.runner.number);
         const backdrop = document.querySelector('.eagles-backdrop');
-        if (backdrop && team.id !== 'eagles') {
+        if (backdrop && api.media?.scoreboard) {
             backdrop.replaceChildren();
             const art = document.createElement('div'); art.className = 'counter-team-art';
             api.paintTeamPhoto(art, 'scoreboard');

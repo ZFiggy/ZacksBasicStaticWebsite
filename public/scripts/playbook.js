@@ -43,8 +43,6 @@ class Playbook {
             if (this.id === 'pocket' && index >= 0 && index < 3) { event.preventDefault(); this.pass(index); }
             if (this.id === 'recall' && index >= 0 && index < 4) { event.preventDefault(); this.recallInput(index); }
             if (this.id === 'shove' && event.code === 'Space') { event.preventDefault(); this.push(); }
-            const moves = { ArrowUp: [0, -1], w: [0, -1], ArrowDown: [0, 1], s: [0, 1], ArrowLeft: [-1, 0], a: [-1, 0], ArrowRight: [1, 0], d: [1, 0] };
-            if (this.id === 'blitz' && Object.hasOwn(moves, event.key)) { event.preventDefault(); this.move(...moves[event.key]); }
         });
         document.addEventListener('visibilitychange', () => {
             if (document.hidden && this.active && ['pocket', 'shove', 'recall', 'punt'].includes(this.id)) {
@@ -441,105 +439,6 @@ class Playbook {
         this.frame = requestAnimationFrame(tick);
     }
 
-    blitz() {
-        this.fields = [
-            { player: [2, 5], rusher: [5, 5], goal: [2, 0], walls: [[1, 4], [3, 4], [3, 3], [1, 2]] },
-            { player: [0, 5], rusher: [5, 4], goal: [4, 0], walls: [[1, 4], [2, 4], [3, 2], [4, 2], [1, 1]] },
-            { player: [3, 5], rusher: [0, 4], goal: [5, 0], walls: [[2, 4], [3, 3], [4, 3], [1, 2], [4, 1]] }
-        ];
-        const transform = ([x, y], turns) => {
-            if (this.rule.variant === 'mirror') return [5 - x, y];
-            for (let i = 0; i < turns; i++) [x, y] = [5 - y, x];
-            return [x, y];
-        };
-        this.fields = this.fields.map((field, i) => {
-            const turns = this.rule.variant === 'rotate' ? i + 1 : 0;
-            return {player: transform(field.player, turns), rusher: transform(field.rusher, turns), goal: transform(field.goal, turns), walls: field.walls.map(wall => transform(wall, turns))};
-        });
-        this.stage.innerHTML = '<div class="endzone-label">BLITZ ESCAPE · THINK BEFORE YOU STEP</div><div class="blitz-grid" aria-label="Six by six field"></div><p class="blitz-legend">Q: you · R: rusher · ■: blocker · +: rush path · TD: goal</p>';
-        [[ 'Up', 0, -1 ], [ 'Left', -1, 0 ], [ 'Down', 0, 1 ], [ 'Right', 1, 0 ]].forEach(([name, x, y]) => this.button(name, () => this.move(x, y)));
-        this.loadField();
-    }
-
-    loadField() {
-        const field = this.fields[this.score];
-        this.player = [...field.player];
-        this.rusher = [...field.rusher];
-        this.goal = field.goal;
-        this.walls = field.walls;
-        this.steps = 0;
-        this.key = this.rule.variant === 'checkpoint' ? [this.player[0], this.player[1] - 1] : null;
-        this.drawGrid();
-        this.status.textContent = `Field ${this.score + 1}/3 · Escape the rush in 16 steps.`;
-    }
-
-    same(a, b) { return a[0] === b[0] && a[1] === b[1]; }
-
-    walkable(position) {
-        return position.every(value => value >= 0 && value < 6) && !this.walls.some(wall => this.same(position, wall));
-    }
-
-    rushStep(target) {
-        const queue = [{ position: this.rusher, first: null }];
-        const visited = new Set([this.rusher.join(',')]);
-        while (queue.length) {
-            const { position, first } = queue.shift();
-            if (this.same(position, target)) return first || position;
-            for (const [dx, dy] of [[0, -1], [-1, 0], [1, 0], [0, 1]]) {
-                const next = [position[0] + dx, position[1] + dy];
-                if (!this.walkable(next) || visited.has(next.join(','))) continue;
-                visited.add(next.join(','));
-                queue.push({ position: next, first: first || next });
-            }
-        }
-        return this.rusher;
-    }
-
-    drawGrid() {
-        const grid = this.stage.querySelector('.blitz-grid');
-        const forecast = this.rushStep(this.player);
-        grid.replaceChildren();
-        for (let y = 0; y < 6; y++) for (let x = 0; x < 6; x++) {
-            const cell = document.createElement('div');
-            const position = [x, y];
-            const type = this.same(position, this.player) ? 'qb' : this.same(position, this.rusher) ? 'rusher' : this.key && this.same(position, this.key) ? 'key' : this.same(position, this.goal) ? 'goal' : this.walls.some(wall => this.same(position, wall)) ? 'block' : this.same(position, forecast) ? 'forecast' : 'grass';
-            cell.className = `blitz-cell ${type}`;
-            cell.textContent = { key: 'K', qb: 'Q', rusher: 'R', goal: 'TD', block: '■', forecast: '+', grass: '·' }[type];
-            const label = {key: 'Collect this key before TD', qb: this.profile.quarterback.name, rusher: this.profile.defender.name, goal: 'Touchdown', block: 'Blocker', forecast: 'Next rush position', grass: 'Open field'}[type];
-            cell.setAttribute('aria-label', `Row ${y + 1}, column ${x + 1}: ${label}`);
-            if (type === 'qb' || type === 'rusher') {
-                cell.textContent = '';
-                window.teamCharacters.paint(cell, type === 'qb' ? 'quarterback' : 'defender');
-            }
-            grid.append(cell);
-        }
-    }
-
-    move(dx, dy) {
-        if (!this.active || this.fieldLocked) return;
-        const next = [this.player[0] + dx, this.player[1] + dy];
-        if (!this.walkable(next)) { this.status.textContent = 'Blocked. Choose another square; no turn spent.'; return; }
-        this.player = next;
-        this.steps++;
-        if (this.same(this.player, this.rusher)) { this.drawGrid(); this.finish('You ran into the rush.'); return; }
-        if (this.key && this.same(this.player, this.key)) this.key = null;
-        if (this.same(this.player, this.goal) && !this.key) {
-            this.score++;
-            this.save();
-            this.drawGrid();
-            if (this.score === 3) { this.finish('All three fields cleared!'); return; }
-            this.fieldLocked = true;
-            this.status.textContent = 'Touchdown! Loading the next field.';
-            this.later(() => { this.fieldLocked = false; this.loadField(); }, 900);
-            return;
-        }
-        this.rusher = this.rushStep(this.player);
-        this.drawGrid();
-        if (this.same(this.rusher, this.player)) this.finish('Sacked. Try a different route.');
-        else if (this.steps >= 16) this.finish('Time expired after 16 steps.');
-        else this.status.textContent = `Field ${this.score + 1} / 3 · ${16 - this.steps} steps left. Read the rush.`;
-    }
-
     signal() {
         this.plays = ['Run', 'Slant', 'Screen', 'Post', 'Go'];
         if (this.rule.variant === 'six') this.plays.push('Option');
@@ -587,4 +486,7 @@ class Playbook {
     }
 }
 
-document.playbook = new Playbook();
+const playbookMode = new URLSearchParams(location.search).get('game');
+document.playbook = (!Object.hasOwn(window.playbookGames, playbookMode) || playbookMode === 'pocket')
+    ? (document.passingGame = new PassingGame())
+    : new Playbook();

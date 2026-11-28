@@ -1,0 +1,13 @@
+.game-demo { width: min(680px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); box-sizing: border-box; overflow: auto; padding: clamp(16px, 3vw, 28px); border: 1px solid #729b9d; border-radius: 16px; background: #10272e; color: #f0f7f4; box-shadow: 0 20px 80px #0009; }
+.game-demo::backdrop { background: #031217c9; }
+.game-demo h2 { color: #fff; font-size: clamp(1.4rem, 4vw, 2rem); margin: 0 0 12px; }
+.game-demo p { font-size: 1rem; line-height: 1.5; margin: 12px 0; color: #e0eee7; }
+.game-demo .demo-kicker { color: #b9f1cd; font-size: 0.875rem; margin-top: 0; }
+.demo-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.game-demo button, .demo-replay { font: inherit; font-size: 0.875rem; cursor: pointer; min-height: 44px; border: 1px solid #8db5a8; border-radius: 6px; padding: 8px 14px; background: #203d43; color: #fff; }
+.game-demo button[data-primary] { background: #b9f1cd; color: #102c24; }
+.game-demo button:disabled { opacity: 0.5; cursor: default; }
+.game-demo canvas { display: block; width: 100%; height: auto; border-radius: 8px; background: #173e34; }
+.game-demo [hidden] { display: none; }
+.demo-replay { align-self: center; flex-shrink: 0; }
+.game-page.kick-page .demo-replay { grid-column: 1 / -1; justify-self: end; }

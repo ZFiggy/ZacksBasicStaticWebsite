@@ -1,0 +1,83 @@
+/* Give the field the page width, with a compact control console beside it. */
+.game-page.nfl-page.passing-page .site-shell { width: 100%; max-width: none; height: auto; min-height: 100dvh; padding-inline: clamp(8px, 1vw, 20px); display: flex; flex-direction: column; }
+.game-page.nfl-page.passing-page .game-layout { display: block; padding-block: 8px; }
+.game-page.nfl-page.passing-page .game-story { max-width: none; display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 8px 20px; }
+.passing-page .game-intro h1 { margin: 0 !important; font-size: clamp(1.5rem, 2.5vw, 2.4rem) !important; }
+.passing-page .game-intro > p:last-child { margin: 4px 0 8px !important; }
+.passing-page .game-dashboard { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 6px 12px; }
+.passing-page .game-score { display: none; }
+.passing-page .game-dashboard .game-restart { order: 1; }
+.passing-page .game-dashboard .game-status { order: 2; grid-column: 1 / -1; margin: 0; min-height: 2.4em; }
+.passing-page .game-instructions { grid-column: 1 / -1; margin: 0 !important; padding: 6px 0 !important; }
+.passing-page .game-instructions summary { cursor: pointer; font-size: 0.875rem; font-weight: 700; }
+.passing-page .game-instructions details[open] p { margin-top: 8px; }
+.game-page.nfl-page.passing-page .field-panel { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 10px 14px; max-width: none; padding: 10px; }
+.passing-board { grid-column: 1; grid-row: 1; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding: 10px 12px; background: #10252c; color: #fff; border-radius: 8px; font: 700 1rem ui-monospace, monospace; }
+.game-page.nfl-page.passing-page .playbook-stage { grid-column: 1; grid-row: 2; min-width: 0; padding: 0; container-type: normal; overflow: hidden; background: #123e31; border-radius: 8px; }
+.passing-page #passing-canvas { width: 100%; height: auto; aspect-ratio: 1064 / 552; display: block; margin: 0; max-height: none; touch-action: none; }
+.game-page.nfl-page.passing-page .playbook-controls { grid-column: 2; grid-row: 1 / span 3; display: flex; flex-direction: column; justify-content: center; align-items: stretch; padding: 14px; gap: 16px; border-radius: 8px; background: #10252c; }
+.passing-left { display: grid; gap: 14px; }
+.passing-calls, .passing-targets { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.passing-targets { grid-template-columns: 1fr; }
+.passing-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.passing-actions button:first-child { grid-column: 1 / -1; }
+.passing-page .playbook-controls button { min-width: 0; min-height: 44px !important; font-size: 0.875rem !important; }
+.passing-page .passing-actions button:first-child { min-height: 52px !important; background: #ffdb64; color: #10252c; font-weight: 800; }
+.passing-page button[aria-pressed='true'] { background: var(--team-primary); color: var(--team-on-primary); outline: 2px solid var(--team-secondary); outline-offset: -3px; }
+.passing-move { display: grid; grid-template-columns: repeat(3, 44px); justify-content: center; gap: 6px; }
+.passing-move button { padding: 0 !important; touch-action: none; user-select: none; }
+.passing-move button:first-child { grid-column: 2; }
+.passing-move button:nth-child(2) { grid-column: 1; }
+.passing-play-note { grid-column: 1; grid-row: 3; margin: 0; font-size: 0.875rem; }
+.passing-page .demo-replay { grid-column: 2; justify-self: stretch; }
+.passing-page .field-heading { display: none; }
+.game-page.nfl-page.passing-page .site-footer { margin-top: auto; }
+@media (max-width: 1050px) {
+    .game-page.nfl-page.passing-page .field-panel { grid-template-columns: minmax(0, 1fr); }
+    .game-page.nfl-page.passing-page .playbook-controls { grid-column: 1; grid-row: 3; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; padding: 10px; }
+    .passing-left { display: flex; flex-wrap: wrap; gap: 10px; }
+    .passing-targets { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .passing-actions { display: flex; flex-wrap: wrap; }
+    .passing-play-note { grid-row: 4; }
+    .passing-page .demo-replay { grid-column: 1; justify-self: end; }
+}
+@media (max-width: 650px) {
+    .game-page.nfl-page.passing-page .game-story { display: block; }
+    .passing-page .game-dashboard { display: flex; flex-wrap: wrap; gap: 8px; }
+    .passing-page .game-dashboard .game-status { width: 100%; }
+    .passing-page .playbook-best { flex: 1; }
+    .passing-board { font-size: 0.875rem; }
+    .game-page.nfl-page.passing-page .playbook-controls { grid-template-columns: 1fr; gap: 12px; }
+    .passing-left { display: grid; }
+    .passing-move { grid-template-columns: repeat(4, minmax(44px, 1fr)); }
+    .passing-move button:first-child, .passing-move button:nth-child(2) { grid-column: auto; }
+    .passing-page .game-instructions p { font-size: 0.875rem; }
+}
+
+/* Keep the read, play result, and controls beside the field they describe. */
+.passing-page .passing-live-cue { grid-column: 1; grid-row: 2; margin: 0; padding: 8px 12px; border-radius: 6px; background: #183c40; color: #e4f5ed; font-size: 0.875rem; font-weight: 650; }
+.game-page.nfl-page.passing-page .playbook-stage { grid-row: 3; }
+.game-page.nfl-page.passing-page .passing-live-status { grid-column: 1; grid-row: 4; margin: 0; padding: 10px 12px; min-height: 3em; background: #10252c; color: #fff; border-left: 4px solid #ffdb64; border-radius: 6px; font-size: 1rem; line-height: 1.5; }
+.game-page.nfl-page.passing-page .playbook-controls { grid-row: 1 / span 5; }
+.passing-page .passing-play-note { grid-row: 5; }
+.passing-page .passing-actions { grid-template-columns: 1fr 1fr; }
+.passing-page .passing-actions button:disabled { opacity: 0.5; }
+.passing-page .passing-targets button { text-align: left; border-left: 4px solid #b3f7d1; }
+.passing-page .passing-targets button:nth-child(2) { border-left-color: #ffdf91; }
+.passing-page .passing-targets button:nth-child(3) { border-left-color: #bfcfff; }
+.passing-page .passing-actions button:nth-child(5) { touch-action: none; user-select: none; }
+@media (max-width: 1050px) {
+    .game-page.nfl-page.passing-page .playbook-controls { grid-row: 5; }
+    .passing-page .passing-play-note { grid-row: 6; }
+}
+@media (max-width: 650px) {
+    .passing-page .game-intro > p, .passing-page .playbook-best { display: none; }
+    .passing-page .game-dashboard { justify-content: flex-end; }
+    .passing-page .passing-live-cue { line-height: 1.45; }
+    .passing-page .passing-left { gap: 8px; }
+    .passing-page .passing-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .passing-page .passing-actions button:first-child { grid-column: auto; grid-row: span 2; }
+    .passing-page .passing-targets button { padding: 6px !important; text-align: center; }
+    .passing-page .passing-move { gap: 8px; }
+    .passing-page .passing-play-note { line-height: 1.5; }
+}

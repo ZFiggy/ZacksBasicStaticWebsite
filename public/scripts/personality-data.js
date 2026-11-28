@@ -2170,13 +2170,39 @@ window.NFL_PERSONALITIES = {
     }
 };
 window.NFL_TEAM_MEDIA = {
+    "eagles": {
+        "teamId": "eagles",
+        "hero": {
+            "src": "assets/hurts.jpg",
+            "sourcePage": "https://www.philadelphiaeagles.com/photos/commanders-vs-eagles-gameday-photo-gallery-september-13-2026-nfl-week-1",
+            "credit": "Philadelphia Eagles / official team photography",
+            "alt": "Jalen Hurts in a midnight-green Eagles jersey"
+        },
+        "selection": {
+            "src": "assets/hurts.jpg",
+            "sourcePage": "https://www.philadelphiaeagles.com/photos/commanders-vs-eagles-gameday-photo-gallery-september-13-2026-nfl-week-1",
+            "credit": "Philadelphia Eagles / official team photography",
+            "alt": "Jalen Hurts in a midnight-green Eagles jersey"
+        },
+        "scoreboard": {
+            "src": "assets/team-photos/eagles-scoreboard.jpg",
+            "url": "https://static.clubs.nfl.com/image/private/f_jpg,q_90/eagles/vwmupqolrvb0hfyco8p3.jpg",
+            "sourcePage": "https://www.philadelphiaeagles.com/photos/eagles-lincoln-financial-field-20th-anniversary-photo-gallery",
+            "credit": "Kiel Leggere / Philadelphia Eagles",
+            "alt": "Boston Scott carrying the ball into the end zone at Lincoln Financial Field during the January 29, 2023 NFC Championship",
+            "objectPosition": "center 40%",
+            "width": 2560,
+            "height": 1440
+        }
+    },
     "cowboys": {
         "teamId": "cowboys",
         "hero": {
             "src": "assets/team-photos/cowboys/photo-15.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/cowboys/eo82lsg1vpbxvh1unuo2.jpg",
             "sourcePage": "https://www.dallascowboys.com/photos/rank-em-top-20-training-camp-standouts",
             "credit": "www.dallascowboys.com / official team photography",
-            "alt": "Dallas players in navy jerseys and silver helmets at practice"
+            "alt": "Dallas ball carrier running in a navy Cowboys jersey and silver helmet"
         },
         "scoreboard": {
             "src": "assets/team-photos/cowboys-scoreboard.jpg",
@@ -2259,18 +2285,20 @@ window.NFL_TEAM_MEDIA = {
         },
         "selection": {
             "src": "assets/team-photos/cowboys/photo-15.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/cowboys/eo82lsg1vpbxvh1unuo2.jpg",
             "sourcePage": "https://www.dallascowboys.com/photos/rank-em-top-20-training-camp-standouts",
             "credit": "www.dallascowboys.com / official team photography",
-            "alt": "Dallas players in navy jerseys and silver helmets at practice"
+            "alt": "Dallas ball carrier running in a navy Cowboys jersey and silver helmet"
         }
     },
     "giants": {
         "teamId": "giants",
         "hero": {
-            "src": "assets/team-photos/giants/photo-3.jpg",
+            "src": "assets/team-photos/giants/photo-1.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/giants/panz9kt0hly7j9rc3n4q.jpg",
             "sourcePage": "https://www.giants.com/photos/practice-photos-getting-ready-for-mnf-rams-2026",
             "credit": "www.giants.com / official team photography",
-            "alt": "Giants players in royal-blue jerseys and blue Giants helmets"
+            "alt": "New York lineman blocking in a royal-blue Giants jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/giants-scoreboard.jpg",
@@ -2352,19 +2380,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/giants/photo-3.jpg",
+            "src": "assets/team-photos/giants/photo-1.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/giants/panz9kt0hly7j9rc3n4q.jpg",
             "sourcePage": "https://www.giants.com/photos/practice-photos-getting-ready-for-mnf-rams-2026",
             "credit": "www.giants.com / official team photography",
-            "alt": "Giants players in royal-blue jerseys and blue Giants helmets"
+            "alt": "New York lineman blocking in a royal-blue Giants jersey"
         }
     },
     "commanders": {
         "teamId": "commanders",
         "hero": {
-            "src": "assets/team-photos/commanders-scoreboard.jpg",
-            "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
-            "credit": "Emily Faith Morgan/Washington Commanders",
-            "alt": "Washington fans wearing burgundy and gold team shirts"
+            "src": "assets/team-photos/commanders/photo-14.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/commanders/cubx6uyr6rtadipqna0c.jpg",
+            "sourcePage": "https://www.commanders.com/photos/photos-best-of-week-8-practice",
+            "credit": "www.commanders.com / official team photography",
+            "alt": "Washington receiver catching a football in a burgundy Commanders jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/commanders-scoreboard.jpg",
@@ -2446,19 +2476,22 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/commanders-scoreboard.jpg",
-            "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
-            "credit": "Emily Faith Morgan/Washington Commanders",
-            "alt": "Washington fans wearing burgundy and gold team shirts"
+            "src": "assets/team-photos/commanders/photo-14.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/commanders/cubx6uyr6rtadipqna0c.jpg",
+            "sourcePage": "https://www.commanders.com/photos/photos-best-of-week-8-practice",
+            "credit": "www.commanders.com / official team photography",
+            "alt": "Washington receiver catching a football in a burgundy Commanders jersey"
         }
     },
     "bears": {
         "teamId": "bears",
         "hero": {
-            "src": "assets/fan-crowds/bears.jpg",
-            "sourcePage": "https://thankyoufans.chicagobears.com/week-4/index.html",
-            "credit": "Chicago Bears / featured fan-submitted tailgate photograph",
-            "alt": "bears supporters at a home-game tailgate"
+            "src": "assets/team-photos/bears/photo-21.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/bears/c6hvn5uife1xsrcedcir.jpg",
+            "sourcePage": "https://www.chicagobears.com/photos/practice-snaps-kicking-off-training-camp-2026",
+            "credit": "www.chicagobears.com / official team photography",
+            "alt": "Chicago ball carrier running in a navy Bears jersey",
+            "frameScale": 1.2
         },
         "scoreboard": {
             "src": "assets/team-photos/bears-scoreboard.jpg",
@@ -2540,19 +2573,22 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/fan-crowds/bears.jpg",
-            "sourcePage": "https://thankyoufans.chicagobears.com/week-4/index.html",
-            "credit": "Chicago Bears / featured fan-submitted tailgate photograph",
-            "alt": "bears supporters at a home-game tailgate"
+            "src": "assets/team-photos/bears/photo-21.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/bears/c6hvn5uife1xsrcedcir.jpg",
+            "sourcePage": "https://www.chicagobears.com/photos/practice-snaps-kicking-off-training-camp-2026",
+            "credit": "www.chicagobears.com / official team photography",
+            "alt": "Chicago ball carrier running in a navy Bears jersey",
+            "frameScale": 1.2
         }
     },
     "lions": {
         "teamId": "lions",
         "hero": {
             "src": "assets/team-photos/lions/photo-34.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/lions/hmyvebrq6gvs6onmndhj.jpg",
             "sourcePage": "https://www.detroitlions.com/photos/practice-photos-nov-12-2026",
             "credit": "www.detroitlions.com / official team photography",
-            "alt": "Detroit player carrying a football in a Honolulu-blue jersey and silver Lions helmet"
+            "alt": "Detroit ball carrier running in a Honolulu-blue Lions jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/lions-scoreboard.jpg",
@@ -2635,18 +2671,20 @@ window.NFL_TEAM_MEDIA = {
         },
         "selection": {
             "src": "assets/team-photos/lions/photo-34.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/lions/hmyvebrq6gvs6onmndhj.jpg",
             "sourcePage": "https://www.detroitlions.com/photos/practice-photos-nov-12-2026",
             "credit": "www.detroitlions.com / official team photography",
-            "alt": "Detroit player carrying a football in a Honolulu-blue jersey and silver Lions helmet"
+            "alt": "Detroit ball carrier running in a Honolulu-blue Lions jersey"
         }
     },
     "packers": {
         "teamId": "packers",
         "hero": {
-            "src": "assets/team-photos/packers/photo-28.jpg",
-            "sourcePage": "https://www.packers.com/photos/photos-packers-pedal-to-tuesday-s-training-camp-practice-aug-19-2025",
-            "credit": "www.packers.com / official team photography",
-            "alt": "Packers players in green jerseys and gold pants cycling past fans"
+            "src": "assets/team-photos/packers/action-green.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/vikings/rbgivouvo8ocum4fmewl.jpg",
+            "sourcePage": "https://www.vikings.com/photos/green-bay-packers-game-action-2026-lambeau",
+            "credit": "Minnesota Vikings / official team photography",
+            "alt": "Green Bay defender tackling in a green Packers jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/packers-scoreboard.jpg",
@@ -2728,19 +2766,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/packers/photo-28.jpg",
-            "sourcePage": "https://www.packers.com/photos/photos-packers-pedal-to-tuesday-s-training-camp-practice-aug-19-2025",
-            "credit": "www.packers.com / official team photography",
-            "alt": "Packers players in green jerseys and gold pants cycling past fans"
+            "src": "assets/team-photos/packers/action-green.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/vikings/rbgivouvo8ocum4fmewl.jpg",
+            "sourcePage": "https://www.vikings.com/photos/green-bay-packers-game-action-2026-lambeau",
+            "credit": "Minnesota Vikings / official team photography",
+            "alt": "Green Bay defender tackling in a green Packers jersey"
         }
     },
     "vikings": {
         "teamId": "vikings",
         "hero": {
-            "src": "assets/team-photos/vikings/photo-30.jpg",
-            "sourcePage": "https://www.vikings.com/photos/legends-players-visit-veterans-minnesota-va-hospitals",
-            "credit": "www.vikings.com / official team photography",
-            "alt": "Vikings visitor in a purple number 53 jersey greeting fans during a community visit"
+            "src": "assets/team-photos/vikings/action-purple.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/vikings/pqeveigrkc53lwndqamc.jpg",
+            "sourcePage": "https://www.vikings.com/photos/buffalo-bills-game-action-2026-monday-night-football",
+            "credit": "Minnesota Vikings / official team photography",
+            "alt": "Minnesota defender covering a receiver in a purple Vikings jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/vikings-scoreboard.jpg",
@@ -2822,19 +2862,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/vikings/photo-30.jpg",
-            "sourcePage": "https://www.vikings.com/photos/legends-players-visit-veterans-minnesota-va-hospitals",
-            "credit": "www.vikings.com / official team photography",
-            "alt": "Vikings visitor in a purple number 53 jersey greeting fans during a community visit"
+            "src": "assets/team-photos/vikings/action-purple.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/vikings/pqeveigrkc53lwndqamc.jpg",
+            "sourcePage": "https://www.vikings.com/photos/buffalo-bills-game-action-2026-monday-night-football",
+            "credit": "Minnesota Vikings / official team photography",
+            "alt": "Minnesota defender covering a receiver in a purple Vikings jersey"
         }
     },
     "falcons": {
         "teamId": "falcons",
         "hero": {
-            "src": "assets/team-photos/falcons/photo-4.jpg",
-            "sourcePage": "https://www.atlantafalcons.com/photos/training-camp-joint-practice-08-20-26",
+            "src": "assets/team-photos/falcons/photo-31.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/falcons/iuraqc0d2rmifkl4hfec.jpg",
+            "sourcePage": "https://www.atlantafalcons.com/photos/training-camp-practice-08-18-25",
             "credit": "www.atlantafalcons.com / official team photography",
-            "alt": "Atlanta quarterback in a red number 1 jersey and black Falcons helmet at practice"
+            "alt": "Atlanta players competing for a catch in black Falcons jerseys"
         },
         "scoreboard": {
             "src": "assets/team-photos/falcons-scoreboard.jpg",
@@ -2916,19 +2958,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/falcons/photo-4.jpg",
-            "sourcePage": "https://www.atlantafalcons.com/photos/training-camp-joint-practice-08-20-26",
+            "src": "assets/team-photos/falcons/photo-31.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/falcons/iuraqc0d2rmifkl4hfec.jpg",
+            "sourcePage": "https://www.atlantafalcons.com/photos/training-camp-practice-08-18-25",
             "credit": "www.atlantafalcons.com / official team photography",
-            "alt": "Atlanta quarterback in a red number 1 jersey and black Falcons helmet at practice"
+            "alt": "Atlanta players competing for a catch in black Falcons jerseys"
         }
     },
     "panthers": {
         "teamId": "panthers",
         "hero": {
-            "src": "assets/team-photos/panthers/photo-10.jpg",
-            "sourcePage": "https://www.panthers.com/photos/panthers-practice-week-11-vs-ravens-november-19-2026",
-            "credit": "www.panthers.com / official team photography",
-            "alt": "Carolina players in Panthers jerseys with bright blue sleeves and black panther emblems"
+            "src": "assets/team-photos/panthers/action-black-blue.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/panthers/r2an3ud0o6rspgl8wmpe.jpg",
+            "sourcePage": "https://www.panthers.com/photos/game-action-gallery-panthers-vs-ravens-november-22-2026",
+            "credit": "Carolina Panthers / official team photography",
+            "alt": "Carolina player catching a football in a black Panthers jersey with blue trim"
         },
         "scoreboard": {
             "src": "assets/team-photos/panthers-scoreboard.jpg",
@@ -3010,19 +3054,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/panthers/photo-10.jpg",
-            "sourcePage": "https://www.panthers.com/photos/panthers-practice-week-11-vs-ravens-november-19-2026",
-            "credit": "www.panthers.com / official team photography",
-            "alt": "Carolina players in Panthers jerseys with bright blue sleeves and black panther emblems"
+            "src": "assets/team-photos/panthers/action-black-blue.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/panthers/r2an3ud0o6rspgl8wmpe.jpg",
+            "sourcePage": "https://www.panthers.com/photos/game-action-gallery-panthers-vs-ravens-november-22-2026",
+            "credit": "Carolina Panthers / official team photography",
+            "alt": "Carolina player catching a football in a black Panthers jersey with blue trim"
         }
     },
     "saints": {
         "teamId": "saints",
         "hero": {
-            "src": "assets/team-photos/saints/photo-15.jpg",
-            "sourcePage": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-9-fan-photos-august-9-2026",
-            "credit": "www.neworleanssaints.com / official team photography",
-            "alt": "Saints player wearing a black jersey with gold numbers while signing for fans"
+            "src": "assets/team-photos/saints/action-black.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/saints/lojgx2wbgv2fwh6kup9b.jpg",
+            "sourcePage": "https://www.neworleanssaints.com/photos/2025-nfl-week-2-san-francisco-49ers-vs-new-orleans-saints-photos-game-action",
+            "credit": "Michael C. Hebert/New Orleans Saints",
+            "alt": "New Orleans receiver diving for a catch in a black Saints jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/saints-scoreboard.jpg",
@@ -3104,19 +3150,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/saints/photo-15.jpg",
-            "sourcePage": "https://www.neworleanssaints.com/photos/2026-saints-training-camp-training-camp-day-9-fan-photos-august-9-2026",
-            "credit": "www.neworleanssaints.com / official team photography",
-            "alt": "Saints player wearing a black jersey with gold numbers while signing for fans"
+            "src": "assets/team-photos/saints/action-black.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/saints/lojgx2wbgv2fwh6kup9b.jpg",
+            "sourcePage": "https://www.neworleanssaints.com/photos/2025-nfl-week-2-san-francisco-49ers-vs-new-orleans-saints-photos-game-action",
+            "credit": "Michael C. Hebert/New Orleans Saints",
+            "alt": "New Orleans receiver diving for a catch in a black Saints jersey"
         }
     },
     "buccaneers": {
         "teamId": "buccaneers",
         "hero": {
-            "src": "assets/fan-crowds/buccaneers.jpg",
-            "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
-            "credit": "www.buccaneers.com",
-            "alt": "Tampa Bay fans filling the stands in Buccaneers red"
+            "src": "assets/team-photos/buccaneers/photo-17.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/buccaneers/ls7zqkfxngxymji72l0h.jpg",
+            "sourcePage": "https://www.buccaneers.com/photos/photos-buccaneers-practice-week-9-2026",
+            "credit": "www.buccaneers.com / official team photography",
+            "alt": "Tampa Bay linemen blocking in red Buccaneers jerseys"
         },
         "scoreboard": {
             "src": "assets/team-photos/buccaneers-scoreboard.jpg",
@@ -3198,19 +3246,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/fan-crowds/buccaneers.jpg",
-            "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
-            "credit": "www.buccaneers.com",
-            "alt": "Tampa Bay fans filling the stands in Buccaneers red"
+            "src": "assets/team-photos/buccaneers/photo-17.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/buccaneers/ls7zqkfxngxymji72l0h.jpg",
+            "sourcePage": "https://www.buccaneers.com/photos/photos-buccaneers-practice-week-9-2026",
+            "credit": "www.buccaneers.com / official team photography",
+            "alt": "Tampa Bay linemen blocking in red Buccaneers jerseys"
         }
     },
     "cardinals": {
         "teamId": "cardinals",
         "hero": {
-            "src": "assets/fan-crowds/cardinals.jpg",
-            "sourcePage": "https://www.azcardinals.com/photos/photos-fan-friday-best-of-2023",
-            "credit": "Arianna Grainey/Arizona Cardinals",
-            "alt": "Arizona fans in red Cardinals hats and team jerseys"
+            "src": "assets/team-photos/cardinals/photo-26.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/cardinals/dyclgv06l3hngpydumqx.jpg",
+            "sourcePage": "https://www.azcardinals.com/photos/photos-2026-training-camp-at-dignity-health-training-center",
+            "credit": "www.azcardinals.com / official team photography",
+            "alt": "Arizona defenders tackling in red Cardinals jerseys"
         },
         "scoreboard": {
             "src": "assets/team-photos/cardinals-scoreboard.jpg",
@@ -3292,19 +3342,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/fan-crowds/cardinals.jpg",
-            "sourcePage": "https://www.azcardinals.com/photos/photos-fan-friday-best-of-2023",
-            "credit": "Arianna Grainey/Arizona Cardinals",
-            "alt": "Arizona fans in red Cardinals hats and team jerseys"
+            "src": "assets/team-photos/cardinals/photo-26.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/cardinals/dyclgv06l3hngpydumqx.jpg",
+            "sourcePage": "https://www.azcardinals.com/photos/photos-2026-training-camp-at-dignity-health-training-center",
+            "credit": "www.azcardinals.com / official team photography",
+            "alt": "Arizona defenders tackling in red Cardinals jerseys"
         }
     },
     "rams": {
         "teamId": "rams",
         "hero": {
-            "src": "assets/team-photos/rams/photo-38.jpg",
-            "sourcePage": "https://www.therams.com/photos/practice-photos-headin-east-rams-practice-before-traveling-philadelphia-week-4-eagles",
+            "src": "assets/team-photos/rams/photo-16.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/rams/ctnb4knb90xsrtasjm6p.jpg",
+            "sourcePage": "https://www.therams.com/photos/practice-photos-pads-field-first-padded-practice-of-2026-rams-training-camp",
             "credit": "www.therams.com / official team photography",
-            "alt": "Rams players practicing in royal-blue jerseys and blue helmets with yellow horns"
+            "alt": "Los Angeles ball carrier running in a royal-blue Rams jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/rams-scoreboard.jpg",
@@ -3386,19 +3438,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/rams/photo-38.jpg",
-            "sourcePage": "https://www.therams.com/photos/practice-photos-headin-east-rams-practice-before-traveling-philadelphia-week-4-eagles",
+            "src": "assets/team-photos/rams/photo-16.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/rams/ctnb4knb90xsrtasjm6p.jpg",
+            "sourcePage": "https://www.therams.com/photos/practice-photos-pads-field-first-padded-practice-of-2026-rams-training-camp",
             "credit": "www.therams.com / official team photography",
-            "alt": "Rams players practicing in royal-blue jerseys and blue helmets with yellow horns"
+            "alt": "Los Angeles ball carrier running in a royal-blue Rams jersey"
         }
     },
     "49ers": {
         "teamId": "49ers",
         "hero": {
-            "src": "assets/team-photos/49ers/photo-9.jpg",
-            "sourcePage": "https://www.49ers.com/photos/49ers-bring-the-energy-on-day-12-of-training-camp",
+            "src": "assets/team-photos/49ers/photo-44.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/49ers/jkwn2nrpkee8t7bs8yd8.jpg",
+            "sourcePage": "https://www.49ers.com/photos/game-photos-49ers-vs-cowboys-week-10",
             "credit": "www.49ers.com / official team photography",
-            "alt": "San Francisco players lining up in scarlet jerseys and gold 49ers helmets"
+            "alt": "San Francisco ball carrier running in a scarlet 49ers jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/49ers-scoreboard.jpg",
@@ -3480,19 +3534,22 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/49ers/photo-9.jpg",
-            "sourcePage": "https://www.49ers.com/photos/49ers-bring-the-energy-on-day-12-of-training-camp",
+            "src": "assets/team-photos/49ers/photo-44.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/49ers/jkwn2nrpkee8t7bs8yd8.jpg",
+            "sourcePage": "https://www.49ers.com/photos/game-photos-49ers-vs-cowboys-week-10",
             "credit": "www.49ers.com / official team photography",
-            "alt": "San Francisco players lining up in scarlet jerseys and gold 49ers helmets"
+            "alt": "San Francisco ball carrier running in a scarlet 49ers jersey"
         }
     },
     "seahawks": {
         "teamId": "seahawks",
         "hero": {
-            "src": "assets/fan-crowds/seahawks.jpg",
-            "sourcePage": "https://www.seahawks.com/photos/2025-nfc-divisional-round-seahawks-vs-49ers-lumen-field-12s-fan-photos",
-            "credit": "Seattle Seahawks / credited gallery photographer",
-            "alt": "Seattle fans wearing navy and neon-green Seahawks jerseys"
+            "src": "assets/team-photos/seahawks/photo-28.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/seahawks/dlef7ctkr7q7smozmoxf.jpg",
+            "sourcePage": "https://www.seahawks.com/photos/photos-top-shots-of-seahawks-training-camp",
+            "credit": "www.seahawks.com / official team photography",
+            "alt": "Seattle receiver running with a football in a navy Seahawks jersey",
+            "frameScale": 1.16
         },
         "scoreboard": {
             "src": "assets/team-photos/seahawks-scoreboard.jpg",
@@ -3574,19 +3631,22 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/fan-crowds/seahawks.jpg",
-            "sourcePage": "https://www.seahawks.com/photos/2025-nfc-divisional-round-seahawks-vs-49ers-lumen-field-12s-fan-photos",
-            "credit": "Seattle Seahawks / credited gallery photographer",
-            "alt": "Seattle fans wearing navy and neon-green Seahawks jerseys"
+            "src": "assets/team-photos/seahawks/photo-28.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/seahawks/dlef7ctkr7q7smozmoxf.jpg",
+            "sourcePage": "https://www.seahawks.com/photos/photos-top-shots-of-seahawks-training-camp",
+            "credit": "www.seahawks.com / official team photography",
+            "alt": "Seattle receiver running with a football in a navy Seahawks jersey",
+            "frameScale": 1.16
         }
     },
     "bills": {
         "teamId": "bills",
         "hero": {
-            "src": "assets/team-photos/bills/photo-7.jpg",
+            "src": "assets/team-photos/bills/photo-6.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/bills/y1dc2admlkemnyypawy0.jpg",
             "sourcePage": "https://www.buffalobills.com/photos/in-the-lab-buffalo-bills-week-11-practice-nov-20-2026",
             "credit": "www.buffalobills.com / official team photography",
-            "alt": "Buffalo players in royal-blue jerseys and white Bills helmets"
+            "alt": "Buffalo defender rushing in a royal-blue Bills jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/bills-scoreboard.jpg",
@@ -3668,19 +3728,22 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/bills/photo-7.jpg",
+            "src": "assets/team-photos/bills/photo-6.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/bills/y1dc2admlkemnyypawy0.jpg",
             "sourcePage": "https://www.buffalobills.com/photos/in-the-lab-buffalo-bills-week-11-practice-nov-20-2026",
             "credit": "www.buffalobills.com / official team photography",
-            "alt": "Buffalo players in royal-blue jerseys and white Bills helmets"
+            "alt": "Buffalo defender rushing in a royal-blue Bills jersey"
         }
     },
     "dolphins": {
         "teamId": "dolphins",
         "hero": {
-            "src": "assets/team-photos/dolphins/photo-32.jpg",
-            "sourcePage": "https://www.miamidolphins.com/photos/miami-dolphins-visit-safe-haven-hospital",
+            "src": "assets/team-photos/dolphins/photo-44.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/dolphins/ikc1qxqtaw59bzpedcts.jpg",
+            "sourcePage": "https://www.miamidolphins.com/photos/2026-miami-dolphins-at-buffalo-bills-pregame",
             "credit": "www.miamidolphins.com / official team photography",
-            "alt": "Miami players in aqua jerseys posing with visitors at a community event"
+            "alt": "Miami player reaching for a catch in an aqua Dolphins uniform",
+            "frameScale": 1.22
         },
         "scoreboard": {
             "src": "assets/team-photos/dolphins-scoreboard.jpg",
@@ -3762,19 +3825,22 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/dolphins/photo-32.jpg",
-            "sourcePage": "https://www.miamidolphins.com/photos/miami-dolphins-visit-safe-haven-hospital",
+            "src": "assets/team-photos/dolphins/photo-44.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/dolphins/ikc1qxqtaw59bzpedcts.jpg",
+            "sourcePage": "https://www.miamidolphins.com/photos/2026-miami-dolphins-at-buffalo-bills-pregame",
             "credit": "www.miamidolphins.com / official team photography",
-            "alt": "Miami players in aqua jerseys posing with visitors at a community event"
+            "alt": "Miami player reaching for a catch in an aqua Dolphins uniform",
+            "frameScale": 1.22
         }
     },
     "patriots": {
         "teamId": "patriots",
         "hero": {
-            "src": "assets/team-photos/patriots/photo-3.jpg",
+            "src": "assets/team-photos/patriots/photo-6.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/patriots/ystznxbsrciznbt03lx9.jpg",
             "sourcePage": "https://www.patriots.com/photos/photos-patriots-practice-at-fc-bayern-training-center-in-munich-germany-to-prepare-for-their-week-10-game-against-the-detroit-lions",
             "credit": "www.patriots.com / official team photography",
-            "alt": "New England players practicing in navy Patriots jerseys and silver helmets"
+            "alt": "New England receiver catching a football in a navy Patriots jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/patriots-scoreboard.jpg",
@@ -3856,19 +3922,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/patriots/photo-3.jpg",
+            "src": "assets/team-photos/patriots/photo-6.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/patriots/ystznxbsrciznbt03lx9.jpg",
             "sourcePage": "https://www.patriots.com/photos/photos-patriots-practice-at-fc-bayern-training-center-in-munich-germany-to-prepare-for-their-week-10-game-against-the-detroit-lions",
             "credit": "www.patriots.com / official team photography",
-            "alt": "New England players practicing in navy Patriots jerseys and silver helmets"
+            "alt": "New England receiver catching a football in a navy Patriots jersey"
         }
     },
     "jets": {
         "teamId": "jets",
         "hero": {
             "src": "assets/team-photos/jets/photo-6.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/jets/qdlhngc31kgi69arpzou.jpg",
             "sourcePage": "https://www.newyorkjets.com/photos/through-the-lens-best-photos-from-2026-jets-training-camp",
             "credit": "www.newyorkjets.com / official team photography",
-            "alt": "New York Jets receiver reaching for a catch in a green number 81 jersey"
+            "alt": "New York receiver reaching for a catch in a green Jets jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/jets-scoreboard.jpg",
@@ -3951,18 +4019,20 @@ window.NFL_TEAM_MEDIA = {
         },
         "selection": {
             "src": "assets/team-photos/jets/photo-6.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/jets/qdlhngc31kgi69arpzou.jpg",
             "sourcePage": "https://www.newyorkjets.com/photos/through-the-lens-best-photos-from-2026-jets-training-camp",
             "credit": "www.newyorkjets.com / official team photography",
-            "alt": "New York Jets receiver reaching for a catch in a green number 81 jersey"
+            "alt": "New York receiver reaching for a catch in a green Jets jersey"
         }
     },
     "ravens": {
         "teamId": "ravens",
         "hero": {
-            "src": "assets/team-photos/ravens/photo-19.jpg",
-            "sourcePage": "https://www.baltimoreravens.com/photos/top-shots-from-ravens-thursday-practice-ahead-of-panthers-game",
+            "src": "assets/team-photos/ravens/photo-9.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/ravens/t4vhjogvubtkgoemubia.jpg",
+            "sourcePage": "https://www.baltimoreravens.com/photos/ravens-week-6-rams-practice-photos-gallery-2025",
             "credit": "www.baltimoreravens.com / official team photography",
-            "alt": "Baltimore players in purple and black jerseys practicing together"
+            "alt": "Baltimore ball carrier running in a purple Ravens jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/ravens-scoreboard.jpg",
@@ -4044,19 +4114,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/ravens/photo-19.jpg",
-            "sourcePage": "https://www.baltimoreravens.com/photos/top-shots-from-ravens-thursday-practice-ahead-of-panthers-game",
+            "src": "assets/team-photos/ravens/photo-9.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/ravens/t4vhjogvubtkgoemubia.jpg",
+            "sourcePage": "https://www.baltimoreravens.com/photos/ravens-week-6-rams-practice-photos-gallery-2025",
             "credit": "www.baltimoreravens.com / official team photography",
-            "alt": "Baltimore players in purple and black jerseys practicing together"
+            "alt": "Baltimore ball carrier running in a purple Ravens jersey"
         }
     },
     "bengals": {
         "teamId": "bengals",
         "hero": {
             "src": "assets/team-photos/bengals/photo-19.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/bengals/rrdr1yhkgu3dc8mlzgdi.jpg",
             "sourcePage": "https://www.bengals.com/photos/monday-night-football-bengals-commanders-week-11-2026-practice-photos",
             "credit": "www.bengals.com / official team photography",
-            "alt": "Cincinnati quarterback in an orange number 9 jersey and tiger-striped helmet"
+            "alt": "Cincinnati quarterback throwing in an orange Bengals jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/bengals-scoreboard.jpg",
@@ -4139,18 +4211,20 @@ window.NFL_TEAM_MEDIA = {
         },
         "selection": {
             "src": "assets/team-photos/bengals/photo-19.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/bengals/rrdr1yhkgu3dc8mlzgdi.jpg",
             "sourcePage": "https://www.bengals.com/photos/monday-night-football-bengals-commanders-week-11-2026-practice-photos",
             "credit": "www.bengals.com / official team photography",
-            "alt": "Cincinnati quarterback in an orange number 9 jersey and tiger-striped helmet"
+            "alt": "Cincinnati quarterback throwing in an orange Bengals jersey"
         }
     },
     "browns": {
         "teamId": "browns",
         "hero": {
-            "src": "assets/team-photos/browns/photo-10.jpg",
-            "sourcePage": "https://www.clevelandbrowns.com/photos/browns-practice-for-2026-week-10-matchup-vs-texans",
+            "src": "assets/team-photos/browns/photo-27.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/browns/e82c4e0g6phiivwfbg6w.jpg",
+            "sourcePage": "https://www.clevelandbrowns.com/photos/browns-practice-for-2026-week-8-matchup-vs-steelers",
             "credit": "www.clevelandbrowns.com / official team photography",
-            "alt": "Cleveland player in an orange Browns helmet and orange sleeves catching a football"
+            "alt": "Cleveland linemen blocking in brown Browns jerseys and orange helmets"
         },
         "scoreboard": {
             "src": "assets/team-photos/browns-scoreboard.jpg",
@@ -4232,19 +4306,22 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/browns/photo-10.jpg",
-            "sourcePage": "https://www.clevelandbrowns.com/photos/browns-practice-for-2026-week-10-matchup-vs-texans",
+            "src": "assets/team-photos/browns/photo-27.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/browns/e82c4e0g6phiivwfbg6w.jpg",
+            "sourcePage": "https://www.clevelandbrowns.com/photos/browns-practice-for-2026-week-8-matchup-vs-steelers",
             "credit": "www.clevelandbrowns.com / official team photography",
-            "alt": "Cleveland player in an orange Browns helmet and orange sleeves catching a football"
+            "alt": "Cleveland linemen blocking in brown Browns jerseys and orange helmets"
         }
     },
     "steelers": {
         "teamId": "steelers",
         "hero": {
             "src": "assets/team-photos/steelers/photo-3.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/steelers/u47ylmr3lu5yczn8lqpl.jpg",
             "sourcePage": "https://www.steelers.com/photos/photos-practice-eagles-week-day-2-x4934",
             "credit": "www.steelers.com / official team photography",
-            "alt": "Pittsburgh players blocking in yellow and black practice jerseys and Steelers helmets"
+            "alt": "Pittsburgh linemen blocking in black and gold Steelers practice jerseys",
+            "frameScale": 1.22
         },
         "scoreboard": {
             "src": "assets/team-photos/steelers-scoreboard.jpg",
@@ -4327,18 +4404,21 @@ window.NFL_TEAM_MEDIA = {
         },
         "selection": {
             "src": "assets/team-photos/steelers/photo-3.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/steelers/u47ylmr3lu5yczn8lqpl.jpg",
             "sourcePage": "https://www.steelers.com/photos/photos-practice-eagles-week-day-2-x4934",
             "credit": "www.steelers.com / official team photography",
-            "alt": "Pittsburgh players blocking in yellow and black practice jerseys and Steelers helmets"
+            "alt": "Pittsburgh linemen blocking in black and gold Steelers practice jerseys",
+            "frameScale": 1.22
         }
     },
     "texans": {
         "teamId": "texans",
         "hero": {
-            "src": "assets/team-photos/texans/photo-20.jpg",
-            "sourcePage": "https://www.houstontexans.com/photos/week-10-practice-photos-texans-at-cleveland-browns",
-            "credit": "www.houstontexans.com / official team photography",
-            "alt": "Houston quarterbacks in red Texans jerseys and navy helmets at practice"
+            "src": "assets/team-photos/texans/action-navy.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/texans/ct0ccbgedm3a2e7lszmu.jpg",
+            "sourcePage": "https://www.houstontexans.com/photos/gameday-action-texans-vs-cardinals-week-15",
+            "credit": "Houston Texans / official team photography",
+            "alt": "Houston ball carrier running in a navy Texans uniform with red trim"
         },
         "scoreboard": {
             "src": "assets/team-photos/texans-scoreboard.jpg",
@@ -4420,19 +4500,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/texans/photo-20.jpg",
-            "sourcePage": "https://www.houstontexans.com/photos/week-10-practice-photos-texans-at-cleveland-browns",
-            "credit": "www.houstontexans.com / official team photography",
-            "alt": "Houston quarterbacks in red Texans jerseys and navy helmets at practice"
+            "src": "assets/team-photos/texans/action-navy.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/texans/ct0ccbgedm3a2e7lszmu.jpg",
+            "sourcePage": "https://www.houstontexans.com/photos/gameday-action-texans-vs-cardinals-week-15",
+            "credit": "Houston Texans / official team photography",
+            "alt": "Houston ball carrier running in a navy Texans uniform with red trim"
         }
     },
     "colts": {
         "teamId": "colts",
         "hero": {
-            "src": "assets/team-photos/colts-scoreboard.jpg",
-            "sourcePage": "https://www.colts.com/photos/best-of-2025-fans",
-            "credit": "© Indianapolis Colts",
-            "alt": "Indianapolis fan wearing a royal-blue Colts jersey at the stadium"
+            "src": "assets/team-photos/colts/photo-6.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/colts/fcbvy8ab8dtaoxxjvo9u.jpg",
+            "sourcePage": "https://www.colts.com/photos/indianapolis-colts-2026-practice-highlights-november-12-photo-gallery",
+            "credit": "www.colts.com / official team photography",
+            "alt": "Indianapolis receiver catching a football in a royal-blue Colts jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/colts-scoreboard.jpg",
@@ -4514,19 +4596,21 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/colts-scoreboard.jpg",
-            "sourcePage": "https://www.colts.com/photos/best-of-2025-fans",
-            "credit": "© Indianapolis Colts",
-            "alt": "Indianapolis fan wearing a royal-blue Colts jersey at the stadium"
+            "src": "assets/team-photos/colts/photo-6.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/colts/fcbvy8ab8dtaoxxjvo9u.jpg",
+            "sourcePage": "https://www.colts.com/photos/indianapolis-colts-2026-practice-highlights-november-12-photo-gallery",
+            "credit": "www.colts.com / official team photography",
+            "alt": "Indianapolis receiver catching a football in a royal-blue Colts jersey"
         }
     },
     "jaguars": {
         "teamId": "jaguars",
         "hero": {
             "src": "assets/team-photos/jaguars/photo-20.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/jaguars/fhkcqtddwuh8yd8a64zj.jpg",
             "sourcePage": "https://www.jaguars.com/photos/k000477-practice-photos-jaguars-thursday-session-2025-week-18-vs-titans",
             "credit": "www.jaguars.com / official team photography",
-            "alt": "Jacksonville player running in a teal Jaguars jersey and black helmet"
+            "alt": "Jacksonville ball carrier running in a teal Jaguars jersey"
         },
         "scoreboard": {
             "src": "assets/team-photos/jaguars-scoreboard.jpg",
@@ -4609,18 +4693,20 @@ window.NFL_TEAM_MEDIA = {
         },
         "selection": {
             "src": "assets/team-photos/jaguars/photo-20.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/jaguars/fhkcqtddwuh8yd8a64zj.jpg",
             "sourcePage": "https://www.jaguars.com/photos/k000477-practice-photos-jaguars-thursday-session-2025-week-18-vs-titans",
             "credit": "www.jaguars.com / official team photography",
-            "alt": "Jacksonville player running in a teal Jaguars jersey and black helmet"
+            "alt": "Jacksonville ball carrier running in a teal Jaguars jersey"
         }
     },
     "titans": {
         "teamId": "titans",
         "hero": {
-            "src": "assets/fan-crowds/titans.jpg",
-            "sourcePage": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
-            "credit": "Coral Scoles-Coburn/Tennessee Titans",
-            "alt": "Tennessee fans filling the home section in Titans blue"
+            "src": "assets/team-photos/titans/photo-57.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/titans/ld9js2vabskodimjz8jv.jpg",
+            "sourcePage": "https://www.tennesseetitans.com/photos/game-photos-2026-week-11-vs-dallas-cowboys",
+            "credit": "www.tennesseetitans.com / official team photography",
+            "alt": "Tennessee quarterback throwing in a Titans blue uniform"
         },
         "scoreboard": {
             "src": "assets/team-photos/titans-scoreboard.jpg",
@@ -4702,19 +4788,22 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/fan-crowds/titans.jpg",
-            "sourcePage": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
-            "credit": "Coral Scoles-Coburn/Tennessee Titans",
-            "alt": "Tennessee fans filling the home section in Titans blue"
+            "src": "assets/team-photos/titans/photo-57.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/titans/ld9js2vabskodimjz8jv.jpg",
+            "sourcePage": "https://www.tennesseetitans.com/photos/game-photos-2026-week-11-vs-dallas-cowboys",
+            "credit": "www.tennesseetitans.com / official team photography",
+            "alt": "Tennessee quarterback throwing in a Titans blue uniform"
         }
     },
     "broncos": {
         "teamId": "broncos",
         "hero": {
-            "src": "assets/fan-crowds/broncos.jpg",
-            "sourcePage": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
-            "credit": "Ben Swanson/2026 Denver Broncos",
-            "alt": "broncos supporters at a home-game tailgate"
+            "src": "assets/team-photos/broncos/photo-1.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/broncos/chnwkeuj8ea8ic2iut2l.jpg",
+            "sourcePage": "https://www.denverbroncos.com/photos/practice-photos-a-look-at-the-broncos-on-field-preparation-for-week-11-vs-the-raiders",
+            "credit": "www.denverbroncos.com / official team photography",
+            "alt": "Denver receiver reaching for a catch in an orange Broncos jersey",
+            "frameScale": 1.2
         },
         "scoreboard": {
             "src": "assets/team-photos/broncos-scoreboard.jpg",
@@ -4796,19 +4885,23 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/fan-crowds/broncos.jpg",
-            "sourcePage": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
-            "credit": "Ben Swanson/2026 Denver Broncos",
-            "alt": "broncos supporters at a home-game tailgate"
+            "src": "assets/team-photos/broncos/photo-1.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/broncos/chnwkeuj8ea8ic2iut2l.jpg",
+            "sourcePage": "https://www.denverbroncos.com/photos/practice-photos-a-look-at-the-broncos-on-field-preparation-for-week-11-vs-the-raiders",
+            "credit": "www.denverbroncos.com / official team photography",
+            "alt": "Denver receiver reaching for a catch in an orange Broncos jersey",
+            "frameScale": 1.2
         }
     },
     "chiefs": {
         "teamId": "chiefs",
         "hero": {
-            "src": "assets/team-photos/chiefs/photo-59.jpg",
-            "sourcePage": "https://www.chiefs.com/photos/photos-warmups-pregame-from-regular-season-week-11-chiefs-vs-cardinals",
+            "src": "assets/team-photos/chiefs/photo-28.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/chiefs/p5alwk6uidd2hiwfmbg8.jpg",
+            "sourcePage": "https://www.chiefs.com/photos/photos-training-camp-day-15-practice-8-17-26",
             "credit": "www.chiefs.com / official team photography",
-            "alt": "Kansas City player on the field in a red Chiefs number 15 jersey"
+            "alt": "Kansas City receiver catching a football in a red Chiefs jersey",
+            "frameScale": 1.22
         },
         "scoreboard": {
             "src": "assets/team-photos/chiefs-scoreboard.jpg",
@@ -4890,19 +4983,22 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/chiefs/photo-59.jpg",
-            "sourcePage": "https://www.chiefs.com/photos/photos-warmups-pregame-from-regular-season-week-11-chiefs-vs-cardinals",
+            "src": "assets/team-photos/chiefs/photo-28.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/chiefs/p5alwk6uidd2hiwfmbg8.jpg",
+            "sourcePage": "https://www.chiefs.com/photos/photos-training-camp-day-15-practice-8-17-26",
             "credit": "www.chiefs.com / official team photography",
-            "alt": "Kansas City player on the field in a red Chiefs number 15 jersey"
+            "alt": "Kansas City receiver catching a football in a red Chiefs jersey",
+            "frameScale": 1.22
         }
     },
     "raiders": {
         "teamId": "raiders",
         "hero": {
             "src": "assets/team-photos/raiders/photo-22.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/raiders/su6ig24j3sqbgg6nnfix.jpg",
             "sourcePage": "https://www.raiders.com/photos/practice-photos-thursday-11-19-26",
             "credit": "www.raiders.com / official team photography",
-            "alt": "Las Vegas players in black jerseys and silver Raiders helmets at practice"
+            "alt": "Las Vegas linemen blocking in black Raiders jerseys and silver helmets"
         },
         "scoreboard": {
             "src": "assets/team-photos/raiders-scoreboard.jpg",
@@ -4985,18 +5081,20 @@ window.NFL_TEAM_MEDIA = {
         },
         "selection": {
             "src": "assets/team-photos/raiders/photo-22.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/raiders/su6ig24j3sqbgg6nnfix.jpg",
             "sourcePage": "https://www.raiders.com/photos/practice-photos-thursday-11-19-26",
             "credit": "www.raiders.com / official team photography",
-            "alt": "Las Vegas players in black jerseys and silver Raiders helmets at practice"
+            "alt": "Las Vegas linemen blocking in black Raiders jerseys and silver helmets"
         }
     },
     "chargers": {
         "teamId": "chargers",
         "hero": {
-            "src": "assets/team-photos/chargers/photo-5.jpg",
+            "src": "assets/team-photos/chargers/photo-10.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/chargers/mgzxunjtcb54ofsdjoyu.jpg",
             "sourcePage": "https://www.chargers.com/photos/practice-friday-week-11-2026",
             "credit": "www.chargers.com / official team photography",
-            "alt": "Chargers players in powder-blue jerseys and white helmets with yellow lightning bolts"
+            "alt": "Los Angeles linemen blocking in powder-blue Chargers jerseys"
         },
         "scoreboard": {
             "src": "assets/team-photos/chargers-scoreboard.jpg",
@@ -5078,10 +5176,11 @@ window.NFL_TEAM_MEDIA = {
             }
         },
         "selection": {
-            "src": "assets/team-photos/chargers/photo-5.jpg",
+            "src": "assets/team-photos/chargers/photo-10.jpg",
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,w_1920,q_85/chargers/mgzxunjtcb54ofsdjoyu.jpg",
             "sourcePage": "https://www.chargers.com/photos/practice-friday-week-11-2026",
             "credit": "www.chargers.com / official team photography",
-            "alt": "Chargers players in powder-blue jerseys and white helmets with yellow lightning bolts"
+            "alt": "Los Angeles linemen blocking in powder-blue Chargers jerseys"
         }
     }
 };
