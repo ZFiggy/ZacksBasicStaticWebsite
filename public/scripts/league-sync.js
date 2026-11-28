@@ -28,17 +28,18 @@ if (api && api.storage.getItem('leagueJoined') === '1') {
             await store.runTransaction(db, async transaction => {
                 const existing = await transaction.get(ref);
                 if (!existing.exists()) return;
-                const previous = existing.data(), records = {}, scores = {};
+                const previous = existing.data(), records = {};
+                const old = previous.records || {};
+                const previousRecords = previous.scoringVersion === api.scoringVersion ? old : {bird:old.bird, search:old.search, kick:old.kick};
                 for (const game of api.recordGames) {
                     const raw = Number(api.storage.getItem(game.key));
                     const value = Number.isSafeInteger(raw) && raw >= 0 ? Math.min(1000000,raw) : 0;
-                    records[game.id] = Math.max(value,previous.records[game.id]);
-                    scores[game.id] = Math.min(100,Math.floor(records[game.id]*100/game.target));
+                    records[game.id] = Math.max(value,previousRecords[game.id] || 0);
                 }
                 const rawClicks = Number(api.storage.getItem('clickCount'));
                 const clicks = Math.max(Number.isSafeInteger(rawClicks) && rawClicks >= 0 ? rawClicks : 0,previous.clicks);
-                if (clicks === previous.clicks && nickname === previous.nickname && api.recordGames.every(game => records[game.id] === previous.records[game.id])) return;
-                transaction.set(ref,{uid,teamId,nickname,records,scores,points:Object.values(scores).reduce((sum,value)=>sum+value,0),clicks,updatedAt:store.serverTimestamp()});
+                if (previous.scoringVersion === api.scoringVersion && clicks === previous.clicks && nickname === previous.nickname && api.recordGames.every(game => records[game.id] === old[game.id])) return;
+                transaction.set(ref,{uid,teamId,nickname,records,...api.normalizeRecords(records, clicks),scoringVersion:api.scoringVersion,clicks,updatedAt:store.serverTimestamp()});
             });
             const notice = document.getElementById('team-sync-status');
             if (notice) notice.textContent = 'Team record synced. Play on.';

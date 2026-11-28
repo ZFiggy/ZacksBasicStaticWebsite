@@ -3,13 +3,14 @@ class FanArcade {
         this.games = Object.fromEntries(window.teamArcade.games.map(game => [game.href, game.title]));
         this.badges = [
             { id: 'touchdown', title: 'On the board', detail: 'Score your first seven-click touchdown.', key: 'clickCount', goal: 7, mark: 'TD', href: 'counter.html' },
-            { id: 'field', title: 'Breakaway', detail: `Score a Touchdown Rush touchdown for the ${window.teamArcade.team.nickname}.`, key: 'fieldRunWins', goal: 1, mark: window.teamArcade.team.short, href: 'game.html' },
+            { id: 'field', title: 'Breakaway', detail: `Score a Touchdown Rush touchdown for the ${window.teamArcade.team.nickname}.`, key: 'touchdownRushBest', goal: 1, mark: window.teamArcade.team.short, href: 'game.html' },
             { id: 'kicker', title: 'Split the uprights', detail: 'Make three field goals in one round.', key: 'fieldGoalBest', goal: 9, mark: '3×', href: 'kick.html' },
             { id: 'jalen', title: 'Crowd detective', detail: `Find ${window.NFL_PHOTO_SCENES?.[window.teamArcade.team.id]?.playerName || 'Jalen Hurts'} in all five scenes.`, key: 'jalenCleared', goal: 5, mark: '01', href: 'jalen.html' },
             { id: 'barkley', title: 'Cleared for takeoff', detail: `Clear five gaps in ${window.teamArcade.team.games.bird}.`, key: 'barkleyBest', goal: 5, mark: window.teamArcade.team.short, href: 'barkley.html' }
         ];
         for (const [id, game] of Object.entries(window.playbookGames || {})) {
-            this.badges.push({ id: `playbook-${id}`, title: game.badge, detail: `Reach ${game.goal} ${game.unit} in ${game.title}.`, key: `playbook-${id}-best`, goal: game.goal, mark: game.mark, href: `playbook.html?game=${id}` });
+            if (!window.teamArcade.games.some(item => item.id === id)) continue;
+            this.badges.push({ id: `playbook-${id}`, title: game.badge, detail: id === 'pocket' ? 'Score a touchdown in Passing Drive.' : `Reach ${game.goal} ${game.unit} in ${game.title}.`, key: id === 'pocket' ? 'passingPointsBest' : `playbook-${id}-best`, goal: id === 'pocket' ? 6 : game.goal, mark: game.mark, href: `playbook.html?game=${id}` });
         }
         this.page = location.pathname.split('/').pop();
         if (this.page === 'playbook.html') {
@@ -22,7 +23,6 @@ class FanArcade {
         document.addEventListener('arcade:progress', () => this.update());
         document.addEventListener('arcade:nickname', () => this.render());
         window.addEventListener('storage', () => this.render());
-        this.setupExpand();
     }
 
     read(key) {
@@ -45,10 +45,11 @@ class FanArcade {
         document.getElementById('locker-greeting').textContent = nickname ? `Your locker, ${nickname}.` : 'Your corner of the stadium.';
         const values = {
             'locker-clicks': this.number('clickCount').toLocaleString(),
-            'locker-fields': this.number('fieldRunWins').toLocaleString(),
+            'locker-fields': this.number('touchdownRushBest').toLocaleString(),
             'locker-bird': this.number('barkleyBest').toLocaleString(),
             'locker-kicks': `${Math.min(15, this.number('fieldGoalBest'))} / 15`,
-            'locker-photos': `${Math.min(5, this.number('jalenCleared'))} / 5`
+            'locker-photos': `${Math.min(5, this.number('jalenCleared')) * 20} / 100`,
+            'locker-passing': `${this.number('passingPointsBest')} / 18`
         };
         for (const [id, value] of Object.entries(values)) document.getElementById(id).textContent = value;
         const recent = this.read('arcadeLastGame');
@@ -111,27 +112,7 @@ class FanArcade {
         this.render();
     }
 
-    setupExpand() {
-        if (!document.fullscreenEnabled) return;
-        document.querySelectorAll('[data-expand-game]').forEach(button => {
-            button.hidden = false;
-            const panel = button.closest('.field-panel');
-            button.addEventListener('click', async () => {
-                try {
-                    if (document.fullscreenElement) await document.exitFullscreen();
-                    else {
-                        await panel.requestFullscreen();
-                        panel.querySelector('canvas')?.focus({ preventScroll: true });
-                    }
-                } catch {
-                    button.textContent = 'Expanded view unavailable';
-                }
-            });
-            document.addEventListener('fullscreenchange', () => {
-                button.textContent = document.fullscreenElement === panel ? 'Exit expanded view' : 'Expand game';
-            });
-        });
-    }
+
 }
 
 window.fanArcade = new FanArcade();

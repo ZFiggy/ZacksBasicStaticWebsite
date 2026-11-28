@@ -19,13 +19,7 @@ class Playbook {
         document.getElementById('playbook-rules').textContent = this.config.rules;
         document.getElementById('playbook-mode').textContent = this.config.title.toUpperCase();
         document.getElementById('score-label').textContent = this.config.unit.toUpperCase();
-        document.getElementById('playbook-tabs').replaceChildren(...Object.entries(window.playbookGames).map(([id, config]) => {
-            const link = document.createElement('a');
-            link.href = `playbook.html?game=${id}`;
-            link.textContent = config.title;
-            if (id === this.id) link.setAttribute('aria-current', 'page');
-            return link;
-        }));
+        window.teamArcade.renderGameTabs();
         this.start.addEventListener('click', () => this.reset());
         this.stage.innerHTML = `<div class="playbook-splash"><span>${this.config.mark}</span><h2>${this.config.tagline}</h2><p>${this.config.description}</p><p>Choose Start game to take the field.</p></div>`;
         const splash = this.stage.querySelector('.playbook-splash > span');

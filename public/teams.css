@@ -481,3 +481,49 @@ html:not([data-team='eagles']) .throw-quarterback path[fill='white'] { display: 
 .team-source-credit { display: inline-block; margin-top: 14px; font-size: 0.875rem; color: inherit; }
 .nfl-page #shove-pile { width: 180px; height: 100px; }
 .nfl-page .line-jersey:has(.player-character) { flex: 0 0 62px; width: 62px; height: 88px; box-shadow: none; }
+
+/* The six current activities share one points dashboard on every team home. */
+.home-points { margin-block: 32px; padding: clamp(20px, 4vw, 36px); border: 1px solid #728b8b66; border-radius: 10px; }
+.home-points h2 { margin-block: 8px; font-size: clamp(1.5rem, 4vw, 2.2rem); }
+.home-points p { margin-block: 12px; }
+.home-page progress { display: block; appearance: none; width: 100%; height: 12px; border: 0; border-radius: 8px; overflow: hidden; background: #728b8b33; accent-color: var(--team-primary); }
+.home-page progress::-webkit-progress-bar { background: #728b8b33; border-radius: 8px; }
+.home-page progress::-webkit-progress-value { background: var(--team-primary); border-radius: 8px; }
+.home-page progress::-moz-progress-bar { background: var(--team-primary); border-radius: 8px; }
+.home-page .home-mini-game { display: flex; flex-direction: column; padding: 0; }
+.home-page .home-mini-game .mini-team-art { width: 100%; flex: 0 0 auto; min-height: 0; height: auto; }
+.home-game-copy { display: flex; flex-direction: column; flex: 1; padding: 22px; gap: 12px; }
+.home-page .home-game-copy h3, .home-game-copy p { margin: 0; }
+.home-game-copy > p { color: var(--muted); }
+.home-game-points { display: block; margin-top: auto; padding-top: 8px; font-size: 1.2rem; }
+.home-game-copy .home-game-record, .home-game-copy .home-game-goal { font-size: 0.875rem; line-height: 1.5; }
+.home-scoreboard-art { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; background: #102832; color: #ffffff; border-bottom: 6px solid var(--team-secondary); }
+.home-scoreboard-art span { font-size: 0.875rem; letter-spacing: 0.1em; }
+.home-scoreboard-art strong { font: 700 clamp(3rem, 6vw, 5rem) monospace; color: #ffdf83; }
+.home-page .locker-stats, .home-page .fan-badges { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.home-page .fan-badge:last-child { grid-column: auto; display: block; }
+.search-toolbar #search-scene { display: block; margin-top: 6px; }
+.team-score-breakdown { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+[data-theme='dark'] .home-page progress { accent-color: var(--team-secondary); }
+[data-theme='dark'] .home-page progress::-webkit-progress-value { background: var(--team-secondary); }
+[data-theme='dark'] .home-page progress::-moz-progress-bar { background: var(--team-secondary); }
+@media (max-width: 1100px) {
+    .home-page .home-game-trio { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+    .home-page .home-game-trio, .team-score-breakdown { grid-template-columns: minmax(0, 1fr); }
+    .home-page .locker-stats, .home-page .fan-badges { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .home-game-copy { padding: 20px; }
+}
+
+.rankings-panel form { display: grid; gap: 10px; }
+.rankings-panel input { min-width: 0; width: 100%; min-height: 44px; padding: 10px; font: inherit; border: 1px solid #829ba7; border-radius: 5px; }
+.rankings-panel button { white-space: normal; }
+.rankings-panel .league-profile button { width: 100%; }
+@media (max-width: 750px) { .rankings-panel .league-board-layout { grid-template-columns: minmax(0, 1fr); } }
+
+.rankings-panel .board-status.board-offline { background: #fff2cc; color: #493912; }
+.search-help-list { padding-left: 20px; margin: 8px 0; }
+.search-help-list li + li { margin-top: 8px; }
+
+.leaders-page #rankings-title { font-size: clamp(2rem, 4vw, 3.5rem); margin: 0; }

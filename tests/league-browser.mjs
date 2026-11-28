@@ -68,18 +68,18 @@ async function go(client,page){
 await go(alice,'leaders.html?team=eagles&emulator=1');
 await alice.until('!!window.leagueBoard?.client && !window.leagueBoard.connecting');
 await alice.evaluate("window.teamArcade.storage.setItem('barkleyBest','10');document.getElementById('league-name').value='BrowserAlice';document.getElementById('league-profile-form').requestSubmit()");
-await alice.until("document.getElementById('league-sync').textContent.includes('Published 50')");
+await alice.until("document.getElementById('league-sync').textContent.includes('Published 80')");
 await alice.until("document.getElementById('board-rows').textContent.includes('BrowserAlice')");
 assert.match(await alice.evaluate("document.getElementById('board-rows').textContent"),/PHI/);
 await alice.evaluate("document.getElementById('board-game').value='bird';document.getElementById('board-game').dispatchEvent(new Event('change'))");
 await alice.until("window.leagueBoard.entries.some(entry=>entry.nickname==='BrowserAlice')");
 assert.equal(await alice.evaluate("window.leagueBoard.value(window.leagueBoard.entries.find(entry=>entry.nickname==='BrowserAlice'))"),10);
 await alice.evaluate("document.querySelector('[data-board=teams]').click()");
-await alice.until("window.leagueBoard.entries.some(entry=>entry.teamId==='eagles'&&entry.points===50&&entry.fans===1)");
+await alice.until("window.leagueBoard.entries.some(entry=>entry.teamId==='eagles'&&entry.points===80&&entry.fans===1)");
 const bob=await visitor();
 await go(bob,'leaders.html?team=cowboys&emulator=1');
 await bob.until('!!window.leagueBoard?.client && !window.leagueBoard.connecting');
-await bob.evaluate("window.teamArcade.storage.setItem('fieldRunWins','4');document.getElementById('league-name').value='BrowserBob';document.getElementById('league-profile-form').requestSubmit()");
+await bob.evaluate("window.teamArcade.storage.setItem('touchdownRushBest','4');document.getElementById('league-name').value='BrowserBob';document.getElementById('league-profile-form').requestSubmit()");
 await bob.until("document.getElementById('league-sync').textContent.includes('Published 80')");
 await alice.until("window.leagueBoard.entries.some(entry=>entry.teamId==='cowboys'&&entry.points===80&&entry.fans===1)");
 await bob.evaluate("document.getElementById('board-team').value='cowboys';document.getElementById('board-team').dispatchEvent(new Event('change'))");
@@ -89,19 +89,19 @@ assert.doesNotMatch(await bob.evaluate("document.getElementById('board-rows').te
 await go(alice,'leaders.html?team=cowboys&emulator=1');
 await alice.until('!!window.leagueBoard?.client && !window.leagueBoard.connecting');
 assert.equal(await alice.evaluate("window.teamArcade.storage.getItem('barkleyBest')"),null);
-await alice.evaluate("window.teamArcade.storage.setItem('playbook-signal-best','1');document.getElementById('league-name').value='BrowserAlice';document.getElementById('league-profile-form').requestSubmit()");
+await alice.evaluate("window.teamArcade.storage.setItem('passingPointsBest','9');document.getElementById('league-name').value='BrowserAlice';document.getElementById('league-profile-form').requestSubmit()");
 await alice.until("document.getElementById('league-sync').textContent.includes('Published 100')");
 await alice.evaluate("document.querySelector('[data-board=teams]').click()");
 await alice.until("window.leagueBoard.entries.some(entry=>entry.teamId==='cowboys'&&entry.points===180&&entry.fans===2)");
-assert.equal(await alice.evaluate("window.leagueBoard.entries.find(entry=>entry.teamId==='eagles').points"),50);
+assert.equal(await alice.evaluate("window.leagueBoard.entries.find(entry=>entry.teamId==='eagles').points"),80);
 // Opted-in background sync from a game page updates the actual team totals.
 await go(alice,'game.html?team=eagles&emulator=1');
-await alice.evaluate("window.teamArcade.storage.setItem('fieldRunWins','2');document.dispatchEvent(new Event('arcade:progress'))");
+await alice.evaluate("window.teamArcade.storage.setItem('touchdownRushBest','2');document.dispatchEvent(new Event('arcade:progress'))");
 await new Promise(resolve=>setTimeout(resolve,6500));
 await go(alice,'leaders.html?team=eagles&emulator=1');
 await alice.until('!!window.leagueBoard?.client && !window.leagueBoard.connecting');
 await alice.evaluate("document.querySelector('[data-board=teams]').click()");
-await alice.until("window.leagueBoard.entries.some(entry=>entry.teamId==='eagles'&&entry.points===90&&entry.fans===1)");
+await alice.until("window.leagueBoard.entries.some(entry=>entry.teamId==='eagles'&&entry.points===120&&entry.fans===1)");
 assert.equal(await alice.evaluate("window.teamArcade.storage.getItem('barkleyBest')"),'10');
 // Final layout checks after the four-link navigation and sync status changes.
 for(const page of ['choose.html','index.html?team=cowboys','leaders.html?team=eagles&emulator=1','counter.html?team=chargers','jalen.html?team=eagles&photos=1']){

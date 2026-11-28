@@ -12,40 +12,10 @@
         if (team.id !== 'eagles') return null;
         if (!logos.has(team.id)) {
             const image = new Image(); image.src = 'assets/team-logos/eagles.png';
-            image.onload = () => { document.passingGame?.draw(); document.kickGame?.draw(); };
+            image.onload = () => { document.passingGame?.draw(); document.kickGame?.draw(); document.myGame?.redraw(); };
             logos.set(team.id, image);
         }
         return logos.get(team.id);
-    }
-    function eaglesEndzone(c, x, y, width, height, team) {
-        c.save(); c.beginPath(); c.rect(x, y, width, height); c.clip();
-        const paint = c.createLinearGradient(x, y, x + width, y + height);
-        paint.addColorStop(0, team.primary); paint.addColorStop(1, '#092b30');
-        c.fillStyle = paint; c.fillRect(x, y, width, height);
-        for (let row = 0; row < 10; row++) {
-            c.fillStyle = row % 2 ? '#ffffff05' : '#00000008';
-            c.fillRect(x, y + row * height / 10, width, height / 10);
-        }
-        c.fillStyle = c.createPattern(grain, 'repeat'); c.fillRect(x, y, width, height);
-        // A landscape wordmark is painted along the length of the end zone.
-        c.translate(x + width / 2, y + height / 2); c.rotate(-Math.PI / 2);
-        c.scale(height / 440, width / 120);
-        c.strokeStyle = '#ffffff55'; c.lineWidth = 1;
-        c.strokeRect(-211, -51, 422, 102);
-        c.textAlign = 'center'; c.textBaseline = 'middle';
-        c.font = 'italic 900 51px Impact, Arial Black, sans-serif';
-        const text = team.nickname.toUpperCase(), logo = logoFor(team);
-        const available = logo ? 232 : 360;
-        c.lineJoin = 'round'; c.lineWidth = 8; c.strokeStyle = '#071a23'; c.strokeText(text, 0, 1, available);
-        c.lineWidth = 3.5; c.strokeStyle = '#b6c6cb'; c.strokeText(text, 0, 1, available);
-        c.fillStyle = '#f9ffff'; c.fillText(text, 0, 1, available);
-        if (logo?.complete && logo.naturalWidth) {
-            // Preserve logo aspect ratio; neither logo collides with the wordmark.
-            const w = 68, h = w * logo.naturalHeight / logo.naturalWidth;
-            for (const xx of [-171, 171]) c.drawImage(logo, xx - w / 2, -h / 2, w, h);
-        }
-        c.restore();
-        c.save(); c.strokeStyle = '#f2f4e8'; c.lineWidth = 3; c.strokeRect(x, y, width, height); c.restore();
     }
     // Representative home paint families. Seasonal/throwback fields can differ.
     const palettes = {
@@ -92,7 +62,7 @@
                         ctx.globalCompositeOperation = 'source-in'; ctx.fillStyle = palettes[team.id][1]; ctx.fillRect(0, 0, mask.width, mask.height);
                         entry.paint = mask;
                     }
-                    resolve(); document.passingGame?.draw(); document.kickGame?.draw();
+                    resolve(); document.passingGame?.draw(); document.kickGame?.draw(); document.myGame?.redraw();
                 };
                 img.onerror = () => reject(new Error(`Missing field ${kind}: ${team.id}`));
                 img.src = `assets/field-branding/${team.id}-${kind}.png`;
@@ -101,37 +71,44 @@
         }
         return branding.get(team.id);
     }
-    function endzone(c, x, y, width, height, team) {
-        // Keep the already accepted Eagles field treatment.
-        if (team.id === 'eagles') { eaglesEndzone(c, x, y, width, height, team); return; }
-        const [base, lettering, trim] = palettes[team.id], art = brandingFor(team);
+    function endzone(c, x, y, width, height, team, side = 'right', rotation = 0) {
+        const [base, lettering, trim] = palettes[team.id] || [team.primary, '#ffffff', '#b6c6cb'];
+        const art = team.id === 'eagles' ? null : brandingFor(team);
         c.save(); c.beginPath(); c.rect(x, y, width, height); c.clip();
-        c.translate(x + width / 2, y + height / 2); c.rotate(-Math.PI / 2); c.scale(height / 440, width / 120);
-        c.fillStyle = base; c.fillRect(-220, -60, 440, 120);
+        c.fillStyle = base; c.fillRect(x, y, width, height);
+        c.fillStyle = c.createPattern(grain, 'repeat'); c.fillRect(x, y, width, height);
+        c.strokeStyle = trim; c.lineWidth = 2; c.strokeRect(x + 4, y + 4, width - 8, height - 8);
+        // The top of each mark points toward midfield. Artwork is fitted in
+        // physical canvas units, so different field proportions never stretch it.
+        c.translate(x + width / 2, y + height / 2);
+        c.rotate((side === 'left' ? Math.PI / 2 : -Math.PI / 2) + rotation);
         if (team.id === 'bengals') {
             c.fillStyle = '#111111';
-            for (let i = -240; i < 240; i += 47) {
-                c.beginPath(); c.moveTo(i, -60); c.lineTo(i + 32, -60); c.lineTo(i + 58, -8); c.lineTo(i + 23, -32); c.closePath(); c.fill();
-                c.beginPath(); c.moveTo(i, 60); c.lineTo(i + 34, 60); c.lineTo(i + 13, 13); c.lineTo(i + 5, 35); c.closePath(); c.fill();
+            for (let i = -height / 2; i < height / 2; i += height / 9) {
+                c.beginPath(); c.moveTo(i, -width / 2); c.lineTo(i + height / 14, -width / 2); c.lineTo(i + height / 10, -width / 8); c.closePath(); c.fill();
+                c.beginPath(); c.moveTo(i, width / 2); c.lineTo(i + height / 14, width / 2); c.lineTo(i + height / 24, width / 8); c.closePath(); c.fill();
             }
         }
-        c.fillStyle = c.createPattern(grain, 'repeat'); c.fillRect(-220, -60, 440, 120);
-        c.strokeStyle = trim; c.lineWidth = 2; c.strokeRect(-216, -56, 432, 112);
-        if (art.paint && art.crop) {
+        if (art?.paint && art.crop) {
             const [sx, sy, sw, sh] = art.crop;
-            const factor = Math.min(292 / sw, 70 / sh), ww = sw * factor, hh = sh * factor;
-            // The archive wordmark supplies the actual lettering silhouette.
-            c.drawImage(art.paint, sx, sy, sw, sh, -ww / 2, -hh / 2, ww, hh);
+            const factor = Math.min(height * 0.66 / sw, width * 0.58 / sh);
+            c.drawImage(art.paint, sx, sy, sw, sh, -sw * factor / 2, -sh * factor / 2, sw * factor, sh * factor);
         } else {
-            c.textAlign = 'center'; c.textBaseline = 'middle'; c.font = '900 42px Impact, sans-serif'; c.fillStyle = lettering;
-            c.fillText(team.nickname.toUpperCase(), 0, 0, 290);
+            c.textAlign = 'center'; c.textBaseline = 'middle';
+            c.font = 'italic 900 52px Impact, Arial Black, sans-serif';
+            const text = team.nickname.toUpperCase();
+            const factor = Math.min(height * 0.6 / c.measureText(text).width, width * 0.46 / 52);
+            c.save(); c.scale(factor, factor);
+            c.lineJoin = 'round'; c.lineWidth = 5; c.strokeStyle = '#071a23'; c.strokeText(text, 0, 0);
+            c.fillStyle = lettering; c.fillText(text, 0, 0); c.restore();
         }
-        if (art.logo) {
-            const factor = Math.min(51 / art.logo.naturalWidth, 57 / art.logo.naturalHeight);
-            const ww = art.logo.naturalWidth * factor, hh = art.logo.naturalHeight * factor;
-            for (const xx of [-182, 182]) {
-                for (const [dx, dy] of [[-0.8, 0], [0.8, 0], [0, -0.8], [0, 0.8]]) c.drawImage(art.logoOutline, xx - ww / 2 + dx, -hh / 2 + dy, ww, hh);
-                c.drawImage(art.logo, xx - ww / 2, -hh / 2, ww, hh);
+        const logo = art?.logo || (team.id === 'eagles' ? logoFor(team) : null);
+        if (logo?.complete && logo.naturalWidth) {
+            const factor = Math.min(height * 0.12 / logo.naturalWidth, width * 0.48 / logo.naturalHeight);
+            const ww = logo.naturalWidth * factor, hh = logo.naturalHeight * factor;
+            for (const xx of [-height * 0.414, height * 0.414]) {
+                if (art?.logoOutline) for (const [dx, dy] of [[-0.8, 0], [0.8, 0], [0, -0.8], [0, 0.8]]) c.drawImage(art.logoOutline, xx - ww / 2 + dx, -hh / 2 + dy, ww, hh);
+                c.drawImage(logo, xx - ww / 2, -hh / 2, ww, hh);
             }
         }
         c.restore(); c.save(); c.strokeStyle = '#f2f4e8'; c.lineWidth = 3; c.strokeRect(x, y, width, height); c.restore();

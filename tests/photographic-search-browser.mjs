@@ -82,7 +82,7 @@ try {
         await page.send('Emulation.setTouchEmulationEnabled', {enabled: mobile});
         await go(team);
         await reset();
-        assert.match(await page.evaluate('document.querySelector(".photo-disclosure").textContent'), /Real crowd photograph, AI-edited/, `${team}: disclose AI photo editing`);
+        assert.match(await page.evaluate('document.querySelector(".photo-disclosure").textContent'), /Real crowd photos · AI-edited player/, `${team}: disclose AI photo editing`);
         for (const theme of ['light', 'dark']) {
             await page.evaluate(`document.documentElement.dataset.theme='${theme}'`);
             assert.ok(await page.evaluate('document.documentElement.scrollWidth <= innerWidth'), `${team}: layout overflow`);

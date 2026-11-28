@@ -1,0 +1,9 @@
+{
+    "team": "commanders",
+    "prompt": "Use case: precise-object-edit. Edit ONLY the BOTTOM KICKING PANEL of this Washington Commanders three-panel atlas. Preserve the TOP rushing and MIDDLE passing panels completely unchanged. In BOTTOM panel, the three burgundy offensive linemen with jersey numbers 51, 77, and 71 have their backs toward camera but bare heads. Make those three heads unambiguously BACK-FACING with NO facial features visible, each wearing a correctly fitting burgundy Commanders football helmet with gold W marks. Tilt/turn their heads downfield so the camera sees only the backs/sides of helmets and no eyes/nose/mouth. Keep their bodies, hands, engaged blocking positions, jerseys, numbers and all contact unchanged. The foreground kicker #19 and kneeling holder #10 have visible faces: they MUST stay entirely helmetless with their existing uncovered hair and expressive cartoon faces. Every white-uniform Cowboys defender stays helmeted, unchanged. Preserve every other detail, the exact original NFC East chunky cartoon sprite style, colors, camera, backgrounds, three separate 16:10 landscape panels stacked in the same portrait atlas, lighting and field markings. No extra players/balls, no captions, no watermark. Change only those three back-facing offensive linemen's head orientation/headwear in bottom panel.",
+    "outputPath": "/Users/zack/.codex/generated_images/01a220c5-6634-7792-afff-36c8c41f925f/exec-4d1ce790-be58-4d51-b73b-8dfb4a12b1ac.png",
+    "tool": "built-in image_gen",
+    "reviewed": true,
+    "sha256": "f0730329fe56bec64b5df5bcb071e0ca4731163be642ef0fbbb6f525613b59ea",
+    "reviewNotes": "All three cover panels checked for NFC East cartoon style, helmet rules, football poses and distinct settings."
+}

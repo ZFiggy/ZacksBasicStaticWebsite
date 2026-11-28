@@ -76,8 +76,8 @@ for (const team of teamIds) {
     await client.until('!!document.myGame');
     assert.equal(await client.evaluate('document.myGame.phase'), 'ready');
     assert.equal(await client.evaluate('document.myGame.rival.id !== teamArcade.team.id'), true);
-    assert.equal(await client.evaluate('teamArcade.games.length'), 9);
-    assert.equal(await client.evaluate('Object.keys(teamArcade.points().scores).length'), 10);
+    assert.equal(await client.evaluate('teamArcade.games.length'), 5);
+    assert.equal(await client.evaluate('Object.keys(teamArcade.points().scores).length'), 6);
     const result = await client.evaluate(`(() => {
         const g = document.myGame;
         const before = fanArcade.number('fieldRunWins');
@@ -96,7 +96,7 @@ for (const team of teamIds) {
     await client.until('!!document.myGame');
     assert.equal(await client.evaluate('document.myGame.level'), 2, `Saved next level ${team}`);
 }
-console.log('PASS all 32 teams: rival mapping, winning route, possession, single score award, next-level persistence, legacy ranking schema.');
+console.log('PASS all 32 teams: rival mapping, winning route, possession, single score award, next-level persistence, current ranking schema.');
 await go('game.html?team=eagles');
 await client.evaluate('(()=>{const g=document.myGame;g.field={...g.field,walls:[],allies:[],rushers:[{x:18,y:8}]};g.player=g.rules.initial(g.field);g.action()})()');
 await client.send('Input.dispatchKeyEvent', {type: 'keyDown', key: 'ArrowRight', code: 'ArrowRight'});
@@ -109,9 +109,9 @@ await client.evaluate('document.myGame.move(1,0)');
 assert.equal(await client.evaluate('document.myGame.player.turn'), paused);
 await client.evaluate('document.myGame.load(); document.myGame.action(); document.myGame.hint()');
 assert.ok(await client.evaluate('!!document.myGame.hintCell'));
-await client.evaluate('document.myGame.player={...document.myGame.player,x:18,y:4,turn:0,carrying:false,defenders:[{x:0,y:0}]};document.myGame.move(0,0)');
+await client.evaluate('document.myGame.player={...document.myGame.player,x:TouchdownRules.goalColumn,y:TouchdownRules.centerRow,turn:0,carrying:false,defenders:[{x:0,y:0}]};document.myGame.move(0,0)');
 assert.equal(await client.evaluate('document.myGame.phase'), 'playing', 'Cannot score without ball');
-await client.evaluate('document.myGame.player={...document.myGame.player,x:18,y:4,turn:document.myGame.field.budget-1,carrying:false,defenders:[{x:0,y:0}]};document.myGame.move(0,0)');
+await client.evaluate('document.myGame.player={...document.myGame.player,x:TouchdownRules.goalColumn,y:TouchdownRules.centerRow,turn:document.myGame.field.budget-1,carrying:false,defenders:[{x:0,y:0}]};document.myGame.move(0,0)');
 assert.equal(await client.evaluate('document.myGame.phase'), 'turnover', 'Move budget triggers turnover');
 const seed = await client.evaluate('document.myGame.field.seed');
 await client.evaluate('document.myGame.load()');
@@ -125,14 +125,14 @@ assert.ok(await client.evaluate('document.myGame.turnover.position.x < document.
 const returnShot = await client.send('Page.captureScreenshot', {format:'png',captureBeyondViewport:true});
 await writeFile('/private/tmp/touchdown-return.png', Buffer.from(returnShot.data,'base64'));
 await client.until("document.myGame.phase==='lost'");
-assert.equal(await client.evaluate('document.myGame.turnover.position.x'), 0, 'Defensive touchdown at left end zone');
+assert.equal(await client.evaluate('document.myGame.turnover.position.x'), 1, 'Defensive touchdown at left end zone');
 assert.equal(await client.evaluate('document.myGame.turnover.scored'), true);
 
 await client.evaluate(`document.myGame.load();document.myGame.action();document.myGame.field={...document.myGame.field,allies:[{x:1,y:4}],walls:[],rushers:[{x:1,y:2}]};document.myGame.player.defenders=[{x:1,y:2}];document.myGame.move(1,0)`);
 assert.equal(await client.evaluate('document.myGame.phase'), 'playing', 'Friendly blocker protection');
 await client.evaluate(`(()=>{const g=document.myGame;g.load();g.reducedMotion=true;g.action();g.player={...g.player,x:9,y:4,carrying:true,defenders:[{x:10,y:4}]};g.move(1,0)})()`);
 await client.until("document.myGame.phase==='lost'");
-assert.equal(await client.evaluate('document.myGame.turnover.position.x'), 0, 'Reduced-motion defensive TD');
+assert.equal(await client.evaluate('document.myGame.turnover.position.x'), 1, 'Reduced-motion defensive TD');
 await client.evaluate(`(()=>{const g=document.myGame;g.load();g.reducedMotion=false;g.action();g.player={...g.player,x:9,y:4,carrying:true,defenders:[{x:10,y:4}]};g.move(1,0);g.load()})()`);
 await new Promise(resolve => setTimeout(resolve, 850));
 assert.equal(await client.evaluate('document.myGame.phase'), 'ready', 'Retry cancels return animation');
@@ -199,12 +199,12 @@ await client.until('!!document.myGame');
 assert.equal(await client.evaluate('location.pathname'), '/game.html');
 assert.equal(await client.evaluate('teamArcade.team.id'), 'bears');
 await go('games.html?team=bears');
-await client.until('document.querySelectorAll(".library-game").length===9');
+await client.until('document.querySelectorAll(".library-game").length===5');
 assert.equal(await client.evaluate('!!document.querySelector(".mode-blitz")'), false);
 assert.equal(await client.evaluate('document.querySelector(".mode-game h3").textContent'), 'Touchdown Rush');
 await go('playbook.html?team=bears&game=pocket');
 await client.until('!!document.playbook');
-assert.equal(await client.evaluate('document.querySelectorAll("#playbook-tabs a").length'), 4);
+assert.equal(await client.evaluate('document.querySelectorAll("#playbook-tabs a").length'), 5);
 assert.deepEqual(client.errors.map(e=>e.exception?.description||e.text), []);
-console.log('PASS responsive light/dark layouts, pointer controls, retired Blitz redirects, nine-game lobby, four primary game tabs; no browser exceptions.');
+console.log('PASS responsive light/dark layouts, pointer controls, retired Blitz redirects, five-game lobby and five consistent game tabs; no browser exceptions.');
 client.ws.close();browser.ws.close();

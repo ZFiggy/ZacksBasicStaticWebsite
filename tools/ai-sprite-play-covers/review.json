@@ -1,0 +1,204 @@
+{
+    "criteria": [
+        "Original NFC East chunky cartoon proportions and materials",
+        "Visible-faced offense helmetless; back-facing offense and all defenders helmeted",
+        "Connected natural football poses",
+        "Distinct rushing, passing and kicking settings and composition"
+    ],
+    "teams": {
+        "eagles": {
+            "reviewed": true,
+            "sha256": "f1817813caf348b33ec59172e67f96ba60b63192e927b61c15574cc136eb0d57",
+            "method": "Full-resolution three-panel visual inspection and rendered contact sheets",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "cowboys": {
+            "reviewed": true,
+            "sha256": "3a63a6ec55fc2f632deb5f774302fa4859a55247e899f8e2aa8e5d30ae71108b",
+            "method": "Full-resolution three-panel visual inspection and rendered contact sheets",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "giants": {
+            "reviewed": true,
+            "sha256": "a4d5b6925aa1c25e3608eafb2c7495c8e9dbdd7148cab73b8890d03cf2d93c9e",
+            "method": "Full-resolution three-panel visual inspection and rendered contact sheets",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "packers": {
+            "reviewed": true,
+            "sha256": "f5ceea22bfcd269d74d0e214c7d29ec473e200808ac72d57a01146f320ede277",
+            "method": "Full-resolution three-panel visual inspection and rendered contact sheets",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "bears": {
+            "reviewed": true,
+            "sha256": "f84381c98047b9762c35db29f433589e000f19c83b17e36c8797bd23727719ef",
+            "method": "Full-resolution three-panel visual inspection and rendered contact sheets",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "seahawks": {
+            "reviewed": true,
+            "sha256": "7d0a5f137fdb98724caa64e1616a5a55fa582ba7066b8e7992ba13a326f4c610",
+            "method": "Full-resolution three-panel visual inspection and rendered contact sheets",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "commanders": {
+            "reviewed": true,
+            "sha256": "f0730329fe56bec64b5df5bcb071e0ca4731163be642ef0fbbb6f525613b59ea",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "lions": {
+            "reviewed": true,
+            "sha256": "fe5dedb1f5f3b771d32801b953d3ed0da391010a9c065111881febb77a817f1d",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "vikings": {
+            "reviewed": true,
+            "sha256": "13d565ad5a80524b0ec15ad7e9a10ab4a6d957aa83a4179031382fb7ee2623d1",
+            "method": "Full-resolution three-panel visual inspection and rendered contact sheets",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "falcons": {
+            "reviewed": true,
+            "sha256": "4f13acb84cb4e5b27a845993431d91765e4c9d1faca1cbf7b27d18446982e23e",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "panthers": {
+            "reviewed": true,
+            "sha256": "58cf6b425fd3c37040589bda494226741494b5ff9828cb6516f94376a743f1e3",
+            "method": "Full-resolution three-panel visual inspection and rendered contact sheets",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "saints": {
+            "reviewed": true,
+            "sha256": "e4ffc4fdc9749b3bbd032ab53847322d4497d2edb16ef95f9e9db8c823246f8d",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "buccaneers": {
+            "reviewed": true,
+            "sha256": "59a11351d664a85f2b886397753e99a46c933f4904c3bff83309a211a2816a73",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "cardinals": {
+            "reviewed": true,
+            "sha256": "ab9cd6d8d96287ec3a71db5dc6f1fd077e7b97c8dadd6659abf7dc990a4e76ed",
+            "method": "Full-resolution three-panel visual inspection and rendered contact sheets",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "rams": {
+            "reviewed": true,
+            "sha256": "658e7e7e0ee23ad6f5743eb79520c64a8767b65cacff4002c33bcfd7b6d07fcf",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "49ers": {
+            "reviewed": true,
+            "sha256": "8adc125a706e153685863a571878ef2c72b08c7300437e7441f985c190d25e88",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "bills": {
+            "reviewed": true,
+            "sha256": "da39a8e8163a989c00cb00132376c9707f16c906ecdc1c839ab53a59012b2634",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "dolphins": {
+            "reviewed": true,
+            "sha256": "17b44021ade12067231f913ca0f7c66e3242513ed9bf97929e2d5c72b2352bec",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "patriots": {
+            "reviewed": true,
+            "sha256": "b9cdcf44e5fd6d129aefc96864a478c8acb501846bd54929bf0fec70ed6dad96",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "jets": {
+            "reviewed": true,
+            "sha256": "e2b7ad76252126a5b18fe5b605c90ace73cb4a48233a24115226360f3c894f2e",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "ravens": {
+            "reviewed": true,
+            "sha256": "99f2ff75bb36f0229c4eb08f8cf2a719bc624a43ac8260efcf03a1c14bbcffec",
+            "method": "Full-resolution three-panel visual inspection and rendered contact sheets",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "bengals": {
+            "reviewed": true,
+            "sha256": "1314ed7b0b5c5f545c445a0b9a5ccc2b2c4ba03ce0b703082a28058280ac7039",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "browns": {
+            "reviewed": true,
+            "sha256": "0636da682c0e7c8ded5f547499cae65a7261b17c95e4987bd0b7fe98337cb35a",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "steelers": {
+            "reviewed": true,
+            "sha256": "860deba974e1f8cc7d96e7a2be3a57fee26970f35d0964b78841c9e008392ce8",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "texans": {
+            "reviewed": true,
+            "sha256": "dc0e3d9668551a7319f3f95e6b7b7d7a08a5d754fd4a37c7ec890f2620530fc1",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "colts": {
+            "reviewed": true,
+            "sha256": "ba494703d13af71398da11a26f4e61ce99cb5ca06e789318990c2e8482577960",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "jaguars": {
+            "reviewed": true,
+            "sha256": "5bdc64fd96bcc791108f41accfd29f48e69ff9fc16f5920336d9b5a1a62bed1c",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "titans": {
+            "reviewed": true,
+            "sha256": "3db49b8cb376275117f1927d3635431714767e9a15433b325869dec643efa747",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "broncos": {
+            "reviewed": true,
+            "sha256": "de4ea86b248060e8db53c7d51521d6daae2ff616e4d6f722c943692c5d36fc1a",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "chiefs": {
+            "reviewed": true,
+            "sha256": "5000dc84c17cfe553e2bcd369fc4eae9cea8002011bcb42a516c98fa8b71cd14",
+            "method": "Full-resolution three-panel visual inspection and rendered contact sheets",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "raiders": {
+            "reviewed": true,
+            "sha256": "4d632dce5d61627dd2bf88290ae0feefa0083ba14ed9cd8e0c41314fd0a71712",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        },
+        "chargers": {
+            "reviewed": true,
+            "sha256": "041ad915d7483f59911370ce286546321b040803c4ccaebae3af662ae898b796",
+            "method": "All three rendered cover panels checked on team contact sheets; uncertain headwear inspected closely",
+            "notes": "Style, poses, scene variety, crop boundaries and all visible player headwear accepted."
+        }
+    },
+    "pendingRepairs": {},
+    "reviewedAt": "2026-11-28T07:17:49.794861+00:00"
+}

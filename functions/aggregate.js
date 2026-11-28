@@ -12,19 +12,23 @@ async function aggregateFan(db, entryId, teamIds, serverTimestamp) {
         if (current && (!Number.isInteger(current.points) || current.points < 0 || current.points > 1000)) return;
         const points = current?.points || 0;
         const before = previous?.points || 0;
+        const clicks = current?.clicks || 0;
+        const previousClicks = previous?.clicks || 0;
+        if (!Number.isSafeInteger(clicks) || clicks < 0) return;
         const membership = current ? 1 : 0;
         const previousMembership = previous?.active ? 1 : 0;
-        if (previous && before === points && membership === previousMembership) return;
+        if (previous && before === points && previousClicks === clicks && membership === previousMembership) return;
         const teamRef = db.doc(`teamStandings/${teamId}`);
         const team = await transaction.get(teamRef);
         const total = team.exists ? team.data() : {points: 0, fans: 0};
         transaction.set(teamRef, {
             teamId,
+            clicks: Math.max(0, (total.clicks || 0) + clicks - previousClicks),
             points: Math.max(0, total.points + points - before),
             fans: Math.max(0, total.fans + membership - previousMembership),
             updatedAt: serverTimestamp()
         });
-        transaction.set(appliedRef, {teamId, points, active: Boolean(current)});
+        transaction.set(appliedRef, {teamId, points, clicks, active: Boolean(current)});
     });
 }
 module.exports = {aggregateFan};

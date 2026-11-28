@@ -102,15 +102,15 @@ class JalenSearch {
         const reference = document.querySelector('.jalen-reference');
         reference.replaceChildren();
         this.referenceCanvas = document.createElement('canvas');
-        this.referenceCanvas.width = 160; this.referenceCanvas.height = 160;
+        this.referenceCanvas.width = 300; this.referenceCanvas.height = 220;
         this.referenceCanvas.setAttribute('role', 'img');
         this.referenceCanvas.setAttribute('aria-label', `Photographic identity reference for ${this.playerName}`);
-        const label = document.createElement('span'); label.textContent = `${this.playerName.toUpperCase()} · FIND THIS FACE`;
+        const label = document.createElement('span'); label.textContent = this.playerName;
         reference.append(this.referenceCanvas, label);
         const disclosure = document.querySelector('.photo-disclosure');
         const generatedCrowd = this.photoSet.scenes.some(scene => scene.kind === 'generated');
         disclosure.textContent = this.photoSet.aiIntegrated
-            ? `Real crowd photograph, AI-edited to place ${this.playerName} naturally in this fictional fan game. `
+            ? 'Real crowd photos · AI-edited player. '
             : this.photoSet.photographicComposite
             ? `Real crowd photograph with a real ${this.playerName} photo cutout inserted for this fictional game. `
             : generatedCrowd
@@ -120,12 +120,12 @@ class JalenSearch {
             const portrait = new Image();
             portrait.onload = () => {
                 const ctx = this.referenceCanvas.getContext('2d');
-                ctx.fillStyle = '#06323b';
-                ctx.fillRect(0, 0, 160, 160);
-                const scale = Math.min(160 / portrait.naturalWidth, 160 / portrait.naturalHeight);
+                const {width: frameWidth, height: frameHeight} = this.referenceCanvas;
+                ctx.clearRect(0, 0, frameWidth, frameHeight);
+                const scale = Math.min(frameWidth / portrait.naturalWidth, frameHeight / portrait.naturalHeight);
                 const width = portrait.naturalWidth * scale;
                 const height = portrait.naturalHeight * scale;
-                ctx.drawImage(portrait, (160 - width) / 2, (160 - height) / 2, width, height);
+                ctx.drawImage(portrait, (frameWidth - width) / 2, (frameHeight - height) / 2, width, height);
             };
             portrait.onerror = () => { label.textContent = `${this.playerName.toUpperCase()} · PORTRAIT UNAVAILABLE`; };
             portrait.src = this.photoSet.referenceSrc;
@@ -195,6 +195,7 @@ class JalenSearch {
     }
 
     renderProgress() {
+        document.getElementById('search-points').textContent = `${(this.level + (this.found ? 1 : 0)) * 20} / 100 search points`;
         const steps = document.getElementById('photo-progress');
         steps.replaceChildren();
         for (let i = 0; i < 5; i++) {
@@ -227,7 +228,7 @@ class JalenSearch {
         document.getElementById('search-hint').disabled = true;
         document.getElementById('search-hint').textContent = this.photoSet?.authentic ? 'Show area hint' : this.photoSet?.photographicComposite ? 'Face clue' : 'Clothing clue';
         document.getElementById('search-retry').hidden = true;
-        this.next.textContent = level === 4 ? 'Play all five again' : 'Next photo';
+        this.next.textContent = level === 4 ? 'Play again' : 'Next photo';
         document.getElementById('search-level').textContent = `Photo ${level + 1} / 5`;
         document.getElementById('search-scene').textContent = `${this.scenes[level].name} · ${this.scenes[level].difficulty}`;
         this.status.textContent = 'Loading photo…';
@@ -251,11 +252,12 @@ class JalenSearch {
                 this.canvas.width = Math.round(image.naturalWidth * this.scenes[level].region[2]);
                 this.canvas.height = Math.round(image.naturalHeight * this.scenes[level].region[3]);
             }
+            this.viewport.style.aspectRatio = `${this.canvas.width} / ${this.canvas.height}`;
             if (this.photoSet && !this.photoSet.referenceSrc && !this.photoSet.authentic) this.paintReference(image);
             this.loading = false;
             this.next.disabled = !this.found;
             document.getElementById('search-hint').disabled = false;
-            this.status.textContent = this.found ? (level === 4 ? `All five crowd scenes solved. ${this.team.motto}` : `Welcome back. You found ${this.playerName} here — continue to the next photo.`) : `Find ${this.playerName} in the crowd photograph. Use the face reference and zoom to inspect the spectators.`;
+            this.status.textContent = this.found ? (level === 4 ? `All five crowd scenes solved. ${this.team.motto}` : `Welcome back. You found ${this.playerName} here — continue to the next photo.`) : `Find ${this.playerName}. Zoom to look closer.`;
             if (this.photoSet?.authentic) {
                 this.status.textContent = this.found ? 'Target found. Continue to the next photo.' : `${this.scenes[level].clue} Zoom in to inspect the whole photo.`;
                 this.photoSource.href = this.scenes[level].sourcePage;

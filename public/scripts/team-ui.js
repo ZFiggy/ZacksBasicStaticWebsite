@@ -30,29 +30,29 @@
         actions.append(change);
     });
     document.querySelectorAll('.site-footer > p:first-child').forEach(item => { item.textContent = `Sunday Arcade / ${team.name} · An unofficial fan project`; });
-    document.querySelectorAll('.game-tabs a').forEach(link => {
-        const entry = api.games.find(item => item.href === link.getAttribute('href'));
-        if (entry) link.textContent = entry.title;
+    // One source for the five game names, order, team links, and active tab.
+    api.renderGameTabs = () => document.querySelectorAll('.game-tabs').forEach(tabs => {
+        tabs.setAttribute('aria-label', 'Choose a game');
+        tabs.replaceChildren(...api.games.map(entry => {
+            const link = document.createElement('a');
+            link.href = api.link(entry.href);
+            link.textContent = entry.title;
+            if (entry.href.split('?')[0] === page) link.setAttribute('aria-current', 'page');
+            return link;
+        }));
     });
     document.querySelectorAll('[data-team-art]').forEach(element => {
         if (element.classList.contains('team-hero-art') && api.media) api.paintTeamPhoto(element, 'hero');
         else api.paintArt(element);
     });
     if (api.media) set('.team-art-note', `${team.city} on camera. Your colors. Your home crowd.`);
-    if (window.NFL_PHOTO_SCENES?.[team.id]?.authentic) {
-        set('.locker-stats a[href^="jalen.html"] > span', 'Photo scenes cleared');
-        set('.locker-stats a[href^="jalen.html"] > small', 'Five photos. Five targets.');
-    }
     set('[data-team-name]', team.name);
     set('[data-team-city]', team.city);
     set('[data-team-nickname]', team.nickname);
     set('[data-team-motto]', team.motto);
-    set('[data-team-setting]', api.media ? `${team.city} football. Real team moments, home colors, and nine ways to play.` : team.setting);
+    set('[data-team-setting]', api.media ? `${team.city} football. Real team moments, home colors, and five ways to play.` : team.setting);
     set('[data-team-division]', `${team.conference} ${team.division}`);
     set('[data-team-short]', team.short);
-    const feature = document.querySelector('.lobby-team-art');
-    if (feature) api.paintGameArt(feature, 'bird');
-    if (api.media) set('.team-lobby-feature .eyebrow', 'Your team. In the game.');
     // Replace the old editorial shell before game scripts start updating their own status text.
     const replacements = [
         ['Philadelphia Eagles', team.name], ['PHILADELPHIA EAGLES', team.name.toUpperCase()],
@@ -72,7 +72,7 @@
     if (game) document.title = `${game.title} · ${team.name} · Sunday Arcade`;
     else document.title = `${team.name} · Sunday Arcade`;
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', team.primary);
-    document.querySelector('meta[name="description"]')?.setAttribute('content', `${team.name} fan arcade. ${team.motto} Nine team-inspired games, saved records, and fan standings.`);
+    document.querySelector('meta[name="description"]')?.setAttribute('content', `${team.name} fan arcade. ${team.motto} Five team-inspired games, saved records, and fan standings.`);
     if (page === 'game.html') {
         set('#game-title', team.games.game.toUpperCase());
         set('.game-intro > p:last-child', personality?.gameHooks.game || `Bring every football home for the ${team.nickname}.`);
@@ -139,14 +139,6 @@
         if (heading && player) heading.textContent = `${player.name} · #${player.number}`;
         panel.dataset.mode = mode;
     }
-    document.querySelectorAll('.leaderboard-section').forEach(section => {
-        // Preserve the old score sources, while directing all team-aware rankings to the new board.
-        const box = document.createElement('div'); box.className = 'team-leaderboard-link';
-        const heading = document.createElement('h2'); heading.textContent = 'Your name. Your colors. Your rank.';
-        const text = document.createElement('p'); text.textContent = 'See individual fans with their chosen teams, compare game scores, and follow the overall team standings.';
-        const link = document.createElement('a'); link.className = 'button'; link.href = `leaders.html?game=${page === 'barkley.html' ? 'bird' : 'overall'}`; link.textContent = 'Open fan & team leaderboards';
-        box.append(heading,text,link); section.replaceChildren(box);
-    });
     function teamLinks(root = document) {
         root.querySelectorAll('a[href]').forEach(link => {
             const raw = link.getAttribute('href');
@@ -187,5 +179,6 @@
         sync.textContent = 'Your team record syncs after scoring. Local progress stays saved.';
         document.querySelector('.site-footer')?.prepend(sync);
     }
+    api.renderGameTabs();
     window.teamArcade.celebrate = celebrate;
 })();

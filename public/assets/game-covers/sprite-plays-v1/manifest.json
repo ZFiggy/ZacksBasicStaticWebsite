@@ -1,0 +1,1236 @@
+{
+    "version": 1,
+    "generator": "built-in image_gen",
+    "style": "Original NFC East chunky 3D cartoon sprites, redrawn into natural football action",
+    "styleReference": "assets/characters/cast-0-v2.png",
+    "panelOrder": [
+        "game",
+        "pocket",
+        "kick"
+    ],
+    "camera": "Elevated oblique sideline, action moving diagonally sideways",
+    "helmetRule": {
+        "offenseWithVisibleFace": "No helmet; uncovered cartoon face and hair",
+        "offenseWithoutVisibleFace": "Team helmet",
+        "defense": "Opponent team helmet on every defender"
+    },
+    "reviewedAt": "2026-11-28T07:17:49.794861+00:00",
+    "teams": {
+        "eagles": {
+            "src": "assets/game-covers/sprite-plays-v1/eagles.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                574,
+                1164,
+                1717
+            ],
+            "seamScores": [
+                56.65,
+                78.31
+            ],
+            "sha256": "f1817813caf348b33ec59172e67f96ba60b63192e927b61c15574cc136eb0d57",
+            "reviewed": true,
+            "rival": "cowboys",
+            "featured": {
+                "runner": {
+                    "name": "Saquon Barkley",
+                    "number": 26
+                },
+                "quarterback": {
+                    "name": "Jalen Hurts",
+                    "number": 1
+                },
+                "kicker": {
+                    "name": "Jake Elliott",
+                    "number": 4
+                }
+            },
+            "settings": [
+                "South Philly rowhouse skyline beyond the near sideline; afternoon; end-zone corner",
+                "silver stadium trusses and green midfield eagle paint; evening under lights",
+                "behind goal-line green padding and tunnel seating; cool overcast"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/eagles.json"
+        },
+        "cowboys": {
+            "src": "assets/game-covers/sprite-plays-v1/cowboys.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                573,
+                1146,
+                1717
+            ],
+            "seamScores": [
+                49.58,
+                59.97
+            ],
+            "sha256": "3a63a6ec55fc2f632deb5f774302fa4859a55247e899f8e2aa8e5d30ae71108b",
+            "reviewed": true,
+            "rival": "eagles",
+            "featured": {
+                "runner": {
+                    "name": "CeeDee Lamb",
+                    "number": 88
+                },
+                "quarterback": {
+                    "name": "Dak Prescott",
+                    "number": 4
+                },
+                "kicker": {
+                    "name": "Brandon Aubrey",
+                    "number": 17
+                }
+            },
+            "settings": [
+                "sunlit sideline under the vast silver arched roof; navy star near boundary",
+                "midfield silver-blue center star under roof lights; evening",
+                "goal-line end with high hanging video board seen from behind; bright indoor light"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/cowboys.json"
+        },
+        "giants": {
+            "src": "assets/game-covers/sprite-plays-v1/giants.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                576,
+                1163,
+                1717
+            ],
+            "seamScores": [
+                55.31,
+                102.74
+            ],
+            "sha256": "a4d5b6925aa1c25e3608eafb2c7495c8e9dbdd7148cab73b8890d03cf2d93c9e",
+            "reviewed": true,
+            "rival": "eagles",
+            "featured": {
+                "runner": {
+                    "name": "Cam Skattebo",
+                    "number": 44
+                },
+                "quarterback": {
+                    "name": "Jaxson Dart",
+                    "number": 6
+                },
+                "kicker": {
+                    "name": "Graham Gano",
+                    "number": 9
+                }
+            },
+            "settings": [
+                "open-air blue-red sideline with distant city towers; autumn afternoon",
+                "midfield beneath a broad bank of floodlights; cool twilight",
+                "blue goal-line seating and red tunnel; pale overcast"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/giants.json"
+        },
+        "commanders": {
+            "src": "assets/game-covers/sprite-plays-v1/commanders.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                574,
+                1146,
+                1717
+            ],
+            "seamScores": [
+                43.36,
+                73.2
+            ],
+            "sha256": "f0730329fe56bec64b5df5bcb071e0ca4731163be642ef0fbbb6f525613b59ea",
+            "reviewed": true,
+            "rival": "cowboys",
+            "featured": {
+                "runner": {
+                    "name": "Terry McLaurin",
+                    "number": 17
+                },
+                "quarterback": {
+                    "name": "Jayden Daniels",
+                    "number": 5
+                },
+                "kicker": {
+                    "name": "Drew Stevens",
+                    "number": 19
+                }
+            },
+            "settings": [
+                "burgundy-gold lower bowl with distant capital monument silhouette; warm afternoon",
+                "midfield from opposite sideline, burgundy ribbon boards; blue evening",
+                "gold goalposts and burgundy end zone with low terraced stands; gray sky"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/commanders-rear-line.json"
+        },
+        "bears": {
+            "src": "assets/game-covers/sprite-plays-v1/bears.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                576,
+                1148,
+                1717
+            ],
+            "seamScores": [
+                55.49,
+                83.67
+            ],
+            "sha256": "f84381c98047b9762c35db29f433589e000f19c83b17e36c8797bd23727719ef",
+            "reviewed": true,
+            "rival": "packers",
+            "featured": {
+                "runner": {
+                    "name": "DJ Moore",
+                    "number": 2
+                },
+                "quarterback": {
+                    "name": "Caleb Williams",
+                    "number": 18
+                },
+                "kicker": {
+                    "name": "Cairo Santos",
+                    "number": 8
+                }
+            },
+            "settings": [
+                "lakefront stadium colonnades seen from sideline; crisp autumn daylight",
+                "navy-orange midfield under lights with distant Chicago skyline; twilight",
+                "orange goal-line padding and stone entry arches; windy overcast"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/bears.json"
+        },
+        "lions": {
+            "src": "assets/game-covers/sprite-plays-v1/lions.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                572,
+                1146,
+                1717
+            ],
+            "seamScores": [
+                48.25,
+                79.36
+            ],
+            "sha256": "fe5dedb1f5f3b771d32801b953d3ed0da391010a9c065111881febb77a817f1d",
+            "reviewed": true,
+            "rival": "packers",
+            "featured": {
+                "runner": {
+                    "name": "Jahmyr Gibbs",
+                    "number": 26
+                },
+                "quarterback": {
+                    "name": "Jared Goff",
+                    "number": 16
+                },
+                "kicker": {
+                    "name": "Jake Bates",
+                    "number": 39
+                }
+            },
+            "settings": [
+                "brick industrial-style indoor grandstand and steel roof trusses; bright daylight",
+                "blue-silver midfield facing tall glass windows; evening indoor lighting",
+                "end-zone tunnel below a different brick seating deck; cool stadium light"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/lions.json"
+        },
+        "packers": {
+            "src": "assets/game-covers/sprite-plays-v1/packers.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                573,
+                1144,
+                1717
+            ],
+            "seamScores": [
+                56.65,
+                66.05
+            ],
+            "sha256": "f5ceea22bfcd269d74d0e214c7d29ec473e200808ac72d57a01146f320ede277",
+            "reviewed": true,
+            "rival": "bears",
+            "featured": {
+                "runner": {
+                    "name": "Josh Jacobs",
+                    "number": 8
+                },
+                "quarterback": {
+                    "name": "Jordan Love",
+                    "number": 10
+                },
+                "kicker": {
+                    "name": "Trey Smack",
+                    "number": 28
+                }
+            },
+            "settings": [
+                "open green-gold bowl with frosted pines beyond sideline; winter sunshine",
+                "midfield under warm floodlights, green-gold railing; cold blue dusk",
+                "snow-dusted goal-line stands and brick concourse; light flurries"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/packers.json"
+        },
+        "vikings": {
+            "src": "assets/game-covers/sprite-plays-v1/vikings.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                575,
+                1163,
+                1717
+            ],
+            "seamScores": [
+                57.27,
+                56.59
+            ],
+            "sha256": "13d565ad5a80524b0ec15ad7e9a10ab4a6d957aa83a4179031382fb7ee2623d1",
+            "reviewed": true,
+            "rival": "packers",
+            "featured": {
+                "runner": {
+                    "name": "Justin Jefferson",
+                    "number": 18
+                },
+                "quarterback": {
+                    "name": "Kyler Murray",
+                    "number": 1
+                },
+                "kicker": {
+                    "name": "Will Reichard",
+                    "number": 16
+                }
+            },
+            "settings": [
+                "angular glass roof and purple sideline; cool indoor daylight",
+                "midfield facing huge geometric windows with gold ribbon lights; blue twilight",
+                "opposite end-zone purple seating below steep glass panes; warm artificial light"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/vikings.json"
+        },
+        "falcons": {
+            "src": "assets/game-covers/sprite-plays-v1/falcons.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                595,
+                1154,
+                1717
+            ],
+            "seamScores": [
+                45.03,
+                57.6
+            ],
+            "sha256": "4f13acb84cb4e5b27a845993431d91765e4c9d1faca1cbf7b27d18446982e23e",
+            "reviewed": true,
+            "rival": "saints",
+            "featured": {
+                "runner": {
+                    "name": "Bijan Robinson",
+                    "number": 7
+                },
+                "quarterback": {
+                    "name": "Michael Penix Jr.",
+                    "number": 9
+                },
+                "kicker": {
+                    "name": "Jake Moody",
+                    "number": 45
+                }
+            },
+            "settings": [
+                "angular steel roof petals and red lower bowl; daylight",
+                "midfield under geometric overhead lighting and black-red ribbon boards; evening",
+                "red goal-line tunnel under a separate angular roof section; cool indoor light"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/falcons.json"
+        },
+        "panthers": {
+            "src": "assets/game-covers/sprite-plays-v1/panthers.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                573,
+                1146,
+                1717
+            ],
+            "seamScores": [
+                57.48,
+                95.19
+            ],
+            "sha256": "58cf6b425fd3c37040589bda494226741494b5ff9828cb6516f94376a743f1e3",
+            "reviewed": true,
+            "rival": "buccaneers",
+            "featured": {
+                "runner": {
+                    "name": "Christian McCaffrey",
+                    "number": 22
+                },
+                "quarterback": {
+                    "name": "Bryce Young",
+                    "number": 9
+                },
+                "kicker": {
+                    "name": "Ryan Fitzgerald",
+                    "number": 10
+                }
+            },
+            "settings": [
+                "silver-blue stadium pylons and Carolina pines beyond boundary; afternoon",
+                "midfield with distant city skyline and blue lights; twilight",
+                "black-blue end-zone padding below tiered stands; cloudy daylight"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/panthers.json"
+        },
+        "saints": {
+            "src": "assets/game-covers/sprite-plays-v1/saints.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                573,
+                1142,
+                1717
+            ],
+            "seamScores": [
+                59.77,
+                57.37
+            ],
+            "sha256": "e4ffc4fdc9749b3bbd032ab53847322d4497d2edb16ef95f9e9db8c823246f8d",
+            "reviewed": true,
+            "rival": "falcons",
+            "featured": {
+                "runner": {
+                    "name": "Alvin Kamara",
+                    "number": 41
+                },
+                "quarterback": {
+                    "name": "Tyler Shough",
+                    "number": 6
+                },
+                "kicker": {
+                    "name": "Charlie Smyth",
+                    "number": 39
+                }
+            },
+            "settings": [
+                "gold-black sideline inside broad domed roof; warm game light",
+                "midfield facing upper concourse arches and dome ribs; dramatic evening lighting",
+                "opposite end zone and gold tunnel entry; cool-white field lighting"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/saints.json"
+        },
+        "buccaneers": {
+            "src": "assets/game-covers/sprite-plays-v1/buccaneers.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                575,
+                1163,
+                1717
+            ],
+            "seamScores": [
+                90.35,
+                91.24
+            ],
+            "sha256": "59a11351d664a85f2b886397753e99a46c933f4904c3bff83309a211a2816a73",
+            "reviewed": true,
+            "rival": "saints",
+            "featured": {
+                "runner": {
+                    "name": "Mike Evans",
+                    "number": 13
+                },
+                "quarterback": {
+                    "name": "Baker Mayfield",
+                    "number": 6
+                },
+                "kicker": {
+                    "name": "Chase McLaughlin",
+                    "number": 4
+                }
+            },
+            "settings": [
+                "pirate ship beyond red sideline seating, palms; bright afternoon",
+                "midfield facing a different bank of stands and open bay sky; sunset",
+                "red end-zone tunnel with palms in distance, ship out of frame; overcast"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/buccaneers.json"
+        },
+        "cardinals": {
+            "src": "assets/game-covers/sprite-plays-v1/cardinals.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                572,
+                1149,
+                1717
+            ],
+            "seamScores": [
+                58.28,
+                69.45
+            ],
+            "sha256": "ab9cd6d8d96287ec3a71db5dc6f1fd077e7b97c8dadd6659abf7dc990a4e76ed",
+            "reviewed": true,
+            "rival": "seahawks",
+            "featured": {
+                "runner": {
+                    "name": "Larry Fitzgerald",
+                    "number": 11
+                },
+                "quarterback": {
+                    "name": "Gardner Minshew II",
+                    "number": 15
+                },
+                "kicker": {
+                    "name": "Chad Ryland",
+                    "number": 38
+                }
+            },
+            "settings": [
+                "silver retractable roof structure and desert foothills through opening; afternoon",
+                "midfield beneath white roof ribs and red ribbon boards; night lighting",
+                "red end zone facing broad glass portal with distant cacti; warm sunset"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/cardinals.json"
+        },
+        "rams": {
+            "src": "assets/game-covers/sprite-plays-v1/rams.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                574,
+                1147,
+                1717
+            ],
+            "seamScores": [
+                50.65,
+                78.35
+            ],
+            "sha256": "658e7e7e0ee23ad6f5743eb79520c64a8767b65cacff4002c33bcfd7b6d07fcf",
+            "reviewed": true,
+            "rival": "49ers",
+            "featured": {
+                "runner": {
+                    "name": "Puka Nacua",
+                    "number": 17
+                },
+                "quarterback": {
+                    "name": "Matthew Stafford",
+                    "number": 9
+                },
+                "kicker": {
+                    "name": "Joshua Karty",
+                    "number": 16
+                }
+            },
+            "settings": [
+                "sweeping translucent canopy, blue-gold seating, palms; daylight",
+                "midfield facing curved hanging scoreboard and steel roof grid; evening",
+                "blue-gold goal-line stands with open side revealing palms; sunset"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/rams.json"
+        },
+        "49ers": {
+            "src": "assets/game-covers/sprite-plays-v1/49ers.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                575,
+                1163,
+                1717
+            ],
+            "seamScores": [
+                68.23,
+                97.31
+            ],
+            "sha256": "8adc125a706e153685863a571878ef2c72b08c7300437e7441f985c190d25e88",
+            "reviewed": true,
+            "rival": "seahawks",
+            "featured": {
+                "runner": {
+                    "name": "Christian McCaffrey",
+                    "number": 23
+                },
+                "quarterback": {
+                    "name": "Brock Purdy",
+                    "number": 13
+                },
+                "kicker": {
+                    "name": "Eddy Pineiro",
+                    "number": 18
+                }
+            },
+            "settings": [
+                "open red-gold sideline stands and distant low green hills; afternoon",
+                "midfield facing stacked glass hospitality boxes, red field paint; evening",
+                "red end-zone tunnel and opposite lower bowl; pale overcast"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/49ers.json"
+        },
+        "seahawks": {
+            "src": "assets/game-covers/sprite-plays-v1/seahawks.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                577,
+                1147,
+                1717
+            ],
+            "seamScores": [
+                63.19,
+                48.41
+            ],
+            "sha256": "7d0a5f137fdb98724caa64e1616a5a55fa582ba7066b8e7992ba13a326f4c610",
+            "reviewed": true,
+            "rival": "49ers",
+            "featured": {
+                "runner": {
+                    "name": "Jaxon Smith-Njigba",
+                    "number": 11
+                },
+                "quarterback": {
+                    "name": "Sam Darnold",
+                    "number": 14
+                },
+                "kicker": {
+                    "name": "Jason Myers",
+                    "number": 5
+                }
+            },
+            "settings": [
+                "twin silver stadium arches and distant needle skyline; cloudy afternoon",
+                "midfield facing navy-lime ribbon boards and opposite grandstand; rainy twilight",
+                "navy end-zone stands framed by arch supports; cool floodlit evening"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/seahawks.json"
+        },
+        "bills": {
+            "src": "assets/game-covers/sprite-plays-v1/bills.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                575,
+                1154,
+                1717
+            ],
+            "seamScores": [
+                62.68,
+                70.37
+            ],
+            "sha256": "da39a8e8163a989c00cb00132376c9707f16c906ecdc1c839ab53a59012b2634",
+            "reviewed": true,
+            "rival": "dolphins",
+            "featured": {
+                "runner": {
+                    "name": "James Cook",
+                    "number": 4
+                },
+                "quarterback": {
+                    "name": "Josh Allen",
+                    "number": 17
+                },
+                "kicker": {
+                    "name": "Tyler Bass",
+                    "number": 16
+                }
+            },
+            "settings": [
+                "open blue-red sideline bowl with snow at railing; cold daylight",
+                "midfield facing blue tiers and huge floodlights; winter dusk",
+                "blue goal-line padding, red tunnel, lake-effect flurries; overcast"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/bills.json"
+        },
+        "dolphins": {
+            "src": "assets/game-covers/sprite-plays-v1/dolphins.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                574,
+                1146,
+                1717
+            ],
+            "seamScores": [
+                79.9,
+                100.25
+            ],
+            "sha256": "17b44021ade12067231f913ca0f7c66e3242513ed9bf97929e2d5c72b2352bec",
+            "reviewed": true,
+            "rival": "bills",
+            "featured": {
+                "runner": {
+                    "name": "Tyreek Hill",
+                    "number": 10
+                },
+                "quarterback": {
+                    "name": "Malik Willis",
+                    "number": 2
+                },
+                "kicker": {
+                    "name": "Daniel Carlson",
+                    "number": 38
+                }
+            },
+            "settings": [
+                "aqua-orange sideline beneath white canopy, palms beyond; bright afternoon",
+                "midfield with aqua seating and white roof cables; tropical sunset",
+                "orange end-zone pylons facing open palm-lined corner; cloudy late daylight"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/dolphins.json"
+        },
+        "patriots": {
+            "src": "assets/game-covers/sprite-plays-v1/patriots.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                606,
+                1179,
+                1717
+            ],
+            "seamScores": [
+                45.11,
+                104.21
+            ],
+            "sha256": "b9cdcf44e5fd6d129aefc96864a478c8acb501846bd54929bf0fec70ed6dad96",
+            "reviewed": true,
+            "rival": "jets",
+            "featured": {
+                "runner": {
+                    "name": "Rob Gronkowski",
+                    "number": 87
+                },
+                "quarterback": {
+                    "name": "Drake Maye",
+                    "number": 10
+                },
+                "kicker": {
+                    "name": "Andy Borregales",
+                    "number": 8
+                }
+            },
+            "settings": [
+                "navy-red sideline with lighthouse tower visible; autumn sun",
+                "midfield facing glass hospitality boxes and stadium lights; evening",
+                "opposite goal-line tunnel with brick concourse, lighthouse out of frame; gray daylight"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/patriots.json"
+        },
+        "jets": {
+            "src": "assets/game-covers/sprite-plays-v1/jets.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                570,
+                1146,
+                1717
+            ],
+            "seamScores": [
+                56.91,
+                81.64
+            ],
+            "sha256": "e2b7ad76252126a5b18fe5b605c90ace73cb4a48233a24115226360f3c894f2e",
+            "reviewed": true,
+            "rival": "patriots",
+            "featured": {
+                "runner": {
+                    "name": "Breece Hall",
+                    "number": 20
+                },
+                "quarterback": {
+                    "name": "Geno Smith",
+                    "number": 7
+                },
+                "kicker": {
+                    "name": "Jason Sanders",
+                    "number": 19
+                }
+            },
+            "settings": [
+                "green-white sideline with distant city skyline; clear afternoon",
+                "midfield facing silver ribbon-board decks with green lighting; night",
+                "green end zone below opposite industrial seating tier; overcast"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/jets.json"
+        },
+        "ravens": {
+            "src": "assets/game-covers/sprite-plays-v1/ravens.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                573,
+                1146,
+                1717
+            ],
+            "seamScores": [
+                65.41,
+                89.86
+            ],
+            "sha256": "99f2ff75bb36f0229c4eb08f8cf2a719bc624a43ac8260efcf03a1c14bbcffec",
+            "reviewed": true,
+            "rival": "steelers",
+            "featured": {
+                "runner": {
+                    "name": "Derrick Henry",
+                    "number": 22
+                },
+                "quarterback": {
+                    "name": "Lamar Jackson",
+                    "number": 8
+                },
+                "kicker": {
+                    "name": "Riley Patterson",
+                    "number": 35
+                }
+            },
+            "settings": [
+                "purple-black sideline with Baltimore brick warehouse towers; afternoon",
+                "midfield with gold-purple lights and separate seating section; evening",
+                "purple goal-line tunnel below broad brick concourse; gray sky"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/ravens.json"
+        },
+        "bengals": {
+            "src": "assets/game-covers/sprite-plays-v1/bengals.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                594,
+                1153,
+                1717
+            ],
+            "seamScores": [
+                73.44,
+                73.41
+            ],
+            "sha256": "1314ed7b0b5c5f545c445a0b9a5ccc2b2c4ba03ce0b703082a28058280ac7039",
+            "reviewed": true,
+            "rival": "steelers",
+            "featured": {
+                "runner": {
+                    "name": "Ja\u2019Marr Chase",
+                    "number": 1
+                },
+                "quarterback": {
+                    "name": "Joe Burrow",
+                    "number": 9
+                },
+                "kicker": {
+                    "name": "Evan McPherson",
+                    "number": 2
+                }
+            },
+            "settings": [
+                "orange-black sideline with river bridge visible; afternoon",
+                "midfield facing tiger-striped ribbon boards, river not in frame; night",
+                "orange end-zone corner with river and blue bridge towers beyond; sunset"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/bengals.json"
+        },
+        "browns": {
+            "src": "assets/game-covers/sprite-plays-v1/browns.png",
+            "width": 916,
+            "height": 1718,
+            "boundaries": [
+                0,
+                573,
+                1146,
+                1718
+            ],
+            "seamScores": [
+                77.57,
+                97.7
+            ],
+            "sha256": "0636da682c0e7c8ded5f547499cae65a7261b17c95e4987bd0b7fe98337cb35a",
+            "reviewed": true,
+            "rival": "steelers",
+            "featured": {
+                "runner": {
+                    "name": "Nick Chubb",
+                    "number": 24
+                },
+                "quarterback": {
+                    "name": "Shedeur Sanders",
+                    "number": 2
+                },
+                "kicker": {
+                    "name": "Andre Szmyt",
+                    "number": 25
+                }
+            },
+            "settings": [
+                "orange-brown sideline terraces and lake beyond; cool afternoon",
+                "midfield facing densely filled lower bowl and steel light gantries; twilight",
+                "orange end-zone padding and lakefront stands; wind and gray cloud"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/browns.json"
+        },
+        "steelers": {
+            "src": "assets/game-covers/sprite-plays-v1/steelers.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                570,
+                1145,
+                1717
+            ],
+            "seamScores": [
+                56.73,
+                80.87
+            ],
+            "sha256": "860deba974e1f8cc7d96e7a2be3a57fee26970f35d0964b78841c9e008392ce8",
+            "reviewed": true,
+            "rival": "ravens",
+            "featured": {
+                "runner": {
+                    "name": "T.J. Watt",
+                    "number": 90
+                },
+                "quarterback": {
+                    "name": "Aaron Rodgers",
+                    "number": 8
+                },
+                "kicker": {
+                    "name": "Chris Boswell",
+                    "number": 9
+                }
+            },
+            "settings": [
+                "black-gold sideline with gold river bridge beyond; afternoon",
+                "midfield facing steel framework and warm gold crowd decks; night",
+                "gold end-zone tunnel and riverfront corner with bridge in another direction; sunset"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/steelers.json"
+        },
+        "texans": {
+            "src": "assets/game-covers/sprite-plays-v1/texans.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                570,
+                1143,
+                1717
+            ],
+            "seamScores": [
+                69.11,
+                62.47
+            ],
+            "sha256": "dc0e3d9668551a7319f3f95e6b7b7d7a08a5d754fd4a37c7ec890f2620530fc1",
+            "reviewed": true,
+            "rival": "titans",
+            "featured": {
+                "runner": {
+                    "name": "Nico Collins",
+                    "number": 12
+                },
+                "quarterback": {
+                    "name": "C.J. Stroud",
+                    "number": 7
+                },
+                "kicker": {
+                    "name": "Ka'imi Fairbairn",
+                    "number": 15
+                }
+            },
+            "settings": [
+                "navy-red sideline below long roof trusses; daytime indoor light",
+                "midfield facing giant glass roof opening and red ribbon boards; night",
+                "navy goal-line end with industrial beams and red tunnel; cool indoor light"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/texans.json"
+        },
+        "colts": {
+            "src": "assets/game-covers/sprite-plays-v1/colts.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                570,
+                1143,
+                1717
+            ],
+            "seamScores": [
+                48.79,
+                82.2
+            ],
+            "sha256": "ba494703d13af71398da11a26f4e61ce99cb5ca06e789318990c2e8482577960",
+            "reviewed": true,
+            "rival": "jaguars",
+            "featured": {
+                "runner": {
+                    "name": "Jonathan Taylor",
+                    "number": 28
+                },
+                "quarterback": {
+                    "name": "Anthony Richardson Sr.",
+                    "number": 5
+                },
+                "kicker": {
+                    "name": "Spencer Shrader",
+                    "number": 3
+                }
+            },
+            "settings": [
+                "blue-white indoor sideline under brick gable roof; daylight through windows",
+                "midfield facing huge industrial glass windows and blue ribbons; evening",
+                "blue goal-line end with brick portal and roof beams; cool indoor lighting"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/colts.json"
+        },
+        "jaguars": {
+            "src": "assets/game-covers/sprite-plays-v1/jaguars.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                573,
+                1146,
+                1717
+            ],
+            "seamScores": [
+                71.52,
+                91.08
+            ],
+            "sha256": "5bdc64fd96bcc791108f41accfd29f48e69ff9fc16f5920336d9b5a1a62bed1c",
+            "reviewed": true,
+            "rival": "titans",
+            "featured": {
+                "runner": {
+                    "name": "Travis Etienne Jr.",
+                    "number": 1
+                },
+                "quarterback": {
+                    "name": "Trevor Lawrence",
+                    "number": 16
+                },
+                "kicker": {
+                    "name": "Cam Little",
+                    "number": 39
+                }
+            },
+            "settings": [
+                "teal-gold sideline with palms and broad video boards; sunshine",
+                "midfield facing different teal decks under stadium lights; warm dusk",
+                "teal end-zone corner with open tropical sky and gold padding; cloudy daylight"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/jaguars.json"
+        },
+        "titans": {
+            "src": "assets/game-covers/sprite-plays-v1/titans.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                572,
+                1144,
+                1717
+            ],
+            "seamScores": [
+                74.36,
+                105.01
+            ],
+            "sha256": "3db49b8cb376275117f1927d3635431714767e9a15433b325869dec643efa747",
+            "reviewed": true,
+            "rival": "texans",
+            "featured": {
+                "runner": {
+                    "name": "Derrick Henry",
+                    "number": 22
+                },
+                "quarterback": {
+                    "name": "Cam Ward",
+                    "number": 1
+                },
+                "kicker": {
+                    "name": "Joey Slye",
+                    "number": 6
+                }
+            },
+            "settings": [
+                "navy-light-blue sideline with Nashville tower silhouettes; afternoon",
+                "midfield facing riverfront seating and light-blue ribbons; twilight",
+                "navy end-zone tunnel and separate tiered seating; overcast"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/titans.json"
+        },
+        "broncos": {
+            "src": "assets/game-covers/sprite-plays-v1/broncos.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                573,
+                1144,
+                1717
+            ],
+            "seamScores": [
+                55.68,
+                123.17
+            ],
+            "sha256": "de4ea86b248060e8db53c7d51521d6daae2ff616e4d6f722c943692c5d36fc1a",
+            "reviewed": true,
+            "rival": "raiders",
+            "featured": {
+                "runner": {
+                    "name": "Courtland Sutton",
+                    "number": 14
+                },
+                "quarterback": {
+                    "name": "Bo Nix",
+                    "number": 10
+                },
+                "kicker": {
+                    "name": "Wil Lutz",
+                    "number": 3
+                }
+            },
+            "settings": [
+                "navy-orange sideline with distant snowy mountains; bright afternoon",
+                "midfield beneath stadium lights with steel horseshoe stands; blue dusk",
+                "orange end-zone seating and mountain peaks at different angle; cold overcast"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/broncos.json"
+        },
+        "chiefs": {
+            "src": "assets/game-covers/sprite-plays-v1/chiefs.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                573,
+                1146,
+                1717
+            ],
+            "seamScores": [
+                74.53,
+                88.94
+            ],
+            "sha256": "5000dc84c17cfe553e2bcd369fc4eae9cea8002011bcb42a516c98fa8b71cd14",
+            "reviewed": true,
+            "rival": "raiders",
+            "featured": {
+                "runner": {
+                    "name": "Travis Kelce",
+                    "number": 87
+                },
+                "quarterback": {
+                    "name": "Patrick Mahomes",
+                    "number": 15
+                },
+                "kicker": {
+                    "name": "Harrison Butker",
+                    "number": 7
+                }
+            },
+            "settings": [
+                "red-gold sideline in broad open sweeping stadium bowl; afternoon",
+                "midfield facing red tiers and floodlights with low city profile beyond; dusk",
+                "red end-zone corner and gold tunnel facing opposite bowl; gray daylight"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/chiefs.json"
+        },
+        "raiders": {
+            "src": "assets/game-covers/sprite-plays-v1/raiders.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                571,
+                1143,
+                1717
+            ],
+            "seamScores": [
+                51.74,
+                59.91
+            ],
+            "sha256": "4d632dce5d61627dd2bf88290ae0feefa0083ba14ed9cd8e0c41314fd0a71712",
+            "reviewed": true,
+            "rival": "chiefs",
+            "featured": {
+                "runner": {
+                    "name": "Ashton Jeanty",
+                    "number": 2
+                },
+                "quarterback": {
+                    "name": "Fernando Mendoza",
+                    "number": 15
+                },
+                "kicker": {
+                    "name": "Matt Gay",
+                    "number": 14
+                }
+            },
+            "settings": [
+                "black-silver sideline inside dark curved dome; cool field lighting",
+                "midfield facing black roof lattice and silver ribbon boards; bright indoor lights",
+                "black end zone with glass portal showing desert sunset; warm evening"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/raiders.json"
+        },
+        "chargers": {
+            "src": "assets/game-covers/sprite-plays-v1/chargers.png",
+            "width": 916,
+            "height": 1717,
+            "boundaries": [
+                0,
+                570,
+                1149,
+                1717
+            ],
+            "seamScores": [
+                47.89,
+                90.27
+            ],
+            "sha256": "041ad915d7483f59911370ce286546321b040803c4ccaebae3af662ae898b796",
+            "reviewed": true,
+            "rival": "chiefs",
+            "featured": {
+                "runner": {
+                    "name": "Ladd McConkey",
+                    "number": 15
+                },
+                "quarterback": {
+                    "name": "Justin Herbert",
+                    "number": 10
+                },
+                "kicker": {
+                    "name": "Cameron Dicker",
+                    "number": 11
+                }
+            },
+            "settings": [
+                "powder-blue-gold sideline under translucent canopy; daylight",
+                "midfield facing curved overhead board and opposite pale-blue crowd decks; night lighting",
+                "powder-blue end-zone corner with palms beyond open side; sunset"
+            ],
+            "promptReceipt": "tools/ai-sprite-play-covers/standardized/chargers.json"
+        }
+    }
+}

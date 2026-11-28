@@ -17,7 +17,7 @@
     <script defer src="scripts/team-ui.js"></script>
     <script defer src="scripts/playbook-data.js"></script>
     <script defer src="scripts/arcade.js"></script>
-    <script type="module" src="scripts/league-sync.js"></script>
+    <script type="module" src="scripts/league-board.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="teams.css">
     <script defer src="scripts/counter.js"></script>
@@ -93,35 +93,21 @@
                 <p class="counter-note">Your total stays on this device and browser unless you clear site data.</p>
             </section>
         </main>
-        <section class="leaderboard-section" aria-labelledby="leaderboard-title">
-            <div class="leaderboard-heading"><div><p class="eyebrow">The Philly faithful</p><h2 id="leaderboard-title">The click leaders.</h2></div><p>Top 25 fans. One city. Every click counts.</p></div>
-            <div class="leaderboard-grid">
-                <div class="leaderboard-table-panel">
-                    <table class="leaderboard-table">
-                        <caption class="visually-hidden">Top visitors ranked by total clicks. Equal totals share a rank.</caption>
-                        <thead><tr><th scope="col">Rank</th><th scope="col">Fan</th><th scope="col">Clicks</th></tr></thead>
-                        <tbody id="leaderboard-rows"></tbody>
-                    </table>
-                    <p class="leaderboard-empty" id="leaderboard-empty">Connecting to the shared leaderboard…</p>
-                    <p class="leaderboard-status" id="leaderboard-status" role="status">Your local clicks are safe while the board loads.</p>
-                    <button class="leaderboard-retry" id="leaderboard-retry" type="button" hidden>Try connecting again</button>
+<section class="rankings-panel" aria-labelledby="rankings-title">
+                <div class="section-heading"><div><p class="eyebrow">Every click counts</p><h2 id="rankings-title">Team click leaderboard</h2></div><p>All 32 teams ranked by total scoreboard clicks from their fans.</p></div>
+                <div class="league-board-layout">
+                    <section class="league-board" aria-label="Rankings">
+                        <div class="league-board-table-wrap"><table><caption id="board-caption" class="visually-hidden">All 32 teams ranked by total scoreboard clicks from their fans.</caption><thead id="board-head"></thead><tbody id="board-rows"></tbody></table></div>
+                        <p id="board-empty">Connecting to shared standings…</p><p class="board-status" id="board-status" role="status"></p><button id="board-refresh" type="button" class="leaderboard-retry">Refresh standings</button>
+                    </section>
+                    <aside class="league-profile" aria-label="Share your team clicks">
+                        <h3>Add your clicks to your team</h3>
+                        <p data-team-name></p><p>Contribute this browser’s scoreboard clicks to your team’s total. Individual fans are not listed.</p>
+                        <form id="league-profile-form"><input id="league-name" name="nickname" type="hidden" value="TeamFan"><button class="button" id="league-join" type="submit">Contribute my team clicks</button></form>
+                        <p id="league-sync" role="status" class="small-note">Sharing is optional. Progress stays saved on this browser.</p><button class="button" id="league-sync-button" type="button" hidden>Sync now</button>
+                    </aside>
                 </div>
-                <div class="leaderboard-entry">
-                    <p class="eyebrow">Rep your score</p><h3>Put your name on the board.</h3>
-                    <p>Choose a nickname to share your accumulated clicks with other visitors.</p>
-                    <form id="leaderboard-form">
-                        <label for="fan-name">Public nickname</label>
-                        <input id="fan-name" name="nickname" type="text" minlength="2" maxlength="20" pattern="[A-Za-z0-9][A-Za-z0-9 _\-]{0,18}[A-Za-z0-9]" autocomplete="nickname" placeholder="e.g. PhillyFan26" required aria-describedby="nickname-hint">
-                        <p id="nickname-hint">2–20 letters, numbers, spaces, underscores, or hyphens. Start and end with a letter or number. Your nickname and total will be public.</p>
-                        <button class="button increment-button" id="leaderboard-submit" type="submit">Join the leaderboard</button>
-                    </form>
-                    <p class="leaderboard-status" id="leaderboard-sync" role="status">No email or password needed. Joining is optional.</p>
-                    <button class="leaderboard-retry" id="leaderboard-save" type="button" hidden>Sync score now</button>
-                    <p class="leaderboard-identity-note">Scores sync while this page is open; use Sync score now before leaving. One entry per browser profile. Keep using this browser to build your score; clearing site data or switching devices creates a new identity.</p>
-                </div>
-            </div>
-        </section>
-        <div class="roster-strip" aria-label="Featured players"><span><b>06</b> DeVonta Smith</span><span><b>01</b> Jalen Hurts</span><span><b>26</b> Saquon Barkley</span><p>ONE CITY. ONE TEAM.</p></div>
+            </section>
         <footer class="site-footer"><p>ZACK / PHILLY <span class="footer-divider">·</span> An unofficial fan project.</p><a href="https://www.philadelphiaeagles.com/photos/commanders-vs-eagles-gameday-photo-gallery-september-13-2026-nfl-week-1" target="_blank" rel="noopener noreferrer">Player photography: Philadelphia Eagles</a></footer>
     </div>
 </body>

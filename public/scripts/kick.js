@@ -555,7 +555,7 @@ class FieldGoalGame {
 
     draw() {
         const c = this.ctx;
-        const mobile = matchMedia('(max-width: 600px)').matches;
+        const mobile = matchMedia('(max-width: 600px)').matches && !document.body.classList.contains('game-fullscreen');
         const width = mobile ? 720 : 1064, height = mobile ? 720 : 552;
         c.save();
         c.scale(1064 / width, 552 / height);

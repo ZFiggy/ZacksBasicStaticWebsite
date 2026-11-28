@@ -67,7 +67,7 @@ const teams=await (await import('node:fs/promises')).readFile('public/assets/pho
 await client.send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
 for(const team of ['eagles', ...Object.keys(teams)]) {
     await go(`index.html?team=${team}`);
-    await client.until('document.querySelectorAll(".mini-team-art[data-art-ready=true]").length===3');
+    await client.until('document.querySelectorAll(".mini-team-art[data-art-ready=true]").length===5');
     const sizes=await client.evaluate(`Array.from(document.querySelectorAll('.mini-team-art'),e=>{const r=e.getBoundingClientRect();return [r.width,r.height]})`);
     assert.ok(sizes.every(([w,h])=>Math.abs(w/h-1.6)<.02),`Landscape ${team}`);
     assert.ok(sizes.every(([w,h])=>Math.abs(w-sizes[0][0])<1&&Math.abs(h-sizes[0][1])<1),`Equal frames ${team}`);
@@ -79,6 +79,7 @@ for(const team of ['eagles', ...Object.keys(teams)]) {
         assert.equal(await client.evaluate('document.jalenGame.photoSet.consistentPerson'),true);
         assert.equal(await client.evaluate('document.jalenGame.playerName'),teams[team].playerName);
         assert.ok(await client.evaluate('!!document.jalenGame.referenceCanvas'));
+        assert.equal(teams[team].referenceSrc, `assets/photo-search/real-players/${team}.png`, `Full portrait ${team}`);
     }
     for(let level=0;level<5;level++) {
         await client.until(`document.jalenGame.level===${level}&&!document.jalenGame.loading`);
@@ -92,42 +93,32 @@ for(const team of ['eagles', ...Object.keys(teams)]) {
 console.log('PASS all 32 home frames; all 160 search rounds load, reject misses and accept targets; one named person per team; Eagles originals preserved.');
 if (process.argv.includes('--search-only')) { client.ws.close(); browser.ws.close(); process.exit(0); }
 for(const team of ['eagles', ...Object.keys(teams)]) {
-    for(const mode of ['pocket','shove','recall','punt','signal']) {
-        await go(`playbook.html?team=${team}&game=${mode}`);
-        await client.evaluate('document.playbook.reset()');
-        if(mode==='pocket') {
-            assert.equal(await client.evaluate('document.passingGame.phase'), 'ready');
-            assert.equal(await client.evaluate('document.passingGame.rival.id !== teamArcade.team.id'), true);
-            assert.equal(await client.evaluate('document.querySelectorAll(".passing-calls button").length'), 3);
-            continue; // Passing Drive's simulation, controls, artwork, and scoring have a dedicated suite.
-        }
-        assert.ok(await client.evaluate('document.playbook.active'));
-        await client.until('Array.from(document.querySelectorAll(".player-character")).some(c=>c.dataset.ready==="true")');
-        assert.equal(await client.evaluate('document.querySelectorAll(".player-character[data-ready=error]").length'),0);
-        if(mode==='shove') {
-            await client.evaluate('(()=>{const g=document.playbook;g.meter=g.windowCenter;g.push()})()');
-            assert.ok(await client.evaluate('document.playbook.inches>=22'));
-        }
-        if(mode==='recall') {
-            await client.evaluate('(()=>{const g=document.playbook;g.cancel();g.sequence=[0,1,2,3];g.reverse=false;g.demonstrate();g.cancel()})()');
-            const variant=await client.evaluate('document.playbook.rule.variant');
-            const expected={reverse:[0,1,2,3],mirror:[3,2,1,0],rotate:[1,2,3,0],pairs:[1,0,3,2]}[variant];
-            assert.deepEqual(await client.evaluate('document.playbook.expected'),expected);
-        }
-        if(mode==='punt') assert.ok(await client.evaluate('Number.isFinite(document.playbook.puntValues().final)'));
-        if(mode==='signal') {
-            const variant=await client.evaluate('document.playbook.rule.variant');
-            if(variant==='six') assert.equal(await client.evaluate('document.playbook.plays.length'),6);
-            await client.evaluate('(()=>{const g=document.playbook;g.code=[0,1,2];g.guess=[2,0,1];g.sendCall()})()');
-            assert.ok(await client.evaluate('document.querySelector(".signal-history").textContent.includes("0 EXACT · 3 SHIFT")'));
-            if(variant==='repeat') {
-                await client.evaluate('(()=>{const g=document.playbook;g.code=[0,0,1];g.guess=[0,1,1];g.sendCall()})()');
-                assert.ok(await client.evaluate('document.querySelector(".signal-history").lastElementChild.textContent.includes("2 EXACT · 0 SHIFT")'));
-            }
-        }
-    }
+    await go(`games.html?team=${team}`);
+    assert.deepEqual(await client.evaluate('teamArcade.games.map(game => game.id)'), ['game', 'bird', 'search', 'kick', 'pocket']);
+    assert.equal(await client.evaluate('document.querySelectorAll(".library-game").length'), 5);
+    assert.equal(await client.evaluate('window.fanArcade.badges.some(b => ["playbook-shove", "playbook-recall", "playbook-punt", "playbook-signal"].includes(b.id))'), false);
+    await go(`playbook.html?team=${team}&game=pocket`);
+    await client.evaluate('document.playbook.reset()');
+    assert.equal(await client.evaluate('document.passingGame.phase'), 'ready');
+    assert.equal(await client.evaluate('document.passingGame.rival.id !== teamArcade.team.id'), true);
+    assert.equal(await client.evaluate('document.querySelectorAll(".passing-calls button").length'), 3);
+    await go(`barkley.html?team=${team}`);
+    await client.until('!!document.barkleyGame');
+    assert.equal(await client.evaluate(`(() => {
+        document.getElementById('bird-flap').click();
+        const playing = document.barkleyGame.state === 'playing';
+        document.getElementById('bird-pause').click();
+        return playing && document.barkleyGame.state === 'paused';
+    })()`), true, `Flight start/pause ${team}`);
+    await client.evaluate('document.getElementById("bird-reset").click()');
+    assert.equal(await client.evaluate('document.barkleyGame.state'), 'ready');
 }
-console.log('PASS passing, shove timing, recall audibles, punt physics, touchdown runs, and cipher match counts.');
+for (const mode of ['shove', 'recall', 'punt', 'signal']) {
+    await go(`playbook.html?team=bears&game=${mode}`);
+    await client.until('location.pathname.endsWith("games.html") && !!document.gamesLobby');
+    assert.equal(await client.evaluate('teamArcade.team.id'), 'bears');
+}
+console.log('PASS five-game lineup, retired links, Passing Drive, and flight start/pause/restart for all teams.');
 for(const team of ['eagles','cowboys','packers','lions']) {
     await go(`game.html?team=${team}`);
     const result=await client.evaluate(`(()=>{const g=document.myGame;g.action();for(const move of g.field.solution)g.move(...move);return g.phase==='won'&&g.player.carrying})()`);
@@ -138,7 +129,7 @@ for(const team of ['eagles','cowboys','packers','lions']) {
 }
 for(const width of [1440,768,390,320]) {
     await client.send('Emulation.setDeviceMetricsOverride',{width,height:1000,deviceScaleFactor:1,mobile:width<600});
-    for(const page of ['index.html','counter.html','jalen.html','playbook.html?game=shove']) {
+    for(const page of ['index.html','counter.html','jalen.html','playbook.html?game=pocket','barkley.html']) {
         await go(page+(page.includes('?')?'&':'?')+'team=bears');
         if(page.startsWith('playbook'))await client.evaluate('document.playbook.reset()');
         for(const theme of ['light','dark']) {

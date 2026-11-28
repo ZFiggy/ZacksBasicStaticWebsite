@@ -51,6 +51,44 @@
         } else element.replaceChildren(image, credit);
     }
 
+    // Generated from assets/game-covers/sprite-plays-v1/manifest.json.
+    // BEGIN SPRITE PLAY FRAMES
+    const playSceneFrames = {
+        'eagles': [0,0.33430402,0.67792662,1],
+        'cowboys': [0,0.33372161,0.66744321,1],
+        'giants': [0,0.33546884,0.67734421,1],
+        'commanders': [0,0.33430402,0.66744321,1],
+        'bears': [0,0.33546884,0.66860804,1],
+        'lions': [0,0.3331392,0.66744321,1],
+        'packers': [0,0.33372161,0.66627839,1],
+        'vikings': [0,0.33488643,0.67734421,1],
+        'falcons': [0,0.34653465,0.6721025,1],
+        'panthers': [0,0.33372161,0.66744321,1],
+        'saints': [0,0.33372161,0.66511357,1],
+        'buccaneers': [0,0.33488643,0.67734421,1],
+        'cardinals': [0,0.3331392,0.66919045,1],
+        'rams': [0,0.33430402,0.66802563,1],
+        '49ers': [0,0.33488643,0.67734421,1],
+        'seahawks': [0,0.33605125,0.66802563,1],
+        'bills': [0,0.33488643,0.6721025,1],
+        'dolphins': [0,0.33430402,0.66744321,1],
+        'patriots': [0,0.35294118,0.68666278,1],
+        'jets': [0,0.33197437,0.66744321,1],
+        'ravens': [0,0.33372161,0.66744321,1],
+        'bengals': [0,0.34595224,0.67152009,1],
+        'browns': [0,0.33352736,0.66705471,1],
+        'steelers': [0,0.33197437,0.6668608,1],
+        'texans': [0,0.33197437,0.66569598,1],
+        'colts': [0,0.33197437,0.66569598,1],
+        'jaguars': [0,0.33372161,0.66744321,1],
+        'titans': [0,0.3331392,0.66627839,1],
+        'broncos': [0,0.33372161,0.66627839,1],
+        'chiefs': [0,0.33372161,0.66744321,1],
+        'raiders': [0,0.33255679,0.66569598,1],
+        'chargers': [0,0.33197437,0.66919045,1]
+    };
+    // END SPRITE PLAY FRAMES
+
     function coverFor(id, team = api.team) {
         if (id === 'bird') return {...profiles[team.id].flightSprite, cutout: true};
         if (team.id === 'eagles' && id === 'search') return {src: 'assets/search-level-3-v2.jpg', cols: 1, rows: 1, index: 0, photo: true};
@@ -58,6 +96,13 @@
         if (id === 'search' && photos) return photos.scenes[0].src
             ? {src: photos.scenes[0].src, cols: 1, rows: 1, index: 0, photo: true}
             : {src: photos.src, cols: photos.cols, rows: photos.rows, index: 0, region: photos.scenes[0].region, photo: true};
+        const playIndex = ['game', 'pocket', 'kick'].indexOf(id);
+        const frames = playSceneFrames[team.id];
+        if (playIndex >= 0 && frames) return {
+            src: `assets/game-covers/sprite-plays-v1/${team.id}.png`,
+            cols: 1, rows: 3, index: playIndex, illustration: true,
+            region: [0, frames[playIndex], 1, frames[playIndex + 1] - frames[playIndex]]
+        };
         const roles = {game: 'runner', kick: 'kicker', pocket: 'quarterback', shove: 'runner', recall: 'quarterback', punt: 'kicker', blitz: 'defender', signal: 'quarterback'};
         if (roles[id]) {
             const teamIndex = Object.keys(profiles).indexOf(team.id);
@@ -201,6 +246,7 @@
         element.classList.add('has-game-cover');
         element.dataset.cover = `${cover.src}#${cover.index}`;
         element.dataset.gameArt = id;
+        if (cover.illustration) element.dataset.sceneStyle = 'ai-sprite-play';
         element.style.backgroundImage = 'none';
         element.setAttribute('role', 'img');
         element.setAttribute('aria-label', `${team.games[id]}: ${profiles[team.id]?.gameHooks[id] || 'Football artwork'}`);
@@ -218,7 +264,9 @@
             try {
                 const image = await imageFor(cover.src);
                 if (!element.isConnected) return;
-                const tileRatio = (image.naturalWidth / cover.cols) / (image.naturalHeight / cover.rows);
+                const tileRatio = cover.region
+                    ? image.naturalWidth * cover.region[2] / (image.naturalHeight * cover.region[3])
+                    : (image.naturalWidth / cover.cols) / (image.naturalHeight / cover.rows);
                 element.style.setProperty('--art-ratio', tileRatio);
                 const frame = element.closest('.team-library-art') || element;
                 frame.style.setProperty('--art-ratio', tileRatio);

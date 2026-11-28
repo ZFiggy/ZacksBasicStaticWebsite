@@ -1,6 +1,6 @@
 # Sunday Arcade
 
-A buildless, unofficial NFL fan arcade: 32 teams, nine game types, team selection, local records, and optional shared fan/team leaderboards. Deployable files live in `public/`; the optional Firebase aggregation backend lives in `functions/`.
+A buildless, unofficial NFL fan arcade: 32 teams, five game types, team selection, local records, and optional shared fan/team leaderboards. Deployable files live in `public/`; the optional Firebase aggregation backend lives in `functions/`.
 
 ## Quick start
 
@@ -17,7 +17,8 @@ Local refresh checkpoint: **November 22, 2026**. The character/crowd refresh was
 - Front photos use equal landscape frames, clean source selections, and credits outside the home hero image. Bears and Broncos selections were replaced to avoid visible source marks.
 - Non-Eagles search follows one named player in five real team crowd photographs. The current revision uses AI edits to integrate the player naturally into the selected real crowd photographs, following the original Eagles look. All 31 non-Eagles teams use five visually reviewed AI-integrated edits each (155 rounds). The original Eagles Jalen scenes are preserved. Every replacement player joined the featured team in 2015 or later. These are fictional appearances, disclosed beside each photo with crowd and portrait source links. Face references, clues, up to 6× zoom, keyboard controls, saving, and replay remain available.
 - Preserve the original Eagles Jalen search and Flappy Bird gameplay/art unless requested otherwise. Eagles search still uses `search-level-1-v2.jpg` through `search-level-5-v2.jpg`; its target rectangles live in `jalen.js`. Eagles flight still uses `barkley-flight.png`.
-- The other seven game types use illustrated runner, quarterback, kicker, and defender roles, team settings, and gameplay variants. Shared engines remain, but team identity should extend beyond names and color swaps.
+- The three football game types use illustrated runner, quarterback, kicker, and defender roles, team settings, and gameplay variants. Shared engines remain, but team identity should extend beyond names and color swaps.
+- Flight and crowd search use compact headers, collapsible controls help, and full-width arena panels. Crowd search preserves all original scenes, targets, and saved progress.
 - Light/dark themes, touch/keyboard controls, reduced-motion support, local records, badges, and team switching are supported. The scoreboard's `.team-leaderboard-link` panel has its own dark-theme styling in `teams.css`.
 
 ## Source map
@@ -30,14 +31,14 @@ Paths below are relative to `public/` unless prefixed with `tools/`, `tests/`, o
 | Home / game lobby | `index.html`, `scripts/home.js`, `games.html`, `scripts/games.js` |
 | Team identities / storage / scoring | `scripts/teams-data.js`, `scripts/teams.js` |
 | Shared shell and appearance | `scripts/team-ui.js`, `scripts/theme.js`, `style.css`, `teams.css` |
-| Game viewport sizing and instructions | `game-screen.css`, `scripts/game-screen.js` |
+| Game viewport sizing and instructions | `game-screen.css`, `search-flight.css`, `scripts/game-screen.js` |
 | Names, cards, photo credits, image drawing | `scripts/game-personality.js` |
 | Team gameplay rules | `scripts/team-rules.js` |
 | Featured character art and illustrated settings | `scripts/character-art.js`; canvas scenery: `scripts/team-art.js` |
 | Animated football roster | `scripts/player-roster.js` + `scripts/player-motion.js`: named real-player supporting cast and animated featured runners, quarterbacks, and kickers; loaded only by the three football games |
 | Touchdown Rush / flight / field goals | `game.html` + `scripts/game.js`; `barkley.html` + `scripts/barkley.js`; `kick.html` + `scripts/kick.js` |
 | Crowd search | `jalen.html`, `scripts/jalen.js`, `scripts/photo-scenes.js` |
-| Five playbook games | `playbook.html`, `scripts/playbook.js`, `scripts/playbook-data.js` |
+| Passing Drive (legacy playbook engine retained) | `playbook.html`, `scripts/playbook.js`, `scripts/playbook-data.js` |
 | Records, badges, continue links | `scripts/arcade.js` |
 | Click scoreboard / visit counter | `counter.html`, `scripts/counter.js`, `scripts/main.js` |
 | Fan/team rankings and opt-in publishing | `leaders.html`, `scripts/league-board.js`, `scripts/league-sync.js` |
@@ -53,13 +54,13 @@ Initialization order matters: team core → generated data → game-personality 
 
 Each unused step earns 100 bonus points on top of 600 touchdown points. Matching the shortest route earns three stars, finishing within two additional steps earns two, and other legal touchdowns earn one. Every coach hint costs 250 points and caps the award at one star. The scoreboard shows the shrinking step bonus and best drive score. Losing triggers a strip/recovery and animated rival return around the blockers to the left end zone. The runner falls, the defender carries the ball, and the game announces the defensive touchdown before offering a retry. Skip return and Retry field interrupt safely; reduced-motion mode uses short held poses instead of a moving return.
 
-Team-scoped `touchdownRushProgress` saves level/seed, `touchdownRushBest` saves the highest level cleared, `touchdownRushPointsBest` saves the best drive points, and each touchdown increments the existing `fieldRunWins` record. Completing a level saves the next round immediately to prevent duplicate wins on reload. Old `playbook.html?game=blitz` links redirect to this game with team selection retained. The lobby has nine games; Passing Drive now occupies the Pocket Read slot; the other four playbook games are unchanged. Historical Blitz records remain in the ten-field leaderboard transport schema to preserve existing deployed Firestore compatibility and previously earned points; the retired game is not offered in the lobby or filters.
+Team-scoped `touchdownRushProgress` saves level/seed, `touchdownRushBest` saves the highest level cleared, `touchdownRushPointsBest` saves the best drive points, and each touchdown increments the existing `fieldRunWins` record. Completing a level saves the next round immediately to prevent duplicate wins on reload. Old `playbook.html?game=blitz` links redirect to this game with team selection retained. The lobby has five games: Touchdown Rush, Passing Drive, field goals, flight, and crowd search. Goal-Line Shove, Route Recall, Pin Punt, and Signal Cipher are retired; their old URLs redirect to the team lobby. The fan scoreboard remains available alongside the five games. Retired game records remain in browser storage but no longer contribute arcade points.
 
 ## Passing Drive
 
 `playbook.html?game=pocket` now combines Pocket Read's quarterback decisions, Route Recall's route concepts, and live defensive pursuit. Call Slants, Flood, or Cross; snap with Space, move the quarterback with arrows/WASD or held touch buttons, and throw with 1–3 or by tapping a receiver. Bullet passes are fast and vulnerable to underneath coverage; lobs clear underneath defenders but give coverage time to close. The user controls the receiver after a catch. Each down chooses a seeded defensive look: press man, off man, Cover 2, Cover 3, man blitz, or robber. Front width, defender cushion, safety depth, and the number of rushers vary. Two blockers can delay two rushers for 2.4 seconds; overloads can leave a third rusher free. Zone defenders guard space; split safeties track their own halves. Each route concept varies depth, width, release spacing, and direction. Audibles preserve the defensive look and the underlying variation for that down. The quarterback stays behind the line of scrimmage while passing. Q / Tuck & run switches to a quarterback scramble and closes passing for that snap. T / Throw away consumes a down without losing yards. Hold Shift / Sprint while moving for a 26% speed burst. Each play has about 1.8 seconds of total burst, with no recovery until the next down. The visible energy bar shows the remaining budget. Receivers jog at 6.5 yards/second, quarterbacks at 5.4, and pursuit closes at 7.15. A receiver burst can briefly create separation; a quarterback cannot outrun pursuit in the open field. P pauses; hiding or leaving the tab pauses the play.
 
-Three possessions start at the own 25. Four downs gain ten yards, first downs reset the series, and touchdowns score six points. Sacks lose field position; incompletions consume a down; interceptions, safeties, and failed fourth downs end a possession. Unfinished drives save between plays in team-scoped `passingDrive-v1`; an interrupted live snap restarts from its previous checkpoint. `passingPointsBest` stores the best points total, while `playbook-pocket-best` retains completion records and existing leaderboard/badge compatibility, including historical Pocket Read records. The arcade remains at nine games.
+Three possessions start at the own 25. Four downs gain ten yards, first downs reset the series, and touchdowns score six points. Sacks lose field position; incompletions consume a down; interceptions, safeties, and failed fourth downs end a possession. Unfinished drives save between plays in team-scoped `passingDrive-v1`; an interrupted live snap restarts from its previous checkpoint. `passingPointsBest` stores the best points total, while `playbook-pocket-best` retains completion records and existing leaderboard/badge compatibility, including historical Pocket Read records. The arcade offers five games.
 
 Passing Drive uses a full-width field with controls in a separate right-hand console on wide screens. At tablet and phone widths, controls stack beneath the field. The canvas no longer shrinks to a viewport-height formula. Field Goals groups wind, aim, and trajectory above the meter and primary kick button; Pause, New round, and Demo share a secondary row below the distance-labeled kick history. Each five-kick round assigns left, middle, and right hash situations, with a visible change on every attempt. Hash positions are fixed for the attempt. The formation shifts vertically, and the setup panel names the assigned hash. Kicker/holder labels and a team-color field key explain the formation; protection buttons identify the far, middle, and near lanes. Off-center kicks require aim compensation; shorter kicks have sharper hash angles, while long kicks have smaller angular openings. The geometry uses the NFL 18-foot-6-inch hash spacing and upright width, with clearance for the ball. Aim for wind & hash suggests compensation for the selected arc. The live range estimate distinguishes short power from enough distance, and the single power meter shows enough range for the current arc and air conditions. After power is locked, steer the white aiming dot horizontally with Left/Right, A/D, or held touch buttons and release while it is in the green zone above the posts; there is no accuracy timing bar. Pause freezes the meter and rush without using a kick. On phones the setup hides during active kicks, and the field scrolls into view so the release controls fit beside the action. Its fixed camera and uprights make the 25/33/40/47/55-yard progression visible: the kicker, ball, and both lines move back together, with distance shown in the console. Manual aim adjustment expands on demand. Passing Drive participates in the shared device-pixel-density canvas sizing so the larger field and character art render sharply on high-density displays.
 
@@ -93,13 +94,13 @@ Read small source manifests or query specific entries instead of dumping the lar
 
 For search-only changes, `node tools/build-game-art.mjs --search-only` validates the 31 player records and 155 rounds, then rewrites only `photo-scenes.js`. The selected original photos and players stay fixed. Built-in image_gen edits integrate the player’s head, neck, clothing, pose, lighting, and foreground occlusion. `tools/ai-search-receipts/` records each executed prompt and generated output; `tools/ai-search-pending.json` is empty after completion, with status recorded in `tools/ai-search-status.json`. `tools/ai-search-review.json` records visually selected full-head targets. `tools/adopt-ai-search.py` activates only teams with all five reviewed rounds. `tools/ai-search-edits.json` consolidates the generation receipts.
 
-The subsequent naturalness review inspected all 155 replacements against the original photographs and flagged 87 for refinement. Thirty received new built-in image_gen edits for body connection, candid pose, head scale, caps, shade or foreground occlusion; 57 received only user-authorized local blur filters. Eight of the new AI repairs also received a small local blur adjustment. Filters preserve the existing AI integration and target rectangle; they never paste, move or resize a face. All 87 refinements were visually reviewed before activation as `*-ai-v2-*.jpg`; the other 68 rounds retain their accepted v1 images. Full-head targets were checked against each new AI output. The original Eagles photos and reference remain unchanged.
+The subsequent naturalness review inspected all 155 replacements against the original photographs and flagged 87 for refinement. Thirty received new built-in image_gen edits for body connection, candid pose, head scale, caps, shade or foreground occlusion; 57 received only user-authorized local blur filters. Eight of the new AI repairs also received a small local blur adjustment. Filters preserve the existing AI integration and target rectangle; they never paste, move or resize a face. All 87 refinements were visually reviewed before activation as `*-ai-v2-*.jpg`; the other 68 rounds retain their accepted v1 images. Full-head targets were checked against each new AI output. The original Eagles crowd photos remain unchanged. Search references now show complete ESPN head-and-shoulders portraits instead of neck-cropped cutouts; the Eagles reference uses `real-players/eagles.png` from `https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png` (ESPN, Jalen Hurts).
 
 `tools/ai-search-naturalness-audit.json` records findings and resolutions; `tools/ai-search-repairs/` retains executed AI prompts, raw output paths, filter settings and reviewed targets. `tools/prepare-search-repairs.py` packages edits and makes contextual review boards. `tools/match-search-focus.py` applies the explicitly authorized blur adjustments; `--ai SIGMA KEY` starts from the new AI repair rather than its older v1 image. Filter-only settings are in `tools/ai-search-focus-settings.json`. Review every staged result before using the `accept` command, then activate and rebuild search metadata. Do not rerun the legacy compositor over these edits.
 
 With `tools/real-search-requirements.txt` installed in a Python virtual environment, `python tools/prepare-real-search.py verify` checks original source hashes, portrait inputs, image integrity and size, bounded targets, reviewed AI output hashes, and localized insertions in the remaining legacy composites. `tools/review-ai-search.py TEAM` prepares candidate target review sheets using OpenCV YuNet and SFace models; these are proposals that require visual review. The old `render` command cannot recreate AI edits and refuses to overwrite them.
 
-Known limitation: the builder's `assets/game-covers/manifest.json` still lists legacy cover selections. Runtime character-based cards are chosen by `scripts/game-personality.js`; that function is authoritative for the visible cards. The builder does not regenerate the character PNGs or their role manifest. Do not run regeneration just to inspect the site.
+Known limitation: the builder's `assets/game-covers/manifest.json` still lists legacy cover selections. Visible cards are chosen by `scripts/game-personality.js`; that function is authoritative. Touchdown Rush, Passing Drive, and Field Goals use the complete AI-rendered play scenes in the original chunky 3D sprite style in `assets/game-covers/sprite-plays-v1/`, with one three-row atlas per team (rushing, passing, kicking). Each panel redraws the characters in football action from an oblique sideline view and uses a different field location, background, and lighting. Sources, panel order, and image hashes are recorded in that directory's `manifest.json`; exact final generation briefs and receipts are in `tools/ai-sprite-play-covers/standardized/`. The original NFC East character sheet is the style master for every team, so non-NFC-East characters keep the same exaggerated heads, compact bodies, and cartoon materials. Visible-faced offensive players are helmetless; back-facing offense without visible facial features and all defenders wear helmets. These illustrations do not depict actual games. The original character atlases remain the gameplay assets. `node tests/play-covers-browser.mjs` checks all 96 cover panels and responsive home/lobby rendering and writes contact sheets to `/private/tmp/ai-play-covers-*.jpg` for visual review. `node tools/build-play-cover-map.mjs` updates the browser crop map from the reviewed manifest and verifies image hashes. The builder does not regenerate these PNGs. Do not run regeneration just to inspect the site.
 
 Older generated scenes, rotating-object photo-hunt manifests, SVG previews, mascot sheets, and sprite revisions remain archived on disk. They are not necessarily active. `scripts/team-search.js` is not loaded by the current search page; the old documented `photos=0` alternate is not wired up. Avoid reviving these accidentally.
 
@@ -109,20 +110,20 @@ Eagles progress uses `jalenProgress` version 3. Non-Eagles progress uses `photoS
 
 Records use `nfl:<teamId>:<key>`; switching teams preserves each club's progress. Original unscoped Eagles records migrate once without deleting them. Blocked storage falls back to an in-memory session. Internal links retain team IDs; return paths are restricted to local pages.
 
-Each game contributes `min(100, floor(rawRecord * 100 / target))` arcade points, for a maximum of 1,000. Fan clicks are ranked separately. Targets and record keys are defined in `scripts/teams.js`:
+Each activity contributes `min(maxPoints, round(rawRecord * maxPoints / target))` arcade points. Add the six rounded contributions for a maximum of 1,000 per fan, per team. Partial progress earns credit; retired games contribute nothing. Targets and record keys are defined in `scripts/teams.js` and shared by the home page and leaderboard clients:
 
-| Game ID | Engine / full-point target |
-| --- | --- |
-| `game` | Touchdown Rush: 5 touchdowns (legacy `fieldRunWins` key retained) |
-| `bird` | Flight: 20 gaps |
-| `search` | Consistent-person crowd search: 5 scenes |
-| `kick` | Field goals: 15 points |
-| `pocket` | Passing: 10 completions |
-| `shove` | Goal-line push: 5 touchdowns |
-| `recall` | Route memory: 8 rounds |
-| `punt` | Punting: 500 points |
-| `blitz` (retired) | Saved historical Blitz Escape records remain in ranking payloads; no separate playable game |
-| `signal` | Cipher: 1 call cracked |
+| Activity | Saved record | Full-point target | Arcade points |
+| --- | --- | --- | --- |
+| Touchdown Rush | `touchdownRushBest` | 10 levels cleared | 200 |
+| Flight | `barkleyBest` | 25 points in one flight | 200 |
+| Passing Drive | `passingPointsBest` | 18 points across three drives | 200 |
+| Field goals | `fieldGoalBest` | 15 points in one round | 100 |
+| Crowd search | `jalenCleared` | 100 search points (20 per scene, five scenes) | 100 |
+| Fan scoreboard | `clickCount` | 200 touchdowns (1,400 clicks) | 200 |
+
+Rush uses the highest level cleared, so replaying a cleared field does not add progress. Search keeps its scene-based best record; its displayed points are scenes × 20. Scoreboard credit includes clicks toward the next touchdown. Bests can exceed the targets while arcade contributions remain capped.
+
+Shared records use `scoringVersion: 2`, five active game records, and six contribution scores (including `scoreboard`, calculated from `clicks`). On the next successful sync, legacy published records retain flight, search, kick and click progress. Historical Rush wins and passing completions cannot be converted into cleared levels or game points; current browser bests supply those records instead. Stored legacy retired records are not restored or scored. New Firestore rules must be deployed alongside hosting for version 2 writes; existing published totals migrate as fans sync, so a code change alone does not recalculate every historical public entry.
 
 Touchdown Rush replaces Field Run and Blitz Escape for all teams. Other rules vary by team: gust/approach variants; pump fakes, deep reads or called receivers; power/moving snap windows; reverse/mirror/rotation/pair audibles; punt surface/air effects; and distinct/repeating/six-choice ciphers. Treat `team-rules.js` plus the engine as authoritative, rather than assuming every team shares identical rules.
 
@@ -130,7 +131,15 @@ Field Goals now uses a different division rival from Touchdown Rush for each tea
 
 ## Verification
 
+Touchdown Rush uses twenty five-yard turf columns, two ten-yard end zones, and a field width of 53⅓ yards. Its yard lines, numbers, and one-yard hashes use NFL dimensions: the inside edges of the hashes are 70′9″ from the sidelines, and each hash is two feet long. See the [NFL field markings](https://operations.nfl.com/the-rules/nfl-rulebook). The eleven movement rows approximate five-yard tiles across the field; painted hashes are independent of the movement grid. Touchdowns occur on entry into the end zone.
+
+The Rush generator verifies routes using the same pursuit simulation as gameplay. Blocker/defender counts rise and bursts accelerate through level 12; spare steps decrease to two. Higher levels retain that pressure cap. A bounded fallback uses a finite family of solved layouts at the same pressure settings. `node tests/touchdown-rules.mjs` covers generated routes, fallback routes, boundaries, difficulty settings, and scoring.
+
+All five games share their navigation labels and order from `teamArcade.games`. `scripts/game-view.js` and `game-view.css` provide fullscreen with controls and live game information, plus a viewport fallback when native fullscreen is unavailable. Exit full screen or Escape restores the ordinary view without resetting the game. `node tests/game-view-browser.mjs` checks navigation and fullscreen across teams, screen sizes, and themes.
+
 For documentation-only edits, check the changed text, links, and `git diff --check`; game tests are unnecessary. For code changes, syntax-check the affected files with `node --check` and verify actual browser behavior.
+
+`node tests/arcade-points.mjs` verifies scoring math and team isolation. `node tests/arcade-points-browser.mjs` verifies all team home dashboards, search points, and responsive layouts. Add `--sync` with Auth/Firestore emulators running to verify publication, background sync, and restoration.
 
 Browser scripts require a static server on **8000**, dedicated Chrome with DevTools on **9224**, and Node with native `WebSocket`. They do not start those services. Start Chrome in a separate terminal from the static server, then run tests in another terminal:
 
@@ -157,14 +166,21 @@ Visually review new photo targets against the final pictures: tests clicking met
 
 ## Shared leaderboard backend
 
-Publishing is opt-in with a nickname and Firebase anonymous identity. A visitor can own one record per team; local games remain usable when shared services are unavailable. Browser-originated scores make this a casual leaderboard, not a cheat-proof competition.
+Publishing is opt-in with a Firebase anonymous identity. Flight rankings also require a public nickname. A visitor can own one record per team; local games remain usable when shared services are unavailable. Browser-originated scores make this a casual leaderboard, not a cheat-proof competition.
 
 - `leagueFans/{uid}_{teamId}`: owner-published team/game records and normalized totals.
-- `teamStandings/{teamId}`: server-maintained aggregate across all published fans.
+- `teamStandings/{teamId}`: server-maintained raw scoreboard click totals across all published fans; the main leaderboard ranks teams by `clicks`. Arcade point aggregates remain stored for compatibility.
 - `leagueContributions/{uid}_{teamId}`: private aggregation ledger preventing duplicate contributions.
-- Existing `clickLeaders` and `barkleyLeaders` data/rules remain intact.
+- Flappy pages embed a separate top-25 board from `leagueFans`, ordered by raw `records.bird`, showing nickname, represented team, and flight points. The desktop board occupies the space beside the field; narrow screens place it below the game.
+- Existing `clickLeaders` and `barkleyLeaders` data/rules remain intact as legacy data; active pages use the team-aware records.
 
-`functions/aggregate.js` applies transactional deltas from current fan state and the ledger; duplicate/out-of-order events must not double count. Rules validate ownership, fixed keys, bounded integers, monotonic records, normalization, timestamps, and bounded reads. Clients cannot write team totals.
+`functions/aggregate.js` applies transactional point and click deltas from current fan state and the ledger; duplicate/out-of-order events must not double count. Rules validate ownership, fixed keys, bounded integers, monotonic records, normalization, timestamps, and bounded reads. Clients cannot write team totals.
+
+After separately authorized deployment, existing records need a one-time click backfill. `node functions/backfill-clicks.cjs PROJECT_ID --apply` uses the Admin SDK’s normal credentials and never loads repository environment files. It initializes missing team click totals, then reapplies existing fan contributions; reruns are idempotent. Do not run it against production without authorization. A new fan update also backfills that fan’s clicks automatically.
+
+`node tests/field-layout-rankings-browser.mjs` checks responsive layouts, both football utility rows, B toggling, fullscreen, and aspect-preserving end-zone art for all 32 teams. `node tests/scoreboard-flight-browser.mjs` verifies publishing/restoration and the separate boards against the local Auth/Firestore emulators (no Functions trigger required). The existing league rules suite also checks click-only updates, duplicate events, legacy contribution backfill, and removals.
+
+Passing Drive and Touchdown Rush share a **Controls & scoring** / **Full screen** utility row below the field. Instructions use control/action pairs and separate rules/scoring lists. In Passing Drive, **B** switches Bullet/Lob before the throw; the touch button remains available. End-zone branding faces midfield with uniform artwork scaling; sideline yard numbers face the field’s interior.
 
 Only the backend has npm dependencies; it declares Node 22. Install dependencies, start emulators in one terminal, and run tests in another:
 

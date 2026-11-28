@@ -2205,11 +2205,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Dallas ball carrier running in a navy Cowboys jersey and silver helmet"
         },
         "scoreboard": {
-            "src": "assets/team-photos/cowboys-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/cowboys/tfve613vq0sq9rmaqdgb.jpg",
-            "sourcePage": "https://www.dallascowboys.com/photos/fans-at-training-camp-409396",
-            "credit": "©James D. Smith/Dallas Cowboys",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/cowboys/ksdusaqwz7lazrk3jtqx.jpg",
+            "sourcePage": "https://www.dallascowboys.com/photos/game-day-gallery-cowboys-vs-titans-2026",
+            "credit": "www.dallascowboys.com / official team photography",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/cowboys-scoring.jpg",
+            "alt": "Dallas Cowboys receiver celebrating a touchdown in the end zone",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -2301,11 +2304,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "New York lineman blocking in a royal-blue Giants jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/giants-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/giants/cy1nl7y62pinroqacz0g.jpg",
-            "sourcePage": "https://www.giants.com/photos/photos-fans-return-to-metlife-stadium-for-giants-fan-fest",
-            "credit": "www.giants.com",
-            "alt": "The home crowd"
+            "url": "https://images2.minutemediacdn.com/image/upload/c_limit,w_2400,q_90,f_jpg/images/ImagnImages/mmsport/giants_country/01jjaf8nqakfqcx993a5.jpg",
+            "sourcePage": "https://www.si.com/nfl/giants/onsi/news/is-another-potential-honor-coming-for-giants-wr-malik-nabers-news-briefs-01jjaey0wh7s",
+            "credit": "Imagn Images / Sports Illustrated",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/giants-scoring.jpg",
+            "alt": "New York Giants receiver Malik Nabers celebrating a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -2397,11 +2403,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Washington receiver catching a football in a burgundy Commanders jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/commanders-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/redskins/nyc0csfwf95gum2swgdy.jpg",
-            "sourcePage": "https://www.commanders.com/photos/photos-best-fan-photos-from-the-2025-season",
-            "credit": "Emily Faith Morgan/Washington Commanders",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/commanders/kyt4kyfoiyjzoeenfkum.jpg",
+            "sourcePage": "https://www.commanders.com/news/commanders-honor-terry-mclaurin-injured-tribute-shirts-touchdown-celebration",
+            "credit": "commanders / official team photography",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/commanders-scoring.jpg",
+            "alt": "Washington Commanders offense celebrating a touchdown in burgundy and gold",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -2494,11 +2503,14 @@ window.NFL_TEAM_MEDIA = {
             "frameScale": 1.2
         },
         "scoreboard": {
-            "src": "assets/team-photos/bears-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bears/jxnkm950kg5bfpv1ntgg.jpg",
-            "sourcePage": "https://thankyoufans.chicagobears.com/week-4/index.html",
-            "credit": "Chicago Bears / featured fan-submitted tailgate photograph",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/bears/kwpq6cdsr9olg3xz6htq.jpg",
+            "sourcePage": "https://www.chicagobears.com/video/highlight-caleb-williams-hits-wide-open-rome-odunze-for-td",
+            "credit": "Chicago Bears / official team photography",
+            "width": 1920,
+            "height": 1080,
+            "src": "assets/team-photos/bears-scoring.jpg",
+            "alt": "Chicago Bears players celebrating a Rome Odunze touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -2591,11 +2603,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Detroit ball carrier running in a Honolulu-blue Lions jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/lions-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/lions/c4gq7r95yqqwnxkcnphd.jpg",
-            "sourcePage": "https://www.detroitlions.com/photos/2026-detroit-lions-draft-party-photos",
-            "credit": "Carl Jones II/Detroit Lions",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/lions/camx7rusmvbqdc2kon49.jpg",
+            "sourcePage": "https://www.detroitlions.com/photos/lions-vs-bears-week-12-photos-x9042",
+            "credit": "Jeff Nguyen/Detroit Lions",
+            "width": 2160,
+            "height": 1440,
+            "src": "assets/team-photos/lions-scoring.jpg",
+            "alt": "Detroit Lions tight end Sam LaPorta catching a touchdown in the end zone",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -2687,11 +2702,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Green Bay defender tackling in a green Packers jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/packers-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/packers/xif4kw5aojcdh4hxvw1i.png",
-            "sourcePage": "https://www.packers.com/photos/photos-fans-tailgate-at-lambeau-field-ahead-of-rivalries-game-packers-vs-bears-2026",
-            "credit": "Keller Nienau, packers.com",
-            "alt": "The home crowd"
+            "url": "https://nbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com/brightspot/03/4d/fb1c082a4f93b20f260929e4b7c7/https-delivery-gettyimages.com/downloads/2234939316",
+            "sourcePage": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-packers-lead-commanders-14-3-at-halftime",
+            "credit": "Getty Images / NBC Sports",
+            "width": 5260,
+            "height": 3507,
+            "src": "assets/team-photos/packers-scoring.jpg",
+            "alt": "Green Bay Packers players lift Josh Jacobs in celebration after a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -2783,11 +2801,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Minnesota defender covering a receiver in a purple Vikings jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/vikings-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/vikings/tk07o276sqfptbeduu6g.jpg",
-            "sourcePage": "https://www.vikings.com/photos/fans-packers-week-1-2026",
-            "credit": "Andy Berg/Minnesota Vikings",
-            "alt": "The home crowd"
+            "url": "https://images2.minutemediacdn.com/image/upload/c_limit,w_2400,q_90,f_jpg/images/ImagnImages/mmsport/all_trojans/01jep3rxtk36gsbhcpgp.jpg",
+            "sourcePage": "https://www.si.com/college/usc/football/minnesota-vikings-justin-jefferson-jordan-addison-nfl-best-wide-receiver-usc-trojans-draft-fantasy",
+            "credit": "Imagn Images / Sports Illustrated",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/vikings-scoring.jpg",
+            "alt": "Minnesota Vikings receivers Justin Jefferson and Jordan Addison celebrating a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -2879,11 +2900,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Atlanta players competing for a catch in black Falcons jerseys"
         },
         "scoreboard": {
-            "src": "assets/team-photos/falcons-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/falcons/m9eehyaufrqgw4ytvmwx.jpg",
-            "sourcePage": "https://www.atlantafalcons.com/photos/photos-best-of-gameday-fans-takeover-fedexfield",
-            "credit": "Atlanta Falcons / Kara Durrette",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/falcons/pyatlrib2vmkkc5oxt7z.jpg",
+            "sourcePage": "https://www.atlantafalcons.com/photos/game-photos-week-10-falcons-vs-chiefs",
+            "credit": "Jay Bendlin/© 2026 Atlanta Falcons",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/falcons-scoring.jpg",
+            "alt": "Atlanta Falcons running back Bijan Robinson celebrating a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -2975,11 +2999,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Carolina player catching a football in a black Panthers jersey with blue trim"
         },
         "scoreboard": {
-            "src": "assets/team-photos/panthers-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/panthers/zxa5vjac3dsd6u8t0zdm.jpg",
-            "sourcePage": "https://www.panthers.com/photos/photos-capturing-the-fans-at-fan-fest",
-            "credit": "Chanelle Smith-Walker/Carolina Panthers",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/panthers/vgrsmcia6xl7rvkfi1k6.jpg",
+            "sourcePage": "https://www.panthers.com/photos/frame-by-frame-week-11-vs-baltimore-ravens",
+            "credit": "Sarah Boeke/Carolina Panthers",
+            "width": 2400,
+            "height": 1491,
+            "src": "assets/team-photos/panthers-scoring.jpg",
+            "alt": "Carolina Panthers running back Chuba Hubbard diving across the goal line",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -3071,11 +3098,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "New Orleans receiver diving for a catch in a black Saints jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/saints-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/saints/emautwus97qm6mlui4t6.jpg",
-            "sourcePage": "https://www.neworleanssaints.com/photos/2026-nfl-week-10-carolina-panthers-vs-new-orleans-saints-photos-fans",
-            "credit": "Michael C. Hebert/New Orleans Saints",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/saints/svcrfosic9j9ffksdwwj.jpg",
+            "sourcePage": "https://www.neworleanssaints.com/news/chris-olave-2025-season-recap",
+            "credit": "saints / official team photography",
+            "width": 1920,
+            "height": 1080,
+            "src": "assets/team-photos/saints-scoring.jpg",
+            "alt": "New Orleans Saints receiver Chris Olave celebrating a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -3167,11 +3197,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Tampa Bay linemen blocking in red Buccaneers jerseys"
         },
         "scoreboard": {
-            "src": "assets/team-photos/buccaneers-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/buccaneers/yxv72uccsiloeoyqjofv.jpg",
-            "sourcePage": "https://www.buccaneers.com/photos/fanfest-presented-by-bright-house-networks-2186188",
-            "credit": "www.buccaneers.com",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/buccaneers/dnshccvu91w6dsmovyln.jpg",
+            "sourcePage": "https://www.buccaneers.com/photos/best-photos-of-bucs-vs-lions-game-action",
+            "credit": "Douglas DeFelice/Douglas DeFelice",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/buccaneers-scoring.jpg",
+            "alt": "Tampa Bay Buccaneers receiver completing a touchdown beside the end-zone pylon",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -3263,11 +3296,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Arizona defenders tackling in red Cardinals jerseys"
         },
         "scoreboard": {
-            "src": "assets/team-photos/cardinals-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/cardinals/wfne2tdoxgofkxt8zuor.jpg",
-            "sourcePage": "https://www.azcardinals.com/photos/photos-fan-friday-best-of-2023",
-            "credit": "Arianna Grainey/Arizona Cardinals",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/cardinals/zpxrvwm5fw5imnfxchli.jpg",
+            "sourcePage": "https://www.azcardinals.com/photos/photos-cardinals-top-pics-at-chiefs",
+            "credit": "Caitlyn Epes Kerl/Arizona Cardinals",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/cardinals-scoring.jpg",
+            "alt": "Arizona Cardinals receiver Simi Fehoko crossing into the end zone",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -3359,11 +3395,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Los Angeles ball carrier running in a royal-blue Rams jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/rams-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/rams/c7ue9wphwr70affndu4j.jpg",
-            "sourcePage": "https://www.therams.com/photos/fan-photos-rams-fans-shine-under-the-sofi-stadium-spotlight-during-the-rams-week-11-win-over-the-seahawks",
-            "credit": "Abigail Dean/ Los Angeles Rams/Los Angeles Rams",
-            "alt": "The home crowd"
+            "url": "https://images2.minutemediacdn.com/image/upload/c_limit,w_2400,q_90,f_jpg/images/ImagnImages/mmsport/los_angeles_sparks_on_si/01k4jwnbhjkq6jykqeq8.jpg",
+            "sourcePage": "https://www.si.com/wnba/sparks/news/sparks-deliver-message-to-puka-nacua-matthew-stafford-rams-before-nfl-season-opener",
+            "credit": "Imagn Images / Sports Illustrated",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/rams-scoring.jpg",
+            "alt": "Los Angeles Rams players Puka Nacua, Matthew Stafford and Kyren Williams celebrating a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -3455,11 +3494,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "San Francisco ball carrier running in a scarlet 49ers jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/49ers-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/49ers/bdb6cgowy8eeclkrhxj9.jpg",
-            "sourcePage": "https://www.49ers.com/photos/san-francisco-fans-faithful-take-over-the-new-orleans-saints-superdome",
-            "credit": "Kym Fortino/49ers",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/49ers/i7oniyixhfu5rbgmzfcg.jpg",
+            "sourcePage": "https://www.49ers.com/photos/game-photos-49ers-vs-cowboys-week-10",
+            "credit": "Terrell Lloyd/49ers",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/49ers-scoring.jpg",
+            "alt": "San Francisco 49ers runner crossing into the end zone",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -3552,11 +3594,14 @@ window.NFL_TEAM_MEDIA = {
             "frameScale": 1.16
         },
         "scoreboard": {
-            "src": "assets/team-photos/seahawks-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/seahawks/p55f2k2jzhbzkd3odvjl.png",
-            "sourcePage": "https://www.seahawks.com/photos/2025-nfc-divisional-round-seahawks-vs-49ers-lumen-field-12s-fan-photos",
-            "credit": "Seattle Seahawks / credited gallery photographer",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/seahawks/jw3uyo8rnqtt3vawnrnc.jpg",
+            "sourcePage": "https://www.seahawks.com/photos/photos-eye-on-the-hawks-behind-the-scenes-from-the-week-10-win-at-the-raiders",
+            "credit": "ROD MAR/SEATTLE SEAHAWKS",
+            "width": 2400,
+            "height": 1350,
+            "src": "assets/team-photos/seahawks-scoring.jpg",
+            "alt": "Seattle Seahawks running back Jadarian Price crossing the goal line for a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -3649,11 +3694,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Buffalo defender rushing in a royal-blue Bills jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/bills-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bills/a7mkqbh3f2yonvpdgllj.jpg",
-            "sourcePage": "https://www.buffalobills.com/photos/fan-photos-bills-vs-ravens-week-8",
-            "credit": "Bjorn Franke/Buffalo Bills",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/bills/hzyehmggotmtmjjbru7r.jpg",
+            "sourcePage": "https://www.buffalobills.com/photos/bills-win-must-see-photos-from-buffalo-s-victory-over-the-kansas-city-chiefs",
+            "credit": "Ben Green/Buffalo Bills",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/bills-scoring.jpg",
+            "alt": "Buffalo Bills runner celebrating a touchdown in the end zone",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -3746,11 +3794,14 @@ window.NFL_TEAM_MEDIA = {
             "frameScale": 1.22
         },
         "scoreboard": {
-            "src": "assets/team-photos/dolphins-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/dolphins/bc7qm7tywc2s7elwhbdx.jpg",
-            "sourcePage": "https://www.miamidolphins.com/photos/2026-miami-dolphins-at-new-york-jets-fan-cam",
-            "credit": "Tomas Diniz Santos/Miami Dolphins",
-            "alt": "The home crowd"
+            "url": "https://images2.minutemediacdn.com/image/upload/c_limit,w_2400,q_90,f_jpg/images/ImagnImages/mmsport/all_aggies/01jbw4ae5ze6qy791cf2.jpg",
+            "sourcePage": "https://www.si.com/college/tamu/news/texas-a-m-aggies-in-the-nfl-week-9-de-von-achane-myles-garrett-return-to-form-01jbw43k3qaa",
+            "credit": "Imagn Images / Sports Illustrated",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/dolphins-scoring.jpg",
+            "alt": "Miami Dolphins running back De’Von Achane celebrating a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -3843,11 +3894,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "New England receiver catching a football in a navy Patriots jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/patriots-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/patriots/yxtkd1xz27qfx00um17k.jpg",
-            "sourcePage": "https://www.patriots.com/photos/patriots-thank-the-fans-284901",
-            "credit": "www.patriots.com",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/patriots/u1zrof6167nbk1q3e5xk.jpg",
+            "sourcePage": "https://www.patriots.com/photos/game-photos-from-week-10-game-against-the-lions-presented-by-sony",
+            "credit": "www.patriots.com / official team photography",
+            "width": 2400,
+            "height": 1800,
+            "src": "assets/team-photos/patriots-scoring.jpg",
+            "alt": "New England Patriots runner scoring beside the end-zone pylon",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -3939,11 +3993,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "New York receiver reaching for a catch in a green Jets jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/jets-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jets/eduyuf5plif86hbinnau.jpg",
-            "sourcePage": "https://www.newyorkjets.com/photos/best-fan-photos-from-2025-jets-season-01-04-2026",
-            "credit": "www.newyorkjets.com",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/jets/kifiisql0xlv8bupf8fk.jpg",
+            "sourcePage": "https://www.newyorkjets.com/photos/through-the-lens-week-11--jets-victory-vs-chargers-11-23-2026",
+            "credit": "Dylan Goodman/© New York Jets 2026",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/jets-scoring.jpg",
+            "alt": "New York Jets offense celebrating a touchdown with the referee signaling the score",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -4035,11 +4092,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Baltimore ball carrier running in a purple Ravens jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/ravens-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/ravens/elktwxfuwuqyt156b5ga.jpg",
-            "sourcePage": "https://www.baltimoreravens.com/photos/ravens-fans-flock-to-stadium-practice-17415895",
-            "credit": "www.baltimoreravens.com",
-            "alt": "The home crowd"
+            "url": "https://images2.minutemediacdn.com/image/upload/c_limit,w_2400,q_90,f_jpg/images/ImagnImages/mmsport/raven_country/01k0yewygfx91fdzpts5.jpg",
+            "sourcePage": "https://www.si.com/nfl/ravens/onsi/news/baltimore-ravens-pro-bowlers-make-bold-lamar-jackson-statement",
+            "credit": "Imagn Images / Sports Illustrated",
+            "width": 2400,
+            "height": 1597,
+            "src": "assets/team-photos/ravens-scoring.jpg",
+            "alt": "Baltimore Ravens quarterback Lamar Jackson and tight end Mark Andrews celebrating a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -4131,11 +4191,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Cincinnati quarterback throwing in an orange Bengals jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/bengals-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/bengals/pkdy8olzbhlglqliwdgk.jpg",
-            "sourcePage": "https://www.bengals.com/photos/around-the-jungle-for-salute-to-service-week-9-against-raiders-fan-photos",
-            "credit": "Erik Schelkun",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/bengals/zgajn4s3eyoatbqq3rir.jpg",
+            "sourcePage": "https://www.bengals.com/photos/bengals-commanders-monday-night-football-game-photos-week-11-2026",
+            "credit": "Ryan Meyer/Bengals",
+            "width": 2400,
+            "height": 1350,
+            "src": "assets/team-photos/bengals-scoring.jpg",
+            "alt": "Cincinnati Bengals receiver Tee Higgins diving into the end zone for a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -4227,11 +4290,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Cleveland linemen blocking in brown Browns jerseys and orange helmets"
         },
         "scoreboard": {
-            "src": "assets/team-photos/browns-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/f_jpg/browns/uibthdojqkusgge6sg0f.jpg",
-            "sourcePage": "https://www.clevelandbrowns.com/photos/best-fans-in-the-nfl-11816001",
-            "credit": "Clevelandbrowns.com",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/browns/sibff1bmfhraridlipjf.jpg",
+            "sourcePage": "https://www.clevelandbrowns.com/photos/in-game-highlights-from-2026-browns-vs-texans-week-10",
+            "credit": "David Dermer/Cleveland Browns",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/browns-scoring.jpg",
+            "alt": "Cleveland Browns receiver catching a touchdown beside the end-zone pylon",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -4324,11 +4390,14 @@ window.NFL_TEAM_MEDIA = {
             "frameScale": 1.22
         },
         "scoreboard": {
-            "src": "assets/team-photos/steelers-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/steelers/zsznkqjenpcpcoohqxqz.jpg",
-            "sourcePage": "https://www.steelers.com/photos/photos-best-of-fans-at-steelers-camp-x2048",
-            "credit": "Jordan Perez/Pittsburgh Steelers",
-            "alt": "The home crowd"
+            "url": "https://images2.minutemediacdn.com/image/upload/c_limit,w_2400,q_90,f_jpg/images/ImagnImages/mmsport/giants_country/01jax9s8amjn7m3e4f08.jpg",
+            "sourcePage": "https://www.si.com/nfl/giants/onsi/big-blue-plus/new-york-giants-week-8-a-look-at-the-pittsburgh-steelers-offense-01jax9p4amb4",
+            "credit": "Imagn Images / Sports Illustrated",
+            "width": 2400,
+            "height": 1599,
+            "src": "assets/team-photos/steelers-scoring.jpg",
+            "alt": "Pittsburgh Steelers quarterback Russell Wilson and receiver George Pickens celebrating a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -4421,11 +4490,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Houston ball carrier running in a navy Texans uniform with red trim"
         },
         "scoreboard": {
-            "src": "assets/team-photos/texans-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/texans/z3qa74t0wb38emyvyoc5.jpg",
-            "sourcePage": "https://www.houstontexans.com/photos/top-25-photos-fans-in-stands",
-            "credit": "Houston Texans / gallery photographer",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/texans/es2bew5ecdgwvf91ehez.jpg",
+            "sourcePage": "https://www.houstontexans.com/photos/texans-vs-colts-week-11-gameday-action",
+            "credit": "JORDAN MCKENDRICK/HOUSTON TEXANS",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/texans-scoring.jpg",
+            "alt": "_JM31652",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -4517,11 +4589,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Indianapolis receiver catching a football in a royal-blue Colts jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/colts-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/colts/vrpjecajfrxqcywkldqq.jpg",
-            "sourcePage": "https://www.colts.com/photos/best-of-2025-fans",
-            "credit": "© Indianapolis Colts",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/colts/onklmzzfibi17pyughr4.jpg",
+            "sourcePage": "https://www.colts.com/video/highlight-jonathan-taylor-s-17th-td-run-of-2025-trims-49ers-lead-to-34-26-in-fourth-quarter",
+            "credit": "Indianapolis Colts / official team photography",
+            "width": 1920,
+            "height": 1080,
+            "src": "assets/team-photos/colts-scoring.jpg",
+            "alt": "Indianapolis Colts running back Jonathan Taylor celebrating a touchdown with a teammate",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -4613,11 +4688,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Jacksonville ball carrier running in a teal Jaguars jersey"
         },
         "scoreboard": {
-            "src": "assets/team-photos/jaguars-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/jaguars/dqxhcunb2hi8odtwjbov.jpg",
-            "sourcePage": "https://www.jaguars.com/photos/jaguars-host-open-practice-for-fans-in-london",
-            "credit": "Chris Kim/Jacksonville Jaguars",
-            "alt": "The home crowd"
+            "url": "https://images2.minutemediacdn.com/image/upload/c_limit,w_2400,q_90,f_jpg/images/ImagnImages/mmsport/jaguar_report/01j9m06vp3yvgpt7xvhb.jpg",
+            "sourcePage": "https://www.si.com/nfl/jaguars/onsi/news/jaguars-rookie-report-how-did-the-2024-class-do-in-week-5-01j9km17k9gv",
+            "credit": "Imagn Images / Sports Illustrated",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/jaguars-scoring.jpg",
+            "alt": "Jacksonville Jaguars receiver Brian Thomas Jr. celebrating a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -4709,11 +4787,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Tennessee quarterback throwing in a Titans blue uniform"
         },
         "scoreboard": {
-            "src": "assets/team-photos/titans-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/titans/ud15pv9jps9osxxkvujb.png",
-            "sourcePage": "https://www.tennesseetitans.com/photos/fan-photos-week-10-vs-jaguars",
-            "credit": "Coral Scoles-Coburn/Tennessee Titans",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/titans/qxvfmthiozsxhkbwaxgr.jpg",
+            "sourcePage": "https://www.tennesseetitans.com/photos/tennessee-top-25-2026-week-10-vs-jacksonville-jaguars",
+            "credit": "Donald Page/Tennessee Titans",
+            "width": 2400,
+            "height": 1350,
+            "src": "assets/team-photos/titans-scoring.jpg",
+            "alt": "Tennessee Titans tight end Daniel Bellinger running into the end zone for a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -4806,11 +4887,14 @@ window.NFL_TEAM_MEDIA = {
             "frameScale": 1.2
         },
         "scoreboard": {
-            "src": "assets/team-photos/broncos-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/broncos/hcgm8zehlgnhtwrvdgsw.jpg",
-            "sourcePage": "https://www.denverbroncos.com/photos/broncos-country-in-focus-our-favorite-fan-photos-from-a-week-2-win-over-the-jaguars-in-denver-s-home-opener",
-            "credit": "Ben Swanson/2026 Denver Broncos",
-            "alt": "The home crowd"
+            "url": "https://images2.minutemediacdn.com/image/upload/c_limit,w_2400,q_90,f_jpg/images/ImagnImages/mmsport/mile_high_huddle/01jw079bsyqf5q3wk5rq.jpg",
+            "sourcePage": "https://www.si.com/nfl/broncos/onsi/news/broncos-roster-breakdown-wide-receivers-2025-outlook",
+            "credit": "Imagn Images / Sports Illustrated",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/broncos-scoring.jpg",
+            "alt": "Denver Broncos receiver Courtland Sutton celebrating a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -4904,11 +4988,14 @@ window.NFL_TEAM_MEDIA = {
             "frameScale": 1.22
         },
         "scoreboard": {
-            "src": "assets/team-photos/chiefs-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/chiefs/owgzi5epki5ozvtmppyw.jpg",
-            "sourcePage": "https://www.chiefs.com/photos/photos-fans-at-chiefs-training-camp-7-27-24",
-            "credit": "Steve Sanders",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/chiefs/ze4fhandkosajwpj2fhz.jpg",
+            "sourcePage": "https://www.chiefs.com/photos/photos-top-shots-from-regular-season-week-10-falcons-vs-chiefs",
+            "credit": "Sam Lutz",
+            "width": 2400,
+            "height": 1350,
+            "src": "assets/team-photos/chiefs-scoring.jpg",
+            "alt": "Kansas City Chiefs receiver Josh Downs catching a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -5001,11 +5088,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Las Vegas linemen blocking in black Raiders jerseys and silver helmets"
         },
         "scoreboard": {
-            "src": "assets/team-photos/raiders-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_photogallery/raiders/mvyfz3dx26yvnbpvtdjh.jpg",
-            "sourcePage": "https://www.raiders.com/photos/practice-photos-friday-11-20-26",
-            "credit": "Las Vegas Raiders / official team photography",
-            "alt": "Raiders at the training facility"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/raiders/utkzv44bt6sb1ysjl09c.jpg",
+            "sourcePage": "https://www.raiders.com/photos/top-shots-raiders-vs-broncos-week-11",
+            "credit": "Michael Clemens/Las Vegas Raiders",
+            "width": 2160,
+            "height": 1440,
+            "src": "assets/team-photos/raiders-scoring.jpg",
+            "alt": "Las Vegas Raiders tight end Ian Thomas celebrating a touchdown",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {
@@ -5097,11 +5187,14 @@ window.NFL_TEAM_MEDIA = {
             "alt": "Los Angeles linemen blocking in powder-blue Chargers jerseys"
         },
         "scoreboard": {
-            "src": "assets/team-photos/chargers-scoreboard.jpg",
-            "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_jpg/chargers/ytcvgikyklt6nmpmqngj.jpg",
-            "sourcePage": "https://www.chargers.com/photos/2026-tailgate-photos-week-9-texans",
-            "credit": "Ryan Young/Los Angeles Chargers",
-            "alt": "The home crowd"
+            "url": "https://static.clubs.nfl.com/image/upload/f_jpg,c_limit,w_2400,q_90/chargers/uemjarmroaxxggvxxnwq.jpg",
+            "sourcePage": "https://www.chargers.com/photos/2026-top-shots-photos-week-11-jets",
+            "credit": "Ty Nowell/Los Angeles Chargers",
+            "width": 2400,
+            "height": 1600,
+            "src": "assets/team-photos/chargers-scoring.jpg",
+            "alt": "Los Angeles Chargers receiver finishing a touchdown catch in the end zone",
+            "objectPosition": "center 42%"
         },
         "covers": {
             "game": {

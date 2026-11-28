@@ -1,0 +1,56 @@
+{
+    "team": "bears",
+    "src": "assets/game-covers/sprite-plays-v1/bears.png",
+    "method": "edit",
+    "prompt": "Use case: style-transfer / precise-object-edit. Production asset: ONE BEARS football cover atlas for Sunday Arcade. EXACTLY 1 column, 3 EQUAL-HEIGHT WIDE LANDSCAPE 16:10 panels stacked, overall portrait aspect 1:1.875 (width/height 0.5333), ideally 916x1717 or 1536x2880. Input 1 is the EDIT TARGET. Preserve its three distinctive football play settings and composition, but redraw all players into the required exaggerated cartoon style and correct every helmet.\nINPUT ROLES: Image 2 is the STRICT ART STYLE MASTER: ORIGINAL NFC EAST 3D CARTOON SPRITES. Image 3 is FACE/HAIR/UNIFORM REFERENCE ONLY, bears players in ROW 1; do NOT copy its less cartoonish body proportions or rendering. Image 4 is the FULL-SCENE STYLE AND HELMET STANDARD reference, not team identity. Never recolor the requested team as Eagles, Packers or Bears. Use bears colors and the following original featured identities: runner DJ Moore #2, quarterback Caleb Williams #18, kicker Cairo Santos #8. ALL DEFENSIVE OPPONENTS are PACKERS in their correct team colors and helmets, visually distinct away uniforms. The BEARS players are always the OFFENSE in all three panels.\nSTYLE IS CRITICAL: Every player must be EQUALLY CARTOONISH AS THE NFC EAST SPRITES in image 2: oversized expressive sculpted heads, short stocky athletic torsos and limbs, thick rounded shoulders, chunky hands and boots, big stylized eyebrows and facial features, simplified smooth skin, clumped stylized hair, broad clean color/shadow shapes, polished collectible 3D arcade game materials. Re-sculpt the referenced identities as these chunky cartoons rather than preserving adult human proportions. All supporting athletes have the same exaggerated head/body proportions as the star, with different hair/face identities. No realistic human anatomy proportions, tiny normal-sized heads, photo skin/pores, realistic sinewy muscles, painted sports illustration, editorial comic or flat vector figures. Backgrounds/crowds/turf must be cohesive stylized 3D CARTOON environments as in image 4, not photographs. Preserve team-inspired uniform accessories, faces/hair/colors/jersey numbers without copying the more realistic rendering of identity reference.\nMANDATORY HELMET RULE IN EVERY PANEL: ANY OFFENSIVE BEARS PLAYER WITH VISIBLE FACIAL FEATURES (eyes/nose/mouth, including a profile) MUST BE COMPLETELY HELMETLESS with uncovered stylized hair/head: applies to featured runner/QB/kicker, visible-faced linemen, receivers, and a holder with visible profile. Offensive players seen ONLY FROM BEHIND with NO VISIBLE FACE MUST WEAR their own team helmet. ALL DEFENDERS must wear opponent-team helmets and facemasks even if their faces are visible. Every single defensive player is helmeted, including diving tackler, pursuers, engaged rushers and jumping kick blocker. No bareheaded defender. No visible-faced offensive player in a helmet. No floating discarded helmets. Show the kneeling holder from behind in his own team's helmet if his face is hidden; if face visible, no helmet. Apply to distant players too, leave crowd spectators alone.\nCamera: elevated oblique SIDEWAYS/ISOMETRIC sideline view, looking down at diagonal field approximately 35 degrees, action goes sideways across scene. 7-9 different athletes per play. No copied standing sprites or frontal lineup. Same physical scale for near teammates. Keep the main action entirely within central 85% of each landscape panel. Preserve complete connected bodies and natural football mechanics despite cartoon proportions.\nTOP / Touchdown Rush: DJ Moore #2 cuts toward open sideline, football tightly tucked, outside foot plants and hips turn, opposite arm protects from a HELMETED diving rival reaching for his hips. A home blocker drives another HELMETED defender aside, a teammate leads downfield, others pursue. Every visible-faced home player bareheaded, all defenders helmets. Distinct environment: lakefront stadium colonnades seen from sideline; crisp autumn daylight.\nMIDDLE / Passing Drive: Caleb Williams #18 plants opposite foot toward receiver, back leg drives, torso rotates and throwing arm raised in overarm release with ONE football at his hand. Linemen bend knees in staggered stances and actively hand fight HELMETED rushers. Receiver accelerates into a break and HELMETED corner turns to follow. All visible-faced home linemen/QB/receiver helmetless, back-facing home players helmeted. Different environment: navy-orange midfield under lights with distant Chicago skyline; twilight.\nBOTTOM / Field Goals: Cairo Santos #8 at strike/follow-through, plant foot beside one-knee-down holder, kicking leg swings through toward yellow uprights. Home protection line pushes incoming HELMETED rush, a HELMETED defender jumps both arms up. ONE ball just airborne toward posts. Every visible-faced home player helmetless; back-facing home line and holder with no visible face in helmets; ALL defenders helmets. Different environment: orange goal-line padding and stone entry arches; windy overcast.\nFinal audit priorities: (1) SAME extreme chunky cartoon sprite style as NFC East master; (2) helmetless visible-faced offense, helmeted back-facing offense, ALL defense helmeted; (3) different natural action poses; (4) THREE distinct backgrounds and camera locations; (5) three equal WIDE 16:10 panels, overall portrait 1:1.875, no square panels. No captions, labels, gutters, watermark, duplicate people or duplicate footballs.",
+    "references": [
+        "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/game-covers/sprite-plays-v1/bears.png",
+        "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/characters/cast-0-v2.png",
+        "/Users/zack/HTCS-Projects/BasicStaticWebsite/public/assets/characters/cast-1.png",
+        "/Users/zack/.codex/generated_images/01a220c5-6634-7792-afff-36c8c41f925f/exec-a0e740e3-16f3-4cd2-8a69-57c3b1645e17.png"
+    ],
+    "status": "generated",
+    "contexts": [
+        "lakefront stadium colonnades seen from sideline; crisp autumn daylight",
+        "navy-orange midfield under lights with distant Chicago skyline; twilight",
+        "orange goal-line padding and stone entry arches; windy overcast"
+    ],
+    "featured": {
+        "runner": {
+            "name": "DJ Moore",
+            "number": 2,
+            "era": "Chicago Bears \u00b7 2023\u20132025",
+            "source": "https://www.nfl.com/players/d-j-moore/stats/career"
+        },
+        "quarterback": {
+            "name": "Caleb Williams",
+            "number": 18,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/3",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bears-quarterback-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/3"
+        },
+        "kicker": {
+            "name": "Cairo Santos",
+            "number": 8,
+            "era": "2026 roster",
+            "source": "https://www.espn.com/nfl/team/roster/_/id/3",
+            "verifiedAt": "2026-11-22",
+            "portrait": "assets/player-references/bears-kicker-2026.png",
+            "portraitVerified": true,
+            "portraitCredit": "ESPN / NFL player portrait",
+            "portraitSource": "https://www.espn.com/nfl/team/roster/_/id/3"
+        }
+    },
+    "rival": "packers",
+    "outputPath": "/Users/zack/.codex/generated_images/01a220c5-6634-7792-afff-36c8c41f925f/exec-61882046-5e33-4da7-bed4-b602549e0245.png",
+    "tool": "built-in image_gen",
+    "reviewed": true,
+    "helmetRule": "Visible-faced offense bareheaded; back-facing offense and all defense helmeted.",
+    "style": "NFC East chunky cartoon sprite master.",
+    "sha256": "f84381c98047b9762c35db29f433589e000f19c83b17e36c8797bd23727719ef",
+    "reviewNotes": "All three cover panels checked for NFC East cartoon style, helmet rules, football poses and distinct settings."
+}

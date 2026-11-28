@@ -27,7 +27,12 @@ class GamesLobby {
         this.filters.forEach(button => button.addEventListener('click', () => this.filter(button.dataset.gameFilter)));
         this.updateRecords();
         window.addEventListener('storage', () => this.updateRecords());
-        document.getElementById('featured-game-link').textContent = `Play ${this.api.team.games.bird}`;
+        document.addEventListener('arcade:progress', () => this.updateRecords());
+        window.addEventListener('pageshow', event => {
+            if (!event.persisted) return;
+            this.featuredGame = null;
+            this.updateRecords();
+        });
     }
     filter(category) {
         let count = 0;
@@ -37,7 +42,7 @@ class GamesLobby {
     }
     updateRecords() {
         document.getElementById('lobby-fan').textContent = this.arcade.read('fanNickname') || `${this.api.team.nickname} faithful`;
-        document.getElementById('featured-bird-best').textContent = this.arcade.number('barkleyBest');
+        this.updateFeaturedGame();
         for (const game of this.api.games) document.querySelector(`[data-record="${game.id}"]`).textContent = `${this.arcade.number(game.key)} ${game.unit}`;
         const recent = this.arcade.read('arcadeLastGame');
         const resume = document.getElementById('lobby-resume');
@@ -46,6 +51,36 @@ class GamesLobby {
             document.getElementById('lobby-recent-title').textContent = this.arcade.games[recent];
             const link = document.getElementById('lobby-recent-link'); link.href = this.api.link(recent); link.textContent = `Continue ${this.arcade.games[recent]}`;
         }
+    }
+    updateFeaturedGame() {
+        const scores = this.api.points().scores;
+        const unfinished = this.api.games.filter(game => scores[game.id] < game.maxPoints);
+        const recent = this.arcade.read('arcadeLastGame');
+        // Keep the latest game in front until its arcade points are full.
+        const game = unfinished.find(game => game.href === recent)
+            || unfinished.find(game => game === this.featuredGame)
+            || unfinished.find(game => game.id === 'bird')
+            || unfinished[0]
+            || this.featuredGame
+            || this.api.games[Math.floor(Math.random() * this.api.games.length)];
+        if (this.featuredGame !== game) {
+            // A fresh element keeps an older cover's async render from changing this one.
+            const previousArt = document.querySelector('.lobby-team-art');
+            const art = document.createElement('div');
+            art.className = 'lobby-team-art';
+            previousArt.replaceWith(art);
+            this.api.paintGameArt(art, game.id);
+            this.featuredGame = game;
+        }
+        document.getElementById('featured-game-eyebrow').textContent = unfinished.length
+            ? (game.href === recent ? 'Continue your last game' : 'Your next game')
+            : 'Play it again';
+        document.getElementById('featured-game-title').textContent = game.title;
+        document.getElementById('featured-game-description').textContent = game.description;
+        const link = document.getElementById('featured-game-link');
+        link.href = this.api.link(game.href);
+        link.textContent = `Play ${game.title}`;
+        document.getElementById('featured-game-best').textContent = `${this.arcade.number(game.key)} ${game.unit}`;
     }
 }
 document.gamesLobby = new GamesLobby();

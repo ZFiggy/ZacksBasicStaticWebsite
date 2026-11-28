@@ -21,14 +21,8 @@ class PassingGame {
         document.getElementById('game-title').textContent = 'PASSING DRIVE';
         document.querySelector('.game-intro .eyebrow').textContent = `${window.playerMotion.identity('quarterback').name} · ${this.api.team.short} vs ${this.rival.short}`;
         document.getElementById('game-tagline').textContent = 'Call the route. Work the pocket. Turn the catch into a touchdown.';
-        document.querySelector('.game-instructions').innerHTML = '<details><summary>Controls &amp; football rules</summary><p>Three drives from your 25. Four downs to gain 10 yards. Each down has a fresh formation and route variation. Choose a route, then Snap (Space). Move with WASD / arrows or hold the direction buttons. Throw with 1–3 or tap a receiver; control the catcher after the catch. Bullet is fast but can be undercut; lob clears underneath coverage but gives the safety time. The quarterback stays behind the blue line of scrimmage. Q tucks the ball for a quarterback run (you cannot pass afterward). T throws away the pass and uses a down. Shift / Sprint gives about 1.8 seconds of burst per play. Energy does not refill until the next down; defenders can catch you at jogging speed. X / Slide gives yourself up safely; the ball is spotted where the slide starts. P pauses.</p></details>';
-        const tabs = document.getElementById('playbook-tabs');
-        tabs.replaceChildren();
-        for (const [href, label] of [['game.html', 'Touchdown Rush'], ['playbook.html?game=pocket', 'Passing Drive'], ['kick.html', 'Field Goals'], ['games.html', 'All games']]) {
-            const link = document.createElement('a'); link.href = this.api.link(href); link.textContent = label;
-            if (href.includes('pocket')) link.setAttribute('aria-current', 'page');
-            tabs.append(link);
-        }
+        document.querySelector('.game-instructions').replaceChildren();
+        this.api.renderGameTabs();
         const currentQuarterback = window.playerMotion.identity('quarterback');
         document.querySelector('.field-heading span:first-child').textContent = `${currentQuarterback.name} · #${currentQuarterback.number}`;
         this.status = document.getElementById('playbook-status');
@@ -36,7 +30,7 @@ class PassingGame {
         this.start.textContent = 'New 3-drive game';
         this.start.addEventListener('click', () => this.reset());
         this.stage = document.getElementById('playbook-stage');
-        this.stage.innerHTML = '<canvas id="passing-canvas" width="1064" height="552" tabindex="0" aria-label="Passing field. Arrow keys move; 1, 2, 3 throw; Space snaps; X slides; P pauses." aria-describedby="playbook-status"></canvas>';
+        this.stage.innerHTML = '<canvas id="passing-canvas" width="1064" height="552" tabindex="0" aria-label="Passing field. Arrow keys move; 1, 2, 3 throw; Space snaps; B switches Bullet/Lob; X slides; P pauses." aria-describedby="playbook-status"></canvas>';
         this.canvas = this.stage.firstChild;
         this.ctx = this.canvas.getContext('2d');
         this.board = document.createElement('div'); this.board.className = 'passing-board';
@@ -46,7 +40,8 @@ class PassingGame {
         this.callButtons = Object.entries(PassingRules.concepts).map(([id, play]) => this.button(play.name, () => { this.concept = id; this.setup(); }, '.passing-calls'));
         this.targetButtons = [0, 1, 2].map(i => this.button(`${i + 1} · Receiver`, () => this.throw(i), '.passing-targets'));
         this.actionButton = this.button('Snap · Space', () => this.action(), '.passing-actions');
-        this.styleButton = this.button('Pass: Bullet', () => { this.style = this.style === 'bullet' ? 'lob' : 'bullet'; this.sync(); }, '.passing-actions');
+        this.styleButton = this.button('Pass: Bullet', () => this.togglePassStyle(), '.passing-actions');
+        this.styleButton.setAttribute('aria-keyshortcuts', 'B');
         this.scrambleButton = this.button('Tuck & run · Q', () => this.scramble(), '.passing-actions');
         this.awayButton = this.button('Throw away · T', () => this.throwAway(), '.passing-actions');
         this.sprintButton = this.button('Sprint · Shift', () => {}, '.passing-actions');
@@ -72,6 +67,7 @@ class PassingGame {
             if (event.key.toLowerCase() === 'q') { event.preventDefault(); this.scramble(); }
             if (event.key.toLowerCase() === 't') { event.preventDefault(); this.throwAway(); }
             if (event.key === 'Shift') { event.preventDefault(); this.keys.add('Shift'); }
+            if (key === 'b') { event.preventDefault(); this.togglePassStyle(); }
             if (key === 'x') { event.preventDefault(); this.slide(); }
             if (event.key.toLowerCase() === 'p') this.pause();
         });
@@ -86,10 +82,8 @@ class PassingGame {
             const receiver = this.receivers.findIndex(r => Math.hypot(this.x(r.x) - x, this.y(r.y) - 24 - y) < 52);
             if (receiver >= 0) this.throw(receiver);
         });
-        this.note = document.createElement('p'); this.note.className = 'passing-play-note'; this.controls.after(this.note);
         this.status.classList.add('passing-live-status');
         this.stage.after(this.status);
-        this.liveCue = document.createElement('p'); this.liveCue.className = 'passing-live-cue'; this.liveCue.setAttribute('aria-live', 'off'); this.board.after(this.liveCue);
         this.setup();
         this.last = performance.now();
         const loop = now => {
@@ -104,6 +98,12 @@ class PassingGame {
     button(label, action, selector) {
         const button = document.createElement('button'); button.type = 'button'; button.textContent = label;
         button.addEventListener('click', action); this.controls.querySelector(selector).append(button); return button;
+    }
+
+    togglePassStyle() {
+        if (!['ready', 'live'].includes(this.phase) || this.paused) return;
+        this.style = this.style === 'bullet' ? 'lob' : 'bullet';
+        this.sync();
     }
 
     reset() {
@@ -134,7 +134,7 @@ class PassingGame {
         if (this.drive.ended) {
             this.phase = 'result';
             this.message(`Saved drive complete: ${this.drive.outcome}. ${this.drive.points} points. Continue when ready.`);
-        } else this.message(`${this.coverage}. Safety shades receiver ${this.shadedReceiver + 1}. Choose a route and read the breaks. Blue = scrimmage; gold = first down.`);
+        } else this.message('Choose a route, then snap.');
         this.sync();
     }
 
@@ -147,7 +147,8 @@ class PassingGame {
         this.targetButtons.forEach((button, i) => { button.style.borderColor = ['#b3f7d1', '#ffdf91', '#bfcfff'][i]; button.disabled = this.phase !== 'live' || !!this.paused; if (this.phase === 'ready') button.textContent = `${i + 1} · ${window.playerMotion.identity('receiver', this.api.team.id, i).name.split(' ').at(-1)}`; });
         this.actionButton.disabled = ['live', 'flight', 'run', 'slide'].includes(this.phase);
         this.actionButton.textContent = this.phase === 'over' ? 'Play again' : this.phase === 'result' ? (d.ended ? (d.drive === 3 ? 'Finish game' : 'Next drive') : 'Next down') : 'Snap · Space';
-        this.styleButton.textContent = `Pass: ${this.style === 'bullet' ? 'Bullet' : 'Lob'}`;
+        this.styleButton.textContent = `Pass: ${this.style === 'bullet' ? 'Bullet' : 'Lob'} · B`;
+        this.styleButton.setAttribute('aria-pressed', String(this.style === 'lob'));
         this.styleButton.setAttribute('aria-label', `Pass type: ${this.style}. Switch to ${this.style === 'bullet' ? 'lob' : 'bullet'}`);
         this.styleButton.disabled = !['ready', 'live'].includes(this.phase) || !!this.paused;
         this.scrambleButton.disabled = this.phase !== 'live' || !!this.paused;
@@ -156,7 +157,6 @@ class PassingGame {
         this.slideButton.disabled = !['live', 'run'].includes(this.phase) || !!this.paused;
         this.pauseButton.disabled = !['live', 'flight', 'run', 'slide'].includes(this.phase);
         this.pauseButton.textContent = this.paused ? 'Resume · P' : 'Pause · P';
-        if (this.note) this.note.textContent = `Roster snapshot: ${window.currentRosters.updatedAt.slice(0, 10)}. ${this.call.label}. ${PassingRules.concepts[this.concept].note} ${this.coverage}; safety shades ${this.shadedReceiver + 1}. Repeated targets draw extra coverage. After the catch, you control the receiver.`;
     }
 
     message(text) { this.status.textContent = text; }
@@ -443,7 +443,8 @@ class PassingGame {
             c.strokeStyle = '#ffffff40'; c.lineWidth = 1; c.beginPath(); c.moveTo(this.x(yard), 50); c.lineTo(this.x(yard), 490); c.stroke();
             if (yard > 0 && yard < 100 && yard % 10 === 0) {
                 c.fillStyle = '#e0eadea8'; c.font = 'bold 20px system-ui'; c.textAlign = 'center';
-                c.fillText(Math.min(yard, 100 - yard), this.x(yard), 84); c.fillText(Math.min(yard, 100 - yard), this.x(yard), 470);
+                c.save(); c.translate(this.x(yard), 84); c.rotate(Math.PI); c.fillText(Math.min(yard, 100 - yard), 0, 0); c.restore();
+                c.fillText(Math.min(yard, 100 - yard), this.x(yard), 470);
             }
         }
         footballField.endzone(c, this.x(100), 50, 120, 440, this.api.team);
@@ -501,10 +502,6 @@ class PassingGame {
         c.fillStyle = this.stamina > 0.25 ? '#b3f7d1' : '#ffad83'; c.fillRect(440, 500, this.stamina * 100, 12);
         c.fillStyle = '#fff'; c.font = 'bold 12px system-ui'; c.textAlign = 'center'; c.fillText('BURST', 490, 535);
         c.fillStyle = '#f1f6f2'; c.textAlign = 'right'; c.fillText(this.phase === 'ready' ? 'CHOOSE A PLAY • SNAP TO START' : this.phase === 'result' || this.phase === 'over' ? 'PLAY OVER • USE THE BUTTON TO CONTINUE' : '1 / 2 / 3 TO PASS • ARROWS / WASD TO MOVE', 1040, 526);
-        if (this.liveCue) {
-            const text = this.paused ? 'Paused · Resume when ready' : this.phase === 'ready' ? 'Choose route → Snap → Read 1–3 → Run after catch' : this.phase === 'live' ? `Move: WASD / arrows · Throw: 1–3 · Tuck & run: Q · Throw away: T · Sprint: Shift (${Math.round(this.stamina * 100)}%)` : this.phase === 'slide' ? 'SLIDING SAFELY · Spotted where the slide starts' : this.phase === 'run' ? `YOU HAVE THE BALL · X / Slide to give up · Shift / Sprint (${Math.round(this.stamina * 100)}%)` : this.phase === 'flight' ? 'Red rings: defenders can intercept here · Lob is vulnerable on descent' : 'Play finished · Continue with the gold button';
-            if (this.liveCue.textContent !== text) this.liveCue.textContent = text;
-        }
         if (this.phase === 'result' && this.resultTitle && performance.now() - this.resultAt > 1250) {
             c.fillStyle = '#081e2eea'; c.beginPath(); c.roundRect(342, 220, 380, 90, 12); c.fill();
             c.fillStyle = this.drive.outcome === 'touchdown' ? '#ffdb64' : '#fff'; c.textAlign = 'center'; c.font = '900 30px system-ui'; c.fillText(this.resultTitle, 532, 258);

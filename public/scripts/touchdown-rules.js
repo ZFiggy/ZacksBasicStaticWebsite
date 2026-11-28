@@ -1,12 +1,19 @@
 // Shared chase simulation used by play, generation, and route verification.
 (() => {
-    const cols = 19;
-    const rows = 9;
+    const endzoneCols = 2;
+    const fieldCols = 20;
+    const cols = fieldCols + endzoneCols * 2;
+    const rows = 11;
+    const goalColumn = cols - endzoneCols;
+    const startColumn = endzoneCols - 1;
+    const centerRow = Math.floor(rows / 2);
+    // Five yards per column; the field is 53 1/3 yards across.
+    const layout = {width: 1324, height: 639, left: 38, top: 42, cellWidth: 52, cellHeight: 52 * (160 / 3) / (5 * rows)};
     const moves = [[1, 0], [0, -1], [0, 1], [-1, 0], [0, 0]];
     const same = (a, b) => a.x === b.x && a.y === b.y;
     const protectedAt = (field, p) => field.allies.some(a => Math.abs(a.x - p.x) + Math.abs(a.y - p.y) <= 1);
     const walkable = (field, p) => p.x >= 0 && p.x < cols && p.y >= 0 && p.y < rows && !field.walls.some(w => same(w, p));
-    const initial = field => ({x: 0, y: 4, turn: 0, carrying: false, defenders: field.rushers.map(r => ({...r}))});
+    const initial = field => ({x: startColumn, y: centerRow, turn: 0, carrying: false, defenders: field.rushers.map(r => ({...r}))});
     // One distance map per chase wave. Defenders navigate around rival blockers;
     // friendly protection stops their advance instead of acting as a tackle shield.
     const distanceCaches = new WeakMap();
@@ -60,7 +67,7 @@
         const next = {...p, turn: state.turn + 1, carrying: state.carrying || same(p, field.ball)};
         if (occupied !== -1) return {...next, defenders, caught: true, captor: occupied, tackleReason: 'contact'};
         // Crossing the goal line ends the play before the defense gets another turn.
-        if (p.x === cols - 1 && next.carrying) return {...next, defenders};
+        if (p.x >= goalColumn && next.carrying) return {...next, defenders};
         const result = chase(field, state, p, next.turn);
         return {...next, defenders: result.defenders, caught: result.captor !== -1, captor: result.captor, tackleReason: result.captor !== -1 ? 'chase' : null};
     }
@@ -69,11 +76,11 @@
     function preview(field, state) {
         return moves.map(([dx, dy]) => {
             const next = step(field, state, dx, dy);
-            const outcome = !next ? 'blocked' : next.caught ? 'tackle' : next.x === cols - 1 && next.carrying ? 'touchdown' : next.turn >= field.budget ? 'expired' : protectedAt(field, next) ? 'protected' : 'safe';
+            const outcome = !next ? 'blocked' : next.caught ? 'tackle' : next.x >= goalColumn && next.carrying ? 'touchdown' : next.turn >= field.budget ? 'expired' : protectedAt(field, next) ? 'protected' : 'safe';
             return {dx, dy, x: state.x + dx, y: state.y + dy, outcome};
         });
     }
-    const remaining = (field, s) => s.carrying ? cols - 1 - s.x : Math.abs(s.x - field.ball.x) + Math.abs(s.y - field.ball.y) + cols - 1 - field.ball.x;
+    const remaining = (field, s) => s.carrying ? Math.max(0, goalColumn - s.x) : Math.abs(s.x - field.ball.x) + Math.abs(s.y - field.ball.y) + goalColumn - field.ball.x;
     // A* searches the actual positions of every pursuer, possession, and burst
     // cadence. The admissible distance estimate preserves shortest-route par.
     function solve(field, start = initial(field), limit = 16000, maxTurns = 65) {
@@ -109,7 +116,7 @@
         for (let expanded = 0; heap.length && expanded < limit; expanded++) {
             const node = pop(), s = node.state;
             if (s.turn !== costs.get(key(s))) continue;
-            if (s.x === cols - 1 && s.carrying) {
+            if (s.x >= goalColumn && s.carrying) {
                 const route = [];
                 for (let n = node; n.parent; n = n.parent) route.push(n.move);
                 return route.reverse();
@@ -140,11 +147,11 @@
         const integer = (min, max) => min + Math.floor(rng() * (max - min + 1));
         const pressure = Math.min(12, level);
         for (let attempt = 0; attempt < 16; attempt++) {
-            const field = {level, seed, burstEvery: Math.max(4, 8 - Math.floor(pressure / 3)), walls: [], rushers: [], allies: [], ball: {x: integer(9, 13), y: integer(1, 7)}};
+            const field = {level, seed, burstEvery: Math.max(4, 8 - Math.floor(pressure / 3)), walls: [], rushers: [], allies: [], ball: {x: integer(11, 16), y: integer(1, rows - 2)}};
             const occupied = p => same(p, field.ball) || field.walls.some(w => same(w, p)) || field.allies.some(a => same(a, p)) || field.rushers.some(r => same(r, p));
-            for (const [left, right] of [[4, 7], [10, 14]]) {
+            for (const [left, right] of [[5, 9], [13, 18]]) {
                 let p;
-                do { p = {x: integer(left, right), y: integer(1, 7)}; } while (occupied(p));
+                do { p = {x: integer(left, right), y: integer(1, rows - 2)}; } while (occupied(p));
                 field.allies.push(p);
             }
             // A trailing chaser forces forward progress; upfield defenders cut
@@ -152,11 +159,11 @@
             field.rushers.push({x: 0, y: integer(0, 1)});
             for (let i = 0; i < 1 + Math.floor(pressure / 4); i++) {
                 let p;
-                do { p = {x: integer(9, 17), y: integer(0, 8)}; } while (occupied(p) || protectedAt(field, p));
+                do { p = {x: integer(11, goalColumn - 1), y: integer(0, rows - 1)}; } while (occupied(p) || protectedAt(field, p));
                 field.rushers.push(p);
             }
             while (field.walls.length < 6 + pressure) {
-                const p = {x: integer(2, 17), y: integer(0, 8)};
+                const p = {x: integer(endzoneCols + 1, goalColumn - 1), y: integer(0, rows - 1)};
                 if (!occupied(p)) field.walls.push(p);
             }
             const solution = solve(field);
@@ -167,8 +174,15 @@
                 return field;
             }
         }
-        // Bounded fallback: a straight sprint outruns these trailing defenders.
-        const field = {level, seed, burstEvery: 8, walls: [], rushers: [{x: 0, y: 0}, {x: 0, y: 8}], allies: [{x: 5, y: 3}, {x: 12, y: 5}], ball: {x: 10, y: 4}};
+        return fallbackField(level, seed);
+    }
+    function fallbackField(level, seed) {
+        const pressure = Math.min(12, level);
+        // A finite family of verified layouts provides a route without dropping the level's
+        // defender count, burst cadence, blocker count, or step allowance.
+        const field = {level, seed, burstEvery: Math.max(4, 8 - Math.floor(pressure / 3)), walls: [], rushers: [{x: 0, y: 0}, {x: 0, y: rows - 1}], allies: [{x: 7, y: centerRow}, {x: 16, y: centerRow}], ball: {x: 13, y: centerRow}};
+        for (let i = 2; i < 2 + Math.floor(pressure / 4); i++) field.rushers.push({x: i - 1, y: i % 2 ? rows - 1 : 0});
+        for (let i = 0; i < 6 + pressure; i++) field.walls.push({x: 4 + i, y: i % 2 ? 0 : rows - 1});
         field.solution = solve(field);
         field.par = field.solution.length;
         field.budget = field.par + Math.max(2, 6 - Math.floor(level / 2));
@@ -183,7 +197,7 @@
         const queue = [{...from, route: []}], seen = new Set([`${from.x},${from.y}`]);
         for (let i = 0; i < queue.length; i++) {
             const p = queue[i];
-            if (target ? same(p, target) : p.x === 0) return [{x: from.x, y: from.y}, ...p.route];
+            if (target ? same(p, target) : p.x < endzoneCols) return [{x: from.x, y: from.y}, ...p.route];
             for (const [dx, dy] of [[-1, 0], [0, -1], [0, 1], [1, 0]]) {
                 const n = {x: p.x + dx, y: p.y + dy}, key = `${n.x},${n.y}`;
                 if (!walkable(field, n) || seen.has(key)) continue;
@@ -192,5 +206,5 @@
         }
         return [{x: from.x, y: from.y}];
     }
-    globalThis.TouchdownRules = {cols, rows, moves, same, protectedAt, walkable, initial, chase, step, preview, solve, generate, rating, returnRoute};
+    globalThis.TouchdownRules = {cols, rows, endzoneCols, fieldCols, goalColumn, startColumn, centerRow, layout, moves, same, protectedAt, walkable, initial, chase, step, preview, solve, generate, fallbackField, rating, returnRoute};
 })();

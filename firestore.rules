@@ -7,8 +7,8 @@ service cloud.firestore {
         function validName(name) {
             return name is string && name.matches('^[A-Za-z0-9][A-Za-z0-9 _-]{0,18}[A-Za-z0-9]$');
         }
-        function normalized(value, target) {
-            return value >= target ? 100 : int(value * 100 / target);
+        function normalized(value, target, maximum) {
+            return value >= target ? maximum : int(math.floor(value * maximum * 1.0 / target + 0.5));
         }
         match /leagueFans/{entryId} {
             function ownsEntry() {
@@ -18,44 +18,34 @@ service cloud.firestore {
             }
             function validRecords(records) {
                 return records is map
-                    && records.keys().hasAll(['game', 'bird', 'search', 'kick', 'pocket', 'shove', 'recall', 'punt', 'blitz', 'signal'])
-                    && records.keys().hasOnly(['game', 'bird', 'search', 'kick', 'pocket', 'shove', 'recall', 'punt', 'blitz', 'signal'])
+                    && records.keys().hasAll(['game', 'bird', 'search', 'kick', 'pocket'])
+                    && records.keys().hasOnly(['game', 'bird', 'search', 'kick', 'pocket'])
                     && records.game is int && records.game >= 0 && records.game <= 1000000
                     && records.bird is int && records.bird >= 0 && records.bird <= 1000000
                     && records.search is int && records.search >= 0 && records.search <= 1000000
                     && records.kick is int && records.kick >= 0 && records.kick <= 1000000
-                    && records.pocket is int && records.pocket >= 0 && records.pocket <= 1000000
-                    && records.shove is int && records.shove >= 0 && records.shove <= 1000000
-                    && records.recall is int && records.recall >= 0 && records.recall <= 1000000
-                    && records.punt is int && records.punt >= 0 && records.punt <= 1000000
-                    && records.blitz is int && records.blitz >= 0 && records.blitz <= 1000000
-                    && records.signal is int && records.signal >= 0 && records.signal <= 1000000
-                    ;
+                    && records.pocket is int && records.pocket >= 0 && records.pocket <= 1000000;
             }
-            function validScores(scores, records) {
+            function validScores(scores, records, clicks) {
                 return scores is map
-                    && scores.keys().hasAll(['game', 'bird', 'search', 'kick', 'pocket', 'shove', 'recall', 'punt', 'blitz', 'signal'])
-                    && scores.keys().hasOnly(['game', 'bird', 'search', 'kick', 'pocket', 'shove', 'recall', 'punt', 'blitz', 'signal'])
-                    && scores.game is int && scores.game == normalized(records.game, 5)
-                    && scores.bird is int && scores.bird == normalized(records.bird, 20)
-                    && scores.search is int && scores.search == normalized(records.search, 5)
-                    && scores.kick is int && scores.kick == normalized(records.kick, 15)
-                    && scores.pocket is int && scores.pocket == normalized(records.pocket, 10)
-                    && scores.shove is int && scores.shove == normalized(records.shove, 5)
-                    && scores.recall is int && scores.recall == normalized(records.recall, 8)
-                    && scores.punt is int && scores.punt == normalized(records.punt, 500)
-                    && scores.blitz is int && scores.blitz == normalized(records.blitz, 3)
-                    && scores.signal is int && scores.signal == normalized(records.signal, 1)
-                    ;
+                    && scores.keys().hasAll(['game', 'bird', 'search', 'kick', 'pocket', 'scoreboard'])
+                    && scores.keys().hasOnly(['game', 'bird', 'search', 'kick', 'pocket', 'scoreboard'])
+                    && scores.game is int && scores.game == normalized(records.game, 10, 200)
+                    && scores.bird is int && scores.bird == normalized(records.bird, 25, 200)
+                    && scores.search is int && scores.search == normalized(records.search, 5, 100)
+                    && scores.kick is int && scores.kick == normalized(records.kick, 15, 100)
+                    && scores.pocket is int && scores.pocket == normalized(records.pocket, 18, 200)
+                    && scores.scoreboard is int && scores.scoreboard == normalized(clicks, 1400, 200);
             }
             function validEntry() {
                 let entry = request.resource.data;
-                return entry.keys().hasAll(['uid', 'teamId', 'nickname', 'scores', 'records', 'points', 'clicks', 'updatedAt'])
-                    && entry.keys().hasOnly(['uid', 'teamId', 'nickname', 'scores', 'records', 'points', 'clicks', 'updatedAt'])
+                return entry.keys().hasAll(['uid', 'teamId', 'nickname', 'scores', 'records', 'points', 'clicks', 'updatedAt', 'scoringVersion'])
+                    && entry.keys().hasOnly(['uid', 'teamId', 'nickname', 'scores', 'records', 'points', 'clicks', 'updatedAt', 'scoringVersion'])
+                    && entry.scoringVersion == 2
                     && validTeam(entry.teamId) && validName(entry.nickname)
-                    && validRecords(entry.records) && validScores(entry.scores, entry.records)
-                    && entry.points is int && entry.points == entry.scores.game + entry.scores.bird + entry.scores.search + entry.scores.kick + entry.scores.pocket + entry.scores.shove + entry.scores.recall + entry.scores.punt + entry.scores.blitz + entry.scores.signal
                     && entry.clicks is int && entry.clicks >= 0 && entry.clicks <= 9007199254740991
+                    && validRecords(entry.records) && validScores(entry.scores, entry.records, entry.clicks)
+                    && entry.points is int && entry.points == entry.scores.game + entry.scores.bird + entry.scores.search + entry.scores.kick + entry.scores.pocket + entry.scores.scoreboard
                     && entry.updatedAt == request.time;
             }
             function nondecreasing() {
@@ -63,17 +53,12 @@ service cloud.firestore {
                 let after = request.resource.data;
                 return after.uid == before.uid && after.teamId == before.teamId
                     && after.clicks >= before.clicks
-                    && after.records.game >= before.records.game
                     && after.records.bird >= before.records.bird
                     && after.records.search >= before.records.search
                     && after.records.kick >= before.records.kick
-                    && after.records.pocket >= before.records.pocket
-                    && after.records.shove >= before.records.shove
-                    && after.records.recall >= before.records.recall
-                    && after.records.punt >= before.records.punt
-                    && after.records.blitz >= before.records.blitz
-                    && after.records.signal >= before.records.signal
-                    ;
+                    && (before.get('scoringVersion', 1) != 2 ||
+                        (after.records.game >= before.records.game
+                            && after.records.pocket >= before.records.pocket));
             }
             allow list: if request.query.limit != null && request.query.limit <= 25;
             allow get: if request.auth != null && entryId in [request.auth.uid + '_eagles', request.auth.uid + '_cowboys', request.auth.uid + '_giants', request.auth.uid + '_commanders', request.auth.uid + '_bears', request.auth.uid + '_lions', request.auth.uid + '_packers', request.auth.uid + '_vikings', request.auth.uid + '_falcons', request.auth.uid + '_panthers', request.auth.uid + '_saints', request.auth.uid + '_buccaneers', request.auth.uid + '_cardinals', request.auth.uid + '_rams', request.auth.uid + '_49ers', request.auth.uid + '_seahawks', request.auth.uid + '_bills', request.auth.uid + '_dolphins', request.auth.uid + '_patriots', request.auth.uid + '_jets', request.auth.uid + '_ravens', request.auth.uid + '_bengals', request.auth.uid + '_browns', request.auth.uid + '_steelers', request.auth.uid + '_texans', request.auth.uid + '_colts', request.auth.uid + '_jaguars', request.auth.uid + '_titans', request.auth.uid + '_broncos', request.auth.uid + '_chiefs', request.auth.uid + '_raiders', request.auth.uid + '_chargers'];

@@ -3,6 +3,8 @@ class Game {
         this.canvas = document.getElementById('gameCanvas');
         this.ctx = this.canvas.getContext('2d');
         this.rules = window.TouchdownRules;
+        this.canvas.width = this.rules.layout.width;
+        this.canvas.height = this.rules.layout.height;
         this.api = window.teamArcade;
         this.rival = this.api.teams.find(t => t.id === this.api.rivalFor());
         window.playerMotion.preload(window.teamArcade.team.id).catch(() => {});
@@ -18,7 +20,7 @@ class Game {
         document.getElementById('rush-matchup').textContent = `${this.api.team.short} vs ${this.rival.short}`;
         document.getElementById('rush-runner').textContent = `${this.api.personality.runner.name} · #${this.api.personality.runner.number}`;
         document.getElementById('rush-rival').textContent = `${this.rival.nickname} defense`;
-        this.canvas.setAttribute('aria-label', `${this.api.personality.runner.name} against the ${this.rival.nickname}. Horizontal football field. Collect the ball, then reach the right end zone.`);
+        this.canvas.setAttribute('aria-label', `${this.api.personality.runner.name} against the ${this.rival.nickname}. 100-yard field with two 10-yard end zones. Collect the ball, then reach the right end zone.`);
         document.getElementById('restart-game').addEventListener('click', () => this.load());
         document.getElementById('rush-action').addEventListener('click', () => this.action());
         document.getElementById('rush-wait').addEventListener('click', () => this.move(0, 0));
@@ -128,7 +130,7 @@ class Game {
             this.lose(next.tackleReason === 'contact' ? 'You stepped onto a chaser’s tile.' : next.turn % this.field.burstEvery === 0 ? 'A chaser reached your tile on a two-move burst.' : 'A chaser reached your tile after your move.');
         } else {
             this.player = next;
-            if (next.x === this.rules.cols - 1 && next.carrying) this.win();
+            if (next.x >= this.rules.goalColumn && next.carrying) this.win();
             else if (next.turn >= this.field.budget) {
                 this.lose('Out of steps: the drive ended and possession changes.', true);
             } else if (!wasCarrying && next.carrying) this.message('Football secured! Carry it into the right end zone.');
@@ -212,7 +214,7 @@ class Game {
     focusRunner(p = this.player) {
         const wrap = document.querySelector('.rush-field-wrap');
         if (!wrap || wrap.scrollWidth <= wrap.clientWidth) return;
-        const scale = this.canvas.clientWidth / 1064;
+        const scale = this.canvas.clientWidth / this.rules.layout.width;
         wrap.scrollLeft = this.point(p).x * scale - wrap.clientWidth * 0.4;
     }
     lose(reason, expired = false) {
@@ -269,12 +271,16 @@ class Game {
         };
         tick();
     }
-    point(p) { return {x: 38 + (p.x + 0.5) * 52, y: 42 + (p.y + 0.5) * 52}; }
+    point(p) {
+        const {left, top, cellWidth, cellHeight} = this.rules.layout;
+        return {x: left + (p.x + 0.5) * cellWidth, y: top + (p.y + 0.5) * cellHeight};
+    }
     tile(p, color, inset = 4) {
         const c = this.point(p);
         this.ctx.fillStyle = color;
         this.ctx.beginPath();
-        this.ctx.roundRect(c.x - 26 + inset, c.y - 26 + inset, 52 - inset * 2, 52 - inset * 2, 7);
+        const {cellWidth, cellHeight} = this.rules.layout;
+        this.ctx.roundRect(c.x - cellWidth / 2 + inset, c.y - cellHeight / 2 + inset, cellWidth - inset * 2, cellHeight - inset * 2, 7);
         this.ctx.fill();
     }
     drawPlayer(p, team, role, kind, flip = false) {
@@ -304,16 +310,23 @@ class Game {
     redraw() {
         if (!this.field) return;
         const ctx = this.ctx;
-        const {cols, rows} = this.rules;
-        ctx.clearRect(0, 0, 1064, 552);
-        ctx.fillStyle = '#102c31'; ctx.fillRect(0, 0, 1064, 552);
+        const {cols, rows, endzoneCols, fieldCols, goalColumn, layout} = this.rules;
+        const {width, height, left, top, cellWidth, cellHeight} = layout;
+        const fieldHeight = rows * cellHeight;
+        const goalLeft = left + endzoneCols * cellWidth;
+        const goalRight = left + goalColumn * cellWidth;
+        ctx.clearRect(0, 0, width, height);
+        ctx.fillStyle = '#102c31'; ctx.fillRect(0, 0, width, height);
         ctx.fillStyle = '#e5efeb'; ctx.font = '700 13px Arial'; ctx.textAlign = 'left';
         ctx.fillText(`${this.api.team.city.toUpperCase()} · HOME FIELD`, 40, 26);
-        ctx.textAlign = 'right'; ctx.fillStyle = '#a9c7bd'; ctx.fillText('COLLECT · DODGE · SCORE', 1024, 26);
-        for (let x = 0; x < cols; x++) {
-            ctx.fillStyle = x === 0 ? this.rival.primary : x === cols - 1 ? this.api.team.primary : x % 2 ? '#267c56' : '#23724f';
-            ctx.fillRect(38 + x * 52, 42, 52, rows * 52);
+        ctx.textAlign = 'right'; ctx.fillStyle = '#a9c7bd'; ctx.fillText('100 YARDS · COLLECT · DODGE · SCORE', width - left, 26);
+        for (let x = endzoneCols; x < goalColumn; x++) {
+            ctx.fillStyle = x % 2 ? '#267c56' : '#23724f';
+            ctx.fillRect(left + x * cellWidth, top, cellWidth, fieldHeight);
         }
+        // Read both wordmarks from midfield, with their bottoms toward the field.
+        footballField.endzone(ctx, left, top, endzoneCols * cellWidth, fieldHeight, this.rival, 'left', Math.PI);
+        footballField.endzone(ctx, goalRight, top, endzoneCols * cellWidth, fieldHeight, this.api.team, 'right', Math.PI);
         for (let y = 0; y < rows; y++) for (let x = 0; x < cols; x++) {
             const p = {x, y};
             if (!this.rules.protectedAt(this.field, p) || !this.rules.walkable(this.field, p)) continue;
@@ -325,22 +338,39 @@ class Game {
             ctx.fillText('+', c.x - 20, c.y - 9);
         }
         ctx.lineWidth = 1;
-        for (let x = 1; x < cols; x++) {
-            ctx.strokeStyle = x % 2 ? '#eafff340' : '#eafff380';
-            ctx.beginPath(); ctx.moveTo(38 + x * 52, 42); ctx.lineTo(38 + x * 52, 510); ctx.stroke();
+        for (let x = endzoneCols; x <= goalColumn; x++) {
+            ctx.strokeStyle = '#eafff3c0';
+            ctx.lineWidth = x === endzoneCols || x === goalColumn ? 3 : 1.5;
+            ctx.beginPath(); ctx.moveTo(left + x * cellWidth, top); ctx.lineTo(left + x * cellWidth, top + fieldHeight); ctx.stroke();
         }
         for (let y = 1; y < rows; y++) {
             ctx.strokeStyle = '#ffffff14';
-            ctx.beginPath(); ctx.moveTo(38, 42 + y * 52); ctx.lineTo(1026, 42 + y * 52); ctx.stroke();
+            ctx.lineWidth = 1;
+            ctx.beginPath(); ctx.moveTo(goalLeft, top + y * cellHeight); ctx.lineTo(goalRight, top + y * cellHeight); ctx.stroke();
         }
-        for (let x = 2; x < cols - 1; x += 2) {
-            const yard = Math.min(x, 18 - x) * 5;
+        // NFL hashes: 70 ft 9 in from each sideline, 2 ft long, every yard.
+        // Keep their physical spacing separate from the arcade movement grid.
+        const pixelsPerYard = fieldCols * cellWidth / 100;
+        const hashInset = (70.75 / 3) * pixelsPerYard;
+        const hashLength = (2 / 3) * pixelsPerYard;
+        ctx.strokeStyle = '#f1fff0c0'; ctx.lineWidth = Math.max(1, pixelsPerYard / 9);
+        for (let yard = 1; yard < 100; yard++) {
+            if (yard % 5 === 0) continue;
+            const x = goalLeft + yard * pixelsPerYard;
+            for (const y of [top, top + hashInset - hashLength, top + fieldHeight - hashInset, top + fieldHeight - hashLength]) {
+                ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, y + hashLength); ctx.stroke();
+            }
+        }
+        for (let yard = 10; yard < 100; yard += 10) {
+            const x = goalLeft + yard * pixelsPerYard;
+            const number = Math.min(yard, 100 - yard);
             ctx.fillStyle = '#eafff36b'; ctx.font = '700 18px Arial'; ctx.textAlign = 'center';
-            ctx.fillText(String(yard), 38 + x * 52, 67);
-            ctx.fillText(String(yard), 38 + x * 52, 496);
+            ctx.save(); ctx.translate(x, top + 28); ctx.rotate(Math.PI);
+            ctx.fillText(String(number), 0, 0); ctx.restore();
+            ctx.fillText(String(number), x, top + fieldHeight - 28);
         }
-        ctx.save(); ctx.translate(1010, 276); ctx.rotate(-Math.PI / 2);
-        ctx.fillStyle = '#ffffffbb'; ctx.font = 'italic 900 21px Arial'; ctx.fillText('TOUCHDOWN', 0, 0); ctx.restore();
+        ctx.strokeStyle = '#f2f4e8'; ctx.lineWidth = 3;
+        ctx.strokeRect(left, top, cols * cellWidth, fieldHeight);
         if (['playing', 'ready', 'paused'].includes(this.phase)) {
             for (const p of this.forecast || []) {
                 if (p.outcome === 'blocked' || p.dx === 0 && p.dy === 0) continue;
@@ -375,7 +405,7 @@ class Game {
         if (!this.player.carrying && !this.turnover?.captured) {
             const c = this.point(this.field.ball);
             ctx.fillStyle = '#ffe7a1'; ctx.beginPath(); ctx.arc(c.x, c.y, 21, 0, Math.PI * 2); ctx.fill();
-            footballArt.draw(ctx, c.x, c.y, footballArt.gameplayWidth, -0.4);
+            footballArt.draw(ctx, c.x, c.y, 32, -0.4);
         }
         const runner = this.previous ? lerp(this.previous, this.player) : this.player;
         ctx.save();
@@ -395,14 +425,13 @@ class Game {
             const age = (performance.now() - this.celebrationAt) / 1400;
             if (age < 1) for (let i = 0; i < 45; i++) {
                 ctx.fillStyle = [this.api.team.secondary, '#ffdb64', '#fff'][i % 3];
-                const x = (i * 137 + age * 90) % 1064, y = -40 + age * (500 + i % 6 * 50);
+                const x = (i * 137 + age * 90) % width, y = -40 + age * (height + i % 6 * 50);
                 ctx.save(); ctx.translate(x, y); ctx.rotate(age * 8 + i); ctx.fillRect(-3, -3, 6, 11); ctx.restore();
             }
         }
-        ctx.strokeStyle = '#e2f6e6'; ctx.lineWidth = 3; ctx.strokeRect(38, 42, 988, 468);
         ctx.fillStyle = '#aecbc0'; ctx.font = '13px Arial'; ctx.textAlign = 'left';
-        ctx.fillText('✓ SAFE THIS TURN · × TACKLE · + SHIELDED', 40, 535);
-        ctx.textAlign = 'right'; ctx.fillText(`DEFENDERS CHASE · BURST EVERY ${this.field.burstEvery} STEPS`, 1024, 535);
+        ctx.fillText('✓ SAFE THIS TURN · × TACKLE · + SHIELDED', left, height - 14);
+        ctx.textAlign = 'right'; ctx.fillText(`DEFENDERS CHASE · BURST EVERY ${this.field.burstEvery} STEPS`, width - left, height - 14);
     }
 }
 

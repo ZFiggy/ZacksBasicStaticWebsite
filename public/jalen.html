@@ -21,10 +21,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="teams.css">
     <link rel="stylesheet" href="game-screen.css">
+    <link rel="stylesheet" href="search-flight.css">
     <script defer src="scripts/jalen.js"></script>
     <script defer src="scripts/game-screen.js"></script>
+    <link rel="stylesheet" href="game-view.css">
+    <script defer src="scripts/game-view.js"></script>
 </head>
-<body class="game-page">
+<body class="game-page search-page">
     <a class="skip-link" href="#main-content">Skip to content</a>
     <noscript><p class="script-notice">Turn on JavaScript to play the games, save scores, and view your fan locker. You can still explore the <a href="games.html">game lineup</a>.</p></noscript>
     <div class="site-shell">
@@ -35,13 +38,13 @@
                 <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Dark mode</button>
             </div>
         </header>
-        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html">Touchdown Rush</a><a href="kick.html">Field Goals</a><a href="jalen.html" aria-current="page">Where’s Jalen?</a><a href="barkley.html">Barkley Bird</a><a href="games.html">All 9 games</a></div>
+        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html">Touchdown Rush</a><a href="kick.html">Field Goals</a><a href="jalen.html" aria-current="page">Where’s Jalen?</a><a href="barkley.html">Barkley Bird</a><a href="games.html">All games</a></div>
         <main id="main-content" tabindex="-1" class="search-game">
-            <div class="search-heading"><div><p class="eyebrow">Five harder photos. No easy giveaways.</p><h1>WHERE’S <span>JALEN?</span></h1><p>Find Jalen farther back in five real crowd photos. Natural expressions, changing outfits, and foreground cover make him harder to spot.</p></div><div class="jalen-reference"><img src="assets/jalen-reference.jpg" alt="Reference portrait of Jalen Hurts with a relaxed smile"><span>LOOK FOR HIS FACE · OUTFITS CHANGE</span></div></div>
+            <div class="search-heading"><div><p class="eyebrow">Five harder photos. No easy giveaways.</p><h1>WHERE’S <span>JALEN?</span></h1><p>Find Jalen farther back in five real crowd photos. Natural expressions, changing outfits, and foreground cover make him harder to spot.</p></div><div class="jalen-reference"><img src="assets/photo-search/real-players/eagles.png" alt="Reference portrait of Jalen Hurts"><span>Jalen Hurts</span></div></div>
             <ol class="photo-progress" id="photo-progress" aria-label="Photo progress"></ol>
-            <div class="search-toolbar"><div><strong id="search-level">Photo 1 / 5</strong><span id="search-scene"></span></div><div class="search-actions"><label for="search-zoom">Zoom</label><select id="search-zoom"><option value="1">1×</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="3">3×</option><option value="4">4×</option><option value="6">6×</option></select><button class="leaderboard-retry" id="search-hint" type="button">Clothing clue</button><button class="leaderboard-retry" id="search-reset" type="button">New game</button></div></div>
+            <div class="search-toolbar"><div><strong id="search-level">Photo 1 / 5</strong><span id="search-points">0 / 100 search points</span><span id="search-scene"></span></div><div class="search-actions"><label for="search-zoom">Zoom</label><select id="search-zoom"><option value="1">1×</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="3">3×</option><option value="4">4×</option><option value="6">6×</option></select><button class="leaderboard-retry" id="search-hint" type="button">Clothing clue</button><button class="leaderboard-retry" id="search-reset" type="button">New game</button></div></div>
             <p class="game-status" id="search-status" role="status">Find Jalen farther back in the crowd.</p>
-            <p class="photo-disclosure">Real Eagles fan photography · AI-edited to include Jalen for this game. <a href="https://www.philadelphiaeagles.com/photos/photos-thank-you-eagles-fans" target="_blank" rel="noopener noreferrer">Original photo gallery</a></p><button class="leaderboard-retry" id="search-retry" type="button" hidden>Retry photo</button>
+            <p class="photo-disclosure">Real crowd photos · AI-edited player. <a href="https://www.philadelphiaeagles.com/photos/photos-thank-you-eagles-fans" target="_blank" rel="noopener noreferrer">Original photo gallery</a> · <a href="https://www.espn.com/nfl/player/_/id/4040715/jalen-hurts" target="_blank" rel="noopener noreferrer">Player photo: ESPN</a></p><button class="leaderboard-retry" id="search-retry" type="button" hidden>Retry photo</button>
             <div class="search-viewport" id="search-viewport"><canvas id="searchCanvas" width="1100" height="720" tabindex="0" aria-label="Edited Eagles crowd photo. Find Jalen Hurts." aria-describedby="search-help search-status">A canvas-enabled browser is needed to play.</canvas></div>
             <div class="search-bottom"><p id="search-help">Tap or click Jalen. Zoom and scroll to inspect the photo. Keyboard: arrows move the crosshair; Shift makes fine adjustments; Enter checks your choice.</p><button class="button game-restart" id="search-next" type="button" disabled>Next level</button></div>
         </main>

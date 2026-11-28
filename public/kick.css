@@ -213,3 +213,6 @@
     .game-page.nfl-page.kick-page .kick-console { grid-column: 2; grid-row: 3; }
     .game-page.nfl-page.kick-page .game-surface { grid-column: 1; grid-row: 3; }
 }
+
+.kick-page .kick-history { flex-wrap: wrap; min-width: 0; }
+.kick-page .kick-history li { min-width: 0; }

@@ -109,7 +109,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/dolphins-head.png",
+        "referenceSrc": "assets/photo-search/real-players/dolphins.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4241479",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 10,
@@ -227,7 +227,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/jets-head.png",
+        "referenceSrc": "assets/photo-search/real-players/jets.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4569618",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -345,7 +345,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/steelers-head.png",
+        "referenceSrc": "assets/photo-search/real-players/steelers.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/3045282",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 10,
@@ -463,7 +463,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/patriots-head.png",
+        "referenceSrc": "assets/photo-search/real-players/patriots.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4431452",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -581,7 +581,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/broncos-head.png",
+        "referenceSrc": "assets/photo-search/real-players/broncos.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4426338",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -699,7 +699,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/bills-head.png",
+        "referenceSrc": "assets/photo-search/real-players/bills.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/3918298",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 10,
@@ -817,7 +817,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/ravens-head.png",
+        "referenceSrc": "assets/photo-search/real-players/ravens.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/3916387",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -935,7 +935,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/colts-head.png",
+        "referenceSrc": "assets/photo-search/real-players/colts.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4242335",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -1053,7 +1053,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/jaguars-head.png",
+        "referenceSrc": "assets/photo-search/real-players/jaguars.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4360310",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -1171,7 +1171,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/chiefs-head.png",
+        "referenceSrc": "assets/photo-search/real-players/chiefs.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/3139477",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -1289,7 +1289,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/raiders-head.png",
+        "referenceSrc": "assets/photo-search/real-players/raiders.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/3916655",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -1407,7 +1407,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/titans-head.png",
+        "referenceSrc": "assets/photo-search/real-players/titans.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/3043078",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -1525,7 +1525,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/chargers-head.png",
+        "referenceSrc": "assets/photo-search/real-players/chargers.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4038941",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 10,
@@ -1643,7 +1643,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/browns-head.png",
+        "referenceSrc": "assets/photo-search/real-players/browns.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/3122132",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -1761,7 +1761,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/texans-head.png",
+        "referenceSrc": "assets/photo-search/real-players/texans.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4432577",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -1879,7 +1879,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/bengals-head.png",
+        "referenceSrc": "assets/photo-search/real-players/bengals.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/3915511",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -1997,7 +1997,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/giants-head.png",
+        "referenceSrc": "assets/photo-search/real-players/giants.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4595348",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -2115,7 +2115,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/vikings-head.png",
+        "referenceSrc": "assets/photo-search/real-players/vikings.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4262921",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -2233,7 +2233,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/falcons-head.png",
+        "referenceSrc": "assets/photo-search/real-players/falcons.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4430807",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -2351,7 +2351,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/panthers-head.png",
+        "referenceSrc": "assets/photo-search/real-players/panthers.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4685720",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -2469,7 +2469,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/cowboys-head.png",
+        "referenceSrc": "assets/photo-search/real-players/cowboys.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/2577417",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -2587,7 +2587,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/packers-head.png",
+        "referenceSrc": "assets/photo-search/real-players/packers.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4036378",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -2705,7 +2705,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/49ers-head.png",
+        "referenceSrc": "assets/photo-search/real-players/49ers.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4361741",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 10,
@@ -2823,7 +2823,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/rams-head.png",
+        "referenceSrc": "assets/photo-search/real-players/rams.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4426515",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -2941,7 +2941,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/lions-head.png",
+        "referenceSrc": "assets/photo-search/real-players/lions.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/3046779",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -3059,7 +3059,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/cardinals-head.png",
+        "referenceSrc": "assets/photo-search/real-players/cardinals.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/3917315",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -3177,7 +3177,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/commanders-head.png",
+        "referenceSrc": "assets/photo-search/real-players/commanders.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4426348",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -3295,7 +3295,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/bears-head.png",
+        "referenceSrc": "assets/photo-search/real-players/bears.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4431611",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -3413,7 +3413,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/saints-head.png",
+        "referenceSrc": "assets/photo-search/real-players/saints.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4361370",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -3531,7 +3531,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/seahawks-head.png",
+        "referenceSrc": "assets/photo-search/real-players/seahawks.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/4047650",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,
@@ -3649,7 +3649,7 @@ window.NFL_PHOTO_SCENES = {
             }
         ],
         "disclosure": "Original real crowd photographs edited with AI to integrate the named player naturally. Fictional appearances for this fan game.",
-        "referenceSrc": "assets/photo-search/real-players/buccaneers-head.png",
+        "referenceSrc": "assets/photo-search/real-players/buccaneers.png",
         "referencePage": "https://www.espn.com/nfl/player/_/id/3052587",
         "referenceCredit": "ESPN / photographic player portrait",
         "version": 11,

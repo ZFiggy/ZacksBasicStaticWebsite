@@ -1,11 +1,14 @@
 import assert from 'node:assert/strict';
 import '../public/scripts/touchdown-rules.js';
 const r = globalThis.TouchdownRules;
-let count = 0, fallback = 0;
-for (const level of [1, 2, 3, 5, 8, 12, 13, 20, 50, 100, 1000]) {
+assert.equal(r.fieldCols, 20);
+assert.equal(r.endzoneCols, 2);
+assert.equal(r.cols, 24);
+assert.ok(Math.abs(r.layout.cellWidth * r.fieldCols / (r.layout.cellHeight * r.rows) - 100 / (160 / 3)) < 1e-10);
+let count = 0;
+for (const level of [1, 2, 3, 4, 5, 6, 8, 9, 11, 12, 13, 20, 50, 100, 1000, 1000000]) {
     for (let seed = 0; seed < 25; seed++) {
         const field = r.generate(level, seed);
-        if (!field.walls.length) fallback++;
         let state = r.initial(field);
         assert.ok(field.solution.length <= field.budget);
         assert.equal(field.solution.length, field.par);
@@ -13,13 +16,34 @@ for (const level of [1, 2, 3, 5, 8, 12, 13, 20, 50, 100, 1000]) {
             state = r.step(field, state, ...move);
             assert.ok(state && !state.caught, `Valid chase route: level ${level}, seed ${seed}`);
         }
-        assert.equal(state.x, r.cols - 1);
+        assert.equal(state.x, r.goalColumn);
         assert.equal(state.carrying, true);
-        assert.ok(field.rushers.length >= 2);
+        const pressure = Math.min(12, level);
+        assert.equal(field.rushers.length, 2 + Math.floor(pressure / 4));
+        assert.equal(field.walls.length, 6 + pressure);
+        assert.equal(field.burstEvery, Math.max(4, 8 - Math.floor(pressure / 3)));
+        assert.equal(field.budget - field.par, Math.max(2, 6 - Math.floor(level / 2)));
+        assert.ok(field.ball.x >= r.endzoneCols && field.ball.x < r.goalColumn);
+        for (const p of [...field.walls, ...field.allies, ...field.rushers]) assert.ok(r.walkable({...field, walls: []}, p));
         if (seed < 2) assert.deepEqual(r.generate(level, seed), field, 'Retries reproduce the same field');
         count++;
     }
 }
+// Exercise the bounded fallback directly, including the maximum pressure tier.
+for (const level of [1, 4, 8, 12, 1000000]) for (let seed = 0; seed < 100; seed++) {
+    const field = r.fallbackField(level, seed);
+    let state = r.initial(field);
+    for (const move of field.solution) {
+        state = r.step(field, state, ...move);
+        assert.ok(state && !state.caught, `Fallback remains beatable: level ${level}, seed ${seed}`);
+    }
+    assert.equal(state.x, r.goalColumn);
+    assert.equal(state.carrying, true);
+    assert.equal(field.walls.length, 6 + Math.min(12, level));
+    assert.equal(field.rushers.length, 2 + Math.floor(Math.min(12, level) / 4));
+    assert.ok(state.turn <= field.budget);
+}
+console.log('PASS 500 fallback routes retain level pressure and finish within the step budget.');
 const f = r.generate(1, 42);
 assert.equal(r.step(f, {...r.initial(f), x: 0, y: 0}, -1, 0), null);
 const simple = {walls: [], allies: [], rushers: [{x: 6, y: 1}], burstEvery: 6, ball: {x: 10, y: 4}};
@@ -31,14 +55,14 @@ assert.deepEqual(downward.defenders, [{x: 3, y: 2}], 'Chaser turns vertically to
 const burst = r.step(simple, {...state, turn: 5}, 1, 0);
 assert.deepEqual(burst.defenders, [{x: 4, y: 1}], 'Burst turn moves twice');
 const protectedField = {...simple, allies: [{x: 3, y: 4}], rushers: [{x: 3, y: 2}]};
-assert.equal(r.step(protectedField, {...r.initial(protectedField), x: 2}, 1, 0).caught, false);
+assert.equal(r.step(protectedField, {...r.initial(protectedField), x: 2, y: 4}, 1, 0).caught, false);
 const caught = r.step(simple, {...state, y: 4, defenders: [{x: 3, y: 4}]}, 1, 0);
 assert.equal(caught.caught, true);
 assert.equal(caught.captor, 0);
 const walls = {...simple, walls: [{x: 4, y: 2}, {x: 3, y: 3}]};
 assert.equal(r.step(walls, {...state, x: 3, y: 2}, 1, 0), null);
 const route = r.returnRoute(walls, {x: 12, y: 4});
-assert.equal(route.at(-1).x, 0);
+assert.equal(route.at(-1).x, r.startColumn);
 for (let i = 1; i < route.length; i++) {
     assert.ok(r.walkable(walls, route[i]));
     assert.equal(Math.abs(route[i].x-route[i-1].x)+Math.abs(route[i].y-route[i-1].y),1);
@@ -49,7 +73,7 @@ assert.equal(r.rating(f, f.par + 3).stars, 1);
 assert.equal(r.rating(f, f.par, 1).stars, 1);
 assert.equal(r.rating(f, f.par).points - r.rating(f, f.par + 1).points, 100);
 assert.equal(r.rating(f, f.par).points - r.rating(f, f.par, 1).points, 250);
-console.log(`PASS ${count} chase fields and winning routes (${fallback} fallbacks), pursuit in both axes, bursts, collision, protection, return paths, and efficiency rewards.`);
+console.log(`PASS ${count} chase fields and winning routes, pursuit in both axes, bursts, collision, protection, return paths, and efficiency rewards.`);
 const previewField = {walls: [{x: 4, y: 3}], allies: [], rushers: [{x: 6, y: 4}], burstEvery: 6, budget: 40, ball: {x: 12, y: 4}};
 const previewState = {...r.initial(previewField), x: 4, y: 4};
 const prediction = (field, state, dx, dy) => r.preview(field, state).find(p => p.dx === dx && p.dy === dy).outcome;
@@ -62,5 +86,5 @@ assert.equal(prediction({...previewField, allies: [{x: 5, y: 4}]}, {...previewSt
 assert.equal(r.protectedAt({...previewField, allies: [{x: 5, y: 4}]}, {x: 4, y: 3}), false, 'Diagonal tiles have no shield');
 assert.equal(r.step(previewField, {...previewState, defenders: [{x: 5, y: 4}]}, 1, 0).tackleReason, 'contact');
 assert.equal(r.step(previewField, previewState, 1, 0).tackleReason, 'chase');
-assert.equal(prediction(previewField, {...previewState, x: 17, carrying: true}, 1, 0), 'touchdown');
+assert.equal(prediction(previewField, {...previewState, x: r.goalColumn - 1, carrying: true}, 1, 0), 'touchdown');
 console.log('PASS exact next-move previews: contact, pursuit, bursts, adjacent safety, shields, blocked moves, touchdown, and clock expiration.');

@@ -26,10 +26,13 @@
     <link rel="stylesheet" href="game-screen.css">
     <link rel="stylesheet" href="touchdown.css">
     <script defer src="scripts/football-art.js"></script>
+    <script defer src="scripts/football-field.js"></script>
     <script defer src="scripts/team-art.js"></script>
     <script defer src="scripts/touchdown-rules.js"></script>
     <script defer src="scripts/game.js"></script>
     <script defer src="scripts/game-screen.js"></script>
+    <link rel="stylesheet" href="game-view.css">
+    <script defer src="scripts/game-view.js"></script>
     <link rel="stylesheet" href="game-demo.css">
     <script defer src="scripts/game-demo.js"></script>
 </head>
@@ -44,7 +47,7 @@
                 <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Dark mode</button>
             </div>
         </header>
-        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html" aria-current="page">Touchdown Rush</a><a href="playbook.html?game=pocket">Passing Drive</a><a href="kick.html">Field Goals</a><a href="jalen.html">Where’s Jalen?</a><a href="barkley.html">Barkley Bird</a><a href="games.html">All 9 games</a></div>
+        <div class="game-tabs" role="navigation" aria-label="Choose a minigame"><a href="game.html" aria-current="page">Touchdown Rush</a><a href="playbook.html?game=pocket">Passing Drive</a><a href="kick.html">Field Goals</a><a href="jalen.html">Where’s Jalen?</a><a href="barkley.html">Barkley Bird</a><a href="games.html">All games</a></div>
         <main id="main-content" tabindex="-1" class="game-layout rush-layout">
             <section class="game-story rush-story" aria-labelledby="game-title">
                 <div class="game-intro"><p class="eyebrow">FIELD RUN + BLITZ ESCAPE · REIMAGINED</p><h1 id="game-title">TOUCHDOWN RUSH</h1><p>Find the football. Read the rush. Take it all the way.</p></div>
@@ -69,7 +72,7 @@
                 </div>
                 <p class="rush-contact-rule" id="rush-contact-rule" role="status"></p>
                 <div class="rush-view-frame"><div class="rush-field-wrap">
-                    <canvas id="gameCanvas" width="1064" height="552" tabindex="0" aria-label="Horizontal football field" aria-describedby="game-instructions game-status">Use a browser that supports canvas to play Touchdown Rush.</canvas>
+                    <canvas id="gameCanvas" width="1324" height="639" tabindex="0" aria-label="100-yard football field with two 10-yard end zones" aria-describedby="game-instructions game-status">Use a browser that supports canvas to play Touchdown Rush.</canvas>
                     </div><div class="rush-overlay" id="rush-overlay"><strong id="rush-overlay-title">LEVEL 1</strong><span id="rush-overlay-copy"></span></div>
                 </div>
                 <div class="rush-toolbar"><div class="rush-legend"><span>+ Your shield: tile + four neighbors</span><span>■ Rival blocker: blocks movement</span><span>! Chaser: tackles on contact · <span id="rush-rival">Rival defense</span></span><span id="rush-burst">DEFENDERS CHASE</span></div><button id="rush-view" class="rush-view-toggle" type="button">Full field</button><button class="expand-game" data-expand-game type="button" hidden>Expand game</button></div>
